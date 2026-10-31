@@ -1,6 +1,6 @@
 {
   "benchmark": "aa-terminal-bench",
-  "fetched_at": "2026-10-29T07:58:55+00:00",
+  "fetched_at": "2026-10-31T14:37:39+00:00",
   "meta": {
     "url": "https://artificialanalysis.ai",
     "field": "terminalBench40",
@@ -13,7 +13,7 @@
       "model_raw": "Gemini 4 Argon (High)",
       "score": 57.071,
       "ci": null,
-      "effort": null,
+      "effort": "high",
       "org": "Google",
       "release_date": "2026-09-30",
       "notes": [
@@ -26,7 +26,7 @@
       "model_raw": "Gemini 3.5 Flash (High)",
       "score": 6.566,
       "ci": null,
-      "effort": null,
+      "effort": "high",
       "org": "Google",
       "release_date": "2026-05-19",
       "notes": [
@@ -65,7 +65,7 @@
       "model_raw": "Mercury 2",
       "score": 0,
       "ci": null,
-      "effort": null,
+      "effort": "high",
       "org": "Inception",
       "release_date": "2026-02-20",
       "notes": [
@@ -91,7 +91,7 @@
       "model_raw": "Muse Spark 1.2 (Xhigh)",
       "score": 7.071,
       "ci": null,
-      "effort": null,
+      "effort": "xhigh",
       "org": "Meta",
       "release_date": "2026-08-05",
       "notes": [
@@ -195,7 +195,7 @@
       "model_raw": "Gemini 3.5 Flash-Lite",
       "score": 1.01,
       "ci": null,
-      "effort": null,
+      "effort": "high",
       "org": "Google",
       "release_date": "2026-07-21",
       "notes": [
@@ -273,7 +273,7 @@
       "model_raw": "Inkling (Xhigh)",
       "score": 1.01,
       "ci": null,
-      "effort": null,
+      "effort": "xhigh",
       "org": "Thinking Machines",
       "release_date": "2026-07-15",
       "notes": [
@@ -403,7 +403,7 @@
       "model_raw": "GLM-5.3-Flash",
       "score": 32.828,
       "ci": null,
-      "effort": null,
+      "effort": "max",
       "org": "Z AI",
       "release_date": "2026-08-26",
       "notes": [
@@ -442,7 +442,7 @@
       "model_raw": "GPT-5.5 (Xhigh)",
       "score": 14.646,
       "ci": null,
-      "effort": null,
+      "effort": "xhigh",
       "org": "OpenAI",
       "release_date": "2026-04-23",
       "notes": [
@@ -533,7 +533,7 @@
       "model_raw": "Claude Sonnet 5 (Max)",
       "score": 14.141,
       "ci": null,
-      "effort": null,
+      "effort": "max",
       "org": "Anthropic",
       "release_date": "2026-06-30",
       "notes": [
@@ -646,11 +646,24 @@
     },
     {
       "benchmark": "aa-terminal-bench",
+      "model": "large-4-0",
+      "model_raw": "Mistral Large 4 (Medium)",
+      "score": 23.232,
+      "ci": null,
+      "effort": "medium",
+      "org": "Mistral",
+      "release_date": "2026-10-29",
+      "notes": [
+        "run by Artificial Analysis on their own harness"
+      ]
+    },
+    {
+      "benchmark": "aa-terminal-bench",
       "model": "gpt-5-mini",
       "model_raw": "GPT-5 mini (High)",
       "score": 0,
       "ci": null,
-      "effort": null,
+      "effort": "high",
       "org": "OpenAI",
       "release_date": "2025-08-07",
       "notes": [
@@ -728,7 +741,7 @@
       "model_raw": "GPT-6 Astra (Max)",
       "score": 59.091,
       "ci": null,
-      "effort": null,
+      "effort": "max",
       "org": "OpenAI",
       "release_date": "2026-09-03",
       "notes": [
@@ -741,7 +754,7 @@
       "model_raw": "Claude Opus 5.5 (Max, Default Fallback)",
       "score": 59.596,
       "ci": null,
-      "effort": null,
+      "effort": "max",
       "org": "Anthropic",
       "release_date": "2026-09-22",
       "notes": [
@@ -767,7 +780,7 @@
       "model_raw": "HyperNova 60B 2605 (High, Based on gpt-oss-120b)",
       "score": 0,
       "ci": null,
-      "effort": null,
+      "effort": "high",
       "org": "Multiverse Computing",
       "release_date": "2026-05-26",
       "notes": [
@@ -806,7 +819,7 @@
       "model_raw": "Muse Spark Open (Xhigh)",
       "score": 8.081,
       "ci": null,
-      "effort": null,
+      "effort": "xhigh",
       "org": "Meta",
       "release_date": "2026-10-15",
       "notes": [
@@ -832,7 +845,7 @@
       "model_raw": "gpt-oss-20b (High)",
       "score": 0,
       "ci": null,
-      "effort": null,
+      "effort": "high",
       "org": "OpenAI",
       "release_date": "2025-08-05",
       "notes": [
@@ -871,7 +884,7 @@
       "model_raw": "Claude Fable 5.1 (Max, Default Fallback)",
       "score": 52.02,
       "ci": null,
-      "effort": null,
+      "effort": "max",
       "org": "Anthropic",
       "release_date": "2026-09-01",
       "notes": [
@@ -910,7 +923,7 @@
       "model_raw": "GPT-5.6 Luna (Max)",
       "score": 11.616,
       "ci": null,
-      "effort": null,
+      "effort": "max",
       "org": "OpenAI",
       "release_date": "2026-07-09",
       "notes": [
@@ -1088,11 +1101,24 @@
     },
     {
       "benchmark": "aa-terminal-bench",
+      "model": "deepseek-v4-1-flash-1017",
+      "model_raw": "DeepSeek V4.1 Flash 1017 (Non-reasoning)",
+      "score": 9.091,
+      "ci": null,
+      "effort": null,
+      "org": "DeepSeek",
+      "release_date": "2026-10-17",
+      "notes": [
+        "run by Artificial Analysis on their own harness"
+      ]
+    },
+    {
+      "benchmark": "aa-terminal-bench",
       "model": "muse-glimmer",
       "model_raw": "Muse Glimmer (High)",
       "score": 0.505,
       "ci": null,
-      "effort": null,
+      "effort": "high",
       "org": "Meta",
       "release_date": "2026-08-10",
       "notes": [
@@ -1118,7 +1144,7 @@
       "model_raw": "Grok 4.7 (Xhigh)",
       "score": 25.758,
       "ci": null,
-      "effort": null,
+      "effort": "xhigh",
       "org": "SpaceXAI",
       "release_date": "2026-09-21",
       "notes": [
@@ -1131,7 +1157,7 @@
       "model_raw": "Gemini 3.1 Flash-Lite",
       "score": 0.505,
       "ci": null,
-      "effort": null,
+      "effort": "high",
       "org": "Google",
       "release_date": "2026-03-03",
       "notes": [
@@ -1274,7 +1300,7 @@
       "model_raw": "Kimi K3.1 Pro",
       "score": 67.172,
       "ci": null,
-      "effort": null,
+      "effort": "max",
       "org": "Kimi",
       "release_date": "2026-10-23",
       "notes": [
@@ -1365,7 +1391,7 @@
       "model_raw": "GPT-6 Luna (Max)",
       "score": 12.626,
       "ci": null,
-      "effort": null,
+      "effort": "max",
       "org": "OpenAI",
       "release_date": "2026-09-22",
       "notes": [
@@ -1482,7 +1508,7 @@
       "model_raw": "DeepSeek V4 Flash Vision (Max)",
       "score": 12.121,
       "ci": null,
-      "effort": null,
+      "effort": "max",
       "org": "DeepSeek",
       "release_date": "2026-08-21",
       "notes": [
@@ -1508,7 +1534,7 @@
       "model_raw": "Gemini 3.6 Flash (High)",
       "score": 7.071,
       "ci": null,
-      "effort": null,
+      "effort": "high",
       "org": "Google",
       "release_date": "2026-07-21",
       "notes": [
@@ -1521,7 +1547,7 @@
       "model_raw": "Grok 4.5 (High)",
       "score": 10.606,
       "ci": null,
-      "effort": null,
+      "effort": "high",
       "org": "SpaceXAI",
       "release_date": "2026-07-08",
       "notes": [
@@ -1534,7 +1560,7 @@
       "model_raw": "Claude Haiku 5.5 (Max)",
       "score": 32.828,
       "ci": null,
-      "effort": null,
+      "effort": "max",
       "org": "Anthropic",
       "release_date": "2026-10-07",
       "notes": [
@@ -1638,7 +1664,7 @@
       "model_raw": "DeepSeek V4 Pro 0813 (Max)",
       "score": 14.141,
       "ci": null,
-      "effort": null,
+      "effort": "max",
       "org": "DeepSeek",
       "release_date": "2026-08-13",
       "notes": [
@@ -1690,7 +1716,7 @@
       "model_raw": "Gemini 3.8 Flash (High)",
       "score": 19.697,
       "ci": null,
-      "effort": null,
+      "effort": "high",
       "org": "Google",
       "release_date": "2026-09-02",
       "notes": [
@@ -1755,7 +1781,7 @@
       "model_raw": "Gemini 4 Carbon (High)",
       "score": 65.152,
       "ci": null,
-      "effort": null,
+      "effort": "high",
       "org": "Google",
       "release_date": "2026-10-28",
       "notes": [
@@ -1807,7 +1833,7 @@
       "model_raw": "Grok 4.3 (High)",
       "score": 0,
       "ci": null,
-      "effort": null,
+      "effort": "high",
       "org": "SpaceXAI",
       "release_date": "2026-04-30",
       "notes": [
@@ -1846,7 +1872,7 @@
       "model_raw": "Claude Opus 4.8 (Max)",
       "score": 21.717,
       "ci": null,
-      "effort": null,
+      "effort": "max",
       "org": "Anthropic",
       "release_date": "2026-05-28",
       "notes": [
@@ -1859,7 +1885,7 @@
       "model_raw": "Muse Spark 1.3 (Max)",
       "score": 33.333,
       "ci": null,
-      "effort": null,
+      "effort": "max",
       "org": "Meta",
       "release_date": "2026-09-02",
       "notes": [
@@ -2119,7 +2145,7 @@
       "model_raw": "Qwen3.8 27B (Xhigh)",
       "score": 5.556,
       "ci": null,
-      "effort": null,
+      "effort": "xhigh",
       "org": "Alibaba",
       "release_date": "2026-08-14",
       "notes": [
@@ -2132,7 +2158,7 @@
       "model_raw": "GPT-6.1 Terra (Max)",
       "score": 55.556,
       "ci": null,
-      "effort": null,
+      "effort": "max",
       "org": "OpenAI",
       "release_date": "2026-10-26",
       "notes": [
@@ -2145,7 +2171,7 @@
       "model_raw": "Qwen3.8 Max (0902)",
       "score": 38.889,
       "ci": null,
-      "effort": "max",
+      "effort": "xhigh",
       "org": "Alibaba",
       "release_date": "2026-09-02",
       "notes": [
@@ -2171,7 +2197,7 @@
       "model_raw": "Claude Sonnet 5.5 (Max, Default Fallback)",
       "score": 63.636,
       "ci": null,
-      "effort": null,
+      "effort": "max",
       "org": "Anthropic",
       "release_date": "2026-09-28",
       "notes": [
@@ -2184,7 +2210,7 @@
       "model_raw": "Gemini 3.7 Flash (High)",
       "score": 13.636,
       "ci": null,
-      "effort": null,
+      "effort": "high",
       "org": "Google",
       "release_date": "2026-08-13",
       "notes": [
@@ -2210,7 +2236,7 @@
       "model_raw": "GPT-6.1 Sol (Max)",
       "score": 56.061,
       "ci": null,
-      "effort": null,
+      "effort": "max",
       "org": "OpenAI",
       "release_date": "2026-09-29",
       "notes": [
@@ -2236,7 +2262,7 @@
       "model_raw": "Solar Pro 3",
       "score": 0,
       "ci": null,
-      "effort": null,
+      "effort": "high",
       "org": "Upstage",
       "release_date": "2026-04-06",
       "notes": [
@@ -2249,7 +2275,7 @@
       "model_raw": "Claude Opus 5 (Max)",
       "score": 48.99,
       "ci": null,
-      "effort": null,
+      "effort": "max",
       "org": "Anthropic",
       "release_date": "2026-07-24",
       "notes": [
@@ -2275,7 +2301,7 @@
       "model_raw": "GPT-5.4 mini (Xhigh)",
       "score": 2.02,
       "ci": null,
-      "effort": null,
+      "effort": "xhigh",
       "org": "OpenAI",
       "release_date": "2026-03-17",
       "notes": [
@@ -2288,7 +2314,7 @@
       "model_raw": "K2 Horizon 375B A23B",
       "score": 1.515,
       "ci": null,
-      "effort": null,
+      "effort": "high",
       "org": "Institute of Foundation Models",
       "release_date": "2026-09-03",
       "notes": [
@@ -2327,7 +2353,7 @@
       "model_raw": "GPT-5.6 Terra (Max)",
       "score": 35.354,
       "ci": null,
-      "effort": null,
+      "effort": "max",
       "org": "OpenAI",
       "release_date": "2026-07-09",
       "notes": [
@@ -2340,7 +2366,7 @@
       "model_raw": "DeepSeek V4 Pro 0424 (Max)",
       "score": 14.646,
       "ci": null,
-      "effort": null,
+      "effort": "max",
       "org": "DeepSeek",
       "release_date": "2026-04-24",
       "notes": [
@@ -2405,7 +2431,7 @@
       "model_raw": "GPT-6 Sol (Max)",
       "score": 43.939,
       "ci": null,
-      "effort": null,
+      "effort": "max",
       "org": "OpenAI",
       "release_date": "2026-09-22",
       "notes": [
@@ -2418,7 +2444,7 @@
       "model_raw": "Grok 4.6 (High)",
       "score": 21.212,
       "ci": null,
-      "effort": null,
+      "effort": "high",
       "org": "SpaceXAI",
       "release_date": "2026-08-12",
       "notes": [
@@ -2483,7 +2509,7 @@
       "model_raw": "Claude Fable 5 (Max, Opus 4.8 Fallback)",
       "score": 42.424,
       "ci": null,
-      "effort": null,
+      "effort": "max",
       "org": "Anthropic",
       "release_date": "2026-06-09",
       "notes": [
@@ -2496,7 +2522,7 @@
       "model_raw": "GLM-5.3 (Max)",
       "score": 41.919,
       "ci": null,
-      "effort": null,
+      "effort": "max",
       "org": "Z AI",
       "release_date": "2026-08-18",
       "notes": [
@@ -2535,7 +2561,7 @@
       "model_raw": "MiniMax-M3.1-Flash",
       "score": 25.758,
       "ci": null,
-      "effort": null,
+      "effort": "max",
       "org": "MiniMax",
       "release_date": "2026-10-19",
       "notes": [
@@ -2561,7 +2587,7 @@
       "model_raw": "GPT-5.4 nano (Xhigh)",
       "score": 0.505,
       "ci": null,
-      "effort": null,
+      "effort": "xhigh",
       "org": "OpenAI",
       "release_date": "2026-03-17",
       "notes": [
@@ -2587,7 +2613,7 @@
       "model_raw": "Muse Spark 1.1 (Xhigh)",
       "score": 6.061,
       "ci": null,
-      "effort": null,
+      "effort": "xhigh",
       "org": "Meta",
       "release_date": "2026-07-09",
       "notes": [
@@ -2626,7 +2652,7 @@
       "model_raw": "DeepSeek V4 Flash 0420 (Max)",
       "score": 2.525,
       "ci": null,
-      "effort": null,
+      "effort": "max",
       "org": "DeepSeek",
       "release_date": "2026-04-24",
       "notes": [
@@ -2639,7 +2665,7 @@
       "model_raw": "GPT-5.6 Sol (Max)",
       "score": 39.899,
       "ci": null,
-      "effort": null,
+      "effort": "max",
       "org": "OpenAI",
       "release_date": "2026-07-09",
       "notes": [
@@ -2678,7 +2704,7 @@
       "model_raw": "DeepSeek V4.1 Flash (Max)",
       "score": 26.768,
       "ci": null,
-      "effort": null,
+      "effort": "max",
       "org": "DeepSeek",
       "release_date": "2026-09-10",
       "notes": [
@@ -2704,7 +2730,7 @@
       "model_raw": "Mistral Medium 3.5",
       "score": 0,
       "ci": null,
-      "effort": null,
+      "effort": "high",
       "org": "Mistral",
       "release_date": "2026-04-29",
       "notes": [
@@ -2730,7 +2756,7 @@
       "model_raw": "Claude Sonnet 4.6 (Max)",
       "score": 3.03,
       "ci": null,
-      "effort": null,
+      "effort": "max",
       "org": "Anthropic",
       "release_date": "2026-02-17",
       "notes": [
@@ -2756,7 +2782,7 @@
       "model_raw": "Nemotron 3.5 Super VL",
       "score": 0,
       "ci": null,
-      "effort": null,
+      "effort": "high",
       "org": "NVIDIA",
       "release_date": "2026-10-15",
       "notes": [
@@ -2821,7 +2847,7 @@
       "model_raw": "Muse Wonder Full (Max)",
       "score": 57.071,
       "ci": null,
-      "effort": null,
+      "effort": "max",
       "org": "Meta",
       "release_date": "2026-10-12",
       "notes": [
@@ -2837,6 +2863,19 @@
       "effort": "high",
       "org": "OpenAI",
       "release_date": "2026-10-26",
+      "notes": [
+        "run by Artificial Analysis on their own harness"
+      ]
+    },
+    {
+      "benchmark": "aa-terminal-bench",
+      "model": "large-4-0",
+      "model_raw": "Mistral Large 4 (High)",
+      "score": 24.747,
+      "ci": null,
+      "effort": "high",
+      "org": "Mistral",
+      "release_date": "2026-10-29",
       "notes": [
         "run by Artificial Analysis on their own harness"
       ]
@@ -2860,7 +2899,7 @@
       "model_raw": "Ring-2.6-1T",
       "score": 0.505,
       "ci": null,
-      "effort": null,
+      "effort": "xhigh",
       "org": "InclusionAI",
       "release_date": "2026-05-08",
       "notes": [
@@ -2886,7 +2925,7 @@
       "model_raw": "gpt-oss-120b (High)",
       "score": 0,
       "ci": null,
-      "effort": null,
+      "effort": "high",
       "org": "OpenAI",
       "release_date": "2025-08-05",
       "notes": [
@@ -2899,7 +2938,7 @@
       "model_raw": "DeepSeek V4.1 Flash 1017 (Max)",
       "score": 33.838,
       "ci": null,
-      "effort": null,
+      "effort": "max",
       "org": "DeepSeek",
       "release_date": "2026-10-17",
       "notes": [
@@ -2951,7 +2990,7 @@
       "model_raw": "GLM-5.2 (Max)",
       "score": 1.01,
       "ci": null,
-      "effort": null,
+      "effort": "max",
       "org": "Z AI",
       "release_date": "2026-06-16",
       "notes": [
@@ -2964,7 +3003,7 @@
       "model_raw": "Kimi K3 (Max)",
       "score": 12.626,
       "ci": null,
-      "effort": null,
+      "effort": "max",
       "org": "Kimi",
       "release_date": "2026-07-16",
       "notes": [
@@ -2977,7 +3016,7 @@
       "model_raw": "Quasar 438B (Max, Based on GLM-5.2)",
       "score": 1.01,
       "ci": null,
-      "effort": null,
+      "effort": "max",
       "org": "Multiverse Computing",
       "release_date": "2026-08-10",
       "notes": [
@@ -3003,7 +3042,7 @@
       "model_raw": "DeepSeek V4 Flash 0731 (Max)",
       "score": 12.121,
       "ci": null,
-      "effort": null,
+      "effort": "max",
       "org": "DeepSeek",
       "release_date": "2026-07-31",
       "notes": [
@@ -3016,7 +3055,7 @@
       "model_raw": "Muse Wonder (Max)",
       "score": 52.02,
       "ci": null,
-      "effort": null,
+      "effort": "max",
       "org": "Meta",
       "release_date": "2026-10-12",
       "notes": [

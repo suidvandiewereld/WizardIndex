@@ -25,7 +25,7 @@ body {
   margin: 0;
   padding: 20px 10px 30px;
   color: var(--ink);
-  font: 12px/1.6 Verdana, Geneva, sans-serif;
+  font: 15px/1.6 Verdana, Geneva, sans-serif;
   background: #e4e5ea;
 }
 
@@ -35,7 +35,7 @@ a:hover { color: var(--hover); }
 .visually-hidden { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); }
 
 #container {
-  max-width: 1020px;
+  max-width: 1200px;
   margin: 0 auto;
   background: #fff;
   border: 1px solid #b4b7c6;
@@ -57,9 +57,9 @@ a:hover { color: var(--hover); }
 .logo:visited, .logo:hover { color: #fff; }
 .logo img { flex: none; width: 78px; height: auto; margin: -4px 0 -6px; image-rendering: pixelated; }
 .logo-words { display: flex; flex-direction: column; gap: 2px; }
-.logo-text { font: bold 30px/1.1 Georgia, "Times New Roman", serif; letter-spacing: -0.5px; }
-.tagline { max-width: 400px; font-size: 11px; line-height: 1.5; color: #c8cae6; }
-.head-stats { flex: none; margin: 0; font-size: 11px; line-height: 1.7; color: #c8cae6; text-align: right; }
+.logo-text { font: bold 34px/1.1 Georgia, "Times New Roman", serif; letter-spacing: -0.5px; }
+.tagline { max-width: 400px; font-size: 14px; line-height: 1.5; color: #c8cae6; }
+.head-stats { flex: none; margin: 0; font-size: 14px; line-height: 1.7; color: #c8cae6; text-align: right; }
 .head-stats div { display: block; }
 .head-stats dt { display: inline; }
 .head-stats dt::after { content: ": "; }
@@ -72,7 +72,7 @@ a:hover { color: var(--hover); }
   margin: 0;
   padding: 6px 14px;
   list-style: none;
-  font-size: 11px;
+  font-size: 14px;
   background: var(--pale);
   border-bottom: 1px solid var(--line);
 }
@@ -81,25 +81,27 @@ a:hover { color: var(--hover); }
 #tabs .current a { font-weight: bold; color: var(--ink); text-decoration: none; }
 
 /* Layout */
-#body { display: grid; grid-template-columns: minmax(0, 1fr) 190px; gap: 20px; padding: 18px 20px 26px; }
+#body { display: grid; grid-template-columns: minmax(0, 1fr) 230px; gap: 20px; padding: 18px 20px 26px; }
 
-h2 {
+#main > h1, h2 {
   margin: 28px 0 8px;
   padding-bottom: 3px;
-  font: normal 20px/1.3 Georgia, "Times New Roman", serif;
+  font: normal 24px/1.3 Georgia, "Times New Roman", serif;
   color: var(--navy);
   border-bottom: 1px solid var(--line);
 }
-#main > h2:first-child { margin-top: 0; }
+#main > h1:first-child, #main > h2:first-child { margin-top: 0; }
 #main > p { max-width: 60em; }
-.byline { margin: 0 0 8px; font-size: 11px; color: var(--muted); }
+.byline { margin: 0 0 8px; font-size: 14px; color: var(--muted); }
 /* The index chart above the table: one bar per ranked model, two columns on a shared 0-100 scale */
-.index-chart { margin: 12px 0 4px; font-size: 11px; border: 1px solid var(--line); background: #fff; }
+.index-chart { margin: 12px 0 4px; font-size: 14px; border: 1px solid var(--line); background: #fff; }
 .index-chart:empty { display: none; }
+.jump-line { margin: 6px 0 0; font-size: 14px; color: var(--muted); }
+.finder { scroll-margin-top: 10px; }
 .index-chart h3 {
   margin: 0;
   padding: 3px 8px;
-  font: bold 11px Verdana, Geneva, sans-serif;
+  font: bold 14px Verdana, Geneva, sans-serif;
   color: #fff;
   background: var(--steel);
 }
@@ -121,21 +123,31 @@ h2 {
   border-right: 1px solid var(--line-soft);
 }
 .ic-track i { display: block; height: 100%; background: var(--bar); }
+/* Error bar over a partly estimated score: a hairline with end ticks, centred on the bar's end */
+.ic-track s {
+  position: absolute;
+  top: 50%;
+  height: 7px;
+  margin-top: -4px;
+  border: 1px solid var(--ink);
+  border-width: 0 1px;
+  background: linear-gradient(var(--ink), var(--ink)) center / 100% 1px no-repeat;
+}
 .ic-row:hover .ic-track i, .ic-row:focus .ic-track i { background: var(--navy); }
 .ic-score { text-align: right; color: var(--ink); font-variant-numeric: tabular-nums; }
 .ic-axis { height: 16px; padding: 0 2px; border-top: 1px solid var(--line-soft); margin-top: 2px; }
 .ic-ticks { grid-column: 3; position: relative; height: 100%; }
-.ic-ticks b { position: absolute; top: 2px; transform: translateX(-50%); font-weight: normal; font-size: 10px; color: var(--muted); }
+.ic-ticks b { position: absolute; top: 2px; transform: translateX(-50%); font-weight: normal; font-size: 13px; color: var(--muted); }
 
 /* "Which model for my job?": a plain form over a small bordered table */
 .finder fieldset { margin: 12px 0 8px; padding: 6px 10px 8px; border: 1px solid var(--line); background: #fff; }
-.finder legend { padding: 0 4px; font: bold 13px Georgia, "Times New Roman", serif; color: var(--navy); }
-.finder-ask { display: flex; flex-wrap: wrap; gap: 6px 14px; font-size: 12px; }
-.finder-ask select { max-width: 100%; font: 12px Verdana, Geneva, sans-serif; }
+.finder legend { padding: 0 4px; font: bold 16px Georgia, "Times New Roman", serif; color: var(--navy); }
+.finder-ask { display: flex; flex-wrap: wrap; gap: 6px 14px; font-size: 15px; }
+.finder-ask select { max-width: 100%; font: 15px Verdana, Geneva, sans-serif; }
 .finder-ask label { max-width: 100%; }
-.finder-bar { margin: 8px 0 6px; font-size: 11px; color: var(--ink); }
-.finder-none { margin: 4px 0; font-size: 11px; color: #b03a1a; }
-table.finder-table { width: 100%; border-collapse: collapse; font-size: 11px; border: 1px solid var(--line); }
+.finder-bar { margin: 8px 0 6px; font-size: 14px; color: var(--ink); }
+.finder-none { margin: 4px 0; font-size: 14px; color: #b03a1a; }
+table.finder-table { width: 100%; border-collapse: collapse; font-size: 14px; border: 1px solid var(--line); }
 .finder-table th { padding: 3px 6px; background: var(--pale); border: 1px solid var(--line); font-weight: bold; text-align: right; white-space: nowrap; }
 .finder-table td { padding: 3px 6px; border: 1px solid var(--line-soft); text-align: right; vertical-align: middle; }
 .finder-table .l { text-align: left; }
@@ -150,15 +162,73 @@ table.finder-table { width: 100%; border-collapse: collapse; font-size: 11px; bo
 .finder-table .untested { font-style: italic; }
 .finder .small-note { margin: 5px 0 0; }
 
-.toolbar { margin: 10px 0 6px; font-size: 11px; }
+.toolbar {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 6px 18px;
+  margin: 10px 0 6px;
+  padding: 6px 8px;
+  font-size: 14px;
+  background: var(--pale);
+  border: 1px solid var(--line);
+}
 .toolbar input { vertical-align: -2px; }
+.toolbar input[type=search], .toolbar select { box-sizing: border-box; height: 26px; padding: 0 4px; font: 14px Verdana, Geneva, sans-serif; vertical-align: middle; background: #fff; border: 1px solid #8a8fa8; border-radius: 0; }
+.toolbar input[type=search] { width: 170px; }
+.toolbar .n { color: var(--muted); }
+#shown-n { margin-left: auto; }
+
+/* The note above the chart, in the same yellow as the write-ups about each model */
+.read-note { margin: 0 0 12px; padding: 8px 12px; background: #fffbe8; border: 1px solid #e3d6a0; }
+.read-note h2 { margin: 0 0 4px; padding: 0; font: bold 17px Georgia, "Times New Roman", serif; color: var(--ink); border: 0; }
+.read-note ul { margin: 0; padding-left: 20px; }
+.read-note li { margin: 2px 0; }
+.read-note p { max-width: 60em; margin: 0; }
+.ref-mark { padding: 0 3px; font-size: 11px; font-weight: normal; color: var(--muted); background: #f7f1dc; border: 1px solid #e3d6a0; white-space: nowrap; }
+.receipts.tools { table-layout: fixed; }
+.receipts.tools th:first-child { width: 22%; }
+.receipts.tools th:nth-child(2) { width: 46%; }
+
+/* Colour key over the table */
+.key { display: flex; flex-wrap: wrap; gap: 4px 16px; margin: 0 0 6px; font-size: 13px; color: var(--muted); }
+.key > span { white-space: nowrap; }
+.sw { display: inline-block; width: 14px; height: 11px; margin-right: 4px; vertical-align: -1px; border: 1px solid #bbb; }
+.sw.hi { background: #e3f0d6; }
+.sw.mid { background: #f7f3d4; }
+.sw.lo { background: #f6e0dc; }
+.tick-box { display: inline-block; width: 11px; height: 11px; margin-right: 4px; vertical-align: -1px; background: #fff; border: 1px solid #767676; }
+.new-badge { margin-left: 5px; padding: 0 3px; font: bold 10px Verdana, Geneva, sans-serif; color: #fff; background: #b03a1a; vertical-align: 1px; }
+.mv { display: block; font-size: 12px; font-weight: bold; }
+.key .mv { display: inline; margin-right: 2px; }
+.mv.up { color: #3f7a25; }
+.mv.down { color: #b03a1a; }
+.mv.new { font-weight: normal; color: var(--navy); }
+.sort-note { margin: 0 0 6px; font-size: 13px; color: var(--muted); }
+
+/* Ticked models side by side */
+.compare-box { margin: 0 0 10px; overflow-x: auto; border: 1px solid var(--line); }
+.compare-box h3 { margin: 0; padding: 3px 8px; font: bold 14px Verdana, Geneva, sans-serif; color: #fff; background: var(--steel); }
+.compare-box h3 span { float: right; font-weight: normal; color: #dfe2f0; }
+.compare-box h3 a { color: #fff; }
+.compare-box table { width: 100%; border-collapse: collapse; font-size: 14px; }
+.compare-box th, .compare-box td { padding: 3px 8px; text-align: right; border: 1px solid var(--line-soft); }
+.compare-box th { white-space: nowrap; background: var(--pale); }
+.compare-box .l { text-align: left; }
+.compare-box td.best { font-weight: bold; color: var(--navy); background: #e3f0d6; }
+.compare-box .pixicon { vertical-align: -3px; }
+.compare-full { margin: 4px 8px; font-size: 13px; color: #b03a1a; }
+#main #new-box { margin: 12px 0 0; }
 
 /* The table: a bordered grid, solid header row, zebra rows */
 .table-wrap { overflow-x: auto; }
-table.ranking { width: 100%; border-collapse: collapse; font-size: 11px; border: 1px solid var(--line); }
+/* The ranking fits at every width, so it needs no scroll box, and its headings can stick while the page scrolls. */
+.ranking-wrap { overflow: visible; }
+#ranking thead th { position: sticky; top: 0; z-index: 1; }
+table.ranking { width: 100%; border-collapse: collapse; font-size: 14px; border: 1px solid var(--line); }
 .ranking th {
   padding: 4px 4px;
-  font: bold 11px Verdana, Geneva, sans-serif;
+  font: bold 14px Verdana, Geneva, sans-serif;
   color: #fff;
   text-align: right;
   white-space: nowrap;
@@ -167,6 +237,11 @@ table.ranking { width: 100%; border-collapse: collapse; font-size: 11px; border:
   border: 1px solid #3b4373;
 }
 .ranking th.l { text-align: left; }
+.ranking th button.sort { display: block; width: 100%; padding: 0; font: inherit; color: inherit; text-align: inherit; background: none; border: 0; cursor: pointer; }
+.ranking th button.sort:hover, .ranking th button.sort:focus-visible { text-decoration: underline; }
+.ranking th.sorted { background: var(--navy); box-shadow: inset 0 -3px 0 var(--gold); }
+.ranking td.none { padding: 10px; text-align: left; font-style: italic; color: var(--muted); }
+.ranking input.pick { flex: none; margin: 6px 2px 0 0; }
 .ranking th small { display: block; font-weight: normal; color: #d3d6ea; }
 .ranking td { padding: 4px 4px; text-align: right; white-space: nowrap; border: 1px solid var(--line-soft); }
 .ranking td.l { text-align: left; }
@@ -175,94 +250,103 @@ table.ranking { width: 100%; border-collapse: collapse; font-size: 11px; border:
 .ranking tbody tr.model:hover td { background-color: #fff8d0; }
 .ranking .rank { width: 26px; font-weight: bold; color: var(--muted); text-align: center; }
 .ranking tr.top .rank { color: var(--navy); }
+.ranking .rank small, .ranking .score-cell .pm { display: block; font-size: 12px; font-weight: normal; color: var(--muted); }
 .medal { font-weight: bold; }
 .ranking .name { font-weight: bold; }
-.ranking .org { display: block; font-size: 10px; color: var(--muted); }
+.ranking .org { display: block; font-size: 13px; color: var(--muted); }
 .who-in { display: flex; align-items: flex-start; gap: 5px; }
 .who-in > div { min-width: 0; overflow-wrap: anywhere; }
-.ranking .who-in .toggle { margin: 0; }
-.ranking .title { display: block; font: italic 11px/1.4 Georgia, "Times New Roman", serif; color: var(--steel); }
+.ranking .who-in .toggle { margin: 0; line-height: 24px; }
+.ranking .title { display: block; font: italic 14px/1.4 Georgia, "Times New Roman", serif; color: var(--steel); }
 .pixicon { flex: none; display: inline-block; vertical-align: middle; }
-.who-in .pixicon { margin-top: 2px; }
+.who-in .pixicon { margin-top: 0; }
 .box ol li .pixicon, .ranking td.gen .pixicon { vertical-align: -3px; }
-.seal { float: left; width: 110px; margin: 0 12px 8px 0; font: italic 11px/1.4 Georgia, "Times New Roman", serif; color: var(--steel); text-align: center; }
+.seal { float: left; width: 110px; margin: 0 12px 8px 0; font: italic 14px/1.4 Georgia, "Times New Roman", serif; color: var(--steel); text-align: center; }
 .seal .pixicon { display: block; margin: 0 auto 4px; }
-.ranking .toggle { margin-right: 4px; font: 11px "Courier New", monospace; text-decoration: none; }
-.ranking .score { font-weight: bold; font-size: 12px; color: var(--navy); }
+.ranking .toggle { margin-right: 4px; font: 14px "Courier New", monospace; text-decoration: none; }
+.ranking .score { font-weight: bold; font-size: 15px; color: var(--navy); }
 /* Three fixed shades, as tables of the time did it */
 .ranking td.hi { background-color: #e3f0d6 !important; }
 .ranking td.mid { background-color: #f7f3d4 !important; }
 .ranking td.lo { background-color: #f6e0dc !important; }
 .est { color: var(--faint); font-style: italic; }
 .ranking tr.dim td, .ranking tr.dim .score { color: var(--faint); }
-.flag { margin-left: 4px; padding: 0 3px; font-size: 9px; font-weight: normal; color: var(--muted); background: #f2f2f2; border: 1px solid #ccc; }
-.footnote { margin: 6px 0 0; font-size: 11px; color: var(--muted); }
+.flag { margin-left: 4px; padding: 0 3px; font-size: 12px; font-weight: normal; color: var(--muted); background: #f2f2f2; border: 1px solid #ccc; }
+.footnote { margin: 6px 0 0; font-size: 14px; color: var(--muted); }
 
 tr.details > td { padding: 10px 12px 12px; text-align: left; white-space: normal; background: #fafbfd !important; }
 /* The receipts table inside the details row */
-table.receipts { border-collapse: collapse; width: 100%; font-size: 11px; background: #fff; }
+table.receipts { border-collapse: collapse; width: 100%; font-size: 14px; background: #fff; }
 .receipts th { padding: 3px 6px; text-align: left; font-weight: bold; color: var(--ink); background: var(--pale); border: 1px solid var(--line); }
 .receipts td { padding: 3px 6px; border: 1px solid var(--line-soft); text-align: left; vertical-align: top; white-space: normal; overflow-wrap: break-word; background: #fff; }
 .receipts td.skill { width: 120px; font-weight: bold; background: var(--zebra); }
 .receipts .skill-score { display: block; font-weight: normal; color: var(--muted); }
 .receipts td.res { white-space: nowrap; }
-.receipts .ci { font-size: 10px; color: var(--muted); }
+.receipts .ci { font-size: 13px; color: var(--muted); }
 .receipts td.notes { color: var(--muted); }
 /* Long links and raw ids may break anywhere, so they never widen the table; prose still wraps at spaces. */
 .receipts td.notes a, .receipts td.raw { overflow-wrap: anywhere; }
 .receipts td.untested { color: var(--faint); font-style: italic; }
 .details p { margin: 0 0 6px; }
-.about { margin: 0 0 10px; padding: 8px 10px; font-size: 11px; background: #fffbe8; border: 1px solid #e3d6a0; }
-.about h4 { margin: 0 0 4px; font: bold 13px Georgia, "Times New Roman", serif; color: var(--ink); }
+/* Zero intrinsic width: the details never widen or squeeze the table's columns, yet fill the row. */
+.details-in { width: 0; min-width: 100%; }
+.details .about { clear: left; }
+.share-line { margin: 0 0 10px; padding: 3px 8px; font-size: 13px; background: var(--pale); border: 1px solid var(--line); overflow-wrap: anywhere; }
+.share-line .copy { float: right; margin-left: 10px; }
+.about { margin: 0 0 10px; padding: 8px 10px; font-size: 14px; background: #fffbe8; border: 1px solid #e3d6a0; }
+.about h4 { margin: 0 0 4px; font: bold 16px Georgia, "Times New Roman", serif; color: var(--ink); }
 .about p { margin: 0 0 4px; }
 .about-src { color: var(--muted); }
 .details .warn { color: #b03a1a; }
 
 /* Sources */
-.dim-block { margin: 0 0 12px; border: 1px solid var(--line); }
-.dim-block h3 {
+.dim-block { scroll-margin-top: 10px; margin: 0 0 12px; border: 1px solid var(--line); }
+.dim-block h2, .dim-block h3 {
   display: flex;
   justify-content: space-between;
   margin: 0;
   padding: 3px 8px;
-  font: bold 11px Verdana, Geneva, sans-serif;
+  font: bold 14px Verdana, Geneva, sans-serif;
   color: var(--ink);
   background: var(--pale);
   border-bottom: 1px solid var(--line);
 }
-.dim-block h3 span { font-weight: normal; color: var(--muted); }
-.dim-block ul { margin: 0; padding: 6px 10px 8px 26px; font-size: 11px; }
+.dim-block h2 span, .dim-block h3 span { font-weight: normal; color: var(--muted); }
+.dim-block ul { margin: 0; padding: 6px 10px 8px 26px; font-size: 14px; }
 .dim-block li { margin: 1px 0; }
 .dim-block .n { color: var(--muted); }
+.dim-note { margin: 5px 10px 0; font-size: 13px; color: var(--muted); }
+.dim-block .check { display: block; font-size: 13px; color: var(--muted); }
+.dim-block .check .warn { color: #b03a1a; }
 .dot { display: inline-block; width: 7px; height: 7px; background: #ccc; border: 1px solid #aaa; vertical-align: 0; }
 .dot.live { background: #5a9a3c; border-color: #3f7a25; }
 .method { padding-left: 22px; max-width: 60em; }
 .method li { margin-bottom: 4px; }
 
 /* Sidebar */
-.box { margin-bottom: 16px; font-size: 11px; border: 1px solid var(--line); }
+.box { margin-bottom: 16px; font-size: 14px; border: 1px solid var(--line); }
 .box h3 {
   margin: 0;
   padding: 3px 8px;
-  font: bold 11px Verdana, Geneva, sans-serif;
+  font: bold 14px Verdana, Geneva, sans-serif;
   color: #fff;
   background: var(--steel);
 }
 .box p { margin: 6px 8px; }
 .box ol { margin: 6px 0; padding-left: 28px; }
 .box ol li { margin: 2px 0; }
-.box ol li span { float: right; margin-right: 8px; color: var(--muted); }
-.small-note { font-size: 10px; color: var(--muted); }
+.box ol li span { float: right; margin: 0 8px 0 8px; color: var(--muted); }
+.small-note { font-size: 13px; color: var(--muted); }
 .shame { margin: 4px 0 8px; padding: 0 8px 0 22px; }
 .shame li { margin: 0 0 5px; }
-.shame li span { float: right; color: #b03a1a; font-weight: bold; }
-.verdict { margin: 0 0 8px; font: italic 13px/1.5 Georgia, "Times New Roman", serif; color: var(--ink); }
+.shame li span { float: right; margin-left: 8px; color: #b03a1a; font-weight: bold; }
+.verdict { margin: 0 0 8px; font: italic 16px/1.5 Georgia, "Times New Roman", serif; color: var(--ink); }
 .verdict b { font-style: normal; }
 .newlist { margin: 6px 0; padding: 0 8px 0 24px; }
 .newlist li { margin: 0 0 6px; }
-.newlist .when, .newlist .has { font-size: 10px; color: var(--muted); }
+.newlist .when, .newlist .has { font-size: 13px; color: var(--muted); }
 .newlist .has { display: block; }
-table.weights { width: calc(100% - 16px); margin: 6px 8px; border-collapse: collapse; font-size: 10px; }
+table.weights { width: calc(100% - 16px); margin: 6px 8px; border-collapse: collapse; font-size: 13px; }
 .weights td { padding: 1px 0; }
 .weights td:last-child { text-align: right; color: var(--muted); }
 .weights tr.none td { padding-top: 5px; color: var(--faint); text-align: left; }
@@ -271,7 +355,7 @@ table.weights { width: calc(100% - 16px); margin: 6px 8px; border-collapse: coll
 
 #footer {
   padding: 10px 20px;
-  font-size: 10px;
+  font-size: 13px;
   text-align: center;
   color: var(--muted);
   background: var(--pale);
@@ -282,41 +366,86 @@ table.weights { width: calc(100% - 16px); margin: 6px 8px; border-collapse: coll
 /* History page */
 .fam { scroll-margin-top: 10px; }
 .fam-body { padding: 8px 10px 10px; }
-.fam-body p { margin: 5px 0 0; font-size: 11px; }
+.fam-body p { margin: 5px 0 0; font-size: 14px; }
 .fam-summary { color: var(--muted); }
 .fam-table { display: none; margin-top: 6px; }
 .fam.open .fam-table { display: block; }
 .fam-table table.ranking { min-width: 560px; }
 .hist-chart { display: block; width: 100%; height: auto; background: #fff; border: 1px solid var(--line-soft); }
 .hist-chart .grid { stroke: #e2e3ea; stroke-width: 1; stroke-dasharray: 2 2; }
-.hist-chart .axis { font: 10px Verdana, Geneva, sans-serif; fill: #777; }
+.hist-chart .axis { font: 13px Verdana, Geneva, sans-serif; fill: #777; }
 .hist-chart .line { fill: none; stroke: var(--navy); stroke-width: 2; }
 .hist-chart .dot { fill: var(--navy); stroke: #fff; stroke-width: 1; }
-.hist-chart .last { font: bold 11px Verdana, Geneva, sans-serif; fill: var(--navy); }
+.hist-chart .last { font: bold 14px Verdana, Geneva, sans-serif; fill: var(--navy); }
 .jump { margin: 6px 0; padding-left: 26px; }
 .jump li { margin: 1px 0; }
 .top5 small { color: var(--muted); }
 .flops li span { color: #b03a1a; }
+ol.jump { padding-left: 28px; }
+/* On narrow screens explain.js moves "On this page" under the introduction; two columns keep it short. */
+#main .toc .jump { columns: 2; column-gap: 16px; }
+#main .toc .jump li { break-inside: avoid; }
+
+/* How it works, AI basics and Security: one bordered block per question, like the data sources list */
+.qa { margin: 0 0 12px; border: 1px solid var(--line); scroll-margin-top: 10px; }
+.qa:target { border-color: var(--steel); }
+.qa:target h2, .qa:target h3 { background: #f7f1dc; }
+.qa h2, .qa h3 {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 12px;
+  margin: 0;
+  padding: 4px 8px;
+  font: bold 17px Georgia, "Times New Roman", serif;
+  color: var(--navy);
+  background: var(--pale);
+  border-bottom: 1px solid var(--line);
+}
+.qa h2 .permalink, .qa h3 .permalink { flex: none; font: normal 13px Verdana, Geneva, sans-serif; }
+.qa-body { padding: 8px 10px 4px; }
+.qa-body p { max-width: 60em; margin: 0 0 8px; }
+.qa-body ul, .qa-body ol { max-width: 58em; margin: 0 0 8px; padding-left: 22px; }
+.qa-body li { margin: 0 0 3px; }
+.qa code { padding: 0 2px; font: 14px "Courier New", monospace; background: var(--zebra); border: 1px solid var(--line-soft); overflow-wrap: anywhere; }
+.qa table.receipts { margin: 0 0 8px; }
+.qa .receipts td.skill { width: 110px; }
+.example { max-width: 60em; margin: 0 0 8px; padding: 6px 10px; background: #fffbe8; border: 1px solid #e3d6a0; }
+.example p { margin: 0; }
+.checklist li { margin: 0 0 5px; }
+/* "How do agents work with models?": you, the harness and the model in a row, tools under the harness */
+.flow { display: grid; grid-template-columns: repeat(2, minmax(0, 110px) 22px) minmax(0, 110px); align-items: center; gap: 4px 2px; margin: 4px 0 10px; text-align: center; }
+.flow-box { padding: 4px 6px; background: var(--zebra); border: 1px solid var(--line); }
+.flow-box b { display: block; font: bold 16px Georgia, "Times New Roman", serif; color: var(--navy); }
+.flow-box span { display: block; font-size: 13px; line-height: 1.3; color: var(--muted); }
+.flow-arrow { font-size: 19px; color: var(--steel); }
+.f-a3 { grid-column: 3; grid-row: 2; }
+.f-tools { grid-column: 3; grid-row: 3; }
+.glossary { max-width: 60em; margin: 0; }
+.glossary dt { font-weight: bold; color: var(--navy); }
+.glossary dd { margin: 0 0 8px 16px; }
 
 @media (max-width: 760px) {
   body { padding: 0; }
   #container { border: 0; }
   #header { flex-direction: column; align-items: stretch; gap: 8px; padding: 12px 14px; }
   .logo img { width: 52px; margin: 0; }
-  .logo-text { font-size: 24px; }
+  .logo-text { font-size: 28px; }
   .head-stats { text-align: left; }
   .head-stats div { display: inline; }
   .head-stats div + div::before { content: " | "; color: #8a8cc0; }
   #body { padding: 14px; }
 }
 
-/* The sidebar moves under the table before the table would have to scroll... */
-@media (max-width: 900px) {
+/* The sidebar moves under the table before the table would have to squeeze its model names onto several lines... */
+@media (max-width: 1160px) {
   #body { grid-template-columns: 1fr; gap: 6px; }
 }
-/* ...and on phones the per-skill columns go; [+] still shows every result. */
-@media (max-width: 600px) {
+/* ...and below 860px the per-skill columns go, before they squeeze the names; [+] still shows every result. */
+@media (max-width: 860px) {
   #ranking > thead .skill, #ranking > tbody > tr > td.skill { display: none; }
+}
+@media (max-width: 600px) {
   .receipts .raw, .receipts .notes { display: none; }
 }
 /* The index chart folds into one column when two would squeeze the bars. */
@@ -326,7 +455,7 @@ table.weights { width: calc(100% - 16px); margin: 6px 8px; border-collapse: coll
   .index-chart h3 span { float: none; display: block; }
 }
 /* Just above the point where the sidebar drops below, the main column is at its narrowest: drop the chart's icons so the bars keep their length. */
-@media (min-width: 901px) and (max-width: 1000px) {
+@media (min-width: 1161px) and (max-width: 1260px) {
   .ic-name .pixicon { display: none; }
   .ic-row, .ic-axis { grid-template-columns: 18px minmax(0, 156px) minmax(60px, 1fr) 28px; }
 }

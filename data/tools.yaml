@@ -1,0 +1,126 @@
+# The Tools page (site/tools.html), written into the page by `wizardindex build`.
+# `referral`: a referral link for the tool, or empty. When set, the page uses it instead of `url`,
+# labels it "referral" and marks it rel="sponsored". Pick and order tools for usefulness, not payout.
+
+sections:
+  - id: apis
+    title: "Model APIs"
+    intro: "Where to get the models themselves, to use in your own code or plug into a harness."
+    items:
+      - name: "Anthropic API"
+        url: https://www.anthropic.com/api
+        referral: ""
+        what: "Claude models, straight from the lab."
+        for: "Claude in your own code or harness"
+      - name: "OpenAI Platform"
+        url: https://platform.openai.com
+        referral: ""
+        what: "GPT models, straight from the lab."
+        for: "GPT in your own code or harness"
+      - name: "Google AI Studio"
+        url: https://aistudio.google.com
+        referral: ""
+        what: "Gemini models, straight from the lab."
+        for: "Gemini in your own code or harness"
+      - name: "OpenRouter"
+        url: https://openrouter.ai
+        referral: ""
+        what: "One key and one bill for hundreds of models from many labs."
+        for: "Trying and switching between models"
+      - name: "Kyma API"
+        url: https://kymaapi.com
+        referral: ""
+        what: "One key and one balance for chat, image, video and audio models."
+        for: "Switching models without a new account for each lab"
+  - id: builders
+    title: "Build an app by describing it"
+    intro: "You describe what you want, an agent writes and runs the code. Good for prototypes and small tools; read the security page before giving one your data."
+    items:
+      - name: "Lovable"
+        url: https://lovable.dev
+        referral: ""
+        what: "Builds full-stack web apps from a chat description."
+        for: "Prototypes and small web apps"
+      - name: "Base44"
+        url: https://base44.com
+        referral: ""
+        what: "Builds working apps and internal tools from a plain-language description."
+        for: "Back-office tools and simple apps"
+      - name: "Replit"
+        url: https://replit.com
+        referral: ""
+        what: "Online editor with an agent that builds and deploys apps from a description."
+        for: "Building and hosting in the browser, nothing to install"
+  - id: agents
+    title: "Build agents and AI features"
+    intro: "Platforms and APIs for putting a model to work inside a product."
+    items:
+      - name: "Flowise"
+        url: https://flowiseai.com
+        referral: ""
+        what: "Open-source drag-and-drop builder for LLM apps, RAG and multi-agent workflows. Self-host it or use their cloud."
+        for: "Prototyping agents and RAG with little code"
+      - name: "Botpress"
+        url: https://botpress.com
+        referral: ""
+        what: "Builds and deploys chatbots and AI agents, with integrations and messaging channels."
+        for: "Support and website agents"
+      - name: "MindStudio"
+        url: https://www.mindstudio.ai
+        referral: ""
+        what: "No-code builder for AI agents."
+        for: "Business workflows without writing code"
+      - name: "Vapi"
+        url: https://vapi.ai
+        referral: ""
+        what: "API for voice agents that make and take phone calls."
+        for: "Phone and voice assistants"
+      - name: "ElevenLabs"
+        url: https://elevenlabs.io
+        referral: ""
+        what: "Text-to-speech, voice cloning and voice agents, by API or in the app."
+        for: "Giving an app or agent a voice"
+      - name: "Apify"
+        url: https://apify.com
+        referral: ""
+        what: "Ready-made scrapers and automations for thousands of sites, which agents can also call as tools."
+        for: "Getting web data into an agent"
+      - name: "TestDriver"
+        url: https://testdriver.ai
+        referral: ""
+        what: "AI QA agent: tag it on a GitHub pull request and it tests the app like a user, in a sandbox."
+        for: "Catching what a change broke"
+  - id: hosting
+    title: "Run models yourself, and host what you build"
+    intro: "Local models need a strong machine or a rented one; whatever you build needs somewhere to live."
+    items:
+      - name: "Ollama"
+        url: https://ollama.com
+        referral: ""
+        what: "Runs open-weight models on your own computer with one command."
+        for: "Private, offline, no per-token bill"
+      - name: "LM Studio"
+        url: https://lmstudio.ai
+        referral: ""
+        what: "Desktop app to download and chat with open-weight models, with a local API."
+        for: "Local models without the terminal"
+      - name: "RunPod"
+        url: https://www.runpod.io
+        referral: ""
+        what: "Rent GPUs by the hour, or run models serverless."
+        for: "Open models too big for your own machine"
+      - name: "DigitalOcean"
+        url: https://www.digitalocean.com
+        referral: ""
+        what: "Simple cloud servers, databases and GPU machines."
+        for: "Hosting agents, bots and backends"
+      - name: "Contabo"
+        url: https://contabo.com
+        referral: ""
+        what: "Low-cost virtual and dedicated servers."
+        for: "A cheap always-on box for self-hosted tools"
+      - name: "Netlify"
+        url: https://www.netlify.com
+        referral: ""
+        what: "Deploys and hosts websites and web apps from a Git repository."
+        for: "Putting what you built online"

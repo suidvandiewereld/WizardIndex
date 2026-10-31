@@ -12,7 +12,7 @@ from pathlib import Path
 
 import yaml
 
-from . import sources, subsidies
+from . import checks, pages, sources, subsidies
 from .flair import add_flair
 from .scoring import build_index
 
@@ -26,6 +26,9 @@ HISTORY_DATA = ROOT / "site" / "data" / "history.json"
 FAMILIES = ROOT / "config" / "families.yaml"
 SUBSCRIPTIONS = ROOT / "data" / "subscriptions.yaml"
 TASKS = ROOT / "config" / "tasks.yaml"
+PREVIOUS = ROOT / "data" / "previous_ranks.json"
+TOOLS = ROOT / "data" / "tools.yaml"
+SITE = ROOT / "site"
 
 
 def load_config() -> dict:
@@ -46,9 +49,20 @@ def benchmarks(config: dict):
             yield d, b
 
 
+def save_previous_ranks() -> None:
+    """Keep the ranks as last published, so the next build can show how each model moved."""
+    if not SITE_DATA.exists():
+        return
+    index = json.loads(SITE_DATA.read_text(encoding="utf-8"))
+    ranks = {m["model"]: m["rank"] for m in index["models"] if m.get("rank")}
+    PREVIOUS.write_text(json.dumps({"generated_at": index.get("generated_at"), "ranks": ranks}, indent=1) + "\n", encoding="utf-8")
+
+
 def cmd_fetch(args) -> int:
     config = load_config()
     RESULTS_DIR.mkdir(parents=True, exist_ok=True)
+    if not args.only:
+        save_previous_ranks()
     failed = []
     for _, b in benchmarks(config):
         if args.only and b["id"] not in args.only:
@@ -100,11 +114,16 @@ def cmd_build(args) -> int:
             results[b["id"]] = subsidies.apply(results[b["id"]], rates)
     index = build_index(config, results, known_releases=known, families=families)
     index["generated_at"] = datetime.now(timezone.utc).isoformat(timespec="seconds")
+    shares, errors = index.pop("shares"), index.pop("estimate_errors")
     index["dimensions"] = [
         {
             "id": d["id"],
             "name": d["name"],
             "weight": d["weight"],
+            # Percent of the index this dimension actually carries (None until it has data), and how
+            # far its estimates typically miss when checked against measured models.
+            "share": shares.get(d["id"]),
+            "estimate_error": errors.get(d["id"]),
             "skill": d.get("skill", True),
             "benchmarks": [
                 {
@@ -123,6 +142,11 @@ def cmd_build(args) -> int:
         for d in config["dimensions"]
     ]
     index["ranking"] = config.get("ranking", {})
+    if PREVIOUS.exists():
+        index["previous"] = json.loads(PREVIOUS.read_text(encoding="utf-8"))
+    # Benchmarks published by two parties, compared; disagreements are noted on the results themselves.
+    index["checks"] = checks.cross_check(config, results)
+    checks.annotate(index, index["checks"])
     # Jobs and bars for the "Which model for my job?" picker.
     index["tasks"] = yaml.safe_load(TASKS.read_text(encoding="utf-8")) if TASKS.exists() else {}
     about = load_descriptions()
@@ -148,6 +172,10 @@ def cmd_build(args) -> int:
     HISTORY_DATA.write_text(json.dumps(history, indent=1) + "\n", encoding="utf-8")
     print(f"wrote {HISTORY_DATA.relative_to(ROOT)}: "
           + ", ".join(f"{f['name']} ({len(f['generations'])})" for f in history["families"]))
+
+    pages.write_tools(yaml.safe_load(TOOLS.read_text(encoding="utf-8")), SITE / "tools.html")
+    (SITE / "sitemap.xml").write_text(pages.sitemap(SITE, index["generated_at"]), encoding="utf-8")
+    print("wrote site/tools.html and site/sitemap.xml")
     return 0
 
 

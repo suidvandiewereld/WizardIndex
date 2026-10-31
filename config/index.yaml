@@ -4,7 +4,8 @@
 # CC-BY benchmark dataset. `artificial_analysis` reads individual evaluations Artificial Analysis
 # runs itself (never their Intelligence Index). `fallback_for: <id>` means a benchmark only counts
 # for models that have no result on benchmark <id>. `manual` reads results transcribed from papers or leaderboards
-# without an API, from data/manual/<id>.yaml.
+# without an API, from data/manual/<id>.yaml. `check_against: <id>` compares a benchmark with another
+# published run of the same test and flags models where the two disagree (wizardindex/checks.py).
 
 ranking:
   # A model is ranked only if it has results in at least this many dimensions, including at
@@ -60,6 +61,8 @@ dimensions:
         field: frontierCode
         # Only fills in models missing from the official FrontierCode board, so nobody counts twice.
         fallback_for: frontiercode
+        # Where both boards tested a model, flag big disagreements (wizardindex/checks.py).
+        check_against: frontiercode
         url: https://artificialanalysis.ai
 
   - id: taste
@@ -106,6 +109,7 @@ dimensions:
         name: Terminal-Bench 4.0 (AA run)
         source: artificial_analysis
         field: terminalBench40
+        check_against: terminal-bench
         url: https://artificialanalysis.ai
 
   - id: architecture
@@ -301,7 +305,7 @@ dimensions:
     skill: false
     benchmarks:
       # Dollars AA spent running its whole evaluation suite on the model, reasoning tokens included,
-      # at the model's second-highest reasoning setting (xhigh, not max, for a five-level ladder).
+      # at the model's highest reasoning setting: the one its skill scores (best result per benchmark) come from.
       # Subscription subsidies (data/subscriptions.yaml) are applied to every `kind: cost` benchmark
       # at build time: the cost is what the work costs through the lab's largest plan, if cheaper.
       # `kind: cost`: cheaper is better, on a square-root scale between the cheapest and dearest model.
@@ -310,13 +314,11 @@ dimensions:
         source: artificial_analysis
         cost: intelligenceIndexCost
         kind: cost
-        top_setting: ['^deepseek-v4']   # built to run at max
         url: https://artificialanalysis.ai
       - id: aa-briefcase-cost
         name: Cost to run AA Briefcase
         source: artificial_analysis
         cost: briefcaseTotalCost
         kind: cost
-        top_setting: ['^deepseek-v4']
         fallback_for: aa-cost
         url: https://artificialanalysis.ai

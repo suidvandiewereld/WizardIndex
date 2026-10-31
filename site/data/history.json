@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-29T10:42:40+00:00",
+ "generated_at": "2026-10-31T16:11:06+00:00",
  "tracked": [
   {
    "id": "aa-hle",
@@ -39,7 +39,7 @@
      "title": "Wizard Emeritus of Riddles",
      "pixels": "1120021122022022020110200000000000000000020110202202202211200211",
      "released": "2024-02-29",
-     "index": 12.2,
+     "index": 12.4,
      "coverage": 11,
      "ranked": false,
      "scores": {
@@ -53,7 +53,7 @@
      "title": "Wizard Emeritus of Solid Forms",
      "pixels": "0101101001200210121001211011110100011000002112000020020033111133",
      "released": "2025-05-14",
-     "index": 15.6,
+     "index": 15.5,
      "coverage": 37,
      "ranked": false,
      "scores": {
@@ -69,7 +69,7 @@
      "title": "Wizard Emeritus of Solid Forms",
      "pixels": "2000000200011000123113212211112222111122123113210001100020000002",
      "released": "2025-08-05",
-     "index": 14.6,
+     "index": 14.5,
      "coverage": 47,
      "ranked": false,
      "scores": {
@@ -102,7 +102,7 @@
      "title": "Wizard Emeritus of Fair Design",
      "pixels": "1011120100301120112032112100020110200012112302110211030010211101",
      "released": "2025-12-17",
-     "index": 27.0,
+     "index": 26.9,
      "coverage": 74,
      "ranked": false,
      "scores": {
@@ -119,7 +119,7 @@
      "title": "Wizard Emeritus of Riddles",
      "pixels": "1201102100000000013113101000000110000001013113100000000012011021",
      "released": "2026-04-16",
-     "index": 31.6,
+     "index": 31.5,
      "coverage": 84,
      "ranked": false,
      "scores": {
@@ -135,7 +135,7 @@
      "title": "Wizard Emeritus of Riddles",
      "pixels": "0303303000211200221331220231132002311320221331220021120003033030",
      "released": "2026-05-28",
-     "index": 40.2,
+     "index": 40.5,
      "coverage": 95,
      "ranked": false,
      "scores": {
@@ -154,7 +154,7 @@
      "title": "Herald of Endless Caveats",
      "pixels": "3111010001002012200302000000001001000000002030022102001000101113",
      "released": "2026-07-24",
-     "index": 73.8,
+     "index": 73.6,
      "coverage": 95,
      "ranked": true,
      "scores": {
@@ -173,7 +173,7 @@
      "title": "Archmage of Many Hands",
      "pixels": "1131131110122101001111000200002002000020001111001012210111311311",
      "released": "2026-09-22",
-     "index": 92.6,
+     "index": 92.3,
      "coverage": 100,
      "ranked": true,
      "scores": {
@@ -198,7 +198,7 @@
      "title": "Wizard Emeritus of Riddles",
      "pixels": "0300003021122112003223000202202002022020003223002112211203000030",
      "released": "2024-02-29",
-     "index": 11.3,
+     "index": 11.4,
      "coverage": 11,
      "ranked": false,
      "scores": {
@@ -212,7 +212,7 @@
      "title": "Wizard Emeritus of Riddles",
      "pixels": "0123012000101000103001011011001001001101101003010001010002103210",
      "released": "2024-10-22",
-     "index": 11.3,
+     "index": 11.4,
      "coverage": 11,
      "ranked": false,
      "scores": {
@@ -226,7 +226,7 @@
      "title": "Wizard Emeritus of Fair Design",
      "pixels": "0000000000100100020110202000000221200212000000001000000100311300",
      "released": "2025-02-24",
-     "index": 20.5,
+     "index": 20.6,
      "coverage": 37,
      "ranked": false,
      "scores": {
@@ -241,7 +241,7 @@
      "title": "Wizard Emeritus of Solid Forms",
      "pixels": "0000003000120100101200000010011001100100000021010010210003000000",
      "released": "2025-05-14",
-     "index": 18.6,
+     "index": 18.7,
      "coverage": 37,
      "ranked": false,
      "scores": {
@@ -257,7 +257,7 @@
      "title": "Wizard Emeritus",
      "pixels": "0220010100000100001000023010101221010103200001000010000010100220",
      "released": "2025-09-29",
-     "index": 20.8,
+     "index": 20.9,
      "coverage": 68,
      "ranked": false,
      "scores": {
@@ -276,7 +276,7 @@
      "title": "Wizard Emeritus of Fair Design",
      "pixels": "0010110101012000300210021030133113310301200120030002101010110100",
      "released": "2026-02-17",
-     "index": 30.0,
+     "index": 30.2,
      "coverage": 95,
      "ranked": false,
      "scores": {
@@ -295,7 +295,7 @@
      "title": "Wizard Emeritus of Invention",
      "pixels": "2110011211000011101001013100001321100112000220000100001023200232",
      "released": "2026-06-30",
-     "index": 37.7,
+     "index": 36.5,
      "coverage": 95,
      "ranked": false,
      "scores": {
@@ -313,7 +313,7 @@
      "title": "The Nine-Tenths Sorcerer",
      "pixels": "0000213330010000012000213002000000002003120002100000100333120000",
      "released": "2026-09-28",
-     "index": 83.6,
+     "index": 83.1,
      "coverage": 100,
      "ranked": true,
      "scores": {
@@ -338,7 +338,7 @@
      "title": "Wizard Emeritus of Riddles",
      "pixels": "0122221000022000302002030000000000000000302002030002200001222210",
      "released": "2024-03-04",
-     "index": 11.7,
+     "index": 11.8,
      "coverage": 11,
      "ranked": false,
      "scores": {
@@ -352,7 +352,7 @@
      "title": "Wizard Emeritus of Riddles",
      "pixels": "0300111203112011100002100000010000100000012000011102113021110030",
      "released": "2024-10-22",
-     "index": 11.3,
+     "index": 11.4,
      "coverage": 11,
      "ranked": false,
      "scores": {
@@ -366,7 +366,7 @@
      "title": "Wizard Emeritus",
      "pixels": "0100001030200203231001320210012010011001031111301001100101000010",
      "released": "2025-10-01",
-     "index": 23.4,
+     "index": 23.9,
      "coverage": 58,
      "ranked": false,
      "scores": {
@@ -385,7 +385,7 @@
      "title": "Small Poet of Quick Errands",
      "pixels": "2110000110010231030001012000000110000002101000301320100110000112",
      "released": "2026-10-07",
-     "index": 58.8,
+     "index": 58.9,
      "coverage": 100,
      "ranked": true,
      "scores": {
@@ -409,7 +409,7 @@
      "title": "Wizard Emeritus of Riddles",
      "pixels": "0200320320112101120003020200221111220020203000211012110230230020",
      "released": "2026-06-09",
-     "index": 68.4,
+     "index": 68.2,
      "coverage": 95,
      "ranked": false,
      "scores": {
@@ -428,7 +428,7 @@
      "title": "The Bard Who Burns Your Candle",
      "pixels": "0100001000100100020110200101101001011010020110200010010001000010",
      "released": "2026-09-01",
-     "index": 77.8,
+     "index": 77.3,
      "coverage": 100,
      "ranked": true,
      "scores": {
@@ -453,7 +453,7 @@
      "title": "Wizard Emeritus of Riddles",
      "pixels": "2000000220110201100011000100000000000010001100011020110220000002",
      "released": "2025-08-07",
-     "index": 20.3,
+     "index": 19.6,
      "coverage": 74,
      "ranked": false,
      "scores": {
@@ -470,7 +470,7 @@
      "title": "Wizard Emeritus of Riddles",
      "pixels": "1013313122230020101023112201210000121022113201010200322213133101",
      "released": "2025-11-13",
-     "index": 20.9,
+     "index": 20.2,
      "coverage": 47,
      "ranked": false,
      "scores": {
@@ -487,7 +487,7 @@
      "title": "Wizard Emeritus of Riddles",
      "pixels": "0110200110100201202000200013102002013100020002021020010110020110",
      "released": "2025-12-11",
-     "index": 23.8,
+     "index": 23.1,
      "coverage": 47,
      "ranked": false,
      "scores": {
@@ -503,7 +503,7 @@
      "title": "Wizard Emeritus of Riddles",
      "pixels": "0033112210323010332011102003010220103002011102330103230122113300",
      "released": "2026-03-04",
-     "index": 29.9,
+     "index": 29.2,
      "coverage": 74,
      "ranked": false,
      "scores": {
@@ -520,7 +520,7 @@
      "title": "Wizard Emeritus of Invention",
      "pixels": "0001032001100201010002020120100000010210202000101020011002301000",
      "released": "2026-04-22",
-     "index": 42.3,
+     "index": 41.6,
      "coverage": 95,
      "ranked": false,
      "scores": {
@@ -539,7 +539,7 @@
      "title": "Wizard Emeritus of Riddles",
      "pixels": "0020211202010003310111010000100110010000101110133000102021120200",
      "released": "2026-06-26",
-     "index": 60.7,
+     "index": 60.1,
      "coverage": 95,
      "ranked": false,
      "scores": {
@@ -558,7 +558,7 @@
      "title": "The Seven-Day King",
      "pixels": "1003120011012110011000000110002002000110000001100112101100213001",
      "released": "2026-09-22",
-     "index": 69.9,
+     "index": 69.4,
      "coverage": 95,
      "ranked": true,
      "scores": {
@@ -577,7 +577,7 @@
      "title": "Sun-King of Unasked Favours",
      "pixels": "1000000101122110001001000012210000022000000000000011110020000002",
      "released": "2026-09-29",
-     "index": 83.2,
+     "index": 83.0,
      "coverage": 100,
      "ranked": true,
      "scores": {
@@ -602,7 +602,7 @@
      "title": "Keeper of the Middle Scales",
      "pixels": "1101011000313220021030000300300110030030000301200223130001101011",
      "released": "2026-07-09",
-     "index": 44.2,
+     "index": 43.3,
      "coverage": 100,
      "ranked": true,
      "scores": {
@@ -621,7 +621,7 @@
      "title": "Geomancer of Solid Ground",
      "pixels": "0010010010033001011111101210012103033030001331001000000131200213",
      "released": "2026-10-26",
-     "index": 71.0,
+     "index": 69.7,
      "coverage": 100,
      "ranked": true,
      "scores": {
@@ -641,10 +641,10 @@
      "model": "gpt-5-6-luna",
      "name": "GPT-5.6 Luna",
      "org": "openai",
-     "title": "Wizard Emeritus",
+     "title": "Wizard Emeritus of Riddles",
      "pixels": "0011110020100102130000311100001111000011130000312010010200111100",
      "released": "2026-06-26",
-     "index": 40.4,
+     "index": 39.9,
      "coverage": 95,
      "ranked": false,
      "scores": {
@@ -663,7 +663,7 @@
      "title": "Night Owl of the Middle Tier",
      "pixels": "1020111102000000002132011200102112010021102312000000002011110201",
      "released": "2026-09-22",
-     "index": 41.9,
+     "index": 41.6,
      "coverage": 100,
      "ranked": true,
      "scores": {
@@ -688,7 +688,7 @@
      "title": "Wizard Emeritus of Riddles",
      "pixels": "0301103002000020100000011021120100111100100000011001100111100111",
      "released": "2023-12-06",
-     "index": 11.7,
+     "index": 11.8,
      "coverage": 11,
      "ranked": false,
      "scores": {
@@ -702,7 +702,7 @@
      "title": "Wizard Emeritus of Riddles",
      "pixels": "0032230011133111002002000000000000000000002002001113311100322300",
      "released": "2024-09-24",
-     "index": 10.1,
+     "index": 10.2,
      "coverage": 21,
      "ranked": false,
      "scores": {
@@ -718,7 +718,7 @@
      "title": "Wizard Emeritus",
      "pixels": "0002200001000010002112000020020000200200002112000100001000022000",
      "released": "2025-06-05",
-     "index": 26.8,
+     "index": 26.4,
      "coverage": 58,
      "ranked": false,
      "scores": {
@@ -737,7 +737,7 @@
      "title": "Wizard Emeritus of Riddles",
      "pixels": "2000000202011020010330100001100001122110001001002000000200100100",
      "released": "2025-11-18",
-     "index": 40.4,
+     "index": 40.3,
      "coverage": 11,
      "ranked": false,
      "scores": {
@@ -766,7 +766,7 @@
      "title": "Lamplighter of Honest Doubt",
      "pixels": "0101101000211200001001000022220000222200001001000021120001011010",
      "released": "2026-09-30",
-     "index": 77.0,
+     "index": 77.1,
      "coverage": 100,
      "ranked": true,
      "scores": {
@@ -791,7 +791,7 @@
      "title": "Wizard Emeritus of Riddles",
      "pixels": "2110000011010100001201001001210000121001001021000010101100000112",
      "released": "2024-09-24",
-     "index": 11.2,
+     "index": 11.3,
      "coverage": 11,
      "ranked": false,
      "scores": {
@@ -805,7 +805,7 @@
      "title": "Wizard Emeritus of Riddles",
      "pixels": "0000003222100201100202031121120000211211302020011020012223000000",
      "released": "2025-02-02",
-     "index": 12.5,
+     "index": 13.0,
      "coverage": 11,
      "ranked": false,
      "scores": {
@@ -820,7 +820,7 @@
      "title": "Wizard Emeritus of Riddles",
      "pixels": "1100001110011001001111000000000000000000001111001001100111000011",
      "released": "2025-05-20",
-     "index": 10.9,
+     "index": 11.7,
      "coverage": 37,
      "ranked": false,
      "scores": {
@@ -850,7 +850,7 @@
      "title": "Wizard Emeritus of Riddles",
      "pixels": "0011110010000001131111311002200110022001131111311000000100111100",
      "released": "2026-05-19",
-     "index": 23.7,
+     "index": 24.0,
      "coverage": 95,
      "ranked": false,
      "scores": {
@@ -869,7 +869,7 @@
      "title": "Twin Who Swears It's Finished",
      "pixels": "0000210301310012000102302310111001110132032010002100131030120000",
      "released": "2026-07-21",
-     "index": 36.2,
+     "index": 36.3,
      "coverage": 95,
      "ranked": true,
      "scores": {
@@ -932,7 +932,7 @@
      "title": "Wizard Emeritus of Riddles",
      "pixels": "0021120010311301000220001010010110100101000220001031130100211200",
      "released": "2024-12-12",
-     "index": 11.2,
+     "index": 11.3,
      "coverage": 11,
      "ranked": false,
      "scores": {
@@ -962,7 +962,7 @@
      "title": "Wizard Emeritus of Riddles",
      "pixels": "2001100212033021001221001002200110022001001221001203302120011002",
      "released": "2025-07-09",
-     "index": 31.1,
+     "index": 31.2,
      "coverage": 37,
      "ranked": false,
      "scores": {
@@ -978,7 +978,7 @@
      "title": "Wizard Emeritus of Fair Design",
      "pixels": "1032230112311321033003302112211231011013100000013310013322300322",
      "released": "2025-11-17",
-     "index": 14.1,
+     "index": 14.0,
      "coverage": 11,
      "ranked": false,
      "scores": {
@@ -992,7 +992,7 @@
      "title": "Wizard Emeritus of Riddles",
      "pixels": "0003300000122100001001000010010000100100001001000012210000033000",
      "released": "2026-02-17",
-     "index": 34.2,
+     "index": 34.3,
      "coverage": 47,
      "ranked": false,
      "scores": {
@@ -1026,7 +1026,7 @@
      "title": "Lucky Charm of the Cheap Seats",
      "pixels": "1000000110000001110220111100001101000010100220012100001210111101",
      "released": "2026-07-08",
-     "index": 41.9,
+     "index": 41.7,
      "coverage": 95,
      "ranked": true,
      "scores": {
@@ -1044,7 +1044,7 @@
      "title": "The Obedient Wand",
      "pixels": "0000303302031200221121010122200220022210101211220021302033030000",
      "released": "2026-08-11",
-     "index": 44.5,
+     "index": 44.0,
      "coverage": 95,
      "ranked": true,
      "scores": {
@@ -1062,7 +1062,7 @@
      "title": "Familiar of Modest Upgrades",
      "pixels": "1002200130011003011001100002200012100121130220310011110000100100",
      "released": "2026-09-21",
-     "index": 53.2,
+     "index": 53.0,
      "coverage": 100,
      "ranked": true,
      "scores": {
@@ -1087,7 +1087,7 @@
      "title": "Wizard Emeritus",
      "pixels": "0001100022011022120000210030030012000021011001100010010023011032",
      "released": "2024-12-26",
-     "index": 15.5,
+     "index": 15.6,
      "coverage": 32,
      "ranked": false,
      "scores": {
@@ -1103,7 +1103,7 @@
      "title": "Wizard Emeritus",
      "pixels": "2010010202022020000000003021120330211203000000000202202020100102",
      "released": "2025-03-24",
-     "index": 18.0,
+     "index": 18.1,
      "coverage": 32,
      "ranked": false,
      "scores": {
@@ -1119,7 +1119,7 @@
      "title": "Wizard Emeritus of Solid Forms",
      "pixels": "1120021132033023201111020110011010333301103113010001100010011001",
      "released": "2025-08-21",
-     "index": 21.1,
+     "index": 21.5,
      "coverage": 37,
      "ranked": false,
      "scores": {
@@ -1134,7 +1134,7 @@
      "title": "Wizard Emeritus",
      "pixels": "0000000021000012012002102020020201300310001001001012210102111120",
      "released": "2025-09-22",
-     "index": 17.2,
+     "index": 17.8,
      "coverage": 39,
      "ranked": false,
      "scores": {
@@ -1150,7 +1150,7 @@
      "title": "Wizard Emeritus of Solid Forms",
      "pixels": "1110011100100100002112000200002010100101220000221101101110000001",
      "released": "2025-09-29",
-     "index": 19.8,
+     "index": 20.2,
      "coverage": 37,
      "ranked": false,
      "scores": {
@@ -1166,7 +1166,7 @@
      "title": "Wizard Emeritus of Solid Forms",
      "pixels": "0111111000000000212002120022220000222200212002120000000001111110",
      "released": "2025-12-01",
-     "index": 18.4,
+     "index": 18.6,
      "coverage": 37,
      "ranked": false,
      "scores": {
@@ -1183,7 +1183,7 @@
      "title": "Wizard Emeritus of the Terminal",
      "pixels": "0202202000011000000000002102201221022012000000000001100002022020",
      "released": "2026-04-24",
-     "index": 35.3,
+     "index": 35.4,
      "coverage": 100,
      "ranked": false,
      "scores": {
@@ -1201,7 +1201,7 @@
      "title": "Old Sea-Dog of August",
      "pixels": "1203302100100100100000011020020110200201100000010010010012033021",
      "released": "2026-08-13",
-     "index": 46.0,
+     "index": 45.8,
      "coverage": 65,
      "ranked": true,
      "scores": {
@@ -1222,7 +1222,7 @@
      "title": "Wizard Emeritus",
      "pixels": "0032230003111130000000003200002310000001101111010020020020222202",
      "released": "2026-04-24",
-     "index": 38.3,
+     "index": 38.4,
      "coverage": 84,
      "ranked": false,
      "scores": {
@@ -1240,7 +1240,7 @@
      "title": "Forgotten Pearl of July",
      "pixels": "0211112011000011003113000111111001111110003113001100001102111120",
      "released": "2026-07-31",
-     "index": 35.1,
+     "index": 35.4,
      "coverage": 74,
      "ranked": true,
      "scores": {
@@ -1275,7 +1275,7 @@
      "title": "Penny Prophet of Tall Tales",
      "pixels": "2100001200311300312002131020020122000022211221120101101010100101",
      "released": "2026-10-17",
-     "index": 55.4,
+     "index": 55.5,
      "coverage": 100,
      "ranked": true,
      "scores": {
@@ -1299,7 +1299,7 @@
      "title": "Wizard Emeritus of Riddles",
      "pixels": "0200002102212001000232220000010000100000222320001002122012000020",
      "released": "2025-07-11",
-     "index": 18.3,
+     "index": 18.4,
      "coverage": 28,
      "ranked": false,
      "scores": {
@@ -1328,7 +1328,7 @@
      "title": "Wizard Emeritus of Solid Forms",
      "pixels": "3102013000022301210031200010021331200100021300121032200003102013",
      "released": "2026-01-27",
-     "index": 28.6,
+     "index": 28.8,
      "coverage": 37,
      "ranked": false,
      "scores": {
@@ -1345,7 +1345,7 @@
      "title": "Wizard Emeritus of Fair Design",
      "pixels": "0000000021100112101001010320023001233210002002000332233032200223",
      "released": "2026-04-20",
-     "index": 31.0,
+     "index": 31.5,
      "coverage": 68,
      "ranked": false,
      "scores": {
@@ -1363,7 +1363,7 @@
      "title": "Moonshot's Open-Handed Elder",
      "pixels": "2011110201233210100110011013310110133101100110010123321020111102",
      "released": "2026-07-16",
-     "index": 49.8,
+     "index": 49.9,
      "coverage": 100,
      "ranked": true,
      "scores": {
@@ -1382,7 +1382,7 @@
      "title": "Moon-Bound Master of the Shell",
      "pixels": "0000000000000000010110100013310020011002300220033100001310000001",
      "released": "2026-10-23",
-     "index": 68.3,
+     "index": 68.4,
      "coverage": 89,
      "ranked": true,
      "scores": {
@@ -1420,7 +1420,7 @@
      "title": "Wizard Emeritus of Solid Forms",
      "pixels": "2031203202020031101011001101001221001011001101011300202023021302",
      "released": "2025-09-30",
-     "index": 17.8,
+     "index": 18.4,
      "coverage": 37,
      "ranked": false,
      "scores": {
@@ -1436,7 +1436,7 @@
      "title": "Wizard Emeritus of Solid Forms",
      "pixels": "2001100200000000312002131200002112000021312002130000000020011002",
      "released": "2025-12-22",
-     "index": 28.1,
+     "index": 27.2,
      "coverage": 37,
      "ranked": false,
      "scores": {
@@ -1486,7 +1486,7 @@
      "title": "Wizard Emeritus of Fair Design",
      "pixels": "0111111000000000002112001030030101011010010000100100001000011000",
      "released": "2026-05-16",
-     "index": 36.0,
+     "index": 36.2,
      "coverage": 95,
      "ranked": false,
      "scores": {
@@ -1505,7 +1505,7 @@
      "title": "Smith Who Never Second-Guesses",
      "pixels": "0001100021000012300000030032230001222210320220231000000101022010",
      "released": "2026-08-14",
-     "index": 56.1,
+     "index": 56.3,
      "coverage": 92,
      "ranked": true,
      "scores": {
@@ -1528,7 +1528,7 @@
      "title": "Initiate of Riddles",
      "pixels": "1010002000110001110100001120121001210211000010111000110002000101",
      "released": "2026-07-09",
-     "index": 26.4,
+     "index": 26.6,
      "coverage": 42,
      "ranked": false,
      "scores": {
@@ -1545,7 +1545,7 @@
      "title": "Humble Subagent of the Glade",
      "pixels": "2001210201000000000130021001000000001001200310000000001020121002",
      "released": "2026-08-05",
-     "index": 35.8,
+     "index": 35.9,
      "coverage": 84,
      "ranked": true,
      "scores": {
@@ -1563,7 +1563,7 @@
      "title": "The Spark Who Claimed the Sun",
      "pixels": "0022220021100112100000011010010110100101100000012110011200222200",
      "released": "2026-09-02",
-     "index": 55.1,
+     "index": 55.4,
      "coverage": 100,
      "ranked": true,
      "scores": {

@@ -1,0 +1,299 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>AI Basics: Models, Agents, Harnesses and MCP | WizardIndex</title>
+  <meta name="description" content="What is an AI model, an agent, a harness, MCP or a skill? Plain-English answers to the questions people ask about AI, each with a link you can send on.">
+  <link rel="canonical" href="https://suidvandiewereld.github.io/WizardIndex/learn.html">
+  <meta property="og:type" content="article">
+  <meta property="og:site_name" content="WizardIndex">
+  <meta property="og:title" content="AI Basics: Models, Agents, Harnesses and MCP">
+  <meta property="og:description" content="What is an AI model, an agent, a harness, MCP or a skill? Plain-English answers to the questions people ask about AI, each with a link you can send on.">
+  <meta property="og:url" content="https://suidvandiewereld.github.io/WizardIndex/learn.html">
+  <meta property="og:image" content="https://suidvandiewereld.github.io/WizardIndex/og.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="WizardIndex: which AI is actually the best software engineer?">
+  <meta name="twitter:card" content="summary_large_image">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "AI Basics: Models, Agents, Harnesses and MCP",
+    "description": "What is an AI model, an agent, a harness, MCP or a skill? Plain-English answers to the questions people ask about AI, each with a link you can send on.",
+    "url": "https://suidvandiewereld.github.io/WizardIndex/learn.html",
+    "mainEntityOfPage": "https://suidvandiewereld.github.io/WizardIndex/learn.html",
+    "image": "https://suidvandiewereld.github.io/WizardIndex/og.png",
+    "author": {
+      "@type": "Organization",
+      "name": "WizardIndex",
+      "url": "https://suidvandiewereld.github.io/WizardIndex/"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "WizardIndex",
+      "url": "https://suidvandiewereld.github.io/WizardIndex/"
+    }
+  }
+  </script>
+  <link rel="icon" href="hat.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="container">
+    <div id="header">
+      <a href="./" class="logo">
+        <img src="hat.svg" alt="" width="78" height="66">
+        <span class="logo-words">
+          <span class="logo-text">WizardIndex</span>
+          <span class="tagline">Which AI is actually the best software engineer? Scored from official leaderboards, not press releases.</span>
+        </span>
+      </a>
+      <dl class="head-stats">
+        <div><dt>Models ranked</dt><dd id="hs-ranked">&nbsp;</dd></div>
+        <div><dt>Benchmarks</dt><dd id="hs-bench">&nbsp;</dd></div>
+        <div><dt>Updated</dt><dd id="head-stamp">&nbsp;</dd></div>
+      </dl>
+    </div>
+
+    <ul id="tabs">
+      <li><a href="./">Rankings</a></li>
+      <li><a href="history.html">History</a></li>
+      <li><a href="method.html">How it works</a></li>
+      <li class="current"><a href="learn.html">AI basics</a></li>
+      <li><a href="security.html">Security</a></li>
+      <li><a href="tools.html">Tools</a></li>
+      <li><a href="sources.html">Data sources</a></li>
+      <li><a href="data/index.json">Download data</a></li>
+      <li><a href="https://github.com/suidvandiewereld/WizardIndex">Source code</a></li>
+    </ul>
+
+    <div id="body">
+      <div id="main">
+        <h1>AI basics, in plain English</h1>
+        <p>The questions people ask us about AI, answered without the jargon or the hype. Every question has its own <b>link</b>: click it to copy an address that opens straight on that answer, ready to send to whoever asked.</p>
+
+        <h2 id="models">Models</h2>
+
+        <div class="qa" id="model">
+          <h3>What is a model? <a class="permalink" href="#model">link</a></h3>
+          <div class="qa-body">
+            <p class="verdict"><b>In short:</b> the trained "brain" behind an AI product. A very large file of numbers that reads text (and often images) and predicts what should come next.</p>
+            <p>A model learns by being shown enormous amounts of text and code until it gets very good at continuing them. That is how it learns to answer questions, write code and follow instructions. On its own it can't browse, run anything or remember you between conversations: it reads what it is given and writes a reply.</p>
+            <p>ChatGPT, Claude and Gemini are <i>apps</i>. GPT-6.1 Sol, Claude Opus 5.5 and Gemini 4 Argon are <i>models</i> inside them. WizardIndex ranks the models.</p>
+          </div>
+        </div>
+
+        <div class="qa" id="tokens">
+          <h3>What are tokens and the context window? <a class="permalink" href="#tokens">link</a></h3>
+          <div class="qa-body">
+            <p class="verdict"><b>In short:</b> models read and write in tokens, chunks of about three-quarters of an English word. The context window is how many tokens a model can see at once.</p>
+            <p>Everything the model knows about your task has to fit in that window: your instructions, the conversation so far, any files it has opened and its own reply. Anything outside the window it simply doesn't see. APIs charge per token, usually per million, and output costs more than input. A long agent session can easily get through millions of tokens.</p>
+          </div>
+        </div>
+
+        <div class="qa" id="reasoning">
+          <h3>What do "reasoning" and "effort" mean? <a class="permalink" href="#reasoning">link</a></h3>
+          <div class="qa-body">
+            <p class="verdict"><b>In short:</b> many models can think before they answer, writing out working you usually don't see. The effort setting (low, medium, high, xhigh, max) controls how much thinking they're allowed.</p>
+            <p>More effort usually means better results on hard problems, but slower and more expensive answers, because thinking tokens are billed like any other output. That is why leaderboards often list one model several times, and why WizardIndex notes the setting behind every result.</p>
+          </div>
+        </div>
+
+        <div class="qa" id="local">
+          <h3>What is the difference between a local model and an online one? <a class="permalink" href="#local">link</a></h3>
+          <div class="qa-body">
+            <p class="verdict"><b>In short:</b> an online model runs on the provider's servers and you reach it over the internet. A local model runs on your own computer: you download its weights (that file of numbers) and run them yourself.</p>
+            <table class="receipts compare">
+              <tr><th></th><th>Online (hosted)</th><th>Local</th></tr>
+              <tr><td class="skill">Strongest models</td><td>The very best models are online only</td><td>Open-weight models, usually a step behind the frontier</td></tr>
+              <tr><td class="skill">Privacy</td><td>Your prompts and files go to the provider</td><td>Nothing leaves your machine</td></tr>
+              <tr><td class="skill">Cost</td><td>Pay per token, or a monthly subscription</td><td>Free to run once you have the hardware</td></tr>
+              <tr><td class="skill">Hardware</td><td>Anything with a browser</td><td>A strong graphics card or lots of memory; bigger models need more</td></tr>
+              <tr><td class="skill">Internet</td><td>Required</td><td>Works offline</td></tr>
+            </table>
+            <p>Only <i>open-weight</i> models can run locally: families like Qwen, DeepSeek, Llama, Mistral, Gemma, GLM and Kimi publish their weights. The flagship models from Anthropic, OpenAI and Google are closed and online only. Local models are usually <i>quantized</i>, compressed to fit in memory at some cost in quality. <a href="https://ollama.com">Ollama</a> and <a href="https://lmstudio.ai">LM Studio</a> are the easiest ways to start.</p>
+          </div>
+        </div>
+
+        <h2 id="agents">Agents</h2>
+
+        <div class="qa" id="agent">
+          <h3>What is an agent? <a class="permalink" href="#agent">link</a></h3>
+          <div class="qa-body">
+            <p class="verdict"><b>In short:</b> a model put in a loop with tools, so it can act instead of only answering: read files, run commands, search the web, edit code, and keep going until the job is done.</p>
+            <p>A chatbot answers your message and stops. An agent takes a goal ("fix the failing test"), decides on a step, takes it, looks at what happened and adjusts, over and over. Claude Code, Codex, Gemini CLI, Cursor's agent and Devin are well-known coding agents.</p>
+          </div>
+        </div>
+
+        <div class="qa" id="agentic">
+          <h3>What does "agentic" mean? <a class="permalink" href="#agentic">link</a></h3>
+          <div class="qa-body">
+            <p class="verdict"><b>In short:</b> work where the model acts on its own over many steps, using tools, rather than giving a single reply.</p>
+            <p>An agentic coding task can run for hours: explore a codebase, change ten files, run the tests, fix what broke. A model can be brilliant in a chat and still be poor at this, because it has to plan, notice its own mistakes and not wander off. That is why WizardIndex scores agentic work as its own skill (the Agent column on the <a href="./">rankings</a>).</p>
+          </div>
+        </div>
+
+        <div class="qa" id="harness">
+          <h3>What is a harness? <a class="permalink" href="#harness">link</a></h3>
+          <div class="qa-body">
+            <p class="verdict"><b>In short:</b> the program around the model that turns it into an agent. It sends the model the task and a list of tools, runs the tools the model asks for, feeds the results back and decides when to stop.</p>
+            <p>Agent = model + harness. Claude Code, Codex, Gemini CLI, Cursor, Aider, OpenCode and mini-SWE-agent are all harnesses. The harness matters a lot: the same model can score more than ten points apart on one benchmark in two different harnesses. That is why leaderboards like Terminal-Bench list the agent next to the model, and why WizardIndex shows it beside each result.</p>
+          </div>
+        </div>
+
+        <div class="qa" id="loop">
+          <h3>How do agents work with models? <a class="permalink" href="#loop">link</a></h3>
+          <div class="qa-body">
+            <p class="verdict"><b>In short:</b> the harness and the model take turns. The model decides what to do next; the harness actually does it.</p>
+            <div class="flow" role="img" aria-label="You give a task to the harness. The harness and the model pass messages back and forth. Only the harness runs tools: files, the terminal, the web and MCP servers.">
+              <div class="flow-box f-you"><b>You</b><span>give a task</span></div>
+              <span class="flow-arrow f-a1" aria-hidden="true">&rarr;</span>
+              <div class="flow-box f-harness"><b>Harness</b><span>runs the loop</span></div>
+              <span class="flow-arrow f-a2" aria-hidden="true">&#8644;</span>
+              <div class="flow-box f-model"><b>Model</b><span>picks the next step</span></div>
+              <span class="flow-arrow f-a3" aria-hidden="true">&#8645;</span>
+              <div class="flow-box f-tools"><b>Tools</b><span>files, terminal, web, MCP</span></div>
+            </div>
+            <ol>
+              <li>You give the harness a task.</li>
+              <li>The harness sends the model your task, its standing instructions (the system prompt) and a description of every tool it may use.</li>
+              <li>The model replies with either an answer or a tool call: a structured request like "run <code>npm test</code>" or "open <code>src/app.js</code>".</li>
+              <li>The harness runs that tool, often after asking your permission, and sends the result back to the model.</li>
+              <li>Repeat until the model says it's done, or the harness stops it.</li>
+            </ol>
+            <p>The model never touches your computer itself. It only writes text; the harness decides what actually runs. That is why a harness's permissions matter so much: see <a href="security.html">Security</a>.</p>
+          </div>
+        </div>
+
+        <h2 id="using">Using models</h2>
+
+        <div class="qa" id="connect">
+          <h3>How do I connect a model to a harness? <a class="permalink" href="#connect">link</a></h3>
+          <div class="qa-body">
+            <p class="verdict"><b>In short:</b> a harness needs three things: where the model is, which model you want, and who pays.</p>
+            <table class="receipts compare">
+              <tr><th></th><th>What it is</th><th>Example</th></tr>
+              <tr><td class="skill">Where</td><td>The provider's address (the "base URL")</td><td><code>https://api.anthropic.com</code>, or <code>http://localhost:11434/v1</code> for Ollama on your machine</td></tr>
+              <tr><td class="skill">Which</td><td>The model's id, from the provider's model list</td><td>Whatever the provider calls it; the harness usually offers a menu</td></tr>
+              <tr><td class="skill">Who pays</td><td>An API key, or signing in with a subscription</td><td>A secret key from the provider's console; local models need none</td></tr>
+            </table>
+            <ul>
+              <li><b>A lab's own harness</b> (Claude Code, Codex, Gemini CLI): sign in with your subscription, or paste an API key from the same lab.</li>
+              <li><b>Open harnesses</b> (Aider, OpenCode, Cline and many more): pick a provider, paste its API key and choose a model.</li>
+              <li><b>Local models:</b> run Ollama or LM Studio. They serve the model at a local address that speaks the same language as OpenAI's API (<code>http://localhost:11434/v1</code> for Ollama, <code>http://localhost:1234/v1</code> for LM Studio). Point any harness that supports "OpenAI-compatible" providers at that address.</li>
+            </ul>
+            <p>Because so many providers copy OpenAI's API format, a harness that lets you change the base URL can usually talk to almost any model.</p>
+          </div>
+        </div>
+
+        <div class="qa" id="api">
+          <h3>Where can I get API access to models? <a class="permalink" href="#api">link</a></h3>
+          <div class="qa-body">
+            <p class="verdict"><b>In short:</b> from the lab that makes the model, from a cloud platform you already use, or from a router that resells many labs' models behind one key.</p>
+            <table class="receipts compare">
+              <tr><th></th><th>Where</th><th>Good for</th></tr>
+              <tr><td class="skill">The labs</td><td><a href="https://www.anthropic.com/api">Anthropic</a> (Claude), <a href="https://platform.openai.com">OpenAI</a> (GPT), <a href="https://aistudio.google.com">Google AI Studio</a> (Gemini), <a href="https://x.ai/api">xAI</a> (Grok), <a href="https://platform.deepseek.com">DeepSeek</a>, <a href="https://mistral.ai">Mistral</a>. Most other labs, like Moonshot (Kimi), Z.ai (GLM) and Alibaba (Qwen), run their own developer platforms too.</td><td>The newest models first, at list price</td></tr>
+              <tr><td class="skill">Cloud platforms</td><td><a href="https://aws.amazon.com/bedrock/">Amazon Bedrock</a>, <a href="https://cloud.google.com/vertex-ai">Google Cloud Vertex AI</a>, <a href="https://ai.azure.com">Microsoft Azure AI Foundry</a></td><td>Companies that already pay one of these and need their data agreements</td></tr>
+              <tr><td class="skill">Routers</td><td><a href="https://openrouter.ai">OpenRouter</a></td><td>One key and one bill for hundreds of models; easy to compare them</td></tr>
+              <tr><td class="skill">Run it yourself</td><td><a href="https://huggingface.co">Hugging Face</a> to download open weights; <a href="https://ollama.com">Ollama</a> or <a href="https://lmstudio.ai">LM Studio</a> to run them</td><td>Privacy, offline work, no per-token bill</td></tr>
+            </table>
+            <p>API use is billed per token and is separate from chat subscriptions like ChatGPT Plus or Claude Pro. Some harnesses accept a subscription instead, and for heavy use it can be far cheaper: the Thrift column on the <a href="./">rankings</a> accounts for that. An API key is a password that spends your money, so keep it secret: see <a href="security.html#data">Security</a>. More places to start, and what each is good for, are on <a href="tools.html">Tools</a>.</p>
+          </div>
+        </div>
+
+        <h2 id="extending">Giving agents more abilities</h2>
+
+        <div class="qa" id="tools">
+          <h3>What are tools? <a class="permalink" href="#tools">link</a></h3>
+          <div class="qa-body">
+            <p class="verdict"><b>In short:</b> the actions a harness lets the model take: read a file, run a command, search the web, call a service.</p>
+            <p>The model can only use the tools it is given. A chat app might give it web search and nothing else; a coding agent gives it your files and a terminal. Every tool is both an ability and a risk, which is why good harnesses ask before running anything that changes or sends something.</p>
+          </div>
+        </div>
+
+        <div class="qa" id="mcp">
+          <h3>What is MCP? <a class="permalink" href="#mcp">link</a></h3>
+          <div class="qa-body">
+            <p class="verdict"><b>In short:</b> the Model Context Protocol, a standard plug for giving agents new tools and data. An MCP server wraps something (GitHub, a database, your calendar, a browser) so any agent that speaks MCP can use it.</p>
+            <p>Before MCP, every harness needed its own integration for every service. Now a service can ship one MCP server and it works in Claude, ChatGPT, Cursor, VS Code and most coding agents. Anthropic started it in 2024 as an open standard, and it has since been adopted across the industry.</p>
+            <p>A server can run on your own machine or remotely, and you add it in the harness's settings. Each one adds tools the model can call and text the model will read, so only add servers you trust: see <a href="security.html#plugins">Security</a>.</p>
+          </div>
+        </div>
+
+        <div class="qa" id="skills">
+          <h3>What are skills? <a class="permalink" href="#skills">link</a></h3>
+          <div class="qa-body">
+            <p class="verdict"><b>In short:</b> a skill is a folder of instructions, sometimes with scripts and templates, that teaches an agent how to do one kind of task: your team's release checklist, how to build a spreadsheet, your house style.</p>
+            <p>The agent only sees each skill's name and one-line description until a task calls for it, then reads the full instructions. So you can install many skills without filling up the context window. A skill is plain files (a <code>SKILL.md</code> plus whatever it needs), which makes skills easy to write, share and read before you install one.</p>
+            <p>MCP and skills work well together: MCP gives an agent new abilities, and skills give it the know-how to use them well.</p>
+          </div>
+        </div>
+
+        <h2 id="rankings">Reading the rankings</h2>
+
+        <div class="qa" id="benchmark">
+          <h3>What is a benchmark, and why do leaderboards disagree? <a class="permalink" href="#benchmark">link</a></h3>
+          <div class="qa-body">
+            <p class="verdict"><b>In short:</b> a benchmark is a fixed set of tasks with a fixed way of scoring, so models can be compared fairly. Leaderboards disagree because they test different things, in different harnesses, at different effort settings.</p>
+            <p>A score only means something next to how it was measured: which tasks, which agent, which setting, how many tries. Benchmarks also go stale. Once a test's answers leak into training data ("contamination"), scores rise without models getting any better. WizardIndex prefers fresh or private tests and keeps the receipts for every number: see <a href="method.html">How it works</a>.</p>
+          </div>
+        </div>
+
+        <h2 id="glossary">Quick glossary</h2>
+        <dl class="glossary">
+          <dt>Frontier model</dt><dd>One of the most capable models available right now, usually from a big lab.</dd>
+          <dt>Open weights</dt><dd>A model whose weights are published, so anyone can download and run it. Not always fully open source: the training data and code usually aren't.</dd>
+          <dt>Quantization</dt><dd>Storing a model's numbers with less precision so it fits on smaller hardware. Smaller and faster, a little less capable.</dd>
+          <dt>Fine-tuning</dt><dd>Training an existing model a bit further on your own examples to change its behaviour.</dd>
+          <dt>Inference</dt><dd>Running a model to get an answer, as opposed to training it.</dd>
+          <dt>System prompt</dt><dd>Standing instructions the app or harness gives the model before your message: its role, rules and tools.</dd>
+          <dt>Hallucination</dt><dd>When a model states something false with confidence. The Truth column on the rankings measures how often models do it.</dd>
+          <dt>Multimodal</dt><dd>A model that handles more than text, like images, audio or video.</dd>
+          <dt>RAG</dt><dd>Retrieval-augmented generation: looking up relevant documents and putting them in the context window before the model answers.</dd>
+        </dl>
+      </div>
+
+      <div id="sidebar">
+        <div class="box toc">
+          <h3>On this page</h3>
+          <ul class="jump">
+            <li><a href="#model">What is a model?</a></li>
+            <li><a href="#tokens">Tokens and context</a></li>
+            <li><a href="#reasoning">Reasoning and effort</a></li>
+            <li><a href="#local">Local vs online</a></li>
+            <li><a href="#agent">What is an agent?</a></li>
+            <li><a href="#agentic">What is agentic?</a></li>
+            <li><a href="#harness">What is a harness?</a></li>
+            <li><a href="#loop">How agents work</a></li>
+            <li><a href="#connect">Connecting a model</a></li>
+            <li><a href="#api">Getting API access</a></li>
+            <li><a href="#tools">What are tools?</a></li>
+            <li><a href="#mcp">What is MCP?</a></li>
+            <li><a href="#skills">What are skills?</a></li>
+            <li><a href="#benchmark">Benchmarks</a></li>
+            <li><a href="#glossary">Glossary</a></li>
+          </ul>
+        </div>
+        <div class="box">
+          <h3>Sending someone an answer?</h3>
+          <p>Click <b>link</b> on any question to copy its address. It opens straight on that answer.</p>
+        </div>
+        <div class="box">
+          <h3>Also read</h3>
+          <p><a href="security.html">Security</a>: prompt injection, MCP and skills risks, and a checklist before you let an agent loose.</p>
+          <p><a href="method.html">How it works</a>: how WizardIndex turns leaderboards into one score.</p>
+        </div>
+      </div>
+    </div>
+
+    <div id="footer">
+      <p>WizardIndex &copy; 2026. Updated weekly. No models were flattered in the making of this table. <span id="foot-stamp"></span></p>
+    </div>
+  </div>
+
+  <script src="header.js"></script>
+  <script src="explain.js"></script>
+</body>
+</html>

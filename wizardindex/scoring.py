@@ -23,11 +23,16 @@
    no data at all are left out of the weights. Models below
    `ranking.min_dimensions`, with no `ranking.required_any` coding dimension, or released more
    than `ranking.max_age_days` ago are listed but not ranked.
+5. Estimates are checked against reality: every current model's measured score in a dimension is
+   hidden in turn and estimated as if it had never been tested. The root-mean-square miss is that
+   dimension's typical error, and a model's `margin` is how far its index moves if every estimated
+   dimension is off by that much in the same direction. `rank_range` is where it could land then.
 """
 
 from __future__ import annotations
 
 import math
+from bisect import bisect_left, bisect_right
 from collections import Counter, defaultdict
 from datetime import date
 
@@ -142,24 +147,22 @@ def build_index(
     # Only skills predict other skills; price says nothing about how well a model codes.
     skills = {d["id"] for d in live if d.get("skill", True)}
 
+    errors = _estimate_errors(per_model, field, medians, relatives, skills, min_dims)
+
     rows = []
     for m, (dim_scores, released, outdated) in per_model.items():
-        standing = [_percentile(field[k], v) for k, v in dim_scores.items() if k in skills]
-        pct = sum(standing) / len(standing) if standing else 0.5
         estimated, estimated_from = {}, {}
         for d in live:
             if d["id"] in dim_scores:
                 continue
-            kin = _from_relative(m, d["id"], per_model, field, relatives, skills)
+            estimated[d["id"]], kin = _estimate(m, d["id"], per_model, field, medians, relatives, skills)
             if kin:
-                estimated[d["id"]], estimated_from[d["id"]] = kin
-                continue
-            fit = _from_skills(m, d["id"], per_model, field, skills)
-            estimated[d["id"]] = fit if fit is not None else (_quantile(field[d["id"]], pct) + medians[d["id"]]) / 2
+                estimated_from[d["id"]] = kin
         filled = {**estimated, **dim_scores}
         score = sum(filled[d["id"]] * d["weight"] for d in live) / live_weight
         weight = sum(d["weight"] for d in live if d["id"] in dim_scores)
         coverage = round(100 * weight / live_weight)
+        margin = sum(errors[d["id"]] * d["weight"] for d in live if d["id"] in estimated) / live_weight
         raw = {
             bid: {k: best[m][k] for k in ("score", "ci", "effort", "model_raw", "notes", "list_price", "plan") if k in best[m]}
             for bid, best in bench_best.items() if m in best
@@ -172,6 +175,7 @@ def build_index(
             "released": released,
             "outdated": outdated,
             "index": round(score, 1),
+            "margin": round(margin, 1),
             "coverage": coverage,
             "ranked": (
                 not outdated
@@ -186,12 +190,25 @@ def build_index(
         })
 
     rows.sort(key=lambda r: (not r["ranked"], -r["index"]))
-    rank = 0
-    for r in rows:
-        if r["ranked"]:
-            rank += 1
-            r["rank"] = rank
-    return {"models": rows, "medians": {k: round(v, 1) for k, v in medians.items()}}
+    ranked = [r for r in rows if r["ranked"]]
+    for rank, r in enumerate(ranked, 1):
+        r["rank"] = rank
+    # Best and worst rank if every model's estimates are off by their typical error: above it for
+    # sure are the models whose low end beats its high end; above it possibly, any whose high end beats its low end.
+    for r in ranked:
+        lo, hi = r["index"] - r["margin"], r["index"] + r["margin"]
+        others = [o for o in ranked if o is not r]
+        r["rank_range"] = [
+            1 + sum(o["index"] - o["margin"] > hi for o in others),
+            1 + sum(o["index"] + o["margin"] > lo for o in others),
+        ]
+    return {
+        "models": rows,
+        "medians": {k: round(v, 1) for k, v in medians.items()},
+        # Each dimension's share of the index, over the dimensions that have data.
+        "shares": {d["id"]: round(100 * d["weight"] / live_weight, 1) for d in live},
+        "estimate_errors": {k: round(v, 1) for k, v in errors.items()},
+    }
 
 
 def _cost_scale(costs: dict[str, float], lo: float, hi: float) -> dict[str, float]:
@@ -259,6 +276,46 @@ def _relatives(models: list[str], families: dict | None) -> dict[str, set[str]]:
     return kin
 
 
+def _estimate(model, dim, per_model, field, medians, relatives, skills):
+    """A model's score on a dimension it wasn't measured on: (score, relative it came from or None).
+
+    From its closest measured relative if it has one, else from its own skills where they predict
+    `dim`, else its average standing read off `dim`'s distribution, pulled halfway to the median.
+    """
+    kin = _from_relative(model, dim, per_model, field, relatives, skills)
+    if kin:
+        return kin
+    fit = _from_skills(model, dim, per_model, field, skills)
+    if fit is not None:
+        return fit, None
+    standing = [_percentile(field[k], v) for k, v in per_model[model][0].items() if k in skills]
+    pct = sum(standing) / len(standing) if standing else 0.5
+    return (_quantile(field[dim], pct) + medians[dim]) / 2, None
+
+
+def _estimate_errors(per_model, field, medians, relatives, skills, min_dims, min_trials=5):
+    """Each dimension's typical estimation error: hide a measured score, estimate it, compare.
+
+    Every current model measured on `dim` and on at least `min_dims` other skills (the kind of model
+    that gets ranked) has its `dim` score hidden in turn and estimated exactly as an untested model's
+    would be. Returns the root-mean-square miss per dimension; with fewer than `min_trials` such
+    models, the spread around the median instead, which is what guessing the median would miss by.
+    """
+    errors = {}
+    for dim, vals in field.items():
+        misses = []
+        for m, (ds, released, old) in per_model.items():
+            if old or dim not in ds or sum(k in skills and k != dim for k in ds) < min_dims:
+                continue
+            hidden = {**per_model, m: ({k: v for k, v in ds.items() if k != dim}, released, old)}
+            guess, _ = _estimate(m, dim, hidden, field, medians, relatives, skills)
+            misses.append(guess - ds[dim])
+        if len(misses) < min_trials:
+            misses = [v - medians[dim] for v in vals]
+        errors[dim] = math.sqrt(sum(x * x for x in misses) / len(misses))
+    return errors
+
+
 def _from_relative(model, dim, per_model, field, relatives, skills):
     """Estimate `dim` from the relative closest in release date that was measured on it.
 
@@ -322,8 +379,8 @@ def _from_skills(model, dim, per_model, field, skills, min_peers=8):
 
 def _percentile(sorted_vals: list[float], v: float) -> float:
     """Share of the field below v, counting ties as half."""
-    below = sum(x < v for x in sorted_vals)
-    ties = sum(x == v for x in sorted_vals)
+    below = bisect_left(sorted_vals, v)
+    ties = bisect_right(sorted_vals, v) - below
     return (below + ties / 2) / len(sorted_vals)
 
 
