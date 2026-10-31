@@ -1,0 +1,305 @@
+{
+  "benchmark": "frontierswe",
+  "fetched_at": "2026-10-29T07:58:29+00:00",
+  "meta": {
+    "url": "https://www.frontierswe.com/",
+    "via": "https://epoch.ai/benchmarks",
+    "credit": "Epoch AI, 'Capabilities & benchmarking', https://epoch.ai/benchmarks (CC BY 4.0)"
+  },
+  "results": [
+    {
+      "benchmark": "frontierswe",
+      "model": "gpt-6-astra",
+      "model_raw": "GPT-6 Astra",
+      "score": 65.508,
+      "ci": null,
+      "effort": "max",
+      "org": "OpenAI",
+      "release_date": "2026-09-03",
+      "notes": [
+        "via Epoch AI; source: https://www.frontierswe.com/",
+        "harness: proximus"
+      ]
+    },
+    {
+      "benchmark": "frontierswe",
+      "model": "opus-5-5",
+      "model_raw": "Claude Opus 5.5",
+      "score": 62.331,
+      "ci": null,
+      "effort": "max",
+      "org": "Anthropic",
+      "release_date": "2026-09-22",
+      "notes": [
+        "via Epoch AI; source: https://www.frontierswe.com/",
+        "harness: proximus"
+      ]
+    },
+    {
+      "benchmark": "frontierswe",
+      "model": "sonnet-5-5",
+      "model_raw": "Claude Sonnet 5.5",
+      "score": 61.889,
+      "ci": null,
+      "effort": "max",
+      "org": "Anthropic",
+      "release_date": "2026-09-28",
+      "notes": [
+        "via Epoch AI; source: https://www.frontierswe.com/",
+        "harness: proximus"
+      ]
+    },
+    {
+      "benchmark": "frontierswe",
+      "model": "fable-5-1",
+      "model_raw": "Claude Fable 5.1",
+      "score": 56.291,
+      "ci": null,
+      "effort": "max",
+      "org": "Anthropic",
+      "release_date": "2026-09-01",
+      "notes": [
+        "via Epoch AI; source: https://www.frontierswe.com/",
+        "harness: proximus"
+      ]
+    },
+    {
+      "benchmark": "frontierswe",
+      "model": "gemini-4-argon",
+      "model_raw": "Gemini 4 Argon",
+      "score": 54.961,
+      "ci": null,
+      "effort": "high",
+      "org": "Google DeepMind",
+      "release_date": "2026-09-30",
+      "notes": [
+        "via Epoch AI; source: https://www.frontierswe.com/",
+        "harness: proximus"
+      ]
+    },
+    {
+      "benchmark": "frontierswe",
+      "model": "opus-5",
+      "model_raw": "Claude Opus 5",
+      "score": 52.012,
+      "ci": null,
+      "effort": "max",
+      "org": "Anthropic",
+      "release_date": "2026-07-24",
+      "notes": [
+        "via Epoch AI; source: https://www.frontierswe.com/",
+        "harness: proximus"
+      ]
+    },
+    {
+      "benchmark": "frontierswe",
+      "model": "fable-5",
+      "model_raw": "Claude Fable 5",
+      "score": 46.964,
+      "ci": null,
+      "effort": "max",
+      "org": "Anthropic",
+      "release_date": "2026-06-09",
+      "notes": [
+        "via Epoch AI; source: https://www.frontierswe.com/",
+        "harness: proximus"
+      ]
+    },
+    {
+      "benchmark": "frontierswe",
+      "model": "haiku-5-5",
+      "model_raw": "Claude Haiku 5.5",
+      "score": 43.769,
+      "ci": null,
+      "effort": "max",
+      "org": "Anthropic",
+      "release_date": "2026-10-07",
+      "notes": [
+        "via Epoch AI; source: https://www.frontierswe.com/",
+        "harness: proximus"
+      ]
+    },
+    {
+      "benchmark": "frontierswe",
+      "model": "gpt-5-6-sol",
+      "model_raw": "GPT-5.6 Sol",
+      "score": 32.202,
+      "ci": null,
+      "effort": "max",
+      "org": "OpenAI",
+      "release_date": "2026-07-09",
+      "notes": [
+        "via Epoch AI; source: https://www.frontierswe.com/",
+        "harness: proximus"
+      ]
+    },
+    {
+      "benchmark": "frontierswe",
+      "model": "glm-5-3",
+      "model_raw": "GLM-5.3",
+      "score": 30.182,
+      "ci": null,
+      "effort": "max",
+      "org": "Z.ai (Zhipu AI)",
+      "release_date": "2026-08-14",
+      "notes": [
+        "via Epoch AI; source: https://www.frontierswe.com/",
+        "harness: proximus"
+      ]
+    },
+    {
+      "benchmark": "frontierswe",
+      "model": "grok-4-7",
+      "model_raw": "Grok 4.7",
+      "score": 29.505,
+      "ci": null,
+      "effort": "xhigh",
+      "org": "xAI",
+      "release_date": "2026-09-21",
+      "notes": [
+        "via Epoch AI; source: https://www.frontierswe.com/",
+        "harness: proximus"
+      ]
+    },
+    {
+      "benchmark": "frontierswe",
+      "model": "kimi-k3",
+      "model_raw": "Kimi K3",
+      "score": 25.865,
+      "ci": null,
+      "effort": "max",
+      "org": "Moonshot",
+      "release_date": "2026-07-16",
+      "notes": [
+        "via Epoch AI; source: https://www.frontierswe.com/",
+        "harness: proximus"
+      ]
+    },
+    {
+      "benchmark": "frontierswe",
+      "model": "muse-spark-1-3",
+      "model_raw": "Muse Spark 1.3",
+      "score": 25.802,
+      "ci": null,
+      "effort": "max",
+      "org": "Meta AI",
+      "release_date": "2026-09-02",
+      "notes": [
+        "via Epoch AI; source: https://www.frontierswe.com/",
+        "harness: proximus"
+      ]
+    },
+    {
+      "benchmark": "frontierswe",
+      "model": "grok-4-6",
+      "model_raw": "Grok 4.6",
+      "score": 25.286,
+      "ci": null,
+      "effort": "xhigh",
+      "org": "xAI",
+      "release_date": "2026-08-12",
+      "notes": [
+        "via Epoch AI; source: https://www.frontierswe.com/",
+        "harness: proximus"
+      ]
+    },
+    {
+      "benchmark": "frontierswe",
+      "model": "gemini-3-7-flash",
+      "model_raw": "Gemini 3.7 Flash",
+      "score": 20.261,
+      "ci": null,
+      "effort": "high",
+      "org": "Google DeepMind",
+      "release_date": "2026-08-13",
+      "notes": [
+        "via Epoch AI; source: https://www.frontierswe.com/",
+        "harness: proximus"
+      ]
+    },
+    {
+      "benchmark": "frontierswe",
+      "model": "gemini-3-8-flash",
+      "model_raw": "Gemini 3.8 Flash",
+      "score": 19.627,
+      "ci": null,
+      "effort": "high",
+      "org": "Google DeepMind",
+      "release_date": "2026-09-02",
+      "notes": [
+        "via Epoch AI; source: https://www.frontierswe.com/",
+        "harness: proximus"
+      ]
+    },
+    {
+      "benchmark": "frontierswe",
+      "model": "glm-5-3-flash",
+      "model_raw": "GLM-5.3 Flash",
+      "score": 18.125,
+      "ci": null,
+      "effort": "max",
+      "org": "Z.ai (Zhipu AI)",
+      "release_date": "2026-08-20",
+      "notes": [
+        "via Epoch AI; source: https://www.frontierswe.com/",
+        "harness: proximus"
+      ]
+    },
+    {
+      "benchmark": "frontierswe",
+      "model": "qwen3-8-max",
+      "model_raw": "Qwen3.8-Max-0902",
+      "score": 17.81,
+      "ci": null,
+      "effort": "xhigh",
+      "org": "Alibaba",
+      "release_date": "2026-09-01",
+      "notes": [
+        "via Epoch AI; source: https://www.frontierswe.com/",
+        "harness: proximus"
+      ]
+    },
+    {
+      "benchmark": "frontierswe",
+      "model": "qwen3-8-max",
+      "model_raw": "Qwen3.8-Max",
+      "score": 15.809,
+      "ci": null,
+      "effort": "xhigh",
+      "org": "Alibaba",
+      "release_date": "2026-08-02",
+      "notes": [
+        "via Epoch AI; source: https://www.frontierswe.com/",
+        "harness: proximus"
+      ]
+    },
+    {
+      "benchmark": "frontierswe",
+      "model": "muse-spark-1-2",
+      "model_raw": "Muse Spark 1.2",
+      "score": 11.97,
+      "ci": null,
+      "effort": "xhigh",
+      "org": "Meta AI",
+      "release_date": "2026-08-05",
+      "notes": [
+        "via Epoch AI; source: https://www.frontierswe.com/",
+        "harness: proximus"
+      ]
+    },
+    {
+      "benchmark": "frontierswe",
+      "model": "inkling",
+      "model_raw": "Inkling",
+      "score": 4.119,
+      "ci": null,
+      "effort": "xhigh",
+      "org": "Thinking Machines",
+      "release_date": "2026-07-15",
+      "notes": [
+        "via Epoch AI; source: https://www.frontierswe.com/",
+        "harness: proximus"
+      ]
+    }
+  ]
+}

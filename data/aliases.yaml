@@ -1,0 +1,41 @@
+# Fixes for model names the canonicalization rules in wizardindex/models.py get wrong.
+#
+# aliases: canonical id produced by the rules -> the id it should be
+# display: canonical id -> name shown on the site
+
+aliases:
+  4-7: opus-4-7                 # ARC Prize lists it as "Claude 4.7"
+  qwen3-8: qwen3-8-max          # "-max" is part of the name, not an effort level
+  qwen3-8-max-0902: qwen3-8-max
+  muse-spark-open-816b-a42b: muse-spark-open
+  deepseek-v3-2-reasoning-0925: deepseek-v3-2-exp
+  deepseek-v4-flash-0420: deepseek-v4-flash
+  deepseek-v4-pro-0424: deepseek-v4-pro
+  deepseek-v3-2-0925: deepseek-v3-2-exp
+  # SimpleBench names
+  fable: fable-5                # "Claude Fable", added the day after Fable 5's release
+  gpt-6-astra-pro: gpt-6-astra  # Pro mode is Astra's top setting; Epoch files it as effort "promax"
+  gpt-5-6-sol-pro: gpt-5-6-sol
+  qwen-3-6-flash: qwen3-6-flash
+  qwen-3-6-max-preview: qwen3-6-max-preview
+  qwen-3-7: qwen3-7
+  qwen-3-8-27b: qwen3-8-27b
+  qwen-3-8-2-4t-a95b: qwen3-8-2-4t-a95b
+  deepseek-3-2-speciale: deepseek-v3-2-speciale
+  # Artificial Analysis slugs
+  muse-wonder: muse-wonder-1-0
+  large-4: large-4-0
+  qwen3-8-max-0803: qwen3-8-max
+  step-5: step-5-preview
+  reflection-beam: beam-1-0
+  muse-glimmer-30b: muse-glimmer
+
+display:
+  qwen3-8-max: Qwen3.8 Max
+  glm-5-3: GLM-5.3
+  sonnet-5: Claude Sonnet 5
+  kimi-k3-1-pro: Kimi K3.1 Pro
+  gpt-6-1-terra: GPT-6.1 Terra
+  deepseek-v4-pro: DeepSeek V4 Pro
+  deepseek-v4-flash: DeepSeek V4 Flash
+  grok-4-1: Grok 4.1

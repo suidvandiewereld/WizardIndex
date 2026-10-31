@@ -1,0 +1,453 @@
+{
+  "benchmark": "blueprint-bench",
+  "fetched_at": "2026-10-29T07:59:00+00:00",
+  "meta": {
+    "url": "https://andonlabs.com/evals/blueprint-bench-2",
+    "via": "https://epoch.ai/benchmarks",
+    "credit": "Epoch AI, 'Capabilities & benchmarking', https://epoch.ai/benchmarks (CC BY 4.0)"
+  },
+  "results": [
+    {
+      "benchmark": "blueprint-bench",
+      "model": "fable-5",
+      "model_raw": "Claude Fable 5",
+      "score": 38.612,
+      "ci": null,
+      "effort": "unknown",
+      "org": "Anthropic",
+      "release_date": "2026-06-09",
+      "notes": [
+        "via Epoch AI; source: https://andonlabs.com/evals/blueprint-bench-2"
+      ]
+    },
+    {
+      "benchmark": "blueprint-bench",
+      "model": "gpt-5-5",
+      "model_raw": "GPT-5.5",
+      "score": 36.226,
+      "ci": null,
+      "effort": "unknown",
+      "org": "OpenAI",
+      "release_date": "2026-04-23",
+      "notes": [
+        "via Epoch AI; source: https://andonlabs.com/evals/blueprint-bench-2"
+      ]
+    },
+    {
+      "benchmark": "blueprint-bench",
+      "model": "gemini-3-5-flash",
+      "model_raw": "Gemini 3.5 Flash",
+      "score": 33.623,
+      "ci": null,
+      "effort": "unknown",
+      "org": "Google DeepMind",
+      "release_date": "2026-05-19",
+      "notes": [
+        "via Epoch AI; source: https://andonlabs.com/evals/blueprint-bench-2"
+      ]
+    },
+    {
+      "benchmark": "blueprint-bench",
+      "model": "gpt-5-6-sol",
+      "model_raw": "GPT-5.6 Sol",
+      "score": 33.623,
+      "ci": null,
+      "effort": "unknown",
+      "org": "OpenAI",
+      "release_date": "2026-07-09",
+      "notes": [
+        "via Epoch AI; source: https://andonlabs.com/evals/blueprint-bench-2"
+      ]
+    },
+    {
+      "benchmark": "blueprint-bench",
+      "model": "gpt-5-6-terra",
+      "model_raw": "GPT-5.6 Terra",
+      "score": 30.803,
+      "ci": null,
+      "effort": "unknown",
+      "org": "OpenAI",
+      "release_date": "2026-07-09",
+      "notes": [
+        "via Epoch AI; source: https://andonlabs.com/evals/blueprint-bench-2"
+      ]
+    },
+    {
+      "benchmark": "blueprint-bench",
+      "model": "grok-4-5",
+      "model_raw": "Grok 4.5",
+      "score": 27.332,
+      "ci": null,
+      "effort": "unknown",
+      "org": "xAI",
+      "release_date": "2026-07-08",
+      "notes": [
+        "via Epoch AI; source: https://andonlabs.com/evals/blueprint-bench-2"
+      ]
+    },
+    {
+      "benchmark": "blueprint-bench",
+      "model": "gpt-5-4",
+      "model_raw": "GPT-5.4",
+      "score": 27.115,
+      "ci": null,
+      "effort": "unknown",
+      "org": "OpenAI",
+      "release_date": "2026-03-05",
+      "notes": [
+        "via Epoch AI; source: https://andonlabs.com/evals/blueprint-bench-2"
+      ]
+    },
+    {
+      "benchmark": "blueprint-bench",
+      "model": "gemini-3-1-pro-preview",
+      "model_raw": "Gemini 3.1 Pro",
+      "score": 26.464,
+      "ci": null,
+      "effort": null,
+      "org": "Google DeepMind",
+      "release_date": "2026-02-19",
+      "notes": [
+        "via Epoch AI; source: https://andonlabs.com/evals/blueprint-bench-2"
+      ]
+    },
+    {
+      "benchmark": "blueprint-bench",
+      "model": "opus-4-7",
+      "model_raw": "Claude Opus 4.7",
+      "score": 24.512,
+      "ci": null,
+      "effort": "unknown",
+      "org": "Anthropic",
+      "release_date": "2026-04-16",
+      "notes": [
+        "via Epoch AI; source: https://andonlabs.com/evals/blueprint-bench-2"
+      ]
+    },
+    {
+      "benchmark": "blueprint-bench",
+      "model": "gpt-5-6-luna",
+      "model_raw": "GPT-5.6 Luna",
+      "score": 22.56,
+      "ci": null,
+      "effort": "unknown",
+      "org": "OpenAI",
+      "release_date": "2026-07-09",
+      "notes": [
+        "via Epoch AI; source: https://andonlabs.com/evals/blueprint-bench-2"
+      ]
+    },
+    {
+      "benchmark": "blueprint-bench",
+      "model": "opus-4-8",
+      "model_raw": "Claude Opus 4.8",
+      "score": 14.534,
+      "ci": null,
+      "effort": "unknown",
+      "org": "Anthropic",
+      "release_date": "2026-05-28",
+      "notes": [
+        "via Epoch AI; source: https://andonlabs.com/evals/blueprint-bench-2"
+      ]
+    },
+    {
+      "benchmark": "blueprint-bench",
+      "model": "sonnet-4-6",
+      "model_raw": "Claude Sonnet 4.6",
+      "score": 6.725,
+      "ci": null,
+      "effort": "unknown",
+      "org": "Anthropic",
+      "release_date": "2026-02-17",
+      "notes": [
+        "via Epoch AI; source: https://andonlabs.com/evals/blueprint-bench-2"
+      ]
+    },
+    {
+      "benchmark": "blueprint-bench",
+      "model": "kimi-k2-6",
+      "model_raw": "Kimi K2.6",
+      "score": 3.905,
+      "ci": null,
+      "effort": null,
+      "org": "Moonshot",
+      "release_date": "2026-04-20",
+      "notes": [
+        "via Epoch AI; source: https://andonlabs.com/evals/blueprint-bench-2"
+      ]
+    },
+    {
+      "benchmark": "blueprint-bench",
+      "model": "haiku-4-5",
+      "model_raw": "Claude Haiku 4.5",
+      "score": 0.0,
+      "ci": null,
+      "effort": "unknown",
+      "org": "Anthropic",
+      "release_date": "2025-10-15",
+      "notes": [
+        "via Epoch AI; source: https://andonlabs.com/evals/blueprint-bench-2"
+      ]
+    },
+    {
+      "benchmark": "blueprint-bench",
+      "model": "gemini-3-flash-preview",
+      "model_raw": "Gemini 3 Flash",
+      "score": 0.0,
+      "ci": null,
+      "effort": null,
+      "org": "Google DeepMind",
+      "release_date": "2025-12-17",
+      "notes": [
+        "via Epoch AI; source: https://andonlabs.com/evals/blueprint-bench-2"
+      ]
+    },
+    {
+      "benchmark": "blueprint-bench",
+      "model": "grok-4-20",
+      "model_raw": "Grok 4.20 Reasoning",
+      "score": 0.0,
+      "ci": null,
+      "effort": null,
+      "org": "xAI",
+      "release_date": "2026-02-17",
+      "notes": [
+        "via Epoch AI; source: https://andonlabs.com/evals/blueprint-bench-2"
+      ]
+    },
+    {
+      "benchmark": "blueprint-bench",
+      "model": "grok-4-3",
+      "model_raw": "Grok 4.3",
+      "score": 0.0,
+      "ci": null,
+      "effort": "unknown",
+      "org": "xAI",
+      "release_date": "2026-04-17",
+      "notes": [
+        "via Epoch AI; source: https://andonlabs.com/evals/blueprint-bench-2"
+      ]
+    },
+    {
+      "benchmark": "blueprint-bench",
+      "model": "gemini-3-6-flash",
+      "model_raw": "Gemini 3.6 Flash",
+      "score": 31.236,
+      "ci": null,
+      "effort": "unknown",
+      "org": "Google DeepMind",
+      "release_date": "2026-07-21",
+      "notes": [
+        "via Epoch AI; source: https://andonlabs.com/evals/blueprint-bench-2"
+      ]
+    },
+    {
+      "benchmark": "blueprint-bench",
+      "model": "opus-5",
+      "model_raw": "Claude Opus 5",
+      "score": 30.369,
+      "ci": null,
+      "effort": "unknown",
+      "org": "Anthropic",
+      "release_date": "2026-07-24",
+      "notes": [
+        "via Epoch AI; source: https://andonlabs.com/evals/blueprint-bench-2"
+      ]
+    },
+    {
+      "benchmark": "blueprint-bench",
+      "model": "kimi-k3",
+      "model_raw": "Kimi K3",
+      "score": 29.501,
+      "ci": null,
+      "effort": "unknown",
+      "org": "Moonshot",
+      "release_date": "2026-07-16",
+      "notes": [
+        "via Epoch AI; source: https://andonlabs.com/evals/blueprint-bench-2"
+      ]
+    },
+    {
+      "benchmark": "blueprint-bench",
+      "model": "gemini-robotics-er-1-6-preview",
+      "model_raw": "Gemini Robotics-ER 1.6",
+      "score": 0.0,
+      "ci": null,
+      "effort": null,
+      "org": "Google",
+      "release_date": "2026-04-14",
+      "notes": [
+        "via Epoch AI; source: https://andonlabs.com/evals/blueprint-bench-2"
+      ]
+    },
+    {
+      "benchmark": "blueprint-bench",
+      "model": "grok-4-6",
+      "model_raw": "Grok 4.6",
+      "score": 33.189,
+      "ci": null,
+      "effort": "unknown",
+      "org": "xAI",
+      "release_date": "2026-08-12",
+      "notes": [
+        "via Epoch AI; source: https://andonlabs.com/evals/blueprint-bench-2"
+      ]
+    },
+    {
+      "benchmark": "blueprint-bench",
+      "model": "sonnet-5",
+      "model_raw": "Claude Sonnet 5",
+      "score": 24.946,
+      "ci": null,
+      "effort": "unknown",
+      "org": "Anthropic",
+      "release_date": "2026-06-30",
+      "notes": [
+        "via Epoch AI; source: https://andonlabs.com/evals/blueprint-bench-2"
+      ]
+    },
+    {
+      "benchmark": "blueprint-bench",
+      "model": "fable-5-1",
+      "model_raw": "Claude Fable 5.1",
+      "score": 41.866,
+      "ci": null,
+      "effort": "unknown",
+      "org": "Anthropic",
+      "release_date": "2026-09-01",
+      "notes": [
+        "via Epoch AI; source: https://andonlabs.com/evals/blueprint-bench-2"
+      ]
+    },
+    {
+      "benchmark": "blueprint-bench",
+      "model": "gpt-6-astra",
+      "model_raw": "GPT-6 Astra",
+      "score": 49.675,
+      "ci": null,
+      "effort": "unknown",
+      "org": "OpenAI",
+      "release_date": "2026-09-03",
+      "notes": [
+        "via Epoch AI; source: https://andonlabs.com/evals/blueprint-bench-2"
+      ]
+    },
+    {
+      "benchmark": "blueprint-bench",
+      "model": "gemini-3-8-flash",
+      "model_raw": "Gemini 3.8 Flash",
+      "score": 38.612,
+      "ci": null,
+      "effort": "unknown",
+      "org": "Google DeepMind",
+      "release_date": "2026-09-02",
+      "notes": [
+        "via Epoch AI; source: https://andonlabs.com/evals/blueprint-bench-2"
+      ]
+    },
+    {
+      "benchmark": "blueprint-bench",
+      "model": "gpt-6-sol",
+      "model_raw": "GPT-6 Sol",
+      "score": 36.876,
+      "ci": null,
+      "effort": "unknown",
+      "org": "OpenAI",
+      "release_date": "2026-09-22",
+      "notes": [
+        "via Epoch AI; source: https://andonlabs.com/evals/blueprint-bench-2"
+      ]
+    },
+    {
+      "benchmark": "blueprint-bench",
+      "model": "gpt-6-luna",
+      "model_raw": "GPT-6 Luna",
+      "score": 31.236,
+      "ci": null,
+      "effort": "unknown",
+      "org": "OpenAI",
+      "release_date": "2026-09-22",
+      "notes": [
+        "via Epoch AI; source: https://andonlabs.com/evals/blueprint-bench-2"
+      ]
+    },
+    {
+      "benchmark": "blueprint-bench",
+      "model": "opus-5-5",
+      "model_raw": "Claude Opus 5.5",
+      "score": 51.193,
+      "ci": null,
+      "effort": "unknown",
+      "org": "Anthropic",
+      "release_date": "2026-09-22",
+      "notes": [
+        "via Epoch AI; source: https://andonlabs.com/evals/blueprint-bench-2"
+      ]
+    },
+    {
+      "benchmark": "blueprint-bench",
+      "model": "gemini-4-argon",
+      "model_raw": "Gemini 4 Argon",
+      "score": 54.447,
+      "ci": null,
+      "effort": "unknown",
+      "org": "Google DeepMind",
+      "release_date": "2026-09-30",
+      "notes": [
+        "via Epoch AI; source: https://andonlabs.com/evals/blueprint-bench-2"
+      ]
+    },
+    {
+      "benchmark": "blueprint-bench",
+      "model": "grok-4-7",
+      "model_raw": "Grok 4.7",
+      "score": 32.538,
+      "ci": null,
+      "effort": "unknown",
+      "org": "xAI",
+      "release_date": "2026-09-21",
+      "notes": [
+        "via Epoch AI; source: https://andonlabs.com/evals/blueprint-bench-2"
+      ]
+    },
+    {
+      "benchmark": "blueprint-bench",
+      "model": "sonnet-5-5",
+      "model_raw": "Claude Sonnet 5.5",
+      "score": 39.262,
+      "ci": null,
+      "effort": "unknown",
+      "org": "Anthropic",
+      "release_date": "2026-09-28",
+      "notes": [
+        "via Epoch AI; source: https://andonlabs.com/evals/blueprint-bench-2"
+      ]
+    },
+    {
+      "benchmark": "blueprint-bench",
+      "model": "haiku-5-5",
+      "model_raw": "Claude Haiku 5.5",
+      "score": 32.972,
+      "ci": null,
+      "effort": "unknown",
+      "org": "Anthropic",
+      "release_date": "2026-10-07",
+      "notes": [
+        "via Epoch AI; source: https://andonlabs.com/evals/blueprint-bench-2"
+      ]
+    },
+    {
+      "benchmark": "blueprint-bench",
+      "model": "gemini-4-carbon",
+      "model_raw": "Gemini 4 Carbon",
+      "score": 58.568,
+      "ci": null,
+      "effort": "unknown",
+      "org": "Google DeepMind",
+      "release_date": "2026-10-28",
+      "notes": [
+        "via Epoch AI; source: https://andonlabs.com/evals/blueprint-bench-2"
+      ]
+    }
+  ]
+}

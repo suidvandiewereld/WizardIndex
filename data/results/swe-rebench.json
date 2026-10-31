@@ -1,0 +1,172 @@
+{
+  "benchmark": "swe-rebench",
+  "fetched_at": "2026-10-29T07:58:27+00:00",
+  "meta": {
+    "url": "https://swe-rebench.com",
+    "task_window": {
+      "from": "2026-05-15",
+      "to": "2026-07-01"
+    }
+  },
+  "results": [
+    {
+      "benchmark": "swe-rebench",
+      "model": "qwen3-5-35b-a3b",
+      "model_raw": "Qwen3.5-35B-A3B",
+      "score": 17.12,
+      "ci": 2.09,
+      "effort": null,
+      "org": "alibaba",
+      "release_date": "2026-02-15",
+      "notes": []
+    },
+    {
+      "benchmark": "swe-rebench",
+      "model": "minimax-m3",
+      "model_raw": "MiniMax M3",
+      "score": 47.21,
+      "ci": 2.21,
+      "effort": null,
+      "org": "minimax",
+      "release_date": "2026-05-31",
+      "notes": [
+        "released 2026-05-31, after task window opened 2026-05-15: contamination possible"
+      ]
+    },
+    {
+      "benchmark": "swe-rebench",
+      "model": "glm-5-2",
+      "model_raw": "GLM-5.2 [high]",
+      "score": 62.88,
+      "ci": 2.33,
+      "effort": "high",
+      "org": "zhipu",
+      "release_date": "2026-05-16",
+      "notes": [
+        "released 2026-05-16, after task window opened 2026-05-15: contamination possible"
+      ]
+    },
+    {
+      "benchmark": "swe-rebench",
+      "model": "deepseek-v4-pro",
+      "model_raw": "DeepSeek-V4 Pro [high]",
+      "score": 40.18,
+      "ci": 2.53,
+      "effort": "high",
+      "org": "deepseek",
+      "release_date": "2026-04-24",
+      "notes": []
+    },
+    {
+      "benchmark": "swe-rebench",
+      "model": "mimo-v2-5-pro",
+      "model_raw": "MiMo V2.5 Pro",
+      "score": 46.49,
+      "ci": 1.06,
+      "effort": null,
+      "org": "xiaomi",
+      "release_date": "2026-03-22",
+      "notes": []
+    },
+    {
+      "benchmark": "swe-rebench",
+      "model": "qwen3-6-27b",
+      "model_raw": "Qwen3.6-27B",
+      "score": 31.17,
+      "ci": 3.28,
+      "effort": null,
+      "org": "alibaba",
+      "release_date": "2026-03-22",
+      "notes": []
+    },
+    {
+      "benchmark": "swe-rebench",
+      "model": "qwen3-6-35b-a3b",
+      "model_raw": "Qwen3.6-35B-A3B",
+      "score": 24.68,
+      "ci": 1.54,
+      "effort": null,
+      "org": "alibaba",
+      "release_date": "2026-03-14",
+      "notes": []
+    },
+    {
+      "benchmark": "swe-rebench",
+      "model": "gpt-5-6-luna",
+      "model_raw": "GPT-5.6 Luna [medium]",
+      "score": 43.6,
+      "ci": 2.88,
+      "effort": "medium",
+      "org": "openai",
+      "release_date": "2026-06-26",
+      "notes": [
+        "released 2026-06-26, after task window opened 2026-05-15: contamination possible"
+      ]
+    },
+    {
+      "benchmark": "swe-rebench",
+      "model": "gpt-5-6-sol",
+      "model_raw": "GPT-5.6 Sol [medium]",
+      "score": 62.34,
+      "ci": 3.59,
+      "effort": "medium",
+      "org": "openai",
+      "release_date": "2026-06-26",
+      "notes": [
+        "released 2026-06-26, after task window opened 2026-05-15: contamination possible"
+      ]
+    },
+    {
+      "benchmark": "swe-rebench",
+      "model": "grok-4-5",
+      "model_raw": "Grok 4.5 [high]",
+      "score": 63.78,
+      "ci": 1.17,
+      "effort": "high",
+      "org": "xai",
+      "release_date": "2026-07-08",
+      "notes": [
+        "released 2026-07-08, after task window opened 2026-05-15: contamination possible"
+      ]
+    },
+    {
+      "benchmark": "swe-rebench",
+      "model": "fable-5",
+      "model_raw": "Fable 5 [high]",
+      "score": 64.5,
+      "ci": 2.77,
+      "effort": "high",
+      "org": "anthropic",
+      "release_date": "2026-06-09",
+      "notes": [
+        "released 2026-06-09, after task window opened 2026-05-15: contamination possible"
+      ]
+    },
+    {
+      "benchmark": "swe-rebench",
+      "model": "opus-5",
+      "model_raw": "Opus 5 [high]",
+      "score": 63.42,
+      "ci": 2.65,
+      "effort": "high",
+      "org": "anthropic",
+      "release_date": "2026-07-24",
+      "notes": [
+        "released 2026-07-24, after task window opened 2026-05-15: contamination possible"
+      ]
+    },
+    {
+      "benchmark": "swe-rebench",
+      "model": "sonnet-5",
+      "model_raw": "Sonnet 5 [high]",
+      "score": 56.76,
+      "ci": 1.85,
+      "effort": "high",
+      "org": "anthropic",
+      "release_date": "2026-06-30",
+      "notes": [
+        "released 2026-06-30, after task window opened 2026-05-15: contamination possible"
+      ]
+    }
+  ]
+}

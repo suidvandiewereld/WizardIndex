@@ -1,0 +1,73 @@
+# Model lines shown on the History page. `match` is a regex on canonical model ids; `exclude`
+# drops side variants (vision, mini, fast...) so each line follows one product over time.
+# Scoring also uses these lines (plus `variants` below): a skill a model wasn't tested on is
+# estimated from its nearest relative that was.
+
+# Generations with less than this share of their score measured are listed but not charted.
+min_measured_to_chart: 40
+
+tracked_benchmarks:
+  # Benchmarks with long histories, shown as raw scores next to each generation.
+  - aa-hle
+  - aa-scicode
+  - arc-agi-2
+  - aa-terminal-bench
+  - webdev-arena
+  - design-arena-website
+
+families:
+  - name: Claude Opus
+    maker: Anthropic
+    match: ^opus-\d
+  - name: Claude Sonnet
+    maker: Anthropic
+    match: ^sonnet-\d
+  - name: Claude Haiku
+    maker: Anthropic
+    match: ^haiku-\d
+  - name: Claude Fable
+    maker: Anthropic
+    match: ^fable-\d
+  - name: GPT flagship (GPT-5 to Sol)
+    maker: OpenAI
+    match: ^gpt-(5(-[1-5])?|[\d-]+-sol)$
+  - name: GPT Terra
+    maker: OpenAI
+    match: ^gpt-[\d-]+-terra$
+  - name: GPT Luna
+    maker: OpenAI
+    match: ^gpt-[\d-]+-luna$
+  - name: Gemini Pro / Argon
+    maker: Google DeepMind
+    match: ^gemini-(\d+(-\d+)?-pro|\d+-argon)$
+  - name: Gemini Flash
+    maker: Google DeepMind
+    match: ^gemini-\d+(-\d+)?-flash$
+  - name: Grok
+    maker: xAI
+    match: ^grok-\d+(-\d+)?$
+  - name: DeepSeek V / Pro
+    maker: DeepSeek
+    match: ^deepseek-v\d
+    exclude: (flash|vision|speciale|none|exp-thinking)
+  - name: DeepSeek Flash
+    maker: DeepSeek
+    match: ^deepseek-v[\d-]+-flash(-\d{4})?$
+  - name: Kimi
+    maker: Moonshot AI
+    match: ^kimi-k\d
+    exclude: (preview|turbo|instruct|thinking|code)
+  - name: GLM
+    maker: Z.ai
+    match: ^glm-\d+(-\d+)?$
+  - name: Qwen Max
+    maker: Alibaba
+    match: ^qwen3?-?\d+(-\d+)?-max$
+  - name: Muse Spark
+    maker: Meta
+    match: ^muse-spark-\d+(-\d+)?$
+
+# Size or speed tiers of one model released side by side. Not charted on History (they are not
+# generations), but treated as relatives when estimating untested skills.
+variants:
+  - [muse-wonder-1-0, muse-wonder-full]

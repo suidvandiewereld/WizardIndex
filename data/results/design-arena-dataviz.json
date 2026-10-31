@@ -1,0 +1,1676 @@
+{
+  "benchmark": "design-arena-dataviz",
+  "fetched_at": "2026-10-29T07:58:38+00:00",
+  "meta": {
+    "url": "https://www.designarena.ai/leaderboard/dataviz",
+    "category": "dataviz",
+    "updated": "2026-10-29T06:05:25.385605+00:00",
+    "total_votes": 88784
+  },
+  "results": [
+    {
+      "benchmark": "design-arena-dataviz",
+      "model": "opus-5-5",
+      "model_raw": "claude-opus-5-5",
+      "score": 1394.0,
+      "ci": null,
+      "effort": null,
+      "org": null,
+      "release_date": null,
+      "notes": [
+        "683 blind votes, 64.4% win rate"
+      ]
+    },
+    {
+      "benchmark": "design-arena-dataviz",
+      "model": "kimi-k3",
+      "model_raw": "kimi-k3",
+      "score": 1351.0,
+      "ci": null,
+      "effort": null,
+      "org": null,
+      "release_date": null,
+      "notes": [
+        "731 blind votes, 63.2% win rate"
+      ]
+    },
+    {
+      "benchmark": "design-arena-dataviz",
+      "model": "fable-5-1",
+      "model_raw": "claude-fable-5-1",
+      "score": 1345.0,
+      "ci": null,
+      "effort": null,
+      "org": null,
+      "release_date": null,
+      "notes": [
+        "437 blind votes, 61.8% win rate"
+      ]
+    },
+    {
+      "benchmark": "design-arena-dataviz",
+      "model": "muse-spark-1-3",
+      "model_raw": "muse-spark-1.3",
+      "score": 1344.0,
+      "ci": null,
+      "effort": null,
+      "org": null,
+      "release_date": null,
+      "notes": [
+        "1431 blind votes, 58.1% win rate"
+      ]
+    },
+    {
+      "benchmark": "design-arena-dataviz",
+      "model": "hampshire",
+      "model_raw": "hampshire",
+      "score": 1335.0,
+      "ci": null,
+      "effort": null,
+      "org": null,
+      "release_date": null,
+      "notes": [
+        "1469 blind votes, 58.4% win rate"
+      ]
+    },
+    {
+      "benchmark": "design-arena-dataviz",
+      "model": "muse-spark-1-2",
+      "model_raw": "muse-spark-1.2",
+      "score": 1333.0,
+      "ci": null,
+      "effort": null,
+      "org": null,
+      "release_date": null,
+      "notes": [
+        "1804 blind votes, 57.4% win rate"
+      ]
+    },
+    {
+      "benchmark": "design-arena-dataviz",
+      "model": "opus-5",
+      "model_raw": "claude-opus-5",
+      "score": 1331.0,
+      "ci": null,
+      "effort": null,
+      "org": null,
+      "release_date": null,
+      "notes": [
+        "1790 blind votes, 58.5% win rate"
+      ]
+    },
+    {
+      "benchmark": "design-arena-dataviz",
+      "model": "gpt-6-astra",
+      "model_raw": "gpt-6-astra",
+      "score": 1331.0,
+      "ci": null,
+      "effort": null,
+      "org": null,
+      "release_date": null,
+      "notes": [
+        "374 blind votes, 60.2% win rate"
+      ]
+    },
+    {
+      "benchmark": "design-arena-dataviz",
+      "model": "gemini-4-argon",
+      "model_raw": "gemini-4-argon",
+      "score": 1331.0,
+      "ci": null,
+      "effort": null,
+      "org": null,
+      "release_date": null,
+      "notes": [
+        "366 blind votes, 61.5% win rate"
+      ]
+    },
+    {
+      "benchmark": "design-arena-dataviz",
+      "model": "gpt-5-6-sol",
+      "model_raw": "gpt-5.6-sol-xhigh",
+      "score": 1324.0,
+      "ci": null,
+      "effort": "xhigh",
+      "org": null,
+      "release_date": null,
+      "notes": [
+        "1474 blind votes, 55.9% win rate"
+      ]
+    },
+    {
+      "benchmark": "design-arena-dataviz",
+      "model": "gemini-3-7-flash",
+      "model_raw": "gemini-3.7-flash",
+      "score": 1318.0,
+      "ci": null,
+      "effort": null,
+      "org": null,
+      "release_date": null,
+      "notes": [
+        "1760 blind votes, 55.5% win rate"
+      ]
+    },
+    {
+      "benchmark": "design-arena-dataviz",
+      "model": "gpt-6-astra",
+      "model_raw": "gpt-6-astra-max",
+      "score": 1316.0,
+      "ci": null,
+      "effort": "max",
+      "org": null,
+      "release_date": null,
+      "notes": [
+        "221 blind votes, 57.9% win rate"
+      ]
+    },
+    {
+      "benchmark": "design-arena-dataviz",
+      "model": "muse-spark-1-3",
+      "model_raw": "muse-spark-1.3-max",
+      "score": 1311.0,
+      "ci": null,
+      "effort": "max",
+      "org": null,
+      "release_date": null,
+      "notes": [
+        "875 blind votes, 52.5% win rate"
+      ]
+    },
+    {
+      "benchmark": "design-arena-dataviz",
+      "model": "fable-5",
+      "model_raw": "claude-fable-5",
+      "score": 1305.0,
+      "ci": null,
+      "effort": null,
+      "org": null,
+      "release_date": null,
+      "notes": [
+        "1364 blind votes, 57.5% win rate"
+      ]
+    },
+    {
+      "benchmark": "design-arena-dataviz",
+      "model": "kimi-k3-1-pro",
+      "model_raw": "kimi-k3.1-pro",
+      "score": 1300.0,
+      "ci": null,
+      "effort": null,
+      "org": null,
+      "release_date": null,
+      "notes": [
+        "201 blind votes, 55.7% win rate"
+      ]
+    },
+    {
+      "benchmark": "design-arena-dataviz",
+      "model": "gpt-5-6-sol",
+      "model_raw": "gpt-5.6-sol",
+      "score": 1294.0,
+      "ci": null,
+      "effort": null,
+      "org": null,
+      "release_date": null,
+      "notes": [
+        "2981 blind votes, 52.7% win rate"
+      ]
+    },
+    {
+      "benchmark": "design-arena-dataviz",
+      "model": "deepseek-v4-1-flash",
+      "model_raw": "deepseek-v4-1-flash",
+      "score": 1292.0,
+      "ci": null,
+      "effort": null,
+      "org": null,
+      "release_date": null,
+      "notes": [
+        "987 blind votes, 50.3% win rate"
+      ]
+    },
+    {
+      "benchmark": "design-arena-dataviz",
+      "model": "gemini-3-6-flash",
+      "model_raw": "gemini-3.6-flash",
+      "score": 1291.0,
+      "ci": null,
+      "effort": null,
+      "org": null,
+      "release_date": null,
+      "notes": [
+        "3704 blind votes, 52.4% win rate"
+      ]
+    },
+    {
+      "benchmark": "design-arena-dataviz",
+      "model": "colorado",
+      "model_raw": "colorado",
+      "score": 1290.0,
+      "ci": null,
+      "effort": null,
+      "org": null,
+      "release_date": null,
+      "notes": [
+        "2626 blind votes, 47.5% win rate"
+      ]
+    },
+    {
+      "benchmark": "design-arena-dataviz",
+      "model": "glm-5-2",
+      "model_raw": "glm-5.2",
+      "score": 1286.0,
+      "ci": null,
+      "effort": null,
+      "org": null,
+      "release_date": null,
+      "notes": [
+        "3781 blind votes, 52% win rate"
+      ]
+    },
+    {
+      "benchmark": "design-arena-dataviz",
+      "model": "haiku-5-5",
+      "model_raw": "claude-haiku-5-5",
+      "score": 1285.0,
+      "ci": null,
+      "effort": null,
+      "org": null,
+      "release_date": null,
+      "notes": [
+        "299 blind votes, 52.5% win rate"
+      ]
+    },
+    {
+      "benchmark": "design-arena-dataviz",
+      "model": "grogu",
+      "model_raw": "grogu",
+      "score": 1284.0,
+      "ci": null,
+      "effort": null,
+      "org": null,
+      "release_date": null,
+      "notes": [
+        "5715 blind votes, 51.4% win rate"
+      ]
+    },
+    {
+      "benchmark": "design-arena-dataviz",
+      "model": "qwen3-8-max-preview",
+      "model_raw": "qwen3.8-max-preview",
+      "score": 1283.0,
+      "ci": null,
+      "effort": null,
+      "org": null,
+      "release_date": null,
+      "notes": [
+        "864 blind votes, 50.6% win rate"
+      ]
+    },
+    {
+      "benchmark": "design-arena-dataviz",
+      "model": "opus-4-6",
+      "model_raw": "claude-opus-4-6",
+      "score": 1280.0,
+      "ci": null,
+      "effort": null,
+      "org": null,
+      "release_date": null,
+      "notes": [
+        "1919 blind votes, 58.7% win rate"
+      ]
+    },
+    {
+      "benchmark": "design-arena-dataviz",
+      "model": "sonnet-4-6",
+      "model_raw": "claude-sonnet-4-6",
+      "score": 1279.0,
+      "ci": null,
+      "effort": null,
+      "org": null,
+      "release_date": null,
+      "notes": [
+        "1902 blind votes, 58.3% win rate"
+      ]
+    },
+    {
+      "benchmark": "design-arena-dataviz",
+      "model": "qwen3-7-plus",
+      "model_raw": "qwen3.7-plus",
+      "score": 1279.0,
+      "ci": null,
+      "effort": null,
+      "org": null,
+      "release_date": null,
+      "notes": [
+        "1459 blind votes, 51.3% win rate"
+      ]
+    },
+    {
+      "benchmark": "design-arena-dataviz",
+      "model": "qwen3-7",
+      "model_raw": "qwen3.7-max",
+      "score": 1276.0,
+      "ci": null,
+      "effort": "max",
+      "org": null,
+      "release_date": null,
+      "notes": [
+        "2534 blind votes, 53% win rate"
+      ]
+    },
+    {
+      "benchmark": "design-arena-dataviz",
+      "model": "gemini-3-8-flash",
+      "model_raw": "gemini-3.8-flash",
+      "score": 1275.0,
+      "ci": null,
+      "effort": null,
+      "org": null,
+      "release_date": null,
+      "notes": [
+        "551 blind votes, 51.7% win rate"
+      ]
+    },
+    {
+      "benchmark": "design-arena-dataviz",
+      "model": "large-4-0",
+      "model_raw": "mistral-large-4-0",
+      "score": 1274.0,
+      "ci": null,
+      "effort": null,
+      "org": null,
+      "release_date": null,
+      "notes": [
+        "404 blind votes, 51% win rate"
+      ]
+    },
+    {
+      "benchmark": "design-arena-dataviz",
+      "model": "deca-2-5-ultra-2",
+      "model_raw": "deca-2.5-ultra-2",
+      "score": 1273.0,
+      "ci": null,
+      "effort": null,
+      "org": null,
+      "release_date": null,
+      "notes": [
+        "235 blind votes, 53.6% win rate"
+      ]
+    },
+    {
+      "benchmark": "design-arena-dataviz",
+      "model": "opus-4-6",
+      "model_raw": "claude-opus-4-6-thinking",
+      "score": 1270.0,
+      "ci": null,
+      "effort": "thinking",
+      "org": null,
+      "release_date": null,
+      "notes": [
+        "1834 blind votes, 57.3% win rate"
+      ]
+    },
+    {
+      "benchmark": "design-arena-dataviz",
+      "model": "gpt-6-sol",
+      "model_raw": "gpt-6-sol",
+      "score": 1270.0,
+      "ci": null,
+      "effort": null,
+      "org": null,
+      "release_date": null,
+      "notes": [
+        "420 blind votes, 51.2% win rate"
+      ]
+    },
+    {
+      "benchmark": "design-arena-dataviz",
+      "model": "evergreen",
+      "model_raw": "evergreen",
+      "score": 1269.0,
+      "ci": null,
+      "effort": null,
+      "org": null,
+      "release_date": null,
+      "notes": [
+        "1783 blind votes, 50.2% win rate"
+      ]
+    },
+    {
+      "benchmark": "design-arena-dataviz",
+      "model": "yoda",
+      "model_raw": "yoda",
+      "score": 1268.0,
+      "ci": null,
+      "effort": null,
+      "org": null,
+      "release_date": null,
+      "notes": [
+        "3817 blind votes, 49.8% win rate"
+      ]
+    },
+    {
+      "benchmark": "design-arena-dataviz",
+      "model": "glm-5-turbo",
+      "model_raw": "glm-5-turbo",
+      "score": 1264.0,
+      "ci": null,
+      "effort": null,
+      "org": null,
+      "release_date": null,
+      "notes": [
+        "2703 blind votes, 55% win rate"
+      ]
+    },
+    {
+      "benchmark": "design-arena-dataviz",
+      "model": "gpt-5-5",
+      "model_raw": "gpt-5.5",
+      "score": 1263.0,
+      "ci": null,
+      "effort": null,
+      "org": null,
+      "release_date": null,
+      "notes": [
+        "1670 blind votes, 55.2% win rate"
+      ]
+    },
+    {
+      "benchmark": "design-arena-dataviz",
+      "model": "cortado",
+      "model_raw": "cortado",
+      "score": 1263.0,
+      "ci": null,
+      "effort": null,
+      "org": null,
+      "release_date": null,
+      "notes": [
+        "524 blind votes, 51.9% win rate"
+      ]
+    },
+    {
+      "benchmark": "design-arena-dataviz",
+      "model": "coconut",
+      "model_raw": "coconut",
+      "score": 1261.0,
+      "ci": null,
+      "effort": null,
+      "org": null,
+      "release_date": null,
+      "notes": [
+        "1594 blind votes, 53.5% win rate"
+      ]
+    },
+    {
+      "benchmark": "design-arena-dataviz",
+      "model": "notebook",
+      "model_raw": "notebook",
+      "score": 1260.0,
+      "ci": null,
+      "effort": null,
+      "org": null,
+      "release_date": null,
+      "notes": [
+        "1003 blind votes, 50% win rate"
+      ]
+    },
+    {
+      "benchmark": "design-arena-dataviz",
+      "model": "mimo-v2-5-pro",
+      "model_raw": "mimo-v2.5-pro",
+      "score": 1259.0,
+      "ci": null,
+      "effort": null,
+      "org": null,
+      "release_date": null,
+      "notes": [
+        "2157 blind votes, 50.6% win rate"
+      ]
+    },
+    {
+      "benchmark": "design-arena-dataviz",
+      "model": "sonnet-5",
+      "model_raw": "claude-sonnet-5",
+      "score": 1252.0,
+      "ci": null,
+      "effort": null,
+      "org": null,
+      "release_date": null,
+      "notes": [
+        "1576 blind votes, 52.9% win rate"
+      ]
+    },
+    {
+      "benchmark": "design-arena-dataviz",
+      "model": "mimo-v2-5",
+      "model_raw": "mimo-v2.5",
+      "score": 1251.0,
+      "ci": null,
+      "effort": null,
+      "org": null,
+      "release_date": null,
+      "notes": [
+        "3061 blind votes, 53.7% win rate"
+      ]
+    },
+    {
+      "benchmark": "design-arena-dataviz",
+      "model": "kimi-k2-6",
+      "model_raw": "kimi-k2.6",
+      "score": 1250.0,
+      "ci": null,
+      "effort": null,
+      "org": null,
+      "release_date": null,
+      "notes": [
+        "3369 blind votes, 52% win rate"
+      ]
+    },
+    {
+      "benchmark": "design-arena-dataviz",
+      "model": "opus-4-5",
+      "model_raw": "claude-opus-4-5",
+      "score": 1244.0,
+      "ci": null,
+      "effort": null,
+      "org": null,
+      "release_date": null,
+      "notes": [
+        "1495 blind votes, 58.5% win rate"
+      ]
+    },
+    {
+      "benchmark": "design-arena-dataviz",
+      "model": "opus-4-8",
+      "model_raw": "claude-opus-4-8",
+      "score": 1240.0,
+      "ci": null,
+      "effort": null,
+      "org": null,
+      "release_date": null,
+      "notes": [
+        "1884 blind votes, 52.8% win rate"
+      ]
+    },
+    {
+      "benchmark": "design-arena-dataviz",
+      "model": "gpt-5-6-terra",
+      "model_raw": "gpt-5.6-terra",
+      "score": 1240.0,
+      "ci": null,
+      "effort": null,
+      "org": null,
+      "release_date": null,
+      "notes": [
+        "5066 blind votes, 49.3% win rate"
+      ]
+    },
+    {
+      "benchmark": "design-arena-dataviz",
+      "model": "gemini-3-5-flash",
+      "model_raw": "gemini-3.5-flash",
+      "score": 1239.0,
+      "ci": null,
+      "effort": null,
+      "org": null,
+      "release_date": null,
+      "notes": [
+        "2065 blind votes, 53.2% win rate"
+      ]
+    },
+    {
+      "benchmark": "design-arena-dataviz",
+      "model": "riftrunner",
+      "model_raw": "riftrunner",
+      "score": 1239.0,
+      "ci": null,
+      "effort": null,
+      "org": null,
+      "release_date": null,
+      "notes": [
+        "639 blind votes, 61.8% win rate"
+      ]
+    },
+    {
+      "benchmark": "design-arena-dataviz",
+      "model": "galapagos",
+      "model_raw": "galapagos",
+      "score": 1236.0,
+      "ci": null,
+      "effort": null,
+      "org": null,
+      "release_date": null,
+      "notes": [
+        "1099 blind votes, 56.6% win rate"
+      ]
+    },
+    {
+      "benchmark": "design-arena-dataviz",
+      "model": "deca-2-5-mini",
+      "model_raw": "deca-2.5-mini",
+      "score": 1236.0,
+      "ci": null,
+      "effort": null,
+      "org": null,
+      "release_date": null,
+      "notes": [
+        "201 blind votes, 49.3% win rate"
+      ]
+    },
+    {
+      "benchmark": "design-arena-dataviz",
+      "model": "minimax-m3",
+      "model_raw": "minimax-m3",
+      "score": 1235.0,
+      "ci": null,
+      "effort": null,
+      "org": null,
+      "release_date": null,
+      "notes": [
+        "1417 blind votes, 51.2% win rate"
+      ]
+    },
+    {
+      "benchmark": "design-arena-dataviz",
+      "model": "deepocto",
+      "model_raw": "deepocto",
+      "score": 1233.0,
+      "ci": null,
+      "effort": null,
+      "org": null,
+      "release_date": null,
+      "notes": [
+        "2678 blind votes, 52.3% win rate"
+      ]
+    },
+    {
+      "benchmark": "design-arena-dataviz",
+      "model": "glm-5",
+      "model_raw": "glm-5",
+      "score": 1229.0,
+      "ci": null,
+      "effort": null,
+      "org": null,
+      "release_date": null,
+      "notes": [
+        "2803 blind votes, 53% win rate"
+      ]
+    },
+    {
+      "benchmark": "design-arena-dataviz",
+      "model": "qwen3-6-plus",
+      "model_raw": "qwen3.6-plus",
+      "score": 1229.0,
+      "ci": null,
+      "effort": null,
+      "org": null,
+      "release_date": null,
+      "notes": [
+        "3520 blind votes, 50.7% win rate"
+      ]
+    },
+    {
+      "benchmark": "design-arena-dataviz",
+      "model": "nex-n2-pro",
+      "model_raw": "nex-n2-pro",
+      "score": 1226.0,
+      "ci": null,
+      "effort": null,
+      "org": null,
+      "release_date": null,
+      "notes": [
+        "790 blind votes, 48.5% win rate"
+      ]
+    },
+    {
+      "benchmark": "design-arena-dataviz",
+      "model": "kimi-k2-7-code",
+      "model_raw": "kimi-k2.7-code",
+      "score": 1225.0,
+      "ci": null,
+      "effort": null,
+      "org": null,
+      "release_date": null,
+      "notes": [
+        "1096 blind votes, 48.3% win rate"
+      ]
+    },
+    {
+      "benchmark": "design-arena-dataviz",
+      "model": "gpt-5",
+      "model_raw": "gpt-5-high",
+      "score": 1222.0,
+      "ci": null,
+      "effort": "high",
+      "org": null,
+      "release_date": null,
+      "notes": [
+        "233 blind votes, 60.5% win rate"
+      ]
+    },
+    {
+      "benchmark": "design-arena-dataviz",
+      "model": "kimi-k2-5",
+      "model_raw": "kimi-k2.5",
+      "score": 1220.0,
+      "ci": null,
+      "effort": null,
+      "org": null,
+      "release_date": null,
+      "notes": [
+        "2906 blind votes, 51.3% win rate"
+      ]
+    },
+    {
+      "benchmark": "design-arena-dataviz",
+      "model": "grok-4-20-beta",
+      "model_raw": "grok-4-20-beta-reasoning",
+      "score": 1218.0,
+      "ci": null,
+      "effort": null,
+      "org": null,
+      "release_date": null,
+      "notes": [
+        "2206 blind votes, 52% win rate"
+      ]
+    },
+    {
+      "benchmark": "design-arena-dataviz",
+      "model": "gpt-6-luna",
+      "model_raw": "gpt-6-luna",
+      "score": 1214.0,
+      "ci": null,
+      "effort": null,
+      "org": null,
+      "release_date": null,
+      "notes": [
+        "525 blind votes, 44% win rate"
+      ]
+    },
+    {
+      "benchmark": "design-arena-dataviz",
+      "model": "gpt-5-6-luna",
+      "model_raw": "gpt-5.6-luna",
+      "score": 1212.0,
+      "ci": null,
+      "effort": null,
+      "org": null,
+      "release_date": null,
+      "notes": [
+        "1083 blind votes, 45.9% win rate"
+      ]
+    },
+    {
+      "benchmark": "design-arena-dataviz",
+      "model": "gemini-3-1-pro-preview",
+      "model_raw": "gemini-3.1-pro-preview",
+      "score": 1210.0,
+      "ci": null,
+      "effort": null,
+      "org": null,
+      "release_date": null,
+      "notes": [
+        "2420 blind votes, 52.2% win rate"
+      ]
+    },
+    {
+      "benchmark": "design-arena-dataviz",
+      "model": "minimax-m2-1",
+      "model_raw": "minimax-m2.1",
+      "score": 1207.0,
+      "ci": null,
+      "effort": null,
+      "org": null,
+      "release_date": null,
+      "notes": [
+        "442 blind votes, 57% win rate"
+      ]
+    },
+    {
+      "benchmark": "design-arena-dataviz",
+      "model": "mercury-3",
+      "model_raw": "mercury-3",
+      "score": 1207.0,
+      "ci": null,
+      "effort": null,
+      "org": null,
+      "release_date": null,
+      "notes": [
+        "242 blind votes, 45.5% win rate"
+      ]
+    },
+    {
+      "benchmark": "design-arena-dataviz",
+      "model": "gpt-5-1",
+      "model_raw": "gpt-5.1-low",
+      "score": 1205.0,
+      "ci": null,
+      "effort": "low",
+      "org": null,
+      "release_date": null,
+      "notes": [
+        "464 blind votes, 58% win rate"
+      ]
+    },
+    {
+      "benchmark": "design-arena-dataviz",
+      "model": "deepseek-v4-pro",
+      "model_raw": "deepseek-v4-pro",
+      "score": 1204.0,
+      "ci": null,
+      "effort": null,
+      "org": null,
+      "release_date": null,
+      "notes": [
+        "1172 blind votes, 48.7% win rate"
+      ]
+    },
+    {
+      "benchmark": "design-arena-dataviz",
+      "model": "glm-5v-turbo",
+      "model_raw": "glm-5v-turbo",
+      "score": 1202.0,
+      "ci": null,
+      "effort": null,
+      "org": null,
+      "release_date": null,
+      "notes": [
+        "2893 blind votes, 47.6% win rate"
+      ]
+    },
+    {
+      "benchmark": "design-arena-dataviz",
+      "model": "grok-4-20-beta",
+      "model_raw": "grok-4-20-beta-non-reasoning",
+      "score": 1200.0,
+      "ci": null,
+      "effort": null,
+      "org": null,
+      "release_date": null,
+      "notes": [
+        "2603 blind votes, 49.6% win rate"
+      ]
+    },
+    {
+      "benchmark": "design-arena-dataviz",
+      "model": "gpt-5-4",
+      "model_raw": "gpt-5.4-low",
+      "score": 1197.0,
+      "ci": null,
+      "effort": "low",
+      "org": null,
+      "release_date": null,
+      "notes": [
+        "1191 blind votes, 52.2% win rate"
+      ]
+    },
+    {
+      "benchmark": "design-arena-dataviz",
+      "model": "sonnet-3-7",
+      "model_raw": "claude-3.7-sonnet",
+      "score": 1197.0,
+      "ci": null,
+      "effort": null,
+      "org": null,
+      "release_date": null,
+      "notes": [
+        "279 blind votes, 62.7% win rate"
+      ]
+    },
+    {
+      "benchmark": "design-arena-dataviz",
+      "model": "glm-4-7",
+      "model_raw": "glm-4.7",
+      "score": 1196.0,
+      "ci": null,
+      "effort": null,
+      "org": null,
+      "release_date": null,
+      "notes": [
+        "1710 blind votes, 51.2% win rate"
+      ]
+    },
+    {
+      "benchmark": "design-arena-dataviz",
+      "model": "gpt-5-1",
+      "model_raw": "gpt-5.1-none",
+      "score": 1196.0,
+      "ci": null,
+      "effort": "none",
+      "org": null,
+      "release_date": null,
+      "notes": [
+        "471 blind votes, 55.8% win rate"
+      ]
+    },
+    {
+      "benchmark": "design-arena-dataviz",
+      "model": "gpt-5-1",
+      "model_raw": "gpt-5.1-high",
+      "score": 1195.0,
+      "ci": null,
+      "effort": "high",
+      "org": null,
+      "release_date": null,
+      "notes": [
+        "383 blind votes, 54.6% win rate"
+      ]
+    },
+    {
+      "benchmark": "design-arena-dataviz",
+      "model": "gpt-5-1",
+      "model_raw": "gpt-5.1-medium",
+      "score": 1193.0,
+      "ci": null,
+      "effort": "medium",
+      "org": null,
+      "release_date": null,
+      "notes": [
+        "473 blind votes, 55.2% win rate"
+      ]
+    },
+    {
+      "benchmark": "design-arena-dataviz",
+      "model": "macaroni",
+      "model_raw": "macaroni",
+      "score": 1187.0,
+      "ci": null,
+      "effort": null,
+      "org": null,
+      "release_date": null,
+      "notes": [
+        "1093 blind votes, 52% win rate"
+      ]
+    },
+    {
+      "benchmark": "design-arena-dataviz",
+      "model": "glm-4-5-air",
+      "model_raw": "glm-4.5-air",
+      "score": 1187.0,
+      "ci": null,
+      "effort": null,
+      "org": null,
+      "release_date": null,
+      "notes": [
+        "217 blind votes, 58.5% win rate"
+      ]
+    },
+    {
+      "benchmark": "design-arena-dataviz",
+      "model": "mumble",
+      "model_raw": "mumble",
+      "score": 1185.0,
+      "ci": null,
+      "effort": null,
+      "org": null,
+      "release_date": null,
+      "notes": [
+        "1284 blind votes, 50.4% win rate"
+      ]
+    },
+    {
+      "benchmark": "design-arena-dataviz",
+      "model": "deepseek-reasoner-r1",
+      "model_raw": "deepseek-reasoner-r1",
+      "score": 1183.0,
+      "ci": null,
+      "effort": null,
+      "org": null,
+      "release_date": null,
+      "notes": [
+        "266 blind votes, 60.9% win rate"
+      ]
+    },
+    {
+      "benchmark": "design-arena-dataviz",
+      "model": "gpt-5-4",
+      "model_raw": "gpt-5.4-none",
+      "score": 1182.0,
+      "ci": null,
+      "effort": "none",
+      "org": null,
+      "release_date": null,
+      "notes": [
+        "1290 blind votes, 50.1% win rate"
+      ]
+    },
+    {
+      "benchmark": "design-arena-dataviz",
+      "model": "grok-4-3",
+      "model_raw": "grok-4.3",
+      "score": 1181.0,
+      "ci": null,
+      "effort": null,
+      "org": null,
+      "release_date": null,
+      "notes": [
+        "3235 blind votes, 45% win rate"
+      ]
+    },
+    {
+      "benchmark": "design-arena-dataviz",
+      "model": "deepseek-v4-flash-0731",
+      "model_raw": "deepseek-v4-flash-0731",
+      "score": 1181.0,
+      "ci": null,
+      "effort": null,
+      "org": null,
+      "release_date": null,
+      "notes": [
+        "401 blind votes, 41.1% win rate"
+      ]
+    },
+    {
+      "benchmark": "design-arena-dataviz",
+      "model": "solar-pro4-direct",
+      "model_raw": "solar-pro4-direct",
+      "score": 1178.0,
+      "ci": null,
+      "effort": null,
+      "org": null,
+      "release_date": null,
+      "notes": [
+        "603 blind votes, 41.3% win rate"
+      ]
+    },
+    {
+      "benchmark": "design-arena-dataviz",
+      "model": "gpt-5",
+      "model_raw": "gpt-5",
+      "score": 1177.0,
+      "ci": null,
+      "effort": null,
+      "org": null,
+      "release_date": null,
+      "notes": [
+        "1268 blind votes, 50.5% win rate"
+      ]
+    },
+    {
+      "benchmark": "design-arena-dataviz",
+      "model": "qwen3-5-397b-a17b",
+      "model_raw": "qwen3.5-397b-a17b",
+      "score": 1176.0,
+      "ci": null,
+      "effort": null,
+      "org": null,
+      "release_date": null,
+      "notes": [
+        "267 blind votes, 53.2% win rate"
+      ]
+    },
+    {
+      "benchmark": "design-arena-dataviz",
+      "model": "step-3-7-flash",
+      "model_raw": "step-3.7-flash",
+      "score": 1174.0,
+      "ci": null,
+      "effort": null,
+      "org": null,
+      "release_date": null,
+      "notes": [
+        "1742 blind votes, 43% win rate"
+      ]
+    },
+    {
+      "benchmark": "design-arena-dataviz",
+      "model": "deepmolt",
+      "model_raw": "deepmolt",
+      "score": 1172.0,
+      "ci": null,
+      "effort": null,
+      "org": null,
+      "release_date": null,
+      "notes": [
+        "365 blind votes, 51.2% win rate"
+      ]
+    },
+    {
+      "benchmark": "design-arena-dataviz",
+      "model": "sonnet-4-5",
+      "model_raw": "claude-sonnet-4-5",
+      "score": 1168.0,
+      "ci": null,
+      "effort": null,
+      "org": null,
+      "release_date": null,
+      "notes": [
+        "1820 blind votes, 47.4% win rate"
+      ]
+    },
+    {
+      "benchmark": "design-arena-dataviz",
+      "model": "hy3-direct",
+      "model_raw": "hy3-direct",
+      "score": 1167.0,
+      "ci": null,
+      "effort": null,
+      "org": null,
+      "release_date": null,
+      "notes": [
+        "1260 blind votes, 39.6% win rate"
+      ]
+    },
+    {
+      "benchmark": "design-arena-dataviz",
+      "model": "gpt-5-3-codex",
+      "model_raw": "gpt-5.3-codex",
+      "score": 1165.0,
+      "ci": null,
+      "effort": null,
+      "org": null,
+      "release_date": null,
+      "notes": [
+        "720 blind votes, 50.6% win rate"
+      ]
+    },
+    {
+      "benchmark": "design-arena-dataviz",
+      "model": "glm-4-6",
+      "model_raw": "glm-4.6",
+      "score": 1162.0,
+      "ci": null,
+      "effort": null,
+      "org": null,
+      "release_date": null,
+      "notes": [
+        "365 blind votes, 52.6% win rate"
+      ]
+    },
+    {
+      "benchmark": "design-arena-dataviz",
+      "model": "opus-4-1",
+      "model_raw": "claude-opus-4-1-20250805",
+      "score": 1161.0,
+      "ci": null,
+      "effort": null,
+      "org": null,
+      "release_date": null,
+      "notes": [
+        "1594 blind votes, 47.9% win rate"
+      ]
+    },
+    {
+      "benchmark": "design-arena-dataviz",
+      "model": "glm-4-5",
+      "model_raw": "glm-4.5",
+      "score": 1160.0,
+      "ci": null,
+      "effort": null,
+      "org": null,
+      "release_date": null,
+      "notes": [
+        "319 blind votes, 53.3% win rate"
+      ]
+    },
+    {
+      "benchmark": "design-arena-dataviz",
+      "model": "sonnet-4-5",
+      "model_raw": "claude-sonnet-4-5-thinking",
+      "score": 1159.0,
+      "ci": null,
+      "effort": "thinking",
+      "org": null,
+      "release_date": null,
+      "notes": [
+        "1795 blind votes, 46% win rate"
+      ]
+    },
+    {
+      "benchmark": "design-arena-dataviz",
+      "model": "deepseek-v3-2",
+      "model_raw": "deepseek-v3p2",
+      "score": 1159.0,
+      "ci": null,
+      "effort": null,
+      "org": null,
+      "release_date": null,
+      "notes": [
+        "1102 blind votes, 48.2% win rate"
+      ]
+    },
+    {
+      "benchmark": "design-arena-dataviz",
+      "model": "inkling",
+      "model_raw": "inkling",
+      "score": 1158.0,
+      "ci": null,
+      "effort": null,
+      "org": null,
+      "release_date": null,
+      "notes": [
+        "699 blind votes, 37.8% win rate"
+      ]
+    },
+    {
+      "benchmark": "design-arena-dataviz",
+      "model": "rockhopper",
+      "model_raw": "rockhopper",
+      "score": 1157.0,
+      "ci": null,
+      "effort": null,
+      "org": null,
+      "release_date": null,
+      "notes": [
+        "1296 blind votes, 46.2% win rate"
+      ]
+    },
+    {
+      "benchmark": "design-arena-dataviz",
+      "model": "deepseek-v3-2-exp",
+      "model_raw": "deepseek-v3p2-exp",
+      "score": 1153.0,
+      "ci": null,
+      "effort": null,
+      "org": null,
+      "release_date": null,
+      "notes": [
+        "352 blind votes, 50.6% win rate"
+      ]
+    },
+    {
+      "benchmark": "design-arena-dataviz",
+      "model": "opus-4",
+      "model_raw": "claude-opus-4",
+      "score": 1146.0,
+      "ci": null,
+      "effort": null,
+      "org": null,
+      "release_date": null,
+      "notes": [
+        "266 blind votes, 57.9% win rate"
+      ]
+    },
+    {
+      "benchmark": "design-arena-dataviz",
+      "model": "medium-2508",
+      "model_raw": "mistral-medium-2508",
+      "score": 1145.0,
+      "ci": null,
+      "effort": null,
+      "org": null,
+      "release_date": null,
+      "notes": [
+        "1131 blind votes, 47.2% win rate"
+      ]
+    },
+    {
+      "benchmark": "design-arena-dataviz",
+      "model": "nemotron-3-ultra-550b-a55b",
+      "model_raw": "nemotron-3-ultra-550b-a55b",
+      "score": 1144.0,
+      "ci": null,
+      "effort": null,
+      "org": null,
+      "release_date": null,
+      "notes": [
+        "1197 blind votes, 37.6% win rate"
+      ]
+    },
+    {
+      "benchmark": "design-arena-dataviz",
+      "model": "minimax-m2-stable",
+      "model_raw": "minimax-m2-stable",
+      "score": 1141.0,
+      "ci": null,
+      "effort": null,
+      "org": null,
+      "release_date": null,
+      "notes": [
+        "202 blind votes, 50% win rate"
+      ]
+    },
+    {
+      "benchmark": "design-arena-dataviz",
+      "model": "mimo-v2-flash",
+      "model_raw": "mimo-v2-flash",
+      "score": 1138.0,
+      "ci": null,
+      "effort": null,
+      "org": null,
+      "release_date": null,
+      "notes": [
+        "1162 blind votes, 46.4% win rate"
+      ]
+    },
+    {
+      "benchmark": "design-arena-dataviz",
+      "model": "large-2512",
+      "model_raw": "mistral-large-2512",
+      "score": 1137.0,
+      "ci": null,
+      "effort": null,
+      "org": null,
+      "release_date": null,
+      "notes": [
+        "1091 blind votes, 45.7% win rate"
+      ]
+    },
+    {
+      "benchmark": "design-arena-dataviz",
+      "model": "qwen3-5-plus-02-15",
+      "model_raw": "qwen3.5-plus-02-15",
+      "score": 1136.0,
+      "ci": null,
+      "effort": null,
+      "org": null,
+      "release_date": null,
+      "notes": [
+        "920 blind votes, 44.8% win rate"
+      ]
+    },
+    {
+      "benchmark": "design-arena-dataviz",
+      "model": "gemini-2-5-flash-preview-09-2025",
+      "model_raw": "gemini-2.5-flash-preview-09-2025",
+      "score": 1135.0,
+      "ci": null,
+      "effort": null,
+      "org": null,
+      "release_date": null,
+      "notes": [
+        "212 blind votes, 49.1% win rate"
+      ]
+    },
+    {
+      "benchmark": "design-arena-dataviz",
+      "model": "gpt-5-mini",
+      "model_raw": "gpt-5-mini",
+      "score": 1132.0,
+      "ci": null,
+      "effort": null,
+      "org": null,
+      "release_date": null,
+      "notes": [
+        "1333 blind votes, 43.7% win rate"
+      ]
+    },
+    {
+      "benchmark": "design-arena-dataviz",
+      "model": "deepseek-v4-flash",
+      "model_raw": "deepseek-v4-flash",
+      "score": 1128.0,
+      "ci": null,
+      "effort": null,
+      "org": null,
+      "release_date": null,
+      "notes": [
+        "1106 blind votes, 40.7% win rate"
+      ]
+    },
+    {
+      "benchmark": "design-arena-dataviz",
+      "model": "hy3",
+      "model_raw": "hy3",
+      "score": 1126.0,
+      "ci": null,
+      "effort": null,
+      "org": null,
+      "release_date": null,
+      "notes": [
+        "266 blind votes, 36.1% win rate"
+      ]
+    },
+    {
+      "benchmark": "design-arena-dataviz",
+      "model": "haiku-4-5",
+      "model_raw": "claude-haiku-4-5",
+      "score": 1125.0,
+      "ci": null,
+      "effort": null,
+      "org": null,
+      "release_date": null,
+      "notes": [
+        "1131 blind votes, 45.6% win rate"
+      ]
+    },
+    {
+      "benchmark": "design-arena-dataviz",
+      "model": "glm-4-7-flash",
+      "model_raw": "glm-4.7-flash",
+      "score": 1124.0,
+      "ci": null,
+      "effort": null,
+      "org": null,
+      "release_date": null,
+      "notes": [
+        "311 blind votes, 45.3% win rate"
+      ]
+    },
+    {
+      "benchmark": "design-arena-dataviz",
+      "model": "medium-3-5",
+      "model_raw": "mistral-medium-3.5",
+      "score": 1121.0,
+      "ci": null,
+      "effort": null,
+      "org": null,
+      "release_date": null,
+      "notes": [
+        "811 blind votes, 43.2% win rate"
+      ]
+    },
+    {
+      "benchmark": "design-arena-dataviz",
+      "model": "sonnet-4",
+      "model_raw": "claude-sonnet-4",
+      "score": 1113.0,
+      "ci": null,
+      "effort": null,
+      "org": null,
+      "release_date": null,
+      "notes": [
+        "216 blind votes, 53.2% win rate"
+      ]
+    },
+    {
+      "benchmark": "design-arena-dataviz",
+      "model": "aescoder-4b",
+      "model_raw": "aescoder-4b",
+      "score": 1111.0,
+      "ci": null,
+      "effort": null,
+      "org": null,
+      "release_date": null,
+      "notes": [
+        "1422 blind votes, 42.3% win rate"
+      ]
+    },
+    {
+      "benchmark": "design-arena-dataviz",
+      "model": "qwen3",
+      "model_raw": "qwen3-max",
+      "score": 1101.0,
+      "ci": null,
+      "effort": "max",
+      "org": null,
+      "release_date": null,
+      "notes": [
+        "1024 blind votes, 41.2% win rate"
+      ]
+    },
+    {
+      "benchmark": "design-arena-dataviz",
+      "model": "trinity-large",
+      "model_raw": "trinity-large-thinking",
+      "score": 1099.0,
+      "ci": null,
+      "effort": "thinking",
+      "org": null,
+      "release_date": null,
+      "notes": [
+        "718 blind votes, 39.3% win rate"
+      ]
+    },
+    {
+      "benchmark": "design-arena-dataviz",
+      "model": "gpt-5-1-codex-mini",
+      "model_raw": "gpt-5.1-codex-mini",
+      "score": 1098.0,
+      "ci": null,
+      "effort": null,
+      "org": null,
+      "release_date": null,
+      "notes": [
+        "1216 blind votes, 40.6% win rate"
+      ]
+    },
+    {
+      "benchmark": "design-arena-dataviz",
+      "model": "grok-4-fast",
+      "model_raw": "grok-4-fast-non-reasoning",
+      "score": 1098.0,
+      "ci": null,
+      "effort": null,
+      "org": null,
+      "release_date": null,
+      "notes": [
+        "1279 blind votes, 42.1% win rate"
+      ]
+    },
+    {
+      "benchmark": "design-arena-dataviz",
+      "model": "deepseek-v3-1",
+      "model_raw": "deepseek-v3p1",
+      "score": 1097.0,
+      "ci": null,
+      "effort": null,
+      "org": null,
+      "release_date": null,
+      "notes": [
+        "275 blind votes, 46.2% win rate"
+      ]
+    },
+    {
+      "benchmark": "design-arena-dataviz",
+      "model": "deepseek-chat",
+      "model_raw": "deepseek-chat",
+      "score": 1090.0,
+      "ci": null,
+      "effort": null,
+      "org": null,
+      "release_date": null,
+      "notes": [
+        "240 blind votes, 50% win rate"
+      ]
+    },
+    {
+      "benchmark": "design-arena-dataviz",
+      "model": "grok-4-1-fast",
+      "model_raw": "grok-4-1-fast-reasoning",
+      "score": 1089.0,
+      "ci": null,
+      "effort": null,
+      "org": null,
+      "release_date": null,
+      "notes": [
+        "1097 blind votes, 40.3% win rate"
+      ]
+    },
+    {
+      "benchmark": "design-arena-dataviz",
+      "model": "intellect-3",
+      "model_raw": "intellect-3",
+      "score": 1079.0,
+      "ci": null,
+      "effort": null,
+      "org": null,
+      "release_date": null,
+      "notes": [
+        "1150 blind votes, 38.4% win rate"
+      ]
+    },
+    {
+      "benchmark": "design-arena-dataviz",
+      "model": "grok-4-1-fast",
+      "model_raw": "grok-4-1-fast-non-reasoning",
+      "score": 1065.0,
+      "ci": null,
+      "effort": null,
+      "org": null,
+      "release_date": null,
+      "notes": [
+        "1125 blind votes, 36.6% win rate"
+      ]
+    },
+    {
+      "benchmark": "design-arena-dataviz",
+      "model": "gemini-3-1-flash-lite-preview",
+      "model_raw": "gemini-3.1-flash-lite-preview",
+      "score": 1046.0,
+      "ci": null,
+      "effort": null,
+      "org": null,
+      "release_date": null,
+      "notes": [
+        "1164 blind votes, 33.3% win rate"
+      ]
+    },
+    {
+      "benchmark": "design-arena-dataviz",
+      "model": "grok-4-fast",
+      "model_raw": "grok-4-fast-reasoning",
+      "score": 1040.0,
+      "ci": null,
+      "effort": null,
+      "org": null,
+      "release_date": null,
+      "notes": [
+        "1273 blind votes, 34.4% win rate"
+      ]
+    },
+    {
+      "benchmark": "design-arena-dataviz",
+      "model": "grok-4",
+      "model_raw": "grok-4",
+      "score": 1032.0,
+      "ci": null,
+      "effort": null,
+      "org": null,
+      "release_date": null,
+      "notes": [
+        "559 blind votes, 36.9% win rate"
+      ]
+    },
+    {
+      "benchmark": "design-arena-dataviz",
+      "model": "grok-3",
+      "model_raw": "grok-3",
+      "score": 1031.0,
+      "ci": null,
+      "effort": null,
+      "org": null,
+      "release_date": null,
+      "notes": [
+        "648 blind votes, 39.2% win rate"
+      ]
+    },
+    {
+      "benchmark": "design-arena-dataviz",
+      "model": "mercury-2",
+      "model_raw": "mercury-2",
+      "score": 1015.0,
+      "ci": null,
+      "effort": null,
+      "org": null,
+      "release_date": null,
+      "notes": [
+        "1110 blind votes, 22.9% win rate"
+      ]
+    },
+    {
+      "benchmark": "design-arena-dataviz",
+      "model": "olmo-3-1-32b-think",
+      "model_raw": "olmo-3.1-32b-think",
+      "score": 904.0,
+      "ci": null,
+      "effort": null,
+      "org": null,
+      "release_date": null,
+      "notes": [
+        "432 blind votes, 19.9% win rate"
+      ]
+    }
+  ]
+}

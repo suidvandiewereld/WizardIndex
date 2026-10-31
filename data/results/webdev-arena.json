@@ -1,0 +1,1766 @@
+{
+  "benchmark": "webdev-arena",
+  "fetched_at": "2026-10-29T07:58:38+00:00",
+  "meta": {
+    "url": "https://web.lmarena.ai/leaderboard",
+    "via": "https://epoch.ai/benchmarks",
+    "credit": "Epoch AI, 'Capabilities & benchmarking', https://epoch.ai/benchmarks (CC BY 4.0)"
+  },
+  "results": [
+    {
+      "benchmark": "webdev-arena",
+      "model": "opus-5-5",
+      "model_raw": "claude-opus-5-5_max",
+      "score": 1820.31,
+      "ci": null,
+      "effort": "max",
+      "org": "Anthropic",
+      "release_date": "2026-09-22",
+      "notes": [
+        "via Epoch AI; source: https://arena.ai/leaderboard"
+      ]
+    },
+    {
+      "benchmark": "webdev-arena",
+      "model": "gpt-6-astra",
+      "model_raw": "gpt-6-astra_max",
+      "score": 1800.28,
+      "ci": null,
+      "effort": "max",
+      "org": "OpenAI",
+      "release_date": "2026-09-03",
+      "notes": [
+        "via Epoch AI; source: https://arena.ai/leaderboard"
+      ]
+    },
+    {
+      "benchmark": "webdev-arena",
+      "model": "sonnet-5-5",
+      "model_raw": "claude-sonnet-5-5_xhigh",
+      "score": 1786.26,
+      "ci": null,
+      "effort": "xhigh",
+      "org": "Anthropic",
+      "release_date": "2026-09-28",
+      "notes": [
+        "via Epoch AI; source: https://arena.ai/leaderboard"
+      ]
+    },
+    {
+      "benchmark": "webdev-arena",
+      "model": "gpt-6-1-sol",
+      "model_raw": "gpt-6.1-sol_max",
+      "score": 1758.72,
+      "ci": null,
+      "effort": "max",
+      "org": "OpenAI",
+      "release_date": "2026-09-29",
+      "notes": [
+        "via Epoch AI; source: https://arena.ai/leaderboard"
+      ]
+    },
+    {
+      "benchmark": "webdev-arena",
+      "model": "fable-5-1",
+      "model_raw": "claude-fable-5-1_max",
+      "score": 1758.05,
+      "ci": null,
+      "effort": "max",
+      "org": "Anthropic",
+      "release_date": "2026-09-01",
+      "notes": [
+        "via Epoch AI; source: https://arena.ai/leaderboard"
+      ]
+    },
+    {
+      "benchmark": "webdev-arena",
+      "model": "sonnet-5-5",
+      "model_raw": "claude-sonnet-5-5_high",
+      "score": 1698.82,
+      "ci": null,
+      "effort": "high",
+      "org": "Anthropic",
+      "release_date": "2026-09-28",
+      "notes": [
+        "via Epoch AI; source: https://arena.ai/leaderboard"
+      ]
+    },
+    {
+      "benchmark": "webdev-arena",
+      "model": "gpt-6-sol",
+      "model_raw": "gpt-6-sol_max",
+      "score": 1689.33,
+      "ci": null,
+      "effort": "max",
+      "org": "OpenAI",
+      "release_date": "2026-09-22",
+      "notes": [
+        "via Epoch AI; source: https://arena.ai/leaderboard"
+      ]
+    },
+    {
+      "benchmark": "webdev-arena",
+      "model": "opus-5",
+      "model_raw": "claude-opus-5_max",
+      "score": 1686.99,
+      "ci": null,
+      "effort": "max",
+      "org": "Anthropic",
+      "release_date": "2026-07-24",
+      "notes": [
+        "via Epoch AI; source: https://arena.ai/leaderboard"
+      ]
+    },
+    {
+      "benchmark": "webdev-arena",
+      "model": "gemini-4-argon",
+      "model_raw": "gemini-4-argon_high",
+      "score": 1679.5,
+      "ci": null,
+      "effort": "high",
+      "org": "Google DeepMind",
+      "release_date": "2026-09-30",
+      "notes": [
+        "via Epoch AI; source: https://arena.ai/leaderboard"
+      ]
+    },
+    {
+      "benchmark": "webdev-arena",
+      "model": "kimi-k3",
+      "model_raw": "kimi-k3_max",
+      "score": 1674.26,
+      "ci": null,
+      "effort": "max",
+      "org": "Moonshot",
+      "release_date": "2026-07-16",
+      "notes": [
+        "via Epoch AI; source: https://arena.ai/leaderboard"
+      ]
+    },
+    {
+      "benchmark": "webdev-arena",
+      "model": "qwen3-8-max",
+      "model_raw": "qwen3.8-max_unknown",
+      "score": 1670.58,
+      "ci": null,
+      "effort": "unknown",
+      "org": "Alibaba",
+      "release_date": "2026-08-02",
+      "notes": [
+        "via Epoch AI; source: https://arena.ai/leaderboard"
+      ]
+    },
+    {
+      "benchmark": "webdev-arena",
+      "model": "opus-5",
+      "model_raw": "claude-opus-5_high",
+      "score": 1660.45,
+      "ci": null,
+      "effort": "high",
+      "org": "Anthropic",
+      "release_date": "2026-07-24",
+      "notes": [
+        "via Epoch AI; source: https://arena.ai/leaderboard"
+      ]
+    },
+    {
+      "benchmark": "webdev-arena",
+      "model": "muse-spark-1-3",
+      "model_raw": "muse-spark-1.3_max",
+      "score": 1651.94,
+      "ci": null,
+      "effort": "max",
+      "org": "Meta AI",
+      "release_date": "2026-09-02",
+      "notes": [
+        "via Epoch AI; source: https://arena.ai/leaderboard"
+      ]
+    },
+    {
+      "benchmark": "webdev-arena",
+      "model": "grok-4-7",
+      "model_raw": "grok-4.7_xhigh",
+      "score": 1637.52,
+      "ci": null,
+      "effort": "xhigh",
+      "org": "xAI",
+      "release_date": "2026-09-21",
+      "notes": [
+        "via Epoch AI; source: https://arena.ai/leaderboard"
+      ]
+    },
+    {
+      "benchmark": "webdev-arena",
+      "model": "fable-5",
+      "model_raw": "claude-fable-5_high",
+      "score": 1627.98,
+      "ci": null,
+      "effort": "high",
+      "org": "Anthropic",
+      "release_date": "2026-06-09",
+      "notes": [
+        "via Epoch AI; source: https://arena.ai/leaderboard"
+      ]
+    },
+    {
+      "benchmark": "webdev-arena",
+      "model": "fable-5",
+      "model_raw": "claude-fable-5_unknown",
+      "score": 1626.26,
+      "ci": null,
+      "effort": "unknown",
+      "org": "Anthropic",
+      "release_date": "2026-06-09",
+      "notes": [
+        "via Epoch AI; source: https://arena.ai/leaderboard"
+      ]
+    },
+    {
+      "benchmark": "webdev-arena",
+      "model": "muse-spark-1-3",
+      "model_raw": "muse-spark-1.3_xhigh",
+      "score": 1623.12,
+      "ci": null,
+      "effort": "xhigh",
+      "org": "Meta AI",
+      "release_date": "2026-09-02",
+      "notes": [
+        "via Epoch AI; source: https://arena.ai/leaderboard"
+      ]
+    },
+    {
+      "benchmark": "webdev-arena",
+      "model": "mimo-v2-6-pro",
+      "model_raw": "mimo-v2.6-pro",
+      "score": 1618.41,
+      "ci": null,
+      "effort": null,
+      "org": "Xiaomi Corp",
+      "release_date": "2026-09-21",
+      "notes": [
+        "via Epoch AI; source: https://arena.ai/leaderboard"
+      ]
+    },
+    {
+      "benchmark": "webdev-arena",
+      "model": "grok-4-6",
+      "model_raw": "grok-4.6_high",
+      "score": 1617.64,
+      "ci": null,
+      "effort": "high",
+      "org": "xAI",
+      "release_date": "2026-08-12",
+      "notes": [
+        "via Epoch AI; source: https://arena.ai/leaderboard"
+      ]
+    },
+    {
+      "benchmark": "webdev-arena",
+      "model": "gpt-5-6-sol",
+      "model_raw": "gpt-5.6-sol_xhigh",
+      "score": 1617.32,
+      "ci": null,
+      "effort": "xhigh",
+      "org": "OpenAI",
+      "release_date": "2026-07-09",
+      "notes": [
+        "via Epoch AI; source: https://arena.ai/leaderboard"
+      ]
+    },
+    {
+      "benchmark": "webdev-arena",
+      "model": "glm-5-3",
+      "model_raw": "glm-5.3_max",
+      "score": 1614.45,
+      "ci": null,
+      "effort": "max",
+      "org": "Z.ai (Zhipu AI)",
+      "release_date": "2026-08-14",
+      "notes": [
+        "via Epoch AI; source: https://arena.ai/leaderboard"
+      ]
+    },
+    {
+      "benchmark": "webdev-arena",
+      "model": "deepseek-v4-1-flash",
+      "model_raw": "deepseek-v4.1-flash_max",
+      "score": 1613.95,
+      "ci": null,
+      "effort": "max",
+      "org": "DeepSeek",
+      "release_date": "2026-09-09",
+      "notes": [
+        "via Epoch AI; source: https://arena.ai/leaderboard"
+      ]
+    },
+    {
+      "benchmark": "webdev-arena",
+      "model": "glm-5-3-flash",
+      "model_raw": "glm-5.3-flash_unknown",
+      "score": 1607.09,
+      "ci": null,
+      "effort": "unknown",
+      "org": "Z.ai (Zhipu AI)",
+      "release_date": "2026-08-20",
+      "notes": [
+        "via Epoch AI; source: https://arena.ai/leaderboard"
+      ]
+    },
+    {
+      "benchmark": "webdev-arena",
+      "model": "qwen3-8-27b",
+      "model_raw": "qwen3.8-27b",
+      "score": 1593.29,
+      "ci": null,
+      "effort": null,
+      "org": "Alibaba",
+      "release_date": "2026-08-14",
+      "notes": [
+        "via Epoch AI; source: https://arena.ai/leaderboard"
+      ]
+    },
+    {
+      "benchmark": "webdev-arena",
+      "model": "glm-5-2",
+      "model_raw": "glm-5.2_max",
+      "score": 1593.25,
+      "ci": null,
+      "effort": "max",
+      "org": "Z.ai (Zhipu AI)",
+      "release_date": "2026-06-16",
+      "notes": [
+        "via Epoch AI; source: https://arena.ai/leaderboard"
+      ]
+    },
+    {
+      "benchmark": "webdev-arena",
+      "model": "gemini-3-7-flash",
+      "model_raw": "gemini-3.7-flash_high",
+      "score": 1587.26,
+      "ci": null,
+      "effort": "high",
+      "org": "Google DeepMind",
+      "release_date": "2026-08-13",
+      "notes": [
+        "via Epoch AI; source: https://arena.ai/leaderboard"
+      ]
+    },
+    {
+      "benchmark": "webdev-arena",
+      "model": "gpt-6-luna",
+      "model_raw": "gpt-6-luna_max",
+      "score": 1581.95,
+      "ci": null,
+      "effort": "max",
+      "org": "OpenAI",
+      "release_date": "2026-09-22",
+      "notes": [
+        "via Epoch AI; source: https://arena.ai/leaderboard"
+      ]
+    },
+    {
+      "benchmark": "webdev-arena",
+      "model": "deepseek-v4-pro-0813",
+      "model_raw": "deepseek-v4-pro-0813_high",
+      "score": 1580.53,
+      "ci": null,
+      "effort": "high",
+      "org": "DeepSeek",
+      "release_date": "2026-08-13",
+      "notes": [
+        "via Epoch AI; source: https://arena.ai/leaderboard"
+      ]
+    },
+    {
+      "benchmark": "webdev-arena",
+      "model": "deepseek-v4-flash-0731",
+      "model_raw": "deepseek-v4-flash-0731_high",
+      "score": 1580.2,
+      "ci": null,
+      "effort": "high",
+      "org": "DeepSeek",
+      "release_date": "2026-07-31",
+      "notes": [
+        "via Epoch AI; source: https://arena.ai/leaderboard"
+      ]
+    },
+    {
+      "benchmark": "webdev-arena",
+      "model": "step-5-preview",
+      "model_raw": "step-5-preview_high",
+      "score": 1570.15,
+      "ci": null,
+      "effort": "high",
+      "org": "StepFun",
+      "release_date": "2026-09-18",
+      "notes": [
+        "via Epoch AI; source: https://arena.ai/leaderboard"
+      ]
+    },
+    {
+      "benchmark": "webdev-arena",
+      "model": "gemini-3-8-flash",
+      "model_raw": "gemini-3.8-flash_high",
+      "score": 1567.88,
+      "ci": null,
+      "effort": "high",
+      "org": "Google DeepMind",
+      "release_date": "2026-09-02",
+      "notes": [
+        "via Epoch AI; source: https://arena.ai/leaderboard"
+      ]
+    },
+    {
+      "benchmark": "webdev-arena",
+      "model": "opus-4-7",
+      "model_raw": "claude-opus-4-7_unknown",
+      "score": 1566.85,
+      "ci": null,
+      "effort": "unknown",
+      "org": "Anthropic",
+      "release_date": "2026-04-16",
+      "notes": [
+        "via Epoch AI; source: https://arena.ai/leaderboard"
+      ]
+    },
+    {
+      "benchmark": "webdev-arena",
+      "model": "opus-4-8",
+      "model_raw": "claude-opus-4-8_high",
+      "score": 1558.83,
+      "ci": null,
+      "effort": "high",
+      "org": "Anthropic",
+      "release_date": "2026-05-28",
+      "notes": [
+        "via Epoch AI; source: https://arena.ai/leaderboard"
+      ]
+    },
+    {
+      "benchmark": "webdev-arena",
+      "model": "opus-4-7",
+      "model_raw": "claude-opus-4-7",
+      "score": 1557.37,
+      "ci": null,
+      "effort": null,
+      "org": "Anthropic",
+      "release_date": "2026-04-16",
+      "notes": [
+        "via Epoch AI; source: https://arena.ai/leaderboard"
+      ]
+    },
+    {
+      "benchmark": "webdev-arena",
+      "model": "opus-4-6",
+      "model_raw": "claude-opus-4-6_unknown",
+      "score": 1556.29,
+      "ci": null,
+      "effort": "unknown",
+      "org": "Anthropic",
+      "release_date": "2026-02-05",
+      "notes": [
+        "via Epoch AI; source: WebDev Arena Leaderboard"
+      ]
+    },
+    {
+      "benchmark": "webdev-arena",
+      "model": "opus-4-7",
+      "model_raw": "claude-opus-4-7_high",
+      "score": 1555.22,
+      "ci": null,
+      "effort": "high",
+      "org": "Anthropic",
+      "release_date": "2026-04-16",
+      "notes": [
+        "via Epoch AI; source: https://arena.ai/leaderboard"
+      ]
+    },
+    {
+      "benchmark": "webdev-arena",
+      "model": "grok-4-5",
+      "model_raw": "grok-4.5_unknown",
+      "score": 1555.1,
+      "ci": null,
+      "effort": "unknown",
+      "org": "xAI",
+      "release_date": "2026-07-08",
+      "notes": [
+        "via Epoch AI; source: https://arena.ai/leaderboard"
+      ]
+    },
+    {
+      "benchmark": "webdev-arena",
+      "model": "opus-4-8",
+      "model_raw": "claude-opus-4-8_unknown",
+      "score": 1552.22,
+      "ci": null,
+      "effort": "unknown",
+      "org": "Anthropic",
+      "release_date": "2026-05-28",
+      "notes": [
+        "via Epoch AI; source: https://arena.ai/leaderboard"
+      ]
+    },
+    {
+      "benchmark": "webdev-arena",
+      "model": "opus-4-6",
+      "model_raw": "claude-opus-4-6_high",
+      "score": 1546.62,
+      "ci": null,
+      "effort": "high",
+      "org": "Anthropic",
+      "release_date": "2026-02-05",
+      "notes": [
+        "via Epoch AI; source: https://arena.ai/leaderboard"
+      ]
+    },
+    {
+      "benchmark": "webdev-arena",
+      "model": "muse-spark-1-1",
+      "model_raw": "muse-spark-1.1",
+      "score": 1541.55,
+      "ci": null,
+      "effort": null,
+      "org": "Meta AI",
+      "release_date": "2026-07-09",
+      "notes": [
+        "via Epoch AI; source: https://arena.ai/leaderboard"
+      ]
+    },
+    {
+      "benchmark": "webdev-arena",
+      "model": "opus-4-8",
+      "model_raw": "claude-opus-4-8_none",
+      "score": 1538.81,
+      "ci": null,
+      "effort": "none",
+      "org": "Anthropic",
+      "release_date": "2026-05-28",
+      "notes": [
+        "via Epoch AI; source: https://arena.ai/leaderboard"
+      ]
+    },
+    {
+      "benchmark": "webdev-arena",
+      "model": "opus-4-6",
+      "model_raw": "claude-opus-4-6",
+      "score": 1537.13,
+      "ci": null,
+      "effort": null,
+      "org": "Anthropic",
+      "release_date": "2026-02-05",
+      "notes": [
+        "via Epoch AI; source: https://arena.ai/leaderboard"
+      ]
+    },
+    {
+      "benchmark": "webdev-arena",
+      "model": "gemini-3-6-flash",
+      "model_raw": "gemini-3.6-flash_high",
+      "score": 1536.95,
+      "ci": null,
+      "effort": "high",
+      "org": "Google DeepMind",
+      "release_date": "2026-07-21",
+      "notes": [
+        "via Epoch AI; source: https://arena.ai/leaderboard"
+      ]
+    },
+    {
+      "benchmark": "webdev-arena",
+      "model": "sonnet-5",
+      "model_raw": "claude-sonnet-5_high",
+      "score": 1536.72,
+      "ci": null,
+      "effort": "high",
+      "org": "Anthropic",
+      "release_date": "2026-06-30",
+      "notes": [
+        "via Epoch AI; source: https://arena.ai/leaderboard"
+      ]
+    },
+    {
+      "benchmark": "webdev-arena",
+      "model": "muse-spark-1-2",
+      "model_raw": "muse-spark-1.2_xhigh",
+      "score": 1534.38,
+      "ci": null,
+      "effort": "xhigh",
+      "org": "Meta AI",
+      "release_date": "2026-08-05",
+      "notes": [
+        "via Epoch AI; source: https://arena.ai/leaderboard"
+      ]
+    },
+    {
+      "benchmark": "webdev-arena",
+      "model": "gemini-3-6-flash",
+      "model_raw": "gemini-3.6-flash_unknown",
+      "score": 1527.83,
+      "ci": null,
+      "effort": "unknown",
+      "org": "Google DeepMind",
+      "release_date": "2026-07-21",
+      "notes": [
+        "via Epoch AI; source: https://arena.ai/leaderboard"
+      ]
+    },
+    {
+      "benchmark": "webdev-arena",
+      "model": "gpt-5-6-terra",
+      "model_raw": "gpt-5.6-terra_xhigh",
+      "score": 1521.25,
+      "ci": null,
+      "effort": "xhigh",
+      "org": "OpenAI",
+      "release_date": "2026-07-09",
+      "notes": [
+        "via Epoch AI; source: https://arena.ai/leaderboard"
+      ]
+    },
+    {
+      "benchmark": "webdev-arena",
+      "model": "sonnet-4-6",
+      "model_raw": "claude-sonnet-4-6",
+      "score": 1520.99,
+      "ci": null,
+      "effort": null,
+      "org": "Anthropic",
+      "release_date": "2026-02-17",
+      "notes": [
+        "via Epoch AI; source: https://arena.ai/leaderboard"
+      ]
+    },
+    {
+      "benchmark": "webdev-arena",
+      "model": "gpt-5-6-luna",
+      "model_raw": "gpt-5.6-luna_xhigh",
+      "score": 1518.87,
+      "ci": null,
+      "effort": "xhigh",
+      "org": "OpenAI",
+      "release_date": "2026-07-09",
+      "notes": [
+        "via Epoch AI; source: https://arena.ai/leaderboard"
+      ]
+    },
+    {
+      "benchmark": "webdev-arena",
+      "model": "qwen3-7",
+      "model_raw": "qwen3.7-max",
+      "score": 1517.12,
+      "ci": null,
+      "effort": "max",
+      "org": "Alibaba",
+      "release_date": "2026-05-19",
+      "notes": [
+        "via Epoch AI; source: https://arena.ai/leaderboard"
+      ]
+    },
+    {
+      "benchmark": "webdev-arena",
+      "model": "muse-spark",
+      "model_raw": "muse-spark",
+      "score": 1512.53,
+      "ci": null,
+      "effort": null,
+      "org": "Meta AI",
+      "release_date": "2026-04-08",
+      "notes": [
+        "via Epoch AI; source: https://arena.ai/leaderboard"
+      ]
+    },
+    {
+      "benchmark": "webdev-arena",
+      "model": "gpt-5-5",
+      "model_raw": "gpt-5.5_xhigh",
+      "score": 1510.15,
+      "ci": null,
+      "effort": "xhigh",
+      "org": "OpenAI",
+      "release_date": "2026-04-23",
+      "notes": [
+        "via Epoch AI; source: https://arena.ai/leaderboard"
+      ]
+    },
+    {
+      "benchmark": "webdev-arena",
+      "model": "kimi-k2-6",
+      "model_raw": "kimi-k2.6",
+      "score": 1508.77,
+      "ci": null,
+      "effort": null,
+      "org": "Moonshot",
+      "release_date": "2026-04-20",
+      "notes": [
+        "via Epoch AI; source: https://arena.ai/leaderboard"
+      ]
+    },
+    {
+      "benchmark": "webdev-arena",
+      "model": "glm-5-1",
+      "model_raw": "glm-5.1",
+      "score": 1508.29,
+      "ci": null,
+      "effort": null,
+      "org": "Z.ai (Zhipu AI)",
+      "release_date": "2026-04-07",
+      "notes": [
+        "via Epoch AI; source: https://arena.ai/leaderboard"
+      ]
+    },
+    {
+      "benchmark": "webdev-arena",
+      "model": "gemini-3-5-flash",
+      "model_raw": "gemini-3.5-flash_unknown",
+      "score": 1506.38,
+      "ci": null,
+      "effort": "unknown",
+      "org": "Google DeepMind",
+      "release_date": "2026-05-19",
+      "notes": [
+        "via Epoch AI; source: https://arena.ai/leaderboard"
+      ]
+    },
+    {
+      "benchmark": "webdev-arena",
+      "model": "gemini-3-5-flash",
+      "model_raw": "gemini-3.5-flash_high",
+      "score": 1500.04,
+      "ci": null,
+      "effort": "high",
+      "org": "Google DeepMind",
+      "release_date": "2026-05-19",
+      "notes": [
+        "via Epoch AI; source: https://arena.ai/leaderboard"
+      ]
+    },
+    {
+      "benchmark": "webdev-arena",
+      "model": "opus-4-5",
+      "model_raw": "claude-opus-4-5-20251101_32K",
+      "score": 1494.89,
+      "ci": null,
+      "effort": null,
+      "org": "Anthropic",
+      "release_date": "2025-11-24",
+      "notes": [
+        "via Epoch AI; source: https://arena.ai/leaderboard"
+      ]
+    },
+    {
+      "benchmark": "webdev-arena",
+      "model": "gemini-3-5-flash",
+      "model_raw": "gemini-3.5-flash_medium",
+      "score": 1491.55,
+      "ci": null,
+      "effort": "medium",
+      "org": "Google DeepMind",
+      "release_date": "2026-05-19",
+      "notes": [
+        "via Epoch AI; source: https://arena.ai/leaderboard"
+      ]
+    },
+    {
+      "benchmark": "webdev-arena",
+      "model": "gpt-5-5",
+      "model_raw": "gpt-5.5_high",
+      "score": 1486.98,
+      "ci": null,
+      "effort": "high",
+      "org": "OpenAI",
+      "release_date": "2026-04-23",
+      "notes": [
+        "via Epoch AI; source: https://arena.ai/leaderboard"
+      ]
+    },
+    {
+      "benchmark": "webdev-arena",
+      "model": "minimax-m3",
+      "model_raw": "MiniMax-M3",
+      "score": 1486.7,
+      "ci": null,
+      "effort": null,
+      "org": "MiniMax",
+      "release_date": "2026-06-01",
+      "notes": [
+        "via Epoch AI; source: https://arena.ai/leaderboard"
+      ]
+    },
+    {
+      "benchmark": "webdev-arena",
+      "model": "gpt-5-2",
+      "model_raw": "gpt-5.2-2025-12-11_high",
+      "score": 1480.0,
+      "ci": null,
+      "effort": "high",
+      "org": "OpenAI",
+      "release_date": "2025-12-11",
+      "notes": [
+        "via Epoch AI; source: WebDev Arena Leaderboard"
+      ]
+    },
+    {
+      "benchmark": "webdev-arena",
+      "model": "qwen3-6-max-preview",
+      "model_raw": "qwen3.6-max-preview",
+      "score": 1479.06,
+      "ci": null,
+      "effort": null,
+      "org": "Alibaba",
+      "release_date": "2026-04-20",
+      "notes": [
+        "via Epoch AI; source: https://arena.ai/leaderboard"
+      ]
+    },
+    {
+      "benchmark": "webdev-arena",
+      "model": "mimo-v2-5-pro",
+      "model_raw": "mimo-v2.5-pro",
+      "score": 1474.92,
+      "ci": null,
+      "effort": null,
+      "org": "Xiaomi Corp",
+      "release_date": null,
+      "notes": [
+        "via Epoch AI; source: https://arena.ai/leaderboard"
+      ]
+    },
+    {
+      "benchmark": "webdev-arena",
+      "model": "kimi-k2-7-code",
+      "model_raw": "kimi-k2.7-code",
+      "score": 1472.72,
+      "ci": null,
+      "effort": null,
+      "org": "Moonshot",
+      "release_date": "2026-06-12",
+      "notes": [
+        "via Epoch AI; source: https://arena.ai/leaderboard"
+      ]
+    },
+    {
+      "benchmark": "webdev-arena",
+      "model": "opus-4-5",
+      "model_raw": "claude-opus-4-5-20251101",
+      "score": 1468.18,
+      "ci": null,
+      "effort": null,
+      "org": "Anthropic",
+      "release_date": "2025-11-24",
+      "notes": [
+        "via Epoch AI; source: https://arena.ai/leaderboard"
+      ]
+    },
+    {
+      "benchmark": "webdev-arena",
+      "model": "deepseek-v4-pro",
+      "model_raw": "deepseek-v4-pro_unknown",
+      "score": 1463.63,
+      "ci": null,
+      "effort": "unknown",
+      "org": "DeepSeek",
+      "release_date": "2026-04-24",
+      "notes": [
+        "via Epoch AI; source: https://arena.ai/leaderboard"
+      ]
+    },
+    {
+      "benchmark": "webdev-arena",
+      "model": "deepseek-v4-pro",
+      "model_raw": "deepseek-v4-pro_high",
+      "score": 1463.61,
+      "ci": null,
+      "effort": "high",
+      "org": "DeepSeek",
+      "release_date": "2026-04-24",
+      "notes": [
+        "via Epoch AI; source: https://arena.ai/leaderboard"
+      ]
+    },
+    {
+      "benchmark": "webdev-arena",
+      "model": "gpt-5-4",
+      "model_raw": "gpt-5.4-2026-03-05_high",
+      "score": 1462.99,
+      "ci": null,
+      "effort": "high",
+      "org": "OpenAI",
+      "release_date": "2026-03-05",
+      "notes": [
+        "via Epoch AI; source: https://arena.ai/leaderboard"
+      ]
+    },
+    {
+      "benchmark": "webdev-arena",
+      "model": "qwen3-6-plus",
+      "model_raw": "qwen3.6-plus",
+      "score": 1460.53,
+      "ci": null,
+      "effort": null,
+      "org": "Alibaba",
+      "release_date": "2026-03-31",
+      "notes": [
+        "via Epoch AI; source: https://arena.ai/leaderboard"
+      ]
+    },
+    {
+      "benchmark": "webdev-arena",
+      "model": "gpt-5-5",
+      "model_raw": "gpt-5.5_unknown",
+      "score": 1457.76,
+      "ci": null,
+      "effort": "unknown",
+      "org": "OpenAI",
+      "release_date": "2026-04-23",
+      "notes": [
+        "via Epoch AI; source: https://arena.ai/leaderboard"
+      ]
+    },
+    {
+      "benchmark": "webdev-arena",
+      "model": "gemini-3-1-pro-preview",
+      "model_raw": "gemini-3.1-pro-preview",
+      "score": 1446.64,
+      "ci": null,
+      "effort": null,
+      "org": "Google DeepMind",
+      "release_date": "2026-02-19",
+      "notes": [
+        "via Epoch AI; source: https://arena.ai/leaderboard"
+      ]
+    },
+    {
+      "benchmark": "webdev-arena",
+      "model": "gemini-3-5-flash-lite",
+      "model_raw": "gemini-3.5-flash-lite",
+      "score": 1446.62,
+      "ci": null,
+      "effort": null,
+      "org": "Google DeepMind",
+      "release_date": "2026-07-21",
+      "notes": [
+        "via Epoch AI; source: https://arena.ai/leaderboard"
+      ]
+    },
+    {
+      "benchmark": "webdev-arena",
+      "model": "deepseek-v4-pro",
+      "model_raw": "deepseek-v4-pro_none",
+      "score": 1445.72,
+      "ci": null,
+      "effort": "none",
+      "org": "DeepSeek",
+      "release_date": "2026-04-24",
+      "notes": [
+        "via Epoch AI; source: https://arena.ai/leaderboard"
+      ]
+    },
+    {
+      "benchmark": "webdev-arena",
+      "model": "gpt-5-4",
+      "model_raw": "gpt-5.4-2026-03-05_medium",
+      "score": 1442.65,
+      "ci": null,
+      "effort": "medium",
+      "org": "OpenAI",
+      "release_date": "2026-03-05",
+      "notes": [
+        "via Epoch AI; source: https://arena.ai/leaderboard"
+      ]
+    },
+    {
+      "benchmark": "webdev-arena",
+      "model": "gemini-3-pro-preview",
+      "model_raw": "gemini-3-pro-preview",
+      "score": 1438.77,
+      "ci": null,
+      "effort": null,
+      "org": "Google DeepMind",
+      "release_date": "2025-11-18",
+      "notes": [
+        "via Epoch AI; source: https://arena.ai/leaderboard"
+      ]
+    },
+    {
+      "benchmark": "webdev-arena",
+      "model": "mimo-v2-5",
+      "model_raw": "mimo-v2.5",
+      "score": 1437.16,
+      "ci": null,
+      "effort": null,
+      "org": "Xiaomi Corp",
+      "release_date": null,
+      "notes": [
+        "via Epoch AI; source: https://arena.ai/leaderboard"
+      ]
+    },
+    {
+      "benchmark": "webdev-arena",
+      "model": "kimi-k2-5",
+      "model_raw": "kimi-k2.5",
+      "score": 1436.37,
+      "ci": null,
+      "effort": null,
+      "org": "Moonshot",
+      "release_date": "2026-01-27",
+      "notes": [
+        "via Epoch AI; source: https://arena.ai/leaderboard"
+      ]
+    },
+    {
+      "benchmark": "webdev-arena",
+      "model": "glm-5",
+      "model_raw": "glm-5",
+      "score": 1435.91,
+      "ci": null,
+      "effort": null,
+      "org": "Z.ai (Zhipu AI)",
+      "release_date": "2026-02-11",
+      "notes": [
+        "via Epoch AI; source: https://arena.ai/leaderboard"
+      ]
+    },
+    {
+      "benchmark": "webdev-arena",
+      "model": "glm-4-7",
+      "model_raw": "glm-4.7",
+      "score": 1434.7,
+      "ci": null,
+      "effort": null,
+      "org": "Z.ai (Zhipu AI)",
+      "release_date": "2025-12-22",
+      "notes": [
+        "via Epoch AI; source: https://arena.ai/leaderboard"
+      ]
+    },
+    {
+      "benchmark": "webdev-arena",
+      "model": "mimo-v2-pro",
+      "model_raw": "mimo-v2-pro",
+      "score": 1433.49,
+      "ci": null,
+      "effort": null,
+      "org": "Xiaomi Corp",
+      "release_date": null,
+      "notes": [
+        "via Epoch AI; source: https://arena.ai/leaderboard"
+      ]
+    },
+    {
+      "benchmark": "webdev-arena",
+      "model": "deepseek-v4-flash",
+      "model_raw": "deepseek-v4-flash_high",
+      "score": 1430.93,
+      "ci": null,
+      "effort": "high",
+      "org": "DeepSeek",
+      "release_date": "2026-04-24",
+      "notes": [
+        "via Epoch AI; source: https://arena.ai/leaderboard"
+      ]
+    },
+    {
+      "benchmark": "webdev-arena",
+      "model": "gpt-5",
+      "model_raw": "gpt-5-2025-08-07_medium",
+      "score": 1419.52,
+      "ci": null,
+      "effort": "medium",
+      "org": "OpenAI",
+      "release_date": "2025-08-07",
+      "notes": [
+        "via Epoch AI; source: https://arena.ai/leaderboard"
+      ]
+    },
+    {
+      "benchmark": "webdev-arena",
+      "model": "gpt-5-2",
+      "model_raw": "gpt-5.2-2025-12-11_unknown",
+      "score": 1416.64,
+      "ci": null,
+      "effort": "unknown",
+      "org": "OpenAI",
+      "release_date": "2025-12-11",
+      "notes": [
+        "via Epoch AI; source: https://arena.ai/leaderboard"
+      ]
+    },
+    {
+      "benchmark": "webdev-arena",
+      "model": "inkling",
+      "model_raw": "Inkling",
+      "score": 1409.99,
+      "ci": null,
+      "effort": null,
+      "org": "Thinking Machines",
+      "release_date": "2026-07-15",
+      "notes": [
+        "via Epoch AI; source: https://arena.ai/leaderboard"
+      ]
+    },
+    {
+      "benchmark": "webdev-arena",
+      "model": "inkling-small",
+      "model_raw": "inkling-small",
+      "score": 1406.58,
+      "ci": null,
+      "effort": null,
+      "org": "Thinking Machines",
+      "release_date": "2026-07-15",
+      "notes": [
+        "via Epoch AI; source: https://arena.ai/leaderboard"
+      ]
+    },
+    {
+      "benchmark": "webdev-arena",
+      "model": "kimi-k2-5",
+      "model_raw": "kimi-k2.5_none",
+      "score": 1405.66,
+      "ci": null,
+      "effort": "none",
+      "org": "Moonshot",
+      "release_date": "2026-01-27",
+      "notes": [
+        "via Epoch AI; source: https://arena.ai/leaderboard"
+      ]
+    },
+    {
+      "benchmark": "webdev-arena",
+      "model": "qwen3-5-plus",
+      "model_raw": "qwen3.5-plus",
+      "score": 1398.92,
+      "ci": null,
+      "effort": null,
+      "org": "Alibaba",
+      "release_date": "2026-02-16",
+      "notes": [
+        "via Epoch AI; source: https://arena.ai/leaderboard"
+      ]
+    },
+    {
+      "benchmark": "webdev-arena",
+      "model": "minimax-m2-7",
+      "model_raw": "MiniMax-M2.7",
+      "score": 1397.52,
+      "ci": null,
+      "effort": null,
+      "org": "MiniMax",
+      "release_date": "2026-03-18",
+      "notes": [
+        "via Epoch AI; source: https://arena.ai/leaderboard"
+      ]
+    },
+    {
+      "benchmark": "webdev-arena",
+      "model": "gpt-5-4-mini",
+      "model_raw": "gpt-5.4-mini-2026-03-17_high",
+      "score": 1397.18,
+      "ci": null,
+      "effort": "high",
+      "org": "OpenAI",
+      "release_date": "2026-03-17",
+      "notes": [
+        "via Epoch AI; source: https://arena.ai/leaderboard"
+      ]
+    },
+    {
+      "benchmark": "webdev-arena",
+      "model": "gpt-5-2",
+      "model_raw": "gpt-5.2-2025-12-11_medium",
+      "score": 1394.0,
+      "ci": null,
+      "effort": "medium",
+      "org": "OpenAI",
+      "release_date": "2025-12-11",
+      "notes": [
+        "via Epoch AI; source: WebDev Arena Leaderboard"
+      ]
+    },
+    {
+      "benchmark": "webdev-arena",
+      "model": "gpt-5-1",
+      "model_raw": "gpt-5.1-2025-11-13_medium",
+      "score": 1392.03,
+      "ci": null,
+      "effort": "medium",
+      "org": "OpenAI",
+      "release_date": "2025-11-13",
+      "notes": [
+        "via Epoch AI; source: https://arena.ai/leaderboard"
+      ]
+    },
+    {
+      "benchmark": "webdev-arena",
+      "model": "sonnet-4-5",
+      "model_raw": "claude-sonnet-4-5-20250929_32K",
+      "score": 1391.0,
+      "ci": null,
+      "effort": null,
+      "org": "Anthropic",
+      "release_date": "2025-09-29",
+      "notes": [
+        "via Epoch AI; source: WebDev Arena Leaderboard"
+      ]
+    },
+    {
+      "benchmark": "webdev-arena",
+      "model": "opus-4-1",
+      "model_raw": "claude-opus-4-1-20250805_unknown",
+      "score": 1388.97,
+      "ci": null,
+      "effort": "unknown",
+      "org": "Anthropic",
+      "release_date": "2025-08-05",
+      "notes": [
+        "via Epoch AI; source: https://arena.ai/leaderboard"
+      ]
+    },
+    {
+      "benchmark": "webdev-arena",
+      "model": "minimax-m2-1",
+      "model_raw": "MiniMax-M2.1",
+      "score": 1387.48,
+      "ci": null,
+      "effort": null,
+      "org": "MiniMax",
+      "release_date": "2025-12-23",
+      "notes": [
+        "via Epoch AI; source: https://arena.ai/leaderboard"
+      ]
+    },
+    {
+      "benchmark": "webdev-arena",
+      "model": "gpt-5-4",
+      "model_raw": "gpt-5.4-2026-03-05_unknown",
+      "score": 1386.74,
+      "ci": null,
+      "effort": "unknown",
+      "org": "OpenAI",
+      "release_date": "2026-03-05",
+      "notes": [
+        "via Epoch AI; source: https://arena.ai/leaderboard"
+      ]
+    },
+    {
+      "benchmark": "webdev-arena",
+      "model": "opus-4-1",
+      "model_raw": "claude-opus-4-1-20250805",
+      "score": 1386.0,
+      "ci": null,
+      "effort": null,
+      "org": "Anthropic",
+      "release_date": "2025-08-05",
+      "notes": [
+        "via Epoch AI; source: WebDev Arena Leaderboard"
+      ]
+    },
+    {
+      "benchmark": "webdev-arena",
+      "model": "sonnet-4-5",
+      "model_raw": "claude-sonnet-4-5-20250929",
+      "score": 1385.49,
+      "ci": null,
+      "effort": null,
+      "org": "Anthropic",
+      "release_date": "2025-09-29",
+      "notes": [
+        "via Epoch AI; source: https://arena.ai/leaderboard"
+      ]
+    },
+    {
+      "benchmark": "webdev-arena",
+      "model": "minimax-m2-5",
+      "model_raw": "MiniMax-M2.5",
+      "score": 1384.13,
+      "ci": null,
+      "effort": null,
+      "org": "MiniMax",
+      "release_date": "2026-02-12",
+      "notes": [
+        "via Epoch AI; source: https://arena.ai/leaderboard"
+      ]
+    },
+    {
+      "benchmark": "webdev-arena",
+      "model": "gemini-3-flash-preview",
+      "model_raw": "gemini-3-flash-preview",
+      "score": 1383.12,
+      "ci": null,
+      "effort": null,
+      "org": "Google DeepMind",
+      "release_date": "2025-12-17",
+      "notes": [
+        "via Epoch AI; source: https://arena.ai/leaderboard"
+      ]
+    },
+    {
+      "benchmark": "webdev-arena",
+      "model": "grok-4-20",
+      "model_raw": "grok-4-20",
+      "score": 1373.76,
+      "ci": null,
+      "effort": null,
+      "org": "xAI",
+      "release_date": "2026-02-17",
+      "notes": [
+        "via Epoch AI; source: https://arena.ai/leaderboard"
+      ]
+    },
+    {
+      "benchmark": "webdev-arena",
+      "model": "gpt-5-3-codex",
+      "model_raw": "gpt-5.3-codex",
+      "score": 1369.86,
+      "ci": null,
+      "effort": null,
+      "org": "OpenAI",
+      "release_date": "2026-02-05",
+      "notes": [
+        "via Epoch AI; source: https://arena.ai/leaderboard"
+      ]
+    },
+    {
+      "benchmark": "webdev-arena",
+      "model": "deepseek-v3-2-exp",
+      "model_raw": "DeepSeek-V3.2-Exp_thinking",
+      "score": 1367.0,
+      "ci": null,
+      "effort": "thinking",
+      "org": "DeepSeek",
+      "release_date": "2025-09-29",
+      "notes": [
+        "via Epoch AI; source: WebDev Arena Leaderboard"
+      ]
+    },
+    {
+      "benchmark": "webdev-arena",
+      "model": "gemma-4-31b-it",
+      "model_raw": "gemma-4-31b-it",
+      "score": 1364.13,
+      "ci": null,
+      "effort": null,
+      "org": "Google DeepMind",
+      "release_date": "2026-04-02",
+      "notes": [
+        "via Epoch AI; source: https://arena.ai/leaderboard"
+      ]
+    },
+    {
+      "benchmark": "webdev-arena",
+      "model": "gemma-4-26b-a4b",
+      "model_raw": "gemma-4-26b-a4b",
+      "score": 1361.4,
+      "ci": null,
+      "effort": null,
+      "org": "Google DeepMind",
+      "release_date": "2026-04-02",
+      "notes": [
+        "via Epoch AI; source: https://arena.ai/leaderboard"
+      ]
+    },
+    {
+      "benchmark": "webdev-arena",
+      "model": "gpt-5-1",
+      "model_raw": "gpt-5.1-2025-11-13_low",
+      "score": 1359.0,
+      "ci": null,
+      "effort": "low",
+      "org": "OpenAI",
+      "release_date": "2025-11-13",
+      "notes": [
+        "via Epoch AI; source: WebDev Arena Leaderboard"
+      ]
+    },
+    {
+      "benchmark": "webdev-arena",
+      "model": "qwen3-5-27b",
+      "model_raw": "qwen3.5-27B",
+      "score": 1357.38,
+      "ci": null,
+      "effort": null,
+      "org": "Alibaba",
+      "release_date": "2026-02-24",
+      "notes": [
+        "via Epoch AI; source: https://arena.ai/leaderboard"
+      ]
+    },
+    {
+      "benchmark": "webdev-arena",
+      "model": "grok-4-3",
+      "model_raw": "grok-4.3_unknown",
+      "score": 1357.17,
+      "ci": null,
+      "effort": "unknown",
+      "org": "xAI",
+      "release_date": "2026-04-17",
+      "notes": [
+        "via Epoch AI; source: https://arena.ai/leaderboard"
+      ]
+    },
+    {
+      "benchmark": "webdev-arena",
+      "model": "sonnet-4-5",
+      "model_raw": "claude-sonnet-4-5-20250929_32K",
+      "score": 1353.0,
+      "ci": null,
+      "effort": null,
+      "org": "Anthropic",
+      "release_date": "2025-09-29",
+      "notes": [
+        "via Epoch AI; source: WebDev Arena Leaderboard"
+      ]
+    },
+    {
+      "benchmark": "webdev-arena",
+      "model": "laguna-m-1",
+      "model_raw": "laguna-m.1",
+      "score": 1347.49,
+      "ci": null,
+      "effort": null,
+      "org": "Poolside",
+      "release_date": "2026-04-28",
+      "notes": [
+        "via Epoch AI; source: https://arena.ai/leaderboard"
+      ]
+    },
+    {
+      "benchmark": "webdev-arena",
+      "model": "gpt-5-1",
+      "model_raw": "gpt-5.1-2025-11-13_unknown",
+      "score": 1340.9,
+      "ci": null,
+      "effort": "unknown",
+      "org": "OpenAI",
+      "release_date": "2025-11-13",
+      "notes": [
+        "via Epoch AI; source: https://arena.ai/leaderboard"
+      ]
+    },
+    {
+      "benchmark": "webdev-arena",
+      "model": "glm-4-6",
+      "model_raw": "glm-4.6",
+      "score": 1340.6,
+      "ci": null,
+      "effort": null,
+      "org": "Z.ai (Zhipu AI),Tsinghua University",
+      "release_date": "2025-09-30",
+      "notes": [
+        "via Epoch AI; source: https://arena.ai/leaderboard"
+      ]
+    },
+    {
+      "benchmark": "webdev-arena",
+      "model": "gpt-5-2-codex",
+      "model_raw": "gpt-5.2-codex",
+      "score": 1338.7,
+      "ci": null,
+      "effort": null,
+      "org": "OpenAI",
+      "release_date": "2025-12-18",
+      "notes": [
+        "via Epoch AI; source: https://arena.ai/leaderboard"
+      ]
+    },
+    {
+      "benchmark": "webdev-arena",
+      "model": "kimi-k2-thinking-turbo",
+      "model_raw": "kimi-k2-thinking-turbo",
+      "score": 1337.0,
+      "ci": null,
+      "effort": null,
+      "org": "Moonshot",
+      "release_date": "2025-11-06",
+      "notes": [
+        "via Epoch AI; source: WebDev Arena Leaderboard"
+      ]
+    },
+    {
+      "benchmark": "webdev-arena",
+      "model": "gpt-5-1-codex",
+      "model_raw": "gpt-5.1-codex",
+      "score": 1336.28,
+      "ci": null,
+      "effort": null,
+      "org": "OpenAI",
+      "release_date": "2025-11-12",
+      "notes": [
+        "via Epoch AI; source: https://arena.ai/leaderboard"
+      ]
+    },
+    {
+      "benchmark": "webdev-arena",
+      "model": "mimo-v2-flash",
+      "model_raw": "mimo-v2-flash",
+      "score": 1330.64,
+      "ci": null,
+      "effort": null,
+      "org": "Xiaomi Corp",
+      "release_date": null,
+      "notes": [
+        "via Epoch AI; source: https://arena.ai/leaderboard"
+      ]
+    },
+    {
+      "benchmark": "webdev-arena",
+      "model": "haiku-4-5",
+      "model_raw": "claude-haiku-4-5-20251001_unknown",
+      "score": 1329.31,
+      "ci": null,
+      "effort": "unknown",
+      "org": "Anthropic",
+      "release_date": "2025-10-15",
+      "notes": [
+        "via Epoch AI; source: https://arena.ai/leaderboard"
+      ]
+    },
+    {
+      "benchmark": "webdev-arena",
+      "model": "deepseek-v3-2",
+      "model_raw": "deepseek/deepseek-v3.2",
+      "score": 1324.67,
+      "ci": null,
+      "effort": null,
+      "org": "DeepSeek",
+      "release_date": "2025-12-01",
+      "notes": [
+        "via Epoch AI; source: https://arena.ai/leaderboard"
+      ]
+    },
+    {
+      "benchmark": "webdev-arena",
+      "model": "laguna-xs-2",
+      "model_raw": "laguna-xs.2",
+      "score": 1302.4,
+      "ci": null,
+      "effort": null,
+      "org": "Poolside",
+      "release_date": "2026-04-28",
+      "notes": [
+        "via Epoch AI; source: https://arena.ai/leaderboard"
+      ]
+    },
+    {
+      "benchmark": "webdev-arena",
+      "model": "minimax-m2",
+      "model_raw": "MiniMax-M2",
+      "score": 1297.78,
+      "ci": null,
+      "effort": null,
+      "org": "MiniMax",
+      "release_date": "2025-10-27",
+      "notes": [
+        "via Epoch AI; source: https://arena.ai/leaderboard"
+      ]
+    },
+    {
+      "benchmark": "webdev-arena",
+      "model": "haiku-4-5",
+      "model_raw": "claude-haiku-4-5-20251001",
+      "score": 1286.0,
+      "ci": null,
+      "effort": null,
+      "org": "Anthropic",
+      "release_date": "2025-10-15",
+      "notes": [
+        "via Epoch AI; source: WebDev Arena Leaderboard"
+      ]
+    },
+    {
+      "benchmark": "webdev-arena",
+      "model": "qwen3-coder-480b-a35b-instruct",
+      "model_raw": "Qwen3-Coder-480B-A35B-Instruct",
+      "score": 1273.75,
+      "ci": null,
+      "effort": null,
+      "org": "Alibaba",
+      "release_date": "2025-07-31",
+      "notes": [
+        "via Epoch AI; source: https://arena.ai/leaderboard"
+      ]
+    },
+    {
+      "benchmark": "webdev-arena",
+      "model": "deepseek-v3-2-exp",
+      "model_raw": "DeepSeek-V3.2-Exp",
+      "score": 1271.75,
+      "ci": null,
+      "effort": null,
+      "org": "DeepSeek",
+      "release_date": "2025-09-29",
+      "notes": [
+        "via Epoch AI; source: https://arena.ai/leaderboard"
+      ]
+    },
+    {
+      "benchmark": "webdev-arena",
+      "model": "medium-2604",
+      "model_raw": "mistral-medium-2604",
+      "score": 1264.92,
+      "ci": null,
+      "effort": null,
+      "org": "Mistral AI",
+      "release_date": "2026-04-28",
+      "notes": [
+        "via Epoch AI; source: https://arena.ai/leaderboard"
+      ]
+    },
+    {
+      "benchmark": "webdev-arena",
+      "model": "gemini-3-1-flash-lite",
+      "model_raw": "gemini-3.1-flash-lite",
+      "score": 1254.27,
+      "ci": null,
+      "effort": null,
+      "org": "Google",
+      "release_date": "2026-03-03",
+      "notes": [
+        "via Epoch AI; source: https://arena.ai/leaderboard"
+      ]
+    },
+    {
+      "benchmark": "webdev-arena",
+      "model": "qwen3-6-35b-a3b",
+      "model_raw": "qwen3.6-35b-a3b",
+      "score": 1250.15,
+      "ci": null,
+      "effort": null,
+      "org": "Alibaba",
+      "release_date": "2026-04-14",
+      "notes": [
+        "via Epoch AI; source: https://arena.ai/leaderboard"
+      ]
+    },
+    {
+      "benchmark": "webdev-arena",
+      "model": "gpt-5-1-codex-mini",
+      "model_raw": "gpt-5.1-codex-mini",
+      "score": 1247.0,
+      "ci": null,
+      "effort": null,
+      "org": "OpenAI",
+      "release_date": "2025-11-12",
+      "notes": [
+        "via Epoch AI; source: WebDev Arena Leaderboard"
+      ]
+    },
+    {
+      "benchmark": "webdev-arena",
+      "model": "qwen3-5-flash",
+      "model_raw": "qwen3.5-flash",
+      "score": 1238.17,
+      "ci": null,
+      "effort": null,
+      "org": "Alibaba",
+      "release_date": "2026-02-25",
+      "notes": [
+        "via Epoch AI; source: https://arena.ai/leaderboard"
+      ]
+    },
+    {
+      "benchmark": "webdev-arena",
+      "model": "trinity-large",
+      "model_raw": "trinity-large-thinking",
+      "score": 1236.61,
+      "ci": null,
+      "effort": "thinking",
+      "org": "Arcee AI",
+      "release_date": "2026-04-01",
+      "notes": [
+        "via Epoch AI; source: https://arena.ai/leaderboard"
+      ]
+    },
+    {
+      "benchmark": "webdev-arena",
+      "model": "large-2512",
+      "model_raw": "mistral-large-2512",
+      "score": 1229.52,
+      "ci": null,
+      "effort": null,
+      "org": "Mistral AI",
+      "release_date": "2025-12-02",
+      "notes": [
+        "via Epoch AI; source: https://arena.ai/leaderboard"
+      ]
+    },
+    {
+      "benchmark": "webdev-arena",
+      "model": "gemini-2-5-pro",
+      "model_raw": "gemini-2.5-pro",
+      "score": 1225.73,
+      "ci": null,
+      "effort": null,
+      "org": "Google DeepMind",
+      "release_date": "2025-06-17",
+      "notes": [
+        "via Epoch AI; source: https://arena.ai/leaderboard"
+      ]
+    },
+    {
+      "benchmark": "webdev-arena",
+      "model": "grok-4-1-fast",
+      "model_raw": "grok-4-1-fast-reasoning",
+      "score": 1223.0,
+      "ci": null,
+      "effort": null,
+      "org": "xAI",
+      "release_date": "2025-11-19",
+      "notes": [
+        "via Epoch AI; source: WebDev Arena Leaderboard"
+      ]
+    },
+    {
+      "benchmark": "webdev-arena",
+      "model": "grok-4-1",
+      "model_raw": "grok-4-1",
+      "score": 1210.95,
+      "ci": null,
+      "effort": null,
+      "org": "xAI",
+      "release_date": "2025-11-17",
+      "notes": [
+        "via Epoch AI; source: https://arena.ai/leaderboard"
+      ]
+    },
+    {
+      "benchmark": "webdev-arena",
+      "model": "mercury-2",
+      "model_raw": "mercury-2",
+      "score": 1166.59,
+      "ci": null,
+      "effort": null,
+      "org": "Inception Labs",
+      "release_date": null,
+      "notes": [
+        "via Epoch AI; source: https://arena.ai/leaderboard"
+      ]
+    },
+    {
+      "benchmark": "webdev-arena",
+      "model": "grok-code-fast-1",
+      "model_raw": "grok-code-fast-1",
+      "score": 1165.08,
+      "ci": null,
+      "effort": null,
+      "org": null,
+      "release_date": "2025-08-28",
+      "notes": [
+        "via Epoch AI; source: https://arena.ai/leaderboard"
+      ]
+    },
+    {
+      "benchmark": "webdev-arena",
+      "model": "grok-4-fast",
+      "model_raw": "grok-4-fast",
+      "score": 1149.0,
+      "ci": null,
+      "effort": null,
+      "org": "xAI",
+      "release_date": "2025-09-19",
+      "notes": [
+        "via Epoch AI; source: WebDev Arena Leaderboard"
+      ]
+    }
+  ]
+}

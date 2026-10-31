@@ -1,0 +1,305 @@
+{
+  "benchmark": "terminal-bench",
+  "fetched_at": "2026-10-29T07:58:55+00:00",
+  "meta": {
+    "url": "https://www.tbench.ai",
+    "version": "Terminal-Bench 4.0",
+    "submissions": "https://github.com/harbor-framework/terminal-bench/tree/main/leaderboard/submissions"
+  },
+  "results": [
+    {
+      "benchmark": "terminal-bench",
+      "model": "fable-5",
+      "model_raw": "anthropic/claude-fable-5",
+      "score": 44.55,
+      "ci": 3.85,
+      "effort": "max",
+      "org": "Anthropic",
+      "release_date": null,
+      "notes": [
+        "agent: Claude Code",
+        "trials: 330"
+      ]
+    },
+    {
+      "benchmark": "terminal-bench",
+      "model": "opus-4-8",
+      "model_raw": "anthropic/claude-opus-4-8",
+      "score": 23.64,
+      "ci": 3.56,
+      "effort": "max",
+      "org": "Anthropic",
+      "release_date": null,
+      "notes": [
+        "agent: Claude Code",
+        "trials: 330"
+      ]
+    },
+    {
+      "benchmark": "terminal-bench",
+      "model": "opus-5",
+      "model_raw": "anthropic/claude-opus-5",
+      "score": 51.82,
+      "ci": 3.39,
+      "effort": "max",
+      "org": "Anthropic",
+      "release_date": null,
+      "notes": [
+        "agent: Claude Code",
+        "trials: 330"
+      ]
+    },
+    {
+      "benchmark": "terminal-bench",
+      "model": "sonnet-5",
+      "model_raw": "anthropic/claude-sonnet-5",
+      "score": 12.42,
+      "ci": 3.06,
+      "effort": "max",
+      "org": "Anthropic",
+      "release_date": null,
+      "notes": [
+        "agent: Claude Code",
+        "trials: 330"
+      ]
+    },
+    {
+      "benchmark": "terminal-bench",
+      "model": "glm-5-3",
+      "model_raw": "anthropic/glm-5.3",
+      "score": 41.82,
+      "ci": 3.23,
+      "effort": "max",
+      "org": "Z.ai",
+      "release_date": null,
+      "notes": [
+        "agent: Claude Code",
+        "trials: 330"
+      ]
+    },
+    {
+      "benchmark": "terminal-bench",
+      "model": "gpt-5-6-luna",
+      "model_raw": "openai/gpt-5.6-luna",
+      "score": 17.27,
+      "ci": 2.85,
+      "effort": "max",
+      "org": "OpenAI",
+      "release_date": null,
+      "notes": [
+        "agent: Codex",
+        "trials: 330"
+      ]
+    },
+    {
+      "benchmark": "terminal-bench",
+      "model": "gpt-5-6-sol",
+      "model_raw": "openai/gpt-5.6-sol",
+      "score": 37.27,
+      "ci": 3.78,
+      "effort": "max",
+      "org": "OpenAI",
+      "release_date": null,
+      "notes": [
+        "agent: Codex",
+        "trials: 330"
+      ]
+    },
+    {
+      "benchmark": "terminal-bench",
+      "model": "gpt-5-6-terra",
+      "model_raw": "openai/gpt-5.6-terra",
+      "score": 21.52,
+      "ci": 3.25,
+      "effort": "max",
+      "org": "OpenAI",
+      "release_date": null,
+      "notes": [
+        "agent: Codex",
+        "trials: 330"
+      ]
+    },
+    {
+      "benchmark": "terminal-bench",
+      "model": "grok-4-5",
+      "model_raw": "xai/grok-4.5",
+      "score": 12.42,
+      "ci": 2.62,
+      "effort": "none",
+      "org": "xAI",
+      "release_date": null,
+      "notes": [
+        "agent: Grok Build",
+        "trials: 330"
+      ]
+    },
+    {
+      "benchmark": "terminal-bench",
+      "model": "grok-4-6",
+      "model_raw": "xai/grok-4.6",
+      "score": 20.3,
+      "ci": 3.09,
+      "effort": "none",
+      "org": "xAI",
+      "release_date": null,
+      "notes": [
+        "agent: Grok Build",
+        "trials: 330"
+      ]
+    },
+    {
+      "benchmark": "terminal-bench",
+      "model": "gemini-3-8-flash",
+      "model_raw": "gemini/gemini-3.8-flash",
+      "score": 19.09,
+      "ci": 3.36,
+      "effort": "high",
+      "org": "Google",
+      "release_date": null,
+      "notes": [
+        "agent: mini-SWE-agent",
+        "trials: 330"
+      ]
+    },
+    {
+      "benchmark": "terminal-bench",
+      "model": "fable-5-1",
+      "model_raw": "anthropic/claude-fable-5-1",
+      "score": 57.88,
+      "ci": 3.76,
+      "effort": "max",
+      "org": "Anthropic",
+      "release_date": null,
+      "notes": [
+        "agent: Claude Code",
+        "trials: 330"
+      ]
+    },
+    {
+      "benchmark": "terminal-bench",
+      "model": "gemini-3-7-flash",
+      "model_raw": "gemini/gemini-3.7-flash",
+      "score": 11.21,
+      "ci": 2.45,
+      "effort": "high",
+      "org": "Google",
+      "release_date": null,
+      "notes": [
+        "agent: mini-SWE-agent",
+        "trials: 330"
+      ]
+    },
+    {
+      "benchmark": "terminal-bench",
+      "model": "opus-5-5",
+      "model_raw": "anthropic/claude-opus-5-5",
+      "score": 64.85,
+      "ci": 3.11,
+      "effort": "max",
+      "org": "Anthropic",
+      "release_date": null,
+      "notes": [
+        "agent: Claude Code",
+        "trials: 330"
+      ]
+    },
+    {
+      "benchmark": "terminal-bench",
+      "model": "sonnet-5-5",
+      "model_raw": "anthropic/claude-sonnet-5-5",
+      "score": 61.82,
+      "ci": 2.94,
+      "effort": "max",
+      "org": "Anthropic",
+      "release_date": null,
+      "notes": [
+        "agent: Claude Code",
+        "trials: 330"
+      ]
+    },
+    {
+      "benchmark": "terminal-bench",
+      "model": "muse-spark-1-3",
+      "model_raw": "meta/muse-spark-1.3",
+      "score": 14.55,
+      "ci": 2.94,
+      "effort": "xhigh",
+      "org": "Meta",
+      "release_date": null,
+      "notes": [
+        "agent: Muse Code",
+        "trials: 330"
+      ]
+    },
+    {
+      "benchmark": "terminal-bench",
+      "model": "gpt-6-1-sol",
+      "model_raw": "openai/gpt-6.1-sol",
+      "score": 58.18,
+      "ci": 3.11,
+      "effort": "max",
+      "org": "OpenAI",
+      "release_date": null,
+      "notes": [
+        "agent: Codex",
+        "trials: 330"
+      ]
+    },
+    {
+      "benchmark": "terminal-bench",
+      "model": "gpt-6-luna",
+      "model_raw": "openai/gpt-6-luna",
+      "score": 16.36,
+      "ci": 2.72,
+      "effort": "max",
+      "org": "OpenAI",
+      "release_date": null,
+      "notes": [
+        "agent: Codex",
+        "trials: 330"
+      ]
+    },
+    {
+      "benchmark": "terminal-bench",
+      "model": "gpt-6-sol",
+      "model_raw": "openai/gpt-6-sol",
+      "score": 49.39,
+      "ci": 3.23,
+      "effort": "max",
+      "org": "OpenAI",
+      "release_date": null,
+      "notes": [
+        "agent: Codex",
+        "trials: 330"
+      ]
+    },
+    {
+      "benchmark": "terminal-bench",
+      "model": "qwen3-8-max",
+      "model_raw": "qwen/qwen3.8-max-0902",
+      "score": 26.97,
+      "ci": 3.78,
+      "effort": "max",
+      "org": "Alibaba",
+      "release_date": null,
+      "notes": [
+        "agent: Claude Code",
+        "trials: 330"
+      ]
+    },
+    {
+      "benchmark": "terminal-bench",
+      "model": "glm-5-3-flash",
+      "model_raw": "z-ai/glm-5.3-flash",
+      "score": 35.76,
+      "ci": 3.54,
+      "effort": "none",
+      "org": "Z.ai",
+      "release_date": null,
+      "notes": [
+        "agent: Claude Code",
+        "trials: 330"
+      ]
+    }
+  ]
+}

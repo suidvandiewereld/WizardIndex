@@ -1,0 +1,64 @@
+name: Update index and deploy site
+
+on:
+  push:
+    branches: [main, master]
+  schedule:
+    - cron: "17 6 * * 1"   # Mondays 06:17 UTC
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: astral-sh/setup-uv@v6
+
+      - name: Install
+        run: uv venv && uv pip install -e .
+
+      - name: Fetch leaderboards
+        if: github.event_name != 'push'
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: uv run --no-sync wizardindex fetch
+
+      - name: Build index
+        run: uv run --no-sync wizardindex build
+
+      - name: Commit refreshed data
+        if: github.event_name != 'push'
+        run: |
+          git config user.name "wizardindex-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/results data/release_dates.json site/data
+          if ! git diff --cached --quiet; then
+            git commit -m "Refresh leaderboard data"
+            git push
+          fi
+
+      - uses: actions/configure-pages@v5
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: site
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4

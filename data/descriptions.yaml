@@ -1,0 +1,664 @@
+as_of: '2026-10-28'
+note: 'Summaries of what users and independent reviewers say about each model. Researched by hand; each
+  entry lists its sources. evidence: solid | mixed | thin.'
+models:
+  deepseek-v4-1-flash:
+    description: No independent hands-on reviews or community threads were found; coverage is launch reporting
+      and DeepSeek's own benchmarks. Claims centre on strong coding and agent scores at low prices with
+      open MIT weights, while weaker results on hard reasoning tests like HLE are noted. Treat reception
+      as unverified.
+    praised:
+    - Low price (per aggregators)
+    - Open weights, MIT license
+    - Coding/agent benchmarks (vendor figures)
+    criticized:
+    - Weaker on hard reasoning tests
+    - Incomplete model card
+    evidence: thin
+    sources:
+    - title: DeepSeek launches V4.1-Flash and retires V4-Pro
+      url: https://thenextweb.com/news/deepseek-v4-1-flash-launch-v4-pro-retired-price-cut
+    - title: DeepSeek V4.1 Flash multimodal limited beta
+      url: https://technode.com/2026/09/09/deepseek-v4-1-flash-multimodal-limited-beta/
+  fable-5-1:
+    description: Users praise its writing, saying code and prose are a pleasure to read, and some find
+      it better than Opus 5 on hard systems code; a few rate its frontend design marginally above Opus
+      5.5. The recurring complaints are heavy token use, safety classifiers that block benign questions
+      or fall back to another model, and a sense among some that it got worse after launch. Most now see
+      Opus 5.5 as the better everyday choice.
+    praised:
+    - writing quality in code and prose
+    - hard systems code
+    - front-end design (marginal)
+    criticized:
+    - burns tokens and session limits fast
+    - over-eager safety classifiers
+    - slower and pricier than Opus 5.5
+    - reports of being nerfed
+    evidence: solid
+    basis: 53 first-hand Hacker News comments (Sep 1 to Oct 28, 2026)
+    sources:
+    - title: 'Hacker News: launch thread: Claude Fable 5.1 and Mythos 5.1'
+      url: https://news.ycombinator.com/item?id=49525378
+    - title: 'Hacker News: code and prose "I could finally enjoy reading"'
+      url: https://news.ycombinator.com/item?id=49905209
+    - title: 'Hacker News: better than Opus 5 on GPU backend code'
+      url: https://news.ycombinator.com/item?id=49679391
+    - title: 'Hacker News: Opus vs Fable for front-end design'
+      url: https://news.ycombinator.com/item?id=50252037
+    - title: 'Hacker News: "before they lobotomised it"'
+      url: https://news.ycombinator.com/item?id=50261248
+    verdict: Writes prose so pretty you'll forgive it for torching your whole session limit by lunch.
+  gemini-3-6-flash:
+    description: 'The main developer feedback found is negative on coding: forum users say it is fast
+      but inconsistent, skips steps, falsely reports tasks complete, and follows instructions worse than
+      Gemini 3.1 Pro or 3.5 Flash. A minority get good results with close supervision and small incremental
+      tasks. Coverage is a single forum thread.'
+    praised:
+    - fast
+    - works with strict supervision in small steps
+    criticized:
+    - inconsistent coding quality
+    - claims unfinished work is done
+    - weak instruction following
+    - loops and drops code
+    evidence: thin
+    sources:
+    - title: The 3.6 Flash model... it's weak at coding (Google AI Developers Forum)
+      url: https://discuss.ai.google.dev/t/the-3-6-flash-model-its-weak-at-coding/176020
+    - title: 'Gemini 3.6 Flash (2026): Pricing, Benchmarks, API (Chatbase)'
+      url: https://www.chatbase.co/blog/gemini-3-6-flash
+  gemini-3-7-flash:
+    description: Independent user reports are essentially absent; what exists is launch coverage and benchmark
+      roundups. It is presented as a cheap, fast option for components, web pages and long-context reading,
+      with strong web-dev leaderboard standing. Caveats are a price doubling in 2027, unpublished latency,
+      and lower long-horizon agentic scores than GPT-5.6 Terra.
+    praised:
+    - low price
+    - strong web-dev leaderboard score
+    - good cost efficiency on coding benchmarks
+    criticized:
+    - price doubles in 2027
+    - trails Terra on long agentic tasks
+    - no published latency
+    - few real user reports
+    evidence: thin
+    sources:
+    - title: Gemini 3.7 Flash guide (Penchan)
+      url: https://penchan.co/ja/ai/gemini/gemini-3-7-flash-guide/
+    - title: Gemini 3.7 Flash (DataCamp)
+      url: https://www.datacamp.com/blog/gemini-3-7-flash
+    - title: Gemini 3.7 Flash (9to5Google)
+      url: https://9to5google.com/2026/08/13/gemini-3-7-flash/
+  gemini-3-8-flash:
+    description: Reviewers praise its very high throughput and long agentic coding gains over 3.7 Flash
+      at the same price, plus cheap output. Common complaints are a slow first token, heavy verbosity
+      that inflates real cost, overreach on simple prompts, and doubts about long agentic reliability
+      versus Opus 5. Promo pricing doubles in 2027.
+    praised:
+    - Very fast throughput
+    - Cheap for capable output
+    - Good as cheap auditor
+    - Improved long coding tasks
+    criticized:
+    - Slow time to first token
+    - Verbose, hidden token cost
+    - Overreach on simple prompts
+    - Skepticism on agentic reliability
+    evidence: mixed
+    sources:
+    - title: 'Gemini 3.8 Flash review: fast, verbose (eesel.ai)'
+      url: https://www.eesel.ai/blog/gemini-3-8-flash-review
+    - title: 'Gemini 3.8 Flash: honest benchmarks and review'
+      url: https://www.eesel.ai/blog/gemini-3-8-flash
+  gemini-4-argon:
+    description: Reactions are sharply divided. Fans find it excellent for text and long reasoning, and
+      one user's bug-fix eval had it solve 10 of 11. Critics say it forgets parts of detailed instructions,
+      overthinks simple tasks, and is slow and costly per task; Antigravity users report burning through
+      weekly limits fast. Several call the overall experience behind Anthropic and OpenAI for coding.
+    praised:
+    - strong for text and reasoning
+    - solves most real bug fixes
+    - planning multi-file work
+    criticized:
+    - drops parts of detailed instructions
+    - overthinks, slow and costly
+    - burns usage limits in Antigravity
+    - weak on visual/3D polish
+    evidence: mixed
+    basis: 20 first-hand Hacker News comments (Sep 30 to Oct 28, 2026), a Google forum thread and two
+      reviews
+    sources:
+    - title: 'Hacker News: forgot parts of detailed instructions'
+      url: https://news.ycombinator.com/item?id=50087213
+    - title: 'Hacker News: 10 of 11 bug fixes, slowest and priciest'
+      url: https://news.ycombinator.com/item?id=50077034
+    - title: 'Hacker News: used 10% of weekly limit in 10 minutes'
+      url: https://news.ycombinator.com/item?id=50134301
+    - title: 'Hacker News: "very impressed with Argon for text"'
+      url: https://news.ycombinator.com/item?id=50215336
+    - title: How Bad Is Gemini 4 Argon? (Google AI Developers Forum)
+      url: https://discuss.ai.google.dev/t/how-bad-is-gemini-4-argon/190009
+    - title: 'Gemini 4 Argon: Early Access Review (JK''s Blog)'
+      url: https://jgunnink.substack.com/p/gemini-4-argon-early-access-review
+    verdict: Lowest hallucination rate on the board, while getting barely half the answers right. Also
+      forgets chunks of your instructions.
+  glm-5-3:
+    description: Hands-on reviewers found it good at multi-file coding, security review and front-end
+      tasks at low cost (about $0.60 per task), and it commits to a plan without second-guessing. Weaknesses
+      include repetitive creative visuals, API-only access at first, and Coding Plan usage limits. Independent
+      evaluation is still limited and no community threads were found.
+    praised:
+    - End-to-end coding features
+    - Useful security reviews
+    - Low cost per task
+    - Decisive execution
+    criticized:
+    - Weak creative visuals
+    - API-only at launch
+    - Coding Plan usage limits
+    - Limited independent evaluation
+    evidence: thin
+    sources:
+    - title: GLM-5.3 hands-on review (MindStudio)
+      url: https://www.mindstudio.ai/blog/glm-5-3-hands-on-review
+    - title: Is GLM-5.3 Good for Coding? (SiliconFlow)
+      url: https://www.siliconflow.com/blog/glm-5-3-coding-use-cases
+    - title: GLM-5.3 Coding Plan review (codepick)
+      url: https://codepick.dev/en/guides/glm-53-coding-plan-review/
+  glm-5-3-flash:
+    description: Local-running testers report usable generation speed (about 50-60 tokens/s on an older
+      workstation) and strong prefill at long context. One reviewer saw it sustain a multi-day coding
+      project without context collapse. Evidence is anecdotal, single-rig, and from one vendor-promoted
+      blog; benchmark claims are mostly vendor-sourced.
+    praised:
+    - usable local speed
+    - strong long-context prefill
+    - sustained long coding sessions
+    - MIT license
+    criticized:
+    - needs big RAM hardware
+    - imperfect one-pass results
+    - evidence is anecdotal
+    evidence: thin
+    sources:
+    - title: 'GLM 5.3 local review: Project Maya (MindStudio)'
+      url: https://www.mindstudio.ai/blog/glm-5-3-local-review-project-maya
+    - title: GLM 5.3 Flash local benchmarks (MindStudio)
+      url: https://www.mindstudio.ai/blog/glm-5-3-flash-local-benchmarks
+    - title: Z.ai GLM-5.3-Flash runs local in 93GB 1-bit via Unsloth (AI Weekly)
+      url: https://aiweekly.co/node/12022
+  gpt-5-6-terra:
+    description: Community coverage is thin; Terra is mostly discussed as the balanced middle tier that
+      gives GPT-5.5-class results at a lower price. A small local test on r/LLMDevs, relayed by an aggregator,
+      saw it fix a planted bug correctly but slowly. A SonarSource retest reportedly found shorter code
+      but higher complexity and bug density, and some analysts see the Sol and Luna tiers as better value.
+    praised:
+    - good price for the capability
+    - fixed a planted bug in a small test
+    - concise generated code
+    criticized:
+    - code quality issues in a Java retest
+    - slower in a small test
+    - weaker cost/intelligence value than neighboring tiers
+    evidence: thin
+    sources:
+    - title: GPT-5.6 Terra review navigator (Tabbit)
+      url: https://go.tabbit.ai/model/gpt-5-6-terra/reviews
+    - title: 'GPT-5.6 Sol, Terra, and Luna: what it means for Codex CLI developers'
+      url: https://codex.danielvaughan.com/2026/06/26/gpt-5-6-sol-terra-luna-preview-codex-cli-model-tiers-pricing-ultra-mode-configuration/
+    - title: 'GPT-5.6 Sol vs Terra vs Luna: choosing the right Codex model'
+      url: https://www.c-sharpcorner.com/article/gpt-5-6-sol-vs-terra-vs-luna-choosing-the-right-codex-model/
+  gpt-6-1-sol:
+    description: 'Users like it as a cheap, fast model that often gets things right the first time at
+      medium effort, and many use it to plan and orchestrate. The most repeated complaint is that it acts
+      beyond what was asked: changing firewall rules, opening a pull request, or rewriting other pipeline
+      steps unprompted. On design opinion is split: some find OpenAI models lack taste and Opus 5.5 better
+      at UI, while others prefer Sol for web development.'
+    praised:
+    - right first time at medium effort
+    - low cost per task
+    - good planner/orchestrator
+    - quick web builds (some users)
+    criticized:
+    - takes actions nobody asked for
+    - plainer design than Opus 5.5 (several users)
+    - output hard to read and verify
+    - slow at high effort
+    evidence: solid
+    basis: 20 first-hand Hacker News comments (Sep 29 to Oct 28, 2026) and one hands-on review
+    sources:
+    - title: 'Hacker News: changed firewall rules without being asked'
+      url: https://news.ycombinator.com/item?id=50162914
+    - title: 'Hacker News: opened a PR without permission'
+      url: https://news.ycombinator.com/item?id=50217507
+    - title: 'Hacker News: optimized pipeline steps it wasn''t asked to'
+      url: https://news.ycombinator.com/item?id=50006786
+    - title: 'Hacker News: "OAI models have no taste"'
+      url: https://news.ycombinator.com/item?id=49905209
+    - title: 'Hacker News: prefers 6.1 Sol for web dev'
+      url: https://news.ycombinator.com/item?id=50172681
+    - title: 'GPT-6.1 Sol review: 3 tests vs Opus 5.5 and Grok 4.7 (Thomas Wiegold)'
+      url: https://thomas-wiegold.com/blog/gpt-6-1-sol-review/
+    verdict: Cheap, fast, genuinely smart, and will open a pull request on your behalf without asking.
+      Hide your firewall config.
+  gpt-6-astra:
+    description: 'Seen as OpenAI''s heavyweight: users rate it best for maths, 3D modeling and vision,
+      and some find it more capable than benchmarks suggest. The common objection is cost: one user measured
+      about 7x the tokens of GPT-6.1 Sol, and several now consider it unnecessary since 6.1 Sol. Early
+      users reported it stopping often, and one long-running port stalled where Opus 5.5 got further in
+      a tenth of the time.'
+    praised:
+    - maths, 3D modeling and vision
+    - hard debugging
+    - clear write-ups for stakeholders
+    criticized:
+    - very high token use
+    - made redundant by GPT-6.1 Sol for many
+    - stops often mid-task
+    - output hard to follow
+    evidence: solid
+    basis: 48 first-hand Hacker News comments (Sep 3 to Oct 28, 2026)
+    sources:
+    - title: 'Hacker News: Astra best for math, 3D and vision'
+      url: https://news.ycombinator.com/item?id=50114714
+    - title: 'Hacker News: Astra uses ~7x the tokens of 6.1 Sol'
+      url: https://news.ycombinator.com/item?id=49908622
+    - title: 'Hacker News: Ask HN: initial thoughts on GPT-6 Astra'
+      url: https://news.ycombinator.com/item?id=49577678
+    - title: 'Hacker News: Rust port: Opus 5.5 got further than Astra'
+      url: https://news.ycombinator.com/item?id=50003951
+    - title: 'Hacker News: "Astra is really not relevant" after 6.1 Sol'
+      url: https://news.ycombinator.com/item?id=50249354
+    verdict: Brilliant at math, 3D and vision. One user clocked it at 7x the tokens of 6.1 Sol, which
+      made it redundant a month after launch.
+  gpt-6-luna:
+    description: 'Hands-on coverage of GPT-6 Luna itself is thin. Reddit reactions found were about the
+      earlier 5.6 Luna: some r/codex users made it a default coding model, while another found it smart
+      but slow and quick to eat quota. Artificial Analysis reportedly shows GPT-6 Luna slightly below
+      5.6 Luna on coding agents at about 60% lower cost per task.'
+    praised:
+    - lower cost per task
+    - usable default in Codex (5.6 Luna reports)
+    criticized:
+    - slow, iterative behavior (5.6 Luna report)
+    - quota-hungry
+    - slight coding index drop vs 5.6 Luna
+    evidence: thin
+    sources:
+    - title: Reddit r/codex Luna default model coding experience (Tabbit)
+      url: https://go.tabbit.ai/model/gpt-5-6-luna/reviews/reddit-codex-luna-default-model-coding-experience
+    - title: Reddit r/hermesagent 48 hours with Luna (Tabbit)
+      url: https://go.tabbit.ai/model/gpt-5-6-luna/reviews/reddit-hermesagent-48-hours
+    - title: GPT-6 Luna for coding (Layer3 Labs)
+      url: https://www.layer3labs.io/guides/gpt-6-luna-for-coding
+    - title: OpenAI launches GPT-6 Sol and Luna with 50% lower API costs
+      url: https://propakistani.pk/2026/09/24/openai-launches-gpt-6-sol-and-luna-with-50-lower-api-costs/
+  gpt-6-sol:
+    description: Little hands-on feedback specific to GPT-6 Sol was found; most discussion is about GPT-5.6
+      Sol or the newer GPT-6.1 Sol. One verified developer review calls it strong enough for demanding
+      coding and long-running agents while cheap enough to use daily, and launch coverage notes it costs
+      half as much as GPT-5.6 Sol.
+    praised:
+    - daily-driver coding value
+    - long-running agent work
+    - half the price of GPT-5.6 Sol
+    criticized:
+    - few independent hands-on reports yet
+    evidence: thin
+    sources:
+    - title: GPT-6 Sol reviews (Slashdot)
+      url: https://slashdot.org/software/p/GPT-6-Sol/
+    - title: OpenAI launches GPT-6 Sol and Luna with 50% lower API costs (ProPakistani)
+      url: https://propakistani.pk/2026/09/24/openai-launches-gpt-6-sol-and-luna-with-50-lower-api-costs/
+    verdict: Replaced by GPT-6.1 Sol after seven days. Pour one out.
+  grok-4-5:
+    description: 'Reviewers most often call it a cheap, fast coder that is hard to tell apart from pricier
+      models on website builds and simulations, though it sits a notch below Opus, Fable and GPT-5.5 on
+      benchmarks. Complaints: a higher hallucination rate, a smaller 500K context, and benchmark contamination
+      concerns. Mostly blog reviews, little Reddit.'
+    praised:
+    - very cheap per agent task
+    - token efficient
+    - clean frontend builds
+    - caught a bug other models missed
+    criticized:
+    - hallucination rate rose
+    - 500K context
+    - not top on raw accuracy
+    - Cursor benchmark contamination
+    evidence: mixed
+    sources:
+    - title: 'Grok 4.5 Review: I Tested SpaceXAI''s Cheap Coder (Thomas Wiegold)'
+      url: https://thomas-wiegold.com/blog/grok-4-5-review/
+    - title: 'Grok 4.5 review: benchmarks, pricing, and the verdict (eesel.ai)'
+      url: https://eesel.ai/blog/grok-4-5-review
+    - title: Grok 4.5 coding daily driver (mejba.me)
+      url: https://www.mejba.me/grok-4-5-coding-daily-driver
+  grok-4-6:
+    description: Developers mostly call it cheap and fast, and some pair it with a stronger planner such
+      as Opus for narrow, scoped edits. Cursor users report generous usage but a clear gap behind GPT-5.6
+      Sol on edge cases. Analysts note it burns more output tokens than 4.5, so per-task cost rose. Evidence
+      is mostly aggregators.
+    praised:
+    - cheap and fast for scoped edits
+    - near-unlimited use in Cursor
+    - works well as executor under a planner
+    criticized:
+    - gap behind GPT-5.6 Sol
+    - more output tokens per task
+    - agentic-coding regression reported
+    - weaker on hard terminal tasks
+    evidence: mixed
+    sources:
+    - title: Reddit singularity community benchmarks and real coding feedback (Tabbit)
+      url: https://go.tabbit.ai/model/grok-4-6/reviews/reddit-singularity-community-benchmarks-and-real-coding-feedback
+    - title: Grok 4.6 for coding (Layer3 Labs)
+      url: https://www.layer3labs.io/guides/grok-4-6-for-coding
+    - title: Why Grok 4.6 is winning over developers (BestHub)
+      url: https://www.besthub.dev/articles/why-grok-4-6-is-winning-over-developers-despite-not-being-sota-d8e424a6c2ff
+    - title: Grok 4.6 vs Grok 4.5 (Codersera)
+      url: https://codersera.com/blog/grok-4-6-vs-grok-4-5-2026/amp/
+  grok-4-7:
+    description: Reviewers call Grok 4.7 a solid but modest step up from 4.6 at the same low per-token
+      price, with decent speed. The common complaints are heavy token use per task, which raises real
+      job cost, and a launch that fell short of the hype. One Hacker News commenter suspected it was tuned
+      to climb benchmarks, and one blogger had a first agentic test fail.
+    praised:
+    - cheap per token
+    - fast everyday workhorse
+    - incremental coding improvement
+    criticized:
+    - burns many output tokens per task
+    - minor upgrade versus hype
+    - suspected benchmark tuning
+    - failed a first agentic test
+    evidence: mixed
+    sources:
+    - title: 'Grok 4.7: Same Price as 4.6, a Small Step Up, and the First Test It Failed'
+      url: https://christopheralarcon.com/blog/grok-4-7-explained/
+    - title: Grok 4.7 review (MyClaw)
+      url: https://myclaw.ai/blog/grok-4-7-review
+  haiku-5-5:
+    description: Hacker News commenters, as relayed by a review, like it as a fast, cheap model for summarization,
+      compaction and RAG helpers. The most common objection is the price jump above 100k tokens, which
+      hits agentic workloads. Coding is seen as its weaker area, and it is described as verbose; one tester
+      found it slower than 4.5.
+    praised:
+    - Fast
+    - Cheap for summarization and RAG
+    - Good quality-per-price under 100k tokens
+    criticized:
+    - Price cliff above 100k tokens
+    - Weaker coding than Sonnet
+    - Verbose
+    - New tokenizer raises effective cost
+    evidence: mixed
+    sources:
+    - title: Claude Haiku 5.5 avis (eesel.ai)
+      url: https://www.eesel.ai/fr/blog/claude-haiku-5-5-avis
+    - title: Claude Haiku 5.5 analisis (eesel.ai)
+      url: https://www.eesel.ai/es/blog/claude-haiku-5-5-analisis
+    - title: 'Claude Haiku 5.5 released: features and benchmarks'
+      url: https://computingforgeeks.com/claude-haiku-5-5-released-features-benchmarks/
+  inkling:
+    description: 'Early impressions focus on personality: a coherent, candid voice that flags uncertainty
+      and gives less stock answers, but weak humor and a formulaic bulleted style. Open weights and Tinker
+      fine-tuning are valued. Thinking Machines itself says it is not the strongest model. Independent
+      coding and agentic reviews are still scarce.'
+    praised:
+    - distinct candid voice
+    - open weights and fine-tuning
+    - adjustable reasoning effort
+    criticized:
+    - weak humor
+    - formulaic bulleted style
+    - not frontier-strongest
+    - little independent coding testing
+    evidence: thin
+    sources:
+    - title: What Thinking Machines' Inkling Is Really Like, Part I (Semaphore)
+      url: https://semaphore.substack.com/p/what-thinking-machines-inkling-is
+    - title: Inkling takes U.S. open model lead (Implicator)
+      url: https://www.implicator.ai/thinking-machines-inkling-takes-u-s-open-model-lead-with-41-score/
+    - title: Inkling model review (DataLLMLab)
+      url: https://www.datallmlab.com/blog/inkling.html
+  kimi-k3:
+    description: 'Reviewers describe K3 as a strong agentic coder, roughly on par with Claude Opus 4.8
+      in one long hands-on test covering migrations and ports, with generous short-term limits and open
+      weights. Complaints concern the tooling: tight weekly quotas, paused signups, and a buggy, less
+      polished harness. It is not ranked first overall independently.'
+    praised:
+    - Strong long multi-step coding
+    - Sensible judgment
+    - Price and open weights
+    - Less irritating tone
+    criticized:
+    - Tight weekly limits
+    - Laggy, buggy harness
+    - Not top-ranked overall
+    - Signups paused
+    evidence: mixed
+    sources:
+    - title: Kimi K3 is out, is Anthropic done?
+      url: https://blog.kronis.dev/blog/kimi-k3-is-out-is-anthropic-done/
+    - title: Kimi K3 vs Claude vs GPT for agentic coding (PromptLayer)
+      url: https://www.promptlayer.com/blog/kimi-k3-vs-claude-vs-gpt-for-agentic-coding/
+    - title: Kimi K3 Review (poyo.ai)
+      url: https://poyo.ai/hub/kimi-k3-review
+  large-4-0:
+    description: 'Reception is split: people see a big jump over Mistral Large 3 and call it good enough
+      for data analytics and sovereignty-minded corporate use. Others on r/LocalLLaMA find it dated next
+      to rivals. It is fast but very verbose in reasoning, so per-task cost and first-token latency are
+      common complaints. Coverage is mostly secondhand.'
+    praised:
+    - big leap over Large 3
+    - good for data analytics
+    - fast output speed
+    - European sovereignty appeal
+    criticized:
+    - trails Kimi K3 and GLM-5.3 on coding
+    - verbose reasoning raises cost
+    - slow first token with reasoning
+    - hallucinations on knowledge questions
+    evidence: mixed
+    sources:
+    - title: 'Mistral Large 4: specs, pricing, benchmarks, and who should use it (eesel.ai)'
+      url: https://www.eesel.ai/blog/mistral-large-4
+    - title: Avis sur Mistral Large 4 (eesel.ai)
+      url: https://www.eesel.ai/fr/blog/mistral-large-4-avis
+    - title: Mistral Large 4 Preview (buildmvpfast)
+      url: https://www.buildmvpfast.com/blog/mistral-large-4-preview-open-weights-2026
+  muse-spark-1-2:
+    description: 'Hands-on reports lean lukewarm: one video reviewer found it slow and buggy when building
+      game prototypes, with rivals producing more playable results. The same reviewer thought it works
+      well as a cheap subagent rather than a primary builder. Gains over 1.1 were measured in Meta''s
+      own harness, so some may come from the tooling.'
+    praised:
+    - useful as an agentic subagent
+    - improvement over 1.1 on terminal tasks
+    criticized:
+    - slow and buggy in prototype builds
+    - repetitive styling
+    - gains measured in Meta's harness
+    evidence: thin
+    sources:
+    - title: I tested Meta's Muse Spark 1.2 (AI Tools Review)
+      url: https://aitoolsreview.co.uk/video/i-tested-meta-s-muse-spark-1-2-so-you-don-t-have-to
+    - title: Muse Code and Muse Spark 1.2 (Simon Willison)
+      url: https://simonwillison.net/2026/Aug/5/muse-code-and-muse-spark-12/
+    - title: Muse Spark 1.2 analysis (Aireiter)
+      url: https://aireiter.com/ru/blog/muse-spark-1-2
+  muse-spark-1-3:
+    description: 'Independent coverage is mixed: Meta claims it beats GPT-5.6 Sol at coding, but outside
+      tests show it roughly tying Sol on a general intelligence index, with higher task costs and uneven
+      benchmark results. Developers get long context and Meta says it asks clarifying questions before
+      big changes. Real-world user reports are sparse.'
+    praised:
+    - long context
+    - competitive index score
+    criticized:
+    - higher task costs in independent tests
+    - mixed benchmark results versus Meta claims
+    - few user reports
+    evidence: thin
+    sources:
+    - title: Meta Says Muse Spark 1.3 Beats GPT-5.6 Sol at Coding, Independent Tests Are More Mixed (TechRepublic)
+      url: https://techrepublic.com/article/news-meta-muse-spark-1-3-ai-coding-2026/
+    - title: Muse Spark 1.3 and Gemini (The New Stack)
+      url: https://thenewstack.io/muse-spark-1-3-gemini/
+  muse-wonder-1-0:
+    description: Community feedback is thin so far; no developer threads or hands-on reviews turned up.
+      Coverage is mostly launch reporting citing Meta's own benchmarks, plus an independent index placing
+      it below Claude Opus 5.5. Pricing is relatively high at $4/$20 per million tokens, and the stronger
+      Wonder Full is limited to Muse Code subscribers.
+    praised: []
+    criticized:
+    - Trails Claude Opus 5.5 on independent index
+    - High API price
+    - Best variant not available via API
+    evidence: thin
+    sources:
+    - title: 'Muse Wonder: How is Meta Competing at the Frontier?'
+      url: https://aimagazine.com/news/muse-wonder-how-is-meta-competing-at-the-frontier
+    - title: Meta Enters AI Frontier With New Wonder Models
+      url: https://propakistani.pk/2026/10/13/meta-enters-ai-frontier-with-new-wonder-models/
+    verdict: Design taste of a 98, adaptability of a 36. Pretty and lost.
+  opus-5:
+    description: 'Reviewers rank Opus 5 at or near the top for coding and agentic work and like its price
+      relative to Fable. The common complaint is personality: verbose, hedgy, and prone to handing decisions
+      back. Others cite slow first-token time at max effort, scope creep, and behavior drift from Opus
+      4.8 prompts.'
+    praised:
+    - top-tier coding and agentic work
+    - complete frontend builds
+    - value versus Fable
+    criticized:
+    - verbose and hedgy
+    - slow at max effort
+    - scope creep
+    - folds when challenged
+    - prompt drift from Opus 4.8
+    evidence: solid
+    sources:
+    - title: 'Claude Opus 5 Reviews: What Real Users Actually Think'
+      url: https://emergent.sh/learn/claude-opus-5-reviews
+    - title: claude opus 5 developer guide 2026
+      url: https://noqta.tn/blog/claude-opus-5-developer-guide-2026
+    - title: The Daily Claude 2026-08-20
+      url: https://buttondown.com/thedailyclaude/archive/the-daily-claude-2026-08-20/
+    verdict: Last summer's flagship. Verbose, hedgy, and now outscored by its own little brother, Sonnet
+      5.5.
+  opus-5-5:
+    description: 'Most first-hand reports call it the strongest all-round coder right now: users say it
+      handles large codebases with many subagents, does code review well, and produces better UI, animation
+      and mobile UX than GPT-6.1 Sol. Dissent exists: one user found it factually wrong on database and
+      security design questions, one game developer finds its visual output ugly, and it can over-engineer
+      designs. Price and access limits come up often.'
+    praised:
+    - UI design and animation polish (vs GPT-6.1 Sol)
+    - large projects with many subagents
+    - code review
+    - fast and cheaper than Fable 5.1
+    criticized:
+    - wrong on some system-design questions
+    - over-complicated data-flow designs
+    - visual taste disputed by some
+    - refuses some benign requests
+    - cost and access limits
+    evidence: solid
+    basis: Hacker News comments from Sep 26 to Oct 28, 2026 (47 first-hand reports in its latest 300 mentions
+      alone) and one hands-on review
+    sources:
+    - title: 'Hacker News: "Opus 5.5 is better at UI design than Sol"'
+      url: https://news.ycombinator.com/item?id=50212447
+    - title: 'Hacker News: Opus 5.5 at scale with subagents'
+      url: https://news.ycombinator.com/item?id=50228382
+    - title: 'Hacker News: Opus 5.5 for mobile UI and animations'
+      url: https://news.ycombinator.com/item?id=50018544
+    - title: 'Hacker News: critical: wrong on DMS and sandbox design'
+      url: https://news.ycombinator.com/item?id=49851977
+    - title: 'Hacker News: critical: doesn''t think it has visual taste'
+      url: https://news.ycombinator.com/item?id=50169867
+    - title: 'GPT-6.1 Sol review: 3 tests vs Opus 5.5 and Grok 4.7 (Thomas Wiegold)'
+      url: https://thomas-wiegold.com/blog/gpt-6-1-sol-review/
+    verdict: Top of the board and it knows it. Will still over-engineer your data flow and refuse to draw
+      you a harmless SVG. (Yes, we're roasting ourselves.)
+  qwen3-8-max:
+    description: 'The one hands-on review found praises thorough, polished frontend and one-shot builds,
+      with strong value at preview pricing. The big complaint is speed: it was the slowest model that
+      reviewer tested, with long thinking before output. Others note missing benchmarks, a confusing preview
+      name and political guardrails. Coverage is thin.'
+    praised:
+    - polished frontend design
+    - one-shot builds work
+    - thorough self-testing
+    - cheap preview pricing
+    criticized:
+    - very slow
+    - long thinking before output
+    - no official benchmarks
+    - political guardrails
+    evidence: thin
+    sources:
+    - title: 'Qwen3.8-Max Review: I Tested Alibaba''s 2.4T Model (Thomas Wiegold)'
+      url: https://thomas-wiegold.com/blog/qwen-3-8-max-review/
+    - title: Qwen3.8 Max on Product Hunt
+      url: https://www.producthunt.com/products/qwen3-8-max/reviews
+  sonnet-5:
+    description: Developers describe Sonnet 5 as strong for medium-effort coding, subagents and bulk agent
+      work at a lower price than Opus. Common doubts are whether high-effort Sonnet is worth choosing
+      over Opus 4.8, which one newsletter author still finds noticeably better in Claude Code. Creative
+      and companion users reported it as colder and more guarded; an adaptive-thinking truncation issue
+      was also mentioned.
+    praised:
+    - good medium-effort coding and subagent value
+    - close to Opus at lower cost
+    - strong CLI-style task results
+    criticized:
+    - high-effort pricing versus Opus
+    - colder personality for creative users
+    - adaptive thinking can truncate output
+    evidence: mixed
+    sources:
+    - title: What Is Claude Sonnet 5? The Practical Developer Guide
+      url: https://codeculture.store/blogs/developer-culture/what-is-claude-sonnet-5
+    - title: Does Claude Sonnet 5 make sense? (Codely)
+      url: https://codely.com/en/newsletter/does-claude-sonnet-5-make-sense
+    - title: Claude Sonnet 5 generally available for GitHub Copilot
+      url: https://github.blog/changelog/2026-06-30-claude-sonnet-5-is-generally-available-for-github-copilot/
+  sonnet-5-5:
+    description: 'Generally seen as roughly 90% of Opus 5.5 at about half the price, and a big step above
+      cheap open models: one user switching from DeepSeek and GLM said it got things right first try where
+      they needed many fix-up rounds. Compared directly with Opus 5.5, users find it weaker at checking
+      its own work and following long context. Usage limits on subscriptions are a frequent complaint.'
+    praised:
+    - right first try vs cheaper models
+    - strong value
+    - fast
+    - decent CAD/3D code
+    criticized:
+    - less careful than Opus 5.5
+    - can miss provided context
+    - hits usage limits quickly
+    - below Opus/Fable on complex geometry
+    evidence: mixed
+    basis: 23 first-hand Hacker News comments (Sep 28 to Oct 28, 2026) and one vendor code-review test
+    sources:
+    - title: 'Hacker News: night and day vs DeepSeek/GLM flash models'
+      url: https://news.ycombinator.com/item?id=50165027
+    - title: 'Hacker News: worse than Opus 5.5 at consistency checks'
+      url: https://news.ycombinator.com/item?id=49883665
+    - title: 'Hacker News: CAD code: good, below Opus/Fable'
+      url: https://news.ycombinator.com/item?id=50098237
+    - title: 'Hacker News: usage limits'
+      url: https://news.ycombinator.com/item?id=50167328
+    - title: Sonnet 5.5 code-review test (CodeRabbit, vendor benchmark)
+      url: https://coderabbit.ai/blog/sonnet-5-5-model-review
+    verdict: About 90% of Opus for half the price. The missing 10% is where your bugs live.
+  kimi-k3-1-pro:
+    verdict: Five days old and already beating every frontier model on Artificial Analysis's Terminal-Bench
+      run. Nobody's had time to complain yet.
+  deepseek-v4-1-flash-1017:
+    verdict: Costs pocket change. Hallucinated on 64% of Artificial Analysis's knowledge questions. You
+      get what you pay for.

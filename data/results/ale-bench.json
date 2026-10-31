@@ -1,0 +1,1727 @@
+{
+  "benchmark": "ale-bench",
+  "fetched_at": "2026-10-29T07:59:01+00:00",
+  "meta": {
+    "url": "https://sakanaai.github.io/ALE-Bench-Leaderboard/",
+    "via": "https://epoch.ai/benchmarks",
+    "credit": "Epoch AI, 'Capabilities & benchmarking', https://epoch.ai/benchmarks (CC BY 4.0)"
+  },
+  "results": [
+    {
+      "benchmark": "ale-bench",
+      "model": "gpt-6-astra",
+      "model_raw": "gpt-6-astra-max",
+      "score": 2951.32,
+      "ci": null,
+      "effort": "max",
+      "org": "OpenAI",
+      "release_date": "2026-09-03",
+      "notes": [
+        "via Epoch AI; source: Epoch AI evaluation"
+      ]
+    },
+    {
+      "benchmark": "ale-bench",
+      "model": "gpt-6-1-sol",
+      "model_raw": "gpt-6.1-sol-max",
+      "score": 2743.75,
+      "ci": null,
+      "effort": "max",
+      "org": "OpenAI",
+      "release_date": "2026-09-29",
+      "notes": [
+        "via Epoch AI; source: Epoch AI evaluation"
+      ]
+    },
+    {
+      "benchmark": "ale-bench",
+      "model": "gpt-6-1-terra",
+      "model_raw": "gpt-6.1-terra-max",
+      "score": 2608.82,
+      "ci": null,
+      "effort": "max",
+      "org": "OpenAI",
+      "release_date": "2026-10-26",
+      "notes": [
+        "via Epoch AI; source: Epoch AI evaluation"
+      ]
+    },
+    {
+      "benchmark": "ale-bench",
+      "model": "gpt-6-sol",
+      "model_raw": "gpt-6-sol-max",
+      "score": 2462.0,
+      "ci": null,
+      "effort": "max",
+      "org": "OpenAI",
+      "release_date": "2026-09-22",
+      "notes": [
+        "via Epoch AI; source: Epoch AI evaluation"
+      ]
+    },
+    {
+      "benchmark": "ale-bench",
+      "model": "gpt-5-6-sol",
+      "model_raw": "gpt-5.6-sol-max",
+      "score": 2176.88,
+      "ci": null,
+      "effort": "max",
+      "org": "OpenAI",
+      "release_date": "2026-07-09",
+      "notes": [
+        "via Epoch AI; source: Epoch AI evaluation"
+      ]
+    },
+    {
+      "benchmark": "ale-bench",
+      "model": "opus-5",
+      "model_raw": "claude-opus-5-high",
+      "score": 2164.57,
+      "ci": null,
+      "effort": "high",
+      "org": "Anthropic",
+      "release_date": "2026-07-24",
+      "notes": [
+        "via Epoch AI; source: Epoch AI evaluation"
+      ]
+    },
+    {
+      "benchmark": "ale-bench",
+      "model": "opus-5-5",
+      "model_raw": "claude-opus-5.5-high",
+      "score": 2147.38,
+      "ci": null,
+      "effort": "high",
+      "org": "Anthropic",
+      "release_date": "2026-09-22",
+      "notes": [
+        "via Epoch AI; source: Epoch AI evaluation"
+      ]
+    },
+    {
+      "benchmark": "ale-bench",
+      "model": "fable-5-1",
+      "model_raw": "claude-fable-5.1-high",
+      "score": 2143.2,
+      "ci": null,
+      "effort": "high",
+      "org": "Anthropic",
+      "release_date": "2026-09-01",
+      "notes": [
+        "via Epoch AI; source: Epoch AI evaluation"
+      ]
+    },
+    {
+      "benchmark": "ale-bench",
+      "model": "gemini-4-argon",
+      "model_raw": "gemini-4-argon-high",
+      "score": 2100.1,
+      "ci": null,
+      "effort": "high",
+      "org": "Google DeepMind",
+      "release_date": "2026-09-30",
+      "notes": [
+        "via Epoch AI; source: Epoch AI evaluation"
+      ]
+    },
+    {
+      "benchmark": "ale-bench",
+      "model": "fable-5",
+      "model_raw": "claude-fable-5-high",
+      "score": 2041.3,
+      "ci": null,
+      "effort": "high",
+      "org": "Anthropic",
+      "release_date": "2026-06-09",
+      "notes": [
+        "via Epoch AI; source: Epoch AI evaluation"
+      ]
+    },
+    {
+      "benchmark": "ale-bench",
+      "model": "gpt-5-6-terra",
+      "model_raw": "gpt-5.6-terra-max",
+      "score": 1951.42,
+      "ci": null,
+      "effort": "max",
+      "org": "OpenAI",
+      "release_date": "2026-07-09",
+      "notes": [
+        "via Epoch AI; source: Epoch AI evaluation"
+      ]
+    },
+    {
+      "benchmark": "ale-bench",
+      "model": "gpt-5-5",
+      "model_raw": "gpt-5.5-xhigh",
+      "score": 1942.97,
+      "ci": null,
+      "effort": "xhigh",
+      "org": "OpenAI",
+      "release_date": "2026-04-23",
+      "notes": [
+        "via Epoch AI; source: Epoch AI evaluation"
+      ]
+    },
+    {
+      "benchmark": "ale-bench",
+      "model": "kimi-k3-1-pro",
+      "model_raw": "kimi-k3.1-pro-max",
+      "score": 1932.75,
+      "ci": null,
+      "effort": "max",
+      "org": "Moonshot",
+      "release_date": "2026-10-23",
+      "notes": [
+        "via Epoch AI; source: Epoch AI evaluation"
+      ]
+    },
+    {
+      "benchmark": "ale-bench",
+      "model": "sonnet-5-5",
+      "model_raw": "claude-sonnet-5.5-high",
+      "score": 1819.12,
+      "ci": null,
+      "effort": "high",
+      "org": "Anthropic",
+      "release_date": "2026-09-28",
+      "notes": [
+        "via Epoch AI; source: Epoch AI evaluation"
+      ]
+    },
+    {
+      "benchmark": "ale-bench",
+      "model": "gemini-4-argon",
+      "model_raw": "gemini-4-argon-low",
+      "score": 1705.4,
+      "ci": null,
+      "effort": "low",
+      "org": "Google DeepMind",
+      "release_date": "2026-09-30",
+      "notes": [
+        "via Epoch AI; source: Epoch AI evaluation"
+      ]
+    },
+    {
+      "benchmark": "ale-bench",
+      "model": "muse-spark-1-3",
+      "model_raw": "muse-spark-1.3-xhigh",
+      "score": 1688.35,
+      "ci": null,
+      "effort": "xhigh",
+      "org": "Meta AI",
+      "release_date": "2026-09-02",
+      "notes": [
+        "via Epoch AI; source: Epoch AI evaluation"
+      ]
+    },
+    {
+      "benchmark": "ale-bench",
+      "model": "gpt-5-6-luna",
+      "model_raw": "gpt-5.6-luna-max",
+      "score": 1667.4,
+      "ci": null,
+      "effort": "max",
+      "org": "OpenAI",
+      "release_date": "2026-07-09",
+      "notes": [
+        "via Epoch AI; source: Epoch AI evaluation"
+      ]
+    },
+    {
+      "benchmark": "ale-bench",
+      "model": "gpt-5-3-codex",
+      "model_raw": "gpt-5.3-codex-xhigh",
+      "score": 1655.22,
+      "ci": null,
+      "effort": "xhigh",
+      "org": "OpenAI",
+      "release_date": "2026-02-05",
+      "notes": [
+        "via Epoch AI; source: Epoch AI evaluation"
+      ]
+    },
+    {
+      "benchmark": "ale-bench",
+      "model": "deepseek-v4-1-flash-1017",
+      "model_raw": "deepseek-v4.1-flash-1017-max",
+      "score": 1622.0,
+      "ci": null,
+      "effort": "max",
+      "org": "DeepSeek",
+      "release_date": "2026-10-17",
+      "notes": [
+        "via Epoch AI; source: Epoch AI evaluation"
+      ]
+    },
+    {
+      "benchmark": "ale-bench",
+      "model": "gpt-5-4",
+      "model_raw": "gpt-5.4-high",
+      "score": 1607.0,
+      "ci": null,
+      "effort": "high",
+      "org": "OpenAI",
+      "release_date": "2026-03-05",
+      "notes": [
+        "via Epoch AI; source: Epoch AI evaluation"
+      ]
+    },
+    {
+      "benchmark": "ale-bench",
+      "model": "muse-spark-open",
+      "model_raw": "muse-spark-open-xhigh",
+      "score": 1590.12,
+      "ci": null,
+      "effort": "xhigh",
+      "org": "Meta AI",
+      "release_date": "2026-10-15",
+      "notes": [
+        "via Epoch AI; source: Epoch AI evaluation"
+      ]
+    },
+    {
+      "benchmark": "ale-bench",
+      "model": "gpt-5-5",
+      "model_raw": "gpt-5.5-medium",
+      "score": 1589.38,
+      "ci": null,
+      "effort": "medium",
+      "org": "OpenAI",
+      "release_date": "2026-04-23",
+      "notes": [
+        "via Epoch AI; source: Epoch AI evaluation"
+      ]
+    },
+    {
+      "benchmark": "ale-bench",
+      "model": "haiku-5-5",
+      "model_raw": "claude-haiku-5.5-high",
+      "score": 1587.0,
+      "ci": null,
+      "effort": "high",
+      "org": "Anthropic",
+      "release_date": "2026-10-07",
+      "notes": [
+        "via Epoch AI; source: Epoch AI evaluation"
+      ]
+    },
+    {
+      "benchmark": "ale-bench",
+      "model": "gpt-6-luna",
+      "model_raw": "gpt-6-luna-xhigh",
+      "score": 1576.92,
+      "ci": null,
+      "effort": "xhigh",
+      "org": "OpenAI",
+      "release_date": "2026-09-22",
+      "notes": [
+        "via Epoch AI; source: Epoch AI evaluation"
+      ]
+    },
+    {
+      "benchmark": "ale-bench",
+      "model": "opus-4-8",
+      "model_raw": "claude-4.8-opus-high",
+      "score": 1563.83,
+      "ci": null,
+      "effort": "high",
+      "org": "Anthropic",
+      "release_date": "2026-05-28",
+      "notes": [
+        "via Epoch AI; source: Epoch AI evaluation"
+      ]
+    },
+    {
+      "benchmark": "ale-bench",
+      "model": "kimi-k3",
+      "model_raw": "kimi-k3-max",
+      "score": 1524.47,
+      "ci": null,
+      "effort": "max",
+      "org": "Moonshot",
+      "release_date": "2026-07-16",
+      "notes": [
+        "via Epoch AI; source: Epoch AI evaluation"
+      ]
+    },
+    {
+      "benchmark": "ale-bench",
+      "model": "gpt-5-4",
+      "model_raw": "gpt-5.4-medium",
+      "score": 1520.72,
+      "ci": null,
+      "effort": "medium",
+      "org": "OpenAI",
+      "release_date": "2026-03-05",
+      "notes": [
+        "via Epoch AI; source: Epoch AI evaluation"
+      ]
+    },
+    {
+      "benchmark": "ale-bench",
+      "model": "grok-4-6",
+      "model_raw": "grok-4.6-xhigh",
+      "score": 1508.08,
+      "ci": null,
+      "effort": "xhigh",
+      "org": "xAI",
+      "release_date": "2026-08-12",
+      "notes": [
+        "via Epoch AI; source: Epoch AI evaluation"
+      ]
+    },
+    {
+      "benchmark": "ale-bench",
+      "model": "sonnet-5",
+      "model_raw": "claude-sonnet-5-high",
+      "score": 1463.12,
+      "ci": null,
+      "effort": "high",
+      "org": "Anthropic",
+      "release_date": "2026-06-30",
+      "notes": [
+        "via Epoch AI; source: Epoch AI evaluation"
+      ]
+    },
+    {
+      "benchmark": "ale-bench",
+      "model": "opus-4-8",
+      "model_raw": "claude-4.8-opus-no-thinking",
+      "score": 1411.83,
+      "ci": null,
+      "effort": "none",
+      "org": "Anthropic",
+      "release_date": "2026-05-28",
+      "notes": [
+        "via Epoch AI; source: Epoch AI evaluation"
+      ]
+    },
+    {
+      "benchmark": "ale-bench",
+      "model": "deepseek-v4-pro-0813",
+      "model_raw": "deepseek-v4-pro-0813-max",
+      "score": 1403.15,
+      "ci": null,
+      "effort": "max",
+      "org": "DeepSeek",
+      "release_date": "2026-08-13",
+      "notes": [
+        "via Epoch AI; source: Epoch AI evaluation"
+      ]
+    },
+    {
+      "benchmark": "ale-bench",
+      "model": "gemini-3-flash-preview",
+      "model_raw": "gemini-3-flash-preview-high",
+      "score": 1367.2,
+      "ci": null,
+      "effort": null,
+      "org": "Google DeepMind",
+      "release_date": "2025-12-17",
+      "notes": [
+        "via Epoch AI; source: Epoch AI evaluation"
+      ]
+    },
+    {
+      "benchmark": "ale-bench",
+      "model": "sonnet-4-6",
+      "model_raw": "claude-4.6-sonnet-medium",
+      "score": 1327.3,
+      "ci": null,
+      "effort": "medium",
+      "org": "Anthropic",
+      "release_date": "2026-02-17",
+      "notes": [
+        "via Epoch AI; source: Epoch AI evaluation"
+      ]
+    },
+    {
+      "benchmark": "ale-bench",
+      "model": "opus-4-7",
+      "model_raw": "claude-4.7-opus-no-thinking",
+      "score": 1323.05,
+      "ci": null,
+      "effort": null,
+      "org": "Anthropic",
+      "release_date": "2026-04-16",
+      "notes": [
+        "via Epoch AI; source: Epoch AI evaluation"
+      ]
+    },
+    {
+      "benchmark": "ale-bench",
+      "model": "glm-5-3",
+      "model_raw": "glm-5.3-high",
+      "score": 1317.4,
+      "ci": null,
+      "effort": "high",
+      "org": "Z.ai (Zhipu AI)",
+      "release_date": "2026-08-14",
+      "notes": [
+        "via Epoch AI; source: Epoch AI evaluation"
+      ]
+    },
+    {
+      "benchmark": "ale-bench",
+      "model": "grok-4-5",
+      "model_raw": "grok-4.5-high",
+      "score": 1309.28,
+      "ci": null,
+      "effort": "high",
+      "org": "xAI",
+      "release_date": "2026-07-08",
+      "notes": [
+        "via Epoch AI; source: Epoch AI evaluation"
+      ]
+    },
+    {
+      "benchmark": "ale-bench",
+      "model": "deepseek-v4-flash-0731",
+      "model_raw": "deepseek-v4-flash-0731-max",
+      "score": 1306.08,
+      "ci": null,
+      "effort": "max",
+      "org": "DeepSeek",
+      "release_date": "2026-07-31",
+      "notes": [
+        "via Epoch AI; source: Epoch AI evaluation"
+      ]
+    },
+    {
+      "benchmark": "ale-bench",
+      "model": "gpt-5-2-codex",
+      "model_raw": "gpt-5.2-codex-xhigh",
+      "score": 1299.9,
+      "ci": null,
+      "effort": null,
+      "org": "OpenAI",
+      "release_date": "2025-12-18",
+      "notes": [
+        "via Epoch AI; source: Epoch AI evaluation"
+      ]
+    },
+    {
+      "benchmark": "ale-bench",
+      "model": "gpt-5-2",
+      "model_raw": "gpt-5.2-high",
+      "score": 1293.55,
+      "ci": null,
+      "effort": "high",
+      "org": "OpenAI",
+      "release_date": "2025-12-11",
+      "notes": [
+        "via Epoch AI; source: Epoch AI evaluation"
+      ]
+    },
+    {
+      "benchmark": "ale-bench",
+      "model": "gemini-3-8-flash",
+      "model_raw": "gemini-3.8-flash-high",
+      "score": 1269.72,
+      "ci": null,
+      "effort": "high",
+      "org": "Google DeepMind",
+      "release_date": "2026-09-02",
+      "notes": [
+        "via Epoch AI; source: Epoch AI evaluation"
+      ]
+    },
+    {
+      "benchmark": "ale-bench",
+      "model": "gpt-5-2",
+      "model_raw": "gpt-5.2-medium",
+      "score": 1249.83,
+      "ci": null,
+      "effort": "medium",
+      "org": "OpenAI",
+      "release_date": "2025-12-11",
+      "notes": [
+        "via Epoch AI; source: Epoch AI evaluation"
+      ]
+    },
+    {
+      "benchmark": "ale-bench",
+      "model": "gpt-5-1-codex",
+      "model_raw": "gpt-5.1-codex-high",
+      "score": 1244.92,
+      "ci": null,
+      "effort": null,
+      "org": "OpenAI",
+      "release_date": "2025-11-12",
+      "notes": [
+        "via Epoch AI; source: Epoch AI evaluation"
+      ]
+    },
+    {
+      "benchmark": "ale-bench",
+      "model": "mimo-v2-6-flash",
+      "model_raw": "mimo-v2.6-flash",
+      "score": 1244.2,
+      "ci": null,
+      "effort": null,
+      "org": "Xiaomi Corp",
+      "release_date": "2026-09-21",
+      "notes": [
+        "via Epoch AI; source: Epoch AI evaluation"
+      ]
+    },
+    {
+      "benchmark": "ale-bench",
+      "model": "large-4-0",
+      "model_raw": "mistral-large-4",
+      "score": 1213.15,
+      "ci": null,
+      "effort": "unknown",
+      "org": "Mistral AI",
+      "release_date": "2026-10-06",
+      "notes": [
+        "via Epoch AI; source: Epoch AI evaluation"
+      ]
+    },
+    {
+      "benchmark": "ale-bench",
+      "model": "gpt-5-1-codex",
+      "model_raw": "gpt-5.1-codex-max-high",
+      "score": 1208.83,
+      "ci": null,
+      "effort": "max",
+      "org": "OpenAI",
+      "release_date": "2025-11-19",
+      "notes": [
+        "via Epoch AI; source: Epoch AI evaluation"
+      ]
+    },
+    {
+      "benchmark": "ale-bench",
+      "model": "gpt-5-1",
+      "model_raw": "gpt-5.1-thinking",
+      "score": 1192.15,
+      "ci": null,
+      "effort": "high",
+      "org": "OpenAI",
+      "release_date": "2025-11-13",
+      "notes": [
+        "via Epoch AI; source: Epoch AI evaluation"
+      ]
+    },
+    {
+      "benchmark": "ale-bench",
+      "model": "qwen3-7",
+      "model_raw": "qwen3.7-max",
+      "score": 1189.4,
+      "ci": null,
+      "effort": "max",
+      "org": "Alibaba",
+      "release_date": "2026-05-19",
+      "notes": [
+        "via Epoch AI; source: Epoch AI evaluation"
+      ]
+    },
+    {
+      "benchmark": "ale-bench",
+      "model": "gpt-5-4-mini",
+      "model_raw": "gpt-5.4-mini-high",
+      "score": 1188.58,
+      "ci": null,
+      "effort": "high",
+      "org": "OpenAI",
+      "release_date": "2026-03-17",
+      "notes": [
+        "via Epoch AI; source: Epoch AI evaluation"
+      ]
+    },
+    {
+      "benchmark": "ale-bench",
+      "model": "gemini-3-pro-preview",
+      "model_raw": "gemini-3-pro-preview-high",
+      "score": 1176.75,
+      "ci": null,
+      "effort": null,
+      "org": "Google DeepMind",
+      "release_date": "2025-11-18",
+      "notes": [
+        "via Epoch AI; source: Epoch AI evaluation"
+      ]
+    },
+    {
+      "benchmark": "ale-bench",
+      "model": "gpt-5",
+      "model_raw": "gpt-5-thinking",
+      "score": 1162.45,
+      "ci": null,
+      "effort": "high",
+      "org": "OpenAI",
+      "release_date": "2025-08-07",
+      "notes": [
+        "via Epoch AI; source: Epoch AI evaluation"
+      ]
+    },
+    {
+      "benchmark": "ale-bench",
+      "model": "gemini-3-1-pro-preview",
+      "model_raw": "gemini-3.1-pro-preview-high",
+      "score": 1160.6,
+      "ci": null,
+      "effort": null,
+      "org": "Google DeepMind",
+      "release_date": "2026-02-19",
+      "notes": [
+        "via Epoch AI; source: Epoch AI evaluation"
+      ]
+    },
+    {
+      "benchmark": "ale-bench",
+      "model": "mimo-v2-6-pro",
+      "model_raw": "mimo-v2.6-pro",
+      "score": 1158.1,
+      "ci": null,
+      "effort": null,
+      "org": "Xiaomi Corp",
+      "release_date": "2026-09-21",
+      "notes": [
+        "via Epoch AI; source: Epoch AI evaluation"
+      ]
+    },
+    {
+      "benchmark": "ale-bench",
+      "model": "grok-4-20",
+      "model_raw": "grok-4.20-beta",
+      "score": 1150.28,
+      "ci": null,
+      "effort": null,
+      "org": "xAI",
+      "release_date": "2026-02-17",
+      "notes": [
+        "via Epoch AI; source: Epoch AI evaluation"
+      ]
+    },
+    {
+      "benchmark": "ale-bench",
+      "model": "gpt-5-5",
+      "model_raw": "gpt-5.5-none",
+      "score": 1127.58,
+      "ci": null,
+      "effort": "none",
+      "org": "OpenAI",
+      "release_date": "2026-04-23",
+      "notes": [
+        "via Epoch AI; source: Epoch AI evaluation"
+      ]
+    },
+    {
+      "benchmark": "ale-bench",
+      "model": "kimi-k2-6",
+      "model_raw": "kimi-k2.6",
+      "score": 1092.67,
+      "ci": null,
+      "effort": null,
+      "org": "Moonshot",
+      "release_date": "2026-04-20",
+      "notes": [
+        "via Epoch AI; source: Epoch AI evaluation"
+      ]
+    },
+    {
+      "benchmark": "ale-bench",
+      "model": "deepseek-v4-1-flash",
+      "model_raw": "deepseek-v4.1-flash-max",
+      "score": 1092.35,
+      "ci": null,
+      "effort": "max",
+      "org": "DeepSeek",
+      "release_date": "2026-09-09",
+      "notes": [
+        "via Epoch AI; source: Epoch AI evaluation"
+      ]
+    },
+    {
+      "benchmark": "ale-bench",
+      "model": "gpt-5-4",
+      "model_raw": "gpt-5.4-none",
+      "score": 1086.03,
+      "ci": null,
+      "effort": "none",
+      "org": "OpenAI",
+      "release_date": "2026-03-05",
+      "notes": [
+        "via Epoch AI; source: Epoch AI evaluation"
+      ]
+    },
+    {
+      "benchmark": "ale-bench",
+      "model": "glm-5-2",
+      "model_raw": "glm-5.2-high",
+      "score": 1046.95,
+      "ci": null,
+      "effort": "high",
+      "org": "Z.ai (Zhipu AI)",
+      "release_date": "2026-06-16",
+      "notes": [
+        "via Epoch AI; source: Epoch AI evaluation"
+      ]
+    },
+    {
+      "benchmark": "ale-bench",
+      "model": "opus-4-5",
+      "model_raw": "claude-4.5-opus",
+      "score": 1025.38,
+      "ci": null,
+      "effort": null,
+      "org": "Anthropic",
+      "release_date": "2025-11-24",
+      "notes": [
+        "via Epoch AI; source: Epoch AI evaluation"
+      ]
+    },
+    {
+      "benchmark": "ale-bench",
+      "model": "glm-5-2",
+      "model_raw": "glm-5.2-max",
+      "score": 1010.17,
+      "ci": null,
+      "effort": "max",
+      "org": "Z.ai (Zhipu AI)",
+      "release_date": "2026-06-16",
+      "notes": [
+        "via Epoch AI; source: Epoch AI evaluation"
+      ]
+    },
+    {
+      "benchmark": "ale-bench",
+      "model": "deepseek-v4-pro",
+      "model_raw": "deepseek-v4-pro-high",
+      "score": 1006.08,
+      "ci": null,
+      "effort": "high",
+      "org": "DeepSeek",
+      "release_date": "2026-04-24",
+      "notes": [
+        "via Epoch AI; source: Epoch AI evaluation"
+      ]
+    },
+    {
+      "benchmark": "ale-bench",
+      "model": "gpt-5-4-nano",
+      "model_raw": "gpt-5.4-nano-high",
+      "score": 1004.52,
+      "ci": null,
+      "effort": "high",
+      "org": "OpenAI",
+      "release_date": "2026-03-17",
+      "notes": [
+        "via Epoch AI; source: Epoch AI evaluation"
+      ]
+    },
+    {
+      "benchmark": "ale-bench",
+      "model": "opus-4-6",
+      "model_raw": "claude-4.6-opus-no-thinking",
+      "score": 996.5,
+      "ci": null,
+      "effort": null,
+      "org": "Anthropic",
+      "release_date": "2026-02-05",
+      "notes": [
+        "via Epoch AI; source: Epoch AI evaluation"
+      ]
+    },
+    {
+      "benchmark": "ale-bench",
+      "model": "inkling",
+      "model_raw": "inkling-max",
+      "score": 946.0,
+      "ci": null,
+      "effort": null,
+      "org": "Thinking Machines",
+      "release_date": "2026-07-15",
+      "notes": [
+        "via Epoch AI; source: Epoch AI evaluation"
+      ]
+    },
+    {
+      "benchmark": "ale-bench",
+      "model": "grok-4-3",
+      "model_raw": "grok-4.3",
+      "score": 944.17,
+      "ci": null,
+      "effort": "unknown",
+      "org": "xAI",
+      "release_date": "2026-04-17",
+      "notes": [
+        "via Epoch AI; source: Epoch AI evaluation"
+      ]
+    },
+    {
+      "benchmark": "ale-bench",
+      "model": "o3",
+      "model_raw": "o3-high",
+      "score": 933.55,
+      "ci": null,
+      "effort": "high",
+      "org": "OpenAI",
+      "release_date": "2025-04-16",
+      "notes": [
+        "via Epoch AI; source: Epoch AI evaluation"
+      ]
+    },
+    {
+      "benchmark": "ale-bench",
+      "model": "gemma-4-26b-a4b",
+      "model_raw": "gemma-4-26b-a4b-it",
+      "score": 927.17,
+      "ci": null,
+      "effort": null,
+      "org": "Google DeepMind",
+      "release_date": "2026-04-02",
+      "notes": [
+        "via Epoch AI; source: Epoch AI evaluation"
+      ]
+    },
+    {
+      "benchmark": "ale-bench",
+      "model": "gemma-4-31b-it",
+      "model_raw": "gemma-4-31b-it",
+      "score": 925.5,
+      "ci": null,
+      "effort": null,
+      "org": "Google DeepMind",
+      "release_date": "2026-04-02",
+      "notes": [
+        "via Epoch AI; source: Epoch AI evaluation"
+      ]
+    },
+    {
+      "benchmark": "ale-bench",
+      "model": "gemini-3-5-flash",
+      "model_raw": "gemini-3.5-flash-high",
+      "score": 911.02,
+      "ci": null,
+      "effort": "high",
+      "org": "Google DeepMind",
+      "release_date": "2026-05-19",
+      "notes": [
+        "via Epoch AI; source: Epoch AI evaluation"
+      ]
+    },
+    {
+      "benchmark": "ale-bench",
+      "model": "gemini-3-7-flash",
+      "model_raw": "gemini-3.7-flash-high",
+      "score": 904.3,
+      "ci": null,
+      "effort": "high",
+      "org": "Google DeepMind",
+      "release_date": "2026-08-13",
+      "notes": [
+        "via Epoch AI; source: Epoch AI evaluation"
+      ]
+    },
+    {
+      "benchmark": "ale-bench",
+      "model": "mimo-v2-5-pro",
+      "model_raw": "mimo-v2.5-pro",
+      "score": 899.8,
+      "ci": null,
+      "effort": null,
+      "org": "Xiaomi Corp",
+      "release_date": null,
+      "notes": [
+        "via Epoch AI; source: Epoch AI evaluation"
+      ]
+    },
+    {
+      "benchmark": "ale-bench",
+      "model": "glm-5-1",
+      "model_raw": "glm-5.1",
+      "score": 887.1,
+      "ci": null,
+      "effort": null,
+      "org": "Z.ai (Zhipu AI)",
+      "release_date": "2026-04-07",
+      "notes": [
+        "via Epoch AI; source: Epoch AI evaluation"
+      ]
+    },
+    {
+      "benchmark": "ale-bench",
+      "model": "kimi-k2-7-code",
+      "model_raw": "kimi-k2.7-code",
+      "score": 886.23,
+      "ci": null,
+      "effort": null,
+      "org": "Moonshot",
+      "release_date": "2026-06-12",
+      "notes": [
+        "via Epoch AI; source: Epoch AI evaluation"
+      ]
+    },
+    {
+      "benchmark": "ale-bench",
+      "model": "o4-mini",
+      "model_raw": "o4-mini-high",
+      "score": 826.17,
+      "ci": null,
+      "effort": "high",
+      "org": "OpenAI",
+      "release_date": "2025-04-16",
+      "notes": [
+        "via Epoch AI; source: Epoch AI evaluation"
+      ]
+    },
+    {
+      "benchmark": "ale-bench",
+      "model": "kimi-k2-5",
+      "model_raw": "kimi-k2.5",
+      "score": 821.65,
+      "ci": null,
+      "effort": null,
+      "org": "Moonshot",
+      "release_date": "2026-01-27",
+      "notes": [
+        "via Epoch AI; source: Epoch AI evaluation"
+      ]
+    },
+    {
+      "benchmark": "ale-bench",
+      "model": "gpt-5",
+      "model_raw": "gpt-5",
+      "score": 807.65,
+      "ci": null,
+      "effort": "minimal",
+      "org": "OpenAI",
+      "release_date": "2025-08-07",
+      "notes": [
+        "via Epoch AI; source: Epoch AI evaluation"
+      ]
+    },
+    {
+      "benchmark": "ale-bench",
+      "model": "deepseek-r1-0528",
+      "model_raw": "deepseek-r1-0528",
+      "score": 804.12,
+      "ci": null,
+      "effort": null,
+      "org": "DeepSeek",
+      "release_date": "2025-05-28",
+      "notes": [
+        "via Epoch AI; source: Epoch AI evaluation"
+      ]
+    },
+    {
+      "benchmark": "ale-bench",
+      "model": "gpt-5-mini",
+      "model_raw": "gpt-5-mini-thinking",
+      "score": 799.77,
+      "ci": null,
+      "effort": "high",
+      "org": "OpenAI",
+      "release_date": "2025-08-07",
+      "notes": [
+        "via Epoch AI; source: Epoch AI evaluation"
+      ]
+    },
+    {
+      "benchmark": "ale-bench",
+      "model": "gemini-3-1-flash-lite",
+      "model_raw": "gemini-3.1-flash-lite-preview-high",
+      "score": 797.73,
+      "ci": null,
+      "effort": null,
+      "org": "Google",
+      "release_date": "2026-03-03",
+      "notes": [
+        "via Epoch AI; source: Epoch AI evaluation"
+      ]
+    },
+    {
+      "benchmark": "ale-bench",
+      "model": "sonnet-4-5",
+      "model_raw": "claude-4.5-sonnet",
+      "score": 796.15,
+      "ci": null,
+      "effort": null,
+      "org": "Anthropic",
+      "release_date": "2025-09-29",
+      "notes": [
+        "via Epoch AI; source: Epoch AI evaluation"
+      ]
+    },
+    {
+      "benchmark": "ale-bench",
+      "model": "mercury-2",
+      "model_raw": "mercury-2",
+      "score": 785.58,
+      "ci": null,
+      "effort": null,
+      "org": "Inception Labs",
+      "release_date": null,
+      "notes": [
+        "via Epoch AI; source: Epoch AI evaluation"
+      ]
+    },
+    {
+      "benchmark": "ale-bench",
+      "model": "gemini-2-5-pro",
+      "model_raw": "gemini-2.5-pro-thinking",
+      "score": 785.52,
+      "ci": null,
+      "effort": null,
+      "org": "Google DeepMind",
+      "release_date": "2025-06-17",
+      "notes": [
+        "via Epoch AI; source: Epoch AI evaluation"
+      ]
+    },
+    {
+      "benchmark": "ale-bench",
+      "model": "mimo-v2-pro",
+      "model_raw": "mimo-v2-pro",
+      "score": 785.17,
+      "ci": null,
+      "effort": null,
+      "org": "Xiaomi Corp",
+      "release_date": null,
+      "notes": [
+        "via Epoch AI; source: Epoch AI evaluation"
+      ]
+    },
+    {
+      "benchmark": "ale-bench",
+      "model": "glm-5",
+      "model_raw": "glm-5",
+      "score": 765.62,
+      "ci": null,
+      "effort": null,
+      "org": "Z.ai (Zhipu AI)",
+      "release_date": "2026-02-11",
+      "notes": [
+        "via Epoch AI; source: Epoch AI evaluation"
+      ]
+    },
+    {
+      "benchmark": "ale-bench",
+      "model": "gemini-3-5-flash-lite",
+      "model_raw": "gemini-3.5-flash-lite-high",
+      "score": 765.27,
+      "ci": null,
+      "effort": "high",
+      "org": "Google DeepMind",
+      "release_date": "2026-07-21",
+      "notes": [
+        "via Epoch AI; source: Epoch AI evaluation"
+      ]
+    },
+    {
+      "benchmark": "ale-bench",
+      "model": "medium-2604",
+      "model_raw": "mistral-medium-3.5",
+      "score": 763.98,
+      "ci": null,
+      "effort": null,
+      "org": "Mistral AI",
+      "release_date": "2026-04-28",
+      "notes": [
+        "via Epoch AI; source: Epoch AI evaluation"
+      ]
+    },
+    {
+      "benchmark": "ale-bench",
+      "model": "deepseek-v3-1-terminus",
+      "model_raw": "deepseek-v3.1-terminus",
+      "score": 745.17,
+      "ci": null,
+      "effort": null,
+      "org": "DeepSeek",
+      "release_date": "2025-09-22",
+      "notes": [
+        "via Epoch AI; source: Epoch AI evaluation"
+      ]
+    },
+    {
+      "benchmark": "ale-bench",
+      "model": "mimo-v2-flash",
+      "model_raw": "mimo-v2-flash",
+      "score": 737.95,
+      "ci": null,
+      "effort": null,
+      "org": "Xiaomi Corp",
+      "release_date": null,
+      "notes": [
+        "via Epoch AI; source: Epoch AI evaluation"
+      ]
+    },
+    {
+      "benchmark": "ale-bench",
+      "model": "gpt-5-nano",
+      "model_raw": "gpt-5-nano-thinking",
+      "score": 718.67,
+      "ci": null,
+      "effort": "high",
+      "org": "OpenAI",
+      "release_date": "2025-08-07",
+      "notes": [
+        "via Epoch AI; source: Epoch AI evaluation"
+      ]
+    },
+    {
+      "benchmark": "ale-bench",
+      "model": "gemini-3-6-flash",
+      "model_raw": "gemini-3.6-flash-high",
+      "score": 715.52,
+      "ci": null,
+      "effort": "high",
+      "org": "Google DeepMind",
+      "release_date": "2026-07-21",
+      "notes": [
+        "via Epoch AI; source: Epoch AI evaluation"
+      ]
+    },
+    {
+      "benchmark": "ale-bench",
+      "model": "step-3-7-flash",
+      "model_raw": "step-3.7-flash-medium",
+      "score": 694.12,
+      "ci": null,
+      "effort": null,
+      "org": "StepFun",
+      "release_date": "2026-05-29",
+      "notes": [
+        "via Epoch AI; source: Epoch AI evaluation"
+      ]
+    },
+    {
+      "benchmark": "ale-bench",
+      "model": "deepseek-v4-flash",
+      "model_raw": "deepseek-v4-flash-high",
+      "score": 678.2,
+      "ci": null,
+      "effort": "high",
+      "org": "DeepSeek",
+      "release_date": "2026-04-24",
+      "notes": [
+        "via Epoch AI; source: Epoch AI evaluation"
+      ]
+    },
+    {
+      "benchmark": "ale-bench",
+      "model": "opus-4-1",
+      "model_raw": "claude-4.1-opus",
+      "score": 674.77,
+      "ci": null,
+      "effort": null,
+      "org": "Anthropic",
+      "release_date": "2025-08-05",
+      "notes": [
+        "via Epoch AI; source: Epoch AI evaluation"
+      ]
+    },
+    {
+      "benchmark": "ale-bench",
+      "model": "qwen3-6-plus",
+      "model_raw": "qwen3.6-plus",
+      "score": 670.15,
+      "ci": null,
+      "effort": null,
+      "org": "Alibaba",
+      "release_date": "2026-03-31",
+      "notes": [
+        "via Epoch AI; source: Epoch AI evaluation"
+      ]
+    },
+    {
+      "benchmark": "ale-bench",
+      "model": "gemini-2-5-flash",
+      "model_raw": "gemini-2.5-flash-thinking",
+      "score": 661.88,
+      "ci": null,
+      "effort": null,
+      "org": "Google DeepMind",
+      "release_date": "2025-06-17",
+      "notes": [
+        "via Epoch AI; source: Epoch AI evaluation"
+      ]
+    },
+    {
+      "benchmark": "ale-bench",
+      "model": "sonnet-4",
+      "model_raw": "claude-4-sonnet",
+      "score": 655.35,
+      "ci": null,
+      "effort": null,
+      "org": "Anthropic",
+      "release_date": "2025-05-22",
+      "notes": [
+        "via Epoch AI; source: Epoch AI evaluation"
+      ]
+    },
+    {
+      "benchmark": "ale-bench",
+      "model": "haiku-4-5",
+      "model_raw": "claude-4.5-haiku",
+      "score": 653.48,
+      "ci": null,
+      "effort": null,
+      "org": "Anthropic",
+      "release_date": "2025-10-15",
+      "notes": [
+        "via Epoch AI; source: Epoch AI evaluation"
+      ]
+    },
+    {
+      "benchmark": "ale-bench",
+      "model": "minimax-m3",
+      "model_raw": "minimax-m3",
+      "score": 640.02,
+      "ci": null,
+      "effort": null,
+      "org": "MiniMax",
+      "release_date": "2026-06-01",
+      "notes": [
+        "via Epoch AI; source: Epoch AI evaluation"
+      ]
+    },
+    {
+      "benchmark": "ale-bench",
+      "model": "minimax-m2-1",
+      "model_raw": "minimax-m2.1",
+      "score": 623.83,
+      "ci": null,
+      "effort": null,
+      "org": "MiniMax",
+      "release_date": "2025-12-23",
+      "notes": [
+        "via Epoch AI; source: Epoch AI evaluation"
+      ]
+    },
+    {
+      "benchmark": "ale-bench",
+      "model": "qwen3-5-plus",
+      "model_raw": "qwen3.5-397b-a17b",
+      "score": 621.92,
+      "ci": null,
+      "effort": null,
+      "org": "Alibaba",
+      "release_date": "2026-02-16",
+      "notes": [
+        "via Epoch AI; source: Epoch AI evaluation"
+      ]
+    },
+    {
+      "benchmark": "ale-bench",
+      "model": "minimax-m2-5",
+      "model_raw": "minimax-m2.5",
+      "score": 618.17,
+      "ci": null,
+      "effort": null,
+      "org": "MiniMax",
+      "release_date": "2026-02-12",
+      "notes": [
+        "via Epoch AI; source: Epoch AI evaluation"
+      ]
+    },
+    {
+      "benchmark": "ale-bench",
+      "model": "minimax-m2-7",
+      "model_raw": "minimax-m2.7",
+      "score": 599.25,
+      "ci": null,
+      "effort": null,
+      "org": "MiniMax",
+      "release_date": "2026-03-18",
+      "notes": [
+        "via Epoch AI; source: Epoch AI evaluation"
+      ]
+    },
+    {
+      "benchmark": "ale-bench",
+      "model": "kimi-k2",
+      "model_raw": "kimi-k2-thinking",
+      "score": 597.5,
+      "ci": null,
+      "effort": "thinking",
+      "org": "Moonshot",
+      "release_date": "2025-11-06",
+      "notes": [
+        "via Epoch AI; source: Epoch AI evaluation"
+      ]
+    },
+    {
+      "benchmark": "ale-bench",
+      "model": "grok-code-fast-1",
+      "model_raw": "grok-code-fast-1",
+      "score": 587.73,
+      "ci": null,
+      "effort": null,
+      "org": null,
+      "release_date": "2025-08-28",
+      "notes": [
+        "via Epoch AI; source: Epoch AI evaluation"
+      ]
+    },
+    {
+      "benchmark": "ale-bench",
+      "model": "gpt-oss-120b",
+      "model_raw": "gpt-oss-120b",
+      "score": 575.62,
+      "ci": null,
+      "effort": null,
+      "org": "OpenAI",
+      "release_date": "2025-08-05",
+      "notes": [
+        "via Epoch AI; source: Epoch AI evaluation"
+      ]
+    },
+    {
+      "benchmark": "ale-bench",
+      "model": "gpt-oss-20b",
+      "model_raw": "gpt-oss-20b",
+      "score": 566.05,
+      "ci": null,
+      "effort": null,
+      "org": "OpenAI",
+      "release_date": "2025-08-05",
+      "notes": [
+        "via Epoch AI; source: Epoch AI evaluation"
+      ]
+    },
+    {
+      "benchmark": "ale-bench",
+      "model": "gpt-4-1",
+      "model_raw": "gpt-4.1",
+      "score": 558.1,
+      "ci": null,
+      "effort": null,
+      "org": "OpenAI",
+      "release_date": "2025-04-14",
+      "notes": [
+        "via Epoch AI; source: Epoch AI evaluation"
+      ]
+    },
+    {
+      "benchmark": "ale-bench",
+      "model": "deepseek-v4-pro",
+      "model_raw": "deepseek-v4-pro-no-thinking",
+      "score": 521.67,
+      "ci": null,
+      "effort": "none",
+      "org": "DeepSeek",
+      "release_date": "2026-04-24",
+      "notes": [
+        "via Epoch AI; source: Epoch AI evaluation"
+      ]
+    },
+    {
+      "benchmark": "ale-bench",
+      "model": "mimo-v2-5",
+      "model_raw": "mimo-v2.5",
+      "score": 513.95,
+      "ci": null,
+      "effort": null,
+      "org": "Xiaomi Corp",
+      "release_date": null,
+      "notes": [
+        "via Epoch AI; source: Epoch AI evaluation"
+      ]
+    },
+    {
+      "benchmark": "ale-bench",
+      "model": "small-2603",
+      "model_raw": "mistral-small-4",
+      "score": 497.62,
+      "ci": null,
+      "effort": null,
+      "org": "Mistral AI",
+      "release_date": "2026-03-16",
+      "notes": [
+        "via Epoch AI; source: Epoch AI evaluation"
+      ]
+    },
+    {
+      "benchmark": "ale-bench",
+      "model": "qwen3-coder-480b-a35b-instruct",
+      "model_raw": "qwen3-coder",
+      "score": 461.45,
+      "ci": null,
+      "effort": null,
+      "org": "Alibaba",
+      "release_date": "2025-07-31",
+      "notes": [
+        "via Epoch AI; source: Epoch AI evaluation"
+      ]
+    },
+    {
+      "benchmark": "ale-bench",
+      "model": "qwen3-coder-plus",
+      "model_raw": "qwen3-coder-plus",
+      "score": 456.5,
+      "ci": null,
+      "effort": null,
+      "org": null,
+      "release_date": "2025-09-23",
+      "notes": [
+        "via Epoch AI; source: Epoch AI evaluation"
+      ]
+    },
+    {
+      "benchmark": "ale-bench",
+      "model": "ring-2-6-1t",
+      "model_raw": "ling-2.6-1t",
+      "score": 432.57,
+      "ci": null,
+      "effort": null,
+      "org": "Ant Group",
+      "release_date": "2026-05-14",
+      "notes": [
+        "via Epoch AI; source: Epoch AI evaluation"
+      ]
+    },
+    {
+      "benchmark": "ale-bench",
+      "model": "glm-4-7",
+      "model_raw": "glm-4.7",
+      "score": 399.48,
+      "ci": null,
+      "effort": null,
+      "org": "Z.ai (Zhipu AI)",
+      "release_date": "2025-12-22",
+      "notes": [
+        "via Epoch AI; source: Epoch AI evaluation"
+      ]
+    },
+    {
+      "benchmark": "ale-bench",
+      "model": "grok-4-1-fast",
+      "model_raw": "grok-4.1-fast",
+      "score": 394.93,
+      "ci": null,
+      "effort": null,
+      "org": "xAI",
+      "release_date": "2025-11-19",
+      "notes": [
+        "via Epoch AI; source: Epoch AI evaluation"
+      ]
+    },
+    {
+      "benchmark": "ale-bench",
+      "model": "qwen3",
+      "model_raw": "qwen3-max",
+      "score": 370.45,
+      "ci": null,
+      "effort": null,
+      "org": "Alibaba",
+      "release_date": "2025-09-24",
+      "notes": [
+        "via Epoch AI; source: Epoch AI evaluation"
+      ]
+    },
+    {
+      "benchmark": "ale-bench",
+      "model": "qwen3-5-27b",
+      "model_raw": "qwen3.5-27b",
+      "score": 349.45,
+      "ci": null,
+      "effort": null,
+      "org": "Alibaba",
+      "release_date": "2026-02-24",
+      "notes": [
+        "via Epoch AI; source: Epoch AI evaluation"
+      ]
+    },
+    {
+      "benchmark": "ale-bench",
+      "model": "glm-4-5",
+      "model_raw": "glm-4.5",
+      "score": 344.82,
+      "ci": null,
+      "effort": null,
+      "org": "Z.ai (Zhipu AI),Tsinghua University",
+      "release_date": "2025-08-03",
+      "notes": [
+        "via Epoch AI; source: Epoch AI evaluation"
+      ]
+    },
+    {
+      "benchmark": "ale-bench",
+      "model": "glm-4-6",
+      "model_raw": "glm-4.6",
+      "score": 340.82,
+      "ci": null,
+      "effort": null,
+      "org": "Z.ai (Zhipu AI),Tsinghua University",
+      "release_date": "2025-09-30",
+      "notes": [
+        "via Epoch AI; source: Epoch AI evaluation"
+      ]
+    },
+    {
+      "benchmark": "ale-bench",
+      "model": "qwen3-6-flash",
+      "model_raw": "qwen3.6-flash",
+      "score": 326.4,
+      "ci": null,
+      "effort": null,
+      "org": "Alibaba",
+      "release_date": "2026-04-27",
+      "notes": [
+        "via Epoch AI; source: Epoch AI evaluation"
+      ]
+    },
+    {
+      "benchmark": "ale-bench",
+      "model": "gemini-2-5-flash-lite-preview-06-17",
+      "model_raw": "gemini-2.5-flash-lite-thinking",
+      "score": 325.9,
+      "ci": null,
+      "effort": "thinking",
+      "org": "Google DeepMind",
+      "release_date": "2025-06-17",
+      "notes": [
+        "via Epoch AI; source: Epoch AI evaluation"
+      ]
+    },
+    {
+      "benchmark": "ale-bench",
+      "model": "deepseek-v4-flash",
+      "model_raw": "deepseek-v4-flash-no-thinking",
+      "score": 324.98,
+      "ci": null,
+      "effort": "none",
+      "org": "DeepSeek",
+      "release_date": "2026-04-24",
+      "notes": [
+        "via Epoch AI; source: Epoch AI evaluation"
+      ]
+    },
+    {
+      "benchmark": "ale-bench",
+      "model": "glm-5-3-flash",
+      "model_raw": "glm-5.3-flash-high",
+      "score": 303.55,
+      "ci": null,
+      "effort": "high",
+      "org": "Z.ai (Zhipu AI)",
+      "release_date": "2026-08-20",
+      "notes": [
+        "via Epoch AI; source: Epoch AI evaluation"
+      ]
+    },
+    {
+      "benchmark": "ale-bench",
+      "model": "mercury-2-5",
+      "model_raw": "mercury-2.5-high",
+      "score": 301.65,
+      "ci": null,
+      "effort": "high",
+      "org": "Inception Labs",
+      "release_date": "2026-09-08",
+      "notes": [
+        "via Epoch AI; source: Epoch AI evaluation"
+      ]
+    },
+    {
+      "benchmark": "ale-bench",
+      "model": "kimi-k2-0905",
+      "model_raw": "kimi-k2-0905",
+      "score": 267.12,
+      "ci": null,
+      "effort": null,
+      "org": "Moonshot",
+      "release_date": "2025-09-05",
+      "notes": [
+        "via Epoch AI; source: Epoch AI evaluation"
+      ]
+    },
+    {
+      "benchmark": "ale-bench",
+      "model": "large-2512",
+      "model_raw": "mistral-large-3-2512",
+      "score": 264.7,
+      "ci": null,
+      "effort": null,
+      "org": "Mistral AI",
+      "release_date": "2025-12-02",
+      "notes": [
+        "via Epoch AI; source: Epoch AI evaluation"
+      ]
+    },
+    {
+      "benchmark": "ale-bench",
+      "model": "amazon-nova-lite-v1-0",
+      "model_raw": "nova-2-lite-v1",
+      "score": 236.25,
+      "ci": null,
+      "effort": null,
+      "org": "Amazon",
+      "release_date": "2024-12-03",
+      "notes": [
+        "via Epoch AI; source: Epoch AI evaluation"
+      ]
+    },
+    {
+      "benchmark": "ale-bench",
+      "model": "qwen3-5-flash",
+      "model_raw": "qwen3.5-35b-a3b",
+      "score": 221.8,
+      "ci": null,
+      "effort": null,
+      "org": "Alibaba",
+      "release_date": "2026-02-25",
+      "notes": [
+        "via Epoch AI; source: Epoch AI evaluation"
+      ]
+    },
+    {
+      "benchmark": "ale-bench",
+      "model": "nemotron-3-super",
+      "model_raw": "nemotron-3-super",
+      "score": 213.9,
+      "ci": null,
+      "effort": null,
+      "org": "Nvidia",
+      "release_date": "2026-03-11",
+      "notes": [
+        "via Epoch AI; source: Epoch AI evaluation"
+      ]
+    },
+    {
+      "benchmark": "ale-bench",
+      "model": "medium-2508",
+      "model_raw": "mistral-medium-3.1",
+      "score": 210.18,
+      "ci": null,
+      "effort": null,
+      "org": "Mistral AI",
+      "release_date": "2025-08-12",
+      "notes": [
+        "via Epoch AI; source: Epoch AI evaluation"
+      ]
+    },
+    {
+      "benchmark": "ale-bench",
+      "model": "llama-4-maverick-17b-128e-instruct-fp8",
+      "model_raw": "llama-4-maverick",
+      "score": 172.97,
+      "ci": null,
+      "effort": null,
+      "org": "Meta AI",
+      "release_date": "2025-04-05",
+      "notes": [
+        "via Epoch AI; source: Epoch AI evaluation"
+      ]
+    },
+    {
+      "benchmark": "ale-bench",
+      "model": "codestral-2508",
+      "model_raw": "codestral-2508",
+      "score": 137.78,
+      "ci": null,
+      "effort": null,
+      "org": "Mistral AI",
+      "release_date": "2025-07-30",
+      "notes": [
+        "via Epoch AI; source: Epoch AI evaluation"
+      ]
+    }
+  ]
+}

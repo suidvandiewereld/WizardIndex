@@ -1,0 +1,466 @@
+{
+  "benchmark": "furniture-assembly",
+  "fetched_at": "2026-10-29T07:59:00+00:00",
+  "meta": {
+    "url": "https://epoch.ai/benchmarks",
+    "via": "https://epoch.ai/benchmarks",
+    "credit": "Epoch AI, 'Capabilities & benchmarking', https://epoch.ai/benchmarks (CC BY 4.0)"
+  },
+  "results": [
+    {
+      "benchmark": "furniture-assembly",
+      "model": "gpt-6-1-terra",
+      "model_raw": "gpt-6.1-terra_max",
+      "score": 79.167,
+      "ci": 9.96,
+      "effort": "max",
+      "org": "OpenAI",
+      "release_date": "2026-10-26",
+      "notes": [
+        "via Epoch AI; source: Epoch AI evaluation"
+      ]
+    },
+    {
+      "benchmark": "furniture-assembly",
+      "model": "muse-wonder-1-0",
+      "model_raw": "muse-wonder-1.0_max",
+      "score": 54.167,
+      "ci": 12.61,
+      "effort": "max",
+      "org": "Meta AI",
+      "release_date": "2026-10-12",
+      "notes": [
+        "via Epoch AI; source: Epoch AI evaluation"
+      ]
+    },
+    {
+      "benchmark": "furniture-assembly",
+      "model": "large-4-0",
+      "model_raw": "mistral-large-4-0_high",
+      "score": 20.833,
+      "ci": 10.23,
+      "effort": "high",
+      "org": "Mistral AI",
+      "release_date": "2026-10-06",
+      "notes": [
+        "via Epoch AI; source: Epoch AI evaluation"
+      ]
+    },
+    {
+      "benchmark": "furniture-assembly",
+      "model": "gemini-4-argon",
+      "model_raw": "gemini-4-argon_high",
+      "score": 72.5,
+      "ci": 11.03,
+      "effort": "high",
+      "org": "Google DeepMind",
+      "release_date": "2026-09-30",
+      "notes": [
+        "via Epoch AI; source: Epoch AI evaluation"
+      ]
+    },
+    {
+      "benchmark": "furniture-assembly",
+      "model": "deepseek-v4-1-flash",
+      "model_raw": "deepseek-v4.1-flash_max",
+      "score": 34.167,
+      "ci": 11.76,
+      "effort": "max",
+      "org": "DeepSeek",
+      "release_date": "2026-09-09",
+      "notes": [
+        "via Epoch AI; source: Epoch AI evaluation"
+      ]
+    },
+    {
+      "benchmark": "furniture-assembly",
+      "model": "haiku-5-5",
+      "model_raw": "claude-haiku-5-5_max",
+      "score": 47.5,
+      "ci": 12.64,
+      "effort": "max",
+      "org": "Anthropic",
+      "release_date": "2026-10-07",
+      "notes": [
+        "via Epoch AI; source: Epoch AI evaluation"
+      ]
+    },
+    {
+      "benchmark": "furniture-assembly",
+      "model": "gpt-6-1-sol",
+      "model_raw": "gpt-6.1-sol_max",
+      "score": 80.0,
+      "ci": 9.66,
+      "effort": "max",
+      "org": "OpenAI",
+      "release_date": "2026-09-29",
+      "notes": [
+        "via Epoch AI; source: Epoch AI evaluation"
+      ]
+    },
+    {
+      "benchmark": "furniture-assembly",
+      "model": "sonnet-5-5",
+      "model_raw": "claude-sonnet-5-5_max",
+      "score": 75.0,
+      "ci": 10.8,
+      "effort": "max",
+      "org": "Anthropic",
+      "release_date": "2026-09-28",
+      "notes": [
+        "via Epoch AI; source: Epoch AI evaluation"
+      ]
+    },
+    {
+      "benchmark": "furniture-assembly",
+      "model": "gpt-6-luna",
+      "model_raw": "gpt-6-luna_max",
+      "score": 44.167,
+      "ci": 12.56,
+      "effort": "max",
+      "org": "OpenAI",
+      "release_date": "2026-09-22",
+      "notes": [
+        "via Epoch AI; source: Epoch AI evaluation"
+      ]
+    },
+    {
+      "benchmark": "furniture-assembly",
+      "model": "grok-4-5",
+      "model_raw": "grok-4.5_high",
+      "score": 22.5,
+      "ci": 10.53,
+      "effort": "high",
+      "org": "xAI",
+      "release_date": "2026-07-08",
+      "notes": [
+        "via Epoch AI; source: Epoch AI evaluation"
+      ]
+    },
+    {
+      "benchmark": "furniture-assembly",
+      "model": "grok-4-6",
+      "model_raw": "grok-4.6_xhigh",
+      "score": 40.0,
+      "ci": 12.28,
+      "effort": "xhigh",
+      "org": "xAI",
+      "release_date": "2026-08-12",
+      "notes": [
+        "via Epoch AI; source: Epoch AI evaluation"
+      ]
+    },
+    {
+      "benchmark": "furniture-assembly",
+      "model": "grok-4-7",
+      "model_raw": "grok-4.7_xhigh",
+      "score": 20.833,
+      "ci": 10.23,
+      "effort": "xhigh",
+      "org": "xAI",
+      "release_date": "2026-09-21",
+      "notes": [
+        "via Epoch AI; source: Epoch AI evaluation"
+      ]
+    },
+    {
+      "benchmark": "furniture-assembly",
+      "model": "gpt-6-sol",
+      "model_raw": "gpt-6-sol_max",
+      "score": 58.333,
+      "ci": 12.58,
+      "effort": "max",
+      "org": "OpenAI",
+      "release_date": "2026-09-22",
+      "notes": [
+        "via Epoch AI; source: Epoch AI evaluation"
+      ]
+    },
+    {
+      "benchmark": "furniture-assembly",
+      "model": "opus-5-5",
+      "model_raw": "claude-opus-5-5_max",
+      "score": 83.333,
+      "ci": 9.22,
+      "effort": "max",
+      "org": "Anthropic",
+      "release_date": "2026-09-22",
+      "notes": [
+        "via Epoch AI; source: Epoch AI evaluation"
+      ]
+    },
+    {
+      "benchmark": "furniture-assembly",
+      "model": "kimi-k3",
+      "model_raw": "kimi-k3_max",
+      "score": 34.167,
+      "ci": 11.99,
+      "effort": "max",
+      "org": "Moonshot",
+      "release_date": "2026-07-16",
+      "notes": [
+        "via Epoch AI; source: Epoch AI evaluation"
+      ]
+    },
+    {
+      "benchmark": "furniture-assembly",
+      "model": "kimi-k2-6",
+      "model_raw": "kimi-k2.6",
+      "score": 21.667,
+      "ci": 10.25,
+      "effort": null,
+      "org": "Moonshot",
+      "release_date": "2026-04-20",
+      "notes": [
+        "via Epoch AI; source: Epoch AI evaluation"
+      ]
+    },
+    {
+      "benchmark": "furniture-assembly",
+      "model": "qwen3-8-max",
+      "model_raw": "qwen3.8-max-0902_xhigh",
+      "score": 20.0,
+      "ci": 10.21,
+      "effort": "xhigh",
+      "org": "Alibaba",
+      "release_date": "2026-09-01",
+      "notes": [
+        "via Epoch AI; source: Epoch AI evaluation"
+      ]
+    },
+    {
+      "benchmark": "furniture-assembly",
+      "model": "gemini-3-7-flash",
+      "model_raw": "gemini-3.7-flash_high",
+      "score": 26.667,
+      "ci": 11.04,
+      "effort": "high",
+      "org": "Google DeepMind",
+      "release_date": "2026-08-13",
+      "notes": [
+        "via Epoch AI; source: Epoch AI evaluation"
+      ]
+    },
+    {
+      "benchmark": "furniture-assembly",
+      "model": "gemini-3-6-flash",
+      "model_raw": "gemini-3.6-flash_high",
+      "score": 23.333,
+      "ci": 10.54,
+      "effort": "high",
+      "org": "Google DeepMind",
+      "release_date": "2026-07-21",
+      "notes": [
+        "via Epoch AI; source: Epoch AI evaluation"
+      ]
+    },
+    {
+      "benchmark": "furniture-assembly",
+      "model": "gemini-3-8-flash",
+      "model_raw": "gemini-3.8-flash_high",
+      "score": 31.667,
+      "ci": 11.64,
+      "effort": "high",
+      "org": "Google DeepMind",
+      "release_date": "2026-09-02",
+      "notes": [
+        "via Epoch AI; source: Epoch AI evaluation"
+      ]
+    },
+    {
+      "benchmark": "furniture-assembly",
+      "model": "fable-5-1",
+      "model_raw": "claude-fable-5-1_max",
+      "score": 70.0,
+      "ci": 11.22,
+      "effort": "max",
+      "org": "Anthropic",
+      "release_date": "2026-09-01",
+      "notes": [
+        "via Epoch AI; source: Epoch AI evaluation"
+      ]
+    },
+    {
+      "benchmark": "furniture-assembly",
+      "model": "gemini-3-1-pro-preview",
+      "model_raw": "gemini-3.1-pro-preview_high",
+      "score": 26.667,
+      "ci": 11.04,
+      "effort": "high",
+      "org": "Google DeepMind",
+      "release_date": "2026-02-19",
+      "notes": [
+        "via Epoch AI; source: Epoch AI evaluation"
+      ]
+    },
+    {
+      "benchmark": "furniture-assembly",
+      "model": "fable-5",
+      "model_raw": "claude-fable-5_max",
+      "score": 35.833,
+      "ci": 12.12,
+      "effort": "max",
+      "org": "Anthropic",
+      "release_date": "2026-06-09",
+      "notes": [
+        "via Epoch AI; source: Epoch AI evaluation"
+      ]
+    },
+    {
+      "benchmark": "furniture-assembly",
+      "model": "opus-5",
+      "model_raw": "claude-opus-5_max",
+      "score": 60.833,
+      "ci": 12.12,
+      "effort": "max",
+      "org": "Anthropic",
+      "release_date": "2026-07-24",
+      "notes": [
+        "via Epoch AI; source: Epoch AI evaluation"
+      ]
+    },
+    {
+      "benchmark": "furniture-assembly",
+      "model": "opus-4-8",
+      "model_raw": "claude-opus-4-8_max",
+      "score": 42.5,
+      "ci": 12.51,
+      "effort": "max",
+      "org": "Anthropic",
+      "release_date": "2026-05-28",
+      "notes": [
+        "via Epoch AI; source: Epoch AI evaluation"
+      ]
+    },
+    {
+      "benchmark": "furniture-assembly",
+      "model": "opus-4-7",
+      "model_raw": "claude-opus-4-7_max",
+      "score": 33.333,
+      "ci": 12.03,
+      "effort": "max",
+      "org": "Anthropic",
+      "release_date": "2026-04-16",
+      "notes": [
+        "via Epoch AI; source: Epoch AI evaluation"
+      ]
+    },
+    {
+      "benchmark": "furniture-assembly",
+      "model": "opus-4-6",
+      "model_raw": "claude-opus-4-6_max",
+      "score": 28.333,
+      "ci": 11.5,
+      "effort": "max",
+      "org": "Anthropic",
+      "release_date": "2026-02-05",
+      "notes": [
+        "via Epoch AI; source: Epoch AI evaluation"
+      ]
+    },
+    {
+      "benchmark": "furniture-assembly",
+      "model": "opus-4-5",
+      "model_raw": "claude-opus-4-5-20251101_64K",
+      "score": 28.333,
+      "ci": 11.5,
+      "effort": null,
+      "org": "Anthropic",
+      "release_date": "2025-11-24",
+      "notes": [
+        "via Epoch AI; source: Epoch AI evaluation"
+      ]
+    },
+    {
+      "benchmark": "furniture-assembly",
+      "model": "gpt-5-6-luna",
+      "model_raw": "gpt-5.6-luna_max",
+      "score": 42.5,
+      "ci": 12.51,
+      "effort": "max",
+      "org": "OpenAI",
+      "release_date": "2026-07-09",
+      "notes": [
+        "via Epoch AI; source: Epoch AI evaluation"
+      ]
+    },
+    {
+      "benchmark": "furniture-assembly",
+      "model": "gpt-6-astra",
+      "model_raw": "gpt-6-astra_max",
+      "score": 80.0,
+      "ci": 9.66,
+      "effort": "max",
+      "org": "OpenAI",
+      "release_date": "2026-09-03",
+      "notes": [
+        "via Epoch AI; source: Epoch AI evaluation"
+      ]
+    },
+    {
+      "benchmark": "furniture-assembly",
+      "model": "gpt-5-6-sol",
+      "model_raw": "gpt-5.6-sol_max",
+      "score": 56.667,
+      "ci": 12.43,
+      "effort": "max",
+      "org": "OpenAI",
+      "release_date": "2026-07-09",
+      "notes": [
+        "via Epoch AI; source: Epoch AI evaluation"
+      ]
+    },
+    {
+      "benchmark": "furniture-assembly",
+      "model": "gpt-5-6-terra",
+      "model_raw": "gpt-5.6-terra_max",
+      "score": 54.167,
+      "ci": 12.61,
+      "effort": "max",
+      "org": "OpenAI",
+      "release_date": "2026-07-09",
+      "notes": [
+        "via Epoch AI; source: Epoch AI evaluation"
+      ]
+    },
+    {
+      "benchmark": "furniture-assembly",
+      "model": "gpt-5-5",
+      "model_raw": "gpt-5.5_xhigh",
+      "score": 44.167,
+      "ci": 12.56,
+      "effort": "xhigh",
+      "org": "OpenAI",
+      "release_date": "2026-04-23",
+      "notes": [
+        "via Epoch AI; source: Epoch AI evaluation"
+      ]
+    },
+    {
+      "benchmark": "furniture-assembly",
+      "model": "gpt-5-2",
+      "model_raw": "gpt-5.2-2025-12-11_xhigh",
+      "score": 38.333,
+      "ci": 12.41,
+      "effort": "xhigh",
+      "org": "OpenAI",
+      "release_date": "2025-12-11",
+      "notes": [
+        "via Epoch AI; source: Epoch AI evaluation"
+      ]
+    },
+    {
+      "benchmark": "furniture-assembly",
+      "model": "gpt-5-4",
+      "model_raw": "gpt-5.4-2026-03-05_xhigh",
+      "score": 37.5,
+      "ci": 12.24,
+      "effort": "xhigh",
+      "org": "OpenAI",
+      "release_date": "2026-03-05",
+      "notes": [
+        "via Epoch AI; source: Epoch AI evaluation"
+      ]
+    }
+  ]
+}

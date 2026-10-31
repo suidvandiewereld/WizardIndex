@@ -1,0 +1,305 @@
+{
+  "benchmark": "deepswe",
+  "fetched_at": "2026-10-29T07:58:28+00:00",
+  "meta": {
+    "url": "https://deepswe.datacurve.ai/",
+    "tasks": 113,
+    "updated": "September 22, 2026"
+  },
+  "results": [
+    {
+      "benchmark": "deepswe",
+      "model": "gpt-6-astra",
+      "model_raw": "gpt-6-astra [xhigh]",
+      "score": 74.0,
+      "ci": 3.0,
+      "effort": "xhigh",
+      "org": null,
+      "release_date": null,
+      "notes": [
+        "agent: mini-swe-agent",
+        "best effort level shown on leaderboard"
+      ]
+    },
+    {
+      "benchmark": "deepswe",
+      "model": "gemini-3-8-flash",
+      "model_raw": "gemini-3.8-flash [high]",
+      "score": 74.0,
+      "ci": 1.0,
+      "effort": "high",
+      "org": null,
+      "release_date": null,
+      "notes": [
+        "agent: mini-swe-agent",
+        "best effort level shown on leaderboard"
+      ]
+    },
+    {
+      "benchmark": "deepswe",
+      "model": "opus-5",
+      "model_raw": "claude-opus-5 [max]",
+      "score": 74.0,
+      "ci": 4.0,
+      "effort": "max",
+      "org": null,
+      "release_date": null,
+      "notes": [
+        "agent: mini-swe-agent",
+        "best effort level shown on leaderboard"
+      ]
+    },
+    {
+      "benchmark": "deepswe",
+      "model": "gpt-5-6-sol",
+      "model_raw": "gpt-5.6-sol [max]",
+      "score": 73.0,
+      "ci": 3.0,
+      "effort": "max",
+      "org": null,
+      "release_date": null,
+      "notes": [
+        "agent: mini-swe-agent",
+        "best effort level shown on leaderboard"
+      ]
+    },
+    {
+      "benchmark": "deepswe",
+      "model": "fable-5",
+      "model_raw": "claude-fable-5 [xhigh]",
+      "score": 70.0,
+      "ci": 3.0,
+      "effort": "xhigh",
+      "org": null,
+      "release_date": null,
+      "notes": [
+        "agent: mini-swe-agent",
+        "best effort level shown on leaderboard"
+      ]
+    },
+    {
+      "benchmark": "deepswe",
+      "model": "glm-5-3",
+      "model_raw": "glm-5.3 [max]",
+      "score": 69.0,
+      "ci": 3.0,
+      "effort": "max",
+      "org": null,
+      "release_date": null,
+      "notes": [
+        "agent: mini-swe-agent",
+        "best effort level shown on leaderboard"
+      ]
+    },
+    {
+      "benchmark": "deepswe",
+      "model": "kimi-k3",
+      "model_raw": "kimi-k3 [max]",
+      "score": 69.0,
+      "ci": 5.0,
+      "effort": "max",
+      "org": null,
+      "release_date": null,
+      "notes": [
+        "agent: mini-swe-agent",
+        "best effort level shown on leaderboard"
+      ]
+    },
+    {
+      "benchmark": "deepswe",
+      "model": "grok-4-6",
+      "model_raw": "grok-4.6 [medium]",
+      "score": 67.0,
+      "ci": 2.0,
+      "effort": "medium",
+      "org": null,
+      "release_date": null,
+      "notes": [
+        "agent: mini-swe-agent",
+        "best effort level shown on leaderboard"
+      ]
+    },
+    {
+      "benchmark": "deepswe",
+      "model": "gpt-5-6-luna",
+      "model_raw": "gpt-5.6-luna [max]",
+      "score": 67.0,
+      "ci": 4.0,
+      "effort": "max",
+      "org": null,
+      "release_date": null,
+      "notes": [
+        "agent: mini-swe-agent",
+        "best effort level shown on leaderboard"
+      ]
+    },
+    {
+      "benchmark": "deepswe",
+      "model": "gpt-5-5",
+      "model_raw": "gpt-5.5 [xhigh]",
+      "score": 67.0,
+      "ci": 6.0,
+      "effort": "xhigh",
+      "org": null,
+      "release_date": null,
+      "notes": [
+        "agent: mini-swe-agent",
+        "best effort level shown on leaderboard"
+      ]
+    },
+    {
+      "benchmark": "deepswe",
+      "model": "gemini-3-7-flash",
+      "model_raw": "gemini-3.7-flash [medium]",
+      "score": 65.0,
+      "ci": 3.0,
+      "effort": "medium",
+      "org": null,
+      "release_date": null,
+      "notes": [
+        "agent: mini-swe-agent",
+        "best effort level shown on leaderboard"
+      ]
+    },
+    {
+      "benchmark": "deepswe",
+      "model": "glm-5-3-flash",
+      "model_raw": "glm-5.3-flash [max]",
+      "score": 63.0,
+      "ci": 4.0,
+      "effort": "max",
+      "org": null,
+      "release_date": null,
+      "notes": [
+        "agent: mini-swe-agent",
+        "best effort level shown on leaderboard"
+      ]
+    },
+    {
+      "benchmark": "deepswe",
+      "model": "deepseek-v4-pro",
+      "model_raw": "deepseek-v4-pro [max]",
+      "score": 63.0,
+      "ci": 6.0,
+      "effort": "max",
+      "org": null,
+      "release_date": null,
+      "notes": [
+        "agent: mini-swe-agent",
+        "best effort level shown on leaderboard"
+      ]
+    },
+    {
+      "benchmark": "deepswe",
+      "model": "opus-4-8",
+      "model_raw": "claude-opus-4.8 [max]",
+      "score": 59.0,
+      "ci": 2.0,
+      "effort": "max",
+      "org": null,
+      "release_date": null,
+      "notes": [
+        "agent: mini-swe-agent",
+        "best effort level shown on leaderboard"
+      ]
+    },
+    {
+      "benchmark": "deepswe",
+      "model": "qwen3-8-max",
+      "model_raw": "qwen3.8-max [xhigh]",
+      "score": 57.0,
+      "ci": 3.0,
+      "effort": "xhigh",
+      "org": null,
+      "release_date": null,
+      "notes": [
+        "agent: mini-swe-agent",
+        "best effort level shown on leaderboard"
+      ]
+    },
+    {
+      "benchmark": "deepswe",
+      "model": "muse-spark-1-2",
+      "model_raw": "muse-spark-1.2 [xhigh]",
+      "score": 55.0,
+      "ci": 2.0,
+      "effort": "xhigh",
+      "org": null,
+      "release_date": null,
+      "notes": [
+        "agent: mini-swe-agent",
+        "best effort level shown on leaderboard"
+      ]
+    },
+    {
+      "benchmark": "deepswe",
+      "model": "sonnet-5",
+      "model_raw": "claude-sonnet-5 [max]",
+      "score": 54.0,
+      "ci": 4.0,
+      "effort": "max",
+      "org": null,
+      "release_date": null,
+      "notes": [
+        "agent: mini-swe-agent",
+        "best effort level shown on leaderboard"
+      ]
+    },
+    {
+      "benchmark": "deepswe",
+      "model": "deepseek-v4-flash",
+      "model_raw": "deepseek-v4-flash [max]",
+      "score": 53.0,
+      "ci": 4.0,
+      "effort": "max",
+      "org": null,
+      "release_date": null,
+      "notes": [
+        "agent: mini-swe-agent",
+        "best effort level shown on leaderboard"
+      ]
+    },
+    {
+      "benchmark": "deepswe",
+      "model": "gemini-3-6-flash",
+      "model_raw": "gemini-3.6-flash [high]",
+      "score": 47.0,
+      "ci": 4.0,
+      "effort": "high",
+      "org": null,
+      "release_date": null,
+      "notes": [
+        "agent: mini-swe-agent",
+        "best effort level shown on leaderboard"
+      ]
+    },
+    {
+      "benchmark": "deepswe",
+      "model": "glm-5-2",
+      "model_raw": "glm-5.2 [max]",
+      "score": 44.0,
+      "ci": 2.0,
+      "effort": "max",
+      "org": null,
+      "release_date": null,
+      "notes": [
+        "agent: mini-swe-agent",
+        "best effort level shown on leaderboard"
+      ]
+    },
+    {
+      "benchmark": "deepswe",
+      "model": "gemini-3-5-flash",
+      "model_raw": "gemini-3.5-flash [high]",
+      "score": 36.0,
+      "ci": 4.0,
+      "effort": "high",
+      "org": null,
+      "release_date": null,
+      "notes": [
+        "agent: mini-swe-agent",
+        "best effort level shown on leaderboard"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,322 @@
+# WizardIndex configuration: dimensions, their weights, and the benchmarks feeding each one.
+#
+# A benchmark's `source` names an ingestor in wizardindex/sources/. `epoch` reads Epoch AI's
+# CC-BY benchmark dataset. `artificial_analysis` reads individual evaluations Artificial Analysis
+# runs itself (never their Intelligence Index). `fallback_for: <id>` means a benchmark only counts
+# for models that have no result on benchmark <id>. `manual` reads results transcribed from papers or leaderboards
+# without an API, from data/manual/<id>.yaml.
+
+ranking:
+  # A model is ranked only if it has results in at least this many dimensions, including at
+  # least one coding dimension from `required_any` (this is a software-engineering index).
+  min_dimensions: 2
+  required_any: [swe, agentic]
+  # Models released longer ago than this are marked outdated and left out of the ranking.
+  max_age_days: 120
+  # A model is ranked only if at least this share of its score is measured, not estimated.
+  min_measured: 50
+
+dimensions:
+  - id: swe
+    name: Real-world software engineering
+    weight: 25
+    benchmarks:
+      - id: swe-rebench
+        name: SWE-rebench
+        source: swe_rebench
+        url: https://swe-rebench.com
+      - id: deepswe
+        name: DeepSWE
+        source: deepswe
+        url: https://deepswe.datacurve.ai
+      - id: frontierswe
+        name: FrontierSWE
+        source: epoch
+        file: frontierswe_external.csv
+        column: Score
+        url: https://www.frontierswe.com/
+      - id: cursorbench
+        name: CursorBench
+        source: epoch
+        file: cursorbench_external.csv
+        column: Score
+        url: https://cursor.com/cursorbench
+      - id: frontiercode
+        name: FrontierCode
+        source: epoch
+        file: frontiercode_external.csv
+        column: Main score
+        url: https://cognition.com/frontiercode
+      - id: mirrorcode
+        name: MirrorCode
+        source: epoch
+        file: mirrorcode.csv
+        column: mean_score
+        stderr: stderr
+        url: https://epoch.ai/benchmarks
+      - id: aa-frontiercode
+        name: FrontierCode (AA run)
+        source: artificial_analysis
+        field: frontierCode
+        # Only fills in models missing from the official FrontierCode board, so nobody counts twice.
+        fallback_for: frontiercode
+        url: https://artificialanalysis.ai
+
+  - id: taste
+    name: Design taste
+    weight: 10
+    # Blind human votes on what models build (Elo-style ratings, `kind: rating`).
+    benchmarks:
+      - id: design-arena-website
+        name: Design Arena, websites
+        source: design_arena
+        category: website
+        kind: rating
+        url: https://www.designarena.ai/leaderboard
+      - id: design-arena-ui
+        name: Design Arena, UI components
+        source: design_arena
+        category: uicomponent
+        kind: rating
+        url: https://www.designarena.ai/leaderboard
+      - id: design-arena-dataviz
+        name: Design Arena, data visualization
+        source: design_arena
+        category: dataviz
+        kind: rating
+        url: https://www.designarena.ai/leaderboard
+      - id: webdev-arena
+        name: WebDev Arena
+        source: epoch
+        file: webdev_arena_external.csv
+        column: Arena Score
+        scale: 1
+        kind: rating
+        url: https://web.lmarena.ai/leaderboard
+
+  - id: agentic
+    name: Agentic / terminal work
+    weight: 10
+    benchmarks:
+      - id: terminal-bench
+        name: Terminal-Bench
+        source: terminal_bench
+        url: https://www.tbench.ai
+      - id: aa-terminal-bench
+        name: Terminal-Bench 4.0 (AA run)
+        source: artificial_analysis
+        field: terminalBench40
+        url: https://artificialanalysis.ai
+
+  - id: architecture
+    name: Architecture
+    weight: 10
+    benchmarks:
+      - id: swe-lancer-manager
+        name: SWE-Lancer Diamond (manager tasks)
+        source: manual
+        url: https://openai.com/index/swe-lancer/
+      - id: oodeval
+        name: OODEval
+        source: manual
+        url: https://arxiv.org/abs/2601.07602
+
+  - id: cleanliness
+    name: Code cleanliness & review
+    weight: 10
+    benchmarks:
+      - id: reviewbench
+        name: ReviewBench
+        source: manual
+        url: https://github.blog/ai-and-ml/reviewbench-an-open-benchmark-for-ai-code-review/
+
+  - id: reasoning
+    name: Reasoning
+    weight: 10
+    benchmarks:
+      - id: arc-agi-2
+        name: ARC-AGI-2 (semi-private)
+        source: arc_agi
+        dataset: v2_Semi_Private
+        url: https://arcprize.org/leaderboard
+      - id: frontiermath
+        name: FrontierMath (tiers 1-3)
+        source: epoch
+        file: frontiermath_tiers_1_3_v2.csv
+        column: mean_score
+        stderr: stderr
+        url: https://epoch.ai/frontiermath
+      - id: aa-hle
+        name: Humanity's Last Exam (AA run)
+        source: artificial_analysis
+        field: hle
+        url: https://artificialanalysis.ai
+      - id: aa-scicode
+        name: SciCode (AA run)
+        source: artificial_analysis
+        field: scicode
+        url: https://artificialanalysis.ai
+      # Epoch's own positions, generated for the benchmark and published nowhere else: picking the
+      # one best move tests planning and calculation more than recall.
+      - id: chess-puzzles
+        name: Chess Puzzles
+        source: epoch
+        file: chess_puzzles.csv
+        column: mean_score
+        stderr: stderr
+        url: https://epoch.ai/benchmarks/chess-puzzles
+      # Private trick questions on everyday spatial, temporal and social reasoning; humans score 84-95%.
+      - id: simplebench
+        name: SimpleBench
+        source: simplebench
+        url: https://simple-bench.com/
+      - id: livecodebench-pro
+        name: LiveCodeBench Pro
+        source: manual
+        url: https://www.alphaxiv.org/benchmarks/university-of-washington/livecodebench-pro
+
+  - id: adaptability
+    name: Adaptability to unknown environments
+    weight: 10
+    benchmarks:
+      - id: arc-agi-3
+        name: ARC-AGI-3 (semi-private)
+        source: arc_agi
+        dataset: v3_Semi_Private
+        url: https://arcprize.org/leaderboard
+      - id: weirdml
+        name: WeirdML v3
+        source: epoch
+        file: weirdml_v3_external.csv
+        column: Score
+        url: https://htihle.github.io/weirdml.html
+      # Learning on the job: eight practice playthroughs of an obscure card game (Earthborne
+      # Rangers), with notes, then two scored ones. Score is the share of 21 objectives reached.
+      - id: ebr-bench
+        name: EBR-bench (learning an unfamiliar game)
+        source: epoch
+        file: ebr_bench.csv
+        column: mean_score
+        stderr: stderr
+        url: https://epoch.ai/benchmarks/ebr-bench
+      # Best-move puzzles in a well-known game whose identity is kept secret, from generated,
+      # unpublished positions: the model works from the rules it is given, not from recall.
+      - id: mystery-game-puzzles
+        name: Mystery Game Puzzles
+        source: epoch
+        file: mystery_game_puzzles.csv
+        column: mean_score
+        stderr: stderr
+        url: https://epoch.ai/benchmarks/mystery-game-puzzles
+      - id: esolang-bench
+        name: EsoLang-Bench
+        source: manual
+        url: https://esolang-bench.vercel.app/
+
+  - id: reliability
+    name: Reliability (doesn't make things up)
+    weight: 5
+    benchmarks:
+      - id: aa-omniscience
+        name: AA-Omniscience (accuracy minus hallucination)
+        source: artificial_analysis
+        field: omniscience
+        scale: 1
+        # Ranges from -100 to 100 (accuracy minus hallucination rate), not a percentage.
+        kind: rating
+        url: https://artificialanalysis.ai
+
+  - id: instructions
+    name: Instruction following
+    weight: 10
+    benchmarks:
+      - id: ifbench
+        name: IFBench
+        source: manual
+        url: https://github.com/allenai/IFBench
+      - id: agentif
+        name: AgentIF
+        source: manual
+        url: https://arxiv.org/abs/2505.16944
+
+  - id: spatial
+    name: Modeling / spatial reasoning
+    weight: 8
+    benchmarks:
+      - id: design-arena-3d
+        name: Design Arena, 3D scenes
+        source: design_arena
+        category: 3d
+        kind: rating
+        url: https://www.designarena.ai/leaderboard
+      - id: furniture-assembly
+        name: Furniture assembly
+        source: epoch
+        file: furniture_assembly.csv
+        column: mean_score
+        stderr: stderr
+        url: https://epoch.ai/benchmarks
+      - id: blueprint-bench
+        name: Blueprint-Bench 2
+        source: epoch
+        file: blueprint_bench_2_external.csv
+        column: Score
+        url: https://andonlabs.com/evals/blueprint-bench-2
+      - id: voxelcodebench
+        name: VoxelCodeBench
+        source: manual
+        url: https://arxiv.org/abs/2604.02580
+      - id: muse
+        name: MUSE (text-to-CAD)
+        source: manual
+        url: https://arxiv.org/abs/2605.28579
+
+  - id: creativity
+    name: Creativity & intuition
+    weight: 7
+    benchmarks:
+      - id: design-arena-gamedev
+        name: Design Arena, game dev
+        source: design_arena
+        category: gamedev
+        kind: rating
+        url: https://www.designarena.ai/leaderboard
+      - id: ale-bench
+        name: ALE-Bench (open-ended optimization)
+        source: epoch
+        file: ale_bench_external.csv
+        column: Performance
+        scale: 1
+        kind: rating   # contest-style rating, not a percentage
+        url: https://sakanaai.github.io/ALE-Bench-Leaderboard/
+      - id: neocoder
+        name: NeoCoder
+        source: manual
+        url: https://arxiv.org/abs/2407.09007
+
+  - id: price
+    name: Thrift (what it costs to run)
+    weight: 10
+    # Not a skill: price never feeds the estimate of a model's missing skills.
+    skill: false
+    benchmarks:
+      # Dollars AA spent running its whole evaluation suite on the model, reasoning tokens included,
+      # at the model's second-highest reasoning setting (xhigh, not max, for a five-level ladder).
+      # Subscription subsidies (data/subscriptions.yaml) are applied to every `kind: cost` benchmark
+      # at build time: the cost is what the work costs through the lab's largest plan, if cheaper.
+      # `kind: cost`: cheaper is better, on a square-root scale between the cheapest and dearest model.
+      - id: aa-cost
+        name: Cost to run AA's evaluation suite
+        source: artificial_analysis
+        cost: intelligenceIndexCost
+        kind: cost
+        top_setting: ['^deepseek-v4']   # built to run at max
+        url: https://artificialanalysis.ai
+      - id: aa-briefcase-cost
+        name: Cost to run AA Briefcase
+        source: artificial_analysis
+        cost: briefcaseTotalCost
+        kind: cost
+        top_setting: ['^deepseek-v4']
+        fallback_for: aa-cost
+        url: https://artificialanalysis.ai

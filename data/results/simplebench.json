@@ -1,0 +1,1427 @@
+{
+  "benchmark": "simplebench",
+  "fetched_at": "2026-10-29T09:48:35+00:00",
+  "meta": {
+    "url": "https://simple-bench.com/",
+    "data": "https://simple-bench.com/static/js/leaderboard-data.js"
+  },
+  "results": [
+    {
+      "benchmark": "simplebench",
+      "model": "opus-5-5",
+      "model_raw": "Claude Opus 5.5",
+      "score": 88.4,
+      "ci": null,
+      "effort": null,
+      "org": "Anthropic",
+      "release_date": null,
+      "notes": [
+        "added to the leaderboard 2026-09-24"
+      ]
+    },
+    {
+      "benchmark": "simplebench",
+      "model": "fable-5-1",
+      "model_raw": "Claude Fable 5.1",
+      "score": 86.6,
+      "ci": null,
+      "effort": null,
+      "org": "Anthropic",
+      "release_date": null,
+      "notes": [
+        "added to the leaderboard 2026-09-03"
+      ]
+    },
+    {
+      "benchmark": "simplebench",
+      "model": "gpt-6-astra",
+      "model_raw": "GPT-6 Astra Pro",
+      "score": 86.5,
+      "ci": null,
+      "effort": null,
+      "org": "OpenAI",
+      "release_date": null,
+      "notes": [
+        "added to the leaderboard 2026-09-07"
+      ]
+    },
+    {
+      "benchmark": "simplebench",
+      "model": "gpt-6-astra",
+      "model_raw": "GPT-6 Astra",
+      "score": 83.6,
+      "ci": null,
+      "effort": null,
+      "org": "OpenAI",
+      "release_date": null,
+      "notes": [
+        "added to the leaderboard 2026-09-07"
+      ]
+    },
+    {
+      "benchmark": "simplebench",
+      "model": "gpt-6-1-sol",
+      "model_raw": "GPT-6.1 Sol",
+      "score": 82.9,
+      "ci": null,
+      "effort": null,
+      "org": "OpenAI",
+      "release_date": null,
+      "notes": [
+        "added to the leaderboard 2026-10-01"
+      ]
+    },
+    {
+      "benchmark": "simplebench",
+      "model": "gemini-3-8-flash",
+      "model_raw": "Gemini 3.8 Flash",
+      "score": 82.4,
+      "ci": null,
+      "effort": null,
+      "org": "Google",
+      "release_date": null,
+      "notes": [
+        "added to the leaderboard 2026-09-03"
+      ]
+    },
+    {
+      "benchmark": "simplebench",
+      "model": "fable-5",
+      "model_raw": "Claude Fable",
+      "score": 81.9,
+      "ci": null,
+      "effort": null,
+      "org": "Anthropic",
+      "release_date": null,
+      "notes": [
+        "added to the leaderboard 2026-06-10"
+      ]
+    },
+    {
+      "benchmark": "simplebench",
+      "model": "muse-spark-1-3",
+      "model_raw": "Muse Spark 1.3",
+      "score": 81.8,
+      "ci": null,
+      "effort": null,
+      "org": "Meta",
+      "release_date": null,
+      "notes": [
+        "added to the leaderboard 2026-09-03"
+      ]
+    },
+    {
+      "benchmark": "simplebench",
+      "model": "opus-5",
+      "model_raw": "Claude Opus 5",
+      "score": 80.6,
+      "ci": null,
+      "effort": null,
+      "org": "Anthropic",
+      "release_date": null,
+      "notes": [
+        "added to the leaderboard 2026-07-24"
+      ]
+    },
+    {
+      "benchmark": "simplebench",
+      "model": "gemini-3-1-pro-preview",
+      "model_raw": "Gemini 3.1 Pro Preview",
+      "score": 79.6,
+      "ci": null,
+      "effort": null,
+      "org": "Google",
+      "release_date": null,
+      "notes": [
+        "added to the leaderboard 2026-02-17"
+      ]
+    },
+    {
+      "benchmark": "simplebench",
+      "model": "gpt-5-5-pro",
+      "model_raw": "GPT-5.5 Pro",
+      "score": 76.9,
+      "ci": null,
+      "effort": null,
+      "org": "OpenAI",
+      "release_date": null,
+      "notes": [
+        "added to the leaderboard 2026-04-24"
+      ]
+    },
+    {
+      "benchmark": "simplebench",
+      "model": "gemini-3-5-flash",
+      "model_raw": "Gemini 3.5 Flash",
+      "score": 76.7,
+      "ci": null,
+      "effort": null,
+      "org": "Google",
+      "release_date": null,
+      "notes": [
+        "added to the leaderboard 2026-05-20"
+      ]
+    },
+    {
+      "benchmark": "simplebench",
+      "model": "gemini-3-pro-preview",
+      "model_raw": "Gemini 3 Pro Preview",
+      "score": 76.4,
+      "ci": null,
+      "effort": null,
+      "org": "Google",
+      "release_date": null,
+      "notes": [
+        "added to the leaderboard 2025-11-18"
+      ]
+    },
+    {
+      "benchmark": "simplebench",
+      "model": "grok-4-6",
+      "model_raw": "Grok 4.6",
+      "score": 75.9,
+      "ci": null,
+      "effort": null,
+      "org": "xAI",
+      "release_date": null,
+      "notes": [
+        "added to the leaderboard 2026-08-13"
+      ]
+    },
+    {
+      "benchmark": "simplebench",
+      "model": "sonnet-5-5",
+      "model_raw": "Claude Sonnet 5.5",
+      "score": 75.9,
+      "ci": null,
+      "effort": null,
+      "org": "Anthropic",
+      "release_date": null,
+      "notes": [
+        "added to the leaderboard 2026-10-01"
+      ]
+    },
+    {
+      "benchmark": "simplebench",
+      "model": "muse-spark-1-2",
+      "model_raw": "Muse Spark 1.2",
+      "score": 74.5,
+      "ci": null,
+      "effort": null,
+      "org": "Meta",
+      "release_date": null,
+      "notes": [
+        "added to the leaderboard 2026-08-13"
+      ]
+    },
+    {
+      "benchmark": "simplebench",
+      "model": "gpt-6-sol",
+      "model_raw": "GPT-6 Sol",
+      "score": 73.1,
+      "ci": null,
+      "effort": null,
+      "org": "OpenAI",
+      "release_date": null,
+      "notes": [
+        "added to the leaderboard 2026-09-24"
+      ]
+    },
+    {
+      "benchmark": "simplebench",
+      "model": "gpt-5-6-sol",
+      "model_raw": "GPT-5.6 Sol Pro (xhigh)",
+      "score": 71.7,
+      "ci": null,
+      "effort": null,
+      "org": "OpenAI",
+      "release_date": null,
+      "notes": [
+        "added to the leaderboard 2026-07-09"
+      ]
+    },
+    {
+      "benchmark": "simplebench",
+      "model": "qwen3-7",
+      "model_raw": "Qwen 3.7 Max",
+      "score": 70.4,
+      "ci": null,
+      "effort": null,
+      "org": "Alibaba",
+      "release_date": null,
+      "notes": [
+        "added to the leaderboard 2026-05-22"
+      ]
+    },
+    {
+      "benchmark": "simplebench",
+      "model": "grok-4-5",
+      "model_raw": "Grok 4.5",
+      "score": 70.0,
+      "ci": null,
+      "effort": null,
+      "org": "xAI",
+      "release_date": null,
+      "notes": [
+        "added to the leaderboard 2026-07-08"
+      ]
+    },
+    {
+      "benchmark": "simplebench",
+      "model": "gpt-5-5",
+      "model_raw": "GPT-5.5",
+      "score": 69.0,
+      "ci": null,
+      "effort": null,
+      "org": "OpenAI",
+      "release_date": null,
+      "notes": [
+        "added to the leaderboard 2026-04-24"
+      ]
+    },
+    {
+      "benchmark": "simplebench",
+      "model": "opus-4-6",
+      "model_raw": "Claude Opus 4.6",
+      "score": 67.6,
+      "ci": null,
+      "effort": null,
+      "org": "Anthropic",
+      "release_date": null,
+      "notes": [
+        "added to the leaderboard 2026-02-17"
+      ]
+    },
+    {
+      "benchmark": "simplebench",
+      "model": "deepseek-v4-1-flash",
+      "model_raw": "DeepSeek V4.1 Flash",
+      "score": 66.7,
+      "ci": null,
+      "effort": null,
+      "org": "DeepSeek",
+      "release_date": null,
+      "notes": [
+        "added to the leaderboard 2026-09-12"
+      ]
+    },
+    {
+      "benchmark": "simplebench",
+      "model": "glm-5-3",
+      "model_raw": "GLM 5.3",
+      "score": 66.2,
+      "ci": null,
+      "effort": null,
+      "org": "Z.ai",
+      "release_date": null,
+      "notes": [
+        "added to the leaderboard 2026-08-19"
+      ]
+    },
+    {
+      "benchmark": "simplebench",
+      "model": "opus-4-8",
+      "model_raw": "Claude Opus 4.8",
+      "score": 64.8,
+      "ci": null,
+      "effort": null,
+      "org": "Anthropic",
+      "release_date": null,
+      "notes": [
+        "added to the leaderboard 2026-05-29"
+      ]
+    },
+    {
+      "benchmark": "simplebench",
+      "model": "gpt-5-6-sol",
+      "model_raw": "GPT-5.6 Sol (xhigh)",
+      "score": 64.8,
+      "ci": null,
+      "effort": null,
+      "org": "OpenAI",
+      "release_date": null,
+      "notes": [
+        "added to the leaderboard 2026-07-09"
+      ]
+    },
+    {
+      "benchmark": "simplebench",
+      "model": "qwen3-6-max-preview",
+      "model_raw": "Qwen 3.6 Max Preview",
+      "score": 63.0,
+      "ci": null,
+      "effort": null,
+      "org": "Alibaba",
+      "release_date": null,
+      "notes": [
+        "added to the leaderboard 2026-05-20"
+      ]
+    },
+    {
+      "benchmark": "simplebench",
+      "model": "qwen3-8-2-4t-a95b",
+      "model_raw": "Qwen 3.8 2.4T A95B",
+      "score": 62.5,
+      "ci": null,
+      "effort": null,
+      "org": "Alibaba",
+      "release_date": null,
+      "notes": [
+        "added to the leaderboard 2026-08-13"
+      ]
+    },
+    {
+      "benchmark": "simplebench",
+      "model": "gemini-2-5-pro",
+      "model_raw": "Gemini 2.5 Pro (06-05)",
+      "score": 62.4,
+      "ci": null,
+      "effort": null,
+      "org": "Google",
+      "release_date": null,
+      "notes": [
+        "average of 5 runs"
+      ]
+    },
+    {
+      "benchmark": "simplebench",
+      "model": "opus-4-5",
+      "model_raw": "Claude Opus 4.5",
+      "score": 62.0,
+      "ci": null,
+      "effort": null,
+      "org": "Anthropic",
+      "release_date": null,
+      "notes": [
+        "added to the leaderboard 2025-11-20"
+      ]
+    },
+    {
+      "benchmark": "simplebench",
+      "model": "opus-4-7",
+      "model_raw": "Claude Opus 4.7",
+      "score": 61.7,
+      "ci": null,
+      "effort": null,
+      "org": "Anthropic",
+      "release_date": null,
+      "notes": [
+        "added to the leaderboard 2026-04-22"
+      ]
+    },
+    {
+      "benchmark": "simplebench",
+      "model": "gpt-5-pro",
+      "model_raw": "GPT-5 Pro",
+      "score": 61.6,
+      "ci": null,
+      "effort": null,
+      "org": "OpenAI",
+      "release_date": null,
+      "notes": [
+        "added to the leaderboard 2025-10-22"
+      ]
+    },
+    {
+      "benchmark": "simplebench",
+      "model": "gemini-3-flash-preview",
+      "model_raw": "Gemini 3 Flash Preview",
+      "score": 61.1,
+      "ci": null,
+      "effort": null,
+      "org": "Google",
+      "release_date": null,
+      "notes": [
+        "added to the leaderboard 2025-12-19"
+      ]
+    },
+    {
+      "benchmark": "simplebench",
+      "model": "deepseek-v4-flash",
+      "model_raw": "DeepSeek V4 Flash",
+      "score": 61.1,
+      "ci": null,
+      "effort": null,
+      "org": "DeepSeek",
+      "release_date": null,
+      "notes": [
+        "added to the leaderboard 2026-08-03"
+      ]
+    },
+    {
+      "benchmark": "simplebench",
+      "model": "kimi-k3",
+      "model_raw": "Kimi K3 (max)",
+      "score": 60.7,
+      "ci": null,
+      "effort": null,
+      "org": "Moonshot AI",
+      "release_date": null,
+      "notes": [
+        "added to the leaderboard 2026-07-17"
+      ]
+    },
+    {
+      "benchmark": "simplebench",
+      "model": "sonnet-5",
+      "model_raw": "Claude Sonnet 5",
+      "score": 60.6,
+      "ci": null,
+      "effort": null,
+      "org": "Anthropic",
+      "release_date": null,
+      "notes": [
+        "added to the leaderboard 2026-07-09"
+      ]
+    },
+    {
+      "benchmark": "simplebench",
+      "model": "grok-4",
+      "model_raw": "Grok 4",
+      "score": 60.5,
+      "ci": null,
+      "effort": null,
+      "org": "xAI",
+      "release_date": null,
+      "notes": [
+        "average of 5 runs"
+      ]
+    },
+    {
+      "benchmark": "simplebench",
+      "model": "qwen3-8-27b",
+      "model_raw": "Qwen 3.8 27B",
+      "score": 60.2,
+      "ci": null,
+      "effort": null,
+      "org": "Alibaba",
+      "release_date": null,
+      "notes": [
+        "added to the leaderboard 2026-08-20"
+      ]
+    },
+    {
+      "benchmark": "simplebench",
+      "model": "opus-4-1",
+      "model_raw": "Claude 4.1 Opus",
+      "score": 60.0,
+      "ci": null,
+      "effort": null,
+      "org": "Anthropic",
+      "release_date": null,
+      "notes": [
+        "average of 5 runs"
+      ]
+    },
+    {
+      "benchmark": "simplebench",
+      "model": "opus-4",
+      "model_raw": "Claude 4 Opus",
+      "score": 58.8,
+      "ci": null,
+      "effort": null,
+      "org": "Anthropic",
+      "release_date": null,
+      "notes": [
+        "average of 5 runs"
+      ]
+    },
+    {
+      "benchmark": "simplebench",
+      "model": "glm-5-2",
+      "model_raw": "GLM 5.2",
+      "score": 58.8,
+      "ci": null,
+      "effort": null,
+      "org": "Z.ai",
+      "release_date": null,
+      "notes": [
+        "added to the leaderboard 2026-06-17"
+      ]
+    },
+    {
+      "benchmark": "simplebench",
+      "model": "kimi-k2-7-code",
+      "model_raw": "Kimi K2.7 Code",
+      "score": 57.9,
+      "ci": null,
+      "effort": null,
+      "org": "Moonshot AI",
+      "release_date": null,
+      "notes": [
+        "added to the leaderboard 2026-07-09"
+      ]
+    },
+    {
+      "benchmark": "simplebench",
+      "model": "gpt-5-2-pro",
+      "model_raw": "GPT-5.2 Pro (xhigh)",
+      "score": 57.4,
+      "ci": null,
+      "effort": null,
+      "org": "OpenAI",
+      "release_date": null,
+      "notes": [
+        "added to the leaderboard 2025-12-12"
+      ]
+    },
+    {
+      "benchmark": "simplebench",
+      "model": "gpt-5",
+      "model_raw": "GPT-5 (high)",
+      "score": 56.7,
+      "ci": null,
+      "effort": null,
+      "org": "OpenAI",
+      "release_date": null,
+      "notes": [
+        "average of 5 runs"
+      ]
+    },
+    {
+      "benchmark": "simplebench",
+      "model": "grok-4-1-fast",
+      "model_raw": "Grok 4.1 Fast",
+      "score": 56.0,
+      "ci": null,
+      "effort": null,
+      "org": "xAI",
+      "release_date": null,
+      "notes": [
+        "added to the leaderboard 2025-11-20"
+      ]
+    },
+    {
+      "benchmark": "simplebench",
+      "model": "glm-5-1",
+      "model_raw": "GLM 5.1",
+      "score": 55.1,
+      "ci": null,
+      "effort": null,
+      "org": "Z.ai",
+      "release_date": null,
+      "notes": [
+        "added to the leaderboard 2026-07-09"
+      ]
+    },
+    {
+      "benchmark": "simplebench",
+      "model": "ox-alpha",
+      "model_raw": "Ox Alpha",
+      "score": 55.1,
+      "ci": null,
+      "effort": null,
+      "org": "Unknown",
+      "release_date": null,
+      "notes": [
+        "added to the leaderboard 2026-08-22"
+      ]
+    },
+    {
+      "benchmark": "simplebench",
+      "model": "sonnet-4-5",
+      "model_raw": "Claude 4.5 Sonnet",
+      "score": 54.3,
+      "ci": null,
+      "effort": null,
+      "org": "Anthropic",
+      "release_date": null,
+      "notes": [
+        "average of 5 runs"
+      ]
+    },
+    {
+      "benchmark": "simplebench",
+      "model": "gpt-5-1",
+      "model_raw": "GPT-5.1 (high)",
+      "score": 53.2,
+      "ci": null,
+      "effort": null,
+      "org": "OpenAI",
+      "release_date": null,
+      "notes": [
+        "added to the leaderboard 2025-11-16"
+      ]
+    },
+    {
+      "benchmark": "simplebench",
+      "model": "glm-5",
+      "model_raw": "GLM 5",
+      "score": 53.2,
+      "ci": null,
+      "effort": null,
+      "org": "Zhipu AI",
+      "release_date": null,
+      "notes": [
+        "added to the leaderboard 2026-02-17"
+      ]
+    },
+    {
+      "benchmark": "simplebench",
+      "model": "o3",
+      "model_raw": "o3 (high)",
+      "score": 53.1,
+      "ci": null,
+      "effort": null,
+      "org": "OpenAI",
+      "release_date": null,
+      "notes": [
+        "average of 5 runs"
+      ]
+    },
+    {
+      "benchmark": "simplebench",
+      "model": "deepseek-v3-2-speciale",
+      "model_raw": "DeepSeek 3.2 Speciale",
+      "score": 52.6,
+      "ci": null,
+      "effort": null,
+      "org": "DeepSeek",
+      "release_date": null,
+      "notes": [
+        "added to the leaderboard 2025-12-12"
+      ]
+    },
+    {
+      "benchmark": "simplebench",
+      "model": "gemini-2-5-pro",
+      "model_raw": "Gemini 2.5 Pro (03-25)",
+      "score": 51.6,
+      "ci": null,
+      "effort": null,
+      "org": "Google",
+      "release_date": null,
+      "notes": [
+        "average of 5 runs"
+      ]
+    },
+    {
+      "benchmark": "simplebench",
+      "model": "deepseek-v4-pro",
+      "model_raw": "DeepSeek V4 Pro",
+      "score": 50.9,
+      "ci": null,
+      "effort": null,
+      "org": "DeepSeek",
+      "release_date": null,
+      "notes": [
+        "added to the leaderboard 2026-06-02"
+      ]
+    },
+    {
+      "benchmark": "simplebench",
+      "model": "inkling",
+      "model_raw": "Inkling",
+      "score": 50.0,
+      "ci": null,
+      "effort": null,
+      "org": "Thinking Machines",
+      "release_date": null,
+      "notes": [
+        "added to the leaderboard 2026-07-22"
+      ]
+    },
+    {
+      "benchmark": "simplebench",
+      "model": "gpt-5-6-terra",
+      "model_raw": "GPT-5.6 Terra (xhigh)",
+      "score": 48.9,
+      "ci": null,
+      "effort": null,
+      "org": "OpenAI",
+      "release_date": null,
+      "notes": [
+        "added to the leaderboard 2026-07-09"
+      ]
+    },
+    {
+      "benchmark": "simplebench",
+      "model": "glm-4-7",
+      "model_raw": "GLM 4.7",
+      "score": 47.7,
+      "ci": null,
+      "effort": null,
+      "org": "Z.ai",
+      "release_date": null,
+      "notes": [
+        "added to the leaderboard 2025-12-23"
+      ]
+    },
+    {
+      "benchmark": "simplebench",
+      "model": "kimi-k2-5",
+      "model_raw": "Kimi K2.5",
+      "score": 46.8,
+      "ci": null,
+      "effort": null,
+      "org": "Moonshot AI",
+      "release_date": null,
+      "notes": [
+        "added to the leaderboard 2026-02-17"
+      ]
+    },
+    {
+      "benchmark": "simplebench",
+      "model": "gpt-5-6-luna",
+      "model_raw": "GPT-5.6 Luna (xhigh)",
+      "score": 46.8,
+      "ci": null,
+      "effort": null,
+      "org": "OpenAI",
+      "release_date": null,
+      "notes": [
+        "added to the leaderboard 2026-07-09"
+      ]
+    },
+    {
+      "benchmark": "simplebench",
+      "model": "sonnet-3-7",
+      "model_raw": "Claude 3.7 Sonnet (thinking)",
+      "score": 46.4,
+      "ci": null,
+      "effort": null,
+      "org": "Anthropic",
+      "release_date": null,
+      "notes": [
+        "average of 5 runs"
+      ]
+    },
+    {
+      "benchmark": "simplebench",
+      "model": "deepseek-v4-flash",
+      "model_raw": "DeepSeek V4 Flash (preview)",
+      "score": 46.3,
+      "ci": null,
+      "effort": null,
+      "org": "DeepSeek",
+      "release_date": null,
+      "notes": [
+        "added to the leaderboard 2026-06-02"
+      ]
+    },
+    {
+      "benchmark": "simplebench",
+      "model": "gpt-5-2",
+      "model_raw": "GPT-5.2 (high)",
+      "score": 45.8,
+      "ci": null,
+      "effort": null,
+      "org": "OpenAI",
+      "release_date": null,
+      "notes": [
+        "added to the leaderboard 2025-12-12"
+      ]
+    },
+    {
+      "benchmark": "simplebench",
+      "model": "minimax-m3",
+      "model_raw": "MiniMax M3",
+      "score": 45.8,
+      "ci": null,
+      "effort": null,
+      "org": "MiniMax",
+      "release_date": null,
+      "notes": [
+        "added to the leaderboard 2026-07-09"
+      ]
+    },
+    {
+      "benchmark": "simplebench",
+      "model": "sonnet-4",
+      "model_raw": "Claude 4 Sonnet (thinking)",
+      "score": 45.5,
+      "ci": null,
+      "effort": null,
+      "org": "Anthropic",
+      "release_date": null,
+      "notes": [
+        "average of 5 runs"
+      ]
+    },
+    {
+      "benchmark": "simplebench",
+      "model": "sonnet-3-7",
+      "model_raw": "Claude 3.7 Sonnet",
+      "score": 44.9,
+      "ci": null,
+      "effort": null,
+      "org": "Anthropic",
+      "release_date": null,
+      "notes": [
+        "average of 5 runs"
+      ]
+    },
+    {
+      "benchmark": "simplebench",
+      "model": "o1-preview",
+      "model_raw": "o1-preview",
+      "score": 41.7,
+      "ci": null,
+      "effort": null,
+      "org": "OpenAI",
+      "release_date": null,
+      "notes": [
+        "average of 5 runs"
+      ]
+    },
+    {
+      "benchmark": "simplebench",
+      "model": "nemotron-3-ultra",
+      "model_raw": "Nemotron 3 Ultra",
+      "score": 41.7,
+      "ci": null,
+      "effort": null,
+      "org": "Nvidia",
+      "release_date": null,
+      "notes": [
+        "added to the leaderboard 2026-06-07"
+      ]
+    },
+    {
+      "benchmark": "simplebench",
+      "model": "3-5-sonnet-10-22",
+      "model_raw": "Claude 3.5 Sonnet 10-22",
+      "score": 41.4,
+      "ci": null,
+      "effort": null,
+      "org": "Anthropic",
+      "release_date": null,
+      "notes": [
+        "average of 5 runs"
+      ]
+    },
+    {
+      "benchmark": "simplebench",
+      "model": "gemini-2-5-flash",
+      "model_raw": "Gemini 2.5 Flash (latest)",
+      "score": 41.2,
+      "ci": null,
+      "effort": null,
+      "org": "Google",
+      "release_date": null,
+      "notes": [
+        "added to the leaderboard 2025-10-22"
+      ]
+    },
+    {
+      "benchmark": "simplebench",
+      "model": "28",
+      "model_raw": "DeepSeek R1 05/28",
+      "score": 40.8,
+      "ci": null,
+      "effort": null,
+      "org": "DeepSeek",
+      "release_date": null,
+      "notes": [
+        "average of 5 runs"
+      ]
+    },
+    {
+      "benchmark": "simplebench",
+      "model": "o1",
+      "model_raw": "o1-2024-12-17 (high)",
+      "score": 40.1,
+      "ci": null,
+      "effort": null,
+      "org": "OpenAI",
+      "release_date": null,
+      "notes": [
+        "average of 5 runs"
+      ]
+    },
+    {
+      "benchmark": "simplebench",
+      "model": "deepseek-v3-1",
+      "model_raw": "DeepSeek V3.1",
+      "score": 40.0,
+      "ci": null,
+      "effort": null,
+      "org": "DeepSeek",
+      "release_date": null,
+      "notes": [
+        "average of 5 runs"
+      ]
+    },
+    {
+      "benchmark": "simplebench",
+      "model": "kimi-k2",
+      "model_raw": "Kimi K2 Thinking",
+      "score": 39.6,
+      "ci": null,
+      "effort": null,
+      "org": "Moonshot AI",
+      "release_date": null,
+      "notes": [
+        "added to the leaderboard 2025-11-07"
+      ]
+    },
+    {
+      "benchmark": "simplebench",
+      "model": "o4-mini",
+      "model_raw": "o4-mini (high)",
+      "score": 38.7,
+      "ci": null,
+      "effort": null,
+      "org": "OpenAI",
+      "release_date": null,
+      "notes": [
+        "average of 5 runs"
+      ]
+    },
+    {
+      "benchmark": "simplebench",
+      "model": "o1",
+      "model_raw": "o1-2024-12-17 (med)",
+      "score": 36.7,
+      "ci": null,
+      "effort": null,
+      "org": "OpenAI",
+      "release_date": null,
+      "notes": [
+        "average of 5 runs"
+      ]
+    },
+    {
+      "benchmark": "simplebench",
+      "model": "grok-3",
+      "model_raw": "Grok 3",
+      "score": 36.1,
+      "ci": null,
+      "effort": null,
+      "org": "xAI",
+      "release_date": null,
+      "notes": [
+        "average of 5 runs"
+      ]
+    },
+    {
+      "benchmark": "simplebench",
+      "model": "qwen3-6-flash",
+      "model_raw": "Qwen 3.6 Flash",
+      "score": 35.2,
+      "ci": null,
+      "effort": null,
+      "org": "Alibaba",
+      "release_date": null,
+      "notes": [
+        "added to the leaderboard 2026-07-10"
+      ]
+    },
+    {
+      "benchmark": "simplebench",
+      "model": "minimax-m2-1",
+      "model_raw": "MiniMax M2.1",
+      "score": 34.7,
+      "ci": null,
+      "effort": null,
+      "org": "MiniMax",
+      "release_date": null,
+      "notes": [
+        "added to the leaderboard 2025-12-23"
+      ]
+    },
+    {
+      "benchmark": "simplebench",
+      "model": "gpt-4-5",
+      "model_raw": "GPT-4.5",
+      "score": 34.5,
+      "ci": null,
+      "effort": null,
+      "org": "OpenAI",
+      "release_date": null,
+      "notes": [
+        "average of 5 runs"
+      ]
+    },
+    {
+      "benchmark": "simplebench",
+      "model": "gemini-exp-1206",
+      "model_raw": "Gemini-exp-1206",
+      "score": 31.1,
+      "ci": null,
+      "effort": null,
+      "org": "Google",
+      "release_date": null,
+      "notes": [
+        "average of 5 runs"
+      ]
+    },
+    {
+      "benchmark": "simplebench",
+      "model": "qwen3-235b-a22b",
+      "model_raw": "Qwen3 235B-A22B",
+      "score": 31.0,
+      "ci": null,
+      "effort": null,
+      "org": "Alibaba",
+      "release_date": null,
+      "notes": [
+        "average of 5 runs"
+      ]
+    },
+    {
+      "benchmark": "simplebench",
+      "model": "deepseek-r1",
+      "model_raw": "DeepSeek R1",
+      "score": 30.9,
+      "ci": null,
+      "effort": null,
+      "org": "DeepSeek",
+      "release_date": null,
+      "notes": [
+        "average of 5 runs"
+      ]
+    },
+    {
+      "benchmark": "simplebench",
+      "model": "gemini-2-0-flash",
+      "model_raw": "Gemini 2.0 Flash Thinking",
+      "score": 30.7,
+      "ci": null,
+      "effort": null,
+      "org": "Google",
+      "release_date": null,
+      "notes": [
+        "average of 5 runs"
+      ]
+    },
+    {
+      "benchmark": "simplebench",
+      "model": "llama-4-maverick",
+      "model_raw": "Llama 4 Maverick",
+      "score": 27.7,
+      "ci": null,
+      "effort": null,
+      "org": "Meta",
+      "release_date": null,
+      "notes": [
+        "average of 5 runs"
+      ]
+    },
+    {
+      "benchmark": "simplebench",
+      "model": "3-5-sonnet-06-20",
+      "model_raw": "Claude 3.5 Sonnet 06-20",
+      "score": 27.5,
+      "ci": null,
+      "effort": null,
+      "org": "Anthropic",
+      "release_date": null,
+      "notes": [
+        "average of 5 runs"
+      ]
+    },
+    {
+      "benchmark": "simplebench",
+      "model": "deepseek-v3-03-24",
+      "model_raw": "DeepSeek V3 03-24",
+      "score": 27.2,
+      "ci": null,
+      "effort": null,
+      "org": "DeepSeek",
+      "release_date": null,
+      "notes": [
+        "average of 5 runs"
+      ]
+    },
+    {
+      "benchmark": "simplebench",
+      "model": "gemini-1-5-pro-002",
+      "model_raw": "Gemini 1.5 Pro 002",
+      "score": 27.1,
+      "ci": null,
+      "effort": null,
+      "org": "Google",
+      "release_date": null,
+      "notes": [
+        "average of 5 runs"
+      ]
+    },
+    {
+      "benchmark": "simplebench",
+      "model": "gpt-4-1",
+      "model_raw": "GPT-4.1",
+      "score": 27.0,
+      "ci": null,
+      "effort": null,
+      "org": "OpenAI",
+      "release_date": null,
+      "notes": [
+        "average of 5 runs"
+      ]
+    },
+    {
+      "benchmark": "simplebench",
+      "model": "kimi-k2",
+      "model_raw": "Kimi K2",
+      "score": 26.3,
+      "ci": null,
+      "effort": null,
+      "org": "Moonshot AI",
+      "release_date": null,
+      "notes": [
+        "average of 5 runs"
+      ]
+    },
+    {
+      "benchmark": "simplebench",
+      "model": "gpt-4-turbo",
+      "model_raw": "GPT-4 Turbo",
+      "score": 25.1,
+      "ci": null,
+      "effort": null,
+      "org": "OpenAI",
+      "release_date": null,
+      "notes": [
+        "average of 5 runs"
+      ]
+    },
+    {
+      "benchmark": "simplebench",
+      "model": "minimax-m2",
+      "model_raw": "MiniMax M2",
+      "score": 25.0,
+      "ci": null,
+      "effort": null,
+      "org": "MiniMax",
+      "release_date": null,
+      "notes": [
+        "added to the leaderboard 2025-11-19"
+      ]
+    },
+    {
+      "benchmark": "simplebench",
+      "model": "opus-3",
+      "model_raw": "Claude 3 Opus",
+      "score": 23.5,
+      "ci": null,
+      "effort": null,
+      "org": "Anthropic",
+      "release_date": null,
+      "notes": [
+        "average of 5 runs"
+      ]
+    },
+    {
+      "benchmark": "simplebench",
+      "model": "llama-3-1-405b-instruct",
+      "model_raw": "Llama 3.1 405b instruct",
+      "score": 23.0,
+      "ci": null,
+      "effort": null,
+      "org": "Meta",
+      "release_date": null,
+      "notes": [
+        "average of 5 runs"
+      ]
+    },
+    {
+      "benchmark": "simplebench",
+      "model": "o3-mini",
+      "model_raw": "o3-mini (high)",
+      "score": 22.8,
+      "ci": null,
+      "effort": null,
+      "org": "OpenAI",
+      "release_date": null,
+      "notes": [
+        "average of 5 runs"
+      ]
+    },
+    {
+      "benchmark": "simplebench",
+      "model": "grok-2",
+      "model_raw": "Grok 2",
+      "score": 22.7,
+      "ci": null,
+      "effort": null,
+      "org": "xAI",
+      "release_date": null,
+      "notes": [
+        "average of 5 runs"
+      ]
+    },
+    {
+      "benchmark": "simplebench",
+      "model": "large-v2",
+      "model_raw": "Mistral Large v2",
+      "score": 22.5,
+      "ci": null,
+      "effort": null,
+      "org": "Mistral",
+      "release_date": null,
+      "notes": [
+        "average of 5 runs"
+      ]
+    },
+    {
+      "benchmark": "simplebench",
+      "model": "gpt-oss-120b",
+      "model_raw": "GPT-OSS 120B",
+      "score": 22.1,
+      "ci": null,
+      "effort": null,
+      "org": "OpenAI",
+      "release_date": null,
+      "notes": [
+        "average of 5 runs"
+      ]
+    },
+    {
+      "benchmark": "simplebench",
+      "model": "large-3",
+      "model_raw": "Mistral Large 3",
+      "score": 20.4,
+      "ci": null,
+      "effort": null,
+      "org": "Mistral",
+      "release_date": null,
+      "notes": [
+        "added to the leaderboard 2025-12-04"
+      ]
+    },
+    {
+      "benchmark": "simplebench",
+      "model": "llama-3-3-70b-instruct",
+      "model_raw": "Llama 3.3 70b instruct",
+      "score": 19.9,
+      "ci": null,
+      "effort": null,
+      "org": "Meta",
+      "release_date": null,
+      "notes": [
+        "average of 5 runs"
+      ]
+    },
+    {
+      "benchmark": "simplebench",
+      "model": "deepseek-v3",
+      "model_raw": "DeepSeek V3",
+      "score": 18.9,
+      "ci": null,
+      "effort": null,
+      "org": "DeepSeek",
+      "release_date": null,
+      "notes": [
+        "average of 5 runs"
+      ]
+    },
+    {
+      "benchmark": "simplebench",
+      "model": "gemini-2-0-flash-exp",
+      "model_raw": "Gemini 2.0 Flash Exp",
+      "score": 18.9,
+      "ci": null,
+      "effort": null,
+      "org": "Google",
+      "release_date": null,
+      "notes": [
+        "average of 5 runs"
+      ]
+    },
+    {
+      "benchmark": "simplebench",
+      "model": "o1-mini",
+      "model_raw": "o1-mini",
+      "score": 18.1,
+      "ci": null,
+      "effort": null,
+      "org": "OpenAI",
+      "release_date": null,
+      "notes": [
+        "average of 5 runs"
+      ]
+    },
+    {
+      "benchmark": "simplebench",
+      "model": "gpt-4o-08-06",
+      "model_raw": "GPT-4o 08-06",
+      "score": 17.8,
+      "ci": null,
+      "effort": null,
+      "org": "OpenAI",
+      "release_date": null,
+      "notes": [
+        "average of 5 runs"
+      ]
+    },
+    {
+      "benchmark": "simplebench",
+      "model": "command-r",
+      "model_raw": "Command R+",
+      "score": 17.4,
+      "ci": null,
+      "effort": null,
+      "org": "Cohere",
+      "release_date": null,
+      "notes": [
+        "average of 5 runs"
+      ]
+    },
+    {
+      "benchmark": "simplebench",
+      "model": "gpt-4o-mini",
+      "model_raw": "GPT-4o mini",
+      "score": 10.7,
+      "ci": null,
+      "effort": null,
+      "org": "OpenAI",
+      "release_date": null,
+      "notes": [
+        "average of 5 runs"
+      ]
+    },
+    {
+      "benchmark": "simplebench",
+      "model": "gpt-3-5-turbo",
+      "model_raw": "GPT-3.5 Turbo",
+      "score": 8.0,
+      "ci": null,
+      "effort": null,
+      "org": "OpenAI",
+      "release_date": null,
+      "notes": [
+        "average of 5 runs"
+      ]
+    },
+    {
+      "benchmark": "simplebench",
+      "model": "gemini-3-1-pro-preview",
+      "model_raw": "Gemini 3.1 Pro Preview",
+      "score": 64.8,
+      "ci": null,
+      "effort": null,
+      "org": "Google",
+      "release_date": null,
+      "notes": [
+        "added to the leaderboard 2026-02-17"
+      ]
+    },
+    {
+      "benchmark": "simplebench",
+      "model": "opus-4-7",
+      "model_raw": "Claude Opus 4.7",
+      "score": 62.9,
+      "ci": null,
+      "effort": null,
+      "org": "Anthropic",
+      "release_date": null,
+      "notes": [
+        "added to the leaderboard 2026-04-22"
+      ]
+    },
+    {
+      "benchmark": "simplebench",
+      "model": "opus-4-6",
+      "model_raw": "Claude Opus 4.6",
+      "score": 59.7,
+      "ci": null,
+      "effort": null,
+      "org": "Anthropic",
+      "release_date": null,
+      "notes": [
+        "added to the leaderboard 2026-02-17"
+      ]
+    }
+  ]
+}

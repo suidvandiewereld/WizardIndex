@@ -1,0 +1,1418 @@
+{
+  "benchmark": "arc-agi-3",
+  "fetched_at": "2026-10-29T07:59:00+00:00",
+  "meta": {
+    "url": "https://arcprize.org/leaderboard",
+    "dataset": "v3_Semi_Private"
+  },
+  "results": [
+    {
+      "benchmark": "arc-agi-3",
+      "model": "opus-4-6",
+      "model_raw": "Anthropic Opus 4.6 (Max)",
+      "score": 0.51,
+      "ci": null,
+      "effort": "max",
+      "org": "Anthropic",
+      "release_date": "2025-12-17",
+      "notes": []
+    },
+    {
+      "benchmark": "arc-agi-3",
+      "model": "grok-4-20",
+      "model_raw": "Grok 4.20 (Beta Reasoning)",
+      "score": 0.09,
+      "ci": null,
+      "effort": null,
+      "org": "xAI",
+      "release_date": "2026-03-05",
+      "notes": []
+    },
+    {
+      "benchmark": "arc-agi-3",
+      "model": "gpt-5-4",
+      "model_raw": "GPT-5.4 (High)",
+      "score": 0.21,
+      "ci": null,
+      "effort": "high",
+      "org": "OpenAI",
+      "release_date": "2026-03-05",
+      "notes": []
+    },
+    {
+      "benchmark": "arc-agi-3",
+      "model": "gemini-3-1-pro",
+      "model_raw": "Gemini 3.1 Pro (Preview)",
+      "score": 0.42,
+      "ci": null,
+      "effort": null,
+      "org": "Google",
+      "release_date": "2026-03-05",
+      "notes": []
+    },
+    {
+      "benchmark": "arc-agi-3",
+      "model": "gpt-5-5",
+      "model_raw": "GPT-5.5 (High)",
+      "score": 0.43,
+      "ci": null,
+      "effort": "high",
+      "org": "OpenAI",
+      "release_date": "2026-04-23",
+      "notes": []
+    },
+    {
+      "benchmark": "arc-agi-3",
+      "model": "opus-4-7",
+      "model_raw": "Opus 4.7 (High)",
+      "score": 0.18,
+      "ci": null,
+      "effort": "high",
+      "org": "Anthropic",
+      "release_date": "2026-04-16",
+      "notes": []
+    },
+    {
+      "benchmark": "arc-agi-3",
+      "model": "opus-4-8",
+      "model_raw": "Claude Opus 4.8 (High)",
+      "score": 1.52,
+      "ci": null,
+      "effort": "high",
+      "org": "Anthropic",
+      "release_date": "2026-06-01",
+      "notes": [
+        "Evaluation conducted with 'high' output effort."
+      ]
+    },
+    {
+      "benchmark": "arc-agi-3",
+      "model": "gpt-5-6-sol",
+      "model_raw": "GPT-5.6 Sol (Low)",
+      "score": 0.33,
+      "ci": null,
+      "effort": "low",
+      "org": "OpenAI",
+      "release_date": "2026-07-09",
+      "notes": []
+    },
+    {
+      "benchmark": "arc-agi-3",
+      "model": "gpt-5-6-sol",
+      "model_raw": "GPT-5.6 Sol (Medium)",
+      "score": 1.07,
+      "ci": null,
+      "effort": "medium",
+      "org": "OpenAI",
+      "release_date": "2026-07-09",
+      "notes": []
+    },
+    {
+      "benchmark": "arc-agi-3",
+      "model": "gpt-5-6-sol",
+      "model_raw": "GPT-5.6 Sol (High)",
+      "score": 2.15,
+      "ci": null,
+      "effort": "high",
+      "org": "OpenAI",
+      "release_date": "2026-07-09",
+      "notes": []
+    },
+    {
+      "benchmark": "arc-agi-3",
+      "model": "gpt-5-6-sol",
+      "model_raw": "GPT-5.6 Sol (XHigh)",
+      "score": 6.99,
+      "ci": null,
+      "effort": "xhigh",
+      "org": "OpenAI",
+      "release_date": "2026-07-09",
+      "notes": []
+    },
+    {
+      "benchmark": "arc-agi-3",
+      "model": "gpt-5-6-sol",
+      "model_raw": "GPT-5.6 Sol (Max)",
+      "score": 7.78,
+      "ci": null,
+      "effort": "max",
+      "org": "OpenAI",
+      "release_date": "2026-07-09",
+      "notes": []
+    },
+    {
+      "benchmark": "arc-agi-3",
+      "model": "gpt-5-6-terra",
+      "model_raw": "GPT-5.6 Terra (Low)",
+      "score": 0.01,
+      "ci": null,
+      "effort": "low",
+      "org": "OpenAI",
+      "release_date": "2026-07-09",
+      "notes": []
+    },
+    {
+      "benchmark": "arc-agi-3",
+      "model": "gpt-5-6-terra",
+      "model_raw": "GPT-5.6 Terra (Medium)",
+      "score": 0.08,
+      "ci": null,
+      "effort": "medium",
+      "org": "OpenAI",
+      "release_date": "2026-07-09",
+      "notes": []
+    },
+    {
+      "benchmark": "arc-agi-3",
+      "model": "gpt-5-6-terra",
+      "model_raw": "GPT-5.6 Terra (High)",
+      "score": 0.49,
+      "ci": null,
+      "effort": "high",
+      "org": "OpenAI",
+      "release_date": "2026-07-09",
+      "notes": []
+    },
+    {
+      "benchmark": "arc-agi-3",
+      "model": "gpt-5-6-terra",
+      "model_raw": "GPT-5.6 Terra (XHigh)",
+      "score": 0.65,
+      "ci": null,
+      "effort": "xhigh",
+      "org": "OpenAI",
+      "release_date": "2026-07-09",
+      "notes": []
+    },
+    {
+      "benchmark": "arc-agi-3",
+      "model": "gpt-5-6-terra",
+      "model_raw": "GPT-5.6 Terra (Max)",
+      "score": 0.8,
+      "ci": null,
+      "effort": "max",
+      "org": "OpenAI",
+      "release_date": "2026-07-09",
+      "notes": []
+    },
+    {
+      "benchmark": "arc-agi-3",
+      "model": "gpt-5-6-luna",
+      "model_raw": "GPT-5.6 Luna (Low)",
+      "score": 0.17,
+      "ci": null,
+      "effort": "low",
+      "org": "OpenAI",
+      "release_date": "2026-07-09",
+      "notes": []
+    },
+    {
+      "benchmark": "arc-agi-3",
+      "model": "gpt-5-6-luna",
+      "model_raw": "GPT-5.6 Luna (Medium)",
+      "score": 0.17,
+      "ci": null,
+      "effort": "medium",
+      "org": "OpenAI",
+      "release_date": "2026-07-09",
+      "notes": []
+    },
+    {
+      "benchmark": "arc-agi-3",
+      "model": "gpt-5-6-luna",
+      "model_raw": "GPT-5.6 Luna (High)",
+      "score": 0.1,
+      "ci": null,
+      "effort": "high",
+      "org": "OpenAI",
+      "release_date": "2026-07-09",
+      "notes": []
+    },
+    {
+      "benchmark": "arc-agi-3",
+      "model": "gpt-5-6-luna",
+      "model_raw": "GPT-5.6 Luna (XHigh)",
+      "score": 0.02,
+      "ci": null,
+      "effort": "xhigh",
+      "org": "OpenAI",
+      "release_date": "2026-07-09",
+      "notes": []
+    },
+    {
+      "benchmark": "arc-agi-3",
+      "model": "gpt-5-6-luna",
+      "model_raw": "GPT-5.6 Luna (Max)",
+      "score": 0.18,
+      "ci": null,
+      "effort": "max",
+      "org": "OpenAI",
+      "release_date": "2026-07-09",
+      "notes": []
+    },
+    {
+      "benchmark": "arc-agi-3",
+      "model": "grok-4-5",
+      "model_raw": "Grok 4.5 (High)",
+      "score": 0.3,
+      "ci": null,
+      "effort": "high",
+      "org": "xAI",
+      "release_date": "2026-07-16",
+      "notes": []
+    },
+    {
+      "benchmark": "arc-agi-3",
+      "model": "grok-4-5",
+      "model_raw": "Grok 4.5 (Medium)",
+      "score": 0.32,
+      "ci": null,
+      "effort": "medium",
+      "org": "xAI",
+      "release_date": "2026-07-16",
+      "notes": []
+    },
+    {
+      "benchmark": "arc-agi-3",
+      "model": "grok-4-5",
+      "model_raw": "Grok 4.5 (Low)",
+      "score": 0.26,
+      "ci": null,
+      "effort": "low",
+      "org": "xAI",
+      "release_date": "2026-07-16",
+      "notes": []
+    },
+    {
+      "benchmark": "arc-agi-3",
+      "model": "opus-5",
+      "model_raw": "Claude Opus 5 (High)",
+      "score": 30.16,
+      "ci": null,
+      "effort": "high",
+      "org": "Anthropic",
+      "release_date": "2026-07-24",
+      "notes": [
+        "Evaluation conducted with 'high' output effort."
+      ]
+    },
+    {
+      "benchmark": "arc-agi-3",
+      "model": "grok-4-6",
+      "model_raw": "Grok 4.6 (XHigh)",
+      "score": 2.11,
+      "ci": null,
+      "effort": "xhigh",
+      "org": "xAI",
+      "release_date": "2026-08-11",
+      "notes": [
+        "Evaluation conducted with 'xhigh' reasoning effort."
+      ]
+    },
+    {
+      "benchmark": "arc-agi-3",
+      "model": "gpt-6-astra",
+      "model_raw": "GPT-6 Astra (Max)",
+      "score": 62.713,
+      "ci": null,
+      "effort": "max",
+      "org": "OpenAI",
+      "release_date": "2026-09-02",
+      "notes": [
+        "Evaluation conducted with 'max' reasoning effort."
+      ]
+    },
+    {
+      "benchmark": "arc-agi-3",
+      "model": "gpt-6-astra",
+      "model_raw": "GPT-6 Astra (XHigh)",
+      "score": 59.343,
+      "ci": null,
+      "effort": "xhigh",
+      "org": "OpenAI",
+      "release_date": "2026-09-02",
+      "notes": [
+        "Evaluation conducted with 'xhigh' reasoning effort."
+      ]
+    },
+    {
+      "benchmark": "arc-agi-3",
+      "model": "gpt-6-astra",
+      "model_raw": "GPT-6 Astra (High)",
+      "score": 54.819,
+      "ci": null,
+      "effort": "high",
+      "org": "OpenAI",
+      "release_date": "2026-09-02",
+      "notes": [
+        "Evaluation conducted with 'high' reasoning effort."
+      ]
+    },
+    {
+      "benchmark": "arc-agi-3",
+      "model": "gpt-6-astra",
+      "model_raw": "GPT-6 Astra (Medium)",
+      "score": 38.588,
+      "ci": null,
+      "effort": "medium",
+      "org": "OpenAI",
+      "release_date": "2026-09-02",
+      "notes": [
+        "Evaluation conducted with 'medium' reasoning effort."
+      ]
+    },
+    {
+      "benchmark": "arc-agi-3",
+      "model": "gpt-6-astra",
+      "model_raw": "GPT-6 Astra (Low)",
+      "score": 17.452,
+      "ci": null,
+      "effort": "low",
+      "org": "OpenAI",
+      "release_date": "2026-09-02",
+      "notes": [
+        "Evaluation conducted with 'low' reasoning effort."
+      ]
+    },
+    {
+      "benchmark": "arc-agi-3",
+      "model": "gpt-6-astra",
+      "model_raw": "GPT-6 Astra (None)",
+      "score": 35.178,
+      "ci": null,
+      "effort": "none",
+      "org": "OpenAI",
+      "release_date": "2026-09-02",
+      "notes": [
+        "Evaluation conducted with 'none' reasoning effort."
+      ]
+    },
+    {
+      "benchmark": "arc-agi-3",
+      "model": "gpt-6-astra",
+      "model_raw": "GPT-6 Astra - Provider Adapter (Max)",
+      "score": 98.551,
+      "ci": null,
+      "effort": "max",
+      "org": "OpenAI",
+      "release_date": "2026-09-02",
+      "notes": [
+        "Evaluation conducted with 'max' reasoning effort using the provider adapter harness."
+      ]
+    },
+    {
+      "benchmark": "arc-agi-3",
+      "model": "gpt-6-astra",
+      "model_raw": "GPT-6 Astra - Provider Adapter (XHigh)",
+      "score": 98.442,
+      "ci": null,
+      "effort": "xhigh",
+      "org": "OpenAI",
+      "release_date": "2026-09-02",
+      "notes": [
+        "Evaluation conducted with 'xhigh' reasoning effort using the provider adapter harness."
+      ]
+    },
+    {
+      "benchmark": "arc-agi-3",
+      "model": "gpt-6-astra",
+      "model_raw": "GPT-6 Astra - Provider Adapter (High)",
+      "score": 99.946,
+      "ci": null,
+      "effort": "high",
+      "org": "OpenAI",
+      "release_date": "2026-09-02",
+      "notes": [
+        "Evaluation conducted with 'high' reasoning effort using the provider adapter harness."
+      ]
+    },
+    {
+      "benchmark": "arc-agi-3",
+      "model": "gpt-6-astra",
+      "model_raw": "GPT-6 Astra - Provider Adapter (Medium)",
+      "score": 98.439,
+      "ci": null,
+      "effort": "medium",
+      "org": "OpenAI",
+      "release_date": "2026-09-02",
+      "notes": [
+        "Evaluation conducted with 'medium' reasoning effort using the provider adapter harness."
+      ]
+    },
+    {
+      "benchmark": "arc-agi-3",
+      "model": "gpt-6-astra",
+      "model_raw": "GPT-6 Astra - Provider Adapter (Low)",
+      "score": 98.028,
+      "ci": null,
+      "effort": "low",
+      "org": "OpenAI",
+      "release_date": "2026-09-02",
+      "notes": [
+        "Evaluation conducted with 'low' reasoning effort using the provider adapter harness."
+      ]
+    },
+    {
+      "benchmark": "arc-agi-3",
+      "model": "gpt-6-astra",
+      "model_raw": "GPT-6 Astra - Provider Adapter (None)",
+      "score": 96.72,
+      "ci": null,
+      "effort": "none",
+      "org": "OpenAI",
+      "release_date": "2026-09-02",
+      "notes": [
+        "Evaluation conducted with 'none' reasoning effort using the provider adapter harness."
+      ]
+    },
+    {
+      "benchmark": "arc-agi-3",
+      "model": "gpt-6-luna",
+      "model_raw": "GPT-6 Luna (Max)",
+      "score": 0.104,
+      "ci": null,
+      "effort": "max",
+      "org": "OpenAI",
+      "release_date": "2026-09-22",
+      "notes": [
+        "Evaluation conducted with 'max' reasoning effort using the standard harness. Partial dataset coverage: scores use full catalog denominators; costs include recorded usage only, excluding unrecorded attempts."
+      ]
+    },
+    {
+      "benchmark": "arc-agi-3",
+      "model": "gpt-6-luna",
+      "model_raw": "GPT-6 Luna (XHigh)",
+      "score": 0.164,
+      "ci": null,
+      "effort": "xhigh",
+      "org": "OpenAI",
+      "release_date": "2026-09-22",
+      "notes": [
+        "Evaluation conducted with 'xhigh' reasoning effort using the standard harness."
+      ]
+    },
+    {
+      "benchmark": "arc-agi-3",
+      "model": "gpt-6-luna",
+      "model_raw": "GPT-6 Luna (High)",
+      "score": 0.18,
+      "ci": null,
+      "effort": "high",
+      "org": "OpenAI",
+      "release_date": "2026-09-22",
+      "notes": [
+        "Evaluation conducted with 'high' reasoning effort using the standard harness."
+      ]
+    },
+    {
+      "benchmark": "arc-agi-3",
+      "model": "gpt-6-luna",
+      "model_raw": "GPT-6 Luna (Medium)",
+      "score": 0.194,
+      "ci": null,
+      "effort": "medium",
+      "org": "OpenAI",
+      "release_date": "2026-09-22",
+      "notes": [
+        "Evaluation conducted with 'medium' reasoning effort using the standard harness."
+      ]
+    },
+    {
+      "benchmark": "arc-agi-3",
+      "model": "gpt-6-luna",
+      "model_raw": "GPT-6 Luna (Low)",
+      "score": 0.033,
+      "ci": null,
+      "effort": "low",
+      "org": "OpenAI",
+      "release_date": "2026-09-22",
+      "notes": [
+        "Evaluation conducted with 'low' reasoning effort using the standard harness."
+      ]
+    },
+    {
+      "benchmark": "arc-agi-3",
+      "model": "gpt-6-luna",
+      "model_raw": "GPT-6 Luna (None)",
+      "score": 0.028,
+      "ci": null,
+      "effort": "none",
+      "org": "OpenAI",
+      "release_date": "2026-09-22",
+      "notes": [
+        "Evaluation conducted with 'none' reasoning effort using the standard harness."
+      ]
+    },
+    {
+      "benchmark": "arc-agi-3",
+      "model": "gpt-6-luna",
+      "model_raw": "GPT-6 Luna - Provider Adapter (Max)",
+      "score": 0.587,
+      "ci": null,
+      "effort": "max",
+      "org": "OpenAI",
+      "release_date": "2026-09-22",
+      "notes": [
+        "Evaluation conducted with 'max' reasoning effort using the provider adapter harness. Some model actions have unmeasured token usage; reported costs are recorded-usage lower bounds, not verified full-run costs."
+      ]
+    },
+    {
+      "benchmark": "arc-agi-3",
+      "model": "gpt-6-luna",
+      "model_raw": "GPT-6 Luna - Provider Adapter (XHigh)",
+      "score": 0.507,
+      "ci": null,
+      "effort": "xhigh",
+      "org": "OpenAI",
+      "release_date": "2026-09-22",
+      "notes": [
+        "Evaluation conducted with 'xhigh' reasoning effort using the provider adapter harness. Some model actions have unmeasured token usage; reported costs are recorded-usage lower bounds, not verified full-run costs."
+      ]
+    },
+    {
+      "benchmark": "arc-agi-3",
+      "model": "gpt-6-luna",
+      "model_raw": "GPT-6 Luna - Provider Adapter (High)",
+      "score": 0.378,
+      "ci": null,
+      "effort": "high",
+      "org": "OpenAI",
+      "release_date": "2026-09-22",
+      "notes": [
+        "Evaluation conducted with 'high' reasoning effort using the provider adapter harness. Some model actions have unmeasured token usage; reported costs are recorded-usage lower bounds, not verified full-run costs."
+      ]
+    },
+    {
+      "benchmark": "arc-agi-3",
+      "model": "gpt-6-luna",
+      "model_raw": "GPT-6 Luna - Provider Adapter (Medium)",
+      "score": 0.316,
+      "ci": null,
+      "effort": "medium",
+      "org": "OpenAI",
+      "release_date": "2026-09-22",
+      "notes": [
+        "Evaluation conducted with 'medium' reasoning effort using the provider adapter harness. Some model actions have unmeasured token usage; reported costs are recorded-usage lower bounds, not verified full-run costs."
+      ]
+    },
+    {
+      "benchmark": "arc-agi-3",
+      "model": "gpt-6-luna",
+      "model_raw": "GPT-6 Luna - Provider Adapter (Low)",
+      "score": 0.237,
+      "ci": null,
+      "effort": "low",
+      "org": "OpenAI",
+      "release_date": "2026-09-22",
+      "notes": [
+        "Evaluation conducted with 'low' reasoning effort using the provider adapter harness. Some model actions have unmeasured token usage; reported costs are recorded-usage lower bounds, not verified full-run costs."
+      ]
+    },
+    {
+      "benchmark": "arc-agi-3",
+      "model": "gpt-6-luna",
+      "model_raw": "GPT-6 Luna - Provider Adapter (None)",
+      "score": 0.046,
+      "ci": null,
+      "effort": "none",
+      "org": "OpenAI",
+      "release_date": "2026-09-22",
+      "notes": [
+        "Evaluation conducted with 'none' reasoning effort using the provider adapter harness. Some model actions have unmeasured token usage; reported costs are recorded-usage lower bounds, not verified full-run costs."
+      ]
+    },
+    {
+      "benchmark": "arc-agi-3",
+      "model": "gemini-3-8-flash",
+      "model_raw": "Gemini 3.8 Flash (High)",
+      "score": 10.366,
+      "ci": null,
+      "effort": "high",
+      "org": "Google",
+      "release_date": "2026-09-02",
+      "notes": [
+        "Evaluation conducted with 'high' reasoning effort using the standard harness. Partial dataset coverage: scores use full catalog denominators; costs include recorded usage only, excluding unrecorded attempts."
+      ]
+    },
+    {
+      "benchmark": "arc-agi-3",
+      "model": "gemini-3-8-flash",
+      "model_raw": "Gemini 3.8 Flash (Medium)",
+      "score": 3.988,
+      "ci": null,
+      "effort": "medium",
+      "org": "Google",
+      "release_date": "2026-09-02",
+      "notes": [
+        "Evaluation conducted with 'medium' reasoning effort using the standard harness."
+      ]
+    },
+    {
+      "benchmark": "arc-agi-3",
+      "model": "gemini-3-8-flash",
+      "model_raw": "Gemini 3.8 Flash (Low)",
+      "score": 5.99,
+      "ci": null,
+      "effort": "low",
+      "org": "Google",
+      "release_date": "2026-09-02",
+      "notes": [
+        "Evaluation conducted with 'low' reasoning effort using the standard harness."
+      ]
+    },
+    {
+      "benchmark": "arc-agi-3",
+      "model": "gemini-3-8-flash",
+      "model_raw": "Gemini 3.8 Flash - Provider Adapter (High)",
+      "score": 35.004,
+      "ci": null,
+      "effort": "high",
+      "org": "Google",
+      "release_date": "2026-09-02",
+      "notes": [
+        "Evaluation conducted with 'high' reasoning effort using the provider adapter harness. Partial dataset coverage: scores use full catalog denominators; costs include recorded usage only, excluding unrecorded attempts."
+      ]
+    },
+    {
+      "benchmark": "arc-agi-3",
+      "model": "gemini-3-8-flash",
+      "model_raw": "Gemini 3.8 Flash - Provider Adapter (Medium)",
+      "score": 24.203,
+      "ci": null,
+      "effort": "medium",
+      "org": "Google",
+      "release_date": "2026-09-02",
+      "notes": [
+        "Evaluation conducted with 'medium' reasoning effort using the provider adapter harness."
+      ]
+    },
+    {
+      "benchmark": "arc-agi-3",
+      "model": "gemini-3-8-flash",
+      "model_raw": "Gemini 3.8 Flash - Provider Adapter (Low)",
+      "score": 15.072,
+      "ci": null,
+      "effort": "low",
+      "org": "Google",
+      "release_date": "2026-09-02",
+      "notes": [
+        "Evaluation conducted with 'low' reasoning effort using the provider adapter harness. Partial dataset coverage: scores use full catalog denominators; costs include recorded usage only, excluding unrecorded attempts."
+      ]
+    },
+    {
+      "benchmark": "arc-agi-3",
+      "model": "gpt-6-sol",
+      "model_raw": "GPT-6 Sol (Max)",
+      "score": 4.624,
+      "ci": null,
+      "effort": "max",
+      "org": "OpenAI",
+      "release_date": "2026-09-22",
+      "notes": [
+        "Evaluation conducted with 'max' reasoning effort using the standard harness."
+      ]
+    },
+    {
+      "benchmark": "arc-agi-3",
+      "model": "gpt-6-sol",
+      "model_raw": "GPT-6 Sol (XHigh)",
+      "score": 1.798,
+      "ci": null,
+      "effort": "xhigh",
+      "org": "OpenAI",
+      "release_date": "2026-09-22",
+      "notes": [
+        "Evaluation conducted with 'xhigh' reasoning effort using the standard harness. Partial dataset coverage: scores use full catalog denominators; costs include recorded usage only, excluding unrecorded attempts."
+      ]
+    },
+    {
+      "benchmark": "arc-agi-3",
+      "model": "gpt-6-sol",
+      "model_raw": "GPT-6 Sol (High)",
+      "score": 0.899,
+      "ci": null,
+      "effort": "high",
+      "org": "OpenAI",
+      "release_date": "2026-09-22",
+      "notes": [
+        "Evaluation conducted with 'high' reasoning effort using the standard harness. Partial dataset coverage: scores use full catalog denominators; costs include recorded usage only, excluding unrecorded attempts."
+      ]
+    },
+    {
+      "benchmark": "arc-agi-3",
+      "model": "gpt-6-sol",
+      "model_raw": "GPT-6 Sol (Medium)",
+      "score": 0.419,
+      "ci": null,
+      "effort": "medium",
+      "org": "OpenAI",
+      "release_date": "2026-09-22",
+      "notes": [
+        "Evaluation conducted with 'medium' reasoning effort using the standard harness. Partial dataset coverage: scores use full catalog denominators; costs include recorded usage only, excluding unrecorded attempts."
+      ]
+    },
+    {
+      "benchmark": "arc-agi-3",
+      "model": "gpt-6-sol",
+      "model_raw": "GPT-6 Sol (Low)",
+      "score": 0.126,
+      "ci": null,
+      "effort": "low",
+      "org": "OpenAI",
+      "release_date": "2026-09-22",
+      "notes": [
+        "Evaluation conducted with 'low' reasoning effort using the standard harness. Partial dataset coverage: scores use full catalog denominators; costs include recorded usage only, excluding unrecorded attempts."
+      ]
+    },
+    {
+      "benchmark": "arc-agi-3",
+      "model": "gpt-6-sol",
+      "model_raw": "GPT-6 Sol (None)",
+      "score": 0.284,
+      "ci": null,
+      "effort": "none",
+      "org": "OpenAI",
+      "release_date": "2026-09-22",
+      "notes": [
+        "Evaluation conducted with 'none' reasoning effort using the standard harness. Partial dataset coverage: scores use full catalog denominators; costs include recorded usage only, excluding unrecorded attempts."
+      ]
+    },
+    {
+      "benchmark": "arc-agi-3",
+      "model": "gpt-6-sol",
+      "model_raw": "GPT-6 Sol - Provider Adapter (Max)",
+      "score": 23.028,
+      "ci": null,
+      "effort": "max",
+      "org": "OpenAI",
+      "release_date": "2026-09-22",
+      "notes": [
+        "Evaluation conducted with 'max' reasoning effort using the provider adapter harness. Partial dataset coverage: scores use full catalog denominators; costs include recorded usage only, excluding unrecorded attempts. Some model actions have unmeasured token usage; reported costs are recorded-usage lower bounds, not verified full-run costs."
+      ]
+    },
+    {
+      "benchmark": "arc-agi-3",
+      "model": "gpt-6-sol",
+      "model_raw": "GPT-6 Sol - Provider Adapter (XHigh)",
+      "score": 9.453,
+      "ci": null,
+      "effort": "xhigh",
+      "org": "OpenAI",
+      "release_date": "2026-09-22",
+      "notes": [
+        "Evaluation conducted with 'xhigh' reasoning effort using the provider adapter harness. Some model actions have unmeasured token usage; reported costs are recorded-usage lower bounds, not verified full-run costs."
+      ]
+    },
+    {
+      "benchmark": "arc-agi-3",
+      "model": "gpt-6-sol",
+      "model_raw": "GPT-6 Sol - Provider Adapter (High)",
+      "score": 5.856,
+      "ci": null,
+      "effort": "high",
+      "org": "OpenAI",
+      "release_date": "2026-09-22",
+      "notes": [
+        "Evaluation conducted with 'high' reasoning effort using the provider adapter harness. Some model actions have unmeasured token usage; reported costs are recorded-usage lower bounds, not verified full-run costs."
+      ]
+    },
+    {
+      "benchmark": "arc-agi-3",
+      "model": "gpt-6-sol",
+      "model_raw": "GPT-6 Sol - Provider Adapter (Medium)",
+      "score": 4.93,
+      "ci": null,
+      "effort": "medium",
+      "org": "OpenAI",
+      "release_date": "2026-09-22",
+      "notes": [
+        "Evaluation conducted with 'medium' reasoning effort using the provider adapter harness. Some model actions have unmeasured token usage; reported costs are recorded-usage lower bounds, not verified full-run costs."
+      ]
+    },
+    {
+      "benchmark": "arc-agi-3",
+      "model": "gpt-6-sol",
+      "model_raw": "GPT-6 Sol - Provider Adapter (Low)",
+      "score": 1.762,
+      "ci": null,
+      "effort": "low",
+      "org": "OpenAI",
+      "release_date": "2026-09-22",
+      "notes": [
+        "Evaluation conducted with 'low' reasoning effort using the provider adapter harness."
+      ]
+    },
+    {
+      "benchmark": "arc-agi-3",
+      "model": "gpt-6-sol",
+      "model_raw": "GPT-6 Sol - Provider Adapter (None)",
+      "score": 1.206,
+      "ci": null,
+      "effort": "none",
+      "org": "OpenAI",
+      "release_date": "2026-09-22",
+      "notes": [
+        "Evaluation conducted with 'none' reasoning effort using the provider adapter harness. Partial dataset coverage: scores use full catalog denominators; costs include recorded usage only, excluding unrecorded attempts. Some model actions have unmeasured token usage; reported costs are recorded-usage lower bounds, not verified full-run costs."
+      ]
+    },
+    {
+      "benchmark": "arc-agi-3",
+      "model": "gpt-6-1-sol",
+      "model_raw": "GPT-6.1 Sol (Max)",
+      "score": 52.729,
+      "ci": null,
+      "effort": "max",
+      "org": "OpenAI",
+      "release_date": "2026-09-29",
+      "notes": [
+        "Evaluation conducted with 'max' reasoning effort using the standard harness."
+      ]
+    },
+    {
+      "benchmark": "arc-agi-3",
+      "model": "gpt-6-1-sol",
+      "model_raw": "GPT-6.1 Sol (XHigh)",
+      "score": 39.929,
+      "ci": null,
+      "effort": "xhigh",
+      "org": "OpenAI",
+      "release_date": "2026-09-29",
+      "notes": [
+        "Evaluation conducted with 'xhigh' reasoning effort using the standard harness."
+      ]
+    },
+    {
+      "benchmark": "arc-agi-3",
+      "model": "gpt-6-1-sol",
+      "model_raw": "GPT-6.1 Sol (High)",
+      "score": 26.717,
+      "ci": null,
+      "effort": "high",
+      "org": "OpenAI",
+      "release_date": "2026-09-29",
+      "notes": [
+        "Evaluation conducted with 'high' reasoning effort using the standard harness."
+      ]
+    },
+    {
+      "benchmark": "arc-agi-3",
+      "model": "gpt-6-1-sol",
+      "model_raw": "GPT-6.1 Sol (Medium)",
+      "score": 10.569,
+      "ci": null,
+      "effort": "medium",
+      "org": "OpenAI",
+      "release_date": "2026-09-29",
+      "notes": [
+        "Evaluation conducted with 'medium' reasoning effort using the standard harness."
+      ]
+    },
+    {
+      "benchmark": "arc-agi-3",
+      "model": "gpt-6-1-sol",
+      "model_raw": "GPT-6.1 Sol (Low)",
+      "score": 3.924,
+      "ci": null,
+      "effort": "low",
+      "org": "OpenAI",
+      "release_date": "2026-09-29",
+      "notes": [
+        "Evaluation conducted with 'low' reasoning effort using the standard harness."
+      ]
+    },
+    {
+      "benchmark": "arc-agi-3",
+      "model": "gpt-6-1-sol",
+      "model_raw": "GPT-6.1 Sol - Provider Adapter (Max)",
+      "score": 96.177,
+      "ci": null,
+      "effort": "max",
+      "org": "OpenAI",
+      "release_date": "2026-09-29",
+      "notes": [
+        "Evaluation conducted with 'max' reasoning effort using the provider adapter harness. Some model actions have unmeasured token usage; reported costs are recorded-usage lower bounds, not verified full-run costs."
+      ]
+    },
+    {
+      "benchmark": "arc-agi-3",
+      "model": "gpt-6-1-sol",
+      "model_raw": "GPT-6.1 Sol - Provider Adapter (XHigh)",
+      "score": 96.375,
+      "ci": null,
+      "effort": "xhigh",
+      "org": "OpenAI",
+      "release_date": "2026-09-29",
+      "notes": [
+        "Evaluation conducted with 'xhigh' reasoning effort using the provider adapter harness. Some model actions have unmeasured token usage; reported costs are recorded-usage lower bounds, not verified full-run costs."
+      ]
+    },
+    {
+      "benchmark": "arc-agi-3",
+      "model": "gpt-6-1-sol",
+      "model_raw": "GPT-6.1 Sol - Provider Adapter (High)",
+      "score": 94.994,
+      "ci": null,
+      "effort": "high",
+      "org": "OpenAI",
+      "release_date": "2026-09-29",
+      "notes": [
+        "Evaluation conducted with 'high' reasoning effort using the provider adapter harness. Partial dataset coverage: scores use full catalog denominators; costs include recorded usage only, excluding unrecorded attempts. Some model actions have unmeasured token usage; reported costs are recorded-usage lower bounds, not verified full-run costs."
+      ]
+    },
+    {
+      "benchmark": "arc-agi-3",
+      "model": "gpt-6-1-sol",
+      "model_raw": "GPT-6.1 Sol - Provider Adapter (Medium)",
+      "score": 91.023,
+      "ci": null,
+      "effort": "medium",
+      "org": "OpenAI",
+      "release_date": "2026-09-29",
+      "notes": [
+        "Evaluation conducted with 'medium' reasoning effort using the provider adapter harness. Partial dataset coverage: scores use full catalog denominators; costs include recorded usage only, excluding unrecorded attempts. Some model actions have unmeasured token usage; reported costs are recorded-usage lower bounds, not verified full-run costs."
+      ]
+    },
+    {
+      "benchmark": "arc-agi-3",
+      "model": "gpt-6-1-sol",
+      "model_raw": "GPT-6.1 Sol - Provider Adapter (Low)",
+      "score": 82.787,
+      "ci": null,
+      "effort": "low",
+      "org": "OpenAI",
+      "release_date": "2026-09-29",
+      "notes": [
+        "Evaluation conducted with 'low' reasoning effort using the provider adapter harness. Partial dataset coverage: scores use full catalog denominators; costs include recorded usage only, excluding unrecorded attempts. Some model actions have unmeasured token usage; reported costs are recorded-usage lower bounds, not verified full-run costs."
+      ]
+    },
+    {
+      "benchmark": "arc-agi-3",
+      "model": "grok-4-7",
+      "model_raw": "Grok 4.7 (XHigh)",
+      "score": 1.816,
+      "ci": null,
+      "effort": "xhigh",
+      "org": "xAI",
+      "release_date": "2026-09-21",
+      "notes": [
+        "Evaluation conducted with 'xhigh' reasoning effort using the standard harness. Partial dataset coverage: scores use full catalog denominators; costs include recorded usage only, excluding unrecorded attempts."
+      ]
+    },
+    {
+      "benchmark": "arc-agi-3",
+      "model": "grok-4-7",
+      "model_raw": "Grok 4.7 (High)",
+      "score": 1.733,
+      "ci": null,
+      "effort": "high",
+      "org": "xAI",
+      "release_date": "2026-09-21",
+      "notes": [
+        "Evaluation conducted with 'high' reasoning effort using the standard harness. Partial dataset coverage: scores use full catalog denominators; costs include recorded usage only, excluding unrecorded attempts."
+      ]
+    },
+    {
+      "benchmark": "arc-agi-3",
+      "model": "grok-4-7",
+      "model_raw": "Grok 4.7 (Medium)",
+      "score": 1.706,
+      "ci": null,
+      "effort": "medium",
+      "org": "xAI",
+      "release_date": "2026-09-21",
+      "notes": [
+        "Evaluation conducted with 'medium' reasoning effort using the standard harness. Partial dataset coverage: scores use full catalog denominators; costs include recorded usage only, excluding unrecorded attempts."
+      ]
+    },
+    {
+      "benchmark": "arc-agi-3",
+      "model": "grok-4-7",
+      "model_raw": "Grok 4.7 (Low)",
+      "score": 0.247,
+      "ci": null,
+      "effort": "low",
+      "org": "xAI",
+      "release_date": "2026-09-21",
+      "notes": [
+        "Evaluation conducted with 'low' reasoning effort using the standard harness."
+      ]
+    },
+    {
+      "benchmark": "arc-agi-3",
+      "model": "grok-4-7",
+      "model_raw": "Grok 4.7 - Provider Adapter (XHigh)",
+      "score": 7.016,
+      "ci": null,
+      "effort": "xhigh",
+      "org": "xAI",
+      "release_date": "2026-09-21",
+      "notes": [
+        "Evaluation conducted with 'xhigh' reasoning effort using the provider adapter harness. Partial dataset coverage: scores use full catalog denominators; costs include recorded usage only, excluding unrecorded attempts."
+      ]
+    },
+    {
+      "benchmark": "arc-agi-3",
+      "model": "grok-4-7",
+      "model_raw": "Grok 4.7 - Provider Adapter (High)",
+      "score": 10.048,
+      "ci": null,
+      "effort": "high",
+      "org": "xAI",
+      "release_date": "2026-09-21",
+      "notes": [
+        "Evaluation conducted with 'high' reasoning effort using the provider adapter harness. Partial dataset coverage: scores use full catalog denominators; costs include recorded usage only, excluding unrecorded attempts."
+      ]
+    },
+    {
+      "benchmark": "arc-agi-3",
+      "model": "grok-4-7",
+      "model_raw": "Grok 4.7 - Provider Adapter (Medium)",
+      "score": 8.374,
+      "ci": null,
+      "effort": "medium",
+      "org": "xAI",
+      "release_date": "2026-09-21",
+      "notes": [
+        "Evaluation conducted with 'medium' reasoning effort using the provider adapter harness."
+      ]
+    },
+    {
+      "benchmark": "arc-agi-3",
+      "model": "grok-4-7",
+      "model_raw": "Grok 4.7 - Provider Adapter (Low)",
+      "score": 0.774,
+      "ci": null,
+      "effort": "low",
+      "org": "xAI",
+      "release_date": "2026-09-21",
+      "notes": [
+        "Evaluation conducted with 'low' reasoning effort using the provider adapter harness."
+      ]
+    },
+    {
+      "benchmark": "arc-agi-3",
+      "model": "deepseek-v4-1-flash",
+      "model_raw": "DeepSeek V4.1 Flash (Max)",
+      "score": 0.852,
+      "ci": null,
+      "effort": "max",
+      "org": "DeepSeek",
+      "release_date": "2026-09-10",
+      "notes": [
+        "Evaluation conducted with 'max' reasoning effort using the standard harness. Partial dataset coverage: scores use full catalog denominators; costs include recorded usage only, excluding unrecorded attempts."
+      ]
+    },
+    {
+      "benchmark": "arc-agi-3",
+      "model": "deepseek-v4-1-flash",
+      "model_raw": "DeepSeek V4.1 Flash (High)",
+      "score": 0.485,
+      "ci": null,
+      "effort": "high",
+      "org": "DeepSeek",
+      "release_date": "2026-09-10",
+      "notes": [
+        "Evaluation conducted with 'high' reasoning effort using the standard harness. Partial dataset coverage: scores use full catalog denominators; costs include recorded usage only, excluding unrecorded attempts."
+      ]
+    },
+    {
+      "benchmark": "arc-agi-3",
+      "model": "deepseek-v4-1-flash",
+      "model_raw": "DeepSeek V4.1 Flash (Low)",
+      "score": 0.345,
+      "ci": null,
+      "effort": "low",
+      "org": "DeepSeek",
+      "release_date": "2026-09-10",
+      "notes": [
+        "Evaluation conducted with 'low' reasoning effort using the standard harness."
+      ]
+    },
+    {
+      "benchmark": "arc-agi-3",
+      "model": "deepseek-v4-1-flash",
+      "model_raw": "DeepSeek V4.1 Flash (None)",
+      "score": 0.343,
+      "ci": null,
+      "effort": "none",
+      "org": "DeepSeek",
+      "release_date": "2026-09-10",
+      "notes": [
+        "Evaluation conducted with 'none' reasoning effort using the standard harness."
+      ]
+    },
+    {
+      "benchmark": "arc-agi-3",
+      "model": "deepseek-v4-1-flash",
+      "model_raw": "DeepSeek V4.1 Flash - Provider Adapter (Max)",
+      "score": 2.684,
+      "ci": null,
+      "effort": "max",
+      "org": "DeepSeek",
+      "release_date": "2026-09-10",
+      "notes": [
+        "Evaluation conducted with 'max' reasoning effort using the provider adapter harness."
+      ]
+    },
+    {
+      "benchmark": "arc-agi-3",
+      "model": "deepseek-v4-1-flash",
+      "model_raw": "DeepSeek V4.1 Flash - Provider Adapter (High)",
+      "score": 3.152,
+      "ci": null,
+      "effort": "high",
+      "org": "DeepSeek",
+      "release_date": "2026-09-10",
+      "notes": [
+        "Evaluation conducted with 'high' reasoning effort using the provider adapter harness."
+      ]
+    },
+    {
+      "benchmark": "arc-agi-3",
+      "model": "deepseek-v4-1-flash",
+      "model_raw": "DeepSeek V4.1 Flash - Provider Adapter (Low)",
+      "score": 3.264,
+      "ci": null,
+      "effort": "low",
+      "org": "DeepSeek",
+      "release_date": "2026-09-10",
+      "notes": [
+        "Evaluation conducted with 'low' reasoning effort using the provider adapter harness. Some model actions have unmeasured token usage; reported costs are recorded-usage lower bounds, not verified full-run costs."
+      ]
+    },
+    {
+      "benchmark": "arc-agi-3",
+      "model": "deepseek-v4-1-flash",
+      "model_raw": "DeepSeek V4.1 Flash - Provider Adapter (None)",
+      "score": 0.483,
+      "ci": null,
+      "effort": "none",
+      "org": "DeepSeek",
+      "release_date": "2026-09-10",
+      "notes": [
+        "Evaluation conducted with 'none' reasoning effort using the provider adapter harness."
+      ]
+    },
+    {
+      "benchmark": "arc-agi-3",
+      "model": "haiku-5-5",
+      "model_raw": "Claude Haiku 5.5 (Max)",
+      "score": 0.451,
+      "ci": null,
+      "effort": "max",
+      "org": "Anthropic",
+      "release_date": "2026-10-07",
+      "notes": [
+        "Evaluation conducted with 'max' reasoning effort using the standard harness. Partial dataset coverage: scores use full catalog denominators; costs include recorded usage only, excluding unrecorded attempts."
+      ]
+    },
+    {
+      "benchmark": "arc-agi-3",
+      "model": "haiku-5-5",
+      "model_raw": "Claude Haiku 5.5 - Provider Adapter (Max)",
+      "score": 2.819,
+      "ci": null,
+      "effort": "max",
+      "org": "Anthropic",
+      "release_date": "2026-10-07",
+      "notes": [
+        "Evaluation conducted with 'max' reasoning effort using the provider adapter harness. Partial dataset coverage: scores use full catalog denominators; costs include recorded usage only, excluding unrecorded attempts."
+      ]
+    },
+    {
+      "benchmark": "arc-agi-3",
+      "model": "gemini-4-argon",
+      "model_raw": "Gemini 4 Argon (Medium)",
+      "score": 46.266,
+      "ci": null,
+      "effort": "medium",
+      "org": "Google",
+      "release_date": "2026-10-13",
+      "notes": [
+        "Evaluation conducted with 'medium' reasoning effort using the standard harness. Partial dataset coverage: scores use full catalog denominators; costs include recorded usage only, excluding unrecorded attempts."
+      ]
+    },
+    {
+      "benchmark": "arc-agi-3",
+      "model": "gemini-4-argon",
+      "model_raw": "Gemini 4 Argon (Low)",
+      "score": 49.794,
+      "ci": null,
+      "effort": "low",
+      "org": "Google",
+      "release_date": "2026-10-13",
+      "notes": [
+        "Evaluation conducted with 'low' reasoning effort using the standard harness. Partial dataset coverage: scores use full catalog denominators; costs include recorded usage only, excluding unrecorded attempts."
+      ]
+    },
+    {
+      "benchmark": "arc-agi-3",
+      "model": "gemini-4-argon",
+      "model_raw": "Gemini 4 Argon - Provider Adapter (High)",
+      "score": 97.304,
+      "ci": null,
+      "effort": "high",
+      "org": "Google",
+      "release_date": "2026-10-13",
+      "notes": [
+        "Evaluation conducted with 'high' reasoning effort using the provider adapter harness. Partial dataset coverage: scores use full catalog denominators; costs include recorded usage only, excluding unrecorded attempts."
+      ]
+    },
+    {
+      "benchmark": "arc-agi-3",
+      "model": "gemini-4-argon",
+      "model_raw": "Gemini 4 Argon - Provider Adapter (Medium)",
+      "score": 97.345,
+      "ci": null,
+      "effort": "medium",
+      "org": "Google",
+      "release_date": "2026-10-13",
+      "notes": [
+        "Evaluation conducted with 'medium' reasoning effort using the provider adapter harness. Partial dataset coverage: scores use full catalog denominators; costs include recorded usage only, excluding unrecorded attempts."
+      ]
+    },
+    {
+      "benchmark": "arc-agi-3",
+      "model": "gemini-4-argon",
+      "model_raw": "Gemini 4 Argon - Provider Adapter (Low)",
+      "score": 97.459,
+      "ci": null,
+      "effort": "low",
+      "org": "Google",
+      "release_date": "2026-10-13",
+      "notes": [
+        "Evaluation conducted with 'low' reasoning effort using the provider adapter harness. Partial dataset coverage: scores use full catalog denominators; costs include recorded usage only, excluding unrecorded attempts."
+      ]
+    },
+    {
+      "benchmark": "arc-agi-3",
+      "model": "sonnet-5-5",
+      "model_raw": "Claude Sonnet 5.5 (XHigh)",
+      "score": 24.31,
+      "ci": null,
+      "effort": "xhigh",
+      "org": "Anthropic",
+      "release_date": "2026-09-28",
+      "notes": [
+        "Evaluation conducted with 'xhigh' reasoning effort using the standard harness."
+      ]
+    },
+    {
+      "benchmark": "arc-agi-3",
+      "model": "sonnet-5-5",
+      "model_raw": "Claude Sonnet 5.5 (High)",
+      "score": 1.203,
+      "ci": null,
+      "effort": "high",
+      "org": "Anthropic",
+      "release_date": "2026-09-28",
+      "notes": [
+        "Evaluation conducted with 'high' reasoning effort using the standard harness."
+      ]
+    },
+    {
+      "benchmark": "arc-agi-3",
+      "model": "sonnet-5-5",
+      "model_raw": "Claude Sonnet 5.5 (Medium)",
+      "score": 0.396,
+      "ci": null,
+      "effort": "medium",
+      "org": "Anthropic",
+      "release_date": "2026-09-28",
+      "notes": [
+        "Evaluation conducted with 'medium' reasoning effort using the standard harness."
+      ]
+    },
+    {
+      "benchmark": "arc-agi-3",
+      "model": "sonnet-5-5",
+      "model_raw": "Claude Sonnet 5.5 (Low)",
+      "score": 0.405,
+      "ci": null,
+      "effort": "low",
+      "org": "Anthropic",
+      "release_date": "2026-09-28",
+      "notes": [
+        "Evaluation conducted with 'low' reasoning effort using the standard harness. Partial dataset coverage: scores use full catalog denominators; costs include recorded usage only, excluding unrecorded attempts. Some model actions have unmeasured token usage; reported costs are recorded-usage lower bounds, not verified full-run costs."
+      ]
+    },
+    {
+      "benchmark": "arc-agi-3",
+      "model": "sonnet-5-5",
+      "model_raw": "Claude Sonnet 5.5 - Provider Adapter (XHigh)",
+      "score": 72.442,
+      "ci": null,
+      "effort": "xhigh",
+      "org": "Anthropic",
+      "release_date": "2026-09-28",
+      "notes": [
+        "Evaluation conducted with 'xhigh' reasoning effort using the provider adapter harness. Partial dataset coverage: scores use full catalog denominators; costs include recorded usage only, excluding unrecorded attempts."
+      ]
+    },
+    {
+      "benchmark": "arc-agi-3",
+      "model": "sonnet-5-5",
+      "model_raw": "Claude Sonnet 5.5 - Provider Adapter (High)",
+      "score": 35.477,
+      "ci": null,
+      "effort": "high",
+      "org": "Anthropic",
+      "release_date": "2026-09-28",
+      "notes": [
+        "Evaluation conducted with 'high' reasoning effort using the provider adapter harness. Partial dataset coverage: scores use full catalog denominators; costs include recorded usage only, excluding unrecorded attempts."
+      ]
+    },
+    {
+      "benchmark": "arc-agi-3",
+      "model": "sonnet-5-5",
+      "model_raw": "Claude Sonnet 5.5 - Provider Adapter (Medium)",
+      "score": 4.888,
+      "ci": null,
+      "effort": "medium",
+      "org": "Anthropic",
+      "release_date": "2026-09-28",
+      "notes": [
+        "Evaluation conducted with 'medium' reasoning effort using the provider adapter harness. Partial dataset coverage: scores use full catalog denominators; costs include recorded usage only, excluding unrecorded attempts."
+      ]
+    },
+    {
+      "benchmark": "arc-agi-3",
+      "model": "sonnet-5-5",
+      "model_raw": "Claude Sonnet 5.5 - Provider Adapter (Low)",
+      "score": 0.624,
+      "ci": null,
+      "effort": "low",
+      "org": "Anthropic",
+      "release_date": "2026-09-28",
+      "notes": [
+        "Evaluation conducted with 'low' reasoning effort using the provider adapter harness."
+      ]
+    },
+    {
+      "benchmark": "arc-agi-3",
+      "model": "muse-spark-open",
+      "model_raw": "Muse Spark Open (XHigh)",
+      "score": 0.136,
+      "ci": null,
+      "effort": "xhigh",
+      "org": "Meta AI",
+      "release_date": "2026-10-15",
+      "notes": [
+        "Evaluation conducted with 'xhigh' reasoning effort using the standard harness."
+      ]
+    },
+    {
+      "benchmark": "arc-agi-3",
+      "model": "muse-spark-open",
+      "model_raw": "Muse Spark Open - Provider Adapter (XHigh)",
+      "score": 0.418,
+      "ci": null,
+      "effort": "xhigh",
+      "org": "Meta AI",
+      "release_date": "2026-10-15",
+      "notes": [
+        "Evaluation conducted with 'xhigh' reasoning effort using the provider adapter harness."
+      ]
+    }
+  ]
+}

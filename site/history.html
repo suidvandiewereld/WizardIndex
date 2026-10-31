@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>WizardIndex History</title>
+  <meta name="description" content="How each AI model line has improved, generation by generation.">
+  <link rel="icon" href="hat.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="container">
+    <div id="header">
+      <a href="./" class="logo">
+        <img src="hat.svg" alt="" width="78" height="66">
+        <span class="logo-words">
+          <span class="logo-text">WizardIndex</span>
+          <span class="tagline">Which AI is actually the best software engineer? Scored from official leaderboards, not press releases.</span>
+        </span>
+      </a>
+      <dl class="head-stats">
+        <div><dt>Models ranked</dt><dd id="hs-ranked">&nbsp;</dd></div>
+        <div><dt>Benchmarks</dt><dd id="hs-bench">&nbsp;</dd></div>
+        <div><dt>Updated</dt><dd id="head-stamp">&nbsp;</dd></div>
+      </dl>
+    </div>
+
+    <ul id="tabs">
+      <li><a href="./">Rankings</a></li>
+      <li class="current"><a href="history.html">History</a></li>
+      <li><a href="./#sources">Data sources</a></li>
+      <li><a href="./#method">How it works</a></li>
+      <li><a href="data/history.json">Download data</a></li>
+      <li><a href="https://github.com/suidvandiewereld/WizardIndex">Source code</a></li>
+    </ul>
+
+    <div id="body">
+      <div id="main">
+        <h2>Model history, generation by generation</h2>
+        <p class="byline" id="stamp"></p>
+        <p>Watch the labs climb, stall, and occasionally ship a sequel worse than the original. Each chart follows one product line over time. Scores are on the same scale as the rankings, where 100 is today's leader on each benchmark. Older generations that were tested on less than <span id="min-chart">40</span>% of the score are listed in the table but left off the chart, since most of their score would be an estimate.</p>
+        <p>The right-hand columns are raw results on long-running benchmarks, so you can compare generations directly. Click a family's [+] to see them.</p>
+        <div id="families"></div>
+      </div>
+
+      <div id="sidebar">
+        <div class="box">
+          <h3>Jump to</h3>
+          <ul class="jump" id="jump"></ul>
+        </div>
+        <div class="box">
+          <h3>Biggest single jumps</h3>
+          <p class="small-note">Largest score gain from one generation to the next, among charted generations.</p>
+          <ol class="top5" id="jumps"></ol>
+        </div>
+        <div class="box">
+          <h3>Biggest flops</h3>
+          <p class="small-note">Sequels that scored lower than the model they replaced. Someone shipped these on purpose.</p>
+          <ol class="top5 flops" id="flops"></ol>
+        </div>
+      </div>
+    </div>
+
+    <div id="footer">
+      <p>WizardIndex &copy; 2026. Updated weekly. No models were flattered in the making of this table. <span id="foot-stamp"></span></p>
+    </div>
+  </div>
+
+  <script src="header.js"></script>
+  <script src="icons.js"></script>
+  <script src="history.js"></script>
+</body>
+</html>

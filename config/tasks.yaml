@@ -1,0 +1,85 @@
+# The "Which model for my job?" picker on the rankings page (site/app.js).
+#
+# Each job weights the skills it leans on (dimension ids from config/index.yaml); a model's fit for
+# the job is the weighted mean of its skill scores, on the same scale as the table (50 = the median
+# ranked model, 100 = the leader). `proof` lists benchmarks that look like the job, in order of
+# preference: the picker shows each model's actual result on the first one it was tested on, so
+# visitors can see what a fit score buys. `text` is a short phrase with {v} for the result.
+# `format`: pct (score is a percentage), rating (a contest rating), winrate (the win rate in the
+# result's notes), signed (a score that can go negative).
+#
+# Bars: how good a model must be for the job. A model clears a bar when its fit is at least `min`.
+
+bars:
+  - id: routine
+    name: Routine
+    min: 40
+    blurb: Well-trodden work you will review anyway.
+  - id: hard
+    name: Hard
+    min: 65
+    blurb: Multi-step, non-obvious work where a weak model wastes your afternoon.
+  - id: frontier
+    name: Frontier
+    min: 85
+    blurb: The hardest work there is. Even the models that clear this bar will often fail.
+
+jobs:
+  - id: codebase
+    name: Fix bugs and ship features in an existing codebase
+    skills: {swe: 6, agentic: 3, reliability: 1}
+    proof:
+      - {bench: frontierswe, format: pct, text: "{v} on FrontierSWE"}
+      - {bench: cursorbench, format: pct, text: "{v} on CursorBench"}
+  - id: terminal
+    name: Long agent runs in a terminal (setup, DevOps, data pipelines)
+    skills: {agentic: 8, swe: 2}
+    proof:
+      - {bench: terminal-bench, format: pct, text: "{v} of Terminal-Bench's expert tasks done (median task: 4 hours of expert time)"}
+      - {bench: aa-terminal-bench, format: pct, text: "{v} of Terminal-Bench's expert tasks done (median task: 4 hours of expert time)"}
+  - id: optimize
+    name: Optimize performance (compilers, solvers, schedulers, hot loops)
+    skills: {creativity: 4, reasoning: 3, swe: 3}
+    proof:
+      - {bench: ale-bench, format: rating, text: "performance {v} in AtCoder heuristic contests (ALE-Bench)"}
+  - id: rebuild
+    name: Rebuild or port a whole program from scratch
+    skills: {swe: 5, agentic: 3, reasoning: 2}
+    proof:
+      - {bench: mirrorcode, format: pct, text: "{v} of MirrorCode's command-line programs rebuilt exactly"}
+      - {bench: frontierswe, format: pct, text: "{v} on FrontierSWE"}
+  - id: frontend
+    name: Websites, UI and front-end
+    skills: {taste: 7, swe: 3}
+    proof:
+      - {bench: design-arena-website, format: winrate, text: "{v} of blind website match-ups won (Design Arena)"}
+      - {bench: webdev-arena, format: rating, text: "WebDev Arena rating {v}"}
+  - id: games
+    name: Games and interactive 3D
+    skills: {creativity: 4, taste: 3, spatial: 3}
+    proof:
+      - {bench: design-arena-gamedev, format: winrate, text: "{v} of blind game-building match-ups won (Design Arena)"}
+      - {bench: design-arena-3d, format: winrate, text: "{v} of blind 3D-scene match-ups won (Design Arena)"}
+  - id: math
+    name: Math-heavy algorithms and scientific code
+    skills: {reasoning: 6, swe: 2, reliability: 2}
+    proof:
+      - {bench: frontiermath, format: pct, text: "{v} of FrontierMath (tiers 1-3) solved"}
+      - {bench: aa-scicode, format: pct, text: "{v} on SciCode"}
+  - id: novel
+    name: Unfamiliar territory (new kinds of problems, rules it must learn)
+    skills: {adaptability: 7, reasoning: 3}
+    proof:
+      - {bench: weirdml, format: pct, text: "{v} on WeirdML's unusual ML tasks"}
+      - {bench: mystery-game-puzzles, format: pct, text: "{v} of Mystery Game Puzzles solved"}
+  - id: spatial
+    name: CAD, 3D geometry and spatial planning
+    skills: {spatial: 7, reasoning: 3}
+    proof:
+      - {bench: furniture-assembly, format: pct, text: "{v} on Epoch's furniture-assembly test"}
+      - {bench: blueprint-bench, format: pct, text: "{v} on Blueprint-Bench"}
+  - id: facts
+    name: Research and answers you will act on without checking
+    skills: {reliability: 6, reasoning: 4}
+    proof:
+      - {bench: aa-omniscience, format: signed, text: "AA-Omniscience {v} (right answers minus made-up ones, out of 100)"}

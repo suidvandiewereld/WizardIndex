@@ -1,0 +1,1580 @@
+{
+ "generated_at": "2026-10-29T10:42:40+00:00",
+ "tracked": [
+  {
+   "id": "aa-hle",
+   "name": "Humanity's Last Exam (AA run)"
+  },
+  {
+   "id": "aa-scicode",
+   "name": "SciCode (AA run)"
+  },
+  {
+   "id": "arc-agi-2",
+   "name": "ARC-AGI-2 (semi-private)"
+  },
+  {
+   "id": "aa-terminal-bench",
+   "name": "Terminal-Bench 4.0 (AA run)"
+  },
+  {
+   "id": "webdev-arena",
+   "name": "WebDev Arena"
+  },
+  {
+   "id": "design-arena-website",
+   "name": "Design Arena, websites"
+  }
+ ],
+ "min_measured_to_chart": 40,
+ "families": [
+  {
+   "name": "Claude Opus",
+   "maker": "Anthropic",
+   "generations": [
+    {
+     "model": "opus-3",
+     "name": "Claude 3 Opus",
+     "org": "anthropic",
+     "title": "Wizard Emeritus of Riddles",
+     "pixels": "1120021122022022020110200000000000000000020110202202202211200211",
+     "released": "2024-02-29",
+     "index": 12.2,
+     "coverage": 11,
+     "ranked": false,
+     "scores": {
+      "aa-hle": 2.75
+     }
+    },
+    {
+     "model": "opus-4",
+     "name": "Claude Opus 4",
+     "org": "anthropic",
+     "title": "Wizard Emeritus of Solid Forms",
+     "pixels": "0101101001200210121001211011110100011000002112000020020033111133",
+     "released": "2025-05-14",
+     "index": 15.6,
+     "coverage": 37,
+     "ranked": false,
+     "scores": {
+      "aa-hle": 12.326,
+      "arc-agi-2": 8.61,
+      "design-arena-website": 1164.0
+     }
+    },
+    {
+     "model": "opus-4-1",
+     "name": "Claude 4.1 Opus",
+     "org": "anthropic",
+     "title": "Wizard Emeritus of Solid Forms",
+     "pixels": "2000000200011000123113212211112222111122123113210001100020000002",
+     "released": "2025-08-05",
+     "index": 14.6,
+     "coverage": 47,
+     "ranked": false,
+     "scores": {
+      "aa-hle": 12.465,
+      "webdev-arena": 1388.97,
+      "design-arena-website": 1176.0
+     }
+    },
+    {
+     "model": "opus-4-5",
+     "name": "Opus 4.5",
+     "org": "anthropic",
+     "title": "Wizard Emeritus of Fair Design",
+     "pixels": "0203211032100102133020110120002112000210110203312010012301123020",
+     "released": "2025-11-24",
+     "index": 17.2,
+     "coverage": 47,
+     "ranked": false,
+     "scores": {
+      "aa-hle": 30.12,
+      "arc-agi-2": 37.64,
+      "webdev-arena": 1494.89,
+      "design-arena-website": 1246.0
+     }
+    },
+    {
+     "model": "opus-4-6",
+     "name": "Claude Opus 4.6",
+     "org": "anthropic",
+     "title": "Wizard Emeritus of Fair Design",
+     "pixels": "1011120100301120112032112100020110200012112302110211030010211101",
+     "released": "2025-12-17",
+     "index": 27.0,
+     "coverage": 74,
+     "ranked": false,
+     "scores": {
+      "aa-hle": 39.944,
+      "arc-agi-2": 69.17,
+      "webdev-arena": 1556.29,
+      "design-arena-website": 1290.0
+     }
+    },
+    {
+     "model": "opus-4-7",
+     "name": "Claude Opus 4.7",
+     "org": "anthropic",
+     "title": "Wizard Emeritus of Riddles",
+     "pixels": "1201102100000000013113101000000110000001013113100000000012011021",
+     "released": "2026-04-16",
+     "index": 31.6,
+     "coverage": 84,
+     "ranked": false,
+     "scores": {
+      "aa-hle": 42.308,
+      "arc-agi-2": 75.83,
+      "webdev-arena": 1566.85
+     }
+    },
+    {
+     "model": "opus-4-8",
+     "name": "Claude Opus 4.8",
+     "org": "anthropic",
+     "title": "Wizard Emeritus of Riddles",
+     "pixels": "0303303000211200221331220231132002311320221331220021120003033030",
+     "released": "2026-05-28",
+     "index": 40.2,
+     "coverage": 95,
+     "ranked": false,
+     "scores": {
+      "aa-hle": 48.656,
+      "aa-scicode": 54.398,
+      "arc-agi-2": 72.08,
+      "aa-terminal-bench": 21.717,
+      "webdev-arena": 1558.83,
+      "design-arena-website": 1258.0
+     }
+    },
+    {
+     "model": "opus-5",
+     "name": "Claude Opus 5",
+     "org": "anthropic",
+     "title": "Herald of Endless Caveats",
+     "pixels": "3111010001002012200302000000001001000000002030022102001000101113",
+     "released": "2026-07-24",
+     "index": 73.8,
+     "coverage": 95,
+     "ranked": true,
+     "scores": {
+      "aa-hle": 54.866,
+      "aa-scicode": 56.366,
+      "arc-agi-2": 90.42,
+      "aa-terminal-bench": 48.99,
+      "webdev-arena": 1686.99,
+      "design-arena-website": 1309.0
+     }
+    },
+    {
+     "model": "opus-5-5",
+     "name": "Claude Opus 5.5",
+     "org": "anthropic",
+     "title": "Archmage of Many Hands",
+     "pixels": "1131131110122101001111000200002002000020001111001012210111311311",
+     "released": "2026-09-22",
+     "index": 92.6,
+     "coverage": 100,
+     "ranked": true,
+     "scores": {
+      "aa-hle": 61.353,
+      "aa-scicode": 66.898,
+      "arc-agi-2": 93.333,
+      "aa-terminal-bench": 59.596,
+      "webdev-arena": 1820.31,
+      "design-arena-website": 1326.0
+     }
+    }
+   ]
+  },
+  {
+   "name": "Claude Sonnet",
+   "maker": "Anthropic",
+   "generations": [
+    {
+     "model": "sonnet-3",
+     "name": "Claude 3 Sonnet",
+     "org": "anthropic",
+     "title": "Wizard Emeritus of Riddles",
+     "pixels": "0300003021122112003223000202202002022020003223002112211203000030",
+     "released": "2024-02-29",
+     "index": 11.3,
+     "coverage": 11,
+     "ranked": false,
+     "scores": {
+      "aa-hle": 3.62
+     }
+    },
+    {
+     "model": "sonnet-35",
+     "name": "Claude 3.5 Sonnet",
+     "org": "anthropic",
+     "title": "Wizard Emeritus of Riddles",
+     "pixels": "0123012000101000103001011011001001001101101003010001010002103210",
+     "released": "2024-10-22",
+     "index": 11.3,
+     "coverage": 11,
+     "ranked": false,
+     "scores": {
+      "aa-hle": 3.69
+     }
+    },
+    {
+     "model": "sonnet-3-7",
+     "name": "Claude 3.7 Sonnet",
+     "org": "anthropic",
+     "title": "Wizard Emeritus of Fair Design",
+     "pixels": "0000000000100100020110202000000221200212000000001000000100311300",
+     "released": "2025-02-24",
+     "index": 20.5,
+     "coverage": 37,
+     "ranked": false,
+     "scores": {
+      "aa-hle": 9.67,
+      "design-arena-website": 1192.0
+     }
+    },
+    {
+     "model": "sonnet-4",
+     "name": "Claude Sonnet 4",
+     "org": "anthropic",
+     "title": "Wizard Emeritus of Solid Forms",
+     "pixels": "0000003000120100101200000010011001100100000021010010210003000000",
+     "released": "2025-05-14",
+     "index": 18.6,
+     "coverage": 37,
+     "ranked": false,
+     "scores": {
+      "aa-hle": 10.704,
+      "arc-agi-2": 5.93,
+      "design-arena-website": 1145.0
+     }
+    },
+    {
+     "model": "sonnet-4-5",
+     "name": "Claude 4.5 Sonnet",
+     "org": "anthropic",
+     "title": "Wizard Emeritus",
+     "pixels": "0220010100000100001000023010101221010103200001000010000010100220",
+     "released": "2025-09-29",
+     "index": 20.8,
+     "coverage": 68,
+     "ranked": false,
+     "scores": {
+      "aa-hle": 17.794,
+      "aa-scicode": 45.718,
+      "arc-agi-2": 13.61,
+      "aa-terminal-bench": 0,
+      "webdev-arena": 1391.0,
+      "design-arena-website": 1188.0
+     }
+    },
+    {
+     "model": "sonnet-4-6",
+     "name": "Claude Sonnet 4.6",
+     "org": "anthropic",
+     "title": "Wizard Emeritus of Fair Design",
+     "pixels": "0010110101012000300210021030133113310301200120030002101010110100",
+     "released": "2026-02-17",
+     "index": 30.0,
+     "coverage": 95,
+     "ranked": false,
+     "scores": {
+      "aa-hle": 33.596,
+      "aa-scicode": 50.116,
+      "arc-agi-2": 60.42,
+      "aa-terminal-bench": 3.03,
+      "webdev-arena": 1520.99,
+      "design-arena-website": 1284.0
+     }
+    },
+    {
+     "model": "sonnet-5",
+     "name": "Claude Sonnet 5",
+     "org": "anthropic",
+     "title": "Wizard Emeritus of Invention",
+     "pixels": "2110011211000011101001013100001321100112000220000100001023200232",
+     "released": "2026-06-30",
+     "index": 37.7,
+     "coverage": 95,
+     "ranked": false,
+     "scores": {
+      "aa-hle": 41.288,
+      "aa-scicode": 54.282,
+      "aa-terminal-bench": 14.141,
+      "webdev-arena": 1536.72,
+      "design-arena-website": 1273.0
+     }
+    },
+    {
+     "model": "sonnet-5-5",
+     "name": "Claude Sonnet 5.5",
+     "org": "anthropic",
+     "title": "The Nine-Tenths Sorcerer",
+     "pixels": "0000213330010000012000213002000000002003120002100000100333120000",
+     "released": "2026-09-28",
+     "index": 83.6,
+     "coverage": 100,
+     "ranked": true,
+     "scores": {
+      "aa-hle": 54.958,
+      "aa-scicode": 60.995,
+      "arc-agi-2": 83.889,
+      "aa-terminal-bench": 63.636,
+      "webdev-arena": 1786.26,
+      "design-arena-website": 1321.0
+     }
+    }
+   ]
+  },
+  {
+   "name": "Claude Haiku",
+   "maker": "Anthropic",
+   "generations": [
+    {
+     "model": "haiku-3",
+     "name": "Claude 3 Haiku",
+     "org": "anthropic",
+     "title": "Wizard Emeritus of Riddles",
+     "pixels": "0122221000022000302002030000000000000000302002030002200001222210",
+     "released": "2024-03-04",
+     "index": 11.7,
+     "coverage": 11,
+     "ranked": false,
+     "scores": {
+      "aa-hle": 4.078
+     }
+    },
+    {
+     "model": "haiku-3-5",
+     "name": "Claude 3.5 Haiku",
+     "org": "anthropic",
+     "title": "Wizard Emeritus of Riddles",
+     "pixels": "0300111203112011100002100000010000100000012000011102113021110030",
+     "released": "2024-10-22",
+     "index": 11.3,
+     "coverage": 11,
+     "ranked": false,
+     "scores": {
+      "aa-hle": 3.63
+     }
+    },
+    {
+     "model": "haiku-4-5",
+     "name": "Claude Haiku 4.5",
+     "org": "anthropic",
+     "title": "Wizard Emeritus",
+     "pixels": "0100001030200203231001320210012010011001031111301001100101000010",
+     "released": "2025-10-01",
+     "index": 23.4,
+     "coverage": 58,
+     "ranked": false,
+     "scores": {
+      "aa-hle": 10.38,
+      "aa-scicode": 42.245,
+      "arc-agi-2": 4.03,
+      "aa-terminal-bench": 0,
+      "webdev-arena": 1329.31,
+      "design-arena-website": 1121.0
+     }
+    },
+    {
+     "model": "haiku-5-5",
+     "name": "Claude Haiku 5.5",
+     "org": "anthropic",
+     "title": "Small Poet of Quick Errands",
+     "pixels": "2110000110010231030001012000000110000002101000301320100110000112",
+     "released": "2026-10-07",
+     "index": 58.8,
+     "coverage": 100,
+     "ranked": true,
+     "scores": {
+      "aa-hle": 44.393,
+      "aa-scicode": 54.977,
+      "arc-agi-2": 61.25,
+      "aa-terminal-bench": 32.828,
+      "design-arena-website": 1262.0
+     }
+    }
+   ]
+  },
+  {
+   "name": "Claude Fable",
+   "maker": "Anthropic",
+   "generations": [
+    {
+     "model": "fable-5",
+     "name": "Claude Fable 5",
+     "org": "anthropic",
+     "title": "Wizard Emeritus of Riddles",
+     "pixels": "0200320320112101120003020200221111220020203000211012110230230020",
+     "released": "2026-06-09",
+     "index": 68.4,
+     "coverage": 95,
+     "ranked": false,
+     "scores": {
+      "aa-hle": 55.468,
+      "aa-scicode": 60.995,
+      "arc-agi-2": 89.167,
+      "aa-terminal-bench": 42.424,
+      "webdev-arena": 1627.98,
+      "design-arena-website": 1294.0
+     }
+    },
+    {
+     "model": "fable-5-1",
+     "name": "Claude Fable 5.1",
+     "org": "anthropic",
+     "title": "The Bard Who Burns Your Candle",
+     "pixels": "0100001000100100020110200101101001011010020110200010010001000010",
+     "released": "2026-09-01",
+     "index": 77.8,
+     "coverage": 100,
+     "ranked": true,
+     "scores": {
+      "aa-hle": 59.129,
+      "aa-scicode": 63.079,
+      "arc-agi-2": 90.0,
+      "aa-terminal-bench": 55.051,
+      "webdev-arena": 1758.05,
+      "design-arena-website": 1311.0
+     }
+    }
+   ]
+  },
+  {
+   "name": "GPT flagship (GPT-5 to Sol)",
+   "maker": "OpenAI",
+   "generations": [
+    {
+     "model": "gpt-5",
+     "name": "GPT-5",
+     "org": "openai",
+     "title": "Wizard Emeritus of Riddles",
+     "pixels": "2000000220110201100011000100000000000010001100011020110220000002",
+     "released": "2025-08-07",
+     "index": 20.3,
+     "coverage": 74,
+     "ranked": false,
+     "scores": {
+      "aa-hle": 28.499,
+      "arc-agi-2": 9.86,
+      "webdev-arena": 1419.52,
+      "design-arena-website": 1183.0
+     }
+    },
+    {
+     "model": "gpt-5-1",
+     "name": "GPT-5.1",
+     "org": "openai",
+     "title": "Wizard Emeritus of Riddles",
+     "pixels": "1013313122230020101023112201210000121022113201010200322213133101",
+     "released": "2025-11-13",
+     "index": 20.9,
+     "coverage": 47,
+     "ranked": false,
+     "scores": {
+      "aa-hle": 28.499,
+      "arc-agi-2": 17.64,
+      "webdev-arena": 1392.03,
+      "design-arena-website": 1186.0
+     }
+    },
+    {
+     "model": "gpt-5-2",
+     "name": "GPT-5.2",
+     "org": "openai",
+     "title": "Wizard Emeritus of Riddles",
+     "pixels": "0110200110100201202000200013102002013100020002021020010110020110",
+     "released": "2025-12-11",
+     "index": 23.8,
+     "coverage": 47,
+     "ranked": false,
+     "scores": {
+      "aa-hle": 37.674,
+      "arc-agi-2": 72.9,
+      "webdev-arena": 1480.0
+     }
+    },
+    {
+     "model": "gpt-5-4",
+     "name": "GPT-5.4",
+     "org": "openai",
+     "title": "Wizard Emeritus of Riddles",
+     "pixels": "0033112210323010332011102003010220103002011102330103230122113300",
+     "released": "2026-03-04",
+     "index": 29.9,
+     "coverage": 74,
+     "ranked": false,
+     "scores": {
+      "aa-hle": 43.744,
+      "arc-agi-2": 73.95,
+      "webdev-arena": 1462.99,
+      "design-arena-website": 1198.0
+     }
+    },
+    {
+     "model": "gpt-5-5",
+     "name": "GPT-5.5",
+     "org": "openai",
+     "title": "Wizard Emeritus of Invention",
+     "pixels": "0001032001100201010002020120100000010210202000101020011002301000",
+     "released": "2026-04-22",
+     "index": 42.3,
+     "coverage": 95,
+     "ranked": false,
+     "scores": {
+      "aa-hle": 45.783,
+      "aa-scicode": 56.134,
+      "arc-agi-2": 85.0,
+      "aa-terminal-bench": 14.646,
+      "webdev-arena": 1510.15,
+      "design-arena-website": 1255.0
+     }
+    },
+    {
+     "model": "gpt-5-6-sol",
+     "name": "GPT-5.6 Sol",
+     "org": "openai",
+     "title": "Wizard Emeritus of Riddles",
+     "pixels": "0020211202010003310111010000100110010000101110133000102021120200",
+     "released": "2026-06-26",
+     "index": 60.7,
+     "coverage": 95,
+     "ranked": false,
+     "scores": {
+      "aa-hle": 49.49,
+      "aa-scicode": 57.755,
+      "arc-agi-2": 92.5,
+      "aa-terminal-bench": 39.899,
+      "webdev-arena": 1617.32,
+      "design-arena-website": 1320.0
+     }
+    },
+    {
+     "model": "gpt-6-sol",
+     "name": "GPT-6 Sol",
+     "org": "openai",
+     "title": "The Seven-Day King",
+     "pixels": "1003120011012110011000000110002002000110000001100112101100213001",
+     "released": "2026-09-22",
+     "index": 69.9,
+     "coverage": 95,
+     "ranked": true,
+     "scores": {
+      "aa-hle": 47.915,
+      "aa-scicode": 57.639,
+      "arc-agi-2": 89.583,
+      "aa-terminal-bench": 43.939,
+      "webdev-arena": 1689.33,
+      "design-arena-website": 1287.0
+     }
+    },
+    {
+     "model": "gpt-6-1-sol",
+     "name": "GPT-6.1 Sol",
+     "org": "openai",
+     "title": "Sun-King of Unasked Favours",
+     "pixels": "1000000101122110001001000012210000022000000000000011110020000002",
+     "released": "2026-09-29",
+     "index": 83.2,
+     "coverage": 100,
+     "ranked": true,
+     "scores": {
+      "aa-hle": 52.919,
+      "aa-scicode": 55.787,
+      "arc-agi-2": 94.167,
+      "aa-terminal-bench": 56.061,
+      "webdev-arena": 1758.72,
+      "design-arena-website": 1315.0
+     }
+    }
+   ]
+  },
+  {
+   "name": "GPT Terra",
+   "maker": "OpenAI",
+   "generations": [
+    {
+     "model": "gpt-5-6-terra",
+     "name": "GPT-5.6 Terra",
+     "org": "openai",
+     "title": "Keeper of the Middle Scales",
+     "pixels": "1101011000313220021030000300300110030030000301200223130001101011",
+     "released": "2026-07-09",
+     "index": 44.2,
+     "coverage": 100,
+     "ranked": true,
+     "scores": {
+      "aa-hle": 42.91,
+      "aa-scicode": 54.977,
+      "arc-agi-2": 83.9,
+      "aa-terminal-bench": 35.354,
+      "webdev-arena": 1521.25,
+      "design-arena-website": 1267.0
+     }
+    },
+    {
+     "model": "gpt-6-1-terra",
+     "name": "GPT-6.1 Terra",
+     "org": "openai",
+     "title": "Geomancer of Solid Ground",
+     "pixels": "0010010010033001011111101210012103033030001331001000000131200213",
+     "released": "2026-10-26",
+     "index": 71.0,
+     "coverage": 100,
+     "ranked": true,
+     "scores": {
+      "aa-hle": 46.247,
+      "aa-scicode": 55.093,
+      "aa-terminal-bench": 55.556,
+      "design-arena-website": 1283.0
+     }
+    }
+   ]
+  },
+  {
+   "name": "GPT Luna",
+   "maker": "OpenAI",
+   "generations": [
+    {
+     "model": "gpt-5-6-luna",
+     "name": "GPT-5.6 Luna",
+     "org": "openai",
+     "title": "Wizard Emeritus",
+     "pixels": "0011110020100102130000311100001111000011130000312010010200111100",
+     "released": "2026-06-26",
+     "index": 40.4,
+     "coverage": 95,
+     "ranked": false,
+     "scores": {
+      "aa-hle": 39.481,
+      "aa-scicode": 53.588,
+      "arc-agi-2": 59.583,
+      "aa-terminal-bench": 11.616,
+      "webdev-arena": 1518.87,
+      "design-arena-website": 1254.0
+     }
+    },
+    {
+     "model": "gpt-6-luna",
+     "name": "GPT-6 Luna",
+     "org": "openai",
+     "title": "Night Owl of the Middle Tier",
+     "pixels": "1020111102000000002132011200102112010021102312000000002011110201",
+     "released": "2026-09-22",
+     "index": 41.9,
+     "coverage": 100,
+     "ranked": true,
+     "scores": {
+      "aa-hle": 38.508,
+      "aa-scicode": 54.63,
+      "arc-agi-2": 59.306,
+      "aa-terminal-bench": 12.626,
+      "webdev-arena": 1581.95,
+      "design-arena-website": 1266.0
+     }
+    }
+   ]
+  },
+  {
+   "name": "Gemini Pro / Argon",
+   "maker": "Google DeepMind",
+   "generations": [
+    {
+     "model": "gemini-1-0-pro",
+     "name": "Gemini 1.0 Pro",
+     "org": "google",
+     "title": "Wizard Emeritus of Riddles",
+     "pixels": "0301103002000020100000011021120100111100100000011001100111100111",
+     "released": "2023-12-06",
+     "index": 11.7,
+     "coverage": 11,
+     "ranked": false,
+     "scores": {
+      "aa-hle": 4.19
+     }
+    },
+    {
+     "model": "gemini-1-5-pro",
+     "name": "Gemini 1.5 Pro",
+     "org": "google",
+     "title": "Wizard Emeritus of Riddles",
+     "pixels": "0032230011133111002002000000000000000000002002001113311100322300",
+     "released": "2024-09-24",
+     "index": 10.1,
+     "coverage": 21,
+     "ranked": false,
+     "scores": {
+      "aa-hle": 4.64,
+      "arc-agi-2": 0.8,
+      "design-arena-website": 783.0
+     }
+    },
+    {
+     "model": "gemini-2-5-pro",
+     "name": "Gemini 2.5 Pro",
+     "org": "google",
+     "title": "Wizard Emeritus",
+     "pixels": "0002200001000010002112000020020000200200002112000100001000022000",
+     "released": "2025-06-05",
+     "index": 26.8,
+     "coverage": 58,
+     "ranked": false,
+     "scores": {
+      "aa-hle": 22.521,
+      "aa-scicode": 46.296,
+      "arc-agi-2": 4.86,
+      "aa-terminal-bench": 0,
+      "webdev-arena": 1225.73,
+      "design-arena-website": 1166.0
+     }
+    },
+    {
+     "model": "gemini-3-pro",
+     "name": "Gemini 3 Pro",
+     "org": "poetiq",
+     "title": "Wizard Emeritus of Riddles",
+     "pixels": "2000000202011020010330100001100001122110001001002000000200100100",
+     "released": "2025-11-18",
+     "index": 40.4,
+     "coverage": 11,
+     "ranked": false,
+     "scores": {
+      "aa-hle": 39.713,
+      "arc-agi-2": 54.0
+     }
+    },
+    {
+     "model": "gemini-3-1-pro",
+     "name": "Gemini 3.1 Pro",
+     "org": "google",
+     "title": "Wizard Emeritus of Riddles",
+     "pixels": "0003300002000020100000010010010000211200021111200301103021000012",
+     "released": "2026-02-19",
+     "index": 42.3,
+     "coverage": 21,
+     "ranked": false,
+     "scores": {
+      "arc-agi-2": 77.08
+     }
+    },
+    {
+     "model": "gemini-4-argon",
+     "name": "Gemini 4 Argon",
+     "org": "google deepmind",
+     "title": "Lamplighter of Honest Doubt",
+     "pixels": "0101101000211200001001000022220000222200001001000021120001011010",
+     "released": "2026-09-30",
+     "index": 77.0,
+     "coverage": 100,
+     "ranked": true,
+     "scores": {
+      "aa-hle": 57.09,
+      "aa-scicode": 61.806,
+      "arc-agi-2": 91.25,
+      "aa-terminal-bench": 57.071,
+      "webdev-arena": 1679.5,
+      "design-arena-website": 1316.0
+     }
+    }
+   ]
+  },
+  {
+   "name": "Gemini Flash",
+   "maker": "Google DeepMind",
+   "generations": [
+    {
+     "model": "gemini-1-5-flash",
+     "name": "Gemini 1.5 Flash",
+     "org": "google",
+     "title": "Wizard Emeritus of Riddles",
+     "pixels": "2110000011010100001201001001210000121001001021000010101100000112",
+     "released": "2024-09-24",
+     "index": 11.2,
+     "coverage": 11,
+     "ranked": false,
+     "scores": {
+      "aa-hle": 3.17
+     }
+    },
+    {
+     "model": "gemini-2-0-flash",
+     "name": "Gemini 2.0 Flash",
+     "org": "google",
+     "title": "Wizard Emeritus of Riddles",
+     "pixels": "0000003222100201100202031121120000211211302020011020012223000000",
+     "released": "2025-02-02",
+     "index": 12.5,
+     "coverage": 11,
+     "ranked": false,
+     "scores": {
+      "aa-hle": 4.26,
+      "arc-agi-2": 1.3
+     }
+    },
+    {
+     "model": "gemini-2-5-flash",
+     "name": "Gemini 2.5 Flash",
+     "org": "google",
+     "title": "Wizard Emeritus of Riddles",
+     "pixels": "1100001110011001001111000000000000000000001111001001100111000011",
+     "released": "2025-05-20",
+     "index": 10.9,
+     "coverage": 37,
+     "ranked": false,
+     "scores": {
+      "aa-hle": 12.141,
+      "arc-agi-2": 2.54,
+      "design-arena-website": 1073.0
+     }
+    },
+    {
+     "model": "gemini-3-flash",
+     "name": "Gemini 3 Flash Preview",
+     "org": "google",
+     "title": "Wizard Emeritus of Riddles",
+     "pixels": "0201011000103002000000301000000220000001030000002003010001101020",
+     "released": "2025-12-17",
+     "index": 38.3,
+     "coverage": 11,
+     "ranked": false,
+     "scores": {
+      "aa-hle": 36.562
+     }
+    },
+    {
+     "model": "gemini-3-5-flash",
+     "name": "Gemini 3.5 Flash",
+     "org": "google deepmind",
+     "title": "Wizard Emeritus of Riddles",
+     "pixels": "0011110010000001131111311002200110022001131111311000000100111100",
+     "released": "2026-05-19",
+     "index": 23.7,
+     "coverage": 95,
+     "ranked": false,
+     "scores": {
+      "aa-hle": 42.678,
+      "aa-scicode": 53.935,
+      "arc-agi-2": 72.08,
+      "aa-terminal-bench": 6.566,
+      "webdev-arena": 1506.38,
+      "design-arena-website": 1267.0
+     }
+    },
+    {
+     "model": "gemini-3-6-flash",
+     "name": "Gemini 3.6 Flash",
+     "org": "google deepmind",
+     "title": "Twin Who Swears It's Finished",
+     "pixels": "0000210301310012000102302310111001110132032010002100131030120000",
+     "released": "2026-07-21",
+     "index": 36.2,
+     "coverage": 95,
+     "ranked": true,
+     "scores": {
+      "aa-hle": 40.825,
+      "aa-scicode": 53.356,
+      "arc-agi-2": 60.417,
+      "aa-terminal-bench": 7.071,
+      "webdev-arena": 1536.95,
+      "design-arena-website": 1299.0
+     }
+    },
+    {
+     "model": "gemini-3-7-flash",
+     "name": "Gemini 3.7 Flash",
+     "org": "google deepmind",
+     "title": "Swift Arrow of Little Pages",
+     "pixels": "1000000132022023300110030110011001011010022002200010010000000000",
+     "released": "2026-08-13",
+     "index": 39.7,
+     "coverage": 84,
+     "ranked": true,
+     "scores": {
+      "aa-hle": 47.868,
+      "aa-scicode": 59.838,
+      "arc-agi-2": 84.583,
+      "aa-terminal-bench": 13.636,
+      "webdev-arena": 1587.26,
+      "design-arena-website": 1302.0
+     }
+    },
+    {
+     "model": "gemini-3-8-flash",
+     "name": "Gemini 3.8 Flash",
+     "org": "google deepmind",
+     "title": "The Chattering Twin",
+     "pixels": "1010010100100100100110012020020220200202100110010010010010100101",
+     "released": "2026-09-02",
+     "index": 45.1,
+     "coverage": 100,
+     "ranked": true,
+     "scores": {
+      "aa-hle": 47.822,
+      "aa-scicode": 56.597,
+      "arc-agi-2": 89.167,
+      "aa-terminal-bench": 19.697,
+      "webdev-arena": 1567.88,
+      "design-arena-website": 1299.0
+     }
+    }
+   ]
+  },
+  {
+   "name": "Grok",
+   "maker": "xAI",
+   "generations": [
+    {
+     "model": "grok-2-1212",
+     "name": "Grok 2",
+     "org": "spacexai",
+     "title": "Wizard Emeritus of Riddles",
+     "pixels": "0021120010311301000220001010010110100101000220001031130100211200",
+     "released": "2024-12-12",
+     "index": 11.2,
+     "coverage": 11,
+     "ranked": false,
+     "scores": {
+      "aa-hle": 3.06
+     }
+    },
+    {
+     "model": "grok-3",
+     "name": "Grok 3",
+     "org": "xai",
+     "title": "Wizard Emeritus of Invention",
+     "pixels": "2332233200233200010000101101101111011011010000100023320023322332",
+     "released": "2025-02-19",
+     "index": 28.6,
+     "coverage": 37,
+     "ranked": false,
+     "scores": {
+      "aa-hle": 4.12,
+      "arc-agi-2": 0,
+      "design-arena-website": 1058.0
+     }
+    },
+    {
+     "model": "grok-4",
+     "name": "Grok 4",
+     "org": "j_berman",
+     "title": "Wizard Emeritus of Riddles",
+     "pixels": "2001100212033021001221001002200110022001001221001203302120011002",
+     "released": "2025-07-09",
+     "index": 31.1,
+     "coverage": 37,
+     "ranked": false,
+     "scores": {
+      "aa-hle": 26.691,
+      "arc-agi-2": 29.44,
+      "design-arena-website": 1013.0
+     }
+    },
+    {
+     "model": "grok-4-1",
+     "name": "Grok 4.1",
+     "org": "xai",
+     "title": "Wizard Emeritus of Fair Design",
+     "pixels": "1032230112311321033003302112211231011013100000013310013322300322",
+     "released": "2025-11-17",
+     "index": 14.1,
+     "coverage": 11,
+     "ranked": false,
+     "scores": {
+      "webdev-arena": 1210.95
+     }
+    },
+    {
+     "model": "grok-4-20",
+     "name": "Grok 4.20",
+     "org": "xai",
+     "title": "Wizard Emeritus of Riddles",
+     "pixels": "0003300000122100001001000010010000100100001001000012210000033000",
+     "released": "2026-02-17",
+     "index": 34.2,
+     "coverage": 47,
+     "ranked": false,
+     "scores": {
+      "aa-hle": 34.523,
+      "arc-agi-2": 65.14,
+      "webdev-arena": 1373.76
+     }
+    },
+    {
+     "model": "grok-4-3",
+     "name": "Grok 4.3",
+     "org": "xai",
+     "title": "Wizard Emeritus",
+     "pixels": "1200000001013220100021010312120000212130101200010223101000000021",
+     "released": "2026-04-17",
+     "index": 34.6,
+     "coverage": 58,
+     "ranked": false,
+     "scores": {
+      "aa-hle": 37.21,
+      "aa-scicode": 48.264,
+      "aa-terminal-bench": 0,
+      "webdev-arena": 1357.17,
+      "design-arena-website": 1194.0
+     }
+    },
+    {
+     "model": "grok-4-5",
+     "name": "Grok 4.5",
+     "org": "xai",
+     "title": "Lucky Charm of the Cheap Seats",
+     "pixels": "1000000110000001110220111100001101000010100220012100001210111101",
+     "released": "2026-07-08",
+     "index": 41.9,
+     "coverage": 95,
+     "ranked": true,
+     "scores": {
+      "aa-hle": 42.678,
+      "aa-scicode": 54.977,
+      "arc-agi-2": 52.64,
+      "aa-terminal-bench": 10.606,
+      "webdev-arena": 1555.1
+     }
+    },
+    {
+     "model": "grok-4-6",
+     "name": "Grok 4.6",
+     "org": "xai",
+     "title": "The Obedient Wand",
+     "pixels": "0000303302031200221121010122200220022210101211220021302033030000",
+     "released": "2026-08-11",
+     "index": 44.5,
+     "coverage": 95,
+     "ranked": true,
+     "scores": {
+      "aa-hle": 44.069,
+      "aa-scicode": 56.481,
+      "arc-agi-2": 67.083,
+      "aa-terminal-bench": 21.212,
+      "webdev-arena": 1617.64
+     }
+    },
+    {
+     "model": "grok-4-7",
+     "name": "Grok 4.7",
+     "org": "xai",
+     "title": "Familiar of Modest Upgrades",
+     "pixels": "1002200130011003011001100002200012100121130220310011110000100100",
+     "released": "2026-09-21",
+     "index": 53.2,
+     "coverage": 100,
+     "ranked": true,
+     "scores": {
+      "aa-hle": 43.142,
+      "aa-scicode": 57.755,
+      "arc-agi-2": 61.389,
+      "aa-terminal-bench": 25.758,
+      "webdev-arena": 1637.52,
+      "design-arena-website": 1251.0
+     }
+    }
+   ]
+  },
+  {
+   "name": "DeepSeek V / Pro",
+   "maker": "DeepSeek",
+   "generations": [
+    {
+     "model": "deepseek-v3",
+     "name": "DeepSeek V3",
+     "org": "deepseek",
+     "title": "Wizard Emeritus",
+     "pixels": "0001100022011022120000210030030012000021011001100010010023011032",
+     "released": "2024-12-26",
+     "index": 15.5,
+     "coverage": 32,
+     "ranked": false,
+     "scores": {
+      "aa-hle": 2.9,
+      "aa-scicode": 35.764,
+      "aa-terminal-bench": 0
+     }
+    },
+    {
+     "model": "deepseek-v3-0324",
+     "name": "DeepSeek V3 0324",
+     "org": "deepseek",
+     "title": "Wizard Emeritus",
+     "pixels": "2010010202022020000000003021120330211203000000000202202020100102",
+     "released": "2025-03-24",
+     "index": 18.0,
+     "coverage": 32,
+     "ranked": false,
+     "scores": {
+      "aa-hle": 4.74,
+      "aa-scicode": 39.005,
+      "aa-terminal-bench": 0
+     }
+    },
+    {
+     "model": "deepseek-v3-1",
+     "name": "DeepSeek V3.1",
+     "org": "deepseek",
+     "title": "Wizard Emeritus of Solid Forms",
+     "pixels": "1120021132033023201111020110011010333301103113010001100010011001",
+     "released": "2025-08-21",
+     "index": 21.1,
+     "coverage": 37,
+     "ranked": false,
+     "scores": {
+      "aa-hle": 14.272,
+      "design-arena-website": 1186.0
+     }
+    },
+    {
+     "model": "deepseek-v3-1-terminus",
+     "name": "DeepSeek V3.1 Terminus",
+     "org": "deepseek",
+     "title": "Wizard Emeritus",
+     "pixels": "0000000021000012012002102020020201300310001001001012210102111120",
+     "released": "2025-09-22",
+     "index": 17.2,
+     "coverage": 39,
+     "ranked": false,
+     "scores": {
+      "aa-hle": 16.358,
+      "aa-scicode": 37.963,
+      "aa-terminal-bench": 0
+     }
+    },
+    {
+     "model": "deepseek-v3-2-exp",
+     "name": "DeepSeek V3.2 Exp",
+     "org": "deepseek",
+     "title": "Wizard Emeritus of Solid Forms",
+     "pixels": "1110011100100100002112000200002010100101220000221101101110000001",
+     "released": "2025-09-29",
+     "index": 19.8,
+     "coverage": 37,
+     "ranked": false,
+     "scores": {
+      "aa-hle": 14.875,
+      "webdev-arena": 1367.0,
+      "design-arena-website": 1178.0
+     }
+    },
+    {
+     "model": "deepseek-v3-2",
+     "name": "DeepSeek V3.2",
+     "org": "deepseek",
+     "title": "Wizard Emeritus of Solid Forms",
+     "pixels": "0111111000000000212002120022220000222200212002120000000001111110",
+     "released": "2025-12-01",
+     "index": 18.4,
+     "coverage": 37,
+     "ranked": false,
+     "scores": {
+      "aa-hle": 24.56,
+      "arc-agi-2": 4.03,
+      "webdev-arena": 1324.67,
+      "design-arena-website": 1174.0
+     }
+    },
+    {
+     "model": "deepseek-v4-pro",
+     "name": "DeepSeek V4 Pro",
+     "org": "deepseek",
+     "title": "Wizard Emeritus of the Terminal",
+     "pixels": "0202202000011000000000002102201221022012000000000001100002022020",
+     "released": "2026-04-24",
+     "index": 35.3,
+     "coverage": 100,
+     "ranked": false,
+     "scores": {
+      "aa-hle": 41.01,
+      "aa-scicode": 51.042,
+      "aa-terminal-bench": 14.646,
+      "webdev-arena": 1463.63,
+      "design-arena-website": 1233.0
+     }
+    },
+    {
+     "model": "deepseek-v4-pro-0813",
+     "name": "DeepSeek V4 Pro 0813",
+     "org": "deepseek",
+     "title": "Old Sea-Dog of August",
+     "pixels": "1203302100100100100000011020020110200201100000010010010012033021",
+     "released": "2026-08-13",
+     "index": 46.0,
+     "coverage": 65,
+     "ranked": true,
+     "scores": {
+      "arc-agi-2": 61.25,
+      "webdev-arena": 1580.53
+     }
+    }
+   ]
+  },
+  {
+   "name": "DeepSeek Flash",
+   "maker": "DeepSeek",
+   "generations": [
+    {
+     "model": "deepseek-v4-flash",
+     "name": "DeepSeek V4 Flash",
+     "org": "deepseek",
+     "title": "Wizard Emeritus",
+     "pixels": "0032230003111130000000003200002310000001101111010020020020222202",
+     "released": "2026-04-24",
+     "index": 38.3,
+     "coverage": 84,
+     "ranked": false,
+     "scores": {
+      "aa-hle": 38.554,
+      "aa-scicode": 50.347,
+      "aa-terminal-bench": 12.121,
+      "webdev-arena": 1430.93,
+      "design-arena-website": 1206.0
+     }
+    },
+    {
+     "model": "deepseek-v4-flash-0731",
+     "name": "DeepSeek V4 Flash 0731",
+     "org": "deepseek",
+     "title": "Forgotten Pearl of July",
+     "pixels": "0211112011000011003113000111111001111110003113001100001102111120",
+     "released": "2026-07-31",
+     "index": 35.1,
+     "coverage": 74,
+     "ranked": true,
+     "scores": {
+      "arc-agi-2": 61.389,
+      "webdev-arena": 1580.2,
+      "design-arena-website": 1236.0
+     }
+    },
+    {
+     "model": "deepseek-v4-1-flash",
+     "name": "DeepSeek V4.1 Flash",
+     "org": "deepseek",
+     "title": "Leviathan of Cheap Code",
+     "pixels": "1000000102000020101221010310013003000030003003003300003302100120",
+     "released": "2026-09-09",
+     "index": 48.7,
+     "coverage": 95,
+     "ranked": true,
+     "scores": {
+      "aa-hle": 39.249,
+      "aa-scicode": 51.852,
+      "arc-agi-2": 72.917,
+      "aa-terminal-bench": 26.768,
+      "webdev-arena": 1613.95,
+      "design-arena-website": 1308.0
+     }
+    },
+    {
+     "model": "deepseek-v4-1-flash-1017",
+     "name": "DeepSeek V4.1 Flash 1017",
+     "org": "deepseek",
+     "title": "Penny Prophet of Tall Tales",
+     "pixels": "2100001200311300312002131020020122000022211221120101101010100101",
+     "released": "2026-10-17",
+     "index": 55.4,
+     "coverage": 100,
+     "ranked": true,
+     "scores": {
+      "aa-hle": 43.327,
+      "aa-scicode": 55.903,
+      "arc-agi-2": 78.056,
+      "aa-terminal-bench": 33.838,
+      "design-arena-website": 1302.0
+     }
+    }
+   ]
+  },
+  {
+   "name": "Kimi",
+   "maker": "Moonshot AI",
+   "generations": [
+    {
+     "model": "kimi-k2",
+     "name": "Kimi K2",
+     "org": "kimi",
+     "title": "Wizard Emeritus of Riddles",
+     "pixels": "0200002102212001000232220000010000100000222320001002122012000020",
+     "released": "2025-07-11",
+     "index": 18.3,
+     "coverage": 28,
+     "ranked": false,
+     "scores": {
+      "aa-hle": 23.818,
+      "design-arena-website": 1112.0
+     }
+    },
+    {
+     "model": "kimi-k2-0905",
+     "name": "Kimi K2 0905",
+     "org": "kimi",
+     "title": "Wizard Emeritus of Riddles",
+     "pixels": "0202202000011000111221111033330110333301111221110001100002022020",
+     "released": "2025-09-05",
+     "index": 13.9,
+     "coverage": 18,
+     "ranked": false,
+     "scores": {
+      "aa-hle": 6.395
+     }
+    },
+    {
+     "model": "kimi-k2-5",
+     "name": "Kimi K2.5",
+     "org": "moonshot",
+     "title": "Wizard Emeritus of Solid Forms",
+     "pixels": "3102013000022301210031200010021331200100021300121032200003102013",
+     "released": "2026-01-27",
+     "index": 28.6,
+     "coverage": 37,
+     "ranked": false,
+     "scores": {
+      "aa-hle": 30.723,
+      "arc-agi-2": 11.81,
+      "webdev-arena": 1436.37,
+      "design-arena-website": 1247.0
+     }
+    },
+    {
+     "model": "kimi-k2-6",
+     "name": "Kimi K2.6",
+     "org": "moonshot",
+     "title": "Wizard Emeritus of Fair Design",
+     "pixels": "0000000021100112101001010320023001233210002002000332233032200223",
+     "released": "2026-04-20",
+     "index": 31.0,
+     "coverage": 68,
+     "ranked": false,
+     "scores": {
+      "aa-hle": 37.488,
+      "aa-scicode": 51.505,
+      "aa-terminal-bench": 0.505,
+      "webdev-arena": 1508.77,
+      "design-arena-website": 1268.0
+     }
+    },
+    {
+     "model": "kimi-k3",
+     "name": "Kimi K3",
+     "org": "moonshot",
+     "title": "Moonshot's Open-Handed Elder",
+     "pixels": "2011110201233210100110011013310110133101100110010123321020111102",
+     "released": "2026-07-16",
+     "index": 49.8,
+     "coverage": 100,
+     "ranked": true,
+     "scores": {
+      "aa-hle": 46.895,
+      "aa-scicode": 59.491,
+      "arc-agi-2": 60.417,
+      "aa-terminal-bench": 12.626,
+      "webdev-arena": 1674.26,
+      "design-arena-website": 1335.0
+     }
+    },
+    {
+     "model": "kimi-k3-1-pro",
+     "name": "Kimi K3.1 Pro",
+     "org": "kimi",
+     "title": "Moon-Bound Master of the Shell",
+     "pixels": "0000000000000000010110100013310020011002300220033100001310000001",
+     "released": "2026-10-23",
+     "index": 68.3,
+     "coverage": 89,
+     "ranked": true,
+     "scores": {
+      "aa-hle": 52.456,
+      "aa-scicode": 60.764,
+      "aa-terminal-bench": 67.172,
+      "design-arena-website": 1326.0
+     }
+    }
+   ]
+  },
+  {
+   "name": "GLM",
+   "maker": "Z.ai",
+   "generations": [
+    {
+     "model": "glm-4-5",
+     "name": "GLM-4.5",
+     "org": "z ai",
+     "title": "Wizard Emeritus of Solid Forms",
+     "pixels": "2100120211001000012200020201100000011020200022100001001120210012",
+     "released": "2025-07-28",
+     "index": 19.2,
+     "coverage": 37,
+     "ranked": false,
+     "scores": {
+      "aa-hle": 12.975,
+      "design-arena-website": 1168.0
+     }
+    },
+    {
+     "model": "glm-4-6",
+     "name": "GLM-4.6",
+     "org": "z.ai (zhipu ai),tsinghua university",
+     "title": "Wizard Emeritus of Solid Forms",
+     "pixels": "2031203202020031101011001101001221001011001101011300202023021302",
+     "released": "2025-09-30",
+     "index": 17.8,
+     "coverage": 37,
+     "ranked": false,
+     "scores": {
+      "aa-hle": 14.458,
+      "webdev-arena": 1340.6,
+      "design-arena-website": 1173.0
+     }
+    },
+    {
+     "model": "glm-4-7",
+     "name": "GLM 4.7",
+     "org": "z.ai (zhipu ai)",
+     "title": "Wizard Emeritus of Solid Forms",
+     "pixels": "2001100200000000312002131200002112000021312002130000000020011002",
+     "released": "2025-12-22",
+     "index": 28.1,
+     "coverage": 37,
+     "ranked": false,
+     "scores": {
+      "aa-hle": 27.386,
+      "webdev-arena": 1434.7,
+      "design-arena-website": 1224.0
+     }
+    },
+    {
+     "model": "glm-5",
+     "name": "GLM 5",
+     "org": "z.ai (zhipu ai)",
+     "title": "Wizard Emeritus of Solid Forms",
+     "pixels": "0123220211100313002102001120002332000211002012003130011120223210",
+     "released": "2026-02-11",
+     "index": 29.9,
+     "coverage": 37,
+     "ranked": false,
+     "scores": {
+      "aa-hle": 29.286,
+      "arc-agi-2": 4.86,
+      "webdev-arena": 1435.91,
+      "design-arena-website": 1246.0
+     }
+    },
+    {
+     "model": "glm-5-1",
+     "name": "GLM 5.1",
+     "org": "z.ai (zhipu ai)",
+     "title": "Wizard Emeritus",
+     "pixels": "1003021102120201330103000000011001100000003010331020212011203001",
+     "released": "2026-04-07",
+     "index": 31.7,
+     "coverage": 49,
+     "ranked": false,
+     "scores": {
+      "aa-hle": 30.074,
+      "aa-scicode": 44.792,
+      "aa-terminal-bench": 2.02,
+      "webdev-arena": 1508.29
+     }
+    },
+    {
+     "model": "glm-5-2",
+     "name": "GLM 5.2",
+     "org": "z.ai (zhipu ai)",
+     "title": "Wizard Emeritus of Fair Design",
+     "pixels": "0111111000000000002112001030030101011010010000100100001000011000",
+     "released": "2026-05-16",
+     "index": 36.0,
+     "coverage": 95,
+     "ranked": false,
+     "scores": {
+      "aa-hle": 41.149,
+      "aa-scicode": 51.157,
+      "arc-agi-2": 22.775,
+      "aa-terminal-bench": 1.01,
+      "webdev-arena": 1593.25,
+      "design-arena-website": 1283.0
+     }
+    },
+    {
+     "model": "glm-5-3",
+     "name": "GLM-5.3",
+     "org": "z.ai (zhipu ai)",
+     "title": "Smith Who Never Second-Guesses",
+     "pixels": "0001100021000012300000030032230001222210320220231000000101022010",
+     "released": "2026-08-14",
+     "index": 56.1,
+     "coverage": 92,
+     "ranked": true,
+     "scores": {
+      "aa-hle": 42.261,
+      "aa-scicode": 59.028,
+      "aa-terminal-bench": 41.919,
+      "webdev-arena": 1614.45
+     }
+    }
+   ]
+  },
+  {
+   "name": "Muse Spark",
+   "maker": "Meta",
+   "generations": [
+    {
+     "model": "muse-spark-1-1",
+     "name": "Muse Spark 1.1",
+     "org": "meta",
+     "title": "Initiate of Riddles",
+     "pixels": "1010002000110001110100001120121001210211000010111000110002000101",
+     "released": "2026-07-09",
+     "index": 26.4,
+     "coverage": 42,
+     "ranked": false,
+     "scores": {
+      "aa-hle": 46.2,
+      "aa-scicode": 58.796,
+      "aa-terminal-bench": 6.061,
+      "webdev-arena": 1541.55
+     }
+    },
+    {
+     "model": "muse-spark-1-2",
+     "name": "Muse Spark 1.2",
+     "org": "meta",
+     "title": "Humble Subagent of the Glade",
+     "pixels": "2001210201000000000130021001000000001001200310000000001020121002",
+     "released": "2026-08-05",
+     "index": 35.8,
+     "coverage": 84,
+     "ranked": true,
+     "scores": {
+      "aa-hle": 45.459,
+      "aa-scicode": 57.407,
+      "aa-terminal-bench": 7.071,
+      "webdev-arena": 1534.38,
+      "design-arena-website": 1312.0
+     }
+    },
+    {
+     "model": "muse-spark-1-3",
+     "name": "Muse Spark 1.3",
+     "org": "meta ai",
+     "title": "The Spark Who Claimed the Sun",
+     "pixels": "0022220021100112100000011010010110100101100000012110011200222200",
+     "released": "2026-09-02",
+     "index": 55.1,
+     "coverage": 100,
+     "ranked": true,
+     "scores": {
+      "aa-hle": 48.703,
+      "aa-scicode": 59.722,
+      "aa-terminal-bench": 33.333,
+      "webdev-arena": 1651.94,
+      "design-arena-website": 1355.0
+     }
+    }
+   ]
+  }
+ ]
+}

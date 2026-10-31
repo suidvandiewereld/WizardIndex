@@ -1,0 +1,1857 @@
+{
+  "benchmark": "mystery-game-puzzles",
+  "fetched_at": "2026-10-29T09:48:03+00:00",
+  "meta": {
+    "url": "https://epoch.ai/benchmarks/mystery-game-puzzles",
+    "via": "https://epoch.ai/benchmarks",
+    "credit": "Epoch AI, 'Capabilities & benchmarking', https://epoch.ai/benchmarks (CC BY 4.0)"
+  },
+  "results": [
+    {
+      "benchmark": "mystery-game-puzzles",
+      "model": "gpt-6-1-terra",
+      "model_raw": "gpt-6.1-terra_max",
+      "score": 74.0,
+      "ci": 8.64,
+      "effort": "max",
+      "org": "OpenAI",
+      "release_date": "2026-10-26",
+      "notes": [
+        "via Epoch AI; source: Epoch AI evaluation"
+      ]
+    },
+    {
+      "benchmark": "mystery-game-puzzles",
+      "model": "deepseek-v4-1-flash-1017",
+      "model_raw": "deepseek-v4.1-flash-1017_max",
+      "score": 49.0,
+      "ci": 9.85,
+      "effort": "max",
+      "org": "DeepSeek",
+      "release_date": "2026-10-17",
+      "notes": [
+        "via Epoch AI; source: Epoch AI evaluation"
+      ]
+    },
+    {
+      "benchmark": "mystery-game-puzzles",
+      "model": "muse-wonder-1-0",
+      "model_raw": "muse-wonder-1.0_max",
+      "score": 51.0,
+      "ci": 9.85,
+      "effort": "max",
+      "org": "Meta AI",
+      "release_date": "2026-10-12",
+      "notes": [
+        "via Epoch AI; source: Epoch AI evaluation"
+      ]
+    },
+    {
+      "benchmark": "mystery-game-puzzles",
+      "model": "large-4-0",
+      "model_raw": "mistral-large-4-0_high",
+      "score": 17.0,
+      "ci": 7.4,
+      "effort": "high",
+      "org": "Mistral AI",
+      "release_date": "2026-10-06",
+      "notes": [
+        "via Epoch AI; source: Epoch AI evaluation"
+      ]
+    },
+    {
+      "benchmark": "mystery-game-puzzles",
+      "model": "gemini-4-argon",
+      "model_raw": "gemini-4-argon_high",
+      "score": 64.0,
+      "ci": 9.46,
+      "effort": "high",
+      "org": "Google DeepMind",
+      "release_date": "2026-09-30",
+      "notes": [
+        "via Epoch AI; source: Epoch AI evaluation"
+      ]
+    },
+    {
+      "benchmark": "mystery-game-puzzles",
+      "model": "deepseek-v4-1-flash",
+      "model_raw": "deepseek-v4.1-flash_max",
+      "score": 43.0,
+      "ci": 9.75,
+      "effort": "max",
+      "org": "DeepSeek",
+      "release_date": "2026-09-09",
+      "notes": [
+        "via Epoch AI; source: Epoch AI evaluation"
+      ]
+    },
+    {
+      "benchmark": "mystery-game-puzzles",
+      "model": "haiku-5-5",
+      "model_raw": "claude-haiku-5-5_max",
+      "score": 30.0,
+      "ci": 9.03,
+      "effort": "max",
+      "org": "Anthropic",
+      "release_date": "2026-10-07",
+      "notes": [
+        "via Epoch AI; source: Epoch AI evaluation"
+      ]
+    },
+    {
+      "benchmark": "mystery-game-puzzles",
+      "model": "gpt-6-1-sol",
+      "model_raw": "gpt-6.1-sol_max",
+      "score": 80.0,
+      "ci": 7.88,
+      "effort": "max",
+      "org": "OpenAI",
+      "release_date": "2026-09-29",
+      "notes": [
+        "via Epoch AI; source: Epoch AI evaluation"
+      ]
+    },
+    {
+      "benchmark": "mystery-game-puzzles",
+      "model": "opus-5-5",
+      "model_raw": "claude-opus-5-5_max",
+      "score": 71.0,
+      "ci": 8.94,
+      "effort": "max",
+      "org": "Anthropic",
+      "release_date": "2026-09-22",
+      "notes": [
+        "via Epoch AI; source: Epoch AI evaluation"
+      ]
+    },
+    {
+      "benchmark": "mystery-game-puzzles",
+      "model": "sonnet-5-5",
+      "model_raw": "claude-sonnet-5-5_max",
+      "score": 65.0,
+      "ci": 9.4,
+      "effort": "max",
+      "org": "Anthropic",
+      "release_date": "2026-09-28",
+      "notes": [
+        "via Epoch AI; source: Epoch AI evaluation"
+      ]
+    },
+    {
+      "benchmark": "mystery-game-puzzles",
+      "model": "gpt-6-luna",
+      "model_raw": "gpt-6-luna_max",
+      "score": 7.0,
+      "ci": 5.03,
+      "effort": "max",
+      "org": "OpenAI",
+      "release_date": "2026-09-22",
+      "notes": [
+        "via Epoch AI; source: Epoch AI evaluation"
+      ]
+    },
+    {
+      "benchmark": "mystery-game-puzzles",
+      "model": "grok-4-7",
+      "model_raw": "grok-4.7_xhigh",
+      "score": 29.0,
+      "ci": 8.94,
+      "effort": "xhigh",
+      "org": "xAI",
+      "release_date": "2026-09-21",
+      "notes": [
+        "via Epoch AI; source: Epoch AI evaluation"
+      ]
+    },
+    {
+      "benchmark": "mystery-game-puzzles",
+      "model": "gpt-6-sol",
+      "model_raw": "gpt-6-sol_max",
+      "score": 56.0,
+      "ci": 9.78,
+      "effort": "max",
+      "org": "OpenAI",
+      "release_date": "2026-09-22",
+      "notes": [
+        "via Epoch AI; source: Epoch AI evaluation"
+      ]
+    },
+    {
+      "benchmark": "mystery-game-puzzles",
+      "model": "muse-spark-1-3",
+      "model_raw": "muse-spark-1.3_max",
+      "score": 25.0,
+      "ci": 8.75,
+      "effort": "max",
+      "org": "Meta AI",
+      "release_date": "2026-09-02",
+      "notes": [
+        "via Epoch AI; source: Epoch AI evaluation"
+      ]
+    },
+    {
+      "benchmark": "mystery-game-puzzles",
+      "model": "muse-spark-1-3",
+      "model_raw": "muse-spark-1.3_xhigh",
+      "score": 14.141,
+      "ci": 6.9,
+      "effort": "xhigh",
+      "org": "Meta AI",
+      "release_date": "2026-09-02",
+      "notes": [
+        "via Epoch AI; source: Epoch AI evaluation"
+      ]
+    },
+    {
+      "benchmark": "mystery-game-puzzles",
+      "model": "gemini-3-8-flash",
+      "model_raw": "gemini-3.8-flash_high",
+      "score": 47.0,
+      "ci": 9.83,
+      "effort": "high",
+      "org": "Google DeepMind",
+      "release_date": "2026-09-02",
+      "notes": [
+        "via Epoch AI; source: Epoch AI evaluation"
+      ]
+    },
+    {
+      "benchmark": "mystery-game-puzzles",
+      "model": "fable-5-1",
+      "model_raw": "claude-fable-5-1_max",
+      "score": 58.0,
+      "ci": 9.72,
+      "effort": "max",
+      "org": "Anthropic",
+      "release_date": "2026-09-01",
+      "notes": [
+        "via Epoch AI; source: Epoch AI evaluation"
+      ]
+    },
+    {
+      "benchmark": "mystery-game-puzzles",
+      "model": "glm-5-3",
+      "model_raw": "glm-5.3_max",
+      "score": 33.0,
+      "ci": 9.26,
+      "effort": "max",
+      "org": "Z.ai (Zhipu AI)",
+      "release_date": "2026-08-14",
+      "notes": [
+        "via Epoch AI; source: Epoch AI evaluation"
+      ]
+    },
+    {
+      "benchmark": "mystery-game-puzzles",
+      "model": "gpt-5-4",
+      "model_raw": "gpt-5.4-2026-03-05_none",
+      "score": 16.0,
+      "ci": 7.22,
+      "effort": "none",
+      "org": "OpenAI",
+      "release_date": "2026-03-05",
+      "notes": [
+        "via Epoch AI; source: Epoch AI evaluation"
+      ]
+    },
+    {
+      "benchmark": "mystery-game-puzzles",
+      "model": "gpt-5-6-luna",
+      "model_raw": "gpt-5.6-luna_none",
+      "score": 20.0,
+      "ci": 7.88,
+      "effort": "none",
+      "org": "OpenAI",
+      "release_date": "2026-07-09",
+      "notes": [
+        "via Epoch AI; source: Epoch AI evaluation"
+      ]
+    },
+    {
+      "benchmark": "mystery-game-puzzles",
+      "model": "gpt-6-astra",
+      "model_raw": "gpt-6-astra_max",
+      "score": 84.0,
+      "ci": 7.22,
+      "effort": "max",
+      "org": "OpenAI",
+      "release_date": "2026-09-03",
+      "notes": [
+        "via Epoch AI; source: Epoch AI evaluation"
+      ]
+    },
+    {
+      "benchmark": "mystery-game-puzzles",
+      "model": "kimi-k3",
+      "model_raw": "kimi-k3_low",
+      "score": 12.0,
+      "ci": 6.4,
+      "effort": "low",
+      "org": "Moonshot",
+      "release_date": "2026-07-16",
+      "notes": [
+        "via Epoch AI; source: Epoch AI evaluation"
+      ]
+    },
+    {
+      "benchmark": "mystery-game-puzzles",
+      "model": "kimi-k2-6",
+      "model_raw": "kimi-k2.6_none",
+      "score": 12.0,
+      "ci": 6.4,
+      "effort": "none",
+      "org": "Moonshot",
+      "release_date": "2026-04-20",
+      "notes": [
+        "via Epoch AI; source: Epoch AI evaluation"
+      ]
+    },
+    {
+      "benchmark": "mystery-game-puzzles",
+      "model": "glm-5-3-flash",
+      "model_raw": "glm-5.3-flash_max",
+      "score": 8.0,
+      "ci": 5.34,
+      "effort": "max",
+      "org": "Z.ai (Zhipu AI)",
+      "release_date": "2026-08-20",
+      "notes": [
+        "via Epoch AI; source: Epoch AI evaluation"
+      ]
+    },
+    {
+      "benchmark": "mystery-game-puzzles",
+      "model": "qwen3-7-flash",
+      "model_raw": "qwen3.7-flash",
+      "score": 15.0,
+      "ci": 7.03,
+      "effort": null,
+      "org": "Alibaba",
+      "release_date": "2026-07-27",
+      "notes": [
+        "via Epoch AI; source: Epoch AI evaluation"
+      ]
+    },
+    {
+      "benchmark": "mystery-game-puzzles",
+      "model": "gpt-5-6-terra",
+      "model_raw": "gpt-5.6-terra_medium",
+      "score": 10.0,
+      "ci": 5.91,
+      "effort": "medium",
+      "org": "OpenAI",
+      "release_date": "2026-07-09",
+      "notes": [
+        "via Epoch AI; source: Epoch AI evaluation"
+      ]
+    },
+    {
+      "benchmark": "mystery-game-puzzles",
+      "model": "gpt-5-2",
+      "model_raw": "gpt-5.2-2025-12-11_medium",
+      "score": 22.0,
+      "ci": 8.16,
+      "effort": "medium",
+      "org": "OpenAI",
+      "release_date": "2025-12-11",
+      "notes": [
+        "via Epoch AI; source: Epoch AI evaluation"
+      ]
+    },
+    {
+      "benchmark": "mystery-game-puzzles",
+      "model": "gpt-5-5",
+      "model_raw": "gpt-5.5_low",
+      "score": 28.0,
+      "ci": 8.84,
+      "effort": "low",
+      "org": "OpenAI",
+      "release_date": "2026-04-23",
+      "notes": [
+        "via Epoch AI; source: Epoch AI evaluation"
+      ]
+    },
+    {
+      "benchmark": "mystery-game-puzzles",
+      "model": "qwen3-7-plus",
+      "model_raw": "qwen3.7-plus",
+      "score": 17.0,
+      "ci": 7.4,
+      "effort": null,
+      "org": "Alibaba",
+      "release_date": "2026-06-02",
+      "notes": [
+        "via Epoch AI; source: Epoch AI evaluation"
+      ]
+    },
+    {
+      "benchmark": "mystery-game-puzzles",
+      "model": "gpt-5-4",
+      "model_raw": "gpt-5.4-2026-03-05_medium",
+      "score": 28.0,
+      "ci": 8.84,
+      "effort": "medium",
+      "org": "OpenAI",
+      "release_date": "2026-03-05",
+      "notes": [
+        "via Epoch AI; source: Epoch AI evaluation"
+      ]
+    },
+    {
+      "benchmark": "mystery-game-puzzles",
+      "model": "gpt-4-0613",
+      "model_raw": "gpt-4-0613",
+      "score": 12.0,
+      "ci": 6.4,
+      "effort": null,
+      "org": "OpenAI",
+      "release_date": "2023-06-13",
+      "notes": [
+        "via Epoch AI; source: Epoch AI evaluation"
+      ]
+    },
+    {
+      "benchmark": "mystery-game-puzzles",
+      "model": "o3",
+      "model_raw": "o3-2025-04-16_high",
+      "score": 29.0,
+      "ci": 8.94,
+      "effort": "high",
+      "org": "OpenAI",
+      "release_date": "2025-04-16",
+      "notes": [
+        "via Epoch AI; source: Epoch AI evaluation"
+      ]
+    },
+    {
+      "benchmark": "mystery-game-puzzles",
+      "model": "o4-mini",
+      "model_raw": "o4-mini-2025-04-16_high",
+      "score": 5.0,
+      "ci": 4.29,
+      "effort": "high",
+      "org": "OpenAI",
+      "release_date": "2025-04-16",
+      "notes": [
+        "via Epoch AI; source: Epoch AI evaluation"
+      ]
+    },
+    {
+      "benchmark": "mystery-game-puzzles",
+      "model": "o3",
+      "model_raw": "o3-2025-04-16_medium",
+      "score": 23.0,
+      "ci": 8.29,
+      "effort": "medium",
+      "org": "OpenAI",
+      "release_date": "2025-04-16",
+      "notes": [
+        "via Epoch AI; source: Epoch AI evaluation"
+      ]
+    },
+    {
+      "benchmark": "mystery-game-puzzles",
+      "model": "qwen3-6-flash",
+      "model_raw": "qwen3.6-flash",
+      "score": 12.0,
+      "ci": 6.4,
+      "effort": null,
+      "org": "Alibaba",
+      "release_date": "2026-04-27",
+      "notes": [
+        "via Epoch AI; source: Epoch AI evaluation"
+      ]
+    },
+    {
+      "benchmark": "mystery-game-puzzles",
+      "model": "gpt-5-4",
+      "model_raw": "gpt-5.4-2026-03-05_low",
+      "score": 17.0,
+      "ci": 7.4,
+      "effort": "low",
+      "org": "OpenAI",
+      "release_date": "2026-03-05",
+      "notes": [
+        "via Epoch AI; source: Epoch AI evaluation"
+      ]
+    },
+    {
+      "benchmark": "mystery-game-puzzles",
+      "model": "gpt-5-6-sol",
+      "model_raw": "gpt-5.6-sol_low",
+      "score": 26.0,
+      "ci": 8.64,
+      "effort": "low",
+      "org": "OpenAI",
+      "release_date": "2026-07-09",
+      "notes": [
+        "via Epoch AI; source: Epoch AI evaluation"
+      ]
+    },
+    {
+      "benchmark": "mystery-game-puzzles",
+      "model": "qwen3-6-max-preview",
+      "model_raw": "qwen3.6-max-preview_none",
+      "score": 19.0,
+      "ci": 7.73,
+      "effort": "none",
+      "org": "Alibaba",
+      "release_date": "2026-04-20",
+      "notes": [
+        "via Epoch AI; source: Epoch AI evaluation"
+      ]
+    },
+    {
+      "benchmark": "mystery-game-puzzles",
+      "model": "minimax-m3",
+      "model_raw": "MiniMax-M3",
+      "score": 7.0,
+      "ci": 5.03,
+      "effort": null,
+      "org": "MiniMax",
+      "release_date": "2026-06-01",
+      "notes": [
+        "via Epoch AI; source: Epoch AI evaluation"
+      ]
+    },
+    {
+      "benchmark": "mystery-game-puzzles",
+      "model": "gpt-5-6-terra",
+      "model_raw": "gpt-5.6-terra_low",
+      "score": 19.0,
+      "ci": 7.73,
+      "effort": "low",
+      "org": "OpenAI",
+      "release_date": "2026-07-09",
+      "notes": [
+        "via Epoch AI; source: Epoch AI evaluation"
+      ]
+    },
+    {
+      "benchmark": "mystery-game-puzzles",
+      "model": "qwen3-7",
+      "model_raw": "qwen3.7-max_none",
+      "score": 26.0,
+      "ci": 8.64,
+      "effort": "none",
+      "org": "Alibaba",
+      "release_date": "2026-05-19",
+      "notes": [
+        "via Epoch AI; source: Epoch AI evaluation"
+      ]
+    },
+    {
+      "benchmark": "mystery-game-puzzles",
+      "model": "o3-mini",
+      "model_raw": "o3-mini-2025-01-31_high",
+      "score": 7.0,
+      "ci": 5.03,
+      "effort": "high",
+      "org": "OpenAI",
+      "release_date": "2025-01-31",
+      "notes": [
+        "via Epoch AI; source: Epoch AI evaluation"
+      ]
+    },
+    {
+      "benchmark": "mystery-game-puzzles",
+      "model": "gpt-5-1",
+      "model_raw": "gpt-5.1-2025-11-13_medium",
+      "score": 16.0,
+      "ci": 7.22,
+      "effort": "medium",
+      "org": "OpenAI",
+      "release_date": "2025-11-13",
+      "notes": [
+        "via Epoch AI; source: Epoch AI evaluation"
+      ]
+    },
+    {
+      "benchmark": "mystery-game-puzzles",
+      "model": "gpt-5",
+      "model_raw": "gpt-5-2025-08-07_medium",
+      "score": 15.0,
+      "ci": 7.03,
+      "effort": "medium",
+      "org": "OpenAI",
+      "release_date": "2025-08-07",
+      "notes": [
+        "via Epoch AI; source: Epoch AI evaluation"
+      ]
+    },
+    {
+      "benchmark": "mystery-game-puzzles",
+      "model": "gpt-5-2",
+      "model_raw": "gpt-5.2-2025-12-11_low",
+      "score": 10.0,
+      "ci": 5.91,
+      "effort": "low",
+      "org": "OpenAI",
+      "release_date": "2025-12-11",
+      "notes": [
+        "via Epoch AI; source: Epoch AI evaluation"
+      ]
+    },
+    {
+      "benchmark": "mystery-game-puzzles",
+      "model": "gpt-5",
+      "model_raw": "gpt-5-2025-08-07_low",
+      "score": 16.0,
+      "ci": 7.22,
+      "effort": "low",
+      "org": "OpenAI",
+      "release_date": "2025-08-07",
+      "notes": [
+        "via Epoch AI; source: Epoch AI evaluation"
+      ]
+    },
+    {
+      "benchmark": "mystery-game-puzzles",
+      "model": "gpt-5-mini",
+      "model_raw": "gpt-5-mini-2025-08-07_high",
+      "score": 5.0,
+      "ci": 4.29,
+      "effort": "high",
+      "org": "OpenAI",
+      "release_date": "2025-08-07",
+      "notes": [
+        "via Epoch AI; source: Epoch AI evaluation"
+      ]
+    },
+    {
+      "benchmark": "mystery-game-puzzles",
+      "model": "gpt-5-6-luna",
+      "model_raw": "gpt-5.6-luna_medium",
+      "score": 12.0,
+      "ci": 6.4,
+      "effort": "medium",
+      "org": "OpenAI",
+      "release_date": "2026-07-09",
+      "notes": [
+        "via Epoch AI; source: Epoch AI evaluation"
+      ]
+    },
+    {
+      "benchmark": "mystery-game-puzzles",
+      "model": "gpt-5-4-nano",
+      "model_raw": "gpt-5.4-nano-2026-03-17_high",
+      "score": 5.0,
+      "ci": 4.29,
+      "effort": "high",
+      "org": "OpenAI",
+      "release_date": "2026-03-17",
+      "notes": [
+        "via Epoch AI; source: Epoch AI evaluation"
+      ]
+    },
+    {
+      "benchmark": "mystery-game-puzzles",
+      "model": "qwen3-6-27b",
+      "model_raw": "qwen3.6-27b_none",
+      "score": 7.0,
+      "ci": 5.03,
+      "effort": "none",
+      "org": "Alibaba",
+      "release_date": "2026-04-22",
+      "notes": [
+        "via Epoch AI; source: Epoch AI evaluation"
+      ]
+    },
+    {
+      "benchmark": "mystery-game-puzzles",
+      "model": "qwen3-5-397b-a17b",
+      "model_raw": "qwen3.5-397b-a17b_none",
+      "score": 18.0,
+      "ci": 7.57,
+      "effort": "none",
+      "org": "Alibaba",
+      "release_date": "2026-02-13",
+      "notes": [
+        "via Epoch AI; source: Epoch AI evaluation"
+      ]
+    },
+    {
+      "benchmark": "mystery-game-puzzles",
+      "model": "gpt-5-1",
+      "model_raw": "gpt-5.1-2025-11-13_low",
+      "score": 19.0,
+      "ci": 7.73,
+      "effort": "low",
+      "org": "OpenAI",
+      "release_date": "2025-11-13",
+      "notes": [
+        "via Epoch AI; source: Epoch AI evaluation"
+      ]
+    },
+    {
+      "benchmark": "mystery-game-puzzles",
+      "model": "glm-5-2",
+      "model_raw": "glm-5.2_medium",
+      "score": 15.0,
+      "ci": 7.03,
+      "effort": "medium",
+      "org": "Z.ai (Zhipu AI)",
+      "release_date": "2026-06-16",
+      "notes": [
+        "via Epoch AI; source: Epoch AI evaluation"
+      ]
+    },
+    {
+      "benchmark": "mystery-game-puzzles",
+      "model": "qwen3-5-122b-a10b",
+      "model_raw": "qwen3.5-122b-a10b_none",
+      "score": 17.0,
+      "ci": 7.4,
+      "effort": "none",
+      "org": "Alibaba",
+      "release_date": "2026-02-24",
+      "notes": [
+        "via Epoch AI; source: Epoch AI evaluation"
+      ]
+    },
+    {
+      "benchmark": "mystery-game-puzzles",
+      "model": "gpt-5-4-mini",
+      "model_raw": "gpt-5.4-mini-2026-03-17_medium",
+      "score": 7.0,
+      "ci": 5.03,
+      "effort": "medium",
+      "org": "OpenAI",
+      "release_date": "2026-03-17",
+      "notes": [
+        "via Epoch AI; source: Epoch AI evaluation"
+      ]
+    },
+    {
+      "benchmark": "mystery-game-puzzles",
+      "model": "qwen3-5-flash",
+      "model_raw": "qwen3.5-flash",
+      "score": 20.0,
+      "ci": 7.88,
+      "effort": null,
+      "org": "Alibaba",
+      "release_date": "2026-02-25",
+      "notes": [
+        "via Epoch AI; source: Epoch AI evaluation"
+      ]
+    },
+    {
+      "benchmark": "mystery-game-puzzles",
+      "model": "qwen3-6-plus",
+      "model_raw": "qwen3.6-plus_none",
+      "score": 12.0,
+      "ci": 6.4,
+      "effort": "none",
+      "org": "Alibaba",
+      "release_date": "2026-03-31",
+      "notes": [
+        "via Epoch AI; source: Epoch AI evaluation"
+      ]
+    },
+    {
+      "benchmark": "mystery-game-puzzles",
+      "model": "qwen3-5-plus",
+      "model_raw": "qwen3.5-plus_none",
+      "score": 17.0,
+      "ci": 7.4,
+      "effort": "none",
+      "org": "Alibaba",
+      "release_date": "2026-02-16",
+      "notes": [
+        "via Epoch AI; source: Epoch AI evaluation"
+      ]
+    },
+    {
+      "benchmark": "mystery-game-puzzles",
+      "model": "qwen3-6-35b-a3b",
+      "model_raw": "qwen3.6-35b-a3b_none",
+      "score": 22.0,
+      "ci": 8.16,
+      "effort": "none",
+      "org": "Alibaba",
+      "release_date": "2026-04-14",
+      "notes": [
+        "via Epoch AI; source: Epoch AI evaluation"
+      ]
+    },
+    {
+      "benchmark": "mystery-game-puzzles",
+      "model": "gpt-5-4-mini",
+      "model_raw": "gpt-5.4-mini-2026-03-17_low",
+      "score": 8.0,
+      "ci": 5.34,
+      "effort": "low",
+      "org": "OpenAI",
+      "release_date": "2026-03-17",
+      "notes": [
+        "via Epoch AI; source: Epoch AI evaluation"
+      ]
+    },
+    {
+      "benchmark": "mystery-game-puzzles",
+      "model": "gpt-5-6-luna",
+      "model_raw": "gpt-5.6-luna_low",
+      "score": 17.0,
+      "ci": 7.4,
+      "effort": "low",
+      "org": "OpenAI",
+      "release_date": "2026-07-09",
+      "notes": [
+        "via Epoch AI; source: Epoch AI evaluation"
+      ]
+    },
+    {
+      "benchmark": "mystery-game-puzzles",
+      "model": "qwen3-7-plus",
+      "model_raw": "qwen3.7-plus_none",
+      "score": 17.0,
+      "ci": 7.4,
+      "effort": "none",
+      "org": "Alibaba",
+      "release_date": "2026-06-02",
+      "notes": [
+        "via Epoch AI; source: Epoch AI evaluation"
+      ]
+    },
+    {
+      "benchmark": "mystery-game-puzzles",
+      "model": "qwen3-7-flash",
+      "model_raw": "qwen3.7-flash_none",
+      "score": 14.0,
+      "ci": 6.84,
+      "effort": "none",
+      "org": "Alibaba",
+      "release_date": "2026-07-27",
+      "notes": [
+        "via Epoch AI; source: Epoch AI evaluation"
+      ]
+    },
+    {
+      "benchmark": "mystery-game-puzzles",
+      "model": "qwen3-6-flash",
+      "model_raw": "qwen3.6-flash_none",
+      "score": 18.0,
+      "ci": 7.57,
+      "effort": "none",
+      "org": "Alibaba",
+      "release_date": "2026-04-27",
+      "notes": [
+        "via Epoch AI; source: Epoch AI evaluation"
+      ]
+    },
+    {
+      "benchmark": "mystery-game-puzzles",
+      "model": "glm-5-2",
+      "model_raw": "glm-5.2_low",
+      "score": 19.0,
+      "ci": 7.73,
+      "effort": "low",
+      "org": "Z.ai (Zhipu AI)",
+      "release_date": "2026-06-16",
+      "notes": [
+        "via Epoch AI; source: Epoch AI evaluation"
+      ]
+    },
+    {
+      "benchmark": "mystery-game-puzzles",
+      "model": "gpt-5-mini",
+      "model_raw": "gpt-5-mini-2025-08-07_medium",
+      "score": 4.0,
+      "ci": 3.86,
+      "effort": "medium",
+      "org": "OpenAI",
+      "release_date": "2025-08-07",
+      "notes": [
+        "via Epoch AI; source: Epoch AI evaluation"
+      ]
+    },
+    {
+      "benchmark": "mystery-game-puzzles",
+      "model": "minimax-m3",
+      "model_raw": "MiniMax-M3_none",
+      "score": 8.0,
+      "ci": 5.34,
+      "effort": "none",
+      "org": "MiniMax",
+      "release_date": "2026-06-01",
+      "notes": [
+        "via Epoch AI; source: Epoch AI evaluation"
+      ]
+    },
+    {
+      "benchmark": "mystery-game-puzzles",
+      "model": "gpt-5-nano",
+      "model_raw": "gpt-5-nano-2025-08-07_high",
+      "score": 8.0,
+      "ci": 5.34,
+      "effort": "high",
+      "org": "OpenAI",
+      "release_date": "2025-08-07",
+      "notes": [
+        "via Epoch AI; source: Epoch AI evaluation"
+      ]
+    },
+    {
+      "benchmark": "mystery-game-puzzles",
+      "model": "gpt-5-4-nano",
+      "model_raw": "gpt-5.4-nano-2026-03-17_medium",
+      "score": 6.0,
+      "ci": 4.68,
+      "effort": "medium",
+      "org": "OpenAI",
+      "release_date": "2026-03-17",
+      "notes": [
+        "via Epoch AI; source: Epoch AI evaluation"
+      ]
+    },
+    {
+      "benchmark": "mystery-game-puzzles",
+      "model": "gpt-5-6-sol",
+      "model_raw": "gpt-5.6-sol_none",
+      "score": 33.0,
+      "ci": 9.26,
+      "effort": "none",
+      "org": "OpenAI",
+      "release_date": "2026-07-09",
+      "notes": [
+        "via Epoch AI; source: Epoch AI evaluation"
+      ]
+    },
+    {
+      "benchmark": "mystery-game-puzzles",
+      "model": "gpt-5-5",
+      "model_raw": "gpt-5.5_none",
+      "score": 18.0,
+      "ci": 7.57,
+      "effort": "none",
+      "org": "OpenAI",
+      "release_date": "2026-04-23",
+      "notes": [
+        "via Epoch AI; source: Epoch AI evaluation"
+      ]
+    },
+    {
+      "benchmark": "mystery-game-puzzles",
+      "model": "qwen3",
+      "model_raw": "qwen3-max-2025-09-23",
+      "score": 5.0,
+      "ci": 4.29,
+      "effort": null,
+      "org": "Alibaba",
+      "release_date": "2025-09-24",
+      "notes": [
+        "via Epoch AI; source: Epoch AI evaluation"
+      ]
+    },
+    {
+      "benchmark": "mystery-game-puzzles",
+      "model": "gpt-oss-120b",
+      "model_raw": "gpt-oss-120b_high",
+      "score": 0.0,
+      "ci": null,
+      "effort": "high",
+      "org": "OpenAI",
+      "release_date": "2025-08-05",
+      "notes": [
+        "via Epoch AI; source: Epoch AI evaluation"
+      ]
+    },
+    {
+      "benchmark": "mystery-game-puzzles",
+      "model": "gpt-5-2",
+      "model_raw": "gpt-5.2-2025-12-11_none",
+      "score": 14.0,
+      "ci": 6.84,
+      "effort": "none",
+      "org": "OpenAI",
+      "release_date": "2025-12-11",
+      "notes": [
+        "via Epoch AI; source: Epoch AI evaluation"
+      ]
+    },
+    {
+      "benchmark": "mystery-game-puzzles",
+      "model": "glm-5-2",
+      "model_raw": "glm-5.2_minimal",
+      "score": 18.0,
+      "ci": 7.57,
+      "effort": "minimal",
+      "org": "Z.ai (Zhipu AI)",
+      "release_date": "2026-06-16",
+      "notes": [
+        "via Epoch AI; source: Epoch AI evaluation"
+      ]
+    },
+    {
+      "benchmark": "mystery-game-puzzles",
+      "model": "qwen3-5-flash",
+      "model_raw": "qwen3.5-flash_none",
+      "score": 16.0,
+      "ci": 7.22,
+      "effort": "none",
+      "org": "Alibaba",
+      "release_date": "2026-02-25",
+      "notes": [
+        "via Epoch AI; source: Epoch AI evaluation"
+      ]
+    },
+    {
+      "benchmark": "mystery-game-puzzles",
+      "model": "deepseek-v4-pro",
+      "model_raw": "deepseek-v4-pro_none",
+      "score": 17.0,
+      "ci": 7.4,
+      "effort": "none",
+      "org": "DeepSeek",
+      "release_date": "2026-04-24",
+      "notes": [
+        "via Epoch AI; source: Epoch AI evaluation"
+      ]
+    },
+    {
+      "benchmark": "mystery-game-puzzles",
+      "model": "gpt-5-4-nano",
+      "model_raw": "gpt-5.4-nano-2026-03-17_low",
+      "score": 3.0,
+      "ci": 3.36,
+      "effort": "low",
+      "org": "OpenAI",
+      "release_date": "2026-03-17",
+      "notes": [
+        "via Epoch AI; source: Epoch AI evaluation"
+      ]
+    },
+    {
+      "benchmark": "mystery-game-puzzles",
+      "model": "nemotron-3-ultra",
+      "model_raw": "nemotron-3-ultra",
+      "score": 20.0,
+      "ci": 7.88,
+      "effort": null,
+      "org": "Nvidia",
+      "release_date": "2026-06-04",
+      "notes": [
+        "via Epoch AI; source: Epoch AI evaluation"
+      ]
+    },
+    {
+      "benchmark": "mystery-game-puzzles",
+      "model": "gpt-5-6-terra",
+      "model_raw": "gpt-5.6-terra_none",
+      "score": 14.0,
+      "ci": 6.84,
+      "effort": "none",
+      "org": "OpenAI",
+      "release_date": "2026-07-09",
+      "notes": [
+        "via Epoch AI; source: Epoch AI evaluation"
+      ]
+    },
+    {
+      "benchmark": "mystery-game-puzzles",
+      "model": "gpt-5-nano",
+      "model_raw": "gpt-5-nano-2025-08-07_medium",
+      "score": 9.0,
+      "ci": 5.64,
+      "effort": "medium",
+      "org": "OpenAI",
+      "release_date": "2025-08-07",
+      "notes": [
+        "via Epoch AI; source: Epoch AI evaluation"
+      ]
+    },
+    {
+      "benchmark": "mystery-game-puzzles",
+      "model": "gpt-5",
+      "model_raw": "gpt-5-2025-08-07_minimal",
+      "score": 14.0,
+      "ci": 6.84,
+      "effort": "minimal",
+      "org": "OpenAI",
+      "release_date": "2025-08-07",
+      "notes": [
+        "via Epoch AI; source: Epoch AI evaluation"
+      ]
+    },
+    {
+      "benchmark": "mystery-game-puzzles",
+      "model": "gpt-5-1",
+      "model_raw": "gpt-5.1-2025-11-13_none",
+      "score": 15.0,
+      "ci": 7.03,
+      "effort": "none",
+      "org": "OpenAI",
+      "release_date": "2025-11-13",
+      "notes": [
+        "via Epoch AI; source: Epoch AI evaluation"
+      ]
+    },
+    {
+      "benchmark": "mystery-game-puzzles",
+      "model": "gpt-4-1-mini",
+      "model_raw": "gpt-4.1-mini-2025-04-14",
+      "score": 7.0,
+      "ci": 5.03,
+      "effort": null,
+      "org": "OpenAI",
+      "release_date": "2025-04-14",
+      "notes": [
+        "via Epoch AI; source: Epoch AI evaluation"
+      ]
+    },
+    {
+      "benchmark": "mystery-game-puzzles",
+      "model": "gpt-5-mini",
+      "model_raw": "gpt-5-mini-2025-08-07_minimal",
+      "score": 10.0,
+      "ci": 5.91,
+      "effort": "minimal",
+      "org": "OpenAI",
+      "release_date": "2025-08-07",
+      "notes": [
+        "via Epoch AI; source: Epoch AI evaluation"
+      ]
+    },
+    {
+      "benchmark": "mystery-game-puzzles",
+      "model": "glm-5-2",
+      "model_raw": "glm-5.2_none",
+      "score": 18.0,
+      "ci": 7.57,
+      "effort": "none",
+      "org": "Z.ai (Zhipu AI)",
+      "release_date": "2026-06-16",
+      "notes": [
+        "via Epoch AI; source: Epoch AI evaluation"
+      ]
+    },
+    {
+      "benchmark": "mystery-game-puzzles",
+      "model": "qwen3-235b-a22b-thinking-2507",
+      "model_raw": "Qwen3-235B-A22B-Thinking-2507",
+      "score": 9.0,
+      "ci": 5.64,
+      "effort": null,
+      "org": "Alibaba",
+      "release_date": "2025-07-25",
+      "notes": [
+        "via Epoch AI; source: Epoch AI evaluation"
+      ]
+    },
+    {
+      "benchmark": "mystery-game-puzzles",
+      "model": "gpt-3-5-turbo-0125",
+      "model_raw": "gpt-3.5-turbo-0125",
+      "score": 3.0,
+      "ci": 3.36,
+      "effort": null,
+      "org": "OpenAI",
+      "release_date": "2024-01-25",
+      "notes": [
+        "via Epoch AI; source: Epoch AI evaluation"
+      ]
+    },
+    {
+      "benchmark": "mystery-game-puzzles",
+      "model": "gpt-5-4-mini",
+      "model_raw": "gpt-5.4-mini-2026-03-17_none",
+      "score": 11.0,
+      "ci": 6.16,
+      "effort": "none",
+      "org": "OpenAI",
+      "release_date": "2026-03-17",
+      "notes": [
+        "via Epoch AI; source: Epoch AI evaluation"
+      ]
+    },
+    {
+      "benchmark": "mystery-game-puzzles",
+      "model": "gpt-oss-120b",
+      "model_raw": "gpt-oss-120b_medium",
+      "score": 2.0,
+      "ci": 2.76,
+      "effort": "medium",
+      "org": "OpenAI",
+      "release_date": "2025-08-05",
+      "notes": [
+        "via Epoch AI; source: Epoch AI evaluation"
+      ]
+    },
+    {
+      "benchmark": "mystery-game-puzzles",
+      "model": "gpt-5-nano",
+      "model_raw": "gpt-5-nano-2025-08-07_low",
+      "score": 9.0,
+      "ci": 5.64,
+      "effort": "low",
+      "org": "OpenAI",
+      "release_date": "2025-08-07",
+      "notes": [
+        "via Epoch AI; source: Epoch AI evaluation"
+      ]
+    },
+    {
+      "benchmark": "mystery-game-puzzles",
+      "model": "gpt-5-nano",
+      "model_raw": "gpt-5-nano-2025-08-07_minimal",
+      "score": 5.0,
+      "ci": 4.29,
+      "effort": "minimal",
+      "org": "OpenAI",
+      "release_date": "2025-08-07",
+      "notes": [
+        "via Epoch AI; source: Epoch AI evaluation"
+      ]
+    },
+    {
+      "benchmark": "mystery-game-puzzles",
+      "model": "gpt-5-4-nano",
+      "model_raw": "gpt-5.4-nano-2026-03-17_none",
+      "score": 9.0,
+      "ci": 5.64,
+      "effort": "none",
+      "org": "OpenAI",
+      "release_date": "2026-03-17",
+      "notes": [
+        "via Epoch AI; source: Epoch AI evaluation"
+      ]
+    },
+    {
+      "benchmark": "mystery-game-puzzles",
+      "model": "gpt-4o-mini",
+      "model_raw": "gpt-4o-mini-2024-07-18",
+      "score": 12.0,
+      "ci": 6.4,
+      "effort": null,
+      "org": "OpenAI",
+      "release_date": "2024-07-18",
+      "notes": [
+        "via Epoch AI; source: Epoch AI evaluation"
+      ]
+    },
+    {
+      "benchmark": "mystery-game-puzzles",
+      "model": "deepseek-v4-pro-0813",
+      "model_raw": "deepseek-v4-pro-0813_max",
+      "score": 43.0,
+      "ci": 9.75,
+      "effort": "max",
+      "org": "DeepSeek",
+      "release_date": "2026-08-13",
+      "notes": [
+        "via Epoch AI; source: Epoch AI evaluation"
+      ]
+    },
+    {
+      "benchmark": "mystery-game-puzzles",
+      "model": "inkling-small",
+      "model_raw": "inkling-small_xhigh",
+      "score": 6.0,
+      "ci": 4.68,
+      "effort": "xhigh",
+      "org": "Thinking Machines",
+      "release_date": "2026-07-15",
+      "notes": [
+        "via Epoch AI; source: Epoch AI evaluation"
+      ]
+    },
+    {
+      "benchmark": "mystery-game-puzzles",
+      "model": "gemini-3-7-flash",
+      "model_raw": "gemini-3.7-flash_high",
+      "score": 37.0,
+      "ci": 9.51,
+      "effort": "high",
+      "org": "Google DeepMind",
+      "release_date": "2026-08-13",
+      "notes": [
+        "via Epoch AI; source: Epoch AI evaluation"
+      ]
+    },
+    {
+      "benchmark": "mystery-game-puzzles",
+      "model": "grok-4-6",
+      "model_raw": "grok-4.6_xhigh",
+      "score": 34.0,
+      "ci": 9.33,
+      "effort": "xhigh",
+      "org": "xAI",
+      "release_date": "2026-08-12",
+      "notes": [
+        "via Epoch AI; source: Epoch AI evaluation"
+      ]
+    },
+    {
+      "benchmark": "mystery-game-puzzles",
+      "model": "gpt-5-2",
+      "model_raw": "gpt-5.2-2025-12-11_high",
+      "score": 23.0,
+      "ci": 8.29,
+      "effort": "high",
+      "org": "OpenAI",
+      "release_date": "2025-12-11",
+      "notes": [
+        "via Epoch AI; source: Epoch AI evaluation"
+      ]
+    },
+    {
+      "benchmark": "mystery-game-puzzles",
+      "model": "sonnet-4-6",
+      "model_raw": "claude-sonnet-4-6",
+      "score": 14.0,
+      "ci": 6.84,
+      "effort": null,
+      "org": "Anthropic",
+      "release_date": "2026-02-17",
+      "notes": [
+        "via Epoch AI; source: Epoch AI evaluation"
+      ]
+    },
+    {
+      "benchmark": "mystery-game-puzzles",
+      "model": "sonnet-4-6",
+      "model_raw": "claude-sonnet-4-6_low",
+      "score": 16.0,
+      "ci": 7.22,
+      "effort": "low",
+      "org": "Anthropic",
+      "release_date": "2026-02-17",
+      "notes": [
+        "via Epoch AI; source: Epoch AI evaluation"
+      ]
+    },
+    {
+      "benchmark": "mystery-game-puzzles",
+      "model": "opus-5",
+      "model_raw": "claude-opus-5",
+      "score": 37.0,
+      "ci": 9.51,
+      "effort": null,
+      "org": "Anthropic",
+      "release_date": "2026-07-24",
+      "notes": [
+        "via Epoch AI; source: Epoch AI evaluation"
+      ]
+    },
+    {
+      "benchmark": "mystery-game-puzzles",
+      "model": "opus-4-7",
+      "model_raw": "claude-opus-4-7",
+      "score": 13.0,
+      "ci": 6.62,
+      "effort": null,
+      "org": "Anthropic",
+      "release_date": "2026-04-16",
+      "notes": [
+        "via Epoch AI; source: Epoch AI evaluation"
+      ]
+    },
+    {
+      "benchmark": "mystery-game-puzzles",
+      "model": "opus-4-6",
+      "model_raw": "claude-opus-4-6",
+      "score": 15.0,
+      "ci": 7.03,
+      "effort": null,
+      "org": "Anthropic",
+      "release_date": "2026-02-05",
+      "notes": [
+        "via Epoch AI; source: Epoch AI evaluation"
+      ]
+    },
+    {
+      "benchmark": "mystery-game-puzzles",
+      "model": "opus-4-6",
+      "model_raw": "claude-opus-4-6_low",
+      "score": 7.0,
+      "ci": 5.03,
+      "effort": "low",
+      "org": "Anthropic",
+      "release_date": "2026-02-05",
+      "notes": [
+        "via Epoch AI; source: Epoch AI evaluation"
+      ]
+    },
+    {
+      "benchmark": "mystery-game-puzzles",
+      "model": "gemini-3-1-pro-preview",
+      "model_raw": "gemini-3.1-pro-preview_medium",
+      "score": 32.0,
+      "ci": 9.19,
+      "effort": "medium",
+      "org": "Google DeepMind",
+      "release_date": "2026-02-19",
+      "notes": [
+        "via Epoch AI; source: Epoch AI evaluation"
+      ]
+    },
+    {
+      "benchmark": "mystery-game-puzzles",
+      "model": "gemini-3-1-pro-preview",
+      "model_raw": "gemini-3.1-pro-preview_low",
+      "score": 29.0,
+      "ci": 8.94,
+      "effort": "low",
+      "org": "Google DeepMind",
+      "release_date": "2026-02-19",
+      "notes": [
+        "via Epoch AI; source: Epoch AI evaluation"
+      ]
+    },
+    {
+      "benchmark": "mystery-game-puzzles",
+      "model": "sonnet-5",
+      "model_raw": "claude-sonnet-5",
+      "score": 16.0,
+      "ci": 7.22,
+      "effort": null,
+      "org": "Anthropic",
+      "release_date": "2026-06-30",
+      "notes": [
+        "via Epoch AI; source: Epoch AI evaluation"
+      ]
+    },
+    {
+      "benchmark": "mystery-game-puzzles",
+      "model": "gemini-3-5-flash",
+      "model_raw": "gemini-3.5-flash_low",
+      "score": 28.0,
+      "ci": 8.84,
+      "effort": "low",
+      "org": "Google DeepMind",
+      "release_date": "2026-05-19",
+      "notes": [
+        "via Epoch AI; source: Epoch AI evaluation"
+      ]
+    },
+    {
+      "benchmark": "mystery-game-puzzles",
+      "model": "gemini-3-6-flash",
+      "model_raw": "gemini-3.6-flash_minimal",
+      "score": 25.0,
+      "ci": 8.53,
+      "effort": "minimal",
+      "org": "Google DeepMind",
+      "release_date": "2026-07-21",
+      "notes": [
+        "via Epoch AI; source: Epoch AI evaluation"
+      ]
+    },
+    {
+      "benchmark": "mystery-game-puzzles",
+      "model": "gemini-3-6-flash",
+      "model_raw": "gemini-3.6-flash_low",
+      "score": 23.0,
+      "ci": 8.29,
+      "effort": "low",
+      "org": "Google DeepMind",
+      "release_date": "2026-07-21",
+      "notes": [
+        "via Epoch AI; source: Epoch AI evaluation"
+      ]
+    },
+    {
+      "benchmark": "mystery-game-puzzles",
+      "model": "gemini-3-flash-preview",
+      "model_raw": "gemini-3-flash-preview_minimal",
+      "score": 25.0,
+      "ci": 8.53,
+      "effort": "minimal",
+      "org": "Google DeepMind",
+      "release_date": "2025-12-17",
+      "notes": [
+        "via Epoch AI; source: Epoch AI evaluation"
+      ]
+    },
+    {
+      "benchmark": "mystery-game-puzzles",
+      "model": "gemini-3-flash-preview",
+      "model_raw": "gemini-3-flash-preview_high",
+      "score": 20.0,
+      "ci": 7.88,
+      "effort": "high",
+      "org": "Google DeepMind",
+      "release_date": "2025-12-17",
+      "notes": [
+        "via Epoch AI; source: Epoch AI evaluation"
+      ]
+    },
+    {
+      "benchmark": "mystery-game-puzzles",
+      "model": "gemini-3-flash-preview",
+      "model_raw": "gemini-3-flash-preview_low",
+      "score": 26.0,
+      "ci": 8.64,
+      "effort": "low",
+      "org": "Google DeepMind",
+      "release_date": "2025-12-17",
+      "notes": [
+        "via Epoch AI; source: Epoch AI evaluation"
+      ]
+    },
+    {
+      "benchmark": "mystery-game-puzzles",
+      "model": "gemini-3-5-flash-lite",
+      "model_raw": "gemini-3.5-flash-lite_minimal",
+      "score": 12.0,
+      "ci": 6.4,
+      "effort": "minimal",
+      "org": "Google DeepMind",
+      "release_date": "2026-07-21",
+      "notes": [
+        "via Epoch AI; source: Epoch AI evaluation"
+      ]
+    },
+    {
+      "benchmark": "mystery-game-puzzles",
+      "model": "gemini-3-5-flash-lite",
+      "model_raw": "gemini-3.5-flash-lite_low",
+      "score": 19.0,
+      "ci": 7.73,
+      "effort": "low",
+      "org": "Google DeepMind",
+      "release_date": "2026-07-21",
+      "notes": [
+        "via Epoch AI; source: Epoch AI evaluation"
+      ]
+    },
+    {
+      "benchmark": "mystery-game-puzzles",
+      "model": "deepseek-v4-flash-0731",
+      "model_raw": "deepseek-v4-flash-0731_max",
+      "score": 34.0,
+      "ci": 9.33,
+      "effort": "max",
+      "org": "DeepSeek",
+      "release_date": "2026-07-31",
+      "notes": [
+        "via Epoch AI; source: Epoch AI evaluation"
+      ]
+    },
+    {
+      "benchmark": "mystery-game-puzzles",
+      "model": "qwen3-5-plus",
+      "model_raw": "qwen3.5-plus",
+      "score": 16.0,
+      "ci": 7.22,
+      "effort": null,
+      "org": "Alibaba",
+      "release_date": "2026-02-16",
+      "notes": [
+        "via Epoch AI; source: Epoch AI evaluation"
+      ]
+    },
+    {
+      "benchmark": "mystery-game-puzzles",
+      "model": "gpt-5",
+      "model_raw": "gpt-5-2025-08-07_high",
+      "score": 23.0,
+      "ci": 8.29,
+      "effort": "high",
+      "org": "OpenAI",
+      "release_date": "2025-08-07",
+      "notes": [
+        "via Epoch AI; source: Epoch AI evaluation"
+      ]
+    },
+    {
+      "benchmark": "mystery-game-puzzles",
+      "model": "gemini-3-6-flash",
+      "model_raw": "gemini-3.6-flash_high",
+      "score": 30.0,
+      "ci": 9.03,
+      "effort": "high",
+      "org": "Google DeepMind",
+      "release_date": "2026-07-21",
+      "notes": [
+        "via Epoch AI; source: Epoch AI evaluation"
+      ]
+    },
+    {
+      "benchmark": "mystery-game-puzzles",
+      "model": "qwen3-8-max",
+      "model_raw": "qwen3.8-max_xhigh",
+      "score": 38.0,
+      "ci": 9.56,
+      "effort": "xhigh",
+      "org": "Alibaba",
+      "release_date": "2026-08-02",
+      "notes": [
+        "via Epoch AI; source: Epoch AI evaluation"
+      ]
+    },
+    {
+      "benchmark": "mystery-game-puzzles",
+      "model": "fable-5",
+      "model_raw": "claude-fable-5_max",
+      "score": 52.0,
+      "ci": 9.84,
+      "effort": "max",
+      "org": "Anthropic",
+      "release_date": "2026-06-09",
+      "notes": [
+        "via Epoch AI; source: Epoch AI evaluation"
+      ]
+    },
+    {
+      "benchmark": "mystery-game-puzzles",
+      "model": "kimi-k3",
+      "model_raw": "kimi-k3_max",
+      "score": 26.0,
+      "ci": 8.64,
+      "effort": "max",
+      "org": "Moonshot",
+      "release_date": "2026-07-16",
+      "notes": [
+        "via Epoch AI; source: Epoch AI evaluation"
+      ]
+    },
+    {
+      "benchmark": "mystery-game-puzzles",
+      "model": "sonnet-5",
+      "model_raw": "claude-sonnet-5_max",
+      "score": 35.0,
+      "ci": 9.4,
+      "effort": "max",
+      "org": "Anthropic",
+      "release_date": "2026-06-30",
+      "notes": [
+        "via Epoch AI; source: Epoch AI evaluation"
+      ]
+    },
+    {
+      "benchmark": "mystery-game-puzzles",
+      "model": "gpt-5-6-luna",
+      "model_raw": "gpt-5.6-luna_max",
+      "score": 21.0,
+      "ci": 8.02,
+      "effort": "max",
+      "org": "OpenAI",
+      "release_date": "2026-07-09",
+      "notes": [
+        "via Epoch AI; source: Epoch AI evaluation"
+      ]
+    },
+    {
+      "benchmark": "mystery-game-puzzles",
+      "model": "gpt-5-6-terra",
+      "model_raw": "gpt-5.6-terra_max",
+      "score": 35.0,
+      "ci": 9.4,
+      "effort": "max",
+      "org": "OpenAI",
+      "release_date": "2026-07-09",
+      "notes": [
+        "via Epoch AI; source: Epoch AI evaluation"
+      ]
+    },
+    {
+      "benchmark": "mystery-game-puzzles",
+      "model": "gpt-5-6-sol",
+      "model_raw": "gpt-5.6-sol_max",
+      "score": 58.0,
+      "ci": 9.72,
+      "effort": "max",
+      "org": "OpenAI",
+      "release_date": "2026-07-09",
+      "notes": [
+        "via Epoch AI; source: Epoch AI evaluation"
+      ]
+    },
+    {
+      "benchmark": "mystery-game-puzzles",
+      "model": "qwen3-7",
+      "model_raw": "qwen3.7-max",
+      "score": 32.0,
+      "ci": 9.19,
+      "effort": "max",
+      "org": "Alibaba",
+      "release_date": "2026-05-19",
+      "notes": [
+        "via Epoch AI; source: Epoch AI evaluation"
+      ]
+    },
+    {
+      "benchmark": "mystery-game-puzzles",
+      "model": "gpt-5-5",
+      "model_raw": "gpt-5.5_high",
+      "score": 52.0,
+      "ci": 9.84,
+      "effort": "high",
+      "org": "OpenAI",
+      "release_date": "2026-04-23",
+      "notes": [
+        "via Epoch AI; source: Epoch AI evaluation"
+      ]
+    },
+    {
+      "benchmark": "mystery-game-puzzles",
+      "model": "gemini-3-1-pro-preview",
+      "model_raw": "gemini-3.1-pro-preview_high",
+      "score": 34.0,
+      "ci": 9.33,
+      "effort": "high",
+      "org": "Google DeepMind",
+      "release_date": "2026-02-19",
+      "notes": [
+        "via Epoch AI; source: Epoch AI evaluation"
+      ]
+    },
+    {
+      "benchmark": "mystery-game-puzzles",
+      "model": "gemini-3-5-flash",
+      "model_raw": "gemini-3.5-flash_high",
+      "score": 32.0,
+      "ci": 9.19,
+      "effort": "high",
+      "org": "Google DeepMind",
+      "release_date": "2026-05-19",
+      "notes": [
+        "via Epoch AI; source: Epoch AI evaluation"
+      ]
+    },
+    {
+      "benchmark": "mystery-game-puzzles",
+      "model": "opus-4-8",
+      "model_raw": "claude-opus-4-8_xhigh",
+      "score": 31.0,
+      "ci": 9.11,
+      "effort": "xhigh",
+      "org": "Anthropic",
+      "release_date": "2026-05-28",
+      "notes": [
+        "via Epoch AI; source: Epoch AI evaluation"
+      ]
+    },
+    {
+      "benchmark": "mystery-game-puzzles",
+      "model": "sonnet-4-5",
+      "model_raw": "claude-sonnet-4-5-20250929_48K",
+      "score": 17.0,
+      "ci": 7.4,
+      "effort": null,
+      "org": "Anthropic",
+      "release_date": "2025-09-29",
+      "notes": [
+        "via Epoch AI; source: Epoch AI evaluation"
+      ]
+    },
+    {
+      "benchmark": "mystery-game-puzzles",
+      "model": "opus-4-1",
+      "model_raw": "claude-opus-4-1-20250805_24K",
+      "score": 21.0,
+      "ci": 8.02,
+      "effort": null,
+      "org": "Anthropic",
+      "release_date": "2025-08-05",
+      "notes": [
+        "via Epoch AI; source: Epoch AI evaluation"
+      ]
+    },
+    {
+      "benchmark": "mystery-game-puzzles",
+      "model": "opus-4-5",
+      "model_raw": "claude-opus-4-5-20251101_48K",
+      "score": 22.0,
+      "ci": 8.16,
+      "effort": null,
+      "org": "Anthropic",
+      "release_date": "2025-11-24",
+      "notes": [
+        "via Epoch AI; source: Epoch AI evaluation"
+      ]
+    },
+    {
+      "benchmark": "mystery-game-puzzles",
+      "model": "opus-4-8",
+      "model_raw": "claude-opus-4-8_max",
+      "score": 36.0,
+      "ci": 9.46,
+      "effort": "max",
+      "org": "Anthropic",
+      "release_date": "2026-05-28",
+      "notes": [
+        "via Epoch AI; source: Epoch AI evaluation"
+      ]
+    },
+    {
+      "benchmark": "mystery-game-puzzles",
+      "model": "opus-5",
+      "model_raw": "claude-opus-5_max",
+      "score": 59.0,
+      "ci": 9.69,
+      "effort": "max",
+      "org": "Anthropic",
+      "release_date": "2026-07-24",
+      "notes": [
+        "via Epoch AI; source: Epoch AI evaluation"
+      ]
+    },
+    {
+      "benchmark": "mystery-game-puzzles",
+      "model": "opus-4-6",
+      "model_raw": "claude-opus-4-6_max",
+      "score": 25.0,
+      "ci": 8.53,
+      "effort": "max",
+      "org": "Anthropic",
+      "release_date": "2026-02-05",
+      "notes": [
+        "via Epoch AI; source: Epoch AI evaluation"
+      ]
+    },
+    {
+      "benchmark": "mystery-game-puzzles",
+      "model": "opus-4-7",
+      "model_raw": "claude-opus-4-7_max",
+      "score": 28.0,
+      "ci": 8.84,
+      "effort": "max",
+      "org": "Anthropic",
+      "release_date": "2026-04-16",
+      "notes": [
+        "via Epoch AI; source: Epoch AI evaluation"
+      ]
+    },
+    {
+      "benchmark": "mystery-game-puzzles",
+      "model": "gpt-5-4",
+      "model_raw": "gpt-5.4-2026-03-05_xhigh",
+      "score": 37.0,
+      "ci": 9.51,
+      "effort": "xhigh",
+      "org": "OpenAI",
+      "release_date": "2026-03-05",
+      "notes": [
+        "via Epoch AI; source: Epoch AI evaluation"
+      ]
+    },
+    {
+      "benchmark": "mystery-game-puzzles",
+      "model": "gpt-5-5",
+      "model_raw": "gpt-5.5_xhigh",
+      "score": 56.0,
+      "ci": 9.78,
+      "effort": "xhigh",
+      "org": "OpenAI",
+      "release_date": "2026-04-23",
+      "notes": [
+        "via Epoch AI; source: Epoch AI evaluation"
+      ]
+    },
+    {
+      "benchmark": "mystery-game-puzzles",
+      "model": "kimi-k2-6",
+      "model_raw": "kimi-k2.6",
+      "score": 18.0,
+      "ci": 7.57,
+      "effort": null,
+      "org": "Moonshot",
+      "release_date": "2026-04-20",
+      "notes": [
+        "via Epoch AI; source: Epoch AI evaluation"
+      ]
+    }
+  ]
+}

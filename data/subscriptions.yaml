@@ -1,0 +1,59 @@
+# What a subscription buys, in dollars of API usage per month, read by wizardindex/subsidies.py
+# when the index is built. A model's effective cost is its API cost divided
+# by the value per subscription dollar of the plan that buys the most of it, when that beats paying
+# for the API.
+#
+# Source: SemiAnalysis, "Anthropic Subscriptions Offer 5x+ More Value Than OpenAI" (2026-10-05),
+# https://newsletter.semianalysis.com/p/anthropic-subscriptions-offer-5x. They ran each plan to its
+# weekly limit and priced the usage at first-party API list rates, on their agentic coding mix
+# (0.4% input, 96.6% cached input, 2.6% cache writes, 0.3% output). Values are from the post's
+# public charts as transcribed, chart by chart, in
+# https://github.com/eugencowie/deepswe-enhanced/blob/main/docs/planning/subscription-data/research/semianalysis-2026-10-05.md
+#
+# `values` maps model id to API-equivalent dollars per month on that plan. `promo: true` marks
+# figures read from a dashboard view with promotional limits switched on; they may overstate the
+# plan's usual allowance. `also_serves` lists models the lab's plans serve that SemiAnalysis didn't
+# measure; they get the rate of the family's first measured model (marked as estimated).
+
+source: https://newsletter.semianalysis.com/p/anthropic-subscriptions-offer-5x
+as_of: 2026-10-05
+
+families:
+  - name: Claude
+    also_serves: {haiku-5-5: opus-5-5}
+    plans:
+      - {name: Claude Pro, price: 20, values: {sonnet-5-5: 1241, opus-5-5: 1178, opus-5: 1437}}
+      - {name: Claude Max 5x, price: 100, values: {sonnet-5-5: 5919, opus-5-5: 5725, fable-5-1: 1273, opus-5: 8770, fable-5: 2350}}
+      - {name: Claude Max 20x, price: 200, values: {sonnet-5-5: 12529, opus-5-5: 11726, fable-5-1: 2485, opus-5: 17275, fable-5: 4713}}
+  - name: ChatGPT
+    plans:
+      - {name: ChatGPT Plus, price: 20, values: {gpt-6-astra: 162, gpt-6-1-sol: 211, gpt-6-sol: 262}}
+      - {name: ChatGPT Pro 100, price: 100, values: {gpt-6-astra: 1322, gpt-6-1-sol: 1055, gpt-6-sol: 1482}}
+      - {name: ChatGPT Pro 200, price: 200, values: {gpt-6-astra: 2897, gpt-6-1-sol: 2084, gpt-6-sol: 2910}}
+      - {name: ChatGPT Pro 500, price: 500, values: {gpt-6-astra: 6955, gpt-6-1-sol: 5386, gpt-6-sol: 7352}}
+  - name: Kimi Code
+    plans:
+      - {name: Kimi Code Plus, price: 19, values: {kimi-k3: 47}}
+      - {name: Kimi Code Pro, price: 39, values: {kimi-k3: 209}}
+      - {name: Kimi Code Max, price: 99, values: {kimi-k3: 647}}
+      - {name: Kimi Code Ultra, price: 199, values: {kimi-k3: 1343}}
+  - name: GLM Coding
+    plans:
+      - {name: GLM Coding Lite, price: 18, values: {glm-5-3: 139, glm-5-3-flash: 24}}
+      - {name: GLM Coding Pro, price: 80, values: {glm-5-3: 830, glm-5-3-flash: 143}}
+      - {name: GLM Coding Max, price: 168, values: {glm-5-3: 1942, glm-5-3-flash: 336}}
+  - name: Muse Code
+    plans:
+      - {name: Muse Code Power Usage, price: 50, promo: true, values: {muse-spark-1-3: 2566}}
+  - name: SuperGrok
+    plans:
+      - {name: SuperGrok Heavy, price: 300, promo: true, values: {grok-4-7: 5832}}
+  # Google AI plans: not in SemiAnalysis's public charts. Values are the approximate API-equivalent
+  # value at full use per plan, supplied by the site owner on 2026-10-29 (one figure per plan, not
+  # per model), applied to Gemini 4 Argon and Carbon alike.
+  - name: Google AI
+    plans:
+      - {name: Google AI Plus, price: 4.99, values: {gemini-4-argon: 20, gemini-4-carbon: 20}}
+      - {name: Google AI Pro, price: 19.99, values: {gemini-4-argon: 100, gemini-4-carbon: 100}}
+      - {name: Google AI Ultra 5x, price: 99.99, values: {gemini-4-argon: 500, gemini-4-carbon: 500}}
+      - {name: Google AI Ultra 20x, price: 199.99, values: {gemini-4-argon: 2000, gemini-4-carbon: 2000}}

@@ -1,0 +1,1597 @@
+{
+  "benchmark": "frontiermath",
+  "fetched_at": "2026-10-29T07:58:58+00:00",
+  "meta": {
+    "url": "https://epoch.ai/frontiermath",
+    "via": "https://epoch.ai/benchmarks",
+    "credit": "Epoch AI, 'Capabilities & benchmarking', https://epoch.ai/benchmarks (CC BY 4.0)"
+  },
+  "results": [
+    {
+      "benchmark": "frontiermath",
+      "model": "gpt-6-1-terra",
+      "model_raw": "gpt-6.1-terra_max",
+      "score": 90.877,
+      "ci": 3.35,
+      "effort": "max",
+      "org": "OpenAI",
+      "release_date": "2026-10-26",
+      "notes": [
+        "via Epoch AI; source: Epoch AI evaluation"
+      ]
+    },
+    {
+      "benchmark": "frontiermath",
+      "model": "deepseek-v4-1-flash-1017",
+      "model_raw": "deepseek-v4.1-flash-1017_max",
+      "score": 71.228,
+      "ci": 5.27,
+      "effort": "max",
+      "org": "DeepSeek",
+      "release_date": "2026-10-17",
+      "notes": [
+        "via Epoch AI; source: Epoch AI evaluation"
+      ]
+    },
+    {
+      "benchmark": "frontiermath",
+      "model": "muse-spark-open",
+      "model_raw": "Muse-Spark-Open-816B-A42B_xhigh",
+      "score": 69.825,
+      "ci": 5.34,
+      "effort": "xhigh",
+      "org": "Meta AI",
+      "release_date": "2026-10-15",
+      "notes": [
+        "via Epoch AI; source: Epoch AI evaluation"
+      ]
+    },
+    {
+      "benchmark": "frontiermath",
+      "model": "gemini-4-argon",
+      "model_raw": "gemini-4-argon_high",
+      "score": 85.965,
+      "ci": 4.04,
+      "effort": "high",
+      "org": "Google DeepMind",
+      "release_date": "2026-09-30",
+      "notes": [
+        "via Epoch AI; source: Epoch AI evaluation"
+      ]
+    },
+    {
+      "benchmark": "frontiermath",
+      "model": "large-4-0",
+      "model_raw": "mistral-large-4-0_high",
+      "score": 58.596,
+      "ci": 5.73,
+      "effort": "high",
+      "org": "Mistral AI",
+      "release_date": "2026-10-06",
+      "notes": [
+        "via Epoch AI; source: Epoch AI evaluation"
+      ]
+    },
+    {
+      "benchmark": "frontiermath",
+      "model": "muse-wonder-1-0",
+      "model_raw": "muse-wonder-1.0_max",
+      "score": 82.105,
+      "ci": 4.46,
+      "effort": "max",
+      "org": "Meta AI",
+      "release_date": "2026-10-12",
+      "notes": [
+        "via Epoch AI; source: Epoch AI evaluation"
+      ]
+    },
+    {
+      "benchmark": "frontiermath",
+      "model": "deepseek-v4-1-flash",
+      "model_raw": "deepseek-v4.1-flash_max",
+      "score": 67.368,
+      "ci": 5.45,
+      "effort": "max",
+      "org": "DeepSeek",
+      "release_date": "2026-09-09",
+      "notes": [
+        "via Epoch AI; source: Epoch AI evaluation"
+      ]
+    },
+    {
+      "benchmark": "frontiermath",
+      "model": "haiku-5-5",
+      "model_raw": "claude-haiku-5-5_max",
+      "score": 75.088,
+      "ci": 5.03,
+      "effort": "max",
+      "org": "Anthropic",
+      "release_date": "2026-10-07",
+      "notes": [
+        "via Epoch AI; source: Epoch AI evaluation"
+      ]
+    },
+    {
+      "benchmark": "frontiermath",
+      "model": "gpt-6-1-sol",
+      "model_raw": "gpt-6.1-sol_max",
+      "score": 93.684,
+      "ci": 2.83,
+      "effort": "max",
+      "org": "OpenAI",
+      "release_date": "2026-09-29",
+      "notes": [
+        "via Epoch AI; source: Epoch AI evaluation"
+      ]
+    },
+    {
+      "benchmark": "frontiermath",
+      "model": "sonnet-5-5",
+      "model_raw": "claude-sonnet-5-5_max",
+      "score": 88.772,
+      "ci": 3.67,
+      "effort": "max",
+      "org": "Anthropic",
+      "release_date": "2026-09-28",
+      "notes": [
+        "via Epoch AI; source: Epoch AI evaluation"
+      ]
+    },
+    {
+      "benchmark": "frontiermath",
+      "model": "gpt-6-luna",
+      "model_raw": "gpt-6-luna_max",
+      "score": 78.947,
+      "ci": 4.74,
+      "effort": "max",
+      "org": "OpenAI",
+      "release_date": "2026-09-22",
+      "notes": [
+        "via Epoch AI; source: Epoch AI evaluation"
+      ]
+    },
+    {
+      "benchmark": "frontiermath",
+      "model": "grok-4-7",
+      "model_raw": "grok-4.7_xhigh",
+      "score": 52.982,
+      "ci": 5.8,
+      "effort": "xhigh",
+      "org": "xAI",
+      "release_date": "2026-09-21",
+      "notes": [
+        "via Epoch AI; source: Epoch AI evaluation"
+      ]
+    },
+    {
+      "benchmark": "frontiermath",
+      "model": "gpt-6-sol",
+      "model_raw": "gpt-6-sol_max",
+      "score": 89.825,
+      "ci": 3.52,
+      "effort": "max",
+      "org": "OpenAI",
+      "release_date": "2026-09-22",
+      "notes": [
+        "via Epoch AI; source: Epoch AI evaluation"
+      ]
+    },
+    {
+      "benchmark": "frontiermath",
+      "model": "opus-5-5",
+      "model_raw": "claude-opus-5-5_max",
+      "score": 91.228,
+      "ci": 3.29,
+      "effort": "max",
+      "org": "Anthropic",
+      "release_date": "2026-09-22",
+      "notes": [
+        "via Epoch AI; source: Epoch AI evaluation"
+      ]
+    },
+    {
+      "benchmark": "frontiermath",
+      "model": "muse-spark-1-3",
+      "model_raw": "muse-spark-1.3_max",
+      "score": 74.035,
+      "ci": 5.1,
+      "effort": "max",
+      "org": "Meta AI",
+      "release_date": "2026-09-02",
+      "notes": [
+        "via Epoch AI; source: Epoch AI evaluation"
+      ]
+    },
+    {
+      "benchmark": "frontiermath",
+      "model": "muse-spark-1-3",
+      "model_raw": "muse-spark-1.3_xhigh",
+      "score": 74.386,
+      "ci": 5.08,
+      "effort": "xhigh",
+      "org": "Meta AI",
+      "release_date": "2026-09-02",
+      "notes": [
+        "via Epoch AI; source: Epoch AI evaluation"
+      ]
+    },
+    {
+      "benchmark": "frontiermath",
+      "model": "qwen3-8-max",
+      "model_raw": "qwen3.8-max-0902_xhigh",
+      "score": 65.614,
+      "ci": 5.52,
+      "effort": "xhigh",
+      "org": "Alibaba",
+      "release_date": "2026-09-01",
+      "notes": [
+        "via Epoch AI; source: Epoch AI evaluation"
+      ]
+    },
+    {
+      "benchmark": "frontiermath",
+      "model": "gemini-3-8-flash",
+      "model_raw": "gemini-3.8-flash_high",
+      "score": 68.421,
+      "ci": 5.41,
+      "effort": "high",
+      "org": "Google DeepMind",
+      "release_date": "2026-09-02",
+      "notes": [
+        "via Epoch AI; source: Epoch AI evaluation"
+      ]
+    },
+    {
+      "benchmark": "frontiermath",
+      "model": "fable-5-1",
+      "model_raw": "claude-fable-5-1_max",
+      "score": 90.175,
+      "ci": 3.46,
+      "effort": "max",
+      "org": "Anthropic",
+      "release_date": "2026-09-01",
+      "notes": [
+        "via Epoch AI; source: Epoch AI evaluation"
+      ]
+    },
+    {
+      "benchmark": "frontiermath",
+      "model": "gemini-3-1-flash-lite",
+      "model_raw": "gemini-3.1-flash-lite_low",
+      "score": 22.456,
+      "ci": 4.85,
+      "effort": "low",
+      "org": "Google",
+      "release_date": "2026-03-03",
+      "notes": [
+        "via Epoch AI; source: Epoch AI evaluation"
+      ]
+    },
+    {
+      "benchmark": "frontiermath",
+      "model": "gemini-3-1-flash-lite",
+      "model_raw": "gemini-3.1-flash-lite_high",
+      "score": 27.719,
+      "ci": 5.21,
+      "effort": "high",
+      "org": "Google",
+      "release_date": "2026-03-03",
+      "notes": [
+        "via Epoch AI; source: Epoch AI evaluation"
+      ]
+    },
+    {
+      "benchmark": "frontiermath",
+      "model": "qwen3-6-35b-a3b",
+      "model_raw": "qwen3.6-35b-a3b_none",
+      "score": 20.351,
+      "ci": 4.68,
+      "effort": "none",
+      "org": "Alibaba",
+      "release_date": "2026-04-14",
+      "notes": [
+        "via Epoch AI; source: Epoch AI evaluation"
+      ]
+    },
+    {
+      "benchmark": "frontiermath",
+      "model": "qwen3-6-plus",
+      "model_raw": "qwen3.6-plus",
+      "score": 38.246,
+      "ci": 5.65,
+      "effort": null,
+      "org": "Alibaba",
+      "release_date": "2026-03-31",
+      "notes": [
+        "via Epoch AI; source: Epoch AI evaluation"
+      ]
+    },
+    {
+      "benchmark": "frontiermath",
+      "model": "qwen3-5-397b-a17b",
+      "model_raw": "qwen3.5-397b-a17b_none",
+      "score": 31.228,
+      "ci": 5.39,
+      "effort": "none",
+      "org": "Alibaba",
+      "release_date": "2026-02-13",
+      "notes": [
+        "via Epoch AI; source: Epoch AI evaluation"
+      ]
+    },
+    {
+      "benchmark": "frontiermath",
+      "model": "qwen3",
+      "model_raw": "qwen3-max-2025-09-23",
+      "score": 18.947,
+      "ci": 4.56,
+      "effort": null,
+      "org": "Alibaba",
+      "release_date": "2025-09-24",
+      "notes": [
+        "via Epoch AI; source: Epoch AI evaluation"
+      ]
+    },
+    {
+      "benchmark": "frontiermath",
+      "model": "gpt-6-astra",
+      "model_raw": "gpt-6-astra_max",
+      "score": 93.684,
+      "ci": 2.83,
+      "effort": "max",
+      "org": "OpenAI",
+      "release_date": "2026-09-03",
+      "notes": [
+        "via Epoch AI; source: Epoch AI evaluation"
+      ]
+    },
+    {
+      "benchmark": "frontiermath",
+      "model": "glm-5-2",
+      "model_raw": "glm-5.2_none",
+      "score": 42.456,
+      "ci": 5.75,
+      "effort": "none",
+      "org": "Z.ai (Zhipu AI)",
+      "release_date": "2026-06-16",
+      "notes": [
+        "via Epoch AI; source: Epoch AI evaluation"
+      ]
+    },
+    {
+      "benchmark": "frontiermath",
+      "model": "qwen3-7-flash",
+      "model_raw": "qwen3.7-flash_none",
+      "score": 19.298,
+      "ci": 4.59,
+      "effort": "none",
+      "org": "Alibaba",
+      "release_date": "2026-07-27",
+      "notes": [
+        "via Epoch AI; source: Epoch AI evaluation"
+      ]
+    },
+    {
+      "benchmark": "frontiermath",
+      "model": "qwen3-7-flash",
+      "model_raw": "qwen3.7-flash",
+      "score": 19.298,
+      "ci": 4.59,
+      "effort": null,
+      "org": "Alibaba",
+      "release_date": "2026-07-27",
+      "notes": [
+        "via Epoch AI; source: Epoch AI evaluation"
+      ]
+    },
+    {
+      "benchmark": "frontiermath",
+      "model": "gpt-5-6-luna",
+      "model_raw": "gpt-5.6-luna_none",
+      "score": 39.649,
+      "ci": 5.69,
+      "effort": "none",
+      "org": "OpenAI",
+      "release_date": "2026-07-09",
+      "notes": [
+        "via Epoch AI; source: Epoch AI evaluation"
+      ]
+    },
+    {
+      "benchmark": "frontiermath",
+      "model": "qwen3-7-plus",
+      "model_raw": "qwen3.7-plus_none",
+      "score": 34.386,
+      "ci": 5.52,
+      "effort": "none",
+      "org": "Alibaba",
+      "release_date": "2026-06-02",
+      "notes": [
+        "via Epoch AI; source: Epoch AI evaluation"
+      ]
+    },
+    {
+      "benchmark": "frontiermath",
+      "model": "gpt-5-6-luna",
+      "model_raw": "gpt-5.6-luna_low",
+      "score": 41.404,
+      "ci": 5.73,
+      "effort": "low",
+      "org": "OpenAI",
+      "release_date": "2026-07-09",
+      "notes": [
+        "via Epoch AI; source: Epoch AI evaluation"
+      ]
+    },
+    {
+      "benchmark": "frontiermath",
+      "model": "glm-5-2",
+      "model_raw": "glm-5.2_low",
+      "score": 54.737,
+      "ci": 5.79,
+      "effort": "low",
+      "org": "Z.ai (Zhipu AI)",
+      "release_date": "2026-06-16",
+      "notes": [
+        "via Epoch AI; source: Epoch AI evaluation"
+      ]
+    },
+    {
+      "benchmark": "frontiermath",
+      "model": "qwen3-6-flash",
+      "model_raw": "qwen3.6-flash",
+      "score": 17.193,
+      "ci": 4.39,
+      "effort": null,
+      "org": "Alibaba",
+      "release_date": "2026-04-27",
+      "notes": [
+        "via Epoch AI; source: Epoch AI evaluation"
+      ]
+    },
+    {
+      "benchmark": "frontiermath",
+      "model": "qwen3-6-flash",
+      "model_raw": "qwen3.6-flash_none",
+      "score": 22.456,
+      "ci": 4.85,
+      "effort": "none",
+      "org": "Alibaba",
+      "release_date": "2026-04-27",
+      "notes": [
+        "via Epoch AI; source: Epoch AI evaluation"
+      ]
+    },
+    {
+      "benchmark": "frontiermath",
+      "model": "qwen3-6-plus",
+      "model_raw": "qwen3.6-plus_none",
+      "score": 32.281,
+      "ci": 5.44,
+      "effort": "none",
+      "org": "Alibaba",
+      "release_date": "2026-03-31",
+      "notes": [
+        "via Epoch AI; source: Epoch AI evaluation"
+      ]
+    },
+    {
+      "benchmark": "frontiermath",
+      "model": "qwen3-6-35b-a3b",
+      "model_raw": "qwen3.6-35b-a3b",
+      "score": 17.544,
+      "ci": 4.42,
+      "effort": null,
+      "org": "Alibaba",
+      "release_date": "2026-04-14",
+      "notes": [
+        "via Epoch AI; source: Epoch AI evaluation"
+      ]
+    },
+    {
+      "benchmark": "frontiermath",
+      "model": "qwen3-6-27b",
+      "model_raw": "qwen3.6-27b_none",
+      "score": 34.035,
+      "ci": 5.51,
+      "effort": "none",
+      "org": "Alibaba",
+      "release_date": "2026-04-22",
+      "notes": [
+        "via Epoch AI; source: Epoch AI evaluation"
+      ]
+    },
+    {
+      "benchmark": "frontiermath",
+      "model": "glm-5-1",
+      "model_raw": "glm-5.1",
+      "score": 36.842,
+      "ci": 5.61,
+      "effort": null,
+      "org": "Z.ai (Zhipu AI)",
+      "release_date": "2026-04-07",
+      "notes": [
+        "via Epoch AI; source: Epoch AI evaluation"
+      ]
+    },
+    {
+      "benchmark": "frontiermath",
+      "model": "gemini-3-1-flash-lite",
+      "model_raw": "gemini-3.1-flash-lite_minimal",
+      "score": 21.404,
+      "ci": 4.77,
+      "effort": "minimal",
+      "org": "Google",
+      "release_date": "2026-03-03",
+      "notes": [
+        "via Epoch AI; source: Epoch AI evaluation"
+      ]
+    },
+    {
+      "benchmark": "frontiermath",
+      "model": "qwen3-6-27b",
+      "model_raw": "qwen3.6-27b",
+      "score": 35.088,
+      "ci": 5.55,
+      "effort": null,
+      "org": "Alibaba",
+      "release_date": "2026-04-22",
+      "notes": [
+        "via Epoch AI; source: Epoch AI evaluation"
+      ]
+    },
+    {
+      "benchmark": "frontiermath",
+      "model": "glm-5-1",
+      "model_raw": "glm-5.1_none",
+      "score": 24.912,
+      "ci": 5.03,
+      "effort": "none",
+      "org": "Z.ai (Zhipu AI)",
+      "release_date": "2026-04-07",
+      "notes": [
+        "via Epoch AI; source: Epoch AI evaluation"
+      ]
+    },
+    {
+      "benchmark": "frontiermath",
+      "model": "gpt-5-4-nano",
+      "model_raw": "gpt-5.4-nano-2026-03-17_none",
+      "score": 4.561,
+      "ci": 2.43,
+      "effort": "none",
+      "org": "OpenAI",
+      "release_date": "2026-03-17",
+      "notes": [
+        "via Epoch AI; source: Epoch AI evaluation"
+      ]
+    },
+    {
+      "benchmark": "frontiermath",
+      "model": "gpt-5-4-mini",
+      "model_raw": "gpt-5.4-mini-2026-03-17_none",
+      "score": 17.193,
+      "ci": 4.39,
+      "effort": "none",
+      "org": "OpenAI",
+      "release_date": "2026-03-17",
+      "notes": [
+        "via Epoch AI; source: Epoch AI evaluation"
+      ]
+    },
+    {
+      "benchmark": "frontiermath",
+      "model": "gpt-5-4-nano",
+      "model_raw": "gpt-5.4-nano-2026-03-17_low",
+      "score": 20.351,
+      "ci": 4.68,
+      "effort": "low",
+      "org": "OpenAI",
+      "release_date": "2026-03-17",
+      "notes": [
+        "via Epoch AI; source: Epoch AI evaluation"
+      ]
+    },
+    {
+      "benchmark": "frontiermath",
+      "model": "gpt-5-4-mini",
+      "model_raw": "gpt-5.4-mini-2026-03-17_low",
+      "score": 24.561,
+      "ci": 5.01,
+      "effort": "low",
+      "org": "OpenAI",
+      "release_date": "2026-03-17",
+      "notes": [
+        "via Epoch AI; source: Epoch AI evaluation"
+      ]
+    },
+    {
+      "benchmark": "frontiermath",
+      "model": "qwen3-5-flash",
+      "model_raw": "qwen3.5-flash_none",
+      "score": 18.246,
+      "ci": 4.49,
+      "effort": "none",
+      "org": "Alibaba",
+      "release_date": "2026-02-25",
+      "notes": [
+        "via Epoch AI; source: Epoch AI evaluation"
+      ]
+    },
+    {
+      "benchmark": "frontiermath",
+      "model": "qwen3-5-flash",
+      "model_raw": "qwen3.5-flash",
+      "score": 9.474,
+      "ci": 3.41,
+      "effort": null,
+      "org": "Alibaba",
+      "release_date": "2026-02-25",
+      "notes": [
+        "via Epoch AI; source: Epoch AI evaluation"
+      ]
+    },
+    {
+      "benchmark": "frontiermath",
+      "model": "qwen3-5-397b-a17b",
+      "model_raw": "qwen3.5-397b-a17b",
+      "score": 29.474,
+      "ci": 5.3,
+      "effort": null,
+      "org": "Alibaba",
+      "release_date": "2026-02-13",
+      "notes": [
+        "via Epoch AI; source: Epoch AI evaluation"
+      ]
+    },
+    {
+      "benchmark": "frontiermath",
+      "model": "o1",
+      "model_raw": "o1-2024-12-17_high",
+      "score": 14.737,
+      "ci": 4.12,
+      "effort": "high",
+      "org": "OpenAI",
+      "release_date": "2024-12-17",
+      "notes": [
+        "via Epoch AI; source: Epoch AI evaluation"
+      ]
+    },
+    {
+      "benchmark": "frontiermath",
+      "model": "o1",
+      "model_raw": "o1-2024-12-17_low",
+      "score": 8.421,
+      "ci": 3.23,
+      "effort": "low",
+      "org": "OpenAI",
+      "release_date": "2024-12-17",
+      "notes": [
+        "via Epoch AI; source: Epoch AI evaluation"
+      ]
+    },
+    {
+      "benchmark": "frontiermath",
+      "model": "o1",
+      "model_raw": "o1-2024-12-17_medium",
+      "score": 10.175,
+      "ci": 3.52,
+      "effort": "medium",
+      "org": "OpenAI",
+      "release_date": "2024-12-17",
+      "notes": [
+        "via Epoch AI; source: Epoch AI evaluation"
+      ]
+    },
+    {
+      "benchmark": "frontiermath",
+      "model": "o3",
+      "model_raw": "o3-2025-04-16_high",
+      "score": 33.333,
+      "ci": 5.48,
+      "effort": "high",
+      "org": "OpenAI",
+      "release_date": "2025-04-16",
+      "notes": [
+        "via Epoch AI; source: Epoch AI evaluation"
+      ]
+    },
+    {
+      "benchmark": "frontiermath",
+      "model": "o3",
+      "model_raw": "o3-2025-04-16_medium",
+      "score": 29.825,
+      "ci": 5.32,
+      "effort": "medium",
+      "org": "OpenAI",
+      "release_date": "2025-04-16",
+      "notes": [
+        "via Epoch AI; source: Epoch AI evaluation"
+      ]
+    },
+    {
+      "benchmark": "frontiermath",
+      "model": "gpt-5",
+      "model_raw": "gpt-5-2025-08-07_low",
+      "score": 37.193,
+      "ci": 5.62,
+      "effort": "low",
+      "org": "OpenAI",
+      "release_date": "2025-08-07",
+      "notes": [
+        "via Epoch AI; source: Epoch AI evaluation"
+      ]
+    },
+    {
+      "benchmark": "frontiermath",
+      "model": "gpt-4-1-mini",
+      "model_raw": "gpt-4.1-mini-2025-04-14",
+      "score": 6.667,
+      "ci": 2.9,
+      "effort": null,
+      "org": "OpenAI",
+      "release_date": "2025-04-14",
+      "notes": [
+        "via Epoch AI; source: Epoch AI evaluation"
+      ]
+    },
+    {
+      "benchmark": "frontiermath",
+      "model": "gpt-3-5-turbo-0125",
+      "model_raw": "gpt-3.5-turbo-0125",
+      "score": 0.0,
+      "ci": null,
+      "effort": null,
+      "org": "OpenAI",
+      "release_date": "2024-01-25",
+      "notes": [
+        "via Epoch AI; source: Epoch AI evaluation"
+      ]
+    },
+    {
+      "benchmark": "frontiermath",
+      "model": "gpt-4o-mini",
+      "model_raw": "gpt-4o-mini-2024-07-18",
+      "score": 0.702,
+      "ci": 0.97,
+      "effort": null,
+      "org": "OpenAI",
+      "release_date": "2024-07-18",
+      "notes": [
+        "via Epoch AI; source: Epoch AI evaluation"
+      ]
+    },
+    {
+      "benchmark": "frontiermath",
+      "model": "o3",
+      "model_raw": "o3-2025-04-16_low",
+      "score": 19.298,
+      "ci": 4.59,
+      "effort": "low",
+      "org": "OpenAI",
+      "release_date": "2025-04-16",
+      "notes": [
+        "via Epoch AI; source: Epoch AI evaluation"
+      ]
+    },
+    {
+      "benchmark": "frontiermath",
+      "model": "gpt-4-1",
+      "model_raw": "gpt-4.1-2025-04-14",
+      "score": 5.965,
+      "ci": 2.75,
+      "effort": null,
+      "org": "OpenAI",
+      "release_date": "2025-04-14",
+      "notes": [
+        "via Epoch AI; source: Epoch AI evaluation"
+      ]
+    },
+    {
+      "benchmark": "frontiermath",
+      "model": "gpt-4-turbo",
+      "model_raw": "gpt-4-turbo-2024-04-09",
+      "score": 0.702,
+      "ci": 0.97,
+      "effort": null,
+      "org": "OpenAI",
+      "release_date": "2024-04-09",
+      "notes": [
+        "via Epoch AI; source: Epoch AI evaluation"
+      ]
+    },
+    {
+      "benchmark": "frontiermath",
+      "model": "gpt-4o",
+      "model_raw": "gpt-4o-2024-08-06",
+      "score": 0.351,
+      "ci": 0.69,
+      "effort": null,
+      "org": "OpenAI",
+      "release_date": "2024-08-06",
+      "notes": [
+        "via Epoch AI; source: Epoch AI evaluation"
+      ]
+    },
+    {
+      "benchmark": "frontiermath",
+      "model": "o4-mini",
+      "model_raw": "o4-mini-2025-04-16_low",
+      "score": 16.14,
+      "ci": 4.28,
+      "effort": "low",
+      "org": "OpenAI",
+      "release_date": "2025-04-16",
+      "notes": [
+        "via Epoch AI; source: Epoch AI evaluation"
+      ]
+    },
+    {
+      "benchmark": "frontiermath",
+      "model": "o4-mini",
+      "model_raw": "o4-mini-2025-04-16_medium",
+      "score": 28.772,
+      "ci": 5.27,
+      "effort": "medium",
+      "org": "OpenAI",
+      "release_date": "2025-04-16",
+      "notes": [
+        "via Epoch AI; source: Epoch AI evaluation"
+      ]
+    },
+    {
+      "benchmark": "frontiermath",
+      "model": "o3-mini",
+      "model_raw": "o3-mini-2025-01-31_medium",
+      "score": 10.526,
+      "ci": 3.57,
+      "effort": "medium",
+      "org": "OpenAI",
+      "release_date": "2025-01-31",
+      "notes": [
+        "via Epoch AI; source: Epoch AI evaluation"
+      ]
+    },
+    {
+      "benchmark": "frontiermath",
+      "model": "gpt-5-mini",
+      "model_raw": "gpt-5-mini-2025-08-07_minimal",
+      "score": 5.965,
+      "ci": 2.75,
+      "effort": "minimal",
+      "org": "OpenAI",
+      "release_date": "2025-08-07",
+      "notes": [
+        "via Epoch AI; source: Epoch AI evaluation"
+      ]
+    },
+    {
+      "benchmark": "frontiermath",
+      "model": "gpt-5",
+      "model_raw": "gpt-5-2025-08-07_minimal",
+      "score": 18.246,
+      "ci": 4.49,
+      "effort": "minimal",
+      "org": "OpenAI",
+      "release_date": "2025-08-07",
+      "notes": [
+        "via Epoch AI; source: Epoch AI evaluation"
+      ]
+    },
+    {
+      "benchmark": "frontiermath",
+      "model": "gpt-5-mini",
+      "model_raw": "gpt-5-mini-2025-08-07_low",
+      "score": 18.246,
+      "ci": 4.49,
+      "effort": "low",
+      "org": "OpenAI",
+      "release_date": "2025-08-07",
+      "notes": [
+        "via Epoch AI; source: Epoch AI evaluation"
+      ]
+    },
+    {
+      "benchmark": "frontiermath",
+      "model": "gpt-5-nano",
+      "model_raw": "gpt-5-nano-2025-08-07_minimal",
+      "score": 1.754,
+      "ci": 1.53,
+      "effort": "minimal",
+      "org": "OpenAI",
+      "release_date": "2025-08-07",
+      "notes": [
+        "via Epoch AI; source: Epoch AI evaluation"
+      ]
+    },
+    {
+      "benchmark": "frontiermath",
+      "model": "o3-mini",
+      "model_raw": "o3-mini-2025-01-31_low",
+      "score": 3.86,
+      "ci": 2.24,
+      "effort": "low",
+      "org": "OpenAI",
+      "release_date": "2025-01-31",
+      "notes": [
+        "via Epoch AI; source: Epoch AI evaluation"
+      ]
+    },
+    {
+      "benchmark": "frontiermath",
+      "model": "gpt-5-nano",
+      "model_raw": "gpt-5-nano-2025-08-07_low",
+      "score": 5.965,
+      "ci": 2.75,
+      "effort": "low",
+      "org": "OpenAI",
+      "release_date": "2025-08-07",
+      "notes": [
+        "via Epoch AI; source: Epoch AI evaluation"
+      ]
+    },
+    {
+      "benchmark": "frontiermath",
+      "model": "glm-5-3-flash",
+      "model_raw": "glm-5.3-flash_max",
+      "score": 55.789,
+      "ci": 5.78,
+      "effort": "max",
+      "org": "Z.ai (Zhipu AI)",
+      "release_date": "2026-08-20",
+      "notes": [
+        "via Epoch AI; source: Epoch AI evaluation"
+      ]
+    },
+    {
+      "benchmark": "frontiermath",
+      "model": "glm-5-3",
+      "model_raw": "glm-5.3_max",
+      "score": 68.772,
+      "ci": 5.39,
+      "effort": "max",
+      "org": "Z.ai (Zhipu AI)",
+      "release_date": "2026-08-14",
+      "notes": [
+        "via Epoch AI; source: Epoch AI evaluation"
+      ]
+    },
+    {
+      "benchmark": "frontiermath",
+      "model": "deepseek-v4-pro-0813",
+      "model_raw": "deepseek-v4-pro-0813_max",
+      "score": 64.561,
+      "ci": 5.56,
+      "effort": "max",
+      "org": "DeepSeek",
+      "release_date": "2026-08-13",
+      "notes": [
+        "via Epoch AI; source: Epoch AI evaluation"
+      ]
+    },
+    {
+      "benchmark": "frontiermath",
+      "model": "gemini-3-7-flash",
+      "model_raw": "gemini-3.7-flash_high",
+      "score": 71.579,
+      "ci": 5.25,
+      "effort": "high",
+      "org": "Google DeepMind",
+      "release_date": "2026-08-13",
+      "notes": [
+        "via Epoch AI; source: Epoch AI evaluation"
+      ]
+    },
+    {
+      "benchmark": "frontiermath",
+      "model": "inkling-small",
+      "model_raw": "inkling-small_xhigh",
+      "score": 46.316,
+      "ci": 5.8,
+      "effort": "xhigh",
+      "org": "Thinking Machines",
+      "release_date": "2026-07-15",
+      "notes": [
+        "via Epoch AI; source: Epoch AI evaluation"
+      ]
+    },
+    {
+      "benchmark": "frontiermath",
+      "model": "grok-4-6",
+      "model_raw": "grok-4.6_xhigh",
+      "score": 65.965,
+      "ci": 5.51,
+      "effort": "xhigh",
+      "org": "xAI",
+      "release_date": "2026-08-12",
+      "notes": [
+        "via Epoch AI; source: Epoch AI evaluation"
+      ]
+    },
+    {
+      "benchmark": "frontiermath",
+      "model": "inkling",
+      "model_raw": "Inkling_xhigh",
+      "score": 33.333,
+      "ci": 5.48,
+      "effort": "xhigh",
+      "org": "Thinking Machines",
+      "release_date": "2026-07-15",
+      "notes": [
+        "via Epoch AI; source: Epoch AI evaluation"
+      ]
+    },
+    {
+      "benchmark": "frontiermath",
+      "model": "qwen3-8-max",
+      "model_raw": "qwen3.8-max_xhigh",
+      "score": 74.737,
+      "ci": 5.05,
+      "effort": "xhigh",
+      "org": "Alibaba",
+      "release_date": "2026-08-02",
+      "notes": [
+        "via Epoch AI; source: Epoch AI evaluation"
+      ]
+    },
+    {
+      "benchmark": "frontiermath",
+      "model": "gpt-5-5-instant",
+      "model_raw": "gpt-5.5-instant",
+      "score": 26.316,
+      "ci": 5.12,
+      "effort": null,
+      "org": "OpenAI",
+      "release_date": "2026-05-05",
+      "notes": [
+        "via Epoch AI; source: Epoch AI evaluation"
+      ]
+    },
+    {
+      "benchmark": "frontiermath",
+      "model": "deepseek-v4-flash-0731",
+      "model_raw": "deepseek-v4-flash-0731_max",
+      "score": 57.544,
+      "ci": 5.75,
+      "effort": "max",
+      "org": "DeepSeek",
+      "release_date": "2026-07-31",
+      "notes": [
+        "via Epoch AI; source: Epoch AI evaluation"
+      ]
+    },
+    {
+      "benchmark": "frontiermath",
+      "model": "gemini-3-5-flash-lite",
+      "model_raw": "gemini-3.5-flash-lite_high",
+      "score": 25.965,
+      "ci": 5.1,
+      "effort": "high",
+      "org": "Google DeepMind",
+      "release_date": "2026-07-21",
+      "notes": [
+        "via Epoch AI; source: Epoch AI evaluation"
+      ]
+    },
+    {
+      "benchmark": "frontiermath",
+      "model": "gemini-3-6-flash",
+      "model_raw": "gemini-3.6-flash_high",
+      "score": 58.947,
+      "ci": 5.72,
+      "effort": "high",
+      "org": "Google DeepMind",
+      "release_date": "2026-07-21",
+      "notes": [
+        "via Epoch AI; source: Epoch AI evaluation"
+      ]
+    },
+    {
+      "benchmark": "frontiermath",
+      "model": "opus-5",
+      "model_raw": "claude-opus-5_max",
+      "score": 85.614,
+      "ci": 4.08,
+      "effort": "max",
+      "org": "Anthropic",
+      "release_date": "2026-07-24",
+      "notes": [
+        "via Epoch AI; source: Epoch AI evaluation"
+      ]
+    },
+    {
+      "benchmark": "frontiermath",
+      "model": "kimi-k3",
+      "model_raw": "kimi-k3_max",
+      "score": 72.183,
+      "ci": 5.22,
+      "effort": "max",
+      "org": "Moonshot",
+      "release_date": "2026-07-16",
+      "notes": [
+        "via Epoch AI; source: Epoch AI evaluation"
+      ]
+    },
+    {
+      "benchmark": "frontiermath",
+      "model": "grok-4-20-0309",
+      "model_raw": "grok-4.20-0309-reasoning",
+      "score": 44.912,
+      "ci": 5.79,
+      "effort": null,
+      "org": "xAI",
+      "release_date": "2026-02-17",
+      "notes": [
+        "via Epoch AI; source: Epoch AI evaluation"
+      ]
+    },
+    {
+      "benchmark": "frontiermath",
+      "model": "gpt-5-6-terra",
+      "model_raw": "gpt-5.6-terra_max",
+      "score": 85.965,
+      "ci": 4.04,
+      "effort": "max",
+      "org": "OpenAI",
+      "release_date": "2026-07-09",
+      "notes": [
+        "via Epoch AI; source: Epoch AI evaluation"
+      ]
+    },
+    {
+      "benchmark": "frontiermath",
+      "model": "gpt-5-6-luna",
+      "model_raw": "gpt-5.6-luna_max",
+      "score": 82.105,
+      "ci": 4.46,
+      "effort": "max",
+      "org": "OpenAI",
+      "release_date": "2026-07-09",
+      "notes": [
+        "via Epoch AI; source: Epoch AI evaluation"
+      ]
+    },
+    {
+      "benchmark": "frontiermath",
+      "model": "gpt-5-6-sol",
+      "model_raw": "gpt-5.6-sol_max",
+      "score": 89.123,
+      "ci": 3.62,
+      "effort": "max",
+      "org": "OpenAI",
+      "release_date": "2026-07-09",
+      "notes": [
+        "via Epoch AI; source: Epoch AI evaluation"
+      ]
+    },
+    {
+      "benchmark": "frontiermath",
+      "model": "grok-4-5",
+      "model_raw": "grok-4.5_high",
+      "score": 57.193,
+      "ci": 5.75,
+      "effort": "high",
+      "org": "xAI",
+      "release_date": "2026-07-08",
+      "notes": [
+        "via Epoch AI; source: Epoch AI evaluation"
+      ]
+    },
+    {
+      "benchmark": "frontiermath",
+      "model": "sonnet-5",
+      "model_raw": "claude-sonnet-5_max",
+      "score": 65.614,
+      "ci": 5.52,
+      "effort": "max",
+      "org": "Anthropic",
+      "release_date": "2026-06-30",
+      "notes": [
+        "via Epoch AI; source: Epoch AI evaluation"
+      ]
+    },
+    {
+      "benchmark": "frontiermath",
+      "model": "glm-5-2",
+      "model_raw": "glm-5.2_max",
+      "score": 59.206,
+      "ci": 5.8,
+      "effort": "max",
+      "org": "Z.ai (Zhipu AI)",
+      "release_date": "2026-06-16",
+      "notes": [
+        "via Epoch AI; source: Epoch AI evaluation"
+      ]
+    },
+    {
+      "benchmark": "frontiermath",
+      "model": "grok-4-3",
+      "model_raw": "grok-4.3_high",
+      "score": 42.807,
+      "ci": 5.75,
+      "effort": "high",
+      "org": "xAI",
+      "release_date": "2026-04-17",
+      "notes": [
+        "via Epoch AI; source: Epoch AI evaluation"
+      ]
+    },
+    {
+      "benchmark": "frontiermath",
+      "model": "deepseek-v4-pro",
+      "model_raw": "deepseek-v4-pro_max",
+      "score": 45.263,
+      "ci": 5.79,
+      "effort": "max",
+      "org": "DeepSeek",
+      "release_date": "2026-04-24",
+      "notes": [
+        "via Epoch AI; source: Epoch AI evaluation"
+      ]
+    },
+    {
+      "benchmark": "frontiermath",
+      "model": "qwen3-7",
+      "model_raw": "qwen3.7-max",
+      "score": 64.561,
+      "ci": 5.56,
+      "effort": "max",
+      "org": "Alibaba",
+      "release_date": "2026-05-19",
+      "notes": [
+        "via Epoch AI; source: Epoch AI evaluation"
+      ]
+    },
+    {
+      "benchmark": "frontiermath",
+      "model": "gpt-5-4-pro",
+      "model_raw": "gpt-5.4-pro-2026-03-05_xhigh",
+      "score": 82.456,
+      "ci": 4.42,
+      "effort": "xhigh",
+      "org": "OpenAI",
+      "release_date": "2026-03-05",
+      "notes": [
+        "via Epoch AI; source: Epoch AI evaluation"
+      ]
+    },
+    {
+      "benchmark": "frontiermath",
+      "model": "gpt-5-2-pro",
+      "model_raw": "gpt-5.2-pro-2025-12-11_xhigh",
+      "score": 74.0,
+      "ci": 5.16,
+      "effort": "xhigh",
+      "org": "OpenAI",
+      "release_date": "2025-12-11",
+      "notes": [
+        "via Epoch AI; source: Epoch AI evaluation"
+      ]
+    },
+    {
+      "benchmark": "frontiermath",
+      "model": "kimi-k2-7-code",
+      "model_raw": "kimi-k2.7-code",
+      "score": 54.035,
+      "ci": 5.8,
+      "effort": null,
+      "org": "Moonshot",
+      "release_date": "2026-06-12",
+      "notes": [
+        "via Epoch AI; source: Epoch AI evaluation"
+      ]
+    },
+    {
+      "benchmark": "frontiermath",
+      "model": "gpt-5-5-pro",
+      "model_raw": "gpt-5.5-pro_xhigh",
+      "score": 87.719,
+      "ci": 3.82,
+      "effort": "xhigh",
+      "org": "OpenAI",
+      "release_date": "2026-04-23",
+      "notes": [
+        "via Epoch AI; source: Epoch AI evaluation"
+      ]
+    },
+    {
+      "benchmark": "frontiermath",
+      "model": "gpt-5-pro",
+      "model_raw": "gpt-5-pro-2025-10-06_high",
+      "score": 55.789,
+      "ci": 5.78,
+      "effort": "high",
+      "org": "OpenAI",
+      "release_date": "2025-10-07",
+      "notes": [
+        "via Epoch AI; source: Epoch AI evaluation"
+      ]
+    },
+    {
+      "benchmark": "frontiermath",
+      "model": "gpt-5-mini",
+      "model_raw": "gpt-5-mini-2025-08-07_high",
+      "score": 46.667,
+      "ci": 5.8,
+      "effort": "high",
+      "org": "OpenAI",
+      "release_date": "2025-08-07",
+      "notes": [
+        "via Epoch AI; source: Epoch AI evaluation"
+      ]
+    },
+    {
+      "benchmark": "frontiermath",
+      "model": "gpt-5-4-nano",
+      "model_raw": "gpt-5.4-nano-2026-03-17_high",
+      "score": 44.912,
+      "ci": 5.79,
+      "effort": "high",
+      "org": "OpenAI",
+      "release_date": "2026-03-17",
+      "notes": [
+        "via Epoch AI; source: Epoch AI evaluation"
+      ]
+    },
+    {
+      "benchmark": "frontiermath",
+      "model": "gpt-5-nano",
+      "model_raw": "gpt-5-nano-2025-08-07_high",
+      "score": 20.0,
+      "ci": 4.65,
+      "effort": "high",
+      "org": "OpenAI",
+      "release_date": "2025-08-07",
+      "notes": [
+        "via Epoch AI; source: Epoch AI evaluation"
+      ]
+    },
+    {
+      "benchmark": "frontiermath",
+      "model": "gpt-5-4-mini",
+      "model_raw": "gpt-5.4-mini-2026-03-17_xhigh",
+      "score": 51.228,
+      "ci": 5.81,
+      "effort": "xhigh",
+      "org": "OpenAI",
+      "release_date": "2026-03-17",
+      "notes": [
+        "via Epoch AI; source: Epoch AI evaluation"
+      ]
+    },
+    {
+      "benchmark": "frontiermath",
+      "model": "gemini-2-5-pro",
+      "model_raw": "gemini-2.5-pro",
+      "score": 24.561,
+      "ci": 5.01,
+      "effort": null,
+      "org": "Google DeepMind",
+      "release_date": "2025-06-17",
+      "notes": [
+        "via Epoch AI; source: Epoch AI evaluation"
+      ]
+    },
+    {
+      "benchmark": "frontiermath",
+      "model": "gemini-3-flash-preview",
+      "model_raw": "gemini-3-flash-preview",
+      "score": 51.228,
+      "ci": 5.81,
+      "effort": null,
+      "org": "Google DeepMind",
+      "release_date": "2025-12-17",
+      "notes": [
+        "via Epoch AI; source: Epoch AI evaluation"
+      ]
+    },
+    {
+      "benchmark": "frontiermath",
+      "model": "gemini-3-1-pro-preview",
+      "model_raw": "gemini-3.1-pro-preview",
+      "score": 59.649,
+      "ci": 5.71,
+      "effort": null,
+      "org": "Google DeepMind",
+      "release_date": "2026-02-19",
+      "notes": [
+        "via Epoch AI; source: Epoch AI evaluation"
+      ]
+    },
+    {
+      "benchmark": "frontiermath",
+      "model": "opus-4-1",
+      "model_raw": "claude-opus-4-1-20250805_32K",
+      "score": 12.632,
+      "ci": 3.86,
+      "effort": null,
+      "org": "Anthropic",
+      "release_date": "2025-08-05",
+      "notes": [
+        "via Epoch AI; source: Epoch AI evaluation"
+      ]
+    },
+    {
+      "benchmark": "frontiermath",
+      "model": "sonnet-4-5",
+      "model_raw": "claude-sonnet-4-5-20250929_32K",
+      "score": 23.86,
+      "ci": 4.96,
+      "effort": null,
+      "org": "Anthropic",
+      "release_date": "2025-09-29",
+      "notes": [
+        "via Epoch AI; source: Epoch AI evaluation"
+      ]
+    },
+    {
+      "benchmark": "frontiermath",
+      "model": "gpt-5-4",
+      "model_raw": "gpt-5.4-2026-03-05_xhigh",
+      "score": 78.596,
+      "ci": 4.77,
+      "effort": "xhigh",
+      "org": "OpenAI",
+      "release_date": "2026-03-05",
+      "notes": [
+        "via Epoch AI; source: Epoch AI evaluation"
+      ]
+    },
+    {
+      "benchmark": "frontiermath",
+      "model": "gpt-5-5",
+      "model_raw": "gpt-5.5_xhigh",
+      "score": 85.263,
+      "ci": 4.12,
+      "effort": "xhigh",
+      "org": "OpenAI",
+      "release_date": "2026-04-23",
+      "notes": [
+        "via Epoch AI; source: Epoch AI evaluation"
+      ]
+    },
+    {
+      "benchmark": "frontiermath",
+      "model": "o4-mini",
+      "model_raw": "o4-mini-2025-04-16_high",
+      "score": 36.14,
+      "ci": 5.59,
+      "effort": "high",
+      "org": "OpenAI",
+      "release_date": "2025-04-16",
+      "notes": [
+        "via Epoch AI; source: Epoch AI evaluation"
+      ]
+    },
+    {
+      "benchmark": "frontiermath",
+      "model": "o3-mini",
+      "model_raw": "o3-mini-2025-01-31_high",
+      "score": 18.596,
+      "ci": 4.53,
+      "effort": "high",
+      "org": "OpenAI",
+      "release_date": "2025-01-31",
+      "notes": [
+        "via Epoch AI; source: Epoch AI evaluation"
+      ]
+    },
+    {
+      "benchmark": "frontiermath",
+      "model": "gpt-5-2",
+      "model_raw": "gpt-5.2-2025-12-11_xhigh",
+      "score": 67.4,
+      "ci": 5.49,
+      "effort": "xhigh",
+      "org": "OpenAI",
+      "release_date": "2025-12-11",
+      "notes": [
+        "via Epoch AI; source: Epoch AI evaluation"
+      ]
+    },
+    {
+      "benchmark": "frontiermath",
+      "model": "opus-4-5",
+      "model_raw": "claude-opus-4-5-20251101_32K",
+      "score": 34.386,
+      "ci": 5.52,
+      "effort": null,
+      "org": "Anthropic",
+      "release_date": "2025-11-24",
+      "notes": [
+        "via Epoch AI; source: Epoch AI evaluation"
+      ]
+    },
+    {
+      "benchmark": "frontiermath",
+      "model": "opus-4-6",
+      "model_raw": "claude-opus-4-6_max",
+      "score": 65.965,
+      "ci": 5.51,
+      "effort": "max",
+      "org": "Anthropic",
+      "release_date": "2026-02-05",
+      "notes": [
+        "via Epoch AI; source: Epoch AI evaluation"
+      ]
+    },
+    {
+      "benchmark": "frontiermath",
+      "model": "opus-4-7",
+      "model_raw": "claude-opus-4-7_max",
+      "score": 70.175,
+      "ci": 5.32,
+      "effort": "max",
+      "org": "Anthropic",
+      "release_date": "2026-04-16",
+      "notes": [
+        "via Epoch AI; source: Epoch AI evaluation"
+      ]
+    },
+    {
+      "benchmark": "frontiermath",
+      "model": "gpt-5",
+      "model_raw": "gpt-5-2025-08-07_high",
+      "score": 55.439,
+      "ci": 5.78,
+      "effort": "high",
+      "org": "OpenAI",
+      "release_date": "2025-08-07",
+      "notes": [
+        "via Epoch AI; source: Epoch AI evaluation"
+      ]
+    },
+    {
+      "benchmark": "frontiermath",
+      "model": "kimi-k2-6",
+      "model_raw": "kimi-k2.6",
+      "score": 57.193,
+      "ci": 5.75,
+      "effort": null,
+      "org": "Moonshot",
+      "release_date": "2026-04-20",
+      "notes": [
+        "via Epoch AI; source: Epoch AI evaluation"
+      ]
+    },
+    {
+      "benchmark": "frontiermath",
+      "model": "gemini-3-5-flash",
+      "model_raw": "gemini-3.5-flash_high",
+      "score": 62.807,
+      "ci": 5.62,
+      "effort": "high",
+      "org": "Google DeepMind",
+      "release_date": "2026-05-19",
+      "notes": [
+        "via Epoch AI; source: Epoch AI evaluation"
+      ]
+    },
+    {
+      "benchmark": "frontiermath",
+      "model": "opus-4-8",
+      "model_raw": "claude-opus-4-8_max",
+      "score": 80.0,
+      "ci": 4.65,
+      "effort": "max",
+      "org": "Anthropic",
+      "release_date": "2026-05-28",
+      "notes": [
+        "via Epoch AI; source: Epoch AI evaluation"
+      ]
+    },
+    {
+      "benchmark": "frontiermath",
+      "model": "fable-5",
+      "model_raw": "claude-fable-5_max",
+      "score": 87.018,
+      "ci": 3.91,
+      "effort": "max",
+      "org": "Anthropic",
+      "release_date": "2026-06-09",
+      "notes": [
+        "via Epoch AI; source: Epoch AI evaluation"
+      ]
+    }
+  ]
+}

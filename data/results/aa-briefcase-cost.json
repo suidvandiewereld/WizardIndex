@@ -1,0 +1,1636 @@
+{
+  "benchmark": "aa-briefcase-cost",
+  "fetched_at": "2026-10-29T08:10:58+00:00",
+  "meta": {
+    "url": "https://artificialanalysis.ai",
+    "cost": "briefcaseTotalCost",
+    "credit": "Artificial Analysis, https://artificialanalysis.ai (their own evaluation runs)"
+  },
+  "results": [
+    {
+      "benchmark": "aa-briefcase-cost",
+      "model": "gemini-4-argon",
+      "model_raw": "Gemini 4 Argon (High)",
+      "score": 834.38,
+      "ci": null,
+      "effort": "high",
+      "org": "Google",
+      "release_date": "2026-09-30",
+      "notes": [
+        "priced at high; AA tested: high"
+      ]
+    },
+    {
+      "benchmark": "aa-briefcase-cost",
+      "model": "gemini-3-5-flash",
+      "model_raw": "Gemini 3.5 Flash (High)",
+      "score": 697.43,
+      "ci": null,
+      "effort": "high",
+      "org": "Google",
+      "release_date": "2026-05-19",
+      "notes": [
+        "priced at high; AA tested: high, medium, minimal"
+      ]
+    },
+    {
+      "benchmark": "aa-briefcase-cost",
+      "model": "mimo-v2-5-pro",
+      "model_raw": "MiMo-V2.5-Pro (Reasoning)",
+      "score": 12.49,
+      "ci": null,
+      "effort": null,
+      "org": "Xiaomi",
+      "release_date": "2026-04-22",
+      "notes": [
+        "priced at its only reasoning setting; AA tested: default, non-reasoning"
+      ]
+    },
+    {
+      "benchmark": "aa-briefcase-cost",
+      "model": "gpt-6-sol",
+      "model_raw": "GPT-6 Sol (Xhigh)",
+      "score": 102.93,
+      "ci": null,
+      "effort": "xhigh",
+      "org": "OpenAI",
+      "release_date": "2026-09-22",
+      "notes": [
+        "priced at xhigh; AA tested: high, low, max, medium, non-reasoning, xhigh"
+      ]
+    },
+    {
+      "benchmark": "aa-briefcase-cost",
+      "model": "mercury-2",
+      "model_raw": "Mercury 2",
+      "score": 12.37,
+      "ci": null,
+      "effort": "high",
+      "org": "Inception",
+      "release_date": "2026-02-20",
+      "notes": [
+        "priced at high; AA tested: high"
+      ]
+    },
+    {
+      "benchmark": "aa-briefcase-cost",
+      "model": "qwen3-5-122b-a10b",
+      "model_raw": "Qwen3.5 122B A10B (Reasoning)",
+      "score": 48.24,
+      "ci": null,
+      "effort": null,
+      "org": "Alibaba",
+      "release_date": "2026-02-24",
+      "notes": [
+        "priced at its only reasoning setting; AA tested: default, non-reasoning"
+      ]
+    },
+    {
+      "benchmark": "aa-briefcase-cost",
+      "model": "sonnet-5-5",
+      "model_raw": "Claude Sonnet 5.5 (Xhigh, Default Fallback)",
+      "score": 634.8,
+      "ci": null,
+      "effort": "xhigh",
+      "org": "Anthropic",
+      "release_date": "2026-09-28",
+      "notes": [
+        "priced at xhigh; AA tested: high, low, max, medium, xhigh"
+      ]
+    },
+    {
+      "benchmark": "aa-briefcase-cost",
+      "model": "muse-spark-1-2",
+      "model_raw": "Muse Spark 1.2 (Xhigh)",
+      "score": 143.08,
+      "ci": null,
+      "effort": "xhigh",
+      "org": "Meta",
+      "release_date": "2026-08-05",
+      "notes": [
+        "priced at xhigh; AA tested: xhigh"
+      ]
+    },
+    {
+      "benchmark": "aa-briefcase-cost",
+      "model": "gpt-5-6-luna",
+      "model_raw": "GPT-5.6 Luna (Xhigh)",
+      "score": 19.42,
+      "ci": null,
+      "effort": "xhigh",
+      "org": "OpenAI",
+      "release_date": "2026-07-09",
+      "notes": [
+        "priced at xhigh; AA tested: high, low, max, medium, non-reasoning, xhigh"
+      ]
+    },
+    {
+      "benchmark": "aa-briefcase-cost",
+      "model": "fable-5-1",
+      "model_raw": "Claude Fable 5.1 (Xhigh, Default Fallback)",
+      "score": 1619.26,
+      "ci": null,
+      "effort": "xhigh",
+      "org": "Anthropic",
+      "release_date": "2026-09-01",
+      "notes": [
+        "priced at xhigh; AA tested: high, low, max, medium, xhigh"
+      ]
+    },
+    {
+      "benchmark": "aa-briefcase-cost",
+      "model": "o3-mini",
+      "model_raw": "o3-mini (High)",
+      "score": 5.48,
+      "ci": null,
+      "effort": "high",
+      "org": "OpenAI",
+      "release_date": "2025-01-31",
+      "notes": [
+        "priced at high; AA tested: default, high"
+      ]
+    },
+    {
+      "benchmark": "aa-briefcase-cost",
+      "model": "apodex-1-1",
+      "model_raw": "Apodex 1.1",
+      "score": 94.46,
+      "ci": null,
+      "effort": null,
+      "org": "Apodex",
+      "release_date": "2026-08-30",
+      "notes": [
+        "priced at its only reasoning setting; AA tested: default"
+      ]
+    },
+    {
+      "benchmark": "aa-briefcase-cost",
+      "model": "gpt-5-6-sol",
+      "model_raw": "GPT-5.6 Sol (Xhigh)",
+      "score": 280.33,
+      "ci": null,
+      "effort": "xhigh",
+      "org": "OpenAI",
+      "release_date": "2026-07-09",
+      "notes": [
+        "priced at xhigh; AA tested: high, low, max, medium, non-reasoning, xhigh"
+      ]
+    },
+    {
+      "benchmark": "aa-briefcase-cost",
+      "model": "gpt-6-1-sol",
+      "model_raw": "GPT-6.1 Sol (Xhigh)",
+      "score": 94.51,
+      "ci": null,
+      "effort": "xhigh",
+      "org": "OpenAI",
+      "release_date": "2026-09-29",
+      "notes": [
+        "priced at xhigh; AA tested: high, low, max, medium, xhigh"
+      ]
+    },
+    {
+      "benchmark": "aa-briefcase-cost",
+      "model": "gemini-3-5-flash-lite",
+      "model_raw": "Gemini 3.5 Flash-Lite",
+      "score": 14.03,
+      "ci": null,
+      "effort": "high",
+      "org": "Google",
+      "release_date": "2026-07-21",
+      "notes": [
+        "priced at high; AA tested: high"
+      ]
+    },
+    {
+      "benchmark": "aa-briefcase-cost",
+      "model": "step-5-preview",
+      "model_raw": "Step 5 Preview",
+      "score": 215.93,
+      "ci": null,
+      "effort": null,
+      "org": "StepFun",
+      "release_date": "2026-09-18",
+      "notes": [
+        "priced at its only reasoning setting; AA tested: default"
+      ]
+    },
+    {
+      "benchmark": "aa-briefcase-cost",
+      "model": "deepseek-v3-1-terminus",
+      "model_raw": "DeepSeek V3.1 Terminus (Reasoning)",
+      "score": 132.03,
+      "ci": null,
+      "effort": null,
+      "org": "DeepSeek",
+      "release_date": "2025-09-22",
+      "notes": [
+        "priced at its only reasoning setting; AA tested: default, non-reasoning"
+      ]
+    },
+    {
+      "benchmark": "aa-briefcase-cost",
+      "model": "granite-4-2-3b",
+      "model_raw": "Granite 4.2 3B",
+      "score": 1.43,
+      "ci": null,
+      "effort": null,
+      "org": "IBM",
+      "release_date": "2026-08-25",
+      "notes": [
+        "priced at its only reasoning setting; AA tested: default"
+      ]
+    },
+    {
+      "benchmark": "aa-briefcase-cost",
+      "model": "gpt-6-1-terra",
+      "model_raw": "GPT-6.1 Terra (Xhigh)",
+      "score": 36.93,
+      "ci": null,
+      "effort": "xhigh",
+      "org": "OpenAI",
+      "release_date": "2026-10-26",
+      "notes": [
+        "priced at xhigh; AA tested: high, low, max, medium, non-reasoning, xhigh"
+      ]
+    },
+    {
+      "benchmark": "aa-briefcase-cost",
+      "model": "inkling",
+      "model_raw": "Inkling (Xhigh)",
+      "score": 127.61,
+      "ci": null,
+      "effort": "xhigh",
+      "org": "Thinking Machines",
+      "release_date": "2026-07-15",
+      "notes": [
+        "priced at xhigh; AA tested: xhigh"
+      ]
+    },
+    {
+      "benchmark": "aa-briefcase-cost",
+      "model": "kimi-k2-6",
+      "model_raw": "Kimi K2.6 (Reasoning)",
+      "score": 92.34,
+      "ci": null,
+      "effort": null,
+      "org": "Kimi",
+      "release_date": "2026-04-20",
+      "notes": [
+        "priced at its only reasoning setting; AA tested: default, non-reasoning"
+      ]
+    },
+    {
+      "benchmark": "aa-briefcase-cost",
+      "model": "deepseek-r1-0120",
+      "model_raw": "DeepSeek R1 (Jan '25)",
+      "score": 55.47,
+      "ci": null,
+      "effort": null,
+      "org": "DeepSeek",
+      "release_date": "2025-01-20",
+      "notes": [
+        "priced at its only reasoning setting; AA tested: default"
+      ]
+    },
+    {
+      "benchmark": "aa-briefcase-cost",
+      "model": "qwen3-5-397b-a17b",
+      "model_raw": "Qwen3.5 397B A17B (Reasoning)",
+      "score": 68.03,
+      "ci": null,
+      "effort": null,
+      "org": "Alibaba",
+      "release_date": "2026-02-16",
+      "notes": [
+        "priced at its only reasoning setting; AA tested: default, non-reasoning"
+      ]
+    },
+    {
+      "benchmark": "aa-briefcase-cost",
+      "model": "mimo-v2-6-flash",
+      "model_raw": "MiMo-V2.6-Flash",
+      "score": 13.81,
+      "ci": null,
+      "effort": null,
+      "org": "Xiaomi",
+      "release_date": "2026-09-21",
+      "notes": [
+        "priced at its only reasoning setting; AA tested: default"
+      ]
+    },
+    {
+      "benchmark": "aa-briefcase-cost",
+      "model": "small-4",
+      "model_raw": "Mistral Small 4 (Reasoning)",
+      "score": 1.98,
+      "ci": null,
+      "effort": null,
+      "org": "Mistral",
+      "release_date": "2026-03-16",
+      "notes": [
+        "priced at its only reasoning setting; AA tested: default, non-reasoning"
+      ]
+    },
+    {
+      "benchmark": "aa-briefcase-cost",
+      "model": "opus-5",
+      "model_raw": "Claude Opus 5 (Xhigh)",
+      "score": 1297.77,
+      "ci": null,
+      "effort": "xhigh",
+      "org": "Anthropic",
+      "release_date": "2026-07-24",
+      "notes": [
+        "priced at xhigh; AA tested: high, low, max, medium, xhigh"
+      ]
+    },
+    {
+      "benchmark": "aa-briefcase-cost",
+      "model": "sonnet-5",
+      "model_raw": "Claude Sonnet 5 (Xhigh)",
+      "score": 687.7,
+      "ci": null,
+      "effort": "xhigh",
+      "org": "Anthropic",
+      "release_date": "2026-06-30",
+      "notes": [
+        "priced at xhigh; AA tested: high, low, max, medium, non-reasoning, xhigh"
+      ]
+    },
+    {
+      "benchmark": "aa-briefcase-cost",
+      "model": "solar-pro4",
+      "model_raw": "Solar Pro 4",
+      "score": 343.38,
+      "ci": null,
+      "effort": null,
+      "org": "Upstage",
+      "release_date": "2026-08-06",
+      "notes": [
+        "priced at its only reasoning setting; AA tested: default"
+      ]
+    },
+    {
+      "benchmark": "aa-briefcase-cost",
+      "model": "gpt-oss-20b",
+      "model_raw": "gpt-oss-20b (High)",
+      "score": 0.74,
+      "ci": null,
+      "effort": "high",
+      "org": "OpenAI",
+      "release_date": "2025-08-05",
+      "notes": [
+        "priced at high; AA tested: high, low"
+      ]
+    },
+    {
+      "benchmark": "aa-briefcase-cost",
+      "model": "glm-5-3-flash",
+      "model_raw": "GLM-5.3-Flash",
+      "score": 89.54,
+      "ci": null,
+      "effort": "max",
+      "org": "Z AI",
+      "release_date": "2026-08-26",
+      "notes": [
+        "priced at max; AA tested: max"
+      ]
+    },
+    {
+      "benchmark": "aa-briefcase-cost",
+      "model": "gpt-6-luna",
+      "model_raw": "GPT-6 Luna (Xhigh)",
+      "score": 7.51,
+      "ci": null,
+      "effort": "xhigh",
+      "org": "OpenAI",
+      "release_date": "2026-09-22",
+      "notes": [
+        "priced at xhigh; AA tested: high, low, max, medium, non-reasoning, xhigh"
+      ]
+    },
+    {
+      "benchmark": "aa-briefcase-cost",
+      "model": "gpt-5-5",
+      "model_raw": "GPT-5.5 (High)",
+      "score": 269.23,
+      "ci": null,
+      "effort": "high",
+      "org": "OpenAI",
+      "release_date": "2026-04-23",
+      "notes": [
+        "priced at high; AA tested: high, low, medium, non-reasoning, xhigh"
+      ]
+    },
+    {
+      "benchmark": "aa-briefcase-cost",
+      "model": "gpt-6-astra",
+      "model_raw": "GPT-6 Astra (Xhigh)",
+      "score": 597.28,
+      "ci": null,
+      "effort": "xhigh",
+      "org": "OpenAI",
+      "release_date": "2026-09-03",
+      "notes": [
+        "priced at xhigh; AA tested: high, low, max, medium, xhigh"
+      ]
+    },
+    {
+      "benchmark": "aa-briefcase-cost",
+      "model": "haiku-5-5",
+      "model_raw": "Claude Haiku 5.5 (Xhigh)",
+      "score": 33.29,
+      "ci": null,
+      "effort": "xhigh",
+      "org": "Anthropic",
+      "release_date": "2026-10-07",
+      "notes": [
+        "priced at xhigh; AA tested: high, low, max, medium, xhigh"
+      ]
+    },
+    {
+      "benchmark": "aa-briefcase-cost",
+      "model": "grok-4-7",
+      "model_raw": "Grok 4.7 (High)",
+      "score": 581.03,
+      "ci": null,
+      "effort": "high",
+      "org": "SpaceXAI",
+      "release_date": "2026-09-21",
+      "notes": [
+        "priced at high; AA tested: high, low, xhigh"
+      ]
+    },
+    {
+      "benchmark": "aa-briefcase-cost",
+      "model": "qwen3-5-9b",
+      "model_raw": "Qwen3.5 9B (Reasoning)",
+      "score": 22.13,
+      "ci": null,
+      "effort": null,
+      "org": "Alibaba",
+      "release_date": "2026-03-02",
+      "notes": [
+        "priced at its only reasoning setting; AA tested: default, non-reasoning"
+      ]
+    },
+    {
+      "benchmark": "aa-briefcase-cost",
+      "model": "mimo-v2-5-0424",
+      "model_raw": "MiMo-V2.5",
+      "score": 2.13,
+      "ci": null,
+      "effort": null,
+      "org": "Xiaomi",
+      "release_date": "2026-04-22",
+      "notes": [
+        "priced at its only reasoning setting; AA tested: default"
+      ]
+    },
+    {
+      "benchmark": "aa-briefcase-cost",
+      "model": "nvidia-nemotron-3-nano-30b-a3b",
+      "model_raw": "NVIDIA Nemotron 3 Nano 30B A3B (Reasoning)",
+      "score": 4.91,
+      "ci": null,
+      "effort": null,
+      "org": "NVIDIA",
+      "release_date": "2025-12-15",
+      "notes": [
+        "priced at its only reasoning setting; AA tested: default, non-reasoning"
+      ]
+    },
+    {
+      "benchmark": "aa-briefcase-cost",
+      "model": "small-3-1",
+      "model_raw": "Mistral Small 3.1",
+      "score": 6.04,
+      "ci": null,
+      "effort": null,
+      "org": "Mistral",
+      "release_date": "2025-03-17",
+      "notes": [
+        "priced at its only reasoning setting; AA tested: non-reasoning"
+      ]
+    },
+    {
+      "benchmark": "aa-briefcase-cost",
+      "model": "mimo-v2-6-pro",
+      "model_raw": "MiMo-V2.6-Pro",
+      "score": 34.6,
+      "ci": null,
+      "effort": null,
+      "org": "Xiaomi",
+      "release_date": "2026-09-21",
+      "notes": [
+        "priced at its only reasoning setting; AA tested: default"
+      ]
+    },
+    {
+      "benchmark": "aa-briefcase-cost",
+      "model": "grok-4-6",
+      "model_raw": "Grok 4.6 (High)",
+      "score": 360.24,
+      "ci": null,
+      "effort": "high",
+      "org": "SpaceXAI",
+      "release_date": "2026-08-12",
+      "notes": [
+        "priced at high; AA tested: high, low, medium, xhigh"
+      ]
+    },
+    {
+      "benchmark": "aa-briefcase-cost",
+      "model": "gpt-5-6-terra",
+      "model_raw": "GPT-5.6 Terra (Xhigh)",
+      "score": 165.06,
+      "ci": null,
+      "effort": "xhigh",
+      "org": "OpenAI",
+      "release_date": "2026-07-09",
+      "notes": [
+        "priced at xhigh; AA tested: high, low, max, medium, non-reasoning, xhigh"
+      ]
+    },
+    {
+      "benchmark": "aa-briefcase-cost",
+      "model": "gemini-2-5-pro",
+      "model_raw": "Gemini 2.5 Pro",
+      "score": 42.82,
+      "ci": null,
+      "effort": null,
+      "org": "Google",
+      "release_date": "2025-06-05",
+      "notes": [
+        "priced at its only reasoning setting; AA tested: default"
+      ]
+    },
+    {
+      "benchmark": "aa-briefcase-cost",
+      "model": "minimax-m3",
+      "model_raw": "MiniMax-M3",
+      "score": 85.5,
+      "ci": null,
+      "effort": null,
+      "org": "MiniMax",
+      "release_date": "2026-06-01",
+      "notes": [
+        "priced at its only reasoning setting; AA tested: default"
+      ]
+    },
+    {
+      "benchmark": "aa-briefcase-cost",
+      "model": "gpt-5-mini",
+      "model_raw": "GPT-5 mini (High)",
+      "score": 7.52,
+      "ci": null,
+      "effort": "high",
+      "org": "OpenAI",
+      "release_date": "2025-08-07",
+      "notes": [
+        "priced at high; AA tested: high, medium, minimal"
+      ]
+    },
+    {
+      "benchmark": "aa-briefcase-cost",
+      "model": "nemotron-3-5-lightning",
+      "model_raw": "Nemotron 3.5 Lightning",
+      "score": 25.8,
+      "ci": null,
+      "effort": null,
+      "org": "NVIDIA",
+      "release_date": "2026-08-11",
+      "notes": [
+        "priced at its only reasoning setting; AA tested: default"
+      ]
+    },
+    {
+      "benchmark": "aa-briefcase-cost",
+      "model": "sonnet-4-6",
+      "model_raw": "Claude Sonnet 4.6 (Max)",
+      "score": 219.57,
+      "ci": null,
+      "effort": "max",
+      "org": "Anthropic",
+      "release_date": "2026-02-17",
+      "notes": [
+        "priced at max; AA tested: low, max, non-reasoning"
+      ]
+    },
+    {
+      "benchmark": "aa-briefcase-cost",
+      "model": "opus-5-5",
+      "model_raw": "Claude Opus 5.5 (Xhigh, Default Fallback)",
+      "score": 1116.22,
+      "ci": null,
+      "effort": "xhigh",
+      "org": "Anthropic",
+      "release_date": "2026-09-22",
+      "notes": [
+        "priced at xhigh; AA tested: high, low, max, medium, xhigh"
+      ]
+    },
+    {
+      "benchmark": "aa-briefcase-cost",
+      "model": "opus-4-7",
+      "model_raw": "Claude Opus 4.7 (Max)",
+      "score": 1302.7,
+      "ci": null,
+      "effort": "max",
+      "org": "Anthropic",
+      "release_date": "2026-04-16",
+      "notes": [
+        "priced at max; AA tested: high, max"
+      ]
+    },
+    {
+      "benchmark": "aa-briefcase-cost",
+      "model": "qwen3-235b-a22b-instruct-2507",
+      "model_raw": "Qwen3 235B A22B 2507 (Reasoning)",
+      "score": 9.88,
+      "ci": null,
+      "effort": null,
+      "org": "Alibaba",
+      "release_date": "2025-07-25",
+      "notes": [
+        "priced at its only reasoning setting; AA tested: default, non-reasoning"
+      ]
+    },
+    {
+      "benchmark": "aa-briefcase-cost",
+      "model": "large-4-preview",
+      "model_raw": "Mistral Large 4 Preview",
+      "score": 309.04,
+      "ci": null,
+      "effort": null,
+      "org": "Mistral",
+      "release_date": "2026-10-06",
+      "notes": [
+        "priced at its only reasoning setting; AA tested: default"
+      ]
+    },
+    {
+      "benchmark": "aa-briefcase-cost",
+      "model": "qwen3-8-27b",
+      "model_raw": "Qwen3.8 27B (Xhigh)",
+      "score": 295.32,
+      "ci": null,
+      "effort": "xhigh",
+      "org": "Alibaba",
+      "release_date": "2026-08-14",
+      "notes": [
+        "priced at xhigh; AA tested: low, medium, non-reasoning, xhigh"
+      ]
+    },
+    {
+      "benchmark": "aa-briefcase-cost",
+      "model": "muse-spark-open",
+      "model_raw": "Muse Spark Open (Xhigh)",
+      "score": 133.35,
+      "ci": null,
+      "effort": "xhigh",
+      "org": "Meta",
+      "release_date": "2026-10-15",
+      "notes": [
+        "priced at xhigh; AA tested: xhigh"
+      ]
+    },
+    {
+      "benchmark": "aa-briefcase-cost",
+      "model": "gpt-5-4-mini",
+      "model_raw": "GPT-5.4 mini (Xhigh)",
+      "score": 27.21,
+      "ci": null,
+      "effort": "xhigh",
+      "org": "OpenAI",
+      "release_date": "2026-03-17",
+      "notes": [
+        "priced at xhigh; AA tested: medium, non-reasoning, xhigh"
+      ]
+    },
+    {
+      "benchmark": "aa-briefcase-cost",
+      "model": "qwen3-6-27b",
+      "model_raw": "Qwen3.6 27B (Reasoning)",
+      "score": 95.24,
+      "ci": null,
+      "effort": null,
+      "org": "Alibaba",
+      "release_date": "2026-04-22",
+      "notes": [
+        "priced at its only reasoning setting; AA tested: default, non-reasoning"
+      ]
+    },
+    {
+      "benchmark": "aa-briefcase-cost",
+      "model": "small-3-2",
+      "model_raw": "Mistral Small 3.2",
+      "score": 41.19,
+      "ci": null,
+      "effort": null,
+      "org": "Mistral",
+      "release_date": "2025-06-20",
+      "notes": [
+        "priced at its only reasoning setting; AA tested: non-reasoning"
+      ]
+    },
+    {
+      "benchmark": "aa-briefcase-cost",
+      "model": "deepseek-v3",
+      "model_raw": "DeepSeek V3 (Dec '24)",
+      "score": 5.05,
+      "ci": null,
+      "effort": null,
+      "org": "DeepSeek",
+      "release_date": "2024-12-26",
+      "notes": [
+        "priced at its only reasoning setting; AA tested: non-reasoning"
+      ]
+    },
+    {
+      "benchmark": "aa-briefcase-cost",
+      "model": "qwen3-14b-instruct",
+      "model_raw": "Qwen3 14B (Reasoning)",
+      "score": 2.48,
+      "ci": null,
+      "effort": null,
+      "org": "Alibaba",
+      "release_date": "2025-04-28",
+      "notes": [
+        "priced at its only reasoning setting; AA tested: default, non-reasoning"
+      ]
+    },
+    {
+      "benchmark": "aa-briefcase-cost",
+      "model": "large-3",
+      "model_raw": "Mistral Large 3",
+      "score": 4.65,
+      "ci": null,
+      "effort": null,
+      "org": "Mistral",
+      "release_date": "2025-12-02",
+      "notes": [
+        "priced at its only reasoning setting; AA tested: non-reasoning"
+      ]
+    },
+    {
+      "benchmark": "aa-briefcase-cost",
+      "model": "minimax-m2-7",
+      "model_raw": "MiniMax-M2.7",
+      "score": 17.53,
+      "ci": null,
+      "effort": null,
+      "org": "MiniMax",
+      "release_date": "2026-03-18",
+      "notes": [
+        "priced at its only reasoning setting; AA tested: default"
+      ]
+    },
+    {
+      "benchmark": "aa-briefcase-cost",
+      "model": "kimi-k3",
+      "model_raw": "Kimi K3 (Max)",
+      "score": 612.85,
+      "ci": null,
+      "effort": "max",
+      "org": "Kimi",
+      "release_date": "2026-07-16",
+      "notes": [
+        "priced at max; AA tested: low, max"
+      ]
+    },
+    {
+      "benchmark": "aa-briefcase-cost",
+      "model": "gemma-4-e4b",
+      "model_raw": "Gemma 4 E4B (Reasoning)",
+      "score": 1.31,
+      "ci": null,
+      "effort": null,
+      "org": "Google",
+      "release_date": "2026-04-03",
+      "notes": [
+        "priced at its only reasoning setting; AA tested: default, non-reasoning"
+      ]
+    },
+    {
+      "benchmark": "aa-briefcase-cost",
+      "model": "ling-3-1-flash-1019",
+      "model_raw": "Ling 3.1 Flash 1019",
+      "score": 353.05,
+      "ci": null,
+      "effort": null,
+      "org": "InclusionAI",
+      "release_date": "2026-10-22",
+      "notes": [
+        "priced at its only reasoning setting; AA tested: default"
+      ]
+    },
+    {
+      "benchmark": "aa-briefcase-cost",
+      "model": "muse-glimmer",
+      "model_raw": "Muse Glimmer (High)",
+      "score": 6.73,
+      "ci": null,
+      "effort": "high",
+      "org": "Meta",
+      "release_date": "2026-08-10",
+      "notes": [
+        "priced at high; AA tested: high"
+      ]
+    },
+    {
+      "benchmark": "aa-briefcase-cost",
+      "model": "gemini-3-1-flash-lite-preview",
+      "model_raw": "Gemini 3.1 Flash-Lite",
+      "score": 3.71,
+      "ci": null,
+      "effort": "high",
+      "org": "Google",
+      "release_date": "2026-03-03",
+      "notes": [
+        "priced at high; AA tested: high"
+      ]
+    },
+    {
+      "benchmark": "aa-briefcase-cost",
+      "model": "gpt-5-3-codex",
+      "model_raw": "GPT-5.3 Codex (Xhigh)",
+      "score": 156.49,
+      "ci": null,
+      "effort": "xhigh",
+      "org": "OpenAI",
+      "release_date": "2026-02-05",
+      "notes": [
+        "priced at xhigh; AA tested: xhigh"
+      ]
+    },
+    {
+      "benchmark": "aa-briefcase-cost",
+      "model": "glm-5-1",
+      "model_raw": "GLM-5.1 (Reasoning)",
+      "score": 59.32,
+      "ci": null,
+      "effort": null,
+      "org": "Z AI",
+      "release_date": "2026-04-07",
+      "notes": [
+        "priced at its only reasoning setting; AA tested: default, non-reasoning"
+      ]
+    },
+    {
+      "benchmark": "aa-briefcase-cost",
+      "model": "nvidia-nemotron-3-ultra-550b-a55b",
+      "model_raw": "Nemotron 3 Ultra 550B A55B (Reasoning)",
+      "score": 73.38,
+      "ci": null,
+      "effort": null,
+      "org": "NVIDIA",
+      "release_date": "2026-06-04",
+      "notes": [
+        "priced at its only reasoning setting; AA tested: default"
+      ]
+    },
+    {
+      "benchmark": "aa-briefcase-cost",
+      "model": "longcat-2-0",
+      "model_raw": "LongCat 2.0",
+      "score": 33.1,
+      "ci": null,
+      "effort": null,
+      "org": "LongCat",
+      "release_date": "2026-06-29",
+      "notes": [
+        "priced at its only reasoning setting; AA tested: default"
+      ]
+    },
+    {
+      "benchmark": "aa-briefcase-cost",
+      "model": "deepseek-v4-pro",
+      "model_raw": "DeepSeek V4 Pro 0813 (Max)",
+      "score": 90.59,
+      "ci": null,
+      "effort": "max",
+      "org": "DeepSeek",
+      "release_date": "2026-08-13",
+      "notes": [
+        "priced at max; AA tested: high, max, non-reasoning"
+      ]
+    },
+    {
+      "benchmark": "aa-briefcase-cost",
+      "model": "qwen3-8-max",
+      "model_raw": "Qwen3.8 Max (0902)",
+      "score": 1781.49,
+      "ci": null,
+      "effort": "xhigh",
+      "org": "Alibaba",
+      "release_date": "2026-09-02",
+      "notes": [
+        "priced at xhigh; AA tested: default, xhigh"
+      ]
+    },
+    {
+      "benchmark": "aa-briefcase-cost",
+      "model": "grok-4-3",
+      "model_raw": "Grok 4.3 (High)",
+      "score": 27.13,
+      "ci": null,
+      "effort": "high",
+      "org": "SpaceXAI",
+      "release_date": "2026-04-30",
+      "notes": [
+        "priced at high; AA tested: high, low, medium, non-reasoning"
+      ]
+    },
+    {
+      "benchmark": "aa-briefcase-cost",
+      "model": "solar-mini4",
+      "model_raw": "Solar Mini 4",
+      "score": 123.1,
+      "ci": null,
+      "effort": null,
+      "org": "Upstage",
+      "release_date": "2026-09-22",
+      "notes": [
+        "priced at its only reasoning setting; AA tested: default"
+      ]
+    },
+    {
+      "benchmark": "aa-briefcase-cost",
+      "model": "nvidia-nemotron-3-super-120b-a12b",
+      "model_raw": "Nemotron 3 Super 120B A12B (Reasoning)",
+      "score": 821.72,
+      "ci": null,
+      "effort": null,
+      "org": "NVIDIA",
+      "release_date": "2026-03-11",
+      "notes": [
+        "priced at its only reasoning setting; AA tested: default"
+      ]
+    },
+    {
+      "benchmark": "aa-briefcase-cost",
+      "model": "kimi-k3-1-pro",
+      "model_raw": "Kimi K3.1 Pro",
+      "score": 657.08,
+      "ci": null,
+      "effort": "max",
+      "org": "Kimi",
+      "release_date": "2026-10-23",
+      "notes": [
+        "priced at max; AA tested: max"
+      ]
+    },
+    {
+      "benchmark": "aa-briefcase-cost",
+      "model": "qwen3-6-35b-a3b",
+      "model_raw": "Qwen3.6 35B A3B (Reasoning)",
+      "score": 66.57,
+      "ci": null,
+      "effort": null,
+      "org": "Alibaba",
+      "release_date": "2026-04-16",
+      "notes": [
+        "priced at its only reasoning setting; AA tested: default, non-reasoning"
+      ]
+    },
+    {
+      "benchmark": "aa-briefcase-cost",
+      "model": "ministral-3-3b",
+      "model_raw": "Ministral 3 3B",
+      "score": 2.05,
+      "ci": null,
+      "effort": null,
+      "org": "Mistral",
+      "release_date": "2025-12-02",
+      "notes": [
+        "priced at its only reasoning setting; AA tested: non-reasoning"
+      ]
+    },
+    {
+      "benchmark": "aa-briefcase-cost",
+      "model": "beam-1-0",
+      "model_raw": "Beam 1.0",
+      "score": 18.41,
+      "ci": null,
+      "effort": null,
+      "org": "Reflection",
+      "release_date": "2026-10-16",
+      "notes": [
+        "priced at its only reasoning setting; AA tested: default"
+      ]
+    },
+    {
+      "benchmark": "aa-briefcase-cost",
+      "model": "qwen3-7",
+      "model_raw": "Qwen3.7 Max",
+      "score": 97.43,
+      "ci": null,
+      "effort": null,
+      "org": "Alibaba",
+      "release_date": "2026-05-19",
+      "notes": [
+        "priced at its only reasoning setting; AA tested: default"
+      ]
+    },
+    {
+      "benchmark": "aa-briefcase-cost",
+      "model": "gemma-4-26b-a4b",
+      "model_raw": "Gemma 4 26B A4B (Reasoning)",
+      "score": 10.12,
+      "ci": null,
+      "effort": null,
+      "org": "Google",
+      "release_date": "2026-04-02",
+      "notes": [
+        "priced at its only reasoning setting; AA tested: default, non-reasoning"
+      ]
+    },
+    {
+      "benchmark": "aa-briefcase-cost",
+      "model": "ministral-3-14b",
+      "model_raw": "Ministral 3 14B",
+      "score": 4.69,
+      "ci": null,
+      "effort": null,
+      "org": "Mistral",
+      "release_date": "2025-12-02",
+      "notes": [
+        "priced at its only reasoning setting; AA tested: non-reasoning"
+      ]
+    },
+    {
+      "benchmark": "aa-briefcase-cost",
+      "model": "inkling-small",
+      "model_raw": "Inkling Small",
+      "score": 10.74,
+      "ci": null,
+      "effort": null,
+      "org": "Thinking Machines",
+      "release_date": "2026-07-30",
+      "notes": [
+        "priced at its only reasoning setting; AA tested: default"
+      ]
+    },
+    {
+      "benchmark": "aa-briefcase-cost",
+      "model": "deepseek-v4-1-flash",
+      "model_raw": "DeepSeek V4.1 Flash (Max)",
+      "score": 61.85,
+      "ci": null,
+      "effort": "max",
+      "org": "DeepSeek",
+      "release_date": "2026-09-10",
+      "notes": [
+        "priced at max; AA tested: max, non-reasoning"
+      ]
+    },
+    {
+      "benchmark": "aa-briefcase-cost",
+      "model": "gemini-3-8-flash",
+      "model_raw": "Gemini 3.8 Flash (High)",
+      "score": 684.52,
+      "ci": null,
+      "effort": "high",
+      "org": "Google",
+      "release_date": "2026-09-02",
+      "notes": [
+        "priced at high; AA tested: high, low, medium"
+      ]
+    },
+    {
+      "benchmark": "aa-briefcase-cost",
+      "model": "deepseek-v3-0324",
+      "model_raw": "DeepSeek V3 0324",
+      "score": 7.73,
+      "ci": null,
+      "effort": null,
+      "org": "DeepSeek",
+      "release_date": "2025-03-25",
+      "notes": [
+        "priced at its only reasoning setting; AA tested: non-reasoning"
+      ]
+    },
+    {
+      "benchmark": "aa-briefcase-cost",
+      "model": "mercury-2-5",
+      "model_raw": "Mercury 2.5",
+      "score": 8.66,
+      "ci": null,
+      "effort": null,
+      "org": "Inception",
+      "release_date": "2026-09-08",
+      "notes": [
+        "priced at its only reasoning setting; AA tested: default"
+      ]
+    },
+    {
+      "benchmark": "aa-briefcase-cost",
+      "model": "deepseek-v4-flash-vision",
+      "model_raw": "DeepSeek V4 Flash Vision (Max)",
+      "score": 253.79,
+      "ci": null,
+      "effort": "max",
+      "org": "DeepSeek",
+      "release_date": "2026-08-21",
+      "notes": [
+        "priced at max; AA tested: max"
+      ]
+    },
+    {
+      "benchmark": "aa-briefcase-cost",
+      "model": "gemini-3-6-flash",
+      "model_raw": "Gemini 3.6 Flash (High)",
+      "score": 141.85,
+      "ci": null,
+      "effort": "high",
+      "org": "Google",
+      "release_date": "2026-07-21",
+      "notes": [
+        "priced at high; AA tested: high"
+      ]
+    },
+    {
+      "benchmark": "aa-briefcase-cost",
+      "model": "grok-4-5",
+      "model_raw": "Grok 4.5 (High)",
+      "score": 87.11,
+      "ci": null,
+      "effort": "high",
+      "org": "SpaceXAI",
+      "release_date": "2026-07-08",
+      "notes": [
+        "priced at high; AA tested: high"
+      ]
+    },
+    {
+      "benchmark": "aa-briefcase-cost",
+      "model": "celeris-1",
+      "model_raw": "Celeris-1",
+      "score": 13.25,
+      "ci": null,
+      "effort": null,
+      "org": "Celeris",
+      "release_date": "2026-07-24",
+      "notes": [
+        "priced at its only reasoning setting; AA tested: non-reasoning"
+      ]
+    },
+    {
+      "benchmark": "aa-briefcase-cost",
+      "model": "gpt-5-4-nano",
+      "model_raw": "GPT-5.4 nano (Xhigh)",
+      "score": 53.51,
+      "ci": null,
+      "effort": "xhigh",
+      "org": "OpenAI",
+      "release_date": "2026-03-17",
+      "notes": [
+        "priced at xhigh; AA tested: medium, non-reasoning, xhigh"
+      ]
+    },
+    {
+      "benchmark": "aa-briefcase-cost",
+      "model": "deepseek-v4-flash",
+      "model_raw": "DeepSeek V4 Flash 0420 (Max)",
+      "score": 5.48,
+      "ci": null,
+      "effort": "max",
+      "org": "DeepSeek",
+      "release_date": "2026-04-24",
+      "notes": [
+        "priced at max; AA tested: high, max, non-reasoning"
+      ]
+    },
+    {
+      "benchmark": "aa-briefcase-cost",
+      "model": "kimi-k2-7-code",
+      "model_raw": "Kimi K2.7 Code",
+      "score": 71.74,
+      "ci": null,
+      "effort": null,
+      "org": "Kimi",
+      "release_date": "2026-06-12",
+      "notes": [
+        "priced at its only reasoning setting; AA tested: default"
+      ]
+    },
+    {
+      "benchmark": "aa-briefcase-cost",
+      "model": "qwen3-8-2-4t-a95b",
+      "model_raw": "Qwen3.8 2.4T A95B",
+      "score": 378.12,
+      "ci": null,
+      "effort": null,
+      "org": "Alibaba",
+      "release_date": "2026-08-12",
+      "notes": [
+        "priced at its only reasoning setting; AA tested: default"
+      ]
+    },
+    {
+      "benchmark": "aa-briefcase-cost",
+      "model": "gemini-4-carbon",
+      "model_raw": "Gemini 4 Carbon (High)",
+      "score": 742.68,
+      "ci": null,
+      "effort": "high",
+      "org": "Google",
+      "release_date": "2026-10-28",
+      "notes": [
+        "priced at high; AA tested: high"
+      ]
+    },
+    {
+      "benchmark": "aa-briefcase-cost",
+      "model": "sonnet-4-5",
+      "model_raw": "Claude 4.5 Sonnet (Reasoning)",
+      "score": 93.78,
+      "ci": null,
+      "effort": null,
+      "org": "Anthropic",
+      "release_date": "2025-09-29",
+      "notes": [
+        "priced at its only reasoning setting; AA tested: default, non-reasoning"
+      ]
+    },
+    {
+      "benchmark": "aa-briefcase-cost",
+      "model": "llama-4-maverick",
+      "model_raw": "Llama 4 Maverick",
+      "score": 15.64,
+      "ci": null,
+      "effort": null,
+      "org": "Meta",
+      "release_date": "2025-04-05",
+      "notes": [
+        "priced at its only reasoning setting; AA tested: non-reasoning"
+      ]
+    },
+    {
+      "benchmark": "aa-briefcase-cost",
+      "model": "ministral-3-8b",
+      "model_raw": "Ministral 3 8B",
+      "score": 1.57,
+      "ci": null,
+      "effort": null,
+      "org": "Mistral",
+      "release_date": "2025-12-02",
+      "notes": [
+        "priced at its only reasoning setting; AA tested: non-reasoning"
+      ]
+    },
+    {
+      "benchmark": "aa-briefcase-cost",
+      "model": "opus-4-8",
+      "model_raw": "Claude Opus 4.8 (Max)",
+      "score": 751.84,
+      "ci": null,
+      "effort": "max",
+      "org": "Anthropic",
+      "release_date": "2026-05-28",
+      "notes": [
+        "priced at max; AA tested: max"
+      ]
+    },
+    {
+      "benchmark": "aa-briefcase-cost",
+      "model": "muse-spark-1-3",
+      "model_raw": "Muse Spark 1.3 (Xhigh)",
+      "score": 249.39,
+      "ci": null,
+      "effort": "xhigh",
+      "org": "Meta",
+      "release_date": "2026-09-02",
+      "notes": [
+        "priced at xhigh; AA tested: max, xhigh"
+      ]
+    },
+    {
+      "benchmark": "aa-briefcase-cost",
+      "model": "qwen3-8-flash-next",
+      "model_raw": "Qwen3.8-Flash-Next",
+      "score": 146.03,
+      "ci": null,
+      "effort": null,
+      "org": "Alibaba",
+      "release_date": "2026-08-26",
+      "notes": [
+        "priced at its only reasoning setting; AA tested: default"
+      ]
+    },
+    {
+      "benchmark": "aa-briefcase-cost",
+      "model": "ling-3-1-flash",
+      "model_raw": "Ling 3.1 Flash",
+      "score": 184.22,
+      "ci": null,
+      "effort": null,
+      "org": "InclusionAI",
+      "release_date": "2026-10-01",
+      "notes": [
+        "priced at its only reasoning setting; AA tested: default"
+      ]
+    },
+    {
+      "benchmark": "aa-briefcase-cost",
+      "model": "haiku-4-5",
+      "model_raw": "Claude 4.5 Haiku (Reasoning)",
+      "score": 34.66,
+      "ci": null,
+      "effort": null,
+      "org": "Anthropic",
+      "release_date": "2025-10-15",
+      "notes": [
+        "priced at its only reasoning setting; AA tested: default, non-reasoning"
+      ]
+    },
+    {
+      "benchmark": "aa-briefcase-cost",
+      "model": "qwen3-7-plus",
+      "model_raw": "Qwen3.7 Plus",
+      "score": 21.83,
+      "ci": null,
+      "effort": null,
+      "org": "Alibaba",
+      "release_date": "2026-06-01",
+      "notes": [
+        "priced at its only reasoning setting; AA tested: default"
+      ]
+    },
+    {
+      "benchmark": "aa-briefcase-cost",
+      "model": "llama-4-scout",
+      "model_raw": "Llama 4 Scout",
+      "score": 66.35,
+      "ci": null,
+      "effort": null,
+      "org": "Meta",
+      "release_date": "2025-04-05",
+      "notes": [
+        "priced at its only reasoning setting; AA tested: non-reasoning"
+      ]
+    },
+    {
+      "benchmark": "aa-briefcase-cost",
+      "model": "granite-4-2-8b",
+      "model_raw": "Granite 4.2 8B",
+      "score": 8.05,
+      "ci": null,
+      "effort": null,
+      "org": "IBM",
+      "release_date": "2026-08-25",
+      "notes": [
+        "priced at its only reasoning setting; AA tested: default"
+      ]
+    },
+    {
+      "benchmark": "aa-briefcase-cost",
+      "model": "qwen3-32b-instruct",
+      "model_raw": "Qwen3 32B (Reasoning)",
+      "score": 3.83,
+      "ci": null,
+      "effort": null,
+      "org": "Alibaba",
+      "release_date": "2025-04-28",
+      "notes": [
+        "priced at its only reasoning setting; AA tested: default, non-reasoning"
+      ]
+    },
+    {
+      "benchmark": "aa-briefcase-cost",
+      "model": "hy3",
+      "model_raw": "Hy3",
+      "score": 10.42,
+      "ci": null,
+      "effort": null,
+      "org": "Tencent",
+      "release_date": "2026-07-06",
+      "notes": [
+        "priced at its only reasoning setting; AA tested: default, non-reasoning"
+      ]
+    },
+    {
+      "benchmark": "aa-briefcase-cost",
+      "model": "solar-pro-3",
+      "model_raw": "Solar Pro 3",
+      "score": 8.44,
+      "ci": null,
+      "effort": "high",
+      "org": "Upstage",
+      "release_date": "2026-04-06",
+      "notes": [
+        "priced at high; AA tested: high"
+      ]
+    },
+    {
+      "benchmark": "aa-briefcase-cost",
+      "model": "gemini-3-1-pro-preview",
+      "model_raw": "Gemini 3.1 Pro Preview",
+      "score": 116.77,
+      "ci": null,
+      "effort": null,
+      "org": "Google",
+      "release_date": "2026-02-19",
+      "notes": [
+        "priced at its only reasoning setting; AA tested: default"
+      ]
+    },
+    {
+      "benchmark": "aa-briefcase-cost",
+      "model": "gpt-5-5-instant-06-26",
+      "model_raw": "GPT-5.5 Instant (June 2026)",
+      "score": 88.83,
+      "ci": null,
+      "effort": null,
+      "org": "OpenAI",
+      "release_date": "2026-06-25",
+      "notes": [
+        "priced at its only reasoning setting; AA tested: default"
+      ]
+    },
+    {
+      "benchmark": "aa-briefcase-cost",
+      "model": "gpt-oss-120b",
+      "model_raw": "gpt-oss-120b (High)",
+      "score": 51.53,
+      "ci": null,
+      "effort": "high",
+      "org": "OpenAI",
+      "release_date": "2025-08-05",
+      "notes": [
+        "priced at high; AA tested: high, low"
+      ]
+    },
+    {
+      "benchmark": "aa-briefcase-cost",
+      "model": "glm-5-3",
+      "model_raw": "GLM-5.3 (Max)",
+      "score": 514.04,
+      "ci": null,
+      "effort": "max",
+      "org": "Z AI",
+      "release_date": "2026-08-18",
+      "notes": [
+        "priced at max; AA tested: low, max"
+      ]
+    },
+    {
+      "benchmark": "aa-briefcase-cost",
+      "model": "fable-5",
+      "model_raw": "Claude Fable 5 (Max, Opus 4.8 Fallback)",
+      "score": 2029.6,
+      "ci": null,
+      "effort": "max",
+      "org": "Anthropic",
+      "release_date": "2026-06-09",
+      "notes": [
+        "priced at max; AA tested: max"
+      ]
+    },
+    {
+      "benchmark": "aa-briefcase-cost",
+      "model": "minimax-m3-1-flash",
+      "model_raw": "MiniMax-M3.1-Flash",
+      "score": 48.1,
+      "ci": null,
+      "effort": "max",
+      "org": "MiniMax",
+      "release_date": "2026-10-19",
+      "notes": [
+        "priced at max; AA tested: max"
+      ]
+    },
+    {
+      "benchmark": "aa-briefcase-cost",
+      "model": "muse-spark-1-1",
+      "model_raw": "Muse Spark 1.1 (Xhigh)",
+      "score": 182.59,
+      "ci": null,
+      "effort": "xhigh",
+      "org": "Meta",
+      "release_date": "2026-07-09",
+      "notes": [
+        "priced at xhigh; AA tested: xhigh"
+      ]
+    },
+    {
+      "benchmark": "aa-briefcase-cost",
+      "model": "medium-3-5",
+      "model_raw": "Mistral Medium 3.5",
+      "score": 60.63,
+      "ci": null,
+      "effort": "high",
+      "org": "Mistral",
+      "release_date": "2026-04-29",
+      "notes": [
+        "priced at high; AA tested: high"
+      ]
+    },
+    {
+      "benchmark": "aa-briefcase-cost",
+      "model": "nemotron-3-5-super-vl",
+      "model_raw": "Nemotron 3.5 Super VL",
+      "score": 46.38,
+      "ci": null,
+      "effort": "high",
+      "org": "NVIDIA",
+      "release_date": "2026-10-15",
+      "notes": [
+        "priced at high; AA tested: high"
+      ]
+    },
+    {
+      "benchmark": "aa-briefcase-cost",
+      "model": "ling-3-0-flash",
+      "model_raw": "Ling 3.0 Flash",
+      "score": 2.84,
+      "ci": null,
+      "effort": null,
+      "org": "InclusionAI",
+      "release_date": "2026-08-04",
+      "notes": [
+        "priced at its only reasoning setting; AA tested: default"
+      ]
+    },
+    {
+      "benchmark": "aa-briefcase-cost",
+      "model": "glm-5-2",
+      "model_raw": "GLM-5.2 (Max)",
+      "score": 224.19,
+      "ci": null,
+      "effort": "max",
+      "org": "Z AI",
+      "release_date": "2026-06-16",
+      "notes": [
+        "priced at max; AA tested: max, non-reasoning"
+      ]
+    },
+    {
+      "benchmark": "aa-briefcase-cost",
+      "model": "ring-2-6-1t",
+      "model_raw": "Ring-2.6-1T",
+      "score": 68.62,
+      "ci": null,
+      "effort": "xhigh",
+      "org": "InclusionAI",
+      "release_date": "2026-05-08",
+      "notes": [
+        "priced at xhigh; AA tested: xhigh"
+      ]
+    },
+    {
+      "benchmark": "aa-briefcase-cost",
+      "model": "deepseek-v4-1-flash-1017",
+      "model_raw": "DeepSeek V4.1 Flash 1017 (Max)",
+      "score": 61.72,
+      "ci": null,
+      "effort": "max",
+      "org": "DeepSeek",
+      "release_date": "2026-10-17",
+      "notes": [
+        "priced at max; AA tested: max"
+      ]
+    },
+    {
+      "benchmark": "aa-briefcase-cost",
+      "model": "quasar-438b",
+      "model_raw": "Quasar 438B (Max, Based on GLM-5.2)",
+      "score": 23.6,
+      "ci": null,
+      "effort": "max",
+      "org": "Multiverse Computing",
+      "release_date": "2026-08-10",
+      "notes": [
+        "priced at max; AA tested: max"
+      ]
+    },
+    {
+      "benchmark": "aa-briefcase-cost",
+      "model": "qwen3-coder-next",
+      "model_raw": "Qwen3 Coder Next",
+      "score": 118.6,
+      "ci": null,
+      "effort": null,
+      "org": "Alibaba",
+      "release_date": "2026-02-03",
+      "notes": [
+        "priced at its only reasoning setting; AA tested: non-reasoning"
+      ]
+    },
+    {
+      "benchmark": "aa-briefcase-cost",
+      "model": "muse-wonder-1-0",
+      "model_raw": "Muse Wonder (Max)",
+      "score": 790.21,
+      "ci": null,
+      "effort": "max",
+      "org": "Meta",
+      "release_date": "2026-10-12",
+      "notes": [
+        "priced at max; AA tested: max"
+      ]
+    }
+  ]
+}

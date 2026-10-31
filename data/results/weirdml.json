@@ -1,0 +1,347 @@
+{
+  "benchmark": "weirdml",
+  "fetched_at": "2026-10-29T07:59:00+00:00",
+  "meta": {
+    "url": "https://htihle.github.io/weirdml.html",
+    "via": "https://epoch.ai/benchmarks",
+    "credit": "Epoch AI, 'Capabilities & benchmarking', https://epoch.ai/benchmarks (CC BY 4.0)"
+  },
+  "results": [
+    {
+      "benchmark": "weirdml",
+      "model": "gpt-6-astra",
+      "model_raw": "GPT-6 Astra (xhigh)",
+      "score": 42.22,
+      "ci": null,
+      "effort": "xhigh",
+      "org": "OpenAI",
+      "release_date": "2026-09-03",
+      "notes": [
+        "via Epoch AI; source: https://htihle.github.io/weirdml.html",
+        "harness: codex_cli"
+      ]
+    },
+    {
+      "benchmark": "weirdml",
+      "model": "fable-5-1",
+      "model_raw": "Claude Fable 5.1 (xhigh)",
+      "score": 25.97,
+      "ci": null,
+      "effort": "xhigh",
+      "org": "Anthropic",
+      "release_date": "2026-09-01",
+      "notes": [
+        "via Epoch AI; source: https://htihle.github.io/weirdml.html",
+        "harness: claude_code"
+      ]
+    },
+    {
+      "benchmark": "weirdml",
+      "model": "opus-5",
+      "model_raw": "Claude Opus 5 (xhigh)",
+      "score": 19.011,
+      "ci": null,
+      "effort": "xhigh",
+      "org": "Anthropic",
+      "release_date": "2026-07-24",
+      "notes": [
+        "via Epoch AI; source: https://htihle.github.io/weirdml.html",
+        "harness: claude_code"
+      ]
+    },
+    {
+      "benchmark": "weirdml",
+      "model": "fable-5",
+      "model_raw": "Claude Fable 5 (xhigh)",
+      "score": 15.587,
+      "ci": null,
+      "effort": "xhigh",
+      "org": "Anthropic",
+      "release_date": "2026-06-09",
+      "notes": [
+        "via Epoch AI; source: https://htihle.github.io/weirdml.html",
+        "harness: claude_code"
+      ]
+    },
+    {
+      "benchmark": "weirdml",
+      "model": "gpt-5-6-sol",
+      "model_raw": "GPT-5.6 Sol (xhigh)",
+      "score": 14.992,
+      "ci": null,
+      "effort": "xhigh",
+      "org": "OpenAI",
+      "release_date": "2026-07-09",
+      "notes": [
+        "via Epoch AI; source: https://htihle.github.io/weirdml.html",
+        "harness: codex_cli"
+      ]
+    },
+    {
+      "benchmark": "weirdml",
+      "model": "kimi-k3",
+      "model_raw": "Kimi K3 (high, Fireworks)",
+      "score": 7.544,
+      "ci": null,
+      "effort": "high",
+      "org": "Moonshot",
+      "release_date": "2026-07-16",
+      "notes": [
+        "via Epoch AI; source: https://htihle.github.io/weirdml.html",
+        "harness: kimi_code"
+      ]
+    },
+    {
+      "benchmark": "weirdml",
+      "model": "gemini-3-8-flash",
+      "model_raw": "Gemini 3.8 Flash (high)",
+      "score": 7.379,
+      "ci": null,
+      "effort": "high",
+      "org": "Google DeepMind",
+      "release_date": "2026-09-02",
+      "notes": [
+        "via Epoch AI; source: https://htihle.github.io/weirdml.html",
+        "harness: gemini_cli"
+      ]
+    },
+    {
+      "benchmark": "weirdml",
+      "model": "opus-4-5",
+      "model_raw": "Claude Opus 4.5 (high)",
+      "score": 6.515,
+      "ci": null,
+      "effort": "high",
+      "org": "Anthropic",
+      "release_date": "2025-11-24",
+      "notes": [
+        "via Epoch AI; source: https://htihle.github.io/weirdml.html",
+        "harness: claude_code"
+      ]
+    },
+    {
+      "benchmark": "weirdml",
+      "model": "deepseek-v4-1-flash",
+      "model_raw": "DeepSeek V4.1 Flash (high, Novita)",
+      "score": 5.946,
+      "ci": null,
+      "effort": "high",
+      "org": "DeepSeek",
+      "release_date": "2026-09-09",
+      "notes": [
+        "via Epoch AI; source: https://htihle.github.io/weirdml.html",
+        "harness: opencode"
+      ]
+    },
+    {
+      "benchmark": "weirdml",
+      "model": "gpt-5-6-luna",
+      "model_raw": "GPT-5.6 Luna (xhigh)",
+      "score": 5.158,
+      "ci": null,
+      "effort": "xhigh",
+      "org": "OpenAI",
+      "release_date": "2026-07-09",
+      "notes": [
+        "via Epoch AI; source: https://htihle.github.io/weirdml.html",
+        "harness: codex_cli"
+      ]
+    },
+    {
+      "benchmark": "weirdml",
+      "model": "opus-5-5",
+      "model_raw": "Claude Opus 5.5 (xhigh)",
+      "score": 31.2,
+      "ci": null,
+      "effort": "xhigh",
+      "org": "Anthropic",
+      "release_date": "2026-09-22",
+      "notes": [
+        "via Epoch AI; source: https://htihle.github.io/weirdml.html",
+        "harness: claude_code"
+      ]
+    },
+    {
+      "benchmark": "weirdml",
+      "model": "gpt-6-sol",
+      "model_raw": "GPT-6 Sol (xhigh)",
+      "score": 19.732,
+      "ci": null,
+      "effort": "xhigh",
+      "org": "OpenAI",
+      "release_date": "2026-09-22",
+      "notes": [
+        "via Epoch AI; source: https://htihle.github.io/weirdml.html",
+        "harness: codex_cli"
+      ]
+    },
+    {
+      "benchmark": "weirdml",
+      "model": "gpt-6-luna",
+      "model_raw": "GPT-6 Luna (xhigh)",
+      "score": 7.874,
+      "ci": null,
+      "effort": "xhigh",
+      "org": "OpenAI",
+      "release_date": "2026-09-22",
+      "notes": [
+        "via Epoch AI; source: https://htihle.github.io/weirdml.html",
+        "harness: codex_cli"
+      ]
+    },
+    {
+      "benchmark": "weirdml",
+      "model": "gpt-6-1-sol",
+      "model_raw": "GPT-6.1 Sol (xhigh)",
+      "score": 38.254,
+      "ci": null,
+      "effort": "xhigh",
+      "org": "OpenAI",
+      "release_date": "2026-09-29",
+      "notes": [
+        "via Epoch AI; source: https://htihle.github.io/weirdml.html",
+        "harness: codex_cli"
+      ]
+    },
+    {
+      "benchmark": "weirdml",
+      "model": "sonnet-5-5",
+      "model_raw": "Claude Sonnet 5.5 (xhigh)",
+      "score": 19.94,
+      "ci": null,
+      "effort": "xhigh",
+      "org": "Anthropic",
+      "release_date": "2026-09-28",
+      "notes": [
+        "via Epoch AI; source: https://htihle.github.io/weirdml.html",
+        "harness: claude_code"
+      ]
+    },
+    {
+      "benchmark": "weirdml",
+      "model": "grok-4-7",
+      "model_raw": "Grok 4.7 (xhigh)",
+      "score": 8.453,
+      "ci": null,
+      "effort": "xhigh",
+      "org": "xAI",
+      "release_date": "2026-09-21",
+      "notes": [
+        "via Epoch AI; source: https://htihle.github.io/weirdml.html",
+        "harness: codex_cli"
+      ]
+    },
+    {
+      "benchmark": "weirdml",
+      "model": "muse-spark-1-3",
+      "model_raw": "Muse Spark 1.3 (xhigh)",
+      "score": 6.655,
+      "ci": null,
+      "effort": "xhigh",
+      "org": "Meta AI",
+      "release_date": "2026-09-02",
+      "notes": [
+        "via Epoch AI; source: https://htihle.github.io/weirdml.html",
+        "harness: codex_cli"
+      ]
+    },
+    {
+      "benchmark": "weirdml",
+      "model": "gemini-4-argon",
+      "model_raw": "Gemini 4 Argon (high)",
+      "score": 20.096,
+      "ci": null,
+      "effort": "high",
+      "org": "Google DeepMind",
+      "release_date": "2026-09-30",
+      "notes": [
+        "via Epoch AI; source: https://htihle.github.io/weirdml.html",
+        "harness: gemini_cli"
+      ]
+    },
+    {
+      "benchmark": "weirdml",
+      "model": "muse-wonder-1-0",
+      "model_raw": "Muse Wonder (xhigh)",
+      "score": 15.191,
+      "ci": null,
+      "effort": "xhigh",
+      "org": "Meta AI",
+      "release_date": "2026-10-12",
+      "notes": [
+        "via Epoch AI; source: https://htihle.github.io/weirdml.html",
+        "harness: codex_cli"
+      ]
+    },
+    {
+      "benchmark": "weirdml",
+      "model": "haiku-5-5",
+      "model_raw": "Claude Haiku 5.5 (xhigh)",
+      "score": 11.695,
+      "ci": null,
+      "effort": "xhigh",
+      "org": "Anthropic",
+      "release_date": "2026-10-07",
+      "notes": [
+        "via Epoch AI; source: https://htihle.github.io/weirdml.html",
+        "harness: claude_code"
+      ]
+    },
+    {
+      "benchmark": "weirdml",
+      "model": "gpt-5-2",
+      "model_raw": "GPT-5.2 (xhigh)",
+      "score": 5.008,
+      "ci": null,
+      "effort": "xhigh",
+      "org": "OpenAI",
+      "release_date": "2025-12-11",
+      "notes": [
+        "via Epoch AI; source: https://htihle.github.io/weirdml.html",
+        "harness: codex_cli"
+      ]
+    },
+    {
+      "benchmark": "weirdml",
+      "model": "large-4-0",
+      "model_raw": "Mistral Large 4 (high, Mistral)",
+      "score": 4.446,
+      "ci": null,
+      "effort": "high",
+      "org": "Mistral AI",
+      "release_date": "2026-10-06",
+      "notes": [
+        "via Epoch AI; source: https://htihle.github.io/weirdml.html",
+        "harness: opencode"
+      ]
+    },
+    {
+      "benchmark": "weirdml",
+      "model": "inkling",
+      "model_raw": "Inkling (xhigh, Together)",
+      "score": 3.903,
+      "ci": null,
+      "effort": "xhigh",
+      "org": "Thinking Machines",
+      "release_date": "2026-07-15",
+      "notes": [
+        "via Epoch AI; source: https://htihle.github.io/weirdml.html",
+        "harness: opencode"
+      ]
+    },
+    {
+      "benchmark": "weirdml",
+      "model": "deepseek-v4-1-flash-1017",
+      "model_raw": "DeepSeek V4.1 Flash 1017 (high, InferenceNet)",
+      "score": 9.191,
+      "ci": null,
+      "effort": "high",
+      "org": "DeepSeek",
+      "release_date": "2026-10-17",
+      "notes": [
+        "via Epoch AI; source: https://htihle.github.io/weirdml.html",
+        "harness: codex_cli"
+      ]
+    }
+  ]
+}

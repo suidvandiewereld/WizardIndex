@@ -1,0 +1,3464 @@
+{
+  "benchmark": "arc-agi-2",
+  "fetched_at": "2026-10-29T07:58:58+00:00",
+  "meta": {
+    "url": "https://arcprize.org/leaderboard",
+    "dataset": "v2_Semi_Private"
+  },
+  "results": [
+    {
+      "benchmark": "arc-agi-2",
+      "model": "nvarc",
+      "model_raw": "NVARC",
+      "score": 27.64,
+      "ci": null,
+      "effort": null,
+      "org": "ARC Prize 2025",
+      "release_date": "2024-11-03",
+      "notes": []
+    },
+    {
+      "benchmark": "arc-agi-2",
+      "model": "architects",
+      "model_raw": "ARChitects",
+      "score": 2.5,
+      "ci": null,
+      "effort": null,
+      "org": "ARC Prize 2024",
+      "release_date": "2024-11-03",
+      "notes": []
+    },
+    {
+      "benchmark": "arc-agi-2",
+      "model": "3-7",
+      "model_raw": "Claude 3.7",
+      "score": 0,
+      "ci": null,
+      "effort": null,
+      "org": "Anthropic",
+      "release_date": "2025-02-24",
+      "notes": []
+    },
+    {
+      "benchmark": "arc-agi-2",
+      "model": "3-7",
+      "model_raw": "Claude 3.7 (16K)",
+      "score": 0.7,
+      "ci": null,
+      "effort": null,
+      "org": "Anthropic",
+      "release_date": "2025-02-24",
+      "notes": []
+    },
+    {
+      "benchmark": "arc-agi-2",
+      "model": "3-7",
+      "model_raw": "Claude 3.7 (1K)",
+      "score": 0.4,
+      "ci": null,
+      "effort": null,
+      "org": "Anthropic",
+      "release_date": "2025-02-24",
+      "notes": []
+    },
+    {
+      "benchmark": "arc-agi-2",
+      "model": "3-7",
+      "model_raw": "Claude 3.7 (8K)",
+      "score": 0.9,
+      "ci": null,
+      "effort": null,
+      "org": "Anthropic",
+      "release_date": "2025-02-24",
+      "notes": []
+    },
+    {
+      "benchmark": "arc-agi-2",
+      "model": "gemini-1-5-pro",
+      "model_raw": "Gemini 1.5 Pro",
+      "score": 0.8,
+      "ci": null,
+      "effort": null,
+      "org": "Google",
+      "release_date": "2025-02-15",
+      "notes": []
+    },
+    {
+      "benchmark": "arc-agi-2",
+      "model": "gemini-2-0-flash",
+      "model_raw": "Gemini 2.0 Flash",
+      "score": 1.3,
+      "ci": null,
+      "effort": null,
+      "org": "Google",
+      "release_date": "2025-02-02",
+      "notes": []
+    },
+    {
+      "benchmark": "arc-agi-2",
+      "model": "gpt-4-5",
+      "model_raw": "GPT-4.5",
+      "score": 0.8,
+      "ci": null,
+      "effort": null,
+      "org": "OpenAI",
+      "release_date": "2025-02-27",
+      "notes": []
+    },
+    {
+      "benchmark": "arc-agi-2",
+      "model": "gpt-4o",
+      "model_raw": "GPT-4o",
+      "score": 0,
+      "ci": null,
+      "effort": null,
+      "org": "OpenAI",
+      "release_date": "2024-11-20",
+      "notes": []
+    },
+    {
+      "benchmark": "arc-agi-2",
+      "model": "gpt-4o-mini",
+      "model_raw": "GPT-4o-mini",
+      "score": 0,
+      "ci": null,
+      "effort": null,
+      "org": "OpenAI",
+      "release_date": "2024-07-18",
+      "notes": []
+    },
+    {
+      "benchmark": "arc-agi-2",
+      "model": "icecuber",
+      "model_raw": "Icecuber",
+      "score": 1.6,
+      "ci": null,
+      "effort": null,
+      "org": "ARC Prize 2024",
+      "release_date": "2023-11-03",
+      "notes": []
+    },
+    {
+      "benchmark": "arc-agi-2",
+      "model": "deepseek-r1",
+      "model_raw": "Deepseek R1",
+      "score": 1.3,
+      "ci": null,
+      "effort": null,
+      "org": "DeepSeek",
+      "release_date": "2025-01-22",
+      "notes": []
+    },
+    {
+      "benchmark": "arc-agi-2",
+      "model": "llama-4-maverick",
+      "model_raw": "Llama 4 Maverick",
+      "score": 0,
+      "ci": null,
+      "effort": null,
+      "org": "Meta",
+      "release_date": "2025-04-05",
+      "notes": []
+    },
+    {
+      "benchmark": "arc-agi-2",
+      "model": "llama-4-scout",
+      "model_raw": "Llama 4 Scout",
+      "score": 0,
+      "ci": null,
+      "effort": null,
+      "org": "Meta",
+      "release_date": "2025-04-05",
+      "notes": []
+    },
+    {
+      "benchmark": "arc-agi-2",
+      "model": "gpt-4-1-nano",
+      "model_raw": "GPT-4.1-Nano",
+      "score": 0,
+      "ci": null,
+      "effort": null,
+      "org": "OpenAI",
+      "release_date": "2025-04-14",
+      "notes": []
+    },
+    {
+      "benchmark": "arc-agi-2",
+      "model": "gpt-4-1-mini",
+      "model_raw": "GPT-4.1-Mini",
+      "score": 0,
+      "ci": null,
+      "effort": null,
+      "org": "OpenAI",
+      "release_date": "2025-04-14",
+      "notes": []
+    },
+    {
+      "benchmark": "arc-agi-2",
+      "model": "gpt-4-1",
+      "model_raw": "GPT-4.1",
+      "score": 0.42,
+      "ci": null,
+      "effort": null,
+      "org": "OpenAI",
+      "release_date": "2025-04-14",
+      "notes": []
+    },
+    {
+      "benchmark": "arc-agi-2",
+      "model": "o1-mini",
+      "model_raw": "o1-mini",
+      "score": 0.83,
+      "ci": null,
+      "effort": null,
+      "org": "OpenAI",
+      "release_date": "2024-09-12",
+      "notes": []
+    },
+    {
+      "benchmark": "arc-agi-2",
+      "model": "o3-mini",
+      "model_raw": "o3-mini (Low)",
+      "score": 0,
+      "ci": null,
+      "effort": "low",
+      "org": "OpenAI",
+      "release_date": "2025-01-31",
+      "notes": []
+    },
+    {
+      "benchmark": "arc-agi-2",
+      "model": "o3-mini",
+      "model_raw": "o3-mini (Medium)",
+      "score": 2.08,
+      "ci": null,
+      "effort": "medium",
+      "org": "OpenAI",
+      "release_date": "2025-01-31",
+      "notes": []
+    },
+    {
+      "benchmark": "arc-agi-2",
+      "model": "o3-mini",
+      "model_raw": "o3-mini (High)",
+      "score": 2.99,
+      "ci": null,
+      "effort": "high",
+      "org": "OpenAI",
+      "release_date": "2025-01-31",
+      "notes": []
+    },
+    {
+      "benchmark": "arc-agi-2",
+      "model": "o3",
+      "model_raw": "o3 (Low)",
+      "score": 1.99,
+      "ci": null,
+      "effort": "low",
+      "org": "OpenAI",
+      "release_date": "2025-04-16",
+      "notes": []
+    },
+    {
+      "benchmark": "arc-agi-2",
+      "model": "o3",
+      "model_raw": "o3 (Medium)",
+      "score": 2.98,
+      "ci": null,
+      "effort": "medium",
+      "org": "OpenAI",
+      "release_date": "2025-04-16",
+      "notes": []
+    },
+    {
+      "benchmark": "arc-agi-2",
+      "model": "o3",
+      "model_raw": "o3 (High)",
+      "score": 6.53,
+      "ci": null,
+      "effort": "high",
+      "org": "OpenAI",
+      "release_date": "2025-04-16",
+      "notes": []
+    },
+    {
+      "benchmark": "arc-agi-2",
+      "model": "o4-mini",
+      "model_raw": "o4-mini (Low)",
+      "score": 1.67,
+      "ci": null,
+      "effort": "low",
+      "org": "OpenAI",
+      "release_date": "2025-04-16",
+      "notes": []
+    },
+    {
+      "benchmark": "arc-agi-2",
+      "model": "o4-mini",
+      "model_raw": "o4-mini (Medium)",
+      "score": 2.36,
+      "ci": null,
+      "effort": "medium",
+      "org": "OpenAI",
+      "release_date": "2025-04-16",
+      "notes": []
+    },
+    {
+      "benchmark": "arc-agi-2",
+      "model": "o4-mini",
+      "model_raw": "o4-mini (High)",
+      "score": 6.11,
+      "ci": null,
+      "effort": "high",
+      "org": "OpenAI",
+      "release_date": "2025-04-16",
+      "notes": []
+    },
+    {
+      "benchmark": "arc-agi-2",
+      "model": "gemini-2-5-flash",
+      "model_raw": "Gemini 2.5 Flash (Preview)",
+      "score": 1.69,
+      "ci": null,
+      "effort": null,
+      "org": "Google",
+      "release_date": "2025-05-20",
+      "notes": []
+    },
+    {
+      "benchmark": "arc-agi-2",
+      "model": "gemini-2-5-flash",
+      "model_raw": "Gemini 2.5 Flash (Preview) (Thinking 1K)",
+      "score": 2.16,
+      "ci": null,
+      "effort": null,
+      "org": "Google",
+      "release_date": "2025-05-20",
+      "notes": []
+    },
+    {
+      "benchmark": "arc-agi-2",
+      "model": "gemini-2-5-flash",
+      "model_raw": "Gemini 2.5 Flash (Preview) (Thinking 8K)",
+      "score": 2.12,
+      "ci": null,
+      "effort": null,
+      "org": "Google",
+      "release_date": "2025-05-20",
+      "notes": []
+    },
+    {
+      "benchmark": "arc-agi-2",
+      "model": "gemini-2-5-flash",
+      "model_raw": "Gemini 2.5 Flash (Preview) (Thinking 16K)",
+      "score": 1.98,
+      "ci": null,
+      "effort": null,
+      "org": "Google",
+      "release_date": "2025-05-20",
+      "notes": []
+    },
+    {
+      "benchmark": "arc-agi-2",
+      "model": "gemini-2-5-flash",
+      "model_raw": "Gemini 2.5 Flash (Preview) (Thinking 24K)",
+      "score": 2.54,
+      "ci": null,
+      "effort": null,
+      "org": "Google",
+      "release_date": "2025-05-20",
+      "notes": []
+    },
+    {
+      "benchmark": "arc-agi-2",
+      "model": "codex-mini",
+      "model_raw": "Codex Mini (Latest)",
+      "score": 1.27,
+      "ci": null,
+      "effort": null,
+      "org": "OpenAI",
+      "release_date": "2025-05-23",
+      "notes": []
+    },
+    {
+      "benchmark": "arc-agi-2",
+      "model": "sonnet-4",
+      "model_raw": "Claude Sonnet 4",
+      "score": 1.27,
+      "ci": null,
+      "effort": null,
+      "org": "Anthropic",
+      "release_date": "2025-05-14",
+      "notes": []
+    },
+    {
+      "benchmark": "arc-agi-2",
+      "model": "sonnet-4",
+      "model_raw": "Claude Sonnet 4 (Thinking 1K)",
+      "score": 0.85,
+      "ci": null,
+      "effort": null,
+      "org": "Anthropic",
+      "release_date": "2025-05-14",
+      "notes": []
+    },
+    {
+      "benchmark": "arc-agi-2",
+      "model": "sonnet-4",
+      "model_raw": "Claude Sonnet 4 (Thinking 8K)",
+      "score": 2.12,
+      "ci": null,
+      "effort": null,
+      "org": "Anthropic",
+      "release_date": "2025-05-14",
+      "notes": []
+    },
+    {
+      "benchmark": "arc-agi-2",
+      "model": "sonnet-4",
+      "model_raw": "Claude Sonnet 4 (Thinking 16K)",
+      "score": 5.93,
+      "ci": null,
+      "effort": null,
+      "org": "Anthropic",
+      "release_date": "2025-05-14",
+      "notes": []
+    },
+    {
+      "benchmark": "arc-agi-2",
+      "model": "opus-4",
+      "model_raw": "Claude Opus 4 (Thinking 16K)",
+      "score": 8.61,
+      "ci": null,
+      "effort": null,
+      "org": "Anthropic",
+      "release_date": "2025-05-14",
+      "notes": []
+    },
+    {
+      "benchmark": "arc-agi-2",
+      "model": "opus-4",
+      "model_raw": "Claude Opus 4 (Thinking 8K)",
+      "score": 4.52,
+      "ci": null,
+      "effort": null,
+      "org": "Anthropic",
+      "release_date": "2025-05-14",
+      "notes": []
+    },
+    {
+      "benchmark": "arc-agi-2",
+      "model": "opus-4",
+      "model_raw": "Claude Opus 4 (Thinking 1K)",
+      "score": 0,
+      "ci": null,
+      "effort": null,
+      "org": "Anthropic",
+      "release_date": "2025-05-14",
+      "notes": []
+    },
+    {
+      "benchmark": "arc-agi-2",
+      "model": "opus-4",
+      "model_raw": "Claude Opus 4",
+      "score": 1.27,
+      "ci": null,
+      "effort": null,
+      "org": "Anthropic",
+      "release_date": "2025-05-14",
+      "notes": []
+    },
+    {
+      "benchmark": "arc-agi-2",
+      "model": "28",
+      "model_raw": "Deepseek R1 (05/28)",
+      "score": 1.12,
+      "ci": null,
+      "effort": null,
+      "org": "DeepSeek",
+      "release_date": "2025-05-28",
+      "notes": []
+    },
+    {
+      "benchmark": "arc-agi-2",
+      "model": "grok-3",
+      "model_raw": "Grok 3",
+      "score": 0,
+      "ci": null,
+      "effort": null,
+      "org": "xAI",
+      "release_date": "2025-02-19",
+      "notes": []
+    },
+    {
+      "benchmark": "arc-agi-2",
+      "model": "grok-3-mini",
+      "model_raw": "Grok 3 Mini (Low)",
+      "score": 0.42,
+      "ci": null,
+      "effort": "low",
+      "org": "xAI",
+      "release_date": "2025-02-19",
+      "notes": []
+    },
+    {
+      "benchmark": "arc-agi-2",
+      "model": "o3-pro",
+      "model_raw": "o3-Pro (Low)",
+      "score": 2.05,
+      "ci": null,
+      "effort": "low",
+      "org": "OpenAI",
+      "release_date": "2025-06-10",
+      "notes": []
+    },
+    {
+      "benchmark": "arc-agi-2",
+      "model": "o3-pro",
+      "model_raw": "o3-Pro (Medium)",
+      "score": 1.94,
+      "ci": null,
+      "effort": "medium",
+      "org": "OpenAI",
+      "release_date": "2025-06-10",
+      "notes": []
+    },
+    {
+      "benchmark": "arc-agi-2",
+      "model": "o3-pro",
+      "model_raw": "o3-Pro (High)",
+      "score": 4.86,
+      "ci": null,
+      "effort": "high",
+      "org": "OpenAI",
+      "release_date": "2025-06-10",
+      "notes": []
+    },
+    {
+      "benchmark": "arc-agi-2",
+      "model": "magistral-small",
+      "model_raw": "Magistral Small",
+      "score": 0,
+      "ci": null,
+      "effort": null,
+      "org": "Mistral",
+      "release_date": "2025-06-10",
+      "notes": []
+    },
+    {
+      "benchmark": "arc-agi-2",
+      "model": "magistral",
+      "model_raw": "Magistral Medium",
+      "score": 0,
+      "ci": null,
+      "effort": "medium",
+      "org": "Mistral",
+      "release_date": "2025-06-10",
+      "notes": []
+    },
+    {
+      "benchmark": "arc-agi-2",
+      "model": "magistral",
+      "model_raw": "Magistral Medium (Thinking)",
+      "score": 0,
+      "ci": null,
+      "effort": "thinking",
+      "org": "Mistral",
+      "release_date": "2025-06-10",
+      "notes": []
+    },
+    {
+      "benchmark": "arc-agi-2",
+      "model": "gemini-2-5-pro",
+      "model_raw": "Gemini 2.5 Pro (Thinking 1K)",
+      "score": 0,
+      "ci": null,
+      "effort": null,
+      "org": "Google",
+      "release_date": "2025-06-17",
+      "notes": []
+    },
+    {
+      "benchmark": "arc-agi-2",
+      "model": "gemini-2-5-pro",
+      "model_raw": "Gemini 2.5 Pro (Thinking 8K)",
+      "score": 2.92,
+      "ci": null,
+      "effort": null,
+      "org": "Google",
+      "release_date": "2025-06-17",
+      "notes": []
+    },
+    {
+      "benchmark": "arc-agi-2",
+      "model": "gemini-2-5-pro",
+      "model_raw": "Gemini 2.5 Pro (Thinking 16K)",
+      "score": 4.03,
+      "ci": null,
+      "effort": null,
+      "org": "Google",
+      "release_date": "2025-06-17",
+      "notes": []
+    },
+    {
+      "benchmark": "arc-agi-2",
+      "model": "gemini-2-5-pro",
+      "model_raw": "Gemini 2.5 Pro (Thinking 32K)",
+      "score": 4.86,
+      "ci": null,
+      "effort": null,
+      "org": "Google",
+      "release_date": "2025-06-17",
+      "notes": []
+    },
+    {
+      "benchmark": "arc-agi-2",
+      "model": "grok-4",
+      "model_raw": "Grok 4 (Thinking)",
+      "score": 15.975,
+      "ci": null,
+      "effort": "thinking",
+      "org": "xAI",
+      "release_date": "2025-07-09",
+      "notes": []
+    },
+    {
+      "benchmark": "arc-agi-2",
+      "model": "07",
+      "model_raw": "Qwen3-235b-a22b Instruct (25/07)",
+      "score": 1.25,
+      "ci": null,
+      "effort": null,
+      "org": "Alibaba",
+      "release_date": "2025-07-25",
+      "notes": []
+    },
+    {
+      "benchmark": "arc-agi-2",
+      "model": "gpt-5",
+      "model_raw": "GPT-5 (High)",
+      "score": 9.86,
+      "ci": null,
+      "effort": "high",
+      "org": "OpenAI",
+      "release_date": "2025-08-07",
+      "notes": []
+    },
+    {
+      "benchmark": "arc-agi-2",
+      "model": "gpt-5",
+      "model_raw": "GPT-5 (Medium)",
+      "score": 7.49,
+      "ci": null,
+      "effort": "medium",
+      "org": "OpenAI",
+      "release_date": "2025-08-07",
+      "notes": []
+    },
+    {
+      "benchmark": "arc-agi-2",
+      "model": "gpt-5",
+      "model_raw": "GPT-5 (Low)",
+      "score": 1.94,
+      "ci": null,
+      "effort": "low",
+      "org": "OpenAI",
+      "release_date": "2025-08-07",
+      "notes": []
+    },
+    {
+      "benchmark": "arc-agi-2",
+      "model": "gpt-5",
+      "model_raw": "GPT-5 (Minimal)",
+      "score": 0,
+      "ci": null,
+      "effort": "minimal",
+      "org": "OpenAI",
+      "release_date": "2025-08-07",
+      "notes": []
+    },
+    {
+      "benchmark": "arc-agi-2",
+      "model": "gpt-5-mini",
+      "model_raw": "GPT-5 Mini (High)",
+      "score": 4.44,
+      "ci": null,
+      "effort": "high",
+      "org": "OpenAI",
+      "release_date": "2025-08-07",
+      "notes": []
+    },
+    {
+      "benchmark": "arc-agi-2",
+      "model": "gpt-5-mini",
+      "model_raw": "GPT-5 Mini (Medium)",
+      "score": 4.03,
+      "ci": null,
+      "effort": "medium",
+      "org": "OpenAI",
+      "release_date": "2025-08-07",
+      "notes": []
+    },
+    {
+      "benchmark": "arc-agi-2",
+      "model": "gpt-5-mini",
+      "model_raw": "GPT-5 Mini (Low)",
+      "score": 0.83,
+      "ci": null,
+      "effort": "low",
+      "org": "OpenAI",
+      "release_date": "2025-08-07",
+      "notes": []
+    },
+    {
+      "benchmark": "arc-agi-2",
+      "model": "gpt-5-mini",
+      "model_raw": "GPT-5 Mini (Minimal)",
+      "score": 1.67,
+      "ci": null,
+      "effort": "minimal",
+      "org": "OpenAI",
+      "release_date": "2025-08-07",
+      "notes": []
+    },
+    {
+      "benchmark": "arc-agi-2",
+      "model": "gpt-5-nano",
+      "model_raw": "GPT-5 Nano (High)",
+      "score": 2.61,
+      "ci": null,
+      "effort": "high",
+      "org": "OpenAI",
+      "release_date": "2025-08-07",
+      "notes": []
+    },
+    {
+      "benchmark": "arc-agi-2",
+      "model": "gpt-5-nano",
+      "model_raw": "GPT-5 Nano (Medium)",
+      "score": 0.88,
+      "ci": null,
+      "effort": "medium",
+      "org": "OpenAI",
+      "release_date": "2025-08-07",
+      "notes": []
+    },
+    {
+      "benchmark": "arc-agi-2",
+      "model": "gpt-5-nano",
+      "model_raw": "GPT-5 Nano (Low)",
+      "score": 0,
+      "ci": null,
+      "effort": "low",
+      "org": "OpenAI",
+      "release_date": "2025-08-07",
+      "notes": []
+    },
+    {
+      "benchmark": "arc-agi-2",
+      "model": "gpt-5-nano",
+      "model_raw": "GPT-5 Nano (Minimal)",
+      "score": 0,
+      "ci": null,
+      "effort": "minimal",
+      "org": "OpenAI",
+      "release_date": "2025-08-07",
+      "notes": []
+    },
+    {
+      "benchmark": "arc-agi-2",
+      "model": "grok-4",
+      "model_raw": "Grok 4 (Refine.)",
+      "score": 29.44,
+      "ci": null,
+      "effort": null,
+      "org": "j_berman",
+      "release_date": "2025-08-07",
+      "notes": []
+    },
+    {
+      "benchmark": "arc-agi-2",
+      "model": "sonnet-4-5",
+      "model_raw": "Claude Sonnet 4.5",
+      "score": 3.75,
+      "ci": null,
+      "effort": null,
+      "org": "Anthropic",
+      "release_date": "2025-09-29",
+      "notes": []
+    },
+    {
+      "benchmark": "arc-agi-2",
+      "model": "sonnet-4-5",
+      "model_raw": "Claude Sonnet 4.5 (Thinking 1K)",
+      "score": 5.83,
+      "ci": null,
+      "effort": null,
+      "org": "Anthropic",
+      "release_date": "2025-09-29",
+      "notes": []
+    },
+    {
+      "benchmark": "arc-agi-2",
+      "model": "sonnet-4-5",
+      "model_raw": "Claude Sonnet 4.5 (Thinking 8K)",
+      "score": 6.94,
+      "ci": null,
+      "effort": null,
+      "org": "Anthropic",
+      "release_date": "2025-09-29",
+      "notes": []
+    },
+    {
+      "benchmark": "arc-agi-2",
+      "model": "sonnet-4-5",
+      "model_raw": "Claude Sonnet 4.5 (Thinking 16K)",
+      "score": 6.94,
+      "ci": null,
+      "effort": null,
+      "org": "Anthropic",
+      "release_date": "2025-09-29",
+      "notes": []
+    },
+    {
+      "benchmark": "arc-agi-2",
+      "model": "sonnet-4-5",
+      "model_raw": "Claude Sonnet 4.5 (Thinking 32K)",
+      "score": 13.61,
+      "ci": null,
+      "effort": null,
+      "org": "Anthropic",
+      "release_date": "2025-09-29",
+      "notes": []
+    },
+    {
+      "benchmark": "arc-agi-2",
+      "model": "gpt-5-pro",
+      "model_raw": "GPT-5 Pro",
+      "score": 18.33,
+      "ci": null,
+      "effort": null,
+      "org": "OpenAI",
+      "release_date": "2025-10-06",
+      "notes": []
+    },
+    {
+      "benchmark": "arc-agi-2",
+      "model": "tiny-recursion-model",
+      "model_raw": "Tiny Recursion Model (TRM)",
+      "score": 6.25,
+      "ci": null,
+      "effort": null,
+      "org": "bespoke",
+      "release_date": "2025-10-07",
+      "notes": []
+    },
+    {
+      "benchmark": "arc-agi-2",
+      "model": "haiku-4-5",
+      "model_raw": "Claude Haiku 4.5",
+      "score": 1.25,
+      "ci": null,
+      "effort": null,
+      "org": "Anthropic",
+      "release_date": "2025-10-01",
+      "notes": []
+    },
+    {
+      "benchmark": "arc-agi-2",
+      "model": "haiku-4-5",
+      "model_raw": "Claude Haiku 4.5 (Thinking 1K)",
+      "score": 1.25,
+      "ci": null,
+      "effort": null,
+      "org": "Anthropic",
+      "release_date": "2025-10-01",
+      "notes": []
+    },
+    {
+      "benchmark": "arc-agi-2",
+      "model": "haiku-4-5",
+      "model_raw": "Claude Haiku 4.5 (Thinking 8K)",
+      "score": 1.67,
+      "ci": null,
+      "effort": null,
+      "org": "Anthropic",
+      "release_date": "2025-10-01",
+      "notes": []
+    },
+    {
+      "benchmark": "arc-agi-2",
+      "model": "haiku-4-5",
+      "model_raw": "Claude Haiku 4.5 (Thinking 16K)",
+      "score": 2.78,
+      "ci": null,
+      "effort": null,
+      "org": "Anthropic",
+      "release_date": "2025-10-01",
+      "notes": []
+    },
+    {
+      "benchmark": "arc-agi-2",
+      "model": "haiku-4-5",
+      "model_raw": "Claude Haiku 4.5 (Thinking 32K)",
+      "score": 4.03,
+      "ci": null,
+      "effort": null,
+      "org": "Anthropic",
+      "release_date": "2025-10-01",
+      "notes": []
+    },
+    {
+      "benchmark": "arc-agi-2",
+      "model": "grok-4",
+      "model_raw": "Grok 4 (Fast Reasoning)",
+      "score": 5.28,
+      "ci": null,
+      "effort": null,
+      "org": "xAI",
+      "release_date": "2025-10-21",
+      "notes": []
+    },
+    {
+      "benchmark": "arc-agi-2",
+      "model": "gpt-5-1",
+      "model_raw": "GPT-5.1 (Thinking, None)",
+      "score": 0.42,
+      "ci": null,
+      "effort": null,
+      "org": "OpenAI",
+      "release_date": "2025-11-13",
+      "notes": []
+    },
+    {
+      "benchmark": "arc-agi-2",
+      "model": "gpt-5-1",
+      "model_raw": "GPT-5.1 (Thinking, Low)",
+      "score": 1.94,
+      "ci": null,
+      "effort": null,
+      "org": "OpenAI",
+      "release_date": "2025-11-13",
+      "notes": []
+    },
+    {
+      "benchmark": "arc-agi-2",
+      "model": "gpt-5-1",
+      "model_raw": "GPT-5.1 (Thinking, Medium)",
+      "score": 6.53,
+      "ci": null,
+      "effort": null,
+      "org": "OpenAI",
+      "release_date": "2025-11-13",
+      "notes": []
+    },
+    {
+      "benchmark": "arc-agi-2",
+      "model": "gpt-5-1",
+      "model_raw": "GPT-5.1 (Thinking, High)",
+      "score": 17.64,
+      "ci": null,
+      "effort": null,
+      "org": "OpenAI",
+      "release_date": "2025-11-13",
+      "notes": []
+    },
+    {
+      "benchmark": "arc-agi-2",
+      "model": "gemini-3-pro",
+      "model_raw": "Gemini 3 Pro",
+      "score": 31.11,
+      "ci": null,
+      "effort": null,
+      "org": "Google",
+      "release_date": "2025-11-18",
+      "notes": []
+    },
+    {
+      "benchmark": "arc-agi-2",
+      "model": "gemini-3-deep-think",
+      "model_raw": "Gemini 3 Deep Think (Preview) \u00b2",
+      "score": 45.14,
+      "ci": null,
+      "effort": null,
+      "org": "Google",
+      "release_date": "2026-02-12",
+      "notes": []
+    },
+    {
+      "benchmark": "arc-agi-2",
+      "model": "opus-4-5",
+      "model_raw": "Opus 4.5 (Thinking, None)",
+      "score": 7.78,
+      "ci": null,
+      "effort": null,
+      "org": "Anthropic",
+      "release_date": "2025-11-24",
+      "notes": []
+    },
+    {
+      "benchmark": "arc-agi-2",
+      "model": "opus-4-5",
+      "model_raw": "Opus 4.5 (Thinking, 8K)",
+      "score": 13.89,
+      "ci": null,
+      "effort": null,
+      "org": "Anthropic",
+      "release_date": "2025-11-24",
+      "notes": []
+    },
+    {
+      "benchmark": "arc-agi-2",
+      "model": "opus-4-5",
+      "model_raw": "Opus 4.5 (Thinking, 16K)",
+      "score": 22.78,
+      "ci": null,
+      "effort": null,
+      "org": "Anthropic",
+      "release_date": "2025-11-24",
+      "notes": []
+    },
+    {
+      "benchmark": "arc-agi-2",
+      "model": "opus-4-5",
+      "model_raw": "Opus 4.5 (Thinking, 64K)",
+      "score": 37.64,
+      "ci": null,
+      "effort": null,
+      "org": "Anthropic",
+      "release_date": "2025-11-24",
+      "notes": []
+    },
+    {
+      "benchmark": "arc-agi-2",
+      "model": "gemini-3-pro",
+      "model_raw": "Gemini 3 Pro (Refine.)",
+      "score": 54.0,
+      "ci": null,
+      "effort": null,
+      "org": "poetiq",
+      "release_date": "2025-12-04",
+      "notes": []
+    },
+    {
+      "benchmark": "arc-agi-2",
+      "model": "gpt-5-2",
+      "model_raw": "GPT-5.2",
+      "score": 0.83,
+      "ci": null,
+      "effort": null,
+      "org": "OpenAI",
+      "release_date": "2025-12-11",
+      "notes": []
+    },
+    {
+      "benchmark": "arc-agi-2",
+      "model": "gpt-5-2",
+      "model_raw": "GPT-5.2 (Low)",
+      "score": 9.72,
+      "ci": null,
+      "effort": "low",
+      "org": "OpenAI",
+      "release_date": "2025-12-11",
+      "notes": []
+    },
+    {
+      "benchmark": "arc-agi-2",
+      "model": "gpt-5-2",
+      "model_raw": "GPT-5.2 (Medium)",
+      "score": 26.67,
+      "ci": null,
+      "effort": "medium",
+      "org": "OpenAI",
+      "release_date": "2025-12-11",
+      "notes": []
+    },
+    {
+      "benchmark": "arc-agi-2",
+      "model": "gpt-5-2",
+      "model_raw": "GPT-5.2 (High)",
+      "score": 43.33,
+      "ci": null,
+      "effort": "high",
+      "org": "OpenAI",
+      "release_date": "2025-12-11",
+      "notes": []
+    },
+    {
+      "benchmark": "arc-agi-2",
+      "model": "gpt-5-2",
+      "model_raw": "GPT-5.2 (XHigh)",
+      "score": 52.91,
+      "ci": null,
+      "effort": "xhigh",
+      "org": "OpenAI",
+      "release_date": "2025-12-11",
+      "notes": []
+    },
+    {
+      "benchmark": "arc-agi-2",
+      "model": "gpt-5-2-pro",
+      "model_raw": "GPT-5.2 Pro (Medium)",
+      "score": 38.47,
+      "ci": null,
+      "effort": "medium",
+      "org": "OpenAI",
+      "release_date": "2025-12-11",
+      "notes": []
+    },
+    {
+      "benchmark": "arc-agi-2",
+      "model": "gpt-5-2-pro",
+      "model_raw": "GPT-5.2 Pro (High)",
+      "score": 54.16,
+      "ci": null,
+      "effort": "high",
+      "org": "OpenAI",
+      "release_date": "2025-12-11",
+      "notes": []
+    },
+    {
+      "benchmark": "arc-agi-2",
+      "model": "gemini-3-flash-preview",
+      "model_raw": "Gemini 3 Flash Preview (Minimal)",
+      "score": 3.33,
+      "ci": null,
+      "effort": "minimal",
+      "org": "Google",
+      "release_date": "2025-12-17",
+      "notes": []
+    },
+    {
+      "benchmark": "arc-agi-2",
+      "model": "gemini-3-flash-preview",
+      "model_raw": "Gemini 3 Flash Preview (Low)",
+      "score": 1.25,
+      "ci": null,
+      "effort": "low",
+      "org": "Google",
+      "release_date": "2025-12-17",
+      "notes": []
+    },
+    {
+      "benchmark": "arc-agi-2",
+      "model": "gemini-3-flash-preview",
+      "model_raw": "Gemini 3 Flash Preview (Medium)",
+      "score": 12.78,
+      "ci": null,
+      "effort": "medium",
+      "org": "Google",
+      "release_date": "2025-12-17",
+      "notes": []
+    },
+    {
+      "benchmark": "arc-agi-2",
+      "model": "gemini-3-flash-preview",
+      "model_raw": "Gemini 3 Flash Preview (High)",
+      "score": 33.61,
+      "ci": null,
+      "effort": "high",
+      "org": "Google",
+      "release_date": "2025-12-17",
+      "notes": []
+    },
+    {
+      "benchmark": "arc-agi-2",
+      "model": "grok-4-20",
+      "model_raw": "Grok 4.20 (Reasoning)",
+      "score": 65.14,
+      "ci": null,
+      "effort": null,
+      "org": "xAI",
+      "release_date": "2026-03-09",
+      "notes": []
+    },
+    {
+      "benchmark": "arc-agi-2",
+      "model": "gpt-5-2",
+      "model_raw": "GPT-5.2 (Refine.)",
+      "score": 72.9,
+      "ci": null,
+      "effort": null,
+      "org": "johan_land",
+      "release_date": "2026-02-03",
+      "notes": []
+    },
+    {
+      "benchmark": "arc-agi-2",
+      "model": "opus-4-6",
+      "model_raw": "Claude Opus 4.6 (120K, Low)",
+      "score": 64.58,
+      "ci": null,
+      "effort": null,
+      "org": "Anthropic",
+      "release_date": "2026-02-05",
+      "notes": [
+        "Evaluation conducted with a 120K thinking budget and a maximum context window of 128K tokens and 'low' output effort."
+      ]
+    },
+    {
+      "benchmark": "arc-agi-2",
+      "model": "opus-4-6",
+      "model_raw": "Claude Opus 4.6 (120K, Medium)",
+      "score": 66.25,
+      "ci": null,
+      "effort": null,
+      "org": "Anthropic",
+      "release_date": "2026-02-05",
+      "notes": [
+        "Evaluation conducted with a 120K thinking budget and a maximum context window of 128K tokens and 'medium' output effort."
+      ]
+    },
+    {
+      "benchmark": "arc-agi-2",
+      "model": "opus-4-6",
+      "model_raw": "Claude Opus 4.6 (120K, High)",
+      "score": 69.17,
+      "ci": null,
+      "effort": null,
+      "org": "Anthropic",
+      "release_date": "2026-02-05",
+      "notes": [
+        "Evaluation conducted with a 120K thinking budget and a maximum context window of 128K tokens and 'high' output effort."
+      ]
+    },
+    {
+      "benchmark": "arc-agi-2",
+      "model": "opus-4-6",
+      "model_raw": "Claude Opus 4.6 (120K, Max)",
+      "score": 68.75,
+      "ci": null,
+      "effort": null,
+      "org": "Anthropic",
+      "release_date": "2026-02-05",
+      "notes": [
+        "Evaluation conducted with a 120K thinking budget and a maximum context window of 128K tokens and 'max' output effort."
+      ]
+    },
+    {
+      "benchmark": "arc-agi-2",
+      "model": "opus-4-8",
+      "model_raw": "Claude Opus 4.8 (Low)",
+      "score": 62.22,
+      "ci": null,
+      "effort": "low",
+      "org": "Anthropic",
+      "release_date": "2026-06-01",
+      "notes": [
+        "Evaluation conducted with 'low' output effort."
+      ]
+    },
+    {
+      "benchmark": "arc-agi-2",
+      "model": "opus-4-8",
+      "model_raw": "Claude Opus 4.8 (Medium)",
+      "score": 71.67,
+      "ci": null,
+      "effort": "medium",
+      "org": "Anthropic",
+      "release_date": "2026-06-01",
+      "notes": [
+        "Evaluation conducted with 'medium' output effort."
+      ]
+    },
+    {
+      "benchmark": "arc-agi-2",
+      "model": "opus-4-8",
+      "model_raw": "Claude Opus 4.8 (High)",
+      "score": 72.08,
+      "ci": null,
+      "effort": "high",
+      "org": "Anthropic",
+      "release_date": "2026-06-01",
+      "notes": [
+        "Evaluation conducted with 'high' output effort."
+      ]
+    },
+    {
+      "benchmark": "arc-agi-2",
+      "model": "26",
+      "model_raw": "Gemini 3 Deep Think (2/26)",
+      "score": 84.58,
+      "ci": null,
+      "effort": null,
+      "org": "Google",
+      "release_date": "2026-02-12",
+      "notes": []
+    },
+    {
+      "benchmark": "arc-agi-2",
+      "model": "sonnet-4-6",
+      "model_raw": "Claude Sonnet 4.6 (Max)",
+      "score": 58.33,
+      "ci": null,
+      "effort": "max",
+      "org": "Anthropic",
+      "release_date": "2026-02-17",
+      "notes": [
+        "Evaluation conducted with a 120K thinking budget and a maximum context window of 128K tokens and 'max' output effort."
+      ]
+    },
+    {
+      "benchmark": "arc-agi-2",
+      "model": "sonnet-4-6",
+      "model_raw": "Claude Sonnet 4.6 (High)",
+      "score": 60.42,
+      "ci": null,
+      "effort": "high",
+      "org": "Anthropic",
+      "release_date": "2026-02-17",
+      "notes": [
+        "Evaluation conducted with a 120K thinking budget and a maximum context window of 128K tokens and 'high' output effort."
+      ]
+    },
+    {
+      "benchmark": "arc-agi-2",
+      "model": "gemini-3-1-pro",
+      "model_raw": "Gemini 3.1 Pro (Preview)",
+      "score": 77.08,
+      "ci": null,
+      "effort": null,
+      "org": "Google",
+      "release_date": "2026-02-19",
+      "notes": []
+    },
+    {
+      "benchmark": "arc-agi-2",
+      "model": "kimi-k2-5",
+      "model_raw": "Kimi K2.5",
+      "score": 11.81,
+      "ci": null,
+      "effort": null,
+      "org": "Moonshot AI",
+      "release_date": "2026-01-27",
+      "notes": []
+    },
+    {
+      "benchmark": "arc-agi-2",
+      "model": "minimax-m2-5",
+      "model_raw": "Minimax M2.5",
+      "score": 4.86,
+      "ci": null,
+      "effort": null,
+      "org": "Minimax",
+      "release_date": "2026-02-12",
+      "notes": []
+    },
+    {
+      "benchmark": "arc-agi-2",
+      "model": "deepseek-v3-2",
+      "model_raw": "Deepseek V3.2",
+      "score": 4.03,
+      "ci": null,
+      "effort": null,
+      "org": "DeepSeek",
+      "release_date": "2025-12-01",
+      "notes": []
+    },
+    {
+      "benchmark": "arc-agi-2",
+      "model": "glm-5",
+      "model_raw": "GLM-5",
+      "score": 4.86,
+      "ci": null,
+      "effort": null,
+      "org": "Z.ai",
+      "release_date": "2026-02-20",
+      "notes": []
+    },
+    {
+      "benchmark": "arc-agi-2",
+      "model": "gpt-5-4",
+      "model_raw": "GPT-5.4 (Low)",
+      "score": 29.17,
+      "ci": null,
+      "effort": "low",
+      "org": "OpenAI",
+      "release_date": "2026-03-04",
+      "notes": []
+    },
+    {
+      "benchmark": "arc-agi-2",
+      "model": "gpt-5-4",
+      "model_raw": "GPT-5.4 (Medium)",
+      "score": 55.42,
+      "ci": null,
+      "effort": "medium",
+      "org": "OpenAI",
+      "release_date": "2026-03-04",
+      "notes": []
+    },
+    {
+      "benchmark": "arc-agi-2",
+      "model": "gpt-5-4",
+      "model_raw": "GPT-5.4 (High)",
+      "score": 67.5,
+      "ci": null,
+      "effort": "high",
+      "org": "OpenAI",
+      "release_date": "2026-03-04",
+      "notes": []
+    },
+    {
+      "benchmark": "arc-agi-2",
+      "model": "gpt-5-4",
+      "model_raw": "GPT-5.4 (XHigh)",
+      "score": 73.95,
+      "ci": null,
+      "effort": "xhigh",
+      "org": "OpenAI",
+      "release_date": "2026-03-04",
+      "notes": []
+    },
+    {
+      "benchmark": "arc-agi-2",
+      "model": "gpt-5-4-pro",
+      "model_raw": "GPT-5.4 Pro (XHigh)",
+      "score": 83.33,
+      "ci": null,
+      "effort": "xhigh",
+      "org": "OpenAI",
+      "release_date": "2026-03-04",
+      "notes": []
+    },
+    {
+      "benchmark": "arc-agi-2",
+      "model": "gpt-5-4-mini",
+      "model_raw": "GPT-5.4 Mini (XHigh)",
+      "score": 18.9,
+      "ci": null,
+      "effort": "xhigh",
+      "org": "OpenAI",
+      "release_date": "2026-03-17",
+      "notes": []
+    },
+    {
+      "benchmark": "arc-agi-2",
+      "model": "gpt-5-4-mini",
+      "model_raw": "GPT-5.4 Mini (High)",
+      "score": 13.19,
+      "ci": null,
+      "effort": "high",
+      "org": "OpenAI",
+      "release_date": "2026-03-17",
+      "notes": []
+    },
+    {
+      "benchmark": "arc-agi-2",
+      "model": "gpt-5-4-mini",
+      "model_raw": "GPT-5.4 Mini (Medium)",
+      "score": 4.44,
+      "ci": null,
+      "effort": "medium",
+      "org": "OpenAI",
+      "release_date": "2026-03-17",
+      "notes": []
+    },
+    {
+      "benchmark": "arc-agi-2",
+      "model": "gpt-5-4-mini",
+      "model_raw": "GPT-5.4 Mini (Low)",
+      "score": 1.11,
+      "ci": null,
+      "effort": "low",
+      "org": "OpenAI",
+      "release_date": "2026-03-17",
+      "notes": []
+    },
+    {
+      "benchmark": "arc-agi-2",
+      "model": "gpt-5-4-nano",
+      "model_raw": "GPT-5.4 Nano (XHigh)",
+      "score": 5.69,
+      "ci": null,
+      "effort": "xhigh",
+      "org": "OpenAI",
+      "release_date": "2026-03-17",
+      "notes": []
+    },
+    {
+      "benchmark": "arc-agi-2",
+      "model": "gpt-5-4-nano",
+      "model_raw": "GPT-5.4 Nano (High)",
+      "score": 3.61,
+      "ci": null,
+      "effort": "high",
+      "org": "OpenAI",
+      "release_date": "2026-03-17",
+      "notes": []
+    },
+    {
+      "benchmark": "arc-agi-2",
+      "model": "gpt-5-4-nano",
+      "model_raw": "GPT-5.4 Nano (Medium)",
+      "score": 1.94,
+      "ci": null,
+      "effort": "medium",
+      "org": "OpenAI",
+      "release_date": "2026-03-17",
+      "notes": []
+    },
+    {
+      "benchmark": "arc-agi-2",
+      "model": "gpt-5-4-nano",
+      "model_raw": "GPT-5.4 Nano (Low)",
+      "score": 1.53,
+      "ci": null,
+      "effort": "low",
+      "org": "OpenAI",
+      "release_date": "2026-03-17",
+      "notes": []
+    },
+    {
+      "benchmark": "arc-agi-2",
+      "model": "opus-4-7",
+      "model_raw": "Claude 4.7 (Low)",
+      "score": 62.08,
+      "ci": null,
+      "effort": "low",
+      "org": "Anthropic",
+      "release_date": "2026-04-16",
+      "notes": []
+    },
+    {
+      "benchmark": "arc-agi-2",
+      "model": "opus-4-7",
+      "model_raw": "Claude 4.7 (Medium)",
+      "score": 67.5,
+      "ci": null,
+      "effort": "medium",
+      "org": "Anthropic",
+      "release_date": "2026-04-16",
+      "notes": []
+    },
+    {
+      "benchmark": "arc-agi-2",
+      "model": "opus-4-7",
+      "model_raw": "Claude 4.7 (High)",
+      "score": 68.33,
+      "ci": null,
+      "effort": "high",
+      "org": "Anthropic",
+      "release_date": "2026-04-16",
+      "notes": []
+    },
+    {
+      "benchmark": "arc-agi-2",
+      "model": "opus-4-7",
+      "model_raw": "Claude 4.7 (Max)",
+      "score": 75.83,
+      "ci": null,
+      "effort": "max",
+      "org": "Anthropic",
+      "release_date": "2026-04-16",
+      "notes": []
+    },
+    {
+      "benchmark": "arc-agi-2",
+      "model": "gpt-5-5",
+      "model_raw": "GPT-5.5 (Low)",
+      "score": 33.33,
+      "ci": null,
+      "effort": "low",
+      "org": "OpenAI",
+      "release_date": "2026-04-22",
+      "notes": []
+    },
+    {
+      "benchmark": "arc-agi-2",
+      "model": "gpt-5-5",
+      "model_raw": "GPT-5.5 (Medium)",
+      "score": 70.42,
+      "ci": null,
+      "effort": "medium",
+      "org": "OpenAI",
+      "release_date": "2026-04-22",
+      "notes": []
+    },
+    {
+      "benchmark": "arc-agi-2",
+      "model": "gpt-5-5",
+      "model_raw": "GPT-5.5 (High)",
+      "score": 83.33,
+      "ci": null,
+      "effort": "high",
+      "org": "OpenAI",
+      "release_date": "2026-04-22",
+      "notes": []
+    },
+    {
+      "benchmark": "arc-agi-2",
+      "model": "gpt-5-5",
+      "model_raw": "GPT-5.5 (XHigh)",
+      "score": 85.0,
+      "ci": null,
+      "effort": "xhigh",
+      "org": "OpenAI",
+      "release_date": "2026-04-22",
+      "notes": []
+    },
+    {
+      "benchmark": "arc-agi-2",
+      "model": "gpt-5-5-pro",
+      "model_raw": "GPT-5.5 Pro (High)",
+      "score": 84.58,
+      "ci": null,
+      "effort": "high",
+      "org": "OpenAI",
+      "release_date": "2026-04-23",
+      "notes": []
+    },
+    {
+      "benchmark": "arc-agi-2",
+      "model": "gpt-5-5-pro",
+      "model_raw": "GPT-5.5 Pro (XHigh)",
+      "score": 84.16,
+      "ci": null,
+      "effort": "xhigh",
+      "org": "OpenAI",
+      "release_date": "2026-04-23",
+      "notes": []
+    },
+    {
+      "benchmark": "arc-agi-2",
+      "model": "gemini-3-5-flash",
+      "model_raw": "Gemini 3.5 Flash (Minimal)",
+      "score": 8.89,
+      "ci": null,
+      "effort": "minimal",
+      "org": "Google",
+      "release_date": "2026-05-19",
+      "notes": []
+    },
+    {
+      "benchmark": "arc-agi-2",
+      "model": "gemini-3-5-flash",
+      "model_raw": "Gemini 3.5 Flash (High)",
+      "score": 72.08,
+      "ci": null,
+      "effort": "high",
+      "org": "Google",
+      "release_date": "2026-05-19",
+      "notes": []
+    },
+    {
+      "benchmark": "arc-agi-2",
+      "model": "gpt-5-6-sol",
+      "model_raw": "GPT-5.6 Sol (Low)",
+      "score": 42.5,
+      "ci": null,
+      "effort": "low",
+      "org": "OpenAI",
+      "release_date": "2026-07-09",
+      "notes": []
+    },
+    {
+      "benchmark": "arc-agi-2",
+      "model": "gpt-5-6-sol",
+      "model_raw": "GPT-5.6 Sol (Medium)",
+      "score": 67.08,
+      "ci": null,
+      "effort": "medium",
+      "org": "OpenAI",
+      "release_date": "2026-07-09",
+      "notes": []
+    },
+    {
+      "benchmark": "arc-agi-2",
+      "model": "gpt-5-6-sol",
+      "model_raw": "GPT-5.6 Sol (High)",
+      "score": 85.42,
+      "ci": null,
+      "effort": "high",
+      "org": "OpenAI",
+      "release_date": "2026-07-09",
+      "notes": []
+    },
+    {
+      "benchmark": "arc-agi-2",
+      "model": "gpt-5-6-sol",
+      "model_raw": "GPT-5.6 Sol (XHigh)",
+      "score": 90.0,
+      "ci": null,
+      "effort": "xhigh",
+      "org": "OpenAI",
+      "release_date": "2026-07-09",
+      "notes": []
+    },
+    {
+      "benchmark": "arc-agi-2",
+      "model": "gpt-5-6-sol",
+      "model_raw": "GPT-5.6 Sol (Max)",
+      "score": 92.5,
+      "ci": null,
+      "effort": "max",
+      "org": "OpenAI",
+      "release_date": "2026-07-09",
+      "notes": []
+    },
+    {
+      "benchmark": "arc-agi-2",
+      "model": "gpt-5-6-terra",
+      "model_raw": "GPT-5.6 Terra (Low)",
+      "score": 18.75,
+      "ci": null,
+      "effort": "low",
+      "org": "OpenAI",
+      "release_date": "2026-07-09",
+      "notes": []
+    },
+    {
+      "benchmark": "arc-agi-2",
+      "model": "gpt-5-6-terra",
+      "model_raw": "GPT-5.6 Terra (Medium)",
+      "score": 37.5,
+      "ci": null,
+      "effort": "medium",
+      "org": "OpenAI",
+      "release_date": "2026-07-09",
+      "notes": []
+    },
+    {
+      "benchmark": "arc-agi-2",
+      "model": "gpt-5-6-terra",
+      "model_raw": "GPT-5.6 Terra (High)",
+      "score": 67.08,
+      "ci": null,
+      "effort": "high",
+      "org": "OpenAI",
+      "release_date": "2026-07-09",
+      "notes": []
+    },
+    {
+      "benchmark": "arc-agi-2",
+      "model": "gpt-5-6-terra",
+      "model_raw": "GPT-5.6 Terra (XHigh)",
+      "score": 74.17,
+      "ci": null,
+      "effort": "xhigh",
+      "org": "OpenAI",
+      "release_date": "2026-07-09",
+      "notes": []
+    },
+    {
+      "benchmark": "arc-agi-2",
+      "model": "gpt-5-6-terra",
+      "model_raw": "GPT-5.6 Terra (Max)",
+      "score": 83.9,
+      "ci": null,
+      "effort": "max",
+      "org": "OpenAI",
+      "release_date": "2026-07-09",
+      "notes": []
+    },
+    {
+      "benchmark": "arc-agi-2",
+      "model": "gpt-5-6-luna",
+      "model_raw": "GPT-5.6 Luna (Low)",
+      "score": 5.14,
+      "ci": null,
+      "effort": "low",
+      "org": "OpenAI",
+      "release_date": "2026-07-09",
+      "notes": []
+    },
+    {
+      "benchmark": "arc-agi-2",
+      "model": "gpt-5-6-luna",
+      "model_raw": "GPT-5.6 Luna (Medium)",
+      "score": 7.36,
+      "ci": null,
+      "effort": "medium",
+      "org": "OpenAI",
+      "release_date": "2026-07-09",
+      "notes": []
+    },
+    {
+      "benchmark": "arc-agi-2",
+      "model": "gpt-5-6-luna",
+      "model_raw": "GPT-5.6 Luna (High)",
+      "score": 29.31,
+      "ci": null,
+      "effort": "high",
+      "org": "OpenAI",
+      "release_date": "2026-07-09",
+      "notes": []
+    },
+    {
+      "benchmark": "arc-agi-2",
+      "model": "gpt-5-6-luna",
+      "model_raw": "GPT-5.6 Luna (XHigh)",
+      "score": 47.64,
+      "ci": null,
+      "effort": "xhigh",
+      "org": "OpenAI",
+      "release_date": "2026-07-09",
+      "notes": []
+    },
+    {
+      "benchmark": "arc-agi-2",
+      "model": "gpt-5-6-luna",
+      "model_raw": "GPT-5.6 Luna (Max)",
+      "score": 59.54,
+      "ci": null,
+      "effort": "max",
+      "org": "OpenAI",
+      "release_date": "2026-07-09",
+      "notes": []
+    },
+    {
+      "benchmark": "arc-agi-2",
+      "model": "glm-5-2",
+      "model_raw": "GLM-5.2",
+      "score": 22.775,
+      "ci": null,
+      "effort": null,
+      "org": "Z.ai",
+      "release_date": "2026-06-13",
+      "notes": []
+    },
+    {
+      "benchmark": "arc-agi-2",
+      "model": "inkling",
+      "model_raw": "Inkling",
+      "score": 36.528,
+      "ci": null,
+      "effort": null,
+      "org": "Thinking Machines",
+      "release_date": "2026-07-15",
+      "notes": []
+    },
+    {
+      "benchmark": "arc-agi-2",
+      "model": "grok-4-5",
+      "model_raw": "Grok 4.5 (High)",
+      "score": 52.64,
+      "ci": null,
+      "effort": "high",
+      "org": "xAI",
+      "release_date": "2026-07-16",
+      "notes": []
+    },
+    {
+      "benchmark": "arc-agi-2",
+      "model": "grok-4-5",
+      "model_raw": "Grok 4.5 (Medium)",
+      "score": 52.64,
+      "ci": null,
+      "effort": "medium",
+      "org": "xAI",
+      "release_date": "2026-07-16",
+      "notes": []
+    },
+    {
+      "benchmark": "arc-agi-2",
+      "model": "grok-4-5",
+      "model_raw": "Grok 4.5 (Low)",
+      "score": 33.06,
+      "ci": null,
+      "effort": "low",
+      "org": "xAI",
+      "release_date": "2026-07-16",
+      "notes": []
+    },
+    {
+      "benchmark": "arc-agi-2",
+      "model": "opus-5",
+      "model_raw": "Claude Opus 5 (High)",
+      "score": 88.33,
+      "ci": null,
+      "effort": "high",
+      "org": "Anthropic",
+      "release_date": "2026-07-24",
+      "notes": [
+        "Evaluation conducted with 'high' output effort."
+      ]
+    },
+    {
+      "benchmark": "arc-agi-2",
+      "model": "opus-5",
+      "model_raw": "Claude Opus 5 (Max)",
+      "score": 90.42,
+      "ci": null,
+      "effort": "max",
+      "org": "Anthropic",
+      "release_date": "2026-07-24",
+      "notes": [
+        "Evaluation conducted with 'max' output effort."
+      ]
+    },
+    {
+      "benchmark": "arc-agi-2",
+      "model": "inkling-small",
+      "model_raw": "Inkling Small (XHigh)",
+      "score": 40.139,
+      "ci": null,
+      "effort": "xhigh",
+      "org": "Thinking Machines",
+      "release_date": "2026-07-30",
+      "notes": [
+        "Evaluation conducted with 'xhigh' reasoning effort."
+      ]
+    },
+    {
+      "benchmark": "arc-agi-2",
+      "model": "inkling-small",
+      "model_raw": "Inkling Small (High)",
+      "score": 33.056,
+      "ci": null,
+      "effort": "high",
+      "org": "Thinking Machines",
+      "release_date": "2026-07-30",
+      "notes": [
+        "Evaluation conducted with 'high' reasoning effort."
+      ]
+    },
+    {
+      "benchmark": "arc-agi-2",
+      "model": "inkling-small",
+      "model_raw": "Inkling Small (Medium)",
+      "score": 13.611,
+      "ci": null,
+      "effort": "medium",
+      "org": "Thinking Machines",
+      "release_date": "2026-07-30",
+      "notes": [
+        "Evaluation conducted with 'medium' reasoning effort."
+      ]
+    },
+    {
+      "benchmark": "arc-agi-2",
+      "model": "inkling-small",
+      "model_raw": "Inkling Small (Low)",
+      "score": 4.861,
+      "ci": null,
+      "effort": "low",
+      "org": "Thinking Machines",
+      "release_date": "2026-07-30",
+      "notes": [
+        "Evaluation conducted with 'low' reasoning effort."
+      ]
+    },
+    {
+      "benchmark": "arc-agi-2",
+      "model": "inkling-small",
+      "model_raw": "Inkling Small (Minimal)",
+      "score": 4.028,
+      "ci": null,
+      "effort": "minimal",
+      "org": "Thinking Machines",
+      "release_date": "2026-07-30",
+      "notes": [
+        "Evaluation conducted with 'minimal' reasoning effort."
+      ]
+    },
+    {
+      "benchmark": "arc-agi-2",
+      "model": "inkling-small",
+      "model_raw": "Inkling Small (None)",
+      "score": 0,
+      "ci": null,
+      "effort": "none",
+      "org": "Thinking Machines",
+      "release_date": "2026-07-30",
+      "notes": [
+        "Evaluation conducted with 'none' reasoning effort."
+      ]
+    },
+    {
+      "benchmark": "arc-agi-2",
+      "model": "kimi-k3",
+      "model_raw": "Kimi K3 (Max)",
+      "score": 60.417,
+      "ci": null,
+      "effort": "max",
+      "org": "Moonshot AI",
+      "release_date": "2026-07-16",
+      "notes": [
+        "Evaluation conducted with 'max' reasoning effort via Baseten."
+      ]
+    },
+    {
+      "benchmark": "arc-agi-2",
+      "model": "kimi-k3",
+      "model_raw": "Kimi K3 (High)",
+      "score": 55.0,
+      "ci": null,
+      "effort": "high",
+      "org": "Moonshot AI",
+      "release_date": "2026-07-16",
+      "notes": [
+        "Evaluation conducted with 'high' reasoning effort via Baseten."
+      ]
+    },
+    {
+      "benchmark": "arc-agi-2",
+      "model": "kimi-k3",
+      "model_raw": "Kimi K3 (Low)",
+      "score": 12.361,
+      "ci": null,
+      "effort": "low",
+      "org": "Moonshot AI",
+      "release_date": "2026-07-16",
+      "notes": [
+        "Evaluation conducted with 'low' reasoning effort via Baseten."
+      ]
+    },
+    {
+      "benchmark": "arc-agi-2",
+      "model": "fable-5",
+      "model_raw": "Claude Fable 5 (Max)",
+      "score": 89.167,
+      "ci": null,
+      "effort": "max",
+      "org": "Anthropic",
+      "release_date": "2026-06-09",
+      "notes": [
+        "Evaluation conducted with 'max' reasoning effort."
+      ]
+    },
+    {
+      "benchmark": "arc-agi-2",
+      "model": "fable-5",
+      "model_raw": "Claude Fable 5 (XHigh)",
+      "score": 88.333,
+      "ci": null,
+      "effort": "xhigh",
+      "org": "Anthropic",
+      "release_date": "2026-06-09",
+      "notes": [
+        "Evaluation conducted with 'xhigh' reasoning effort."
+      ]
+    },
+    {
+      "benchmark": "arc-agi-2",
+      "model": "fable-5",
+      "model_raw": "Claude Fable 5 (High)",
+      "score": 87.5,
+      "ci": null,
+      "effort": "high",
+      "org": "Anthropic",
+      "release_date": "2026-06-09",
+      "notes": [
+        "Evaluation conducted with 'high' reasoning effort."
+      ]
+    },
+    {
+      "benchmark": "arc-agi-2",
+      "model": "fable-5",
+      "model_raw": "Claude Fable 5 (Medium)",
+      "score": 82.5,
+      "ci": null,
+      "effort": "medium",
+      "org": "Anthropic",
+      "release_date": "2026-06-09",
+      "notes": [
+        "Evaluation conducted with 'medium' reasoning effort."
+      ]
+    },
+    {
+      "benchmark": "arc-agi-2",
+      "model": "fable-5",
+      "model_raw": "Claude Fable 5 (Low)",
+      "score": 76.806,
+      "ci": null,
+      "effort": "low",
+      "org": "Anthropic",
+      "release_date": "2026-06-09",
+      "notes": [
+        "Evaluation conducted with 'low' reasoning effort."
+      ]
+    },
+    {
+      "benchmark": "arc-agi-2",
+      "model": "deepseek-v4-flash-0731",
+      "model_raw": "DeepSeek V4 Flash 0731 (Max)",
+      "score": 61.389,
+      "ci": null,
+      "effort": "max",
+      "org": "DeepSeek",
+      "release_date": "2026-07-31",
+      "notes": [
+        "Evaluation conducted with 'max' reasoning effort."
+      ]
+    },
+    {
+      "benchmark": "arc-agi-2",
+      "model": "deepseek-v4-flash-0731",
+      "model_raw": "DeepSeek V4 Flash 0731 (High)",
+      "score": 55.972,
+      "ci": null,
+      "effort": "high",
+      "org": "DeepSeek",
+      "release_date": "2026-07-31",
+      "notes": [
+        "Evaluation conducted with 'high' reasoning effort."
+      ]
+    },
+    {
+      "benchmark": "arc-agi-2",
+      "model": "deepseek-v4-flash-0731",
+      "model_raw": "DeepSeek V4 Flash 0731 (Low)",
+      "score": 45.972,
+      "ci": null,
+      "effort": "low",
+      "org": "DeepSeek",
+      "release_date": "2026-07-31",
+      "notes": [
+        "Evaluation conducted with 'low' reasoning effort."
+      ]
+    },
+    {
+      "benchmark": "arc-agi-2",
+      "model": "deepseek-v4-flash-0731",
+      "model_raw": "DeepSeek V4 Flash 0731 (None)",
+      "score": 2.083,
+      "ci": null,
+      "effort": "none",
+      "org": "DeepSeek",
+      "release_date": "2026-07-31",
+      "notes": [
+        "Evaluation conducted with 'none' reasoning effort."
+      ]
+    },
+    {
+      "benchmark": "arc-agi-2",
+      "model": "gpt-5-6-luna",
+      "model_raw": "GPT-5.6 Luna 2026-07-30 (Max)",
+      "score": 59.583,
+      "ci": null,
+      "effort": "max",
+      "org": "OpenAI",
+      "release_date": "2026-07-30",
+      "notes": [
+        "Evaluation conducted with 'max' reasoning effort."
+      ]
+    },
+    {
+      "benchmark": "arc-agi-2",
+      "model": "gpt-5-6-luna",
+      "model_raw": "GPT-5.6 Luna 2026-07-30 (XHigh)",
+      "score": 43.472,
+      "ci": null,
+      "effort": "xhigh",
+      "org": "OpenAI",
+      "release_date": "2026-07-30",
+      "notes": [
+        "Evaluation conducted with 'xhigh' reasoning effort."
+      ]
+    },
+    {
+      "benchmark": "arc-agi-2",
+      "model": "gpt-5-6-luna",
+      "model_raw": "GPT-5.6 Luna 2026-07-30 (High)",
+      "score": 33.333,
+      "ci": null,
+      "effort": "high",
+      "org": "OpenAI",
+      "release_date": "2026-07-30",
+      "notes": [
+        "Evaluation conducted with 'high' reasoning effort."
+      ]
+    },
+    {
+      "benchmark": "arc-agi-2",
+      "model": "gpt-5-6-luna",
+      "model_raw": "GPT-5.6 Luna 2026-07-30 (Medium)",
+      "score": 7.361,
+      "ci": null,
+      "effort": "medium",
+      "org": "OpenAI",
+      "release_date": "2026-07-30",
+      "notes": [
+        "Evaluation conducted with 'medium' reasoning effort."
+      ]
+    },
+    {
+      "benchmark": "arc-agi-2",
+      "model": "gpt-5-6-luna",
+      "model_raw": "GPT-5.6 Luna 2026-07-30 (Low)",
+      "score": 3.611,
+      "ci": null,
+      "effort": "low",
+      "org": "OpenAI",
+      "release_date": "2026-07-30",
+      "notes": [
+        "Evaluation conducted with 'low' reasoning effort."
+      ]
+    },
+    {
+      "benchmark": "arc-agi-2",
+      "model": "gpt-5-6-luna",
+      "model_raw": "GPT-5.6 Luna 2026-07-30 (None)",
+      "score": 0.833,
+      "ci": null,
+      "effort": "none",
+      "org": "OpenAI",
+      "release_date": "2026-07-30",
+      "notes": [
+        "Evaluation conducted with 'none' reasoning effort."
+      ]
+    },
+    {
+      "benchmark": "arc-agi-2",
+      "model": "gemini-3-5-flash-lite",
+      "model_raw": "Gemini 3.5 Flash-Lite (High)",
+      "score": 10.278,
+      "ci": null,
+      "effort": "high",
+      "org": "Google",
+      "release_date": "2026-07-21",
+      "notes": [
+        "Evaluation conducted with 'high' reasoning effort."
+      ]
+    },
+    {
+      "benchmark": "arc-agi-2",
+      "model": "gemini-3-5-flash-lite",
+      "model_raw": "Gemini 3.5 Flash-Lite (Medium)",
+      "score": 5.278,
+      "ci": null,
+      "effort": "medium",
+      "org": "Google",
+      "release_date": "2026-07-21",
+      "notes": [
+        "Evaluation conducted with 'medium' reasoning effort."
+      ]
+    },
+    {
+      "benchmark": "arc-agi-2",
+      "model": "gemini-3-5-flash-lite",
+      "model_raw": "Gemini 3.5 Flash-Lite (Low)",
+      "score": 1.528,
+      "ci": null,
+      "effort": "low",
+      "org": "Google",
+      "release_date": "2026-07-21",
+      "notes": [
+        "Evaluation conducted with 'low' reasoning effort."
+      ]
+    },
+    {
+      "benchmark": "arc-agi-2",
+      "model": "gemini-3-5-flash-lite",
+      "model_raw": "Gemini 3.5 Flash-Lite (Minimal)",
+      "score": 0.833,
+      "ci": null,
+      "effort": "minimal",
+      "org": "Google",
+      "release_date": "2026-07-21",
+      "notes": [
+        "Evaluation conducted with 'minimal' reasoning effort."
+      ]
+    },
+    {
+      "benchmark": "arc-agi-2",
+      "model": "gemini-3-6-flash",
+      "model_raw": "Gemini 3.6 Flash (High)",
+      "score": 60.417,
+      "ci": null,
+      "effort": "high",
+      "org": "Google",
+      "release_date": "2026-07-21",
+      "notes": [
+        "Evaluation conducted with 'high' reasoning effort."
+      ]
+    },
+    {
+      "benchmark": "arc-agi-2",
+      "model": "gemini-3-6-flash",
+      "model_raw": "Gemini 3.6 Flash (Medium)",
+      "score": 50.417,
+      "ci": null,
+      "effort": "medium",
+      "org": "Google",
+      "release_date": "2026-07-21",
+      "notes": [
+        "Evaluation conducted with 'medium' reasoning effort."
+      ]
+    },
+    {
+      "benchmark": "arc-agi-2",
+      "model": "gemini-3-6-flash",
+      "model_raw": "Gemini 3.6 Flash (Low)",
+      "score": 30.417,
+      "ci": null,
+      "effort": "low",
+      "org": "Google",
+      "release_date": "2026-07-21",
+      "notes": [
+        "Evaluation conducted with 'low' reasoning effort."
+      ]
+    },
+    {
+      "benchmark": "arc-agi-2",
+      "model": "gemini-3-6-flash",
+      "model_raw": "Gemini 3.6 Flash (Minimal)",
+      "score": 2.639,
+      "ci": null,
+      "effort": "minimal",
+      "org": "Google",
+      "release_date": "2026-07-21",
+      "notes": [
+        "Evaluation conducted with 'minimal' reasoning effort."
+      ]
+    },
+    {
+      "benchmark": "arc-agi-2",
+      "model": "grok-4-6",
+      "model_raw": "Grok 4.6 (XHigh)",
+      "score": 67.083,
+      "ci": null,
+      "effort": "xhigh",
+      "org": "xAI",
+      "release_date": "2026-08-11",
+      "notes": [
+        "Evaluation conducted with 'xhigh' reasoning effort."
+      ]
+    },
+    {
+      "benchmark": "arc-agi-2",
+      "model": "grok-4-6",
+      "model_raw": "Grok 4.6 (High)",
+      "score": 65.139,
+      "ci": null,
+      "effort": "high",
+      "org": "xAI",
+      "release_date": "2026-08-11",
+      "notes": [
+        "Evaluation conducted with 'high' reasoning effort."
+      ]
+    },
+    {
+      "benchmark": "arc-agi-2",
+      "model": "grok-4-6",
+      "model_raw": "Grok 4.6 (Medium)",
+      "score": 61.25,
+      "ci": null,
+      "effort": "medium",
+      "org": "xAI",
+      "release_date": "2026-08-11",
+      "notes": [
+        "Evaluation conducted with 'medium' reasoning effort."
+      ]
+    },
+    {
+      "benchmark": "arc-agi-2",
+      "model": "grok-4-6",
+      "model_raw": "Grok 4.6 (Low)",
+      "score": 27.639,
+      "ci": null,
+      "effort": "low",
+      "org": "xAI",
+      "release_date": "2026-08-11",
+      "notes": [
+        "Evaluation conducted with 'low' reasoning effort."
+      ]
+    },
+    {
+      "benchmark": "arc-agi-2",
+      "model": "gemini-3-7-flash",
+      "model_raw": "Gemini 3.7 Flash (High)",
+      "score": 84.583,
+      "ci": null,
+      "effort": "high",
+      "org": "Google",
+      "release_date": "2026-08-13",
+      "notes": [
+        "Evaluation conducted with 'high' reasoning effort."
+      ]
+    },
+    {
+      "benchmark": "arc-agi-2",
+      "model": "gemini-3-7-flash",
+      "model_raw": "Gemini 3.7 Flash (Medium)",
+      "score": 63.75,
+      "ci": null,
+      "effort": "medium",
+      "org": "Google",
+      "release_date": "2026-08-13",
+      "notes": [
+        "Evaluation conducted with 'medium' reasoning effort."
+      ]
+    },
+    {
+      "benchmark": "arc-agi-2",
+      "model": "gemini-3-7-flash",
+      "model_raw": "Gemini 3.7 Flash (Low)",
+      "score": 52.917,
+      "ci": null,
+      "effort": "low",
+      "org": "Google",
+      "release_date": "2026-08-13",
+      "notes": [
+        "Evaluation conducted with 'low' reasoning effort."
+      ]
+    },
+    {
+      "benchmark": "arc-agi-2",
+      "model": "deepseek-v4-pro-0813",
+      "model_raw": "DeepSeek V4 Pro 0813 (Max)",
+      "score": 61.25,
+      "ci": null,
+      "effort": "max",
+      "org": "DeepSeek",
+      "release_date": "2026-08-13",
+      "notes": [
+        "Evaluation conducted with 'max' reasoning effort."
+      ]
+    },
+    {
+      "benchmark": "arc-agi-2",
+      "model": "deepseek-v4-pro-0813",
+      "model_raw": "DeepSeek V4 Pro 0813 (High)",
+      "score": 59.722,
+      "ci": null,
+      "effort": "high",
+      "org": "DeepSeek",
+      "release_date": "2026-08-13",
+      "notes": [
+        "Evaluation conducted with 'high' reasoning effort."
+      ]
+    },
+    {
+      "benchmark": "arc-agi-2",
+      "model": "deepseek-v4-pro-0813",
+      "model_raw": "DeepSeek V4 Pro 0813 (Low)",
+      "score": 56.25,
+      "ci": null,
+      "effort": "low",
+      "org": "DeepSeek",
+      "release_date": "2026-08-13",
+      "notes": [
+        "Evaluation conducted with 'low' reasoning effort."
+      ]
+    },
+    {
+      "benchmark": "arc-agi-2",
+      "model": "deepseek-v4-pro-0813",
+      "model_raw": "DeepSeek V4 Pro 0813 (None)",
+      "score": 0.833,
+      "ci": null,
+      "effort": "none",
+      "org": "DeepSeek",
+      "release_date": "2026-08-13",
+      "notes": [
+        "Evaluation conducted with 'none' reasoning effort."
+      ]
+    },
+    {
+      "benchmark": "arc-agi-2",
+      "model": "fable-5-1",
+      "model_raw": "Claude Fable 5.1 (Max)",
+      "score": 90.0,
+      "ci": null,
+      "effort": "max",
+      "org": "Anthropic",
+      "release_date": "2026-09-01",
+      "notes": [
+        "Evaluation conducted with 'max' reasoning effort."
+      ]
+    },
+    {
+      "benchmark": "arc-agi-2",
+      "model": "fable-5-1",
+      "model_raw": "Claude Fable 5.1 (XHigh)",
+      "score": 90.0,
+      "ci": null,
+      "effort": "xhigh",
+      "org": "Anthropic",
+      "release_date": "2026-09-01",
+      "notes": [
+        "Evaluation conducted with 'xhigh' reasoning effort."
+      ]
+    },
+    {
+      "benchmark": "arc-agi-2",
+      "model": "fable-5-1",
+      "model_raw": "Claude Fable 5.1 (High)",
+      "score": 88.75,
+      "ci": null,
+      "effort": "high",
+      "org": "Anthropic",
+      "release_date": "2026-09-01",
+      "notes": [
+        "Evaluation conducted with 'high' reasoning effort."
+      ]
+    },
+    {
+      "benchmark": "arc-agi-2",
+      "model": "fable-5-1",
+      "model_raw": "Claude Fable 5.1 (Medium)",
+      "score": 86.25,
+      "ci": null,
+      "effort": "medium",
+      "org": "Anthropic",
+      "release_date": "2026-09-01",
+      "notes": [
+        "Evaluation conducted with 'medium' reasoning effort."
+      ]
+    },
+    {
+      "benchmark": "arc-agi-2",
+      "model": "fable-5-1",
+      "model_raw": "Claude Fable 5.1 (Low)",
+      "score": 78.333,
+      "ci": null,
+      "effort": "low",
+      "org": "Anthropic",
+      "release_date": "2026-09-01",
+      "notes": [
+        "Evaluation conducted with 'low' reasoning effort."
+      ]
+    },
+    {
+      "benchmark": "arc-agi-2",
+      "model": "gpt-6-astra",
+      "model_raw": "GPT-6 Astra (Max)",
+      "score": 95.0,
+      "ci": null,
+      "effort": "max",
+      "org": "OpenAI",
+      "release_date": "2026-09-02",
+      "notes": [
+        "Evaluation conducted with 'max' reasoning effort."
+      ]
+    },
+    {
+      "benchmark": "arc-agi-2",
+      "model": "gpt-6-astra",
+      "model_raw": "GPT-6 Astra (XHigh)",
+      "score": 93.333,
+      "ci": null,
+      "effort": "xhigh",
+      "org": "OpenAI",
+      "release_date": "2026-09-02",
+      "notes": [
+        "Evaluation conducted with 'xhigh' reasoning effort."
+      ]
+    },
+    {
+      "benchmark": "arc-agi-2",
+      "model": "gpt-6-astra",
+      "model_raw": "GPT-6 Astra (High)",
+      "score": 92.083,
+      "ci": null,
+      "effort": "high",
+      "org": "OpenAI",
+      "release_date": "2026-09-02",
+      "notes": [
+        "Evaluation conducted with 'high' reasoning effort."
+      ]
+    },
+    {
+      "benchmark": "arc-agi-2",
+      "model": "gpt-6-astra",
+      "model_raw": "GPT-6 Astra (Medium)",
+      "score": 92.083,
+      "ci": null,
+      "effort": "medium",
+      "org": "OpenAI",
+      "release_date": "2026-09-02",
+      "notes": [
+        "Evaluation conducted with 'medium' reasoning effort."
+      ]
+    },
+    {
+      "benchmark": "arc-agi-2",
+      "model": "gpt-6-astra",
+      "model_raw": "GPT-6 Astra (Low)",
+      "score": 85.417,
+      "ci": null,
+      "effort": "low",
+      "org": "OpenAI",
+      "release_date": "2026-09-02",
+      "notes": [
+        "Evaluation conducted with 'low' reasoning effort."
+      ]
+    },
+    {
+      "benchmark": "arc-agi-2",
+      "model": "gpt-6-astra",
+      "model_raw": "GPT-6 Astra (None)",
+      "score": 59.583,
+      "ci": null,
+      "effort": "none",
+      "org": "OpenAI",
+      "release_date": "2026-09-02",
+      "notes": [
+        "Evaluation conducted with 'none' reasoning effort."
+      ]
+    },
+    {
+      "benchmark": "arc-agi-2",
+      "model": "dots3-note-preview",
+      "model_raw": "Dots3-Note Preview (Max)",
+      "score": 76.806,
+      "ci": null,
+      "effort": "max",
+      "org": "Dots Studio",
+      "release_date": "2026-08-14",
+      "notes": [
+        "Evaluation conducted with 'max' reasoning effort."
+      ]
+    },
+    {
+      "benchmark": "arc-agi-2",
+      "model": "gpt-6-luna",
+      "model_raw": "GPT-6 Luna (Max)",
+      "score": 59.306,
+      "ci": null,
+      "effort": "max",
+      "org": "OpenAI",
+      "release_date": "2026-09-22",
+      "notes": [
+        "Evaluation conducted with 'max' reasoning effort using the standard harness. Partial dataset coverage: scores use full catalog denominators; costs include recorded usage only, excluding unrecorded attempts."
+      ]
+    },
+    {
+      "benchmark": "arc-agi-2",
+      "model": "gpt-6-luna",
+      "model_raw": "GPT-6 Luna (XHigh)",
+      "score": 41.944,
+      "ci": null,
+      "effort": "xhigh",
+      "org": "OpenAI",
+      "release_date": "2026-09-22",
+      "notes": [
+        "Evaluation conducted with 'xhigh' reasoning effort using the standard harness."
+      ]
+    },
+    {
+      "benchmark": "arc-agi-2",
+      "model": "gpt-6-luna",
+      "model_raw": "GPT-6 Luna (High)",
+      "score": 31.389,
+      "ci": null,
+      "effort": "high",
+      "org": "OpenAI",
+      "release_date": "2026-09-22",
+      "notes": [
+        "Evaluation conducted with 'high' reasoning effort using the standard harness."
+      ]
+    },
+    {
+      "benchmark": "arc-agi-2",
+      "model": "gpt-6-luna",
+      "model_raw": "GPT-6 Luna (Medium)",
+      "score": 18.056,
+      "ci": null,
+      "effort": "medium",
+      "org": "OpenAI",
+      "release_date": "2026-09-22",
+      "notes": [
+        "Evaluation conducted with 'medium' reasoning effort using the standard harness."
+      ]
+    },
+    {
+      "benchmark": "arc-agi-2",
+      "model": "gpt-6-luna",
+      "model_raw": "GPT-6 Luna (Low)",
+      "score": 4.583,
+      "ci": null,
+      "effort": "low",
+      "org": "OpenAI",
+      "release_date": "2026-09-22",
+      "notes": [
+        "Evaluation conducted with 'low' reasoning effort using the standard harness."
+      ]
+    },
+    {
+      "benchmark": "arc-agi-2",
+      "model": "gpt-6-luna",
+      "model_raw": "GPT-6 Luna (None)",
+      "score": 0,
+      "ci": null,
+      "effort": "none",
+      "org": "OpenAI",
+      "release_date": "2026-09-22",
+      "notes": [
+        "Evaluation conducted with 'none' reasoning effort using the standard harness."
+      ]
+    },
+    {
+      "benchmark": "arc-agi-2",
+      "model": "opus-5-5",
+      "model_raw": "Claude Opus 5.5 (Max)",
+      "score": 91.667,
+      "ci": null,
+      "effort": "max",
+      "org": "Anthropic",
+      "release_date": "2026-09-22",
+      "notes": [
+        "Evaluation conducted with 'max' reasoning effort using the standard harness. Partial dataset coverage: scores use full catalog denominators; costs include recorded usage only, excluding unrecorded attempts."
+      ]
+    },
+    {
+      "benchmark": "arc-agi-2",
+      "model": "opus-5-5",
+      "model_raw": "Claude Opus 5.5 (XHigh)",
+      "score": 92.5,
+      "ci": null,
+      "effort": "xhigh",
+      "org": "Anthropic",
+      "release_date": "2026-09-22",
+      "notes": [
+        "Evaluation conducted with 'xhigh' reasoning effort using the standard harness."
+      ]
+    },
+    {
+      "benchmark": "arc-agi-2",
+      "model": "opus-5-5",
+      "model_raw": "Claude Opus 5.5 (High)",
+      "score": 93.333,
+      "ci": null,
+      "effort": "high",
+      "org": "Anthropic",
+      "release_date": "2026-09-22",
+      "notes": [
+        "Evaluation conducted with 'high' reasoning effort using the standard harness."
+      ]
+    },
+    {
+      "benchmark": "arc-agi-2",
+      "model": "opus-5-5",
+      "model_raw": "Claude Opus 5.5 (Medium)",
+      "score": 87.5,
+      "ci": null,
+      "effort": "medium",
+      "org": "Anthropic",
+      "release_date": "2026-09-22",
+      "notes": [
+        "Evaluation conducted with 'medium' reasoning effort using the standard harness."
+      ]
+    },
+    {
+      "benchmark": "arc-agi-2",
+      "model": "opus-5-5",
+      "model_raw": "Claude Opus 5.5 (Low)",
+      "score": 70.139,
+      "ci": null,
+      "effort": "low",
+      "org": "Anthropic",
+      "release_date": "2026-09-22",
+      "notes": [
+        "Evaluation conducted with 'low' reasoning effort using the standard harness."
+      ]
+    },
+    {
+      "benchmark": "arc-agi-2",
+      "model": "gemini-3-8-flash",
+      "model_raw": "Gemini 3.8 Flash (High)",
+      "score": 89.167,
+      "ci": null,
+      "effort": "high",
+      "org": "Google",
+      "release_date": "2026-09-02",
+      "notes": [
+        "Evaluation conducted with 'high' reasoning effort using the standard harness. Partial dataset coverage: scores use full catalog denominators; costs include recorded usage only, excluding unrecorded attempts."
+      ]
+    },
+    {
+      "benchmark": "arc-agi-2",
+      "model": "gemini-3-8-flash",
+      "model_raw": "Gemini 3.8 Flash (Medium)",
+      "score": 82.917,
+      "ci": null,
+      "effort": "medium",
+      "org": "Google",
+      "release_date": "2026-09-02",
+      "notes": [
+        "Evaluation conducted with 'medium' reasoning effort using the standard harness."
+      ]
+    },
+    {
+      "benchmark": "arc-agi-2",
+      "model": "gemini-3-8-flash",
+      "model_raw": "Gemini 3.8 Flash (Low)",
+      "score": 77.5,
+      "ci": null,
+      "effort": "low",
+      "org": "Google",
+      "release_date": "2026-09-02",
+      "notes": [
+        "Evaluation conducted with 'low' reasoning effort using the standard harness."
+      ]
+    },
+    {
+      "benchmark": "arc-agi-2",
+      "model": "gpt-6-sol",
+      "model_raw": "GPT-6 Sol (Max)",
+      "score": 89.583,
+      "ci": null,
+      "effort": "max",
+      "org": "OpenAI",
+      "release_date": "2026-09-22",
+      "notes": [
+        "Evaluation conducted with 'max' reasoning effort using the standard harness."
+      ]
+    },
+    {
+      "benchmark": "arc-agi-2",
+      "model": "gpt-6-sol",
+      "model_raw": "GPT-6 Sol (XHigh)",
+      "score": 78.056,
+      "ci": null,
+      "effort": "xhigh",
+      "org": "OpenAI",
+      "release_date": "2026-09-22",
+      "notes": [
+        "Evaluation conducted with 'xhigh' reasoning effort using the standard harness. Partial dataset coverage: scores use full catalog denominators; costs include recorded usage only, excluding unrecorded attempts."
+      ]
+    },
+    {
+      "benchmark": "arc-agi-2",
+      "model": "gpt-6-sol",
+      "model_raw": "GPT-6 Sol (High)",
+      "score": 68.889,
+      "ci": null,
+      "effort": "high",
+      "org": "OpenAI",
+      "release_date": "2026-09-22",
+      "notes": [
+        "Evaluation conducted with 'high' reasoning effort using the standard harness. Partial dataset coverage: scores use full catalog denominators; costs include recorded usage only, excluding unrecorded attempts."
+      ]
+    },
+    {
+      "benchmark": "arc-agi-2",
+      "model": "gpt-6-sol",
+      "model_raw": "GPT-6 Sol (Medium)",
+      "score": 57.778,
+      "ci": null,
+      "effort": "medium",
+      "org": "OpenAI",
+      "release_date": "2026-09-22",
+      "notes": [
+        "Evaluation conducted with 'medium' reasoning effort using the standard harness. Partial dataset coverage: scores use full catalog denominators; costs include recorded usage only, excluding unrecorded attempts."
+      ]
+    },
+    {
+      "benchmark": "arc-agi-2",
+      "model": "gpt-6-sol",
+      "model_raw": "GPT-6 Sol (Low)",
+      "score": 31.528,
+      "ci": null,
+      "effort": "low",
+      "org": "OpenAI",
+      "release_date": "2026-09-22",
+      "notes": [
+        "Evaluation conducted with 'low' reasoning effort using the standard harness. Partial dataset coverage: scores use full catalog denominators; costs include recorded usage only, excluding unrecorded attempts."
+      ]
+    },
+    {
+      "benchmark": "arc-agi-2",
+      "model": "gpt-6-sol",
+      "model_raw": "GPT-6 Sol (None)",
+      "score": 1.667,
+      "ci": null,
+      "effort": "none",
+      "org": "OpenAI",
+      "release_date": "2026-09-22",
+      "notes": [
+        "Evaluation conducted with 'none' reasoning effort using the standard harness. Partial dataset coverage: scores use full catalog denominators; costs include recorded usage only, excluding unrecorded attempts."
+      ]
+    },
+    {
+      "benchmark": "arc-agi-2",
+      "model": "glm-5-3-flash",
+      "model_raw": "GLM-5.3-Flash (Max)",
+      "score": 65.833,
+      "ci": null,
+      "effort": "max",
+      "org": "Z.ai",
+      "release_date": "2026-08-26",
+      "notes": [
+        "Evaluation conducted with 'max' reasoning effort."
+      ]
+    },
+    {
+      "benchmark": "arc-agi-2",
+      "model": "glm-5-3-flash",
+      "model_raw": "GLM-5.3-Flash (High)",
+      "score": 50.139,
+      "ci": null,
+      "effort": "high",
+      "org": "Z.ai",
+      "release_date": "2026-08-26",
+      "notes": [
+        "Evaluation conducted with 'high' reasoning effort."
+      ]
+    },
+    {
+      "benchmark": "arc-agi-2",
+      "model": "glm-5-3-flash",
+      "model_raw": "GLM-5.3-Flash (Low)",
+      "score": 27.917,
+      "ci": null,
+      "effort": "low",
+      "org": "Z.ai",
+      "release_date": "2026-08-26",
+      "notes": [
+        "Evaluation conducted with 'low' reasoning effort."
+      ]
+    },
+    {
+      "benchmark": "arc-agi-2",
+      "model": "gpt-6-1-sol",
+      "model_raw": "GPT-6.1 Sol (Max)",
+      "score": 94.167,
+      "ci": null,
+      "effort": "max",
+      "org": "OpenAI",
+      "release_date": "2026-09-29",
+      "notes": [
+        "Evaluation conducted with 'max' reasoning effort using the standard harness."
+      ]
+    },
+    {
+      "benchmark": "arc-agi-2",
+      "model": "gpt-6-1-sol",
+      "model_raw": "GPT-6.1 Sol (XHigh)",
+      "score": 91.667,
+      "ci": null,
+      "effort": "xhigh",
+      "org": "OpenAI",
+      "release_date": "2026-09-29",
+      "notes": [
+        "Evaluation conducted with 'xhigh' reasoning effort using the standard harness."
+      ]
+    },
+    {
+      "benchmark": "arc-agi-2",
+      "model": "gpt-6-1-sol",
+      "model_raw": "GPT-6.1 Sol (High)",
+      "score": 91.667,
+      "ci": null,
+      "effort": "high",
+      "org": "OpenAI",
+      "release_date": "2026-09-29",
+      "notes": [
+        "Evaluation conducted with 'high' reasoning effort using the standard harness."
+      ]
+    },
+    {
+      "benchmark": "arc-agi-2",
+      "model": "gpt-6-1-sol",
+      "model_raw": "GPT-6.1 Sol (Medium)",
+      "score": 86.667,
+      "ci": null,
+      "effort": "medium",
+      "org": "OpenAI",
+      "release_date": "2026-09-29",
+      "notes": [
+        "Evaluation conducted with 'medium' reasoning effort using the standard harness."
+      ]
+    },
+    {
+      "benchmark": "arc-agi-2",
+      "model": "gpt-6-1-sol",
+      "model_raw": "GPT-6.1 Sol (Low)",
+      "score": 76.667,
+      "ci": null,
+      "effort": "low",
+      "org": "OpenAI",
+      "release_date": "2026-09-29",
+      "notes": [
+        "Evaluation conducted with 'low' reasoning effort using the standard harness."
+      ]
+    },
+    {
+      "benchmark": "arc-agi-2",
+      "model": "qwen3-8-27b",
+      "model_raw": "Qwen3.8-27B (XHigh)",
+      "score": 42.361,
+      "ci": null,
+      "effort": "xhigh",
+      "org": "Alibaba",
+      "release_date": "2026-08-14",
+      "notes": [
+        "Evaluation conducted with 'xhigh' reasoning effort."
+      ]
+    },
+    {
+      "benchmark": "arc-agi-2",
+      "model": "qwen3-8-27b",
+      "model_raw": "Qwen3.8-27B (Medium)",
+      "score": 13.194,
+      "ci": null,
+      "effort": "medium",
+      "org": "Alibaba",
+      "release_date": "2026-08-14",
+      "notes": [
+        "Evaluation conducted with 'medium' reasoning effort."
+      ]
+    },
+    {
+      "benchmark": "arc-agi-2",
+      "model": "qwen3-8-27b",
+      "model_raw": "Qwen3.8-27B (Low)",
+      "score": 22.778,
+      "ci": null,
+      "effort": "low",
+      "org": "Alibaba",
+      "release_date": "2026-08-14",
+      "notes": [
+        "Evaluation conducted with 'low' reasoning effort."
+      ]
+    },
+    {
+      "benchmark": "arc-agi-2",
+      "model": "qwen3-8-27b",
+      "model_raw": "Qwen3.8-27B (None)",
+      "score": 1.528,
+      "ci": null,
+      "effort": "none",
+      "org": "Alibaba",
+      "release_date": "2026-08-14",
+      "notes": [
+        "Evaluation conducted with 'none' reasoning effort."
+      ]
+    },
+    {
+      "benchmark": "arc-agi-2",
+      "model": "deepseek-v4-1-flash",
+      "model_raw": "DeepSeek V4.1 Flash (Max)",
+      "score": 72.917,
+      "ci": null,
+      "effort": "max",
+      "org": "DeepSeek",
+      "release_date": "2026-09-10",
+      "notes": [
+        "Evaluation conducted with 'max' reasoning effort using the standard harness. Partial dataset coverage: scores use full catalog denominators; costs include recorded usage only, excluding unrecorded attempts."
+      ]
+    },
+    {
+      "benchmark": "arc-agi-2",
+      "model": "deepseek-v4-1-flash",
+      "model_raw": "DeepSeek V4.1 Flash (High)",
+      "score": 67.5,
+      "ci": null,
+      "effort": "high",
+      "org": "DeepSeek",
+      "release_date": "2026-09-10",
+      "notes": [
+        "Evaluation conducted with 'high' reasoning effort using the standard harness. Partial dataset coverage: scores use full catalog denominators; costs include recorded usage only, excluding unrecorded attempts."
+      ]
+    },
+    {
+      "benchmark": "arc-agi-2",
+      "model": "deepseek-v4-1-flash",
+      "model_raw": "DeepSeek V4.1 Flash (Low)",
+      "score": 60.556,
+      "ci": null,
+      "effort": "low",
+      "org": "DeepSeek",
+      "release_date": "2026-09-10",
+      "notes": [
+        "Evaluation conducted with 'low' reasoning effort using the standard harness."
+      ]
+    },
+    {
+      "benchmark": "arc-agi-2",
+      "model": "deepseek-v4-1-flash",
+      "model_raw": "DeepSeek V4.1 Flash (None)",
+      "score": 1.25,
+      "ci": null,
+      "effort": "none",
+      "org": "DeepSeek",
+      "release_date": "2026-09-10",
+      "notes": [
+        "Evaluation conducted with 'none' reasoning effort using the standard harness."
+      ]
+    },
+    {
+      "benchmark": "arc-agi-2",
+      "model": "grok-4-7",
+      "model_raw": "Grok 4.7 (XHigh)",
+      "score": 61.389,
+      "ci": null,
+      "effort": "xhigh",
+      "org": "xAI",
+      "release_date": "2026-09-21",
+      "notes": [
+        "Evaluation conducted with 'xhigh' reasoning effort using the standard harness. Partial dataset coverage: scores use full catalog denominators; costs include recorded usage only, excluding unrecorded attempts."
+      ]
+    },
+    {
+      "benchmark": "arc-agi-2",
+      "model": "grok-4-7",
+      "model_raw": "Grok 4.7 (High)",
+      "score": 58.333,
+      "ci": null,
+      "effort": "high",
+      "org": "xAI",
+      "release_date": "2026-09-21",
+      "notes": [
+        "Evaluation conducted with 'high' reasoning effort using the standard harness. Partial dataset coverage: scores use full catalog denominators; costs include recorded usage only, excluding unrecorded attempts."
+      ]
+    },
+    {
+      "benchmark": "arc-agi-2",
+      "model": "grok-4-7",
+      "model_raw": "Grok 4.7 (Medium)",
+      "score": 58.75,
+      "ci": null,
+      "effort": "medium",
+      "org": "xAI",
+      "release_date": "2026-09-21",
+      "notes": [
+        "Evaluation conducted with 'medium' reasoning effort using the standard harness. Partial dataset coverage: scores use full catalog denominators; costs include recorded usage only, excluding unrecorded attempts."
+      ]
+    },
+    {
+      "benchmark": "arc-agi-2",
+      "model": "grok-4-7",
+      "model_raw": "Grok 4.7 (Low)",
+      "score": 16.667,
+      "ci": null,
+      "effort": "low",
+      "org": "xAI",
+      "release_date": "2026-09-21",
+      "notes": [
+        "Evaluation conducted with 'low' reasoning effort using the standard harness."
+      ]
+    },
+    {
+      "benchmark": "arc-agi-2",
+      "model": "haiku-5-5",
+      "model_raw": "Claude Haiku 5.5 (XHigh)",
+      "score": 61.25,
+      "ci": null,
+      "effort": "xhigh",
+      "org": "Anthropic",
+      "release_date": "2026-10-07",
+      "notes": [
+        "Evaluation conducted with 'xhigh' reasoning effort using the standard harness. Partial dataset coverage: scores use full catalog denominators; costs include recorded usage only, excluding unrecorded attempts."
+      ]
+    },
+    {
+      "benchmark": "arc-agi-2",
+      "model": "haiku-5-5",
+      "model_raw": "Claude Haiku 5.5 (High)",
+      "score": 30.694,
+      "ci": null,
+      "effort": "high",
+      "org": "Anthropic",
+      "release_date": "2026-10-07",
+      "notes": [
+        "Evaluation conducted with 'high' reasoning effort using the standard harness. Partial dataset coverage: scores use full catalog denominators; costs include recorded usage only, excluding unrecorded attempts."
+      ]
+    },
+    {
+      "benchmark": "arc-agi-2",
+      "model": "haiku-5-5",
+      "model_raw": "Claude Haiku 5.5 (Medium)",
+      "score": 9.444,
+      "ci": null,
+      "effort": "medium",
+      "org": "Anthropic",
+      "release_date": "2026-10-07",
+      "notes": [
+        "Evaluation conducted with 'medium' reasoning effort using the standard harness. Partial dataset coverage: scores use full catalog denominators; costs include recorded usage only, excluding unrecorded attempts."
+      ]
+    },
+    {
+      "benchmark": "arc-agi-2",
+      "model": "haiku-5-5",
+      "model_raw": "Claude Haiku 5.5 (Low)",
+      "score": 2.778,
+      "ci": null,
+      "effort": "low",
+      "org": "Anthropic",
+      "release_date": "2026-10-07",
+      "notes": [
+        "Evaluation conducted with 'low' reasoning effort using the standard harness. Partial dataset coverage: scores use full catalog denominators; costs include recorded usage only, excluding unrecorded attempts."
+      ]
+    },
+    {
+      "benchmark": "arc-agi-2",
+      "model": "gemini-4-argon",
+      "model_raw": "Gemini 4 Argon (High)",
+      "score": 91.25,
+      "ci": null,
+      "effort": "high",
+      "org": "Google",
+      "release_date": "2026-10-13",
+      "notes": [
+        "Evaluation conducted with 'high' reasoning effort using the standard harness. Partial dataset coverage: scores use full catalog denominators; costs include recorded usage only, excluding unrecorded attempts."
+      ]
+    },
+    {
+      "benchmark": "arc-agi-2",
+      "model": "gemini-4-argon",
+      "model_raw": "Gemini 4 Argon (Medium)",
+      "score": 87.083,
+      "ci": null,
+      "effort": "medium",
+      "org": "Google",
+      "release_date": "2026-10-13",
+      "notes": [
+        "Evaluation conducted with 'medium' reasoning effort using the standard harness. Partial dataset coverage: scores use full catalog denominators; costs include recorded usage only, excluding unrecorded attempts."
+      ]
+    },
+    {
+      "benchmark": "arc-agi-2",
+      "model": "gemini-4-argon",
+      "model_raw": "Gemini 4 Argon (Low)",
+      "score": 42.083,
+      "ci": null,
+      "effort": "low",
+      "org": "Google",
+      "release_date": "2026-10-13",
+      "notes": [
+        "Evaluation conducted with 'low' reasoning effort using the standard harness. Partial dataset coverage: scores use full catalog denominators; costs include recorded usage only, excluding unrecorded attempts."
+      ]
+    },
+    {
+      "benchmark": "arc-agi-2",
+      "model": "beam-1-0",
+      "model_raw": "Beam 1.0 (XHigh)",
+      "score": 23.472,
+      "ci": null,
+      "effort": "xhigh",
+      "org": "Reflection",
+      "release_date": "2026-10-16",
+      "notes": [
+        "Evaluation conducted with 'xhigh' reasoning effort using the standard harness."
+      ]
+    },
+    {
+      "benchmark": "arc-agi-2",
+      "model": "beam-1-0",
+      "model_raw": "Beam 1.0 (High)",
+      "score": 20.0,
+      "ci": null,
+      "effort": "high",
+      "org": "Reflection",
+      "release_date": "2026-10-16",
+      "notes": [
+        "Evaluation conducted with 'high' reasoning effort using the standard harness."
+      ]
+    },
+    {
+      "benchmark": "arc-agi-2",
+      "model": "beam-1-0",
+      "model_raw": "Beam 1.0 (Medium)",
+      "score": 6.389,
+      "ci": null,
+      "effort": "medium",
+      "org": "Reflection",
+      "release_date": "2026-10-16",
+      "notes": [
+        "Evaluation conducted with 'medium' reasoning effort using the standard harness."
+      ]
+    },
+    {
+      "benchmark": "arc-agi-2",
+      "model": "beam-1-0",
+      "model_raw": "Beam 1.0 (Low)",
+      "score": 2.778,
+      "ci": null,
+      "effort": "low",
+      "org": "Reflection",
+      "release_date": "2026-10-16",
+      "notes": [
+        "Evaluation conducted with 'low' reasoning effort using the standard harness."
+      ]
+    },
+    {
+      "benchmark": "arc-agi-2",
+      "model": "nemotron-3-5-super-vl",
+      "model_raw": "Nemotron 3.5 Super VL (High)",
+      "score": 1.528,
+      "ci": null,
+      "effort": "high",
+      "org": "NVIDIA",
+      "release_date": "2026-10-15",
+      "notes": [
+        "Evaluation conducted with 'high' reasoning effort using the standard harness."
+      ]
+    },
+    {
+      "benchmark": "arc-agi-2",
+      "model": "nemotron-3-5-super-vl",
+      "model_raw": "Nemotron 3.5 Super VL (Medium)",
+      "score": 1.944,
+      "ci": null,
+      "effort": "medium",
+      "org": "NVIDIA",
+      "release_date": "2026-10-15",
+      "notes": [
+        "Evaluation conducted with 'medium' reasoning effort using the standard harness. Partial dataset coverage: scores use full catalog denominators; costs include recorded usage only, excluding unrecorded attempts."
+      ]
+    },
+    {
+      "benchmark": "arc-agi-2",
+      "model": "nemotron-3-5-super-vl",
+      "model_raw": "Nemotron 3.5 Super VL (None)",
+      "score": 0.833,
+      "ci": null,
+      "effort": "none",
+      "org": "NVIDIA",
+      "release_date": "2026-10-15",
+      "notes": [
+        "Evaluation conducted with 'none' reasoning effort using the standard harness. Partial dataset coverage: scores use full catalog denominators; costs include recorded usage only, excluding unrecorded attempts."
+      ]
+    },
+    {
+      "benchmark": "arc-agi-2",
+      "model": "deepseek-v4-1-flash-1017",
+      "model_raw": "DeepSeek V4.1 Flash 1017 (Max)",
+      "score": 78.056,
+      "ci": null,
+      "effort": "max",
+      "org": "DeepSeek",
+      "release_date": "2026-10-17",
+      "notes": [
+        "Evaluation conducted with 'max' reasoning effort using the standard harness."
+      ]
+    },
+    {
+      "benchmark": "arc-agi-2",
+      "model": "deepseek-v4-1-flash-1017",
+      "model_raw": "DeepSeek V4.1 Flash 1017 (High)",
+      "score": 68.611,
+      "ci": null,
+      "effort": "high",
+      "org": "DeepSeek",
+      "release_date": "2026-10-17",
+      "notes": [
+        "Evaluation conducted with 'high' reasoning effort using the standard harness. Partial dataset coverage: scores use full catalog denominators; costs include recorded usage only, excluding unrecorded attempts."
+      ]
+    },
+    {
+      "benchmark": "arc-agi-2",
+      "model": "deepseek-v4-1-flash-1017",
+      "model_raw": "DeepSeek V4.1 Flash 1017 (Low)",
+      "score": 73.611,
+      "ci": null,
+      "effort": "low",
+      "org": "DeepSeek",
+      "release_date": "2026-10-17",
+      "notes": [
+        "Evaluation conducted with 'low' reasoning effort using the standard harness."
+      ]
+    },
+    {
+      "benchmark": "arc-agi-2",
+      "model": "deepseek-v4-1-flash-1017",
+      "model_raw": "DeepSeek V4.1 Flash 1017 (None)",
+      "score": 2.083,
+      "ci": null,
+      "effort": "none",
+      "org": "DeepSeek",
+      "release_date": "2026-10-17",
+      "notes": [
+        "Evaluation conducted with 'none' reasoning effort using the standard harness."
+      ]
+    },
+    {
+      "benchmark": "arc-agi-2",
+      "model": "sonnet-5-5",
+      "model_raw": "Claude Sonnet 5.5 (XHigh)",
+      "score": 83.889,
+      "ci": null,
+      "effort": "xhigh",
+      "org": "Anthropic",
+      "release_date": "2026-09-28",
+      "notes": [
+        "Evaluation conducted with 'xhigh' reasoning effort using the standard harness."
+      ]
+    },
+    {
+      "benchmark": "arc-agi-2",
+      "model": "sonnet-5-5",
+      "model_raw": "Claude Sonnet 5.5 (High)",
+      "score": 67.361,
+      "ci": null,
+      "effort": "high",
+      "org": "Anthropic",
+      "release_date": "2026-09-28",
+      "notes": [
+        "Evaluation conducted with 'high' reasoning effort using the standard harness."
+      ]
+    },
+    {
+      "benchmark": "arc-agi-2",
+      "model": "sonnet-5-5",
+      "model_raw": "Claude Sonnet 5.5 (Medium)",
+      "score": 32.778,
+      "ci": null,
+      "effort": "medium",
+      "org": "Anthropic",
+      "release_date": "2026-09-28",
+      "notes": [
+        "Evaluation conducted with 'medium' reasoning effort using the standard harness."
+      ]
+    },
+    {
+      "benchmark": "arc-agi-2",
+      "model": "sonnet-5-5",
+      "model_raw": "Claude Sonnet 5.5 (Low)",
+      "score": 24.028,
+      "ci": null,
+      "effort": "low",
+      "org": "Anthropic",
+      "release_date": "2026-09-28",
+      "notes": [
+        "Evaluation conducted with 'low' reasoning effort using the standard harness. Partial dataset coverage: scores use full catalog denominators; costs include recorded usage only, excluding unrecorded attempts. Some model actions have unmeasured token usage; reported costs are recorded-usage lower bounds, not verified full-run costs."
+      ]
+    },
+    {
+      "benchmark": "arc-agi-2",
+      "model": "muse-spark-open",
+      "model_raw": "Muse Spark Open (XHigh)",
+      "score": 57.5,
+      "ci": null,
+      "effort": "xhigh",
+      "org": "Meta AI",
+      "release_date": "2026-10-15",
+      "notes": [
+        "Evaluation conducted with 'xhigh' reasoning effort using the standard harness."
+      ]
+    },
+    {
+      "benchmark": "arc-agi-2",
+      "model": "muse-spark-open",
+      "model_raw": "Muse Spark Open (High)",
+      "score": 47.5,
+      "ci": null,
+      "effort": "high",
+      "org": "Meta AI",
+      "release_date": "2026-10-15",
+      "notes": [
+        "Evaluation conducted with 'high' reasoning effort using the standard harness."
+      ]
+    },
+    {
+      "benchmark": "arc-agi-2",
+      "model": "muse-spark-open",
+      "model_raw": "Muse Spark Open (Medium)",
+      "score": 27.5,
+      "ci": null,
+      "effort": "medium",
+      "org": "Meta AI",
+      "release_date": "2026-10-15",
+      "notes": [
+        "Evaluation conducted with 'medium' reasoning effort using the standard harness."
+      ]
+    },
+    {
+      "benchmark": "arc-agi-2",
+      "model": "muse-spark-open",
+      "model_raw": "Muse Spark Open (Low)",
+      "score": 12.222,
+      "ci": null,
+      "effort": "low",
+      "org": "Meta AI",
+      "release_date": "2026-10-15",
+      "notes": [
+        "Evaluation conducted with 'low' reasoning effort using the standard harness."
+      ]
+    }
+  ]
+}

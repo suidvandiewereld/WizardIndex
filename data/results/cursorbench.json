@@ -1,0 +1,1077 @@
+{
+  "benchmark": "cursorbench",
+  "fetched_at": "2026-10-29T07:58:29+00:00",
+  "meta": {
+    "url": "https://cursor.com/cursorbench",
+    "via": "https://epoch.ai/benchmarks",
+    "credit": "Epoch AI, 'Capabilities & benchmarking', https://epoch.ai/benchmarks (CC BY 4.0)"
+  },
+  "results": [
+    {
+      "benchmark": "cursorbench",
+      "model": "fable-5-1",
+      "model_raw": "Fable 5.1 Max",
+      "score": 51.8,
+      "ci": null,
+      "effort": "max",
+      "org": "Anthropic",
+      "release_date": "2026-09-01",
+      "notes": [
+        "via Epoch AI; source: https://cursor.com/cursorbench"
+      ]
+    },
+    {
+      "benchmark": "cursorbench",
+      "model": "fable-5-1",
+      "model_raw": "Fable 5.1 Extra High",
+      "score": 51.6,
+      "ci": null,
+      "effort": "xhigh",
+      "org": "Anthropic",
+      "release_date": "2026-09-01",
+      "notes": [
+        "via Epoch AI; source: https://cursor.com/cursorbench"
+      ]
+    },
+    {
+      "benchmark": "cursorbench",
+      "model": "fable-5-1",
+      "model_raw": "Fable 5.1 High",
+      "score": 49.2,
+      "ci": null,
+      "effort": "high",
+      "org": "Anthropic",
+      "release_date": "2026-09-01",
+      "notes": [
+        "via Epoch AI; source: https://cursor.com/cursorbench"
+      ]
+    },
+    {
+      "benchmark": "cursorbench",
+      "model": "fable-5-1",
+      "model_raw": "Fable 5.1 Medium",
+      "score": 46.8,
+      "ci": null,
+      "effort": "medium",
+      "org": "Anthropic",
+      "release_date": "2026-09-01",
+      "notes": [
+        "via Epoch AI; source: https://cursor.com/cursorbench"
+      ]
+    },
+    {
+      "benchmark": "cursorbench",
+      "model": "opus-5",
+      "model_raw": "Opus 5 Max",
+      "score": 46.6,
+      "ci": null,
+      "effort": "max",
+      "org": "Anthropic",
+      "release_date": "2026-07-24",
+      "notes": [
+        "via Epoch AI; source: https://cursor.com/cursorbench"
+      ]
+    },
+    {
+      "benchmark": "cursorbench",
+      "model": "grok-4-7",
+      "model_raw": "Grok 4.7 Extra High",
+      "score": 46.3,
+      "ci": null,
+      "effort": "xhigh",
+      "org": "xAI",
+      "release_date": "2026-09-21",
+      "notes": [
+        "via Epoch AI; source: https://cursor.com/cursorbench"
+      ]
+    },
+    {
+      "benchmark": "cursorbench",
+      "model": "opus-5",
+      "model_raw": "Opus 5 Extra High",
+      "score": 46.1,
+      "ci": null,
+      "effort": "xhigh",
+      "org": "Anthropic",
+      "release_date": "2026-07-24",
+      "notes": [
+        "via Epoch AI; source: https://cursor.com/cursorbench"
+      ]
+    },
+    {
+      "benchmark": "cursorbench",
+      "model": "fable-5-1",
+      "model_raw": "Fable 5.1 Low",
+      "score": 45.1,
+      "ci": null,
+      "effort": "low",
+      "org": "Anthropic",
+      "release_date": "2026-09-01",
+      "notes": [
+        "via Epoch AI; source: https://cursor.com/cursorbench"
+      ]
+    },
+    {
+      "benchmark": "cursorbench",
+      "model": "opus-5",
+      "model_raw": "Opus 5 High",
+      "score": 44.7,
+      "ci": null,
+      "effort": "high",
+      "org": "Anthropic",
+      "release_date": "2026-07-24",
+      "notes": [
+        "via Epoch AI; source: https://cursor.com/cursorbench"
+      ]
+    },
+    {
+      "benchmark": "cursorbench",
+      "model": "grok-4-7",
+      "model_raw": "Grok 4.7 High",
+      "score": 43.9,
+      "ci": null,
+      "effort": "high",
+      "org": "xAI",
+      "release_date": "2026-09-21",
+      "notes": [
+        "via Epoch AI; source: https://cursor.com/cursorbench"
+      ]
+    },
+    {
+      "benchmark": "cursorbench",
+      "model": "opus-5",
+      "model_raw": "Opus 5 Medium",
+      "score": 43.3,
+      "ci": null,
+      "effort": "medium",
+      "org": "Anthropic",
+      "release_date": "2026-07-24",
+      "notes": [
+        "via Epoch AI; source: https://cursor.com/cursorbench"
+      ]
+    },
+    {
+      "benchmark": "cursorbench",
+      "model": "gpt-5-6-sol",
+      "model_raw": "GPT-5.6 Sol Max",
+      "score": 41.7,
+      "ci": null,
+      "effort": "max",
+      "org": "OpenAI",
+      "release_date": "2026-07-09",
+      "notes": [
+        "via Epoch AI; source: https://cursor.com/cursorbench"
+      ]
+    },
+    {
+      "benchmark": "cursorbench",
+      "model": "grok-4-7",
+      "model_raw": "Grok 4.7 Medium",
+      "score": 41.6,
+      "ci": null,
+      "effort": "medium",
+      "org": "xAI",
+      "release_date": "2026-09-21",
+      "notes": [
+        "via Epoch AI; source: https://cursor.com/cursorbench"
+      ]
+    },
+    {
+      "benchmark": "cursorbench",
+      "model": "muse-spark-1-3",
+      "model_raw": "Muse Spark 1.3 Max",
+      "score": 41.6,
+      "ci": null,
+      "effort": "max",
+      "org": "Meta AI",
+      "release_date": "2026-09-02",
+      "notes": [
+        "via Epoch AI; source: https://cursor.com/cursorbench"
+      ]
+    },
+    {
+      "benchmark": "cursorbench",
+      "model": "grok-4-6",
+      "model_raw": "Grok 4.6 Extra High",
+      "score": 41.4,
+      "ci": null,
+      "effort": "xhigh",
+      "org": "xAI",
+      "release_date": "2026-08-12",
+      "notes": [
+        "via Epoch AI; source: https://cursor.com/cursorbench"
+      ]
+    },
+    {
+      "benchmark": "cursorbench",
+      "model": "gpt-5-6-terra",
+      "model_raw": "GPT-5.6 Terra Max",
+      "score": 41.3,
+      "ci": null,
+      "effort": "max",
+      "org": "OpenAI",
+      "release_date": "2026-07-09",
+      "notes": [
+        "via Epoch AI; source: https://cursor.com/cursorbench"
+      ]
+    },
+    {
+      "benchmark": "cursorbench",
+      "model": "opus-5",
+      "model_raw": "Opus 5 Low",
+      "score": 40.7,
+      "ci": null,
+      "effort": "low",
+      "org": "Anthropic",
+      "release_date": "2026-07-24",
+      "notes": [
+        "via Epoch AI; source: https://cursor.com/cursorbench"
+      ]
+    },
+    {
+      "benchmark": "cursorbench",
+      "model": "grok-4-6",
+      "model_raw": "Grok 4.6 High",
+      "score": 40.4,
+      "ci": null,
+      "effort": "high",
+      "org": "xAI",
+      "release_date": "2026-08-12",
+      "notes": [
+        "via Epoch AI; source: https://cursor.com/cursorbench"
+      ]
+    },
+    {
+      "benchmark": "cursorbench",
+      "model": "gemini-3-8-flash",
+      "model_raw": "Gemini 3.8 Flash High",
+      "score": 39.6,
+      "ci": null,
+      "effort": "high",
+      "org": "Google DeepMind",
+      "release_date": "2026-09-02",
+      "notes": [
+        "via Epoch AI; source: https://cursor.com/cursorbench"
+      ]
+    },
+    {
+      "benchmark": "cursorbench",
+      "model": "gpt-5-6-sol",
+      "model_raw": "GPT-5.6 Sol Extra High",
+      "score": 37.7,
+      "ci": null,
+      "effort": "xhigh",
+      "org": "OpenAI",
+      "release_date": "2026-07-09",
+      "notes": [
+        "via Epoch AI; source: https://cursor.com/cursorbench"
+      ]
+    },
+    {
+      "benchmark": "cursorbench",
+      "model": "muse-spark-1-3",
+      "model_raw": "Muse Spark 1.3 Extra High",
+      "score": 37.5,
+      "ci": null,
+      "effort": "xhigh",
+      "org": "Meta AI",
+      "release_date": "2026-09-02",
+      "notes": [
+        "via Epoch AI; source: https://cursor.com/cursorbench"
+      ]
+    },
+    {
+      "benchmark": "cursorbench",
+      "model": "gemini-3-8-flash",
+      "model_raw": "Gemini 3.8 Flash Medium",
+      "score": 37.3,
+      "ci": null,
+      "effort": "medium",
+      "org": "Google DeepMind",
+      "release_date": "2026-09-02",
+      "notes": [
+        "via Epoch AI; source: https://cursor.com/cursorbench"
+      ]
+    },
+    {
+      "benchmark": "cursorbench",
+      "model": "grok-4-6",
+      "model_raw": "Grok 4.6 Medium",
+      "score": 36.1,
+      "ci": null,
+      "effort": "medium",
+      "org": "xAI",
+      "release_date": "2026-08-12",
+      "notes": [
+        "via Epoch AI; source: https://cursor.com/cursorbench"
+      ]
+    },
+    {
+      "benchmark": "cursorbench",
+      "model": "gpt-5-6-luna",
+      "model_raw": "GPT-5.6 Luna Max",
+      "score": 35.9,
+      "ci": null,
+      "effort": "max",
+      "org": "OpenAI",
+      "release_date": "2026-07-09",
+      "notes": [
+        "via Epoch AI; source: https://cursor.com/cursorbench"
+      ]
+    },
+    {
+      "benchmark": "cursorbench",
+      "model": "gpt-5-6-sol",
+      "model_raw": "GPT-5.6 Sol High",
+      "score": 35.7,
+      "ci": null,
+      "effort": "high",
+      "org": "OpenAI",
+      "release_date": "2026-07-09",
+      "notes": [
+        "via Epoch AI; source: https://cursor.com/cursorbench"
+      ]
+    },
+    {
+      "benchmark": "cursorbench",
+      "model": "sonnet-5",
+      "model_raw": "Sonnet 5 Max",
+      "score": 34.1,
+      "ci": null,
+      "effort": "max",
+      "org": "Anthropic",
+      "release_date": "2026-06-30",
+      "notes": [
+        "via Epoch AI; source: https://cursor.com/cursorbench"
+      ]
+    },
+    {
+      "benchmark": "cursorbench",
+      "model": "gpt-5-6-terra",
+      "model_raw": "GPT-5.6 Terra Extra High",
+      "score": 33.6,
+      "ci": null,
+      "effort": "xhigh",
+      "org": "OpenAI",
+      "release_date": "2026-07-09",
+      "notes": [
+        "via Epoch AI; source: https://cursor.com/cursorbench"
+      ]
+    },
+    {
+      "benchmark": "cursorbench",
+      "model": "grok-4-6",
+      "model_raw": "Grok 4.6 Low",
+      "score": 33.4,
+      "ci": null,
+      "effort": "low",
+      "org": "xAI",
+      "release_date": "2026-08-12",
+      "notes": [
+        "via Epoch AI; source: https://cursor.com/cursorbench"
+      ]
+    },
+    {
+      "benchmark": "cursorbench",
+      "model": "muse-spark-1-3",
+      "model_raw": "Muse Spark 1.3 High",
+      "score": 33.4,
+      "ci": null,
+      "effort": "high",
+      "org": "Meta AI",
+      "release_date": "2026-09-02",
+      "notes": [
+        "via Epoch AI; source: https://cursor.com/cursorbench"
+      ]
+    },
+    {
+      "benchmark": "cursorbench",
+      "model": "grok-4-7",
+      "model_raw": "Grok 4.7 Low",
+      "score": 33.1,
+      "ci": null,
+      "effort": "low",
+      "org": "xAI",
+      "release_date": "2026-09-21",
+      "notes": [
+        "via Epoch AI; source: https://cursor.com/cursorbench"
+      ]
+    },
+    {
+      "benchmark": "cursorbench",
+      "model": "gpt-5-6-luna",
+      "model_raw": "GPT-5.6 Luna Extra High",
+      "score": 33.0,
+      "ci": null,
+      "effort": "xhigh",
+      "org": "OpenAI",
+      "release_date": "2026-07-09",
+      "notes": [
+        "via Epoch AI; source: https://cursor.com/cursorbench"
+      ]
+    },
+    {
+      "benchmark": "cursorbench",
+      "model": "muse-spark-1-3",
+      "model_raw": "Muse Spark 1.3 Medium",
+      "score": 32.6,
+      "ci": null,
+      "effort": "medium",
+      "org": "Meta AI",
+      "release_date": "2026-09-02",
+      "notes": [
+        "via Epoch AI; source: https://cursor.com/cursorbench"
+      ]
+    },
+    {
+      "benchmark": "cursorbench",
+      "model": "sonnet-5",
+      "model_raw": "Sonnet 5 Extra High",
+      "score": 32.0,
+      "ci": null,
+      "effort": "xhigh",
+      "org": "Anthropic",
+      "release_date": "2026-06-30",
+      "notes": [
+        "via Epoch AI; source: https://cursor.com/cursorbench"
+      ]
+    },
+    {
+      "benchmark": "cursorbench",
+      "model": "gpt-5-6-sol",
+      "model_raw": "GPT-5.6 Sol Medium",
+      "score": 31.1,
+      "ci": null,
+      "effort": "medium",
+      "org": "OpenAI",
+      "release_date": "2026-07-09",
+      "notes": [
+        "via Epoch AI; source: https://cursor.com/cursorbench"
+      ]
+    },
+    {
+      "benchmark": "cursorbench",
+      "model": "sonnet-5",
+      "model_raw": "Sonnet 5 High",
+      "score": 30.8,
+      "ci": null,
+      "effort": "high",
+      "org": "Anthropic",
+      "release_date": "2026-06-30",
+      "notes": [
+        "via Epoch AI; source: https://cursor.com/cursorbench"
+      ]
+    },
+    {
+      "benchmark": "cursorbench",
+      "model": "gpt-5-6-terra",
+      "model_raw": "GPT-5.6 Terra High",
+      "score": 30.7,
+      "ci": null,
+      "effort": "high",
+      "org": "OpenAI",
+      "release_date": "2026-07-09",
+      "notes": [
+        "via Epoch AI; source: https://cursor.com/cursorbench"
+      ]
+    },
+    {
+      "benchmark": "cursorbench",
+      "model": "gpt-5-6-luna",
+      "model_raw": "GPT-5.6 Luna High",
+      "score": 29.4,
+      "ci": null,
+      "effort": "high",
+      "org": "OpenAI",
+      "release_date": "2026-07-09",
+      "notes": [
+        "via Epoch AI; source: https://cursor.com/cursorbench"
+      ]
+    },
+    {
+      "benchmark": "cursorbench",
+      "model": "muse-spark-1-3",
+      "model_raw": "Muse Spark 1.3 Low",
+      "score": 29.3,
+      "ci": null,
+      "effort": "low",
+      "org": "Meta AI",
+      "release_date": "2026-09-02",
+      "notes": [
+        "via Epoch AI; source: https://cursor.com/cursorbench"
+      ]
+    },
+    {
+      "benchmark": "cursorbench",
+      "model": "sonnet-5",
+      "model_raw": "Sonnet 5 Medium",
+      "score": 28.0,
+      "ci": null,
+      "effort": "medium",
+      "org": "Anthropic",
+      "release_date": "2026-06-30",
+      "notes": [
+        "via Epoch AI; source: https://cursor.com/cursorbench"
+      ]
+    },
+    {
+      "benchmark": "cursorbench",
+      "model": "composer-2-5",
+      "model_raw": "Composer 2.5",
+      "score": 27.7,
+      "ci": null,
+      "effort": null,
+      "org": "Cursor",
+      "release_date": "2026-05-18",
+      "notes": [
+        "via Epoch AI; source: https://cursor.com/cursorbench"
+      ]
+    },
+    {
+      "benchmark": "cursorbench",
+      "model": "gpt-5-6-terra",
+      "model_raw": "GPT-5.6 Terra Medium",
+      "score": 27.6,
+      "ci": null,
+      "effort": "medium",
+      "org": "OpenAI",
+      "release_date": "2026-07-09",
+      "notes": [
+        "via Epoch AI; source: https://cursor.com/cursorbench"
+      ]
+    },
+    {
+      "benchmark": "cursorbench",
+      "model": "gpt-5-6-terra",
+      "model_raw": "GPT-5.6 Terra Low",
+      "score": 25.2,
+      "ci": null,
+      "effort": "low",
+      "org": "OpenAI",
+      "release_date": "2026-07-09",
+      "notes": [
+        "via Epoch AI; source: https://cursor.com/cursorbench"
+      ]
+    },
+    {
+      "benchmark": "cursorbench",
+      "model": "gpt-5-6-sol",
+      "model_raw": "GPT-5.6 Sol Low",
+      "score": 24.6,
+      "ci": null,
+      "effort": "low",
+      "org": "OpenAI",
+      "release_date": "2026-07-09",
+      "notes": [
+        "via Epoch AI; source: https://cursor.com/cursorbench"
+      ]
+    },
+    {
+      "benchmark": "cursorbench",
+      "model": "muse-spark-1-3",
+      "model_raw": "Muse Spark 1.3 Minimal",
+      "score": 24.3,
+      "ci": null,
+      "effort": "minimal",
+      "org": "Meta AI",
+      "release_date": "2026-09-02",
+      "notes": [
+        "via Epoch AI; source: https://cursor.com/cursorbench"
+      ]
+    },
+    {
+      "benchmark": "cursorbench",
+      "model": "sonnet-5",
+      "model_raw": "Sonnet 5 Low",
+      "score": 24.1,
+      "ci": null,
+      "effort": "low",
+      "org": "Anthropic",
+      "release_date": "2026-06-30",
+      "notes": [
+        "via Epoch AI; source: https://cursor.com/cursorbench"
+      ]
+    },
+    {
+      "benchmark": "cursorbench",
+      "model": "gpt-5-6-luna",
+      "model_raw": "GPT-5.6 Luna Medium",
+      "score": 22.2,
+      "ci": null,
+      "effort": "medium",
+      "org": "OpenAI",
+      "release_date": "2026-07-09",
+      "notes": [
+        "via Epoch AI; source: https://cursor.com/cursorbench"
+      ]
+    },
+    {
+      "benchmark": "cursorbench",
+      "model": "gpt-5-6-luna",
+      "model_raw": "GPT-5.6 Luna Low",
+      "score": 16.0,
+      "ci": null,
+      "effort": "low",
+      "org": "OpenAI",
+      "release_date": "2026-07-09",
+      "notes": [
+        "via Epoch AI; source: https://cursor.com/cursorbench"
+      ]
+    },
+    {
+      "benchmark": "cursorbench",
+      "model": "opus-5-5",
+      "model_raw": "Opus 5.5 Max",
+      "score": 57.8,
+      "ci": null,
+      "effort": "max",
+      "org": "Anthropic",
+      "release_date": "2026-09-22",
+      "notes": [
+        "via Epoch AI; source: https://cursor.com/cursorbench"
+      ]
+    },
+    {
+      "benchmark": "cursorbench",
+      "model": "opus-5-5",
+      "model_raw": "Opus 5.5 Extra High",
+      "score": 56.0,
+      "ci": null,
+      "effort": "xhigh",
+      "org": "Anthropic",
+      "release_date": "2026-09-22",
+      "notes": [
+        "via Epoch AI; source: https://cursor.com/cursorbench"
+      ]
+    },
+    {
+      "benchmark": "cursorbench",
+      "model": "sonnet-5-5",
+      "model_raw": "Sonnet 5.5 Max",
+      "score": 55.5,
+      "ci": null,
+      "effort": "max",
+      "org": "Anthropic",
+      "release_date": "2026-09-28",
+      "notes": [
+        "via Epoch AI; source: https://cursor.com/cursorbench"
+      ]
+    },
+    {
+      "benchmark": "cursorbench",
+      "model": "sonnet-5-5",
+      "model_raw": "Sonnet 5.5 Extra High",
+      "score": 53.1,
+      "ci": null,
+      "effort": "xhigh",
+      "org": "Anthropic",
+      "release_date": "2026-09-28",
+      "notes": [
+        "via Epoch AI; source: https://cursor.com/cursorbench"
+      ]
+    },
+    {
+      "benchmark": "cursorbench",
+      "model": "sonnet-5-5",
+      "model_raw": "Sonnet 5.5 High",
+      "score": 47.8,
+      "ci": null,
+      "effort": "high",
+      "org": "Anthropic",
+      "release_date": "2026-09-28",
+      "notes": [
+        "via Epoch AI; source: https://cursor.com/cursorbench"
+      ]
+    },
+    {
+      "benchmark": "cursorbench",
+      "model": "sonnet-5-5",
+      "model_raw": "Sonnet 5.5 Medium",
+      "score": 39.2,
+      "ci": null,
+      "effort": "medium",
+      "org": "Anthropic",
+      "release_date": "2026-09-28",
+      "notes": [
+        "via Epoch AI; source: https://cursor.com/cursorbench"
+      ]
+    },
+    {
+      "benchmark": "cursorbench",
+      "model": "sonnet-5-5",
+      "model_raw": "Sonnet 5.5 Low",
+      "score": 35.8,
+      "ci": null,
+      "effort": "low",
+      "org": "Anthropic",
+      "release_date": "2026-09-28",
+      "notes": [
+        "via Epoch AI; source: https://cursor.com/cursorbench"
+      ]
+    },
+    {
+      "benchmark": "cursorbench",
+      "model": "opus-5-5",
+      "model_raw": "Opus 5.5 High",
+      "score": 56.0,
+      "ci": null,
+      "effort": "high",
+      "org": "Anthropic",
+      "release_date": "2026-09-22",
+      "notes": [
+        "via Epoch AI; source: https://cursor.com/cursorbench"
+      ]
+    },
+    {
+      "benchmark": "cursorbench",
+      "model": "opus-5-5",
+      "model_raw": "Opus 5.5 Medium",
+      "score": 52.5,
+      "ci": null,
+      "effort": "medium",
+      "org": "Anthropic",
+      "release_date": "2026-09-22",
+      "notes": [
+        "via Epoch AI; source: https://cursor.com/cursorbench"
+      ]
+    },
+    {
+      "benchmark": "cursorbench",
+      "model": "opus-5-5",
+      "model_raw": "Opus 5.5 Low",
+      "score": 43.7,
+      "ci": null,
+      "effort": "low",
+      "org": "Anthropic",
+      "release_date": "2026-09-22",
+      "notes": [
+        "via Epoch AI; source: https://cursor.com/cursorbench"
+      ]
+    },
+    {
+      "benchmark": "cursorbench",
+      "model": "glm-5-3",
+      "model_raw": "GLM 5.3 Max",
+      "score": 42.6,
+      "ci": null,
+      "effort": "max",
+      "org": "Z.ai (Zhipu AI)",
+      "release_date": "2026-08-14",
+      "notes": [
+        "via Epoch AI; source: https://cursor.com/cursorbench"
+      ]
+    },
+    {
+      "benchmark": "cursorbench",
+      "model": "glm-5-3",
+      "model_raw": "GLM 5.3 High",
+      "score": 38.0,
+      "ci": null,
+      "effort": "high",
+      "org": "Z.ai (Zhipu AI)",
+      "release_date": "2026-08-14",
+      "notes": [
+        "via Epoch AI; source: https://cursor.com/cursorbench"
+      ]
+    },
+    {
+      "benchmark": "cursorbench",
+      "model": "glm-5-3-flash",
+      "model_raw": "GLM 5.3 Flash Max",
+      "score": 36.8,
+      "ci": null,
+      "effort": "max",
+      "org": "Z.ai (Zhipu AI)",
+      "release_date": "2026-08-20",
+      "notes": [
+        "via Epoch AI; source: https://cursor.com/cursorbench"
+      ]
+    },
+    {
+      "benchmark": "cursorbench",
+      "model": "glm-5-3",
+      "model_raw": "GLM 5.3 Low",
+      "score": 33.3,
+      "ci": null,
+      "effort": "low",
+      "org": "Z.ai (Zhipu AI)",
+      "release_date": "2026-08-14",
+      "notes": [
+        "via Epoch AI; source: https://cursor.com/cursorbench"
+      ]
+    },
+    {
+      "benchmark": "cursorbench",
+      "model": "glm-5-3-flash",
+      "model_raw": "GLM 5.3 Flash High",
+      "score": 31.1,
+      "ci": null,
+      "effort": "high",
+      "org": "Z.ai (Zhipu AI)",
+      "release_date": "2026-08-20",
+      "notes": [
+        "via Epoch AI; source: https://cursor.com/cursorbench"
+      ]
+    },
+    {
+      "benchmark": "cursorbench",
+      "model": "glm-5-3-flash",
+      "model_raw": "GLM 5.3 Flash Low",
+      "score": 26.9,
+      "ci": null,
+      "effort": "low",
+      "org": "Z.ai (Zhipu AI)",
+      "release_date": "2026-08-20",
+      "notes": [
+        "via Epoch AI; source: https://cursor.com/cursorbench"
+      ]
+    },
+    {
+      "benchmark": "cursorbench",
+      "model": "gemini-4-argon",
+      "model_raw": "Gemini 4 Argon High",
+      "score": 52.9,
+      "ci": null,
+      "effort": "high",
+      "org": "Google DeepMind",
+      "release_date": "2026-09-30",
+      "notes": [
+        "via Epoch AI; source: https://cursor.com/cursorbench"
+      ]
+    },
+    {
+      "benchmark": "cursorbench",
+      "model": "gemini-4-argon",
+      "model_raw": "Gemini 4 Argon Medium",
+      "score": 52.8,
+      "ci": null,
+      "effort": "medium",
+      "org": "Google DeepMind",
+      "release_date": "2026-09-30",
+      "notes": [
+        "via Epoch AI; source: https://cursor.com/cursorbench"
+      ]
+    },
+    {
+      "benchmark": "cursorbench",
+      "model": "gemini-4-argon",
+      "model_raw": "Gemini 4 Argon Low",
+      "score": 50.6,
+      "ci": null,
+      "effort": "low",
+      "org": "Google DeepMind",
+      "release_date": "2026-09-30",
+      "notes": [
+        "via Epoch AI; source: https://cursor.com/cursorbench"
+      ]
+    },
+    {
+      "benchmark": "cursorbench",
+      "model": "gemini-4-argon",
+      "model_raw": "Gemini 4 Argon Minimal",
+      "score": 48.8,
+      "ci": null,
+      "effort": "minimal",
+      "org": "Google DeepMind",
+      "release_date": "2026-09-30",
+      "notes": [
+        "via Epoch AI; source: https://cursor.com/cursorbench"
+      ]
+    },
+    {
+      "benchmark": "cursorbench",
+      "model": "haiku-5-5",
+      "model_raw": "Haiku 5.5 Max",
+      "score": 48.4,
+      "ci": null,
+      "effort": "max",
+      "org": "Anthropic",
+      "release_date": "2026-10-07",
+      "notes": [
+        "via Epoch AI; source: https://cursor.com/cursorbench"
+      ]
+    },
+    {
+      "benchmark": "cursorbench",
+      "model": "haiku-5-5",
+      "model_raw": "Haiku 5.5 Extra High",
+      "score": 44.3,
+      "ci": null,
+      "effort": "xhigh",
+      "org": "Anthropic",
+      "release_date": "2026-10-07",
+      "notes": [
+        "via Epoch AI; source: https://cursor.com/cursorbench"
+      ]
+    },
+    {
+      "benchmark": "cursorbench",
+      "model": "haiku-5-5",
+      "model_raw": "Haiku 5.5 High",
+      "score": 42.3,
+      "ci": null,
+      "effort": "high",
+      "org": "Anthropic",
+      "release_date": "2026-10-07",
+      "notes": [
+        "via Epoch AI; source: https://cursor.com/cursorbench"
+      ]
+    },
+    {
+      "benchmark": "cursorbench",
+      "model": "haiku-5-5",
+      "model_raw": "Haiku 5.5 Medium",
+      "score": 36.9,
+      "ci": null,
+      "effort": "medium",
+      "org": "Anthropic",
+      "release_date": "2026-10-07",
+      "notes": [
+        "via Epoch AI; source: https://cursor.com/cursorbench"
+      ]
+    },
+    {
+      "benchmark": "cursorbench",
+      "model": "haiku-5-5",
+      "model_raw": "Haiku 5.5 Low",
+      "score": 30.9,
+      "ci": null,
+      "effort": "low",
+      "org": "Anthropic",
+      "release_date": "2026-10-07",
+      "notes": [
+        "via Epoch AI; source: https://cursor.com/cursorbench"
+      ]
+    },
+    {
+      "benchmark": "cursorbench",
+      "model": "muse-wonder-1-0",
+      "model_raw": "Muse Wonder Max",
+      "score": 50.4,
+      "ci": null,
+      "effort": "max",
+      "org": "Meta AI",
+      "release_date": "2026-10-12",
+      "notes": [
+        "via Epoch AI; source: https://cursor.com/cursorbench"
+      ]
+    },
+    {
+      "benchmark": "cursorbench",
+      "model": "muse-wonder-1-0",
+      "model_raw": "Muse Wonder Extra High",
+      "score": 48.2,
+      "ci": null,
+      "effort": "xhigh",
+      "org": "Meta AI",
+      "release_date": "2026-10-12",
+      "notes": [
+        "via Epoch AI; source: https://cursor.com/cursorbench"
+      ]
+    },
+    {
+      "benchmark": "cursorbench",
+      "model": "muse-wonder-1-0",
+      "model_raw": "Muse Wonder High",
+      "score": 46.1,
+      "ci": null,
+      "effort": "high",
+      "org": "Meta AI",
+      "release_date": "2026-10-12",
+      "notes": [
+        "via Epoch AI; source: https://cursor.com/cursorbench"
+      ]
+    },
+    {
+      "benchmark": "cursorbench",
+      "model": "muse-wonder-1-0",
+      "model_raw": "Muse Wonder Medium",
+      "score": 45.2,
+      "ci": null,
+      "effort": "medium",
+      "org": "Meta AI",
+      "release_date": "2026-10-12",
+      "notes": [
+        "via Epoch AI; source: https://cursor.com/cursorbench"
+      ]
+    },
+    {
+      "benchmark": "cursorbench",
+      "model": "muse-wonder-1-0",
+      "model_raw": "Muse Wonder Low",
+      "score": 41.7,
+      "ci": null,
+      "effort": "low",
+      "org": "Meta AI",
+      "release_date": "2026-10-12",
+      "notes": [
+        "via Epoch AI; source: https://cursor.com/cursorbench"
+      ]
+    },
+    {
+      "benchmark": "cursorbench",
+      "model": "muse-wonder-1-0",
+      "model_raw": "Muse Wonder Minimal",
+      "score": 34.2,
+      "ci": null,
+      "effort": "minimal",
+      "org": "Meta AI",
+      "release_date": "2026-10-12",
+      "notes": [
+        "via Epoch AI; source: https://cursor.com/cursorbench"
+      ]
+    },
+    {
+      "benchmark": "cursorbench",
+      "model": "deepseek-v4-1-flash-1017",
+      "model_raw": "DeepSeek V4.1 Flash 1017 Max",
+      "score": 47.7,
+      "ci": null,
+      "effort": "max",
+      "org": "DeepSeek",
+      "release_date": "2026-10-17",
+      "notes": [
+        "via Epoch AI; source: https://cursor.com/cursorbench"
+      ]
+    },
+    {
+      "benchmark": "cursorbench",
+      "model": "deepseek-v4-1-flash-1017",
+      "model_raw": "DeepSeek V4.1 Flash 1017 Medium",
+      "score": 46.3,
+      "ci": null,
+      "effort": "medium",
+      "org": "DeepSeek",
+      "release_date": "2026-10-17",
+      "notes": [
+        "via Epoch AI; source: https://cursor.com/cursorbench"
+      ]
+    },
+    {
+      "benchmark": "cursorbench",
+      "model": "deepseek-v4-1-flash-1017",
+      "model_raw": "DeepSeek V4.1 Flash 1017 High",
+      "score": 45.6,
+      "ci": null,
+      "effort": "high",
+      "org": "DeepSeek",
+      "release_date": "2026-10-17",
+      "notes": [
+        "via Epoch AI; source: https://cursor.com/cursorbench"
+      ]
+    },
+    {
+      "benchmark": "cursorbench",
+      "model": "deepseek-v4-1-flash-1017",
+      "model_raw": "DeepSeek V4.1 Flash 1017 Low",
+      "score": 44.9,
+      "ci": null,
+      "effort": "low",
+      "org": "DeepSeek",
+      "release_date": "2026-10-17",
+      "notes": [
+        "via Epoch AI; source: https://cursor.com/cursorbench"
+      ]
+    }
+  ]
+}
