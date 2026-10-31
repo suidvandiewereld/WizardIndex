@@ -1,0 +1,190 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>How We Rank AI Models for Coding, Step by Step | WizardIndex</title>
+  <meta name="description" content="How WizardIndex turns public leaderboards into one score: rescaling, skill weights, price, estimates for untested skills and cross-checks between sources.">
+  <link rel="canonical" href="https://suidvandiewereld.github.io/WizardIndex/method.html">
+  <meta property="og:type" content="article">
+  <meta property="og:site_name" content="WizardIndex">
+  <meta property="og:title" content="How We Rank AI Models for Coding, Step by Step">
+  <meta property="og:description" content="How WizardIndex turns public leaderboards into one score: rescaling, skill weights, price, estimates for untested skills and cross-checks between sources.">
+  <meta property="og:url" content="https://suidvandiewereld.github.io/WizardIndex/method.html">
+  <meta property="og:image" content="https://suidvandiewereld.github.io/WizardIndex/og.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="WizardIndex: which AI is actually the best software engineer?">
+  <meta name="twitter:card" content="summary_large_image">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "How We Rank AI Models for Coding, Step by Step",
+    "description": "How WizardIndex turns public leaderboards into one score: rescaling, skill weights, price, estimates for untested skills and cross-checks between sources.",
+    "url": "https://suidvandiewereld.github.io/WizardIndex/method.html",
+    "mainEntityOfPage": "https://suidvandiewereld.github.io/WizardIndex/method.html",
+    "image": "https://suidvandiewereld.github.io/WizardIndex/og.png",
+    "author": {
+      "@type": "Organization",
+      "name": "WizardIndex",
+      "url": "https://suidvandiewereld.github.io/WizardIndex/"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "WizardIndex",
+      "url": "https://suidvandiewereld.github.io/WizardIndex/"
+    }
+  }
+  </script>
+  <link rel="icon" href="hat.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="container">
+    <div id="header">
+      <a href="./" class="logo">
+        <img src="hat.svg" alt="" width="78" height="66">
+        <span class="logo-words">
+          <span class="logo-text">WizardIndex</span>
+          <span class="tagline">Which AI is actually the best software engineer? Scored from official leaderboards, not press releases.</span>
+        </span>
+      </a>
+      <dl class="head-stats">
+        <div><dt>Models ranked</dt><dd id="hs-ranked">&nbsp;</dd></div>
+        <div><dt>Benchmarks</dt><dd id="hs-bench">&nbsp;</dd></div>
+        <div><dt>Updated</dt><dd id="head-stamp">&nbsp;</dd></div>
+      </dl>
+    </div>
+
+    <ul id="tabs">
+      <li><a href="./">Rankings</a></li>
+      <li><a href="history.html">History</a></li>
+      <li class="current"><a href="method.html">How it works</a></li>
+      <li><a href="learn.html">AI basics</a></li>
+      <li><a href="security.html">Security</a></li>
+      <li><a href="tools.html">Tools</a></li>
+      <li><a href="sources.html">Data sources</a></li>
+      <li><a href="data/index.json">Download data</a></li>
+      <li><a href="https://github.com/suidvandiewereld/WizardIndex">Source code</a></li>
+    </ul>
+
+    <div id="body">
+      <div id="main">
+        <h1>How it works</h1>
+        <p>From a pile of leaderboards to one score, step by step. Every number on the <a href="./">rankings</a> can be traced back through these steps: click a model's <b>[+]</b> there for its receipts.</p>
+
+        <div class="qa" id="results">
+          <h2>1. Where the numbers come from <a class="permalink" href="#results">link</a></h2>
+          <div class="qa-body">
+            <p>Results come straight from each benchmark's own leaderboard, where the maintainers run every model the same way.</p>
+            <p>When a leaderboard lists several effort levels or agents for a model, its best result counts.</p>
+          </div>
+        </div>
+
+        <div class="qa" id="cross-checks">
+          <h2>2. Checking sources against each other <a class="permalink" href="#cross-checks">link</a></h2>
+          <div class="qa-body">
+            <p>Where two parties publish the same benchmark (FrontierCode from Cognition and from Artificial Analysis, Terminal-Bench from its maintainers and from Artificial Analysis), the two are compared model by model. Different harnesses differ by a steady amount, so a model is flagged only when its two results disagree by far more than that. We don't re-run benchmarks ourselves yet, so a flag means: check both before trusting either. Flags show under <a href="sources.html">Data sources</a> and in a model's receipts.</p>
+          </div>
+        </div>
+
+        <div class="qa" id="scale">
+          <h2>3. One scale for every benchmark <a class="permalink" href="#scale">link</a></h2>
+          <div class="qa-body">
+            <p>Each benchmark is rescaled the same way: the leader scores 100, the middle of the models on this board scores 50, and the weakest model on the benchmark's own leaderboard scores 0. Anchoring the middle on the real contenders, not on the dozens of small models most leaderboards list, keeps the frontier from bunching up at 90+, and it means a 3-point lead on a nearly maxed-out test counts for what it is.</p>
+            <p>That makes every score relative to this week's field, not absolute. A model's score can move when others join or leave the board, even if its own results don't, so compare models within one week's table rather than a model against last month's number. The raw results behind each [+] are absolute.</p>
+          </div>
+        </div>
+
+        <div class="qa" id="weights">
+          <h2>4. From benchmarks to one score <a class="permalink" href="#weights">link</a></h2>
+          <div class="qa-body">
+            <p>Benchmarks are averaged within a skill, then skills are combined by weight. Skills with no published data yet don't count, so each weight shown is that skill's real share of the score.</p>
+          </div>
+        </div>
+
+        <div class="qa" id="price">
+          <h2>5. Price: the Thrift column <a class="permalink" href="#price">link</a></h2>
+          <div class="qa-body">
+            <p>Price counts too, as Thrift: what Artificial Analysis actually paid to run its evaluation suite on the model, thinking tokens included. Each model is priced at its top reasoning setting, because that is where its best results, and so its skill scores, come from: the score and the price are for the same configuration.</p>
+            <p>Where a subscription is subsidised, the cost is what the same work costs through the lab's largest plan: SemiAnalysis measured how many dollars of API usage each plan buys (Claude Max 20x buys about $58 of Opus 5.5 per dollar; ChatGPT Pro about $11 of GPT-6.1 Sol). Labs with no measured plan, like Google so far, are priced at the API.</p>
+            <p>The cheapest model scores 100 and the dearest 0, on a square-root scale: the difference between $500 and $5,000 counts for much more than the difference between $80 and $500.</p>
+          </div>
+        </div>
+
+        <div class="qa" id="estimates">
+          <h2>6. Skills nobody has tested yet <a class="permalink" href="#estimates">link</a></h2>
+          <div class="qa-body">
+            <p>A skill a model hasn't been tested on is estimated. If a close relative was tested on it (an earlier version, or a sibling released alongside), we start from the relative's result and adjust for how the two compare on everything else. Otherwise we go by where the model stands on everything else, using how well those skills predict the missing one across all current models: the weaker the link, the closer the estimate stays to the typical score.</p>
+            <p>Estimates are checked against reality every week: we hide each tested model's real result in a skill, estimate it the same way, and measure the miss. That typical miss is shown for each skill under <a href="sources.html">Data sources</a>, and it sets the &plusmn; on any score that is partly estimated and the range of ranks it could hold.</p>
+          </div>
+        </div>
+
+        <div class="qa" id="ranked">
+          <h2>7. Who gets ranked <a class="permalink" href="#ranked">link</a></h2>
+          <div class="qa-body">
+            <p>Only models released in the last <span id="max-age">120</span> days, with at least one coding result and at least half their score measured, are ranked.</p>
+          </div>
+        </div>
+
+        <div class="qa" id="picker">
+          <h2>8. "Which model for my job?" <a class="permalink" href="#picker">link</a></h2>
+          <div class="qa-body">
+            <p>The "Which model for my job?" picker scores each model's fit for a job as a weighted mix of the skills that job leans on, on the same scale as the table. It then picks the cheapest model that clears the bar you choose, and flags as overkill any model that a cheaper one matches. Each model's real result on the benchmark closest to the job sits beside it, so a fit score never has to be taken on faith.</p>
+          </div>
+        </div>
+
+        <div class="qa" id="titles">
+          <h2>9. Titles and icons <a class="permalink" href="#titles">link</a></h2>
+          <div class="qa-body">
+            <p>Titles and icons are just for fun. Models on the board get their titles by hand, based on what the numbers and their users say; anything else gets one built from its score and strongest skill. Every model's pixel icon is unique to it.</p>
+          </div>
+        </div>
+
+        <div class="qa" id="reading">
+          <h2>10. Reading the scores <a class="permalink" href="#reading">link</a></h2>
+          <div class="qa-body">
+            <p>Scores within a point or two of each other are a tie. Anyone who tells you otherwise is selling something. SWE-rebench results for models released after its tasks were collected are flagged as possibly contaminated, because labs absolutely train on the test.</p>
+          </div>
+        </div>
+      </div>
+
+      <div id="sidebar">
+        <div class="box toc">
+          <h3>On this page</h3>
+          <ol class="jump">
+            <li><a href="#results">Where the numbers come from</a></li>
+            <li><a href="#cross-checks">Cross-checks</a></li>
+            <li><a href="#scale">One scale</a></li>
+            <li><a href="#weights">Weights</a></li>
+            <li><a href="#price">Price</a></li>
+            <li><a href="#estimates">Estimates</a></li>
+            <li><a href="#ranked">Who gets ranked</a></li>
+            <li><a href="#picker">The job picker</a></li>
+            <li><a href="#titles">Titles and icons</a></li>
+            <li><a href="#reading">Reading the scores</a></li>
+          </ol>
+        </div>
+        <div class="box">
+          <h3>Thanks to</h3>
+          <p>Many results arrive through <a href="https://epoch.ai/benchmarks">Epoch AI</a> (CC BY 4.0), <a href="https://www.designarena.ai/leaderboard">Design Arena</a> and <a href="https://artificialanalysis.ai">Artificial Analysis</a>.</p>
+          <p class="small-note">From Artificial Analysis we take only the evals they actually run. Their Intelligence Index can stay where it is.</p>
+        </div>
+        <div class="box">
+          <h3>Also read</h3>
+          <p><a href="sources.html">Data sources</a>: every benchmark behind the score, and when it was last fetched.</p>
+          <p><a href="learn.html">AI basics</a>: models, agents and harnesses in plain English.</p>
+        </div>
+      </div>
+    </div>
+
+    <div id="footer">
+      <p>WizardIndex &copy; 2026. Updated weekly. No models were flattered in the making of this table. <span id="foot-stamp"></span></p>
+    </div>
+  </div>
+
+  <script src="header.js"></script>
+  <script src="explain.js"></script>
+</body>
+</html>

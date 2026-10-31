@@ -1,0 +1,27 @@
+name: Tests
+
+on:
+  push:
+    branches: [main, master]
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: astral-sh/setup-uv@v6
+
+      - name: Install
+        run: uv venv && uv pip install -e ".[test]"
+
+      - name: Run tests
+        run: uv run --no-sync pytest
+
+      # The committed data must still build, and the build must match what the tests just checked.
+      - name: Build index
+        run: uv run --no-sync wizardindex build && uv run --no-sync pytest tests/test_site.py

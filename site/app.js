@@ -1,4 +1,6 @@
 (async function () {
+  // The data sources used to be a section of this page; old links to it go to their own page now.
+  if (location.hash === "#sources") { location.replace("sources.html"); return; }
   const res = await fetch("data/index.json", { cache: "no-cache" });
   const data = await res.json();
   const dims = data.dimensions;
@@ -7,6 +9,12 @@
   const benchUrl = Object.fromEntries(dims.flatMap(d => d.benchmarks.map(b => [b.id, b.url])));
   const liveDims = dims.filter(d => d.benchmarks.some(b => b.n_results > 0));
   const showAll = document.getElementById("show-all");
+  const findBox = document.getElementById("find");
+  const labSel = document.getElementById("lab");
+  // Table order: null is the overall ranking; otherwise a column key, highest first unless sortUp.
+  let sortKey = null, sortUp = false;
+  const MAX_COMPARE = 4;
+  const picked = new Set(loadPicks());
 
   const benchKind = Object.fromEntries(dims.flatMap(d => d.benchmarks.map(b => [b.id, b.kind])));
   const SHORT = { swe: "Coding", taste: "Taste", agentic: "Agentic", reasoning: "Reasoning", adaptability: "Adapting", spatial: "Spatial", creativity: "Creative", reliability: "Reliable", price: "Thrift", architecture: "Architecture", cleanliness: "Clean code", instructions: "Instructions" };
@@ -18,8 +26,10 @@
   const costOf = m => Object.entries(m.benchmarks).find(([id]) => benchKind[id] === "cost");
   const PHRASE = { swe: "real coding", taste: "design taste", agentic: "agentic work", reasoning: "reasoning",
     adaptability: "anything unfamiliar", reliability: "not making stuff up", spatial: "spatial work", creativity: "creative problems" };
-  const ORGS = { openai: "OpenAI", xai: "xAI", "z.ai": "Z.ai", zhipu: "Z.ai", deepseek: "DeepSeek", minimax: "MiniMax", moonshot: "Moonshot AI", kimi: "Moonshot AI", "moonshot ai": "Moonshot AI", alibaba: "Alibaba",
-    google: "Google", "google deepmind": "Google DeepMind", "google-deepmind": "Google DeepMind", "meta ai": "Meta AI", meta: "Meta", "mistral ai": "Mistral AI" };
+  // Leaderboards spell some labs several ways; each lab gets one name, so the table and the lab filter agree.
+  const ORGS = { openai: "OpenAI", xai: "xAI", "z.ai": "Z.ai", "z.ai (zhipu ai)": "Z.ai", zhipu: "Z.ai", deepseek: "DeepSeek", minimax: "MiniMax", moonshot: "Moonshot AI", kimi: "Moonshot AI", "moonshot ai": "Moonshot AI", alibaba: "Alibaba",
+    google: "Google DeepMind", "google deepmind": "Google DeepMind", "google-deepmind": "Google DeepMind", "meta ai": "Meta", meta: "Meta", mistral: "Mistral AI", "mistral ai": "Mistral AI", nvidia: "NVIDIA",
+    stepfun: "StepFun", "thinking machines": "Thinking Machines", "institute of foundation models": "Institute of Foundation Models" };
   const orgName = o => ORGS[o] || o.charAt(0).toUpperCase() + o.slice(1);
   const esc = s => String(s ?? "").replace(/[&<>"']/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
   const fmtDate = iso => iso ? new Date(iso + (iso.length === 10 ? "T00:00:00" : "")).toLocaleDateString(undefined, { year: "numeric", month: "short", day: "numeric" }) : "never";
@@ -27,19 +37,54 @@
   const updated = `Last updated ${fmtDate(data.generated_at)}`;
   document.getElementById("foot-stamp").textContent = `${updated}.`;
   document.getElementById("max-age").textContent = data.ranking?.max_age_days ?? 120;
-  const liveWeight = liveDims.reduce((a, d) => a + d.weight, 0);
-  const totalWeight = dims.reduce((a, d) => a + d.weight, 0);
-  document.getElementById("coverage-note").textContent =
-    `${liveDims.length} of ${dims.length} skills have published leaderboard data so far (${Math.round(100 * liveWeight / totalWeight)}% of the planned weight). ` +
-    `The rest join once somebody actually publishes numbers for them.`;
+  const pending = dims.filter(d => !liveDims.includes(d)).map(d => SHORT[d.id] || d.name);
+  // A skill's real share of the score: its weight over the skills that have data, as computed by the build.
+  const share = d => `${Math.round(d.share ?? 0)}%`;
+  // How far a partly estimated score could be off ("" when it is all measured), and the ranks that spans.
+  const plusMinus = m => m.margin >= 0.5 ? ` ±${m.margin.toFixed(1)}` : "";
+  const rankSpan = m => m.rank_range && m.rank_range[0] !== m.rank_range[1] ? `${m.rank_range[0]}–${m.rank_range[1]}` : "";
+  document.getElementById("coverage-note").innerHTML = `<h2>Reading this table</h2><ul>
+    <li>100 is this week's leader on each benchmark and 50 the middle of the ranked models, so scores are relative: a model's score can move when others join or leave the board, even if its own results haven't changed. The raw results behind each <b>[+]</b> are absolute.</li>
+    <li>The weights are each skill's real share of the score. ${liveDims.length} of ${dims.length} skills have published leaderboard data so far${pending.length
+      ? `; ${esc(pending.join(", "))} count${pending.length === 1 ? "s" : ""} once somebody actually publishes numbers for ${pending.length === 1 ? "it" : "them"}` : ""}.</li>
+    <li>A <span class="est">*</span> is an estimate, and &plusmn; is how far it could be off.</li></ul>`;
+
+  // Rank changes since the ranking before this one, when the build kept it (data/previous_ranks.json).
+  const wasRank = data.previous?.ranks || {};
+  const since = data.previous?.generated_at;
+  const isNew = m => m.released && (new Date(data.generated_at) - new Date(m.released + "T00:00:00")) / 864e5 <= 14;
+  document.getElementById("key").innerHTML = [
+    `<span><i class="sw hi"></i>85+</span>`, `<span><i class="sw mid"></i>60&ndash;84</span>`, `<span><i class="sw lo"></i>under 60</span>`,
+    `<span><i class="est">63*</i> estimated</span>`, `<span><b>&plusmn;</b> possible error</span>`,
+    `<span><span class="new-badge">NEW</span> last two weeks</span>`,
+    since ? `<span><b class="mv up">&#9650;</b><b class="mv down">&#9660;</b> since ${new Date(since).toLocaleDateString(undefined, { month: "short", day: "numeric" })}</span>` : "",
+    `<span><i class="tick-box"></i>tick to compare</span>`,
+  ].join("");
 
   renderChart();
   renderFinder();
   renderHead();
+  renderLabs();
   renderBody();
+  renderCompare();
   renderSidebar();
-  renderDims();
-  showAll.addEventListener("change", renderBody);
+  showAll.addEventListener("change", () => { renderLabs(); renderBody(); });
+  findBox.addEventListener("input", renderBody);
+  labSel.addEventListener("change", renderBody);
+  document.getElementById("show-all-n").textContent = `(${data.models.filter(m => !m.ranked).length} more)`;
+  document.querySelector("#ranking thead").addEventListener("click", e => {
+    const b = e.target.closest("button.sort");
+    if (!b) return;
+    const key = b.dataset.key;
+    if (key === "rank") sortKey = null;
+    else if (key === sortKey) sortUp = !sortUp;
+    else { sortKey = key; sortUp = key === "name"; }
+    renderHead();
+    renderBody();
+  });
+  // A shared link to one model (#model=<id>) opens its details.
+  const linked = location.hash.match(/^#model=(.+)$/);
+  if (linked) reveal(decodeURIComponent(linked[1]));
 
   function skillValue(m, id) {
     if (m.dimensions[id] != null) return { v: m.dimensions[id], est: false };
@@ -53,11 +98,15 @@
     const ranked = data.models.filter(m => m.ranked);
     if (!ranked.length) return;
     const half = Math.ceil(ranked.length / 2);
+    const clip = v => Math.max(0, Math.min(100, v));
+    // A whisker across the bar's end where part of the score is estimated: how far it could be off.
+    const whisker = m => m.margin >= 0.5
+      ? `<s style="left:${clip(m.index - m.margin).toFixed(1)}%;width:${(clip(m.index + m.margin) - clip(m.index - m.margin)).toFixed(1)}%"></s>` : "";
     const row = m => `<li><a href="#" class="ic-row" data-model="${esc(m.model)}"
-        title="#${m.rank} ${esc(m.name)}, ${esc(m.title)}: ${m.index.toFixed(1)} (${m.coverage}% measured). Click for the details.">
+        title="#${m.rank} ${esc(m.name)}, ${esc(m.title)}: ${m.index.toFixed(1)}${plusMinus(m)} (${m.coverage}% measured). Click for the details.">
       <span class="ic-rank">${m.rank}</span>
       <span class="ic-name">${iconSvg(m, 16)} ${esc(m.name)}</span>
-      <span class="ic-track"><i style="width:${Math.max(0, Math.min(100, m.index)).toFixed(1)}%"></i></span>
+      <span class="ic-track"><i style="width:${clip(m.index).toFixed(1)}%"></i>${whisker(m)}</span>
       <span class="ic-score">${m.index.toFixed(1)}</span></a></li>`;
     const axis = `<div class="ic-axis" aria-hidden="true"><span></span><span class="ic-ticks">${
       [0, 25, 50, 75, 100].map(t => `<b style="left:${t}%">${t}</b>`).join("")}</span></div>`;
@@ -191,25 +240,82 @@
 
   // Scrolls the table to a model and opens its details.
   function reveal(id) {
-    if (!showAll.checked && !data.models.find(m => m.model === id)?.ranked) { showAll.checked = true; renderBody(); }
-    const row = document.querySelector(`#ranking tr.model[data-model="${id}"]`);
+    if (!showAll.checked && !data.models.find(m => m.model === id)?.ranked) { showAll.checked = true; renderLabs(); renderBody(); }
+    if (!document.querySelector(`#ranking tr.model[data-model="${CSS.escape(id)}"]`) && (findBox.value || labSel.value)) {
+      findBox.value = "";
+      labSel.value = "";
+      renderBody();
+    }
+    const row = document.querySelector(`#ranking tr.model[data-model="${CSS.escape(id)}"]`);
     if (!row) return;
     row.scrollIntoView({ block: "center" });
     const t = row.querySelector("a.toggle");
     if (t.textContent === "[+]") toggle(t);
   }
 
+  // Every heading sorts the table by its column; # goes back to the overall ranking.
   function renderHead() {
-    const cols = liveDims.map(d => `<th class="skill" title="${esc(d.name)}">${esc(HEAD[d.id] || SHORT[d.id] || d.name)}<small>${d.weight}%</small></th>`).join("");
-    document.querySelector("#ranking thead").innerHTML =
-      `<tr><th>#</th><th class="l">Model</th><th>Score</th>${cols}<th title="Share of the score that is measured, not estimated">Data</th></tr>`;
+    const cols = [
+      { key: "rank", label: "#", title: "The overall ranking" },
+      { key: "name", label: "Model", cls: "l", title: "Sort by name" },
+      { key: "index", label: "Score", title: "The index score" },
+      ...liveDims.map(d => ({ key: d.id, label: HEAD[d.id] || SHORT[d.id] || d.name, small: share(d), cls: "skill", title: `${d.name}: ${share(d)} of the score` })),
+      { key: "coverage", label: "Data", title: "Share of the score that is measured, not estimated" },
+    ];
+    const arrow = key => key === sortKey ? (sortUp ? " &#9650;" : " &#9660;") : "";
+    document.querySelector("#ranking thead").innerHTML = `<tr>${cols.map(c => {
+      const sorted = c.key === sortKey;
+      return `<th class="${c.cls || ""}${sorted ? " sorted" : ""}"${sorted ? ` aria-sort="${sortUp ? "ascending" : "descending"}"` : ""} title="${esc(c.title)}">` +
+        `<button type="button" class="sort" data-key="${c.key}">${esc(c.label)}${arrow(c.key)}${c.small ? `<small>${c.small}</small>` : ""}</button></th>`;
+    }).join("")}</tr>`;
+    const note = document.getElementById("sort-note");
+    const col = cols.find(c => c.key === sortKey);
+    note.hidden = !col;
+    if (col) {
+      const order = sortKey === "name" ? (sortUp ? "A to Z" : "Z to A") : sortUp ? "lowest first" : "highest first";
+      note.innerHTML = `Sorted by <b>${esc(col.key === "name" ? "name" : liveDims.find(d => d.id === col.key)?.name || col.label)}</b>, ${order}. ` +
+        `Click the heading again to reverse it, or <b>#</b> to go back to the overall ranking.`;
+    }
   }
 
+  // The lab menu lists the labs among the models the table can show right now.
+  function renderLabs() {
+    const pool = data.models.filter(m => (m.ranked || showAll.checked) && m.org);
+    const labs = [...new Set(pool.map(m => orgName(m.org)))].sort((a, b) => a.localeCompare(b));
+    const keep = labs.includes(labSel.value) ? labSel.value : "";
+    labSel.innerHTML = `<option value="">All labs</option>` + labs.map(l => `<option>${esc(l)}</option>`).join("");
+    labSel.value = keep;
+  }
+
+  function sortValue(m, key) {
+    if (key === "name") return m.name.toLowerCase();
+    if (key === "index" || key === "coverage") return m[key];
+    return skillValue(m, key)?.v;
+  }
+
+  // Ranked models only, or every model in score order: outdated and unranked ones then sit, greyed
+  // out and flagged, where their score puts them instead of trailing after the last ranked model.
+  // Then the chosen column order, the search box and the lab menu.
   function renderBody() {
-    const models = data.models.filter(m => m.ranked || showAll.checked);
+    const pool = showAll.checked
+      ? [...data.models].sort((a, b) => b.index - a.index)
+      : data.models.filter(m => m.ranked);
+    if (sortKey) {
+      pool.sort((a, b) => {
+        const x = sortValue(a, sortKey), y = sortValue(b, sortKey);
+        if (x == null || y == null) return (x == null) - (y == null);
+        return (x < y ? -1 : x > y ? 1 : 0) * (sortUp ? 1 : -1);
+      });
+    }
+    const q = findBox.value.trim().toLowerCase(), lab = labSel.value;
+    const models = pool.filter(m => (!lab || (m.org && orgName(m.org) === lab))
+      && (!q || [m.name, m.model, m.title, m.org && orgName(m.org)].some(s => s && s.toLowerCase().includes(q))));
     const tbody = document.querySelector("#ranking tbody");
-    tbody.innerHTML = models.map(rowHtml).join("");
+    tbody.innerHTML = models.length ? models.map(rowHtml).join("")
+      : `<tr><td class="none" colspan="${liveDims.length + 4}">No models match. Clear the search or pick another lab.</td></tr>`;
+    document.getElementById("shown-n").textContent = q || lab ? `${models.length} of ${pool.length} shown` : "";
     tbody.querySelectorAll("a.toggle").forEach(a => a.addEventListener("click", e => { e.preventDefault(); toggle(a); }));
+    tbody.querySelectorAll("input.pick").forEach(box => box.addEventListener("change", () => pick(box)));
   }
 
   function rowHtml(m, i) {
@@ -227,15 +333,73 @@
     const flag = m.outdated ? "outdated" : !m.ranked ? "unranked" : "";
     const cls = ["model", i % 2 ? "" : "odd", m.rank && m.rank <= 3 ? "top" : "", m.ranked ? "" : "dim"].join(" ");
     const sub = m.org ? orgName(m.org) : "";
+    const span = rankSpan(m), pm = plusMinus(m);
     return `<tr class="${cls}" data-model="${esc(m.model)}">
-      <td class="rank">${m.rank ?? "-"}</td>
-      <td class="l who"><div class="who-in"><a href="#" class="toggle" aria-expanded="false" aria-label="Show details for ${esc(m.name)}">[+]</a>${iconSvg(m, 24)}<div>
-        <span class="name" title="${esc(verdict(m))}">${esc(m.name)}</span>${flag ? `<span class="flag">${flag}</span>` : ""}
+      <td class="rank">${m.rank ?? "-"}${movement(m)}${span ? `<small title="Could rank anywhere from ${span} if estimates are off by their typical amount">${span}</small>` : ""}</td>
+      <td class="l who"><div class="who-in"><input type="checkbox" class="pick" title="Tick to compare, up to ${MAX_COMPARE} models" aria-label="Compare ${esc(m.name)}"${picked.has(m.model) ? " checked" : ""}><a href="#" class="toggle" aria-expanded="false" aria-label="Show details for ${esc(m.name)}">[+]</a>${iconSvg(m, 24)}<div>
+        <span class="name" title="${esc(verdict(m))}">${esc(m.name)}</span>${isNew(m) ? `<span class="new-badge" title="Released ${fmtDate(m.released)}">NEW</span>` : ""}${flag ? `<span class="flag">${flag}</span>` : ""}
         <span class="title">${esc(m.title)}</span><span class="org">${esc(sub)}</span></div></div></td>
-      <td class="score-cell"><span class="score">${m.index.toFixed(1)}</span></td>
+      <td class="score-cell"><span class="score">${m.index.toFixed(1)}</span>${pm
+        ? `<small class="pm" title="Part of this score is estimated; estimates like these are typically off by this much">${pm.trim()}</small>` : ""}</td>
       ${cells}
       <td>${m.coverage}%</td>
     </tr>`;
+  }
+
+  // Up or down since the last ranking, or "new" for a model that wasn't ranked then.
+  function movement(m) {
+    if (!m.rank || !since) return "";
+    const was = wasRank[m.model];
+    if (was == null) return `<span class="mv new" title="Not ranked on ${fmtDate(since)}">new</span>`;
+    if (was === m.rank) return "";
+    const up = was > m.rank;
+    return `<span class="mv ${up ? "up" : "down"}" title="Was #${was} on ${fmtDate(since)}">${up ? "&#9650;" : "&#9660;"}${Math.abs(was - m.rank)}</span>`;
+  }
+
+  function loadPicks() {
+    try { return JSON.parse(localStorage.getItem("wi-compare") || "[]"); } catch (e) { return []; }
+  }
+
+  function pick(box) {
+    const id = box.closest("tr").dataset.model;
+    if (box.checked && picked.size >= MAX_COMPARE) {
+      box.checked = false;
+      document.getElementById("compare").querySelector(".compare-full")?.removeAttribute("hidden");
+      return;
+    }
+    if (box.checked) picked.add(id); else picked.delete(id);
+    try { localStorage.setItem("wi-compare", JSON.stringify([...picked])); } catch (e) { /* no storage: picks last until reload */ }
+    renderCompare();
+  }
+
+  // The ticked models side by side, skill by skill, with the best in each row marked.
+  function renderCompare() {
+    const box = document.getElementById("compare");
+    const models = [...picked].map(id => data.models.find(m => m.model === id)).filter(Boolean);
+    box.hidden = !models.length;
+    if (!models.length) { box.innerHTML = ""; return; }
+    const line = (label, cells, best = true) => {
+      const vals = cells.map(c => c && c.v);
+      const top = best && vals.filter(v => v != null).length > 1 ? Math.max(...vals.filter(v => v != null)) : null;
+      return `<tr><td class="l">${label}</td>${cells.map(c => !c ? `<td class="est">n/a</td>`
+        : `<td class="${top != null && c.v === top ? "best" : ""}${c.est ? " est" : ""}">${c.text}</td>`).join("")}</tr>`;
+    };
+    const skill = (m, id) => { const s = skillValue(m, id); return s && { v: s.v, est: s.est, text: `${s.v.toFixed(0)}${s.est ? "*" : ""}` }; };
+    const price = m => { const c = costOf(m); return c && { v: null, text: dollars(c[1].score) }; };
+    box.innerHTML = `<h3>Compare <span>${models.length < 2 ? "tick another model in the table" : `${models.length} of ${MAX_COMPARE}`} &middot; <a href="#" class="compare-clear">clear</a></span></h3>
+      <p class="compare-full" hidden>${MAX_COMPARE} at most: untick one first.</p>
+      <table><tr><th class="l">Skill</th>${models.map(m => `<th>${iconSvg(m, 16)} ${esc(m.name)}</th>`).join("")}</tr>
+      ${line("<b>Score</b>", models.map(m => ({ v: m.index, text: `<b>${m.index.toFixed(1)}</b>` })))}
+      ${liveDims.map(d => line(esc(d.name), models.map(m => skill(m, d.id)))).join("")}
+      ${line("Cost of the eval run", models.map(price), false)}
+      ${line("Measured", models.map(m => ({ v: null, text: `${m.coverage}%` })), false)}</table>`;
+    box.querySelector(".compare-clear").addEventListener("click", e => {
+      e.preventDefault();
+      picked.clear();
+      try { localStorage.removeItem("wi-compare"); } catch (err) { /* nothing stored */ }
+      document.querySelectorAll("#ranking input.pick").forEach(b => { b.checked = false; });
+      renderCompare();
+    });
   }
 
   function toggle(a) {
@@ -245,6 +409,7 @@
       next.remove();
       a.textContent = "[+]";
       a.setAttribute("aria-expanded", "false");
+      if (location.hash === `#model=${encodeURIComponent(tr.dataset.model)}`) history.replaceState(null, "", location.pathname + location.search);
       return;
     }
     const m = data.models.find(x => x.model === tr.dataset.model);
@@ -260,19 +425,36 @@
         const val = benchKind[id] === "cost" ? dollars(r.score) : r.score > 100 ? r.score.toFixed(0) : `${r.score.toFixed(1)}%`;
         const ci = r.ci != null ? ` <span class="ci">&plusmn;${(+r.ci).toFixed(1)}</span>` : "";
         const effort = r.effort && !r.model_raw.toLowerCase().includes(r.effort.toLowerCase()) ? ` (${esc(r.effort)})` : "";
-        const notes = (r.notes || []).map(n => `<span class="${/contamination/.test(n) ? "warn" : ""}">${linkify(n)}</span>`).join("<br>");
+        const notes = (r.notes || []).map(n => `<span class="${/contamination|disagrees/.test(n) ? "warn" : ""}">${linkify(n)}</span>`).join("<br>");
         const bench = benchUrl[id] ? `<a href="${esc(benchUrl[id])}">${esc(benchName[id] || id)}</a>` : esc(benchName[id] || id);
         return `<tr>${i ? "" : head}<td>${bench}</td><td class="res"><b>${val}</b>${ci}</td><td class="raw">${esc(r.model_raw)}${effort}</td><td class="notes">${notes}</td></tr>`;
       }).join("");
     }).join("");
     const detail = document.createElement("tr");
     detail.className = "details";
-    const released = m.released ? `<p>Released ${fmtDate(m.released)}. ${m.coverage}% of this score is measured.</p>` : "";
-    detail.innerHTML = `<td colspan="${liveDims.length + 4}"><div class="seal">${iconSvg(m, 64)}<span>${esc(m.title)}</span></div><p class="verdict"><b>Verdict:</b> ${esc(verdict(m))}</p>${aboutHtml(m.about)}${released}
-      <table class="receipts"><tr><th>Skill</th><th>Benchmark</th><th>Result</th><th class="raw">Listed as</th><th class="notes">Notes</th></tr>${rows}</table></td>`;
+    const span = rankSpan(m);
+    const range = m.margin >= 0.5
+      ? ` If its estimated skills are off by as much as estimates typically are, its score would be anywhere from ${(m.index - m.margin).toFixed(1)} to ${(m.index + m.margin).toFixed(1)}${span ? `, ranking it ${span}` : ""}.`
+      : "";
+    const released = m.released ? `<p>Released ${fmtDate(m.released)}. ${m.coverage}% of this score is measured.${range}</p>` : "";
+    const hash = `#model=${encodeURIComponent(m.model)}`;
+    const link = new URL(hash, location.href).href;
+    detail.innerHTML = `<td colspan="${liveDims.length + 4}"><div class="details-in">
+      <p class="share-line">Link to this model: <a href="${esc(hash)}">${esc(link.replace(/^https?:\/\//, ""))}</a> <a href="#" class="copy">copy link</a></p>
+      <div class="seal">${iconSvg(m, 64)}<span>${esc(m.title)}</span></div><p class="verdict"><b>Verdict:</b> ${esc(verdict(m))}</p>${aboutHtml(m.about)}${released}
+      <table class="receipts"><tr><th>Skill</th><th>Benchmark</th><th>Result</th><th class="raw">Listed as</th><th class="notes">Notes</th></tr>${rows}</table></div></td>`;
+    detail.querySelector("a.copy").addEventListener("click", e => {
+      e.preventDefault();
+      const copy = e.target;
+      navigator.clipboard?.writeText(link).then(() => {
+        copy.textContent = "link copied";
+        setTimeout(() => { copy.textContent = "copy link"; }, 1500);
+      }, () => { /* the link itself is still there to copy by hand */ });
+    });
     tr.after(detail);
     a.textContent = "[-]";
     a.setAttribute("aria-expanded", "true");
+    history.replaceState(null, "", hash);
   }
 
   // Escapes a note and turns any URL in it into a short link ("cursor.com/cursorbench").
@@ -329,16 +511,15 @@
       const pool = ranked.filter(m => m.dimensions[id] != null);
       if (!pool.length) return "";
       const worst = pool.reduce((a, b) => (b.dimensions[id] < a.dimensions[id] ? b : a));
-      return `<li><b>${label}:</b> ${esc(worst.name)} <span>${worst.dimensions[id].toFixed(0)}</span></li>`;
+      return `<li><span>${worst.dimensions[id].toFixed(0)}</span><b>${label}:</b> ${esc(worst.name)}</li>`;
     }).join("");
   }
 
   function renderSidebar() {
     renderShame();
     const maxW = Math.max(...liveDims.map(d => d.weight));
-    const pending = dims.filter(d => !liveDims.includes(d)).map(d => SHORT[d.id] || d.name);
     document.getElementById("weights").innerHTML = liveDims.map(d =>
-      `<tr><td>${esc(SHORT[d.id] || d.name)}</td><td class="wbar"><i style="width:${(100 * d.weight / maxW).toFixed(0)}%"></i></td><td>${d.weight}%</td></tr>`
+      `<tr><td>${esc(SHORT[d.id] || d.name)}</td><td class="wbar"><i style="width:${(100 * d.weight / maxW).toFixed(0)}%"></i></td><td>${share(d)}</td></tr>`
     ).join("") + (pending.length ? `<tr class="none"><td colspan="3">Not scored yet: ${esc(pending.join(", "))}</td></tr>` : "");
     const now = new Date(data.generated_at);
     const fresh = data.models.filter(m => !m.ranked && m.released && Object.keys(m.dimensions).length
@@ -357,18 +538,6 @@
       }));
     }
     document.getElementById("top5").innerHTML = data.models.filter(m => m.ranked).slice(0, 5)
-      .map(m => `<li>${iconSvg(m, 16)} ${esc(m.name)} <span>${m.index.toFixed(1)}</span></li>`).join("");
-  }
-
-  function renderDims() {
-    document.getElementById("dims").innerHTML = dims.map(d => `
-      <div class="dim-block">
-        <h3>${esc(d.name)} <span>${d.weight}% of score</span></h3>
-        <ul>${d.benchmarks.map(b => {
-          const live = b.n_results > 0;
-          return `<li><span class="dot ${live ? "live" : ""}"></span> <a href="${esc(b.url)}">${esc(b.name)}</a>
-            <span class="n">${live ? `(${b.n_results} models, fetched ${fmtDate(b.fetched_at)})` : "(no data yet)"}</span></li>`;
-        }).join("")}</ul>
-      </div>`).join("");
+      .map(m => `<li><span>${m.index.toFixed(1)}</span>${iconSvg(m, 16)} ${esc(m.name)}</li>`).join("");
   }
 })();

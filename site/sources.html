@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>AI Benchmark Data Sources Behind the Rankings | WizardIndex</title>
+  <meta name="description" content="Every benchmark behind the WizardIndex rankings: which skill it scores, how many models it covers, when it was last fetched, and where two sources disagree.">
+  <link rel="canonical" href="https://suidvandiewereld.github.io/WizardIndex/sources.html">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="WizardIndex">
+  <meta property="og:title" content="AI Benchmark Data Sources Behind the Rankings">
+  <meta property="og:description" content="Every benchmark behind the WizardIndex rankings: which skill it scores, how many models it covers, when it was last fetched, and where two sources disagree.">
+  <meta property="og:url" content="https://suidvandiewereld.github.io/WizardIndex/sources.html">
+  <meta property="og:image" content="https://suidvandiewereld.github.io/WizardIndex/og.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="WizardIndex: which AI is actually the best software engineer?">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="icon" href="hat.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="container">
+    <div id="header">
+      <a href="./" class="logo">
+        <img src="hat.svg" alt="" width="78" height="66">
+        <span class="logo-words">
+          <span class="logo-text">WizardIndex</span>
+          <span class="tagline">Which AI is actually the best software engineer? Scored from official leaderboards, not press releases.</span>
+        </span>
+      </a>
+      <dl class="head-stats">
+        <div><dt>Models ranked</dt><dd id="hs-ranked">&nbsp;</dd></div>
+        <div><dt>Benchmarks</dt><dd id="hs-bench">&nbsp;</dd></div>
+        <div><dt>Updated</dt><dd id="head-stamp">&nbsp;</dd></div>
+      </dl>
+    </div>
+
+    <ul id="tabs">
+      <li><a href="./">Rankings</a></li>
+      <li><a href="history.html">History</a></li>
+      <li><a href="method.html">How it works</a></li>
+      <li><a href="learn.html">AI basics</a></li>
+      <li><a href="security.html">Security</a></li>
+      <li><a href="tools.html">Tools</a></li>
+      <li class="current"><a href="sources.html">Data sources</a></li>
+      <li><a href="data/index.json">Download data</a></li>
+      <li><a href="https://github.com/suidvandiewereld/WizardIndex">Source code</a></li>
+    </ul>
+
+    <div id="body">
+      <div id="main">
+        <h1>Data sources</h1>
+        <p>Every number comes from a benchmark's own published leaderboard. Sources with a <span class="dot live"></span> have current data.</p>
+        <div id="dims"></div>
+      </div>
+
+      <div id="sidebar">
+        <div class="box toc">
+          <h3>On this page</h3>
+          <ul class="jump" id="toc"></ul>
+        </div>
+        <div class="box">
+          <h3>Thanks to</h3>
+          <p>Many results arrive through <a href="https://epoch.ai/benchmarks">Epoch AI</a> (CC BY 4.0), <a href="https://www.designarena.ai/leaderboard">Design Arena</a> and <a href="https://artificialanalysis.ai">Artificial Analysis</a>.</p>
+          <p class="small-note">From Artificial Analysis we take only the evals they actually run. Their Intelligence Index can stay where it is.</p>
+        </div>
+        <div class="box">
+          <h3>Also read</h3>
+          <p><a href="method.html">How it works</a>: how these results become one score.</p>
+          <p><a href="data/index.json">Download data</a>: everything on this site as one JSON file.</p>
+        </div>
+      </div>
+    </div>
+
+    <div id="footer">
+      <p>WizardIndex &copy; 2026. Updated weekly. No models were flattered in the making of this table. <span id="foot-stamp"></span></p>
+    </div>
+  </div>
+
+  <script src="header.js"></script>
+  <script src="sources.js"></script>
+  <script src="explain.js"></script>
+</body>
+</html>

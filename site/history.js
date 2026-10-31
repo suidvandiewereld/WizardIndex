@@ -32,10 +32,10 @@
     .map(([a, b]) => ({ from: a.name, to: b.name, gain: b.index - a.index }))
     .sort((a, b) => a.gain - b.gain).slice(0, 5);
   document.getElementById("flops").innerHTML = flops.length
-    ? flops.map(j => `<li>${esc(j.to)} <span>${j.gain.toFixed(1)}</span><br><small>worse than ${esc(j.from)}</small></li>`).join("")
+    ? flops.map(j => `<li><span>${j.gain.toFixed(1)}</span>${esc(j.to)}<br><small>worse than ${esc(j.from)}</small></li>`).join("")
     : "<li>None. Every lab improved. Enjoy it while it lasts.</li>";
   document.getElementById("jumps").innerHTML = jumps
-    .map(j => `<li>${esc(j.to)} <span>+${j.gain.toFixed(1)}</span><br><small>from ${esc(j.from)}</small></li>`).join("");
+    .map(j => `<li><span>+${j.gain.toFixed(1)}</span>${esc(j.to)}<br><small>from ${esc(j.from)}</small></li>`).join("");
 
   document.getElementById("families").innerHTML = data.families.map(familyHtml).join("");
   document.querySelectorAll(".fam a.toggle").forEach(a => a.addEventListener("click", e => {

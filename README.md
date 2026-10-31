@@ -13,8 +13,22 @@ wizardindex/sources/     one ingestor per leaderboard
 data/results/*.json      fetched results (committed, so every published score is auditable)
 data/manual/*.yaml       results transcribed by hand from papers without an API
 data/aliases.yaml        fixes for model names that don't match across leaderboards
-site/                    the static page; reads site/data/index.json
+site/                    the static pages; the rankings read site/data/index.json
 ```
+
+`site/method.html` (How it works), `site/learn.html` (AI basics) and `site/security.html` (Security) are
+hand-written explainers, not generated: every question has an `id`, so its answer can be linked to directly.
+
+`site/tools.html` lists where to get models and what to build with them. The list comes from
+`data/tools.yaml` and is written into the page by `wizardindex build`, so it is plain HTML that search
+engines and link previews can read. Every tool has a `referral` field, empty by default: put a referral
+link there, run `build`, and the page uses it, labels it "referral" and marks it `rel="sponsored"`. Tools
+are picked and ordered for usefulness, not payout, and ones without a referral program stay on the list.
+Referral money never feeds the rankings.
+
+`build` also writes `site/sitemap.xml`. Every page has a canonical URL, Open Graph tags and the share
+image `site/og.png`; if the site moves to its own domain, update `SITE_URL` in `wizardindex/pages.py`
+and the URLs in each page's `<head>`.
 
 Live sources today:
 
@@ -38,11 +52,31 @@ in `config/families.yaml`) when there is one, otherwise from its standing on the
 
 Price counts as a dimension too (Thrift, `skill: false` in `config/index.yaml`): the dollars
 Artificial Analysis spent running its evaluation suite on the model, at the model's
-second-highest reasoning setting (see `_price_setting` in `wizardindex/sources/artificial_analysis.py`),
-scaled by square root so cheaper scores higher. It is never used to estimate a model's missing skills.
+highest reasoning setting (see `_price_setting` in `wizardindex/sources/artificial_analysis.py`),
+scaled by square root so cheaper scores higher. Skill scores keep each model's best result, which
+nearly always comes from that top setting, so a model's scores and its price describe the same configuration. It is never used to estimate a model's missing skills.
 Where a lab's subscription is subsidised, the cost is divided by how many dollars of API usage a
 subscription dollar buys on its largest plan (`data/subscriptions.yaml`, from SemiAnalysis's
 measurements; applied at build time by `wizardindex/subsidies.py`).
+
+## How far to trust a score
+
+Every score is relative to the current field: 100 is the leader and 50 the median ranked model on
+each benchmark, so a model's index can move from week to week when models join or leave, even if
+its own results don't. The raw results in `data/results/` are absolute.
+
+Weights in `config/index.yaml` are rescaled over the dimensions that have data; the site shows
+those real shares (`share` per dimension in `site/data/index.json`), not the configured weights.
+
+Estimates are backtested on every build: each current model's measured score in a dimension is
+hidden and estimated as if untested, and the root-mean-square miss becomes that dimension's
+`estimate_error`. A model's `margin` is how far its index moves if all its estimates miss by that
+much in the same direction, and `rank_range` is where that could put it (`wizardindex/scoring.py`).
+
+Benchmarks with `check_against: <id>` are compared with a second published run of the same test,
+and models whose two results disagree by more than 10 points beyond the usual gap are flagged on
+the site (`wizardindex/checks.py`). Nothing is re-run yet; the spot-check protocol in
+[docs/benchmark-research.md](docs/benchmark-research.md) is still to do.
 
 ## Model picker
 
@@ -68,9 +102,10 @@ when you revise them.
 ## Run locally
 
 ```bash
-uv venv && uv pip install -e .
+uv venv && uv pip install -e ".[test]"
 uv run wizardindex fetch      # pull leaderboards into data/results/
 uv run wizardindex build      # compute site/data/index.json
+uv run pytest                 # also run by .github/workflows/tests.yml on every push and PR
 python -m http.server -d site 8000
 ```
 

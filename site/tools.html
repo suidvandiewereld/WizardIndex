@@ -1,0 +1,147 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>AI APIs and Developer Tools: Where to Start | WizardIndex</title>
+  <meta name="description" content="Where to get AI models and what to build with them: model APIs, app builders, agent platforms, local models and hosting, each with what it is good for.">
+  <link rel="canonical" href="https://suidvandiewereld.github.io/WizardIndex/tools.html">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="WizardIndex">
+  <meta property="og:title" content="AI APIs and Developer Tools: Where to Start">
+  <meta property="og:description" content="Where to get AI models and what to build with them: model APIs, app builders, agent platforms, local models and hosting, each with what it is good for.">
+  <meta property="og:url" content="https://suidvandiewereld.github.io/WizardIndex/tools.html">
+  <meta property="og:image" content="https://suidvandiewereld.github.io/WizardIndex/og.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="WizardIndex: which AI is actually the best software engineer?">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="icon" href="hat.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="container">
+    <div id="header">
+      <a href="./" class="logo">
+        <img src="hat.svg" alt="" width="78" height="66">
+        <span class="logo-words">
+          <span class="logo-text">WizardIndex</span>
+          <span class="tagline">Which AI is actually the best software engineer? Scored from official leaderboards, not press releases.</span>
+        </span>
+      </a>
+      <dl class="head-stats">
+        <div><dt>Models ranked</dt><dd id="hs-ranked">&nbsp;</dd></div>
+        <div><dt>Benchmarks</dt><dd id="hs-bench">&nbsp;</dd></div>
+        <div><dt>Updated</dt><dd id="head-stamp">&nbsp;</dd></div>
+      </dl>
+    </div>
+
+    <ul id="tabs">
+      <li><a href="./">Rankings</a></li>
+      <li><a href="history.html">History</a></li>
+      <li><a href="method.html">How it works</a></li>
+      <li><a href="learn.html">AI basics</a></li>
+      <li><a href="security.html">Security</a></li>
+      <li class="current"><a href="tools.html">Tools</a></li>
+      <li><a href="sources.html">Data sources</a></li>
+      <li><a href="data/index.json">Download data</a></li>
+      <li><a href="https://github.com/suidvandiewereld/WizardIndex">Source code</a></li>
+    </ul>
+
+    <div id="body">
+      <div id="main">
+        <h1>Where to get models, and what to build with them</h1>
+        <p>Places we'd send a friend who asked where to start. Which model is best at what is on the <a href="./">rankings</a>; what all the terms mean is in <a href="learn.html">AI basics</a>.</p>
+        <div class="read-note">
+          <h2>About these links</h2>
+          <p>Some links here are referral links, marked <span class="ref-mark">referral</span>. If you sign up through one, we may earn a commission, at no extra cost to you. That never touches the rankings: they come only from public leaderboards, and labs that pay us nothing are listed here and ranked exactly where their results put them.</p>
+        </div>
+        <!-- tools -->
+        <div class="qa" id="apis">
+          <h2>Model APIs <a class="permalink" href="#apis">link</a></h2>
+          <div class="qa-body">
+            <p>Where to get the models themselves, to use in your own code or plug into a harness.</p>
+            <table class="receipts tools">
+              <tr><th>Tool</th><th>What it does</th><th>Good for</th></tr>
+              <tr><td class="skill"><a href="https://www.anthropic.com/api">Anthropic API</a></td><td>Claude models, straight from the lab.</td><td>Claude in your own code or harness</td></tr>
+              <tr><td class="skill"><a href="https://platform.openai.com">OpenAI Platform</a></td><td>GPT models, straight from the lab.</td><td>GPT in your own code or harness</td></tr>
+              <tr><td class="skill"><a href="https://aistudio.google.com">Google AI Studio</a></td><td>Gemini models, straight from the lab.</td><td>Gemini in your own code or harness</td></tr>
+              <tr><td class="skill"><a href="https://openrouter.ai">OpenRouter</a></td><td>One key and one bill for hundreds of models from many labs.</td><td>Trying and switching between models</td></tr>
+              <tr><td class="skill"><a href="https://kymaapi.com">Kyma API</a></td><td>One key and one balance for chat, image, video and audio models.</td><td>Switching models without a new account for each lab</td></tr>
+            </table>
+          </div>
+        </div>
+        <div class="qa" id="builders">
+          <h2>Build an app by describing it <a class="permalink" href="#builders">link</a></h2>
+          <div class="qa-body">
+            <p>You describe what you want, an agent writes and runs the code. Good for prototypes and small tools; read the security page before giving one your data.</p>
+            <table class="receipts tools">
+              <tr><th>Tool</th><th>What it does</th><th>Good for</th></tr>
+              <tr><td class="skill"><a href="https://lovable.dev">Lovable</a></td><td>Builds full-stack web apps from a chat description.</td><td>Prototypes and small web apps</td></tr>
+              <tr><td class="skill"><a href="https://base44.com">Base44</a></td><td>Builds working apps and internal tools from a plain-language description.</td><td>Back-office tools and simple apps</td></tr>
+              <tr><td class="skill"><a href="https://replit.com">Replit</a></td><td>Online editor with an agent that builds and deploys apps from a description.</td><td>Building and hosting in the browser, nothing to install</td></tr>
+            </table>
+          </div>
+        </div>
+        <div class="qa" id="agents">
+          <h2>Build agents and AI features <a class="permalink" href="#agents">link</a></h2>
+          <div class="qa-body">
+            <p>Platforms and APIs for putting a model to work inside a product.</p>
+            <table class="receipts tools">
+              <tr><th>Tool</th><th>What it does</th><th>Good for</th></tr>
+              <tr><td class="skill"><a href="https://flowiseai.com">Flowise</a></td><td>Open-source drag-and-drop builder for LLM apps, RAG and multi-agent workflows. Self-host it or use their cloud.</td><td>Prototyping agents and RAG with little code</td></tr>
+              <tr><td class="skill"><a href="https://botpress.com">Botpress</a></td><td>Builds and deploys chatbots and AI agents, with integrations and messaging channels.</td><td>Support and website agents</td></tr>
+              <tr><td class="skill"><a href="https://www.mindstudio.ai">MindStudio</a></td><td>No-code builder for AI agents.</td><td>Business workflows without writing code</td></tr>
+              <tr><td class="skill"><a href="https://vapi.ai">Vapi</a></td><td>API for voice agents that make and take phone calls.</td><td>Phone and voice assistants</td></tr>
+              <tr><td class="skill"><a href="https://elevenlabs.io">ElevenLabs</a></td><td>Text-to-speech, voice cloning and voice agents, by API or in the app.</td><td>Giving an app or agent a voice</td></tr>
+              <tr><td class="skill"><a href="https://apify.com">Apify</a></td><td>Ready-made scrapers and automations for thousands of sites, which agents can also call as tools.</td><td>Getting web data into an agent</td></tr>
+              <tr><td class="skill"><a href="https://testdriver.ai">TestDriver</a></td><td>AI QA agent: tag it on a GitHub pull request and it tests the app like a user, in a sandbox.</td><td>Catching what a change broke</td></tr>
+            </table>
+          </div>
+        </div>
+        <div class="qa" id="hosting">
+          <h2>Run models yourself, and host what you build <a class="permalink" href="#hosting">link</a></h2>
+          <div class="qa-body">
+            <p>Local models need a strong machine or a rented one; whatever you build needs somewhere to live.</p>
+            <table class="receipts tools">
+              <tr><th>Tool</th><th>What it does</th><th>Good for</th></tr>
+              <tr><td class="skill"><a href="https://ollama.com">Ollama</a></td><td>Runs open-weight models on your own computer with one command.</td><td>Private, offline, no per-token bill</td></tr>
+              <tr><td class="skill"><a href="https://lmstudio.ai">LM Studio</a></td><td>Desktop app to download and chat with open-weight models, with a local API.</td><td>Local models without the terminal</td></tr>
+              <tr><td class="skill"><a href="https://www.runpod.io">RunPod</a></td><td>Rent GPUs by the hour, or run models serverless.</td><td>Open models too big for your own machine</td></tr>
+              <tr><td class="skill"><a href="https://www.digitalocean.com">DigitalOcean</a></td><td>Simple cloud servers, databases and GPU machines.</td><td>Hosting agents, bots and backends</td></tr>
+              <tr><td class="skill"><a href="https://contabo.com">Contabo</a></td><td>Low-cost virtual and dedicated servers.</td><td>A cheap always-on box for self-hosted tools</td></tr>
+              <tr><td class="skill"><a href="https://www.netlify.com">Netlify</a></td><td>Deploys and hosts websites and web apps from a Git repository.</td><td>Putting what you built online</td></tr>
+            </table>
+          </div>
+        </div>
+        <!-- /tools -->
+      </div>
+
+      <div id="sidebar">
+        <div class="box toc">
+          <h3>On this page</h3>
+          <ul class="jump">
+            <!-- toc -->
+            <li><a href="#apis">Model APIs</a></li>
+            <li><a href="#builders">Build an app by describing it</a></li>
+            <li><a href="#agents">Build agents and AI features</a></li>
+            <li><a href="#hosting">Run models yourself, and host what you build</a></li>
+            <!-- /toc -->
+          </ul>
+        </div>
+        <div class="box">
+          <h3>Before you sign up</h3>
+          <p>Anything that runs code or reads your data on your behalf deserves a look at <a href="security.html">Security</a> first.</p>
+        </div>
+      </div>
+    </div>
+
+    <div id="footer">
+      <p>WizardIndex &copy; 2026. Updated weekly. No models were flattered in the making of this table. <span id="foot-stamp"></span></p>
+    </div>
+  </div>
+
+  <script src="header.js"></script>
+  <script src="explain.js"></script>
+</body>
+</html>

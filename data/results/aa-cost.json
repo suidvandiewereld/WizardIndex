@@ -1,6 +1,6 @@
 {
   "benchmark": "aa-cost",
-  "fetched_at": "2026-10-29T08:10:58+00:00",
+  "fetched_at": "2026-10-31T14:37:39+00:00",
   "meta": {
     "url": "https://artificialanalysis.ai",
     "cost": "intelligenceIndexCost",
@@ -23,40 +23,40 @@
     {
       "benchmark": "aa-cost",
       "model": "sonnet-5-5",
-      "model_raw": "Claude Sonnet 5.5 (Xhigh, Default Fallback)",
-      "score": 2902.5,
+      "model_raw": "Claude Sonnet 5.5 (Max, Default Fallback)",
+      "score": 7980.63,
       "ci": null,
-      "effort": "xhigh",
+      "effort": "max",
       "org": "Anthropic",
       "release_date": "2026-09-28",
       "notes": [
-        "priced at xhigh; AA tested: high, low, max, medium, xhigh"
+        "priced at max; AA tested: high, low, max, medium, xhigh"
       ]
     },
     {
       "benchmark": "aa-cost",
       "model": "fable-5-1",
-      "model_raw": "Claude Fable 5.1 (Xhigh, Default Fallback)",
-      "score": 10096.62,
+      "model_raw": "Claude Fable 5.1 (Max, Default Fallback)",
+      "score": 13326.78,
       "ci": null,
-      "effort": "xhigh",
+      "effort": "max",
       "org": "Anthropic",
       "release_date": "2026-09-01",
       "notes": [
-        "priced at xhigh; AA tested: high, low, max, medium, xhigh"
+        "priced at max; AA tested: high, low, max, medium, xhigh"
       ]
     },
     {
       "benchmark": "aa-cost",
       "model": "gpt-6-1-sol",
-      "model_raw": "GPT-6.1 Sol (Xhigh)",
-      "score": 717.71,
+      "model_raw": "GPT-6.1 Sol (Max)",
+      "score": 1123.97,
       "ci": null,
-      "effort": "xhigh",
+      "effort": "max",
       "org": "OpenAI",
       "release_date": "2026-09-29",
       "notes": [
-        "priced at xhigh; AA tested: high, low, max, medium, xhigh"
+        "priced at max; AA tested: high, low, max, medium, xhigh"
       ]
     },
     {
@@ -88,14 +88,14 @@
     {
       "benchmark": "aa-cost",
       "model": "gpt-6-1-terra",
-      "model_raw": "GPT-6.1 Terra (Xhigh)",
-      "score": 400.18,
+      "model_raw": "GPT-6.1 Terra (Max)",
+      "score": 972.34,
       "ci": null,
-      "effort": "xhigh",
+      "effort": "max",
       "org": "OpenAI",
       "release_date": "2026-10-26",
       "notes": [
-        "priced at xhigh; AA tested: high, low, max, medium, non-reasoning, xhigh"
+        "priced at max; AA tested: high, low, max, medium, non-reasoning, xhigh"
       ]
     },
     {
@@ -126,54 +126,80 @@
     },
     {
       "benchmark": "aa-cost",
-      "model": "gpt-6-luna",
-      "model_raw": "GPT-6 Luna (Xhigh)",
-      "score": 85.74,
+      "model": "small-4",
+      "model_raw": "Mistral Small 4 (Reasoning)",
+      "score": 43.43,
       "ci": null,
-      "effort": "xhigh",
+      "effort": null,
+      "org": "Mistral",
+      "release_date": "2026-03-16",
+      "notes": [
+        "priced at its only reasoning setting; AA tested: default, non-reasoning"
+      ]
+    },
+    {
+      "benchmark": "aa-cost",
+      "model": "glm-5-3-flash",
+      "model_raw": "GLM-5.3-Flash",
+      "score": 377.94,
+      "ci": null,
+      "effort": "max",
+      "org": "Z AI",
+      "release_date": "2026-08-26",
+      "notes": [
+        "priced at max; AA tested: max"
+      ]
+    },
+    {
+      "benchmark": "aa-cost",
+      "model": "gpt-6-luna",
+      "model_raw": "GPT-6 Luna (Max)",
+      "score": 136.06,
+      "ci": null,
+      "effort": "max",
       "org": "OpenAI",
       "release_date": "2026-09-22",
       "notes": [
-        "priced at xhigh; AA tested: high, low, max, medium, non-reasoning, xhigh"
+        "priced at max; AA tested: high, low, max, medium, non-reasoning, xhigh"
       ]
     },
     {
       "benchmark": "aa-cost",
       "model": "gpt-6-astra",
-      "model_raw": "GPT-6 Astra (Xhigh)",
-      "score": 3746.22,
+      "model_raw": "GPT-6 Astra (Max)",
+      "score": 5661.18,
       "ci": null,
-      "effort": "xhigh",
+      "effort": "max",
       "org": "OpenAI",
       "release_date": "2026-09-03",
       "notes": [
-        "priced at xhigh; AA tested: high, low, max, medium, xhigh"
+        "priced at max; AA tested: high, low, max, medium, xhigh"
       ]
     },
     {
       "benchmark": "aa-cost",
       "model": "haiku-5-5",
-      "model_raw": "Claude Haiku 5.5 (Xhigh)",
-      "score": 192.7,
+      "model_raw": "Claude Haiku 5.5 (Max)",
+      "score": 339.47,
       "ci": null,
-      "effort": "xhigh",
+      "effort": "max",
       "org": "Anthropic",
       "release_date": "2026-10-07",
       "notes": [
-        "priced at xhigh; AA tested: high, low, max, medium, xhigh"
+        "priced at max; AA tested: high, low, max, medium, xhigh"
       ]
     },
     {
       "benchmark": "aa-cost",
       "model": "grok-4-7",
-      "model_raw": "Grok 4.7 (High)",
-      "score": 4721.61,
+      "model_raw": "Grok 4.7 (Xhigh)",
+      "score": 5784.27,
       "ci": null,
-      "effort": "high",
+      "effort": "xhigh",
       "org": "SpaceXAI",
       "release_date": "2026-09-21",
       "notes": [
-        "priced at high; AA tested: high, low, xhigh"
+        "priced at xhigh; AA tested: high, low, xhigh"
       ]
     },
     {
@@ -204,22 +230,48 @@
     },
     {
       "benchmark": "aa-cost",
-      "model": "opus-5-5",
-      "model_raw": "Claude Opus 5.5 (Xhigh, Default Fallback)",
-      "score": 4765.91,
+      "model": "large-4-0",
+      "model_raw": "Mistral Large 4 (High)",
+      "score": 1359.47,
       "ci": null,
-      "effort": "xhigh",
+      "effort": "high",
+      "org": "Mistral",
+      "release_date": "2026-10-29",
+      "notes": [
+        "priced at high; AA tested: high, medium"
+      ]
+    },
+    {
+      "benchmark": "aa-cost",
+      "model": "nemotron-3-5-lightning",
+      "model_raw": "Nemotron 3.5 Lightning",
+      "score": 227.02,
+      "ci": null,
+      "effort": null,
+      "org": "NVIDIA",
+      "release_date": "2026-08-11",
+      "notes": [
+        "priced at its only reasoning setting; AA tested: default"
+      ]
+    },
+    {
+      "benchmark": "aa-cost",
+      "model": "opus-5-5",
+      "model_raw": "Claude Opus 5.5 (Max, Default Fallback)",
+      "score": 8909.67,
+      "ci": null,
+      "effort": "max",
       "org": "Anthropic",
       "release_date": "2026-09-22",
       "notes": [
-        "priced at xhigh; AA tested: high, low, max, medium, xhigh"
+        "priced at max; AA tested: high, low, max, medium, xhigh"
       ]
     },
     {
       "benchmark": "aa-cost",
       "model": "large-4-preview",
       "model_raw": "Mistral Large 4 Preview",
-      "score": 3922.39,
+      "score": 2923.39,
       "ci": null,
       "effort": null,
       "org": "Mistral",
@@ -265,6 +317,19 @@
       "release_date": "2026-10-22",
       "notes": [
         "priced at its only reasoning setting; AA tested: default"
+      ]
+    },
+    {
+      "benchmark": "aa-cost",
+      "model": "deepseek-v4-1-flash-1017",
+      "model_raw": "DeepSeek V4.1 Flash 1017 (Max)",
+      "score": 520.63,
+      "ci": null,
+      "effort": "max",
+      "org": "DeepSeek",
+      "release_date": "2026-10-17",
+      "notes": [
+        "priced at max; AA tested: max, non-reasoning"
       ]
     },
     {
@@ -386,6 +451,19 @@
     },
     {
       "benchmark": "aa-cost",
+      "model": "muse-spark-1-3",
+      "model_raw": "Muse Spark 1.3 (Max)",
+      "score": 1905.84,
+      "ci": null,
+      "effort": "max",
+      "org": "Meta",
+      "release_date": "2026-09-02",
+      "notes": [
+        "priced at max; AA tested: max, xhigh"
+      ]
+    },
+    {
+      "benchmark": "aa-cost",
       "model": "glm-5-3",
       "model_raw": "GLM-5.3 (Max)",
       "score": 3495.62,
@@ -414,26 +492,13 @@
       "benchmark": "aa-cost",
       "model": "nemotron-3-5-super-vl",
       "model_raw": "Nemotron 3.5 Super VL",
-      "score": 482.18,
+      "score": 462.7,
       "ci": null,
       "effort": "high",
       "org": "NVIDIA",
       "release_date": "2026-10-15",
       "notes": [
         "priced at high; AA tested: high"
-      ]
-    },
-    {
-      "benchmark": "aa-cost",
-      "model": "deepseek-v4-1-flash-1017",
-      "model_raw": "DeepSeek V4.1 Flash 1017 (Max)",
-      "score": 520.63,
-      "ci": null,
-      "effort": "max",
-      "org": "DeepSeek",
-      "release_date": "2026-10-17",
-      "notes": [
-        "priced at max; AA tested: max"
       ]
     },
     {

@@ -3,8 +3,51 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>WizardIndex</title>
-  <meta name="description" content="Which AI model is the best software engineer, scored only from official, reproducible leaderboards.">
+  <title>Best AI Coding Models, Ranked by Benchmarks | WizardIndex</title>
+  <meta name="description" content="Which AI model is the best software engineer? Claude, GPT, Gemini and more, ranked from public coding benchmarks and updated every week. See who leads.">
+  <link rel="canonical" href="https://suidvandiewereld.github.io/WizardIndex/">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="WizardIndex">
+  <meta property="og:title" content="Best AI Coding Models, Ranked by Benchmarks">
+  <meta property="og:description" content="Which AI model is the best software engineer? Claude, GPT, Gemini and more, ranked from public coding benchmarks and updated every week. See who leads.">
+  <meta property="og:url" content="https://suidvandiewereld.github.io/WizardIndex/">
+  <meta property="og:image" content="https://suidvandiewereld.github.io/WizardIndex/og.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="WizardIndex: which AI is actually the best software engineer?">
+  <meta name="twitter:card" content="summary_large_image">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "WebSite",
+        "name": "WizardIndex",
+        "url": "https://suidvandiewereld.github.io/WizardIndex/",
+        "description": "Which AI model is the best software engineer? Claude, GPT, Gemini and more, ranked from public coding benchmarks and updated every week. See who leads."
+      },
+      {
+        "@type": "Dataset",
+        "name": "WizardIndex AI model rankings",
+        "description": "Weekly ranking of AI models on software engineering, built from public benchmark leaderboards: a score per skill, the raw result behind each one, and estimates for untested skills.",
+        "url": "https://suidvandiewereld.github.io/WizardIndex/",
+        "creator": {
+          "@type": "Organization",
+          "name": "WizardIndex",
+          "url": "https://suidvandiewereld.github.io/WizardIndex/"
+        },
+        "isAccessibleForFree": true,
+        "distribution": [
+          {
+            "@type": "DataDownload",
+            "encodingFormat": "application/json",
+            "contentUrl": "https://suidvandiewereld.github.io/WizardIndex/data/index.json"
+          }
+        ]
+      }
+    ]
+  }
+  </script>
   <link rel="icon" href="hat.svg" type="image/svg+xml">
   <link rel="stylesheet" href="style.css">
 </head>
@@ -28,50 +71,52 @@
     <ul id="tabs">
       <li class="current"><a href="#rankings">Rankings</a></li>
       <li><a href="history.html">History</a></li>
-      <li><a href="#sources">Data sources</a></li>
-      <li><a href="#method">How it works</a></li>
+      <li><a href="method.html">How it works</a></li>
+      <li><a href="learn.html">AI basics</a></li>
+      <li><a href="security.html">Security</a></li>
+      <li><a href="tools.html">Tools</a></li>
+      <li><a href="sources.html">Data sources</a></li>
       <li><a href="data/index.json">Download data</a></li>
       <li><a href="https://github.com/suidvandiewereld/WizardIndex">Source code</a></li>
     </ul>
 
     <div id="body">
       <div id="main">
-        <h2 id="rankings">AI Software Engineer Rankings</h2>
-        <p id="coverage-note"></p>
+        <h1 id="rankings">AI Software Engineer Rankings</h1>
+        <div class="read-note" id="coverage-note"></div>
 
         <div class="index-chart" id="index-chart"></div>
+        <p class="jump-line">Not sure which to pick? Jump to <a href="#finder">Which model for my job?</a></p>
 
-        <form class="finder" id="finder" onsubmit="return false"></form>
-
-        <div class="toolbar">
-          <label><input type="checkbox" id="show-all"> Show outdated and unranked models</label>
+        <div class="box" id="new-box" hidden>
+          <h3>New, not yet ranked</h3>
+          <p class="small-note">Too fresh to judge. They get ranked (and roasted) once a coding leaderboard actually tests them.</p>
+          <ul class="newlist" id="newlist"></ul>
         </div>
+        <div class="toolbar">
+          <label>Find a model <input type="search" id="find" placeholder="name or lab"></label>
+          <label>Lab <select id="lab"><option value="">All labs</option></select></label>
+          <label><input type="checkbox" id="show-all"> Show outdated and unranked models <span class="n" id="show-all-n"></span></label>
+          <span class="n" id="shown-n"></span>
+        </div>
+        <p class="key" id="key"></p>
+        <p class="sort-note" id="sort-note" hidden></p>
+        <div class="compare-box" id="compare" hidden></div>
 
-        <div class="table-wrap">
+        <div class="table-wrap ranking-wrap">
           <table class="ranking" id="ranking">
             <thead></thead>
             <tbody></tbody>
           </table>
         </div>
-        <p class="footnote"><span class="est">*</span> Estimated. Nobody has tested this model on that skill yet, so we guessed from its other results. Educated guess, still a guess. Click <b>[+]</b> for the receipts.</p>
+        <p class="footnote"><span class="est">*</span> Estimated. Nobody has tested this model on that skill yet, so we guessed from its other results. Educated guess, still a guess. Click <b>[+]</b> for the receipts.
+          A <b>&plusmn;</b> under a score is how far it could move if its guesses are off by as much as our guesses usually are, and the range under a rank is where that could put it.</p>
 
-        <h2 id="sources">Data sources</h2>
-        <p>Every number comes from a benchmark's own published leaderboard. Sources with a <span class="dot live"></span> have current data.</p>
-        <div id="dims"></div>
+        <form class="finder" id="finder" onsubmit="return false"></form>
 
         <h2 id="method">How it works</h2>
-        <ol class="method">
-          <li>Results come straight from each benchmark's own leaderboard, where the maintainers run every model the same way.</li>
-          <li>When a leaderboard lists several effort levels or agents for a model, its best result counts.</li>
-          <li>Each benchmark is rescaled the same way: the leader scores 100, the middle of the models on this board scores 50, and the weakest model on the benchmark's own leaderboard scores 0. Anchoring the middle on the real contenders, not on the dozens of small models most leaderboards list, keeps the frontier from bunching up at 90+, and it means a 3-point lead on a nearly maxed-out test counts for what it is.</li>
-          <li>Benchmarks are averaged within a skill, then skills are combined by weight.</li>
-          <li>Price counts too, as Thrift: what Artificial Analysis actually paid to run its evaluation suite on the model, thinking tokens included. Each model is priced one reasoning setting below its top (xhigh rather than max), since the top setting buys a little extra score for a lot more money. Models built to run at their top setting, models tested at only one setting, and models whose next setting down is below high are priced at the top. Where a subscription is subsidised, the cost is what the same work costs through the lab's largest plan: SemiAnalysis measured how many dollars of API usage each plan buys (Claude Max 20x buys about $58 of Opus 5.5 per dollar; ChatGPT Pro about $11 of GPT-6.1 Sol). Labs with no measured plan, like Google so far, are priced at the API. The cheapest model scores 100 and the dearest 0, on a square-root scale: the difference between $500 and $5,000 counts for much more than the difference between $80 and $500.</li>
-          <li>A skill a model hasn't been tested on is estimated. If a close relative was tested on it (an earlier version, or a sibling released alongside), we start from the relative's result and adjust for how the two compare on everything else. Otherwise we go by where the model stands on everything else, using how well those skills predict the missing one across all current models: the weaker the link, the closer the estimate stays to the typical score.</li>
-          <li>The "Which model for my job?" picker scores each model's fit for a job as a weighted mix of the skills that job leans on, on the same scale as the table. It then picks the cheapest model that clears the bar you choose, and flags as overkill any model that a cheaper one matches. Each model's real result on the benchmark closest to the job sits beside it, so a fit score never has to be taken on faith.</li>
-          <li>Titles and icons are just for fun. Models on the board get their titles by hand, based on what the numbers and their users say; anything else gets one built from its score and strongest skill. Every model's pixel icon is unique to it.</li>
-          <li>Only models released in the last <span id="max-age">120</span> days, with at least one coding result and at least half their score measured, are ranked.</li>
-        </ol>
-        <p>Scores within a point or two of each other are a tie. Anyone who tells you otherwise is selling something. SWE-rebench results for models released after its tasks were collected are flagged as possibly contaminated, because labs absolutely train on the test.</p>
+        <p>Every number comes from a benchmark's own published leaderboard. Each benchmark is rescaled so the leader scores 100 and the middle of the ranked models 50, benchmarks are averaged into skills, and skills are combined by weight. A skill nobody has tested a model on yet is estimated and marked with a *. Only models released in the last <span id="max-age">120</span> days, with at least one coding result and at least half their score measured, are ranked.</p>
+        <p>Scores within a point or two of each other are a tie. Anyone who tells you otherwise is selling something. <a href="method.html">How it works</a> goes through every step.</p>
       </div>
 
       <div id="sidebar">
@@ -92,11 +137,6 @@
           <h3>Hall of shame</h3>
           <p class="small-note">Worst measured score in each skill among ranked models. Out of 100, where 100 is the leader.</p>
           <ul class="shame" id="shame"></ul>
-        </div>
-        <div class="box" id="new-box" hidden>
-          <h3>New, not yet ranked</h3>
-          <p class="small-note">Too fresh to judge. They get ranked (and roasted) once a coding leaderboard actually tests them.</p>
-          <ul class="newlist" id="newlist"></ul>
         </div>
         <div class="box">
           <h3>Thanks to</h3>
