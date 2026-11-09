@@ -1,6 +1,6 @@
 {
   "benchmark": "aa-hle",
-  "fetched_at": "2026-10-31T14:37:39+00:00",
+  "fetched_at": "2026-11-09T16:13:53+00:00",
   "meta": {
     "url": "https://artificialanalysis.ai",
     "field": "hle",
@@ -16,6 +16,1306 @@
       "effort": "high",
       "org": "Google",
       "release_date": "2026-09-30",
+      "notes": [
+        "run by Artificial Analysis on their own harness"
+      ]
+    },
+    {
+      "benchmark": "aa-hle",
+      "model": "opus-5-5",
+      "model_raw": "Claude Opus 5.5 (Max, Default Fallback)",
+      "score": 61.353,
+      "ci": null,
+      "effort": "max",
+      "org": "Anthropic",
+      "release_date": "2026-09-22",
+      "notes": [
+        "run by Artificial Analysis on their own harness"
+      ]
+    },
+    {
+      "benchmark": "aa-hle",
+      "model": "opus-5-5",
+      "model_raw": "Claude Opus 5.5 (Xhigh, Default Fallback)",
+      "score": 57.507,
+      "ci": null,
+      "effort": "xhigh",
+      "org": "Anthropic",
+      "release_date": "2026-09-22",
+      "notes": [
+        "run by Artificial Analysis on their own harness"
+      ]
+    },
+    {
+      "benchmark": "aa-hle",
+      "model": "gpt-6-astra",
+      "model_raw": "GPT-6 Astra (Max)",
+      "score": 54.68,
+      "ci": null,
+      "effort": "max",
+      "org": "OpenAI",
+      "release_date": "2026-09-03",
+      "notes": [
+        "run by Artificial Analysis on their own harness"
+      ]
+    },
+    {
+      "benchmark": "aa-hle",
+      "model": "gpt-6-astra",
+      "model_raw": "GPT-6 Astra (Xhigh)",
+      "score": 54.588,
+      "ci": null,
+      "effort": "xhigh",
+      "org": "OpenAI",
+      "release_date": "2026-09-03",
+      "notes": [
+        "run by Artificial Analysis on their own harness"
+      ]
+    },
+    {
+      "benchmark": "aa-hle",
+      "model": "gpt-6-astra",
+      "model_raw": "GPT-6 Astra (High)",
+      "score": 53.058,
+      "ci": null,
+      "effort": "high",
+      "org": "OpenAI",
+      "release_date": "2026-09-03",
+      "notes": [
+        "run by Artificial Analysis on their own harness"
+      ]
+    },
+    {
+      "benchmark": "aa-hle",
+      "model": "gpt-6-1-sol",
+      "model_raw": "GPT-6.1 Sol (Max)",
+      "score": 52.919,
+      "ci": null,
+      "effort": "max",
+      "org": "OpenAI",
+      "release_date": "2026-09-29",
+      "notes": [
+        "run by Artificial Analysis on their own harness"
+      ]
+    },
+    {
+      "benchmark": "aa-hle",
+      "model": "sonnet-5-5",
+      "model_raw": "Claude Sonnet 5.5 (Max, Default Fallback)",
+      "score": 54.958,
+      "ci": null,
+      "effort": "max",
+      "org": "Anthropic",
+      "release_date": "2026-09-28",
+      "notes": [
+        "run by Artificial Analysis on their own harness"
+      ]
+    },
+    {
+      "benchmark": "aa-hle",
+      "model": "gpt-6-1-sol",
+      "model_raw": "GPT-6.1 Sol (Xhigh)",
+      "score": 52.641,
+      "ci": null,
+      "effort": "xhigh",
+      "org": "OpenAI",
+      "release_date": "2026-09-29",
+      "notes": [
+        "run by Artificial Analysis on their own harness"
+      ]
+    },
+    {
+      "benchmark": "aa-hle",
+      "model": "opus-5-5",
+      "model_raw": "Claude Opus 5.5 (High, Default Fallback)",
+      "score": 55.561,
+      "ci": null,
+      "effort": "high",
+      "org": "Anthropic",
+      "release_date": "2026-09-22",
+      "notes": [
+        "run by Artificial Analysis on their own harness"
+      ]
+    },
+    {
+      "benchmark": "aa-hle",
+      "model": "gpt-6-astra",
+      "model_raw": "GPT-6 Astra (Medium)",
+      "score": 52.734,
+      "ci": null,
+      "effort": "medium",
+      "org": "OpenAI",
+      "release_date": "2026-09-03",
+      "notes": [
+        "run by Artificial Analysis on their own harness"
+      ]
+    },
+    {
+      "benchmark": "aa-hle",
+      "model": "gpt-6-1-terra",
+      "model_raw": "GPT-6.1 Terra (Max)",
+      "score": 46.247,
+      "ci": null,
+      "effort": "max",
+      "org": "OpenAI",
+      "release_date": "2026-10-26",
+      "notes": [
+        "run by Artificial Analysis on their own harness"
+      ]
+    },
+    {
+      "benchmark": "aa-hle",
+      "model": "gpt-6-1-sol",
+      "model_raw": "GPT-6.1 Sol (High)",
+      "score": 51.39,
+      "ci": null,
+      "effort": "high",
+      "org": "OpenAI",
+      "release_date": "2026-09-29",
+      "notes": [
+        "run by Artificial Analysis on their own harness"
+      ]
+    },
+    {
+      "benchmark": "aa-hle",
+      "model": "muse-wonder-full",
+      "model_raw": "Muse Wonder Full (Max)",
+      "score": 53.614,
+      "ci": null,
+      "effort": "max",
+      "org": "Meta",
+      "release_date": "2026-10-12",
+      "notes": [
+        "run by Artificial Analysis on their own harness"
+      ]
+    },
+    {
+      "benchmark": "aa-hle",
+      "model": "fable-5-1",
+      "model_raw": "Claude Fable 5.1 (Xhigh, Default Fallback)",
+      "score": 58.712,
+      "ci": null,
+      "effort": "xhigh",
+      "org": "Anthropic",
+      "release_date": "2026-09-01",
+      "notes": [
+        "run by Artificial Analysis on their own harness"
+      ]
+    },
+    {
+      "benchmark": "aa-hle",
+      "model": "sonnet-5-5",
+      "model_raw": "Claude Sonnet 5.5 (Xhigh, Default Fallback)",
+      "score": 50.0,
+      "ci": null,
+      "effort": "xhigh",
+      "org": "Anthropic",
+      "release_date": "2026-09-28",
+      "notes": [
+        "run by Artificial Analysis on their own harness"
+      ]
+    },
+    {
+      "benchmark": "aa-hle",
+      "model": "fable-5-1",
+      "model_raw": "Claude Fable 5.1 (Max, Default Fallback)",
+      "score": 59.129,
+      "ci": null,
+      "effort": "max",
+      "org": "Anthropic",
+      "release_date": "2026-09-01",
+      "notes": [
+        "run by Artificial Analysis on their own harness"
+      ]
+    },
+    {
+      "benchmark": "aa-hle",
+      "model": "opus-5-5",
+      "model_raw": "Claude Opus 5.5 (Medium, Default Fallback)",
+      "score": 54.727,
+      "ci": null,
+      "effort": "medium",
+      "org": "Anthropic",
+      "release_date": "2026-09-22",
+      "notes": [
+        "run by Artificial Analysis on their own harness"
+      ]
+    },
+    {
+      "benchmark": "aa-hle",
+      "model": "fable-5-1",
+      "model_raw": "Claude Fable 5.1 (High, Default Fallback)",
+      "score": 55.931,
+      "ci": null,
+      "effort": "high",
+      "org": "Anthropic",
+      "release_date": "2026-09-01",
+      "notes": [
+        "run by Artificial Analysis on their own harness"
+      ]
+    },
+    {
+      "benchmark": "aa-hle",
+      "model": "kimi-k3-1-pro",
+      "model_raw": "Kimi K3.1 Pro",
+      "score": 52.456,
+      "ci": null,
+      "effort": "max",
+      "org": "Kimi",
+      "release_date": "2026-10-23",
+      "notes": [
+        "run by Artificial Analysis on their own harness"
+      ]
+    },
+    {
+      "benchmark": "aa-hle",
+      "model": "gpt-6-1-sol",
+      "model_raw": "GPT-6.1 Sol (Medium)",
+      "score": 49.861,
+      "ci": null,
+      "effort": "medium",
+      "org": "OpenAI",
+      "release_date": "2026-09-29",
+      "notes": [
+        "run by Artificial Analysis on their own harness"
+      ]
+    },
+    {
+      "benchmark": "aa-hle",
+      "model": "gpt-6-1-terra",
+      "model_raw": "GPT-6.1 Terra (Xhigh)",
+      "score": 43.744,
+      "ci": null,
+      "effort": "xhigh",
+      "org": "OpenAI",
+      "release_date": "2026-10-26",
+      "notes": [
+        "run by Artificial Analysis on their own harness"
+      ]
+    },
+    {
+      "benchmark": "aa-hle",
+      "model": "opus-5",
+      "model_raw": "Claude Opus 5 (Max)",
+      "score": 54.866,
+      "ci": null,
+      "effort": "max",
+      "org": "Anthropic",
+      "release_date": "2026-07-24",
+      "notes": [
+        "run by Artificial Analysis on their own harness"
+      ]
+    },
+    {
+      "benchmark": "aa-hle",
+      "model": "gpt-6-sol",
+      "model_raw": "GPT-6 Sol (Max)",
+      "score": 47.915,
+      "ci": null,
+      "effort": "max",
+      "org": "OpenAI",
+      "release_date": "2026-09-22",
+      "notes": [
+        "run by Artificial Analysis on their own harness"
+      ]
+    },
+    {
+      "benchmark": "aa-hle",
+      "model": "muse-wonder-1-0",
+      "model_raw": "Muse Wonder (Max)",
+      "score": 50.093,
+      "ci": null,
+      "effort": "max",
+      "org": "Meta",
+      "release_date": "2026-10-12",
+      "notes": [
+        "run by Artificial Analysis on their own harness"
+      ]
+    },
+    {
+      "benchmark": "aa-hle",
+      "model": "gpt-6-astra",
+      "model_raw": "GPT-6 Astra (Low)",
+      "score": 49.212,
+      "ci": null,
+      "effort": "low",
+      "org": "OpenAI",
+      "release_date": "2026-09-03",
+      "notes": [
+        "run by Artificial Analysis on their own harness"
+      ]
+    },
+    {
+      "benchmark": "aa-hle",
+      "model": "fable-5-1",
+      "model_raw": "Claude Fable 5.1 (Medium, Default Fallback)",
+      "score": 53.8,
+      "ci": null,
+      "effort": "medium",
+      "org": "Anthropic",
+      "release_date": "2026-09-01",
+      "notes": [
+        "run by Artificial Analysis on their own harness"
+      ]
+    },
+    {
+      "benchmark": "aa-hle",
+      "model": "gpt-6-1-terra",
+      "model_raw": "GPT-6.1 Terra (High)",
+      "score": 43.281,
+      "ci": null,
+      "effort": "high",
+      "org": "OpenAI",
+      "release_date": "2026-10-26",
+      "notes": [
+        "run by Artificial Analysis on their own harness"
+      ]
+    },
+    {
+      "benchmark": "aa-hle",
+      "model": "sonnet-5-5",
+      "model_raw": "Claude Sonnet 5.5 (High, Default Fallback)",
+      "score": 45.829,
+      "ci": null,
+      "effort": "high",
+      "org": "Anthropic",
+      "release_date": "2026-09-28",
+      "notes": [
+        "run by Artificial Analysis on their own harness"
+      ]
+    },
+    {
+      "benchmark": "aa-hle",
+      "model": "fable-5-1",
+      "model_raw": "Claude Fable 5.1 (Low, Default Fallback)",
+      "score": 48.888,
+      "ci": null,
+      "effort": "low",
+      "org": "Anthropic",
+      "release_date": "2026-09-01",
+      "notes": [
+        "run by Artificial Analysis on their own harness"
+      ]
+    },
+    {
+      "benchmark": "aa-hle",
+      "model": "gpt-6-1-terra",
+      "model_raw": "GPT-6.1 Terra (Medium)",
+      "score": 40.222,
+      "ci": null,
+      "effort": "medium",
+      "org": "OpenAI",
+      "release_date": "2026-10-26",
+      "notes": [
+        "run by Artificial Analysis on their own harness"
+      ]
+    },
+    {
+      "benchmark": "aa-hle",
+      "model": "muse-spark-1-3",
+      "model_raw": "Muse Spark 1.3 (Max)",
+      "score": 48.703,
+      "ci": null,
+      "effort": "max",
+      "org": "Meta",
+      "release_date": "2026-09-02",
+      "notes": [
+        "run by Artificial Analysis on their own harness"
+      ]
+    },
+    {
+      "benchmark": "aa-hle",
+      "model": "haiku-5-5",
+      "model_raw": "Claude Haiku 5.5 (Max)",
+      "score": 44.393,
+      "ci": null,
+      "effort": "max",
+      "org": "Anthropic",
+      "release_date": "2026-10-07",
+      "notes": [
+        "run by Artificial Analysis on their own harness"
+      ]
+    },
+    {
+      "benchmark": "aa-hle",
+      "model": "grok-4-7",
+      "model_raw": "Grok 4.7 (Xhigh)",
+      "score": 43.142,
+      "ci": null,
+      "effort": "xhigh",
+      "org": "SpaceXAI",
+      "release_date": "2026-09-21",
+      "notes": [
+        "run by Artificial Analysis on their own harness"
+      ]
+    },
+    {
+      "benchmark": "aa-hle",
+      "model": "grok-4-7",
+      "model_raw": "Grok 4.7 (High)",
+      "score": 42.308,
+      "ci": null,
+      "effort": "high",
+      "org": "SpaceXAI",
+      "release_date": "2026-09-21",
+      "notes": [
+        "run by Artificial Analysis on their own harness"
+      ]
+    },
+    {
+      "benchmark": "aa-hle",
+      "model": "gpt-6-1-sol",
+      "model_raw": "GPT-6.1 Sol (Low)",
+      "score": 47.359,
+      "ci": null,
+      "effort": "low",
+      "org": "OpenAI",
+      "release_date": "2026-09-29",
+      "notes": [
+        "run by Artificial Analysis on their own harness"
+      ]
+    },
+    {
+      "benchmark": "aa-hle",
+      "model": "opus-5-5",
+      "model_raw": "Claude Opus 5.5 (Low, Default Fallback)",
+      "score": 48.332,
+      "ci": null,
+      "effort": "low",
+      "org": "Anthropic",
+      "release_date": "2026-09-22",
+      "notes": [
+        "run by Artificial Analysis on their own harness"
+      ]
+    },
+    {
+      "benchmark": "aa-hle",
+      "model": "haiku-5-5",
+      "model_raw": "Claude Haiku 5.5 (Xhigh)",
+      "score": 42.678,
+      "ci": null,
+      "effort": "xhigh",
+      "org": "Anthropic",
+      "release_date": "2026-10-07",
+      "notes": [
+        "run by Artificial Analysis on their own harness"
+      ]
+    },
+    {
+      "benchmark": "aa-hle",
+      "model": "qwen3-8-max",
+      "model_raw": "Qwen3.8 Max (0902)",
+      "score": 43.095,
+      "ci": null,
+      "effort": "xhigh",
+      "org": "Alibaba",
+      "release_date": "2026-09-02",
+      "notes": [
+        "run by Artificial Analysis on their own harness"
+      ]
+    },
+    {
+      "benchmark": "aa-hle",
+      "model": "deepseek-v4-1-flash-1017",
+      "model_raw": "DeepSeek V4.1 Flash 1017 (Max)",
+      "score": 43.327,
+      "ci": null,
+      "effort": "max",
+      "org": "DeepSeek",
+      "release_date": "2026-10-17",
+      "notes": [
+        "run by Artificial Analysis on their own harness"
+      ]
+    },
+    {
+      "benchmark": "aa-hle",
+      "model": "gpt-5-6-terra",
+      "model_raw": "GPT-5.6 Terra (Max)",
+      "score": 42.91,
+      "ci": null,
+      "effort": "max",
+      "org": "OpenAI",
+      "release_date": "2026-07-09",
+      "notes": [
+        "run by Artificial Analysis on their own harness"
+      ]
+    },
+    {
+      "benchmark": "aa-hle",
+      "model": "glm-5-3",
+      "model_raw": "GLM-5.3 (Max)",
+      "score": 42.261,
+      "ci": null,
+      "effort": "max",
+      "org": "Z AI",
+      "release_date": "2026-08-18",
+      "notes": [
+        "run by Artificial Analysis on their own harness"
+      ]
+    },
+    {
+      "benchmark": "aa-hle",
+      "model": "grok-4-7",
+      "model_raw": "Grok 4.7 (Low)",
+      "score": 39.157,
+      "ci": null,
+      "effort": "low",
+      "org": "SpaceXAI",
+      "release_date": "2026-09-21",
+      "notes": [
+        "run by Artificial Analysis on their own harness"
+      ]
+    },
+    {
+      "benchmark": "aa-hle",
+      "model": "grok-4-6",
+      "model_raw": "Grok 4.6 (Xhigh)",
+      "score": 44.069,
+      "ci": null,
+      "effort": "xhigh",
+      "org": "SpaceXAI",
+      "release_date": "2026-08-12",
+      "notes": [
+        "run by Artificial Analysis on their own harness"
+      ]
+    },
+    {
+      "benchmark": "aa-hle",
+      "model": "gemini-3-8-flash",
+      "model_raw": "Gemini 3.8 Flash (High)",
+      "score": 47.822,
+      "ci": null,
+      "effort": "high",
+      "org": "Google",
+      "release_date": "2026-09-02",
+      "notes": [
+        "run by Artificial Analysis on their own harness"
+      ]
+    },
+    {
+      "benchmark": "aa-hle",
+      "model": "sonnet-5-5",
+      "model_raw": "Claude Sonnet 5.5 (Medium, Default Fallback)",
+      "score": 39.805,
+      "ci": null,
+      "effort": "medium",
+      "org": "Anthropic",
+      "release_date": "2026-09-28",
+      "notes": [
+        "run by Artificial Analysis on their own harness"
+      ]
+    },
+    {
+      "benchmark": "aa-hle",
+      "model": "inkling-2-small",
+      "model_raw": "Inkling 2 Small",
+      "score": 44.115,
+      "ci": null,
+      "effort": null,
+      "org": "Thinking Machines",
+      "release_date": "2026-11-05",
+      "notes": [
+        "run by Artificial Analysis on their own harness"
+      ]
+    },
+    {
+      "benchmark": "aa-hle",
+      "model": "gpt-6-1-terra",
+      "model_raw": "GPT-6.1 Terra (Non-reasoning)",
+      "score": 21.131,
+      "ci": null,
+      "effort": null,
+      "org": "OpenAI",
+      "release_date": "2026-10-26",
+      "notes": [
+        "run by Artificial Analysis on their own harness"
+      ]
+    },
+    {
+      "benchmark": "aa-hle",
+      "model": "gemini-3-8-flash",
+      "model_raw": "Gemini 3.8 Flash (Medium)",
+      "score": 42.122,
+      "ci": null,
+      "effort": "medium",
+      "org": "Google",
+      "release_date": "2026-09-02",
+      "notes": [
+        "run by Artificial Analysis on their own harness"
+      ]
+    },
+    {
+      "benchmark": "aa-hle",
+      "model": "mimo-v2-6-pro",
+      "model_raw": "MiMo-V2.6-Pro",
+      "score": 49.351,
+      "ci": null,
+      "effort": null,
+      "org": "Xiaomi",
+      "release_date": "2026-09-21",
+      "notes": [
+        "run by Artificial Analysis on their own harness"
+      ]
+    },
+    {
+      "benchmark": "aa-hle",
+      "model": "haiku-5-5",
+      "model_raw": "Claude Haiku 5.5 (High)",
+      "score": 37.257,
+      "ci": null,
+      "effort": "high",
+      "org": "Anthropic",
+      "release_date": "2026-10-07",
+      "notes": [
+        "run by Artificial Analysis on their own harness"
+      ]
+    },
+    {
+      "benchmark": "aa-hle",
+      "model": "ling-3-1-flash-1019",
+      "model_raw": "Ling 3.1 Flash 1019",
+      "score": 43.466,
+      "ci": null,
+      "effort": null,
+      "org": "InclusionAI",
+      "release_date": "2026-10-22",
+      "notes": [
+        "run by Artificial Analysis on their own harness"
+      ]
+    },
+    {
+      "benchmark": "aa-hle",
+      "model": "gpt-6-1-terra",
+      "model_raw": "GPT-6.1 Terra (Low)",
+      "score": 35.82,
+      "ci": null,
+      "effort": "low",
+      "org": "OpenAI",
+      "release_date": "2026-10-26",
+      "notes": [
+        "run by Artificial Analysis on their own harness"
+      ]
+    },
+    {
+      "benchmark": "aa-hle",
+      "model": "minimax-m3-1-flash",
+      "model_raw": "MiniMax-M3.1-Flash",
+      "score": 47.961,
+      "ci": null,
+      "effort": "max",
+      "org": "MiniMax",
+      "release_date": "2026-10-19",
+      "notes": [
+        "run by Artificial Analysis on their own harness"
+      ]
+    },
+    {
+      "benchmark": "aa-hle",
+      "model": "step-5-preview",
+      "model_raw": "Step 5 Preview",
+      "score": 46.478,
+      "ci": null,
+      "effort": null,
+      "org": "StepFun",
+      "release_date": "2026-09-18",
+      "notes": [
+        "run by Artificial Analysis on their own harness"
+      ]
+    },
+    {
+      "benchmark": "aa-hle",
+      "model": "gpt-6-luna",
+      "model_raw": "GPT-6 Luna (Max)",
+      "score": 38.508,
+      "ci": null,
+      "effort": "max",
+      "org": "OpenAI",
+      "release_date": "2026-09-22",
+      "notes": [
+        "run by Artificial Analysis on their own harness"
+      ]
+    },
+    {
+      "benchmark": "aa-hle",
+      "model": "glm-5-3-flash",
+      "model_raw": "GLM-5.3-Flash",
+      "score": 39.852,
+      "ci": null,
+      "effort": "max",
+      "org": "Z AI",
+      "release_date": "2026-08-26",
+      "notes": [
+        "run by Artificial Analysis on their own harness"
+      ]
+    },
+    {
+      "benchmark": "aa-hle",
+      "model": "mimo-v2-6-flash",
+      "model_raw": "MiMo-V2.6-Flash",
+      "score": 35.079,
+      "ci": null,
+      "effort": null,
+      "org": "Xiaomi",
+      "release_date": "2026-09-21",
+      "notes": [
+        "run by Artificial Analysis on their own harness"
+      ]
+    },
+    {
+      "benchmark": "aa-hle",
+      "model": "sonnet-5-5",
+      "model_raw": "Claude Sonnet 5.5 (Low, Default Fallback)",
+      "score": 36.237,
+      "ci": null,
+      "effort": "low",
+      "org": "Anthropic",
+      "release_date": "2026-09-28",
+      "notes": [
+        "run by Artificial Analysis on their own harness"
+      ]
+    },
+    {
+      "benchmark": "aa-hle",
+      "model": "large-4-preview",
+      "model_raw": "Mistral Large 4 Preview",
+      "score": 35.032,
+      "ci": null,
+      "effort": null,
+      "org": "Mistral",
+      "release_date": "2026-10-06",
+      "notes": [
+        "run by Artificial Analysis on their own harness"
+      ]
+    },
+    {
+      "benchmark": "aa-hle",
+      "model": "muse-spark-open",
+      "model_raw": "Muse Spark Open (Xhigh)",
+      "score": 43.883,
+      "ci": null,
+      "effort": "xhigh",
+      "org": "Meta",
+      "release_date": "2026-10-15",
+      "notes": [
+        "run by Artificial Analysis on their own harness"
+      ]
+    },
+    {
+      "benchmark": "aa-hle",
+      "model": "haiku-5-5",
+      "model_raw": "Claude Haiku 5.5 (Medium)",
+      "score": 33.781,
+      "ci": null,
+      "effort": "medium",
+      "org": "Anthropic",
+      "release_date": "2026-10-07",
+      "notes": [
+        "run by Artificial Analysis on their own harness"
+      ]
+    },
+    {
+      "benchmark": "aa-hle",
+      "model": "agnes-2-5-pro-theta",
+      "model_raw": "Agnes 2.5 Pro Theta",
+      "score": 37.164,
+      "ci": null,
+      "effort": null,
+      "org": "Sapiens AI",
+      "release_date": "2026-11-07",
+      "notes": [
+        "run by Artificial Analysis on their own harness"
+      ]
+    },
+    {
+      "benchmark": "aa-hle",
+      "model": "gpt-5-6-luna",
+      "model_raw": "GPT-5.6 Luna (Max)",
+      "score": 39.481,
+      "ci": null,
+      "effort": "max",
+      "org": "OpenAI",
+      "release_date": "2026-07-09",
+      "notes": [
+        "run by Artificial Analysis on their own harness"
+      ]
+    },
+    {
+      "benchmark": "aa-hle",
+      "model": "gpt-6-luna",
+      "model_raw": "GPT-6 Luna (Xhigh)",
+      "score": 34.337,
+      "ci": null,
+      "effort": "xhigh",
+      "org": "OpenAI",
+      "release_date": "2026-09-22",
+      "notes": [
+        "run by Artificial Analysis on their own harness"
+      ]
+    },
+    {
+      "benchmark": "aa-hle",
+      "model": "glm-5-3",
+      "model_raw": "GLM-5.3 (Low)",
+      "score": 36.562,
+      "ci": null,
+      "effort": "low",
+      "org": "Z AI",
+      "release_date": "2026-08-18",
+      "notes": [
+        "run by Artificial Analysis on their own harness"
+      ]
+    },
+    {
+      "benchmark": "aa-hle",
+      "model": "deepseek-v4-pro",
+      "model_raw": "DeepSeek V4 Pro 0813 (Max)",
+      "score": 41.01,
+      "ci": null,
+      "effort": "max",
+      "org": "DeepSeek",
+      "release_date": "2026-08-13",
+      "notes": [
+        "run by Artificial Analysis on their own harness"
+      ]
+    },
+    {
+      "benchmark": "aa-hle",
+      "model": "gemini-3-8-flash",
+      "model_raw": "Gemini 3.8 Flash (Low)",
+      "score": 37.071,
+      "ci": null,
+      "effort": "low",
+      "org": "Google",
+      "release_date": "2026-09-02",
+      "notes": [
+        "run by Artificial Analysis on their own harness"
+      ]
+    },
+    {
+      "benchmark": "aa-hle",
+      "model": "gpt-6-luna",
+      "model_raw": "GPT-6 Luna (High)",
+      "score": 32.947,
+      "ci": null,
+      "effort": "high",
+      "org": "OpenAI",
+      "release_date": "2026-09-22",
+      "notes": [
+        "run by Artificial Analysis on their own harness"
+      ]
+    },
+    {
+      "benchmark": "aa-hle",
+      "model": "qwen3-8-27b",
+      "model_raw": "Qwen3.8 27B (Xhigh)",
+      "score": 33.92,
+      "ci": null,
+      "effort": "xhigh",
+      "org": "Alibaba",
+      "release_date": "2026-08-14",
+      "notes": [
+        "run by Artificial Analysis on their own harness"
+      ]
+    },
+    {
+      "benchmark": "aa-hle",
+      "model": "minimax-m3",
+      "model_raw": "MiniMax-M3",
+      "score": 38.971,
+      "ci": null,
+      "effort": null,
+      "org": "MiniMax",
+      "release_date": "2026-06-01",
+      "notes": [
+        "run by Artificial Analysis on their own harness"
+      ]
+    },
+    {
+      "benchmark": "aa-hle",
+      "model": "haiku-5-5",
+      "model_raw": "Claude Haiku 5.5 (Low)",
+      "score": 27.016,
+      "ci": null,
+      "effort": "low",
+      "org": "Anthropic",
+      "release_date": "2026-10-07",
+      "notes": [
+        "run by Artificial Analysis on their own harness"
+      ]
+    },
+    {
+      "benchmark": "aa-hle",
+      "model": "deepseek-v4-1-flash-1017",
+      "model_raw": "DeepSeek V4.1 Flash 1017 (Non-reasoning)",
+      "score": 11.538,
+      "ci": null,
+      "effort": null,
+      "org": "DeepSeek",
+      "release_date": "2026-10-17",
+      "notes": [
+        "run by Artificial Analysis on their own harness"
+      ]
+    },
+    {
+      "benchmark": "aa-hle",
+      "model": "gpt-6-luna",
+      "model_raw": "GPT-6 Luna (Medium)",
+      "score": 28.267,
+      "ci": null,
+      "effort": "medium",
+      "org": "OpenAI",
+      "release_date": "2026-09-22",
+      "notes": [
+        "run by Artificial Analysis on their own harness"
+      ]
+    },
+    {
+      "benchmark": "aa-hle",
+      "model": "k2-horizon-375b-a23b",
+      "model_raw": "K2 Horizon 375B A23B",
+      "score": 31.974,
+      "ci": null,
+      "effort": "high",
+      "org": "Institute of Foundation Models",
+      "release_date": "2026-09-03",
+      "notes": [
+        "run by Artificial Analysis on their own harness"
+      ]
+    },
+    {
+      "benchmark": "aa-hle",
+      "model": "beam-1-0",
+      "model_raw": "Beam 1.0",
+      "score": 34.662,
+      "ci": null,
+      "effort": null,
+      "org": "Reflection",
+      "release_date": "2026-10-16",
+      "notes": [
+        "run by Artificial Analysis on their own harness"
+      ]
+    },
+    {
+      "benchmark": "aa-hle",
+      "model": "qwen3-8-27b",
+      "model_raw": "Qwen3.8 27B (Medium)",
+      "score": 14.087,
+      "ci": null,
+      "effort": "medium",
+      "org": "Alibaba",
+      "release_date": "2026-08-14",
+      "notes": [
+        "run by Artificial Analysis on their own harness"
+      ]
+    },
+    {
+      "benchmark": "aa-hle",
+      "model": "kimi-k3",
+      "model_raw": "Kimi K3 (Low)",
+      "score": 24.977,
+      "ci": null,
+      "effort": "low",
+      "org": "Kimi",
+      "release_date": "2026-07-16",
+      "notes": [
+        "run by Artificial Analysis on their own harness"
+      ]
+    },
+    {
+      "benchmark": "aa-hle",
+      "model": "qwen3-8-27b",
+      "model_raw": "Qwen3.8 27B (Low)",
+      "score": 14.041,
+      "ci": null,
+      "effort": "low",
+      "org": "Alibaba",
+      "release_date": "2026-08-14",
+      "notes": [
+        "run by Artificial Analysis on their own harness"
+      ]
+    },
+    {
+      "benchmark": "aa-hle",
+      "model": "nemotron-3-5-super-vl",
+      "model_raw": "Nemotron 3.5 Super VL",
+      "score": 30.723,
+      "ci": null,
+      "effort": "high",
+      "org": "NVIDIA",
+      "release_date": "2026-10-15",
+      "notes": [
+        "run by Artificial Analysis on their own harness"
+      ]
+    },
+    {
+      "benchmark": "aa-hle",
+      "model": "inkling-small",
+      "model_raw": "Inkling Small",
+      "score": 33.318,
+      "ci": null,
+      "effort": null,
+      "org": "Thinking Machines",
+      "release_date": "2026-07-30",
+      "notes": [
+        "run by Artificial Analysis on their own harness"
+      ]
+    },
+    {
+      "benchmark": "aa-hle",
+      "model": "deepseek-v4-pro",
+      "model_raw": "DeepSeek V4 Pro 0813 (Non-reasoning)",
+      "score": 10.565,
+      "ci": null,
+      "effort": null,
+      "org": "DeepSeek",
+      "release_date": "2026-08-13",
+      "notes": [
+        "run by Artificial Analysis on their own harness"
+      ]
+    },
+    {
+      "benchmark": "aa-hle",
+      "model": "inkling",
+      "model_raw": "Inkling (Xhigh)",
+      "score": 31.881,
+      "ci": null,
+      "effort": "xhigh",
+      "org": "Thinking Machines",
+      "release_date": "2026-07-15",
+      "notes": [
+        "run by Artificial Analysis on their own harness"
+      ]
+    },
+    {
+      "benchmark": "aa-hle",
+      "model": "nvidia-nemotron-3-ultra-550b-a55b",
+      "model_raw": "Nemotron 3 Ultra 550B A55B (Reasoning)",
+      "score": 28.406,
+      "ci": null,
+      "effort": null,
+      "org": "NVIDIA",
+      "release_date": "2026-06-04",
+      "notes": [
+        "run by Artificial Analysis on their own harness"
+      ]
+    },
+    {
+      "benchmark": "aa-hle",
+      "model": "gemini-3-5-flash-lite",
+      "model_raw": "Gemini 3.5 Flash-Lite",
+      "score": 18.814,
+      "ci": null,
+      "effort": "high",
+      "org": "Google",
+      "release_date": "2026-07-21",
+      "notes": [
+        "run by Artificial Analysis on their own harness"
+      ]
+    },
+    {
+      "benchmark": "aa-hle",
+      "model": "qwen3-8-27b",
+      "model_raw": "Qwen3.8 27B (Non-reasoning)",
+      "score": 12.141,
+      "ci": null,
+      "effort": null,
+      "org": "Alibaba",
+      "release_date": "2026-08-14",
+      "notes": [
+        "run by Artificial Analysis on their own harness"
+      ]
+    },
+    {
+      "benchmark": "aa-hle",
+      "model": "gpt-6-luna",
+      "model_raw": "GPT-6 Luna (Low)",
+      "score": 20.25,
+      "ci": null,
+      "effort": "low",
+      "org": "OpenAI",
+      "release_date": "2026-09-22",
+      "notes": [
+        "run by Artificial Analysis on their own harness"
+      ]
+    },
+    {
+      "benchmark": "aa-hle",
+      "model": "gpt-6-luna",
+      "model_raw": "GPT-6 Luna (Non-reasoning)",
+      "score": 8.573,
+      "ci": null,
+      "effort": null,
+      "org": "OpenAI",
+      "release_date": "2026-09-22",
+      "notes": [
+        "run by Artificial Analysis on their own harness"
+      ]
+    },
+    {
+      "benchmark": "aa-hle",
+      "model": "k-exaone-2-0-0803",
+      "model_raw": "K-EXAONE 2.0",
+      "score": 18.582,
+      "ci": null,
+      "effort": null,
+      "org": "LG AI Research",
+      "release_date": "2026-08-12",
+      "notes": [
+        "run by Artificial Analysis on their own harness"
+      ]
+    },
+    {
+      "benchmark": "aa-hle",
+      "model": "haiku-4-5",
+      "model_raw": "Claude 4.5 Haiku (Reasoning)",
+      "score": 10.38,
+      "ci": null,
+      "effort": null,
+      "org": "Anthropic",
+      "release_date": "2025-10-15",
+      "notes": [
+        "run by Artificial Analysis on their own harness"
+      ]
+    },
+    {
+      "benchmark": "aa-hle",
+      "model": "muse-glimmer",
+      "model_raw": "Muse Glimmer (High)",
+      "score": 21.965,
+      "ci": null,
+      "effort": "high",
+      "org": "Meta",
+      "release_date": "2026-08-10",
+      "notes": [
+        "run by Artificial Analysis on their own harness"
+      ]
+    },
+    {
+      "benchmark": "aa-hle",
+      "model": "command-a-plus",
+      "model_raw": "Command A+",
+      "score": 11.956,
+      "ci": null,
+      "effort": null,
+      "org": "Cohere",
+      "release_date": "2026-05-20",
+      "notes": [
+        "run by Artificial Analysis on their own harness"
+      ]
+    },
+    {
+      "benchmark": "aa-hle",
+      "model": "gemini-3-1-flash-lite-preview",
+      "model_raw": "Gemini 3.1 Flash-Lite",
+      "score": 17.192,
+      "ci": null,
+      "effort": "high",
+      "org": "Google",
+      "release_date": "2026-03-03",
+      "notes": [
+        "run by Artificial Analysis on their own harness"
+      ]
+    },
+    {
+      "benchmark": "aa-hle",
+      "model": "nemotron-3-5-lightning",
+      "model_raw": "Nemotron 3.5 Lightning",
+      "score": 10.565,
+      "ci": null,
+      "effort": null,
+      "org": "NVIDIA",
+      "release_date": "2026-08-11",
+      "notes": [
+        "run by Artificial Analysis on their own harness"
+      ]
+    },
+    {
+      "benchmark": "aa-hle",
+      "model": "granite-4-2-8b",
+      "model_raw": "Granite 4.2 8B",
+      "score": 9.685,
+      "ci": null,
+      "effort": null,
+      "org": "IBM",
+      "release_date": "2026-08-25",
+      "notes": [
+        "run by Artificial Analysis on their own harness"
+      ]
+    },
+    {
+      "benchmark": "aa-hle",
+      "model": "granite-4-2-3b",
+      "model_raw": "Granite 4.2 3B",
+      "score": 6.627,
+      "ci": null,
+      "effort": null,
+      "org": "IBM",
+      "release_date": "2026-08-25",
+      "notes": [
+        "run by Artificial Analysis on their own harness"
+      ]
+    },
+    {
+      "benchmark": "aa-hle",
+      "model": "medium-3-5",
+      "model_raw": "Mistral Medium 3.5",
+      "score": 13.763,
+      "ci": null,
+      "effort": "high",
+      "org": "Mistral",
+      "release_date": "2026-04-29",
+      "notes": [
+        "run by Artificial Analysis on their own harness"
+      ]
+    },
+    {
+      "benchmark": "aa-hle",
+      "model": "gemma-4-31b",
+      "model_raw": "Gemma 4 31B (Reasoning)",
+      "score": 23.633,
+      "ci": null,
+      "effort": null,
+      "org": "Google",
+      "release_date": "2026-04-02",
+      "notes": [
+        "run by Artificial Analysis on their own harness"
+      ]
+    },
+    {
+      "benchmark": "aa-hle",
+      "model": "small-4",
+      "model_raw": "Mistral Small 4 (Reasoning)",
+      "score": 9.87,
+      "ci": null,
+      "effort": null,
+      "org": "Mistral",
+      "release_date": "2026-03-16",
+      "notes": [
+        "run by Artificial Analysis on their own harness"
+      ]
+    },
+    {
+      "benchmark": "aa-hle",
+      "model": "north-mini-code",
+      "model_raw": "North Mini Code",
+      "score": 11.075,
+      "ci": null,
+      "effort": null,
+      "org": "Cohere",
+      "release_date": "2026-06-09",
+      "notes": [
+        "run by Artificial Analysis on their own harness"
+      ]
+    },
+    {
+      "benchmark": "aa-hle",
+      "model": "nvidia-nemotron-3-nano-4b",
+      "model_raw": "NVIDIA Nemotron 3 Nano 4B",
+      "score": 4.866,
+      "ci": null,
+      "effort": null,
+      "org": "NVIDIA",
+      "release_date": "2026-03-16",
       "notes": [
         "run by Artificial Analysis on their own harness"
       ]
@@ -204,19 +1504,6 @@
     },
     {
       "benchmark": "aa-hle",
-      "model": "sonnet-5-5",
-      "model_raw": "Claude Sonnet 5.5 (Medium, Default Fallback)",
-      "score": 39.805,
-      "ci": null,
-      "effort": "medium",
-      "org": "Anthropic",
-      "release_date": "2026-09-28",
-      "notes": [
-        "run by Artificial Analysis on their own harness"
-      ]
-    },
-    {
-      "benchmark": "aa-hle",
       "model": "qwen2-5-coder-32b-instruct",
       "model_raw": "Qwen2.5 Coder Instruct 32B",
       "score": 3.51,
@@ -289,19 +1576,6 @@
       "effort": "low",
       "org": "OpenAI",
       "release_date": "2026-07-09",
-      "notes": [
-        "run by Artificial Analysis on their own harness"
-      ]
-    },
-    {
-      "benchmark": "aa-hle",
-      "model": "fable-5-1",
-      "model_raw": "Claude Fable 5.1 (Low, Default Fallback)",
-      "score": 48.888,
-      "ci": null,
-      "effort": "low",
-      "org": "Anthropic",
-      "release_date": "2026-09-01",
       "notes": [
         "run by Artificial Analysis on their own harness"
       ]
@@ -399,19 +1673,6 @@
     },
     {
       "benchmark": "aa-hle",
-      "model": "gpt-6-1-sol",
-      "model_raw": "GPT-6.1 Sol (Xhigh)",
-      "score": 52.641,
-      "ci": null,
-      "effort": "xhigh",
-      "org": "OpenAI",
-      "release_date": "2026-09-29",
-      "notes": [
-        "run by Artificial Analysis on their own harness"
-      ]
-    },
-    {
-      "benchmark": "aa-hle",
       "model": "qwen3-coder-480b-a35b-instruct",
       "model_raw": "Qwen3 Coder 480B A35B Instruct",
       "score": 4.541,
@@ -419,32 +1680,6 @@
       "effort": null,
       "org": "Alibaba",
       "release_date": "2025-07-22",
-      "notes": [
-        "run by Artificial Analysis on their own harness"
-      ]
-    },
-    {
-      "benchmark": "aa-hle",
-      "model": "gemini-3-5-flash-lite",
-      "model_raw": "Gemini 3.5 Flash-Lite",
-      "score": 18.814,
-      "ci": null,
-      "effort": "high",
-      "org": "Google",
-      "release_date": "2026-07-21",
-      "notes": [
-        "run by Artificial Analysis on their own harness"
-      ]
-    },
-    {
-      "benchmark": "aa-hle",
-      "model": "step-5-preview",
-      "model_raw": "Step 5 Preview",
-      "score": 46.478,
-      "ci": null,
-      "effort": null,
-      "org": "StepFun",
-      "release_date": "2026-09-18",
       "notes": [
         "run by Artificial Analysis on their own harness"
       ]
@@ -529,32 +1764,6 @@
     },
     {
       "benchmark": "aa-hle",
-      "model": "granite-4-2-3b",
-      "model_raw": "Granite 4.2 3B",
-      "score": 6.627,
-      "ci": null,
-      "effort": null,
-      "org": "IBM",
-      "release_date": "2026-08-25",
-      "notes": [
-        "run by Artificial Analysis on their own harness"
-      ]
-    },
-    {
-      "benchmark": "aa-hle",
-      "model": "gpt-6-1-terra",
-      "model_raw": "GPT-6.1 Terra (Non-reasoning)",
-      "score": 21.131,
-      "ci": null,
-      "effort": null,
-      "org": "OpenAI",
-      "release_date": "2026-10-26",
-      "notes": [
-        "run by Artificial Analysis on their own harness"
-      ]
-    },
-    {
-      "benchmark": "aa-hle",
       "model": "nova-2-0-pro",
       "model_raw": "Nova 2.0 Pro Preview (Medium)",
       "score": 9.407,
@@ -562,19 +1771,6 @@
       "effort": "medium",
       "org": "Amazon",
       "release_date": "2025-11-27",
-      "notes": [
-        "run by Artificial Analysis on their own harness"
-      ]
-    },
-    {
-      "benchmark": "aa-hle",
-      "model": "inkling",
-      "model_raw": "Inkling (Xhigh)",
-      "score": 31.881,
-      "ci": null,
-      "effort": "xhigh",
-      "org": "Thinking Machines",
-      "release_date": "2026-07-15",
       "notes": [
         "run by Artificial Analysis on their own harness"
       ]
@@ -692,19 +1888,6 @@
       "effort": null,
       "org": "Institute of Foundation Models",
       "release_date": "2026-09-03",
-      "notes": [
-        "run by Artificial Analysis on their own harness"
-      ]
-    },
-    {
-      "benchmark": "aa-hle",
-      "model": "mimo-v2-6-flash",
-      "model_raw": "MiMo-V2.6-Flash",
-      "score": 35.079,
-      "ci": null,
-      "effort": null,
-      "org": "Xiaomi",
-      "release_date": "2026-09-21",
       "notes": [
         "run by Artificial Analysis on their own harness"
       ]
@@ -893,19 +2076,6 @@
     },
     {
       "benchmark": "aa-hle",
-      "model": "k-exaone-2-0-0803",
-      "model_raw": "K-EXAONE 2.0 0803",
-      "score": 18.582,
-      "ci": null,
-      "effort": null,
-      "org": "LG AI Research",
-      "release_date": "2026-08-12",
-      "notes": [
-        "run by Artificial Analysis on their own harness"
-      ]
-    },
-    {
-      "benchmark": "aa-hle",
       "model": "qwen3-4b-instruct",
       "model_raw": "Qwen3 4B (Reasoning)",
       "score": 4.42,
@@ -913,32 +2083,6 @@
       "effort": null,
       "org": "Alibaba",
       "release_date": "2025-04-28",
-      "notes": [
-        "run by Artificial Analysis on their own harness"
-      ]
-    },
-    {
-      "benchmark": "aa-hle",
-      "model": "glm-5-3-flash",
-      "model_raw": "GLM-5.3-Flash",
-      "score": 39.852,
-      "ci": null,
-      "effort": "max",
-      "org": "Z AI",
-      "release_date": "2026-08-26",
-      "notes": [
-        "run by Artificial Analysis on their own harness"
-      ]
-    },
-    {
-      "benchmark": "aa-hle",
-      "model": "gpt-6-luna",
-      "model_raw": "GPT-6 Luna (Xhigh)",
-      "score": 34.337,
-      "ci": null,
-      "effort": "xhigh",
-      "org": "OpenAI",
-      "release_date": "2026-09-22",
       "notes": [
         "run by Artificial Analysis on their own harness"
       ]
@@ -1062,19 +2206,6 @@
     },
     {
       "benchmark": "aa-hle",
-      "model": "north-mini-code",
-      "model_raw": "North Mini Code",
-      "score": 11.075,
-      "ci": null,
-      "effort": null,
-      "org": "Cohere",
-      "release_date": "2026-06-09",
-      "notes": [
-        "run by Artificial Analysis on their own harness"
-      ]
-    },
-    {
-      "benchmark": "aa-hle",
       "model": "gpt-5-5",
       "model_raw": "GPT-5.5 (Xhigh)",
       "score": 45.783,
@@ -1095,19 +2226,6 @@
       "effort": "medium",
       "org": "Mistral",
       "release_date": "2023-12-11",
-      "notes": [
-        "run by Artificial Analysis on their own harness"
-      ]
-    },
-    {
-      "benchmark": "aa-hle",
-      "model": "gpt-6-astra",
-      "model_raw": "GPT-6 Astra (Xhigh)",
-      "score": 54.588,
-      "ci": null,
-      "effort": "xhigh",
-      "org": "OpenAI",
-      "release_date": "2026-09-03",
       "notes": [
         "run by Artificial Analysis on their own harness"
       ]
@@ -1147,32 +2265,6 @@
       "effort": null,
       "org": "Anthropic",
       "release_date": "2024-03-04",
-      "notes": [
-        "run by Artificial Analysis on their own harness"
-      ]
-    },
-    {
-      "benchmark": "aa-hle",
-      "model": "haiku-5-5",
-      "model_raw": "Claude Haiku 5.5 (High)",
-      "score": 37.257,
-      "ci": null,
-      "effort": "high",
-      "org": "Anthropic",
-      "release_date": "2026-10-07",
-      "notes": [
-        "run by Artificial Analysis on their own harness"
-      ]
-    },
-    {
-      "benchmark": "aa-hle",
-      "model": "grok-4-7",
-      "model_raw": "Grok 4.7 (Low)",
-      "score": 39.157,
-      "ci": null,
-      "effort": "low",
-      "org": "SpaceXAI",
-      "release_date": "2026-09-21",
       "notes": [
         "run by Artificial Analysis on their own harness"
       ]
@@ -1361,19 +2453,6 @@
     },
     {
       "benchmark": "aa-hle",
-      "model": "mimo-v2-6-pro",
-      "model_raw": "MiMo-V2.6-Pro",
-      "score": 49.351,
-      "ci": null,
-      "effort": null,
-      "org": "Xiaomi",
-      "release_date": "2026-09-21",
-      "notes": [
-        "run by Artificial Analysis on their own harness"
-      ]
-    },
-    {
-      "benchmark": "aa-hle",
       "model": "opus-4-5",
       "model_raw": "Claude Opus 4.5 (Reasoning)",
       "score": 30.12,
@@ -1394,19 +2473,6 @@
       "effort": "medium",
       "org": "SpaceXAI",
       "release_date": "2026-08-12",
-      "notes": [
-        "run by Artificial Analysis on their own harness"
-      ]
-    },
-    {
-      "benchmark": "aa-hle",
-      "model": "sonnet-5-5",
-      "model_raw": "Claude Sonnet 5.5 (High, Default Fallback)",
-      "score": 45.829,
-      "ci": null,
-      "effort": "high",
-      "org": "Anthropic",
-      "release_date": "2026-09-28",
       "notes": [
         "run by Artificial Analysis on their own harness"
       ]
@@ -1465,19 +2531,6 @@
     },
     {
       "benchmark": "aa-hle",
-      "model": "grok-4-7",
-      "model_raw": "Grok 4.7 (High)",
-      "score": 42.308,
-      "ci": null,
-      "effort": "high",
-      "org": "SpaceXAI",
-      "release_date": "2026-09-21",
-      "notes": [
-        "run by Artificial Analysis on their own harness"
-      ]
-    },
-    {
-      "benchmark": "aa-hle",
       "model": "minimax-m2-1",
       "model_raw": "MiniMax-M2.1",
       "score": 23.17,
@@ -1485,19 +2538,6 @@
       "effort": null,
       "org": "MiniMax",
       "release_date": "2025-12-23",
-      "notes": [
-        "run by Artificial Analysis on their own harness"
-      ]
-    },
-    {
-      "benchmark": "aa-hle",
-      "model": "minimax-m3",
-      "model_raw": "MiniMax-M3",
-      "score": 38.971,
-      "ci": null,
-      "effort": null,
-      "org": "MiniMax",
-      "release_date": "2026-06-01",
       "notes": [
         "run by Artificial Analysis on their own harness"
       ]
@@ -1537,19 +2577,6 @@
       "effort": "high",
       "org": "OpenAI",
       "release_date": "2025-08-07",
-      "notes": [
-        "run by Artificial Analysis on their own harness"
-      ]
-    },
-    {
-      "benchmark": "aa-hle",
-      "model": "nemotron-3-5-lightning",
-      "model_raw": "Nemotron 3.5 Lightning",
-      "score": 10.565,
-      "ci": null,
-      "effort": null,
-      "org": "NVIDIA",
-      "release_date": "2026-08-11",
       "notes": [
         "run by Artificial Analysis on their own harness"
       ]
@@ -1738,45 +2765,6 @@
     },
     {
       "benchmark": "aa-hle",
-      "model": "command-a-plus",
-      "model_raw": "Command A+",
-      "score": 11.956,
-      "ci": null,
-      "effort": null,
-      "org": "Cohere",
-      "release_date": "2026-05-20",
-      "notes": [
-        "run by Artificial Analysis on their own harness"
-      ]
-    },
-    {
-      "benchmark": "aa-hle",
-      "model": "gpt-6-astra",
-      "model_raw": "GPT-6 Astra (Max)",
-      "score": 54.68,
-      "ci": null,
-      "effort": "max",
-      "org": "OpenAI",
-      "release_date": "2026-09-03",
-      "notes": [
-        "run by Artificial Analysis on their own harness"
-      ]
-    },
-    {
-      "benchmark": "aa-hle",
-      "model": "opus-5-5",
-      "model_raw": "Claude Opus 5.5 (Max, Default Fallback)",
-      "score": 61.353,
-      "ci": null,
-      "effort": "max",
-      "org": "Anthropic",
-      "release_date": "2026-09-22",
-      "notes": [
-        "run by Artificial Analysis on their own harness"
-      ]
-    },
-    {
-      "benchmark": "aa-hle",
       "model": "exaone-4-0-32b",
       "model_raw": "EXAONE 4.0 32B (Non-reasoning)",
       "score": 5.005,
@@ -1959,19 +2947,6 @@
     },
     {
       "benchmark": "aa-hle",
-      "model": "large-4-preview",
-      "model_raw": "Mistral Large 4 Preview",
-      "score": 35.032,
-      "ci": null,
-      "effort": null,
-      "org": "Mistral",
-      "release_date": "2026-10-06",
-      "notes": [
-        "run by Artificial Analysis on their own harness"
-      ]
-    },
-    {
-      "benchmark": "aa-hle",
       "model": "qwen-turbo",
       "model_raw": "Qwen2.5 Turbo",
       "score": 4.09,
@@ -1985,19 +2960,6 @@
     },
     {
       "benchmark": "aa-hle",
-      "model": "qwen3-8-27b",
-      "model_raw": "Qwen3.8 27B (Non-reasoning)",
-      "score": 12.141,
-      "ci": null,
-      "effort": null,
-      "org": "Alibaba",
-      "release_date": "2026-08-14",
-      "notes": [
-        "run by Artificial Analysis on their own harness"
-      ]
-    },
-    {
-      "benchmark": "aa-hle",
       "model": "small-2402",
       "model_raw": "Mistral Small (Feb '24)",
       "score": 4.09,
@@ -2005,32 +2967,6 @@
       "effort": null,
       "org": "Mistral",
       "release_date": "2024-02-26",
-      "notes": [
-        "run by Artificial Analysis on their own harness"
-      ]
-    },
-    {
-      "benchmark": "aa-hle",
-      "model": "muse-spark-open",
-      "model_raw": "Muse Spark Open (Xhigh)",
-      "score": 43.883,
-      "ci": null,
-      "effort": "xhigh",
-      "org": "Meta",
-      "release_date": "2026-10-15",
-      "notes": [
-        "run by Artificial Analysis on their own harness"
-      ]
-    },
-    {
-      "benchmark": "aa-hle",
-      "model": "gpt-6-luna",
-      "model_raw": "GPT-6 Luna (Medium)",
-      "score": 28.267,
-      "ci": null,
-      "effort": "medium",
-      "org": "OpenAI",
-      "release_date": "2026-09-22",
       "notes": [
         "run by Artificial Analysis on their own harness"
       ]
@@ -2141,32 +3077,6 @@
     },
     {
       "benchmark": "aa-hle",
-      "model": "fable-5-1",
-      "model_raw": "Claude Fable 5.1 (Medium, Default Fallback)",
-      "score": 53.8,
-      "ci": null,
-      "effort": "medium",
-      "org": "Anthropic",
-      "release_date": "2026-09-01",
-      "notes": [
-        "run by Artificial Analysis on their own harness"
-      ]
-    },
-    {
-      "benchmark": "aa-hle",
-      "model": "gpt-6-1-sol",
-      "model_raw": "GPT-6.1 Sol (High)",
-      "score": 51.39,
-      "ci": null,
-      "effort": "high",
-      "org": "OpenAI",
-      "release_date": "2026-09-29",
-      "notes": [
-        "run by Artificial Analysis on their own harness"
-      ]
-    },
-    {
-      "benchmark": "aa-hle",
       "model": "command-a",
       "model_raw": "Command A",
       "score": 4.032,
@@ -2258,19 +3168,6 @@
     },
     {
       "benchmark": "aa-hle",
-      "model": "fable-5-1",
-      "model_raw": "Claude Fable 5.1 (Max, Default Fallback)",
-      "score": 59.129,
-      "ci": null,
-      "effort": "max",
-      "org": "Anthropic",
-      "release_date": "2026-09-01",
-      "notes": [
-        "run by Artificial Analysis on their own harness"
-      ]
-    },
-    {
-      "benchmark": "aa-hle",
       "model": "mixtral-8x7b-instruct",
       "model_raw": "Mixtral 8x7B Instruct",
       "score": 4.68,
@@ -2291,19 +3188,6 @@
       "effort": null,
       "org": "Allen Institute for AI",
       "release_date": "2025-12-11",
-      "notes": [
-        "run by Artificial Analysis on their own harness"
-      ]
-    },
-    {
-      "benchmark": "aa-hle",
-      "model": "small-4",
-      "model_raw": "Mistral Small 4 (Reasoning)",
-      "score": 9.87,
-      "ci": null,
-      "effort": null,
-      "org": "Mistral",
-      "release_date": "2026-03-16",
       "notes": [
         "run by Artificial Analysis on their own harness"
       ]
@@ -2349,19 +3233,6 @@
     },
     {
       "benchmark": "aa-hle",
-      "model": "haiku-5-5",
-      "model_raw": "Claude Haiku 5.5 (Xhigh)",
-      "score": 42.678,
-      "ci": null,
-      "effort": "xhigh",
-      "org": "Anthropic",
-      "release_date": "2026-10-07",
-      "notes": [
-        "run by Artificial Analysis on their own harness"
-      ]
-    },
-    {
-      "benchmark": "aa-hle",
       "model": "gemini-1-5-flash",
       "model_raw": "Gemini 1.5 Flash (Sep '24)",
       "score": 3.17,
@@ -2369,32 +3240,6 @@
       "effort": null,
       "org": "Google",
       "release_date": "2024-09-24",
-      "notes": [
-        "run by Artificial Analysis on their own harness"
-      ]
-    },
-    {
-      "benchmark": "aa-hle",
-      "model": "gpt-5-6-luna",
-      "model_raw": "GPT-5.6 Luna (Max)",
-      "score": 39.481,
-      "ci": null,
-      "effort": "max",
-      "org": "OpenAI",
-      "release_date": "2026-07-09",
-      "notes": [
-        "run by Artificial Analysis on their own harness"
-      ]
-    },
-    {
-      "benchmark": "aa-hle",
-      "model": "haiku-5-5",
-      "model_raw": "Claude Haiku 5.5 (Low)",
-      "score": 27.016,
-      "ci": null,
-      "effort": "low",
-      "org": "Anthropic",
-      "release_date": "2026-10-07",
       "notes": [
         "run by Artificial Analysis on their own harness"
       ]
@@ -2499,19 +3344,6 @@
       "effort": null,
       "org": "DeepSeek",
       "release_date": "2024-12-26",
-      "notes": [
-        "run by Artificial Analysis on their own harness"
-      ]
-    },
-    {
-      "benchmark": "aa-hle",
-      "model": "opus-5-5",
-      "model_raw": "Claude Opus 5.5 (Low, Default Fallback)",
-      "score": 48.332,
-      "ci": null,
-      "effort": "low",
-      "org": "Anthropic",
-      "release_date": "2026-09-22",
       "notes": [
         "run by Artificial Analysis on their own harness"
       ]
@@ -2895,19 +3727,6 @@
     },
     {
       "benchmark": "aa-hle",
-      "model": "kimi-k3",
-      "model_raw": "Kimi K3 (Low)",
-      "score": 24.977,
-      "ci": null,
-      "effort": "low",
-      "org": "Kimi",
-      "release_date": "2026-07-16",
-      "notes": [
-        "run by Artificial Analysis on their own harness"
-      ]
-    },
-    {
-      "benchmark": "aa-hle",
       "model": "qwen3-vl-30b-a3b-instruct",
       "model_raw": "Qwen3 VL 30B A3B Instruct",
       "score": 6.302,
@@ -2980,19 +3799,6 @@
       "effort": "low",
       "org": "OpenAI",
       "release_date": "2026-03-05",
-      "notes": [
-        "run by Artificial Analysis on their own harness"
-      ]
-    },
-    {
-      "benchmark": "aa-hle",
-      "model": "ling-3-1-flash-1019",
-      "model_raw": "Ling 3.1 Flash 1019",
-      "score": 43.466,
-      "ci": null,
-      "effort": null,
-      "org": "InclusionAI",
-      "release_date": "2026-10-22",
       "notes": [
         "run by Artificial Analysis on their own harness"
       ]
@@ -3090,19 +3896,6 @@
     },
     {
       "benchmark": "aa-hle",
-      "model": "deepseek-v4-1-flash-1017",
-      "model_raw": "DeepSeek V4.1 Flash 1017 (Non-reasoning)",
-      "score": 11.538,
-      "ci": null,
-      "effort": null,
-      "org": "DeepSeek",
-      "release_date": "2026-10-17",
-      "notes": [
-        "run by Artificial Analysis on their own harness"
-      ]
-    },
-    {
-      "benchmark": "aa-hle",
       "model": "grok-4-fast",
       "model_raw": "Grok 4 Fast (Reasoning)",
       "score": 19.092,
@@ -3129,19 +3922,6 @@
     },
     {
       "benchmark": "aa-hle",
-      "model": "muse-glimmer",
-      "model_raw": "Muse Glimmer (High)",
-      "score": 21.965,
-      "ci": null,
-      "effort": "high",
-      "org": "Meta",
-      "release_date": "2026-08-10",
-      "notes": [
-        "run by Artificial Analysis on their own harness"
-      ]
-    },
-    {
-      "benchmark": "aa-hle",
       "model": "gpt-5-6-luna",
       "model_raw": "GPT-5.6 Luna (Medium)",
       "score": 25.765,
@@ -3155,19 +3935,6 @@
     },
     {
       "benchmark": "aa-hle",
-      "model": "grok-4-7",
-      "model_raw": "Grok 4.7 (Xhigh)",
-      "score": 43.142,
-      "ci": null,
-      "effort": "xhigh",
-      "org": "SpaceXAI",
-      "release_date": "2026-09-21",
-      "notes": [
-        "run by Artificial Analysis on their own harness"
-      ]
-    },
-    {
-      "benchmark": "aa-hle",
       "model": "qwen3-1-7b-instruct",
       "model_raw": "Qwen3 1.7B (Reasoning)",
       "score": 4.64,
@@ -3175,19 +3942,6 @@
       "effort": null,
       "org": "Alibaba",
       "release_date": "2025-04-28",
-      "notes": [
-        "run by Artificial Analysis on their own harness"
-      ]
-    },
-    {
-      "benchmark": "aa-hle",
-      "model": "gemini-3-1-flash-lite-preview",
-      "model_raw": "Gemini 3.1 Flash-Lite",
-      "score": 17.192,
-      "ci": null,
-      "effort": "high",
-      "org": "Google",
-      "release_date": "2026-03-03",
       "notes": [
         "run by Artificial Analysis on their own harness"
       ]
@@ -3318,19 +4072,6 @@
       "effort": null,
       "org": "Alibaba",
       "release_date": "2025-09-05",
-      "notes": [
-        "run by Artificial Analysis on their own harness"
-      ]
-    },
-    {
-      "benchmark": "aa-hle",
-      "model": "nvidia-nemotron-3-ultra-550b-a55b",
-      "model_raw": "Nemotron 3 Ultra 550B A55B (Reasoning)",
-      "score": 28.406,
-      "ci": null,
-      "effort": null,
-      "org": "NVIDIA",
-      "release_date": "2026-06-04",
       "notes": [
         "run by Artificial Analysis on their own harness"
       ]
@@ -3675,19 +4416,6 @@
     },
     {
       "benchmark": "aa-hle",
-      "model": "gpt-6-luna",
-      "model_raw": "GPT-6 Luna (Non-reasoning)",
-      "score": 8.573,
-      "ci": null,
-      "effort": null,
-      "org": "OpenAI",
-      "release_date": "2026-09-22",
-      "notes": [
-        "run by Artificial Analysis on their own harness"
-      ]
-    },
-    {
-      "benchmark": "aa-hle",
       "model": "minicpm5-2b",
       "model_raw": "MiniCPM5-2B",
       "score": 8.943,
@@ -3753,32 +4481,6 @@
     },
     {
       "benchmark": "aa-hle",
-      "model": "qwen3-8-27b",
-      "model_raw": "Qwen3.8 27B (Medium)",
-      "score": 14.087,
-      "ci": null,
-      "effort": "medium",
-      "org": "Alibaba",
-      "release_date": "2026-08-14",
-      "notes": [
-        "run by Artificial Analysis on their own harness"
-      ]
-    },
-    {
-      "benchmark": "aa-hle",
-      "model": "kimi-k3-1-pro",
-      "model_raw": "Kimi K3.1 Pro",
-      "score": 52.456,
-      "ci": null,
-      "effort": "max",
-      "org": "Kimi",
-      "release_date": "2026-10-23",
-      "notes": [
-        "run by Artificial Analysis on their own harness"
-      ]
-    },
-    {
-      "benchmark": "aa-hle",
       "model": "motif-2-12-7b",
       "model_raw": "Motif-2-12.7B-Reasoning",
       "score": 8.758,
@@ -3838,19 +4540,6 @@
       "effort": null,
       "org": "Google",
       "release_date": "2025-04-17",
-      "notes": [
-        "run by Artificial Analysis on their own harness"
-      ]
-    },
-    {
-      "benchmark": "aa-hle",
-      "model": "beam-1-0",
-      "model_raw": "Beam 1.0",
-      "score": 34.662,
-      "ci": null,
-      "effort": null,
-      "org": "Reflection",
-      "release_date": "2026-10-16",
       "notes": [
         "run by Artificial Analysis on their own harness"
       ]
@@ -4078,19 +4767,6 @@
     },
     {
       "benchmark": "aa-hle",
-      "model": "gpt-6-luna",
-      "model_raw": "GPT-6 Luna (Max)",
-      "score": 38.508,
-      "ci": null,
-      "effort": "max",
-      "org": "OpenAI",
-      "release_date": "2026-09-22",
-      "notes": [
-        "run by Artificial Analysis on their own harness"
-      ]
-    },
-    {
-      "benchmark": "aa-hle",
       "model": "glm-4-7",
       "model_raw": "GLM-4.7 (Reasoning)",
       "score": 27.386,
@@ -4208,19 +4884,6 @@
     },
     {
       "benchmark": "aa-hle",
-      "model": "inkling-small",
-      "model_raw": "Inkling Small",
-      "score": 33.318,
-      "ci": null,
-      "effort": null,
-      "org": "Thinking Machines",
-      "release_date": "2026-07-30",
-      "notes": [
-        "run by Artificial Analysis on their own harness"
-      ]
-    },
-    {
-      "benchmark": "aa-hle",
       "model": "gpt-4-1-nano",
       "model_raw": "GPT-4.1 nano",
       "score": 3.753,
@@ -4280,19 +4943,6 @@
       "effort": null,
       "org": "DeepSeek",
       "release_date": "2026-09-10",
-      "notes": [
-        "run by Artificial Analysis on their own harness"
-      ]
-    },
-    {
-      "benchmark": "aa-hle",
-      "model": "gemini-3-8-flash",
-      "model_raw": "Gemini 3.8 Flash (Medium)",
-      "score": 42.122,
-      "ci": null,
-      "effort": "medium",
-      "org": "Google",
-      "release_date": "2026-09-02",
       "notes": [
         "run by Artificial Analysis on their own harness"
       ]
@@ -4598,32 +5248,6 @@
     },
     {
       "benchmark": "aa-hle",
-      "model": "haiku-5-5",
-      "model_raw": "Claude Haiku 5.5 (Max)",
-      "score": 44.393,
-      "ci": null,
-      "effort": "max",
-      "org": "Anthropic",
-      "release_date": "2026-10-07",
-      "notes": [
-        "run by Artificial Analysis on their own harness"
-      ]
-    },
-    {
-      "benchmark": "aa-hle",
-      "model": "gpt-6-luna",
-      "model_raw": "GPT-6 Luna (High)",
-      "score": 32.947,
-      "ci": null,
-      "effort": "high",
-      "org": "OpenAI",
-      "release_date": "2026-09-22",
-      "notes": [
-        "run by Artificial Analysis on their own harness"
-      ]
-    },
-    {
-      "benchmark": "aa-hle",
       "model": "nemotron-3-5-bolt-74b-a9b",
       "model_raw": "Nemotron 3.5 Bolt 74B-A9B",
       "score": 24.652,
@@ -4644,19 +5268,6 @@
       "effort": null,
       "org": "Nanbeige",
       "release_date": "2026-02-11",
-      "notes": [
-        "run by Artificial Analysis on their own harness"
-      ]
-    },
-    {
-      "benchmark": "aa-hle",
-      "model": "qwen3-8-27b",
-      "model_raw": "Qwen3.8 27B (Low)",
-      "score": 14.041,
-      "ci": null,
-      "effort": "low",
-      "org": "Alibaba",
-      "release_date": "2026-08-14",
       "notes": [
         "run by Artificial Analysis on their own harness"
       ]
@@ -4871,19 +5482,6 @@
     },
     {
       "benchmark": "aa-hle",
-      "model": "deepseek-v4-pro",
-      "model_raw": "DeepSeek V4 Pro 0813 (Max)",
-      "score": 41.01,
-      "ci": null,
-      "effort": "max",
-      "org": "DeepSeek",
-      "release_date": "2026-08-13",
-      "notes": [
-        "run by Artificial Analysis on their own harness"
-      ]
-    },
-    {
-      "benchmark": "aa-hle",
       "model": "instant",
       "model_raw": "Claude Instant",
       "score": 3.53,
@@ -5060,19 +5658,6 @@
       "effort": "thinking",
       "org": "Anthropic",
       "release_date": "2025-05-22",
-      "notes": [
-        "run by Artificial Analysis on their own harness"
-      ]
-    },
-    {
-      "benchmark": "aa-hle",
-      "model": "gemini-3-8-flash",
-      "model_raw": "Gemini 3.8 Flash (High)",
-      "score": 47.822,
-      "ci": null,
-      "effort": "high",
-      "org": "Google",
-      "release_date": "2026-09-02",
       "notes": [
         "run by Artificial Analysis on their own harness"
       ]
@@ -5417,19 +6002,6 @@
     },
     {
       "benchmark": "aa-hle",
-      "model": "sonnet-5-5",
-      "model_raw": "Claude Sonnet 5.5 (Xhigh, Default Fallback)",
-      "score": 50.0,
-      "ci": null,
-      "effort": "xhigh",
-      "org": "Anthropic",
-      "release_date": "2026-09-28",
-      "notes": [
-        "run by Artificial Analysis on their own harness"
-      ]
-    },
-    {
-      "benchmark": "aa-hle",
       "model": "llama-3-3-instruct-70b",
       "model_raw": "Llama 3.3 Instruct 70B",
       "score": 3.56,
@@ -5469,19 +6041,6 @@
     },
     {
       "benchmark": "aa-hle",
-      "model": "muse-spark-1-3",
-      "model_raw": "Muse Spark 1.3 (Max)",
-      "score": 48.703,
-      "ci": null,
-      "effort": "max",
-      "org": "Meta",
-      "release_date": "2026-09-02",
-      "notes": [
-        "run by Artificial Analysis on their own harness"
-      ]
-    },
-    {
-      "benchmark": "aa-hle",
       "model": "sonnet-5",
       "model_raw": "Claude Sonnet 5 (Xhigh)",
       "score": 39.018,
@@ -5502,19 +6061,6 @@
       "effort": null,
       "org": "Alibaba",
       "release_date": "2026-08-26",
-      "notes": [
-        "run by Artificial Analysis on their own harness"
-      ]
-    },
-    {
-      "benchmark": "aa-hle",
-      "model": "fable-5-1",
-      "model_raw": "Claude Fable 5.1 (Xhigh, Default Fallback)",
-      "score": 58.712,
-      "ci": null,
-      "effort": "xhigh",
-      "org": "Anthropic",
-      "release_date": "2026-09-01",
       "notes": [
         "run by Artificial Analysis on their own harness"
       ]
@@ -5567,19 +6113,6 @@
       "effort": null,
       "org": "LG AI Research",
       "release_date": "2025-12-31",
-      "notes": [
-        "run by Artificial Analysis on their own harness"
-      ]
-    },
-    {
-      "benchmark": "aa-hle",
-      "model": "fable-5-1",
-      "model_raw": "Claude Fable 5.1 (High, Default Fallback)",
-      "score": 55.931,
-      "ci": null,
-      "effort": "high",
-      "org": "Anthropic",
-      "release_date": "2026-09-01",
       "notes": [
         "run by Artificial Analysis on their own harness"
       ]
@@ -5645,19 +6178,6 @@
       "effort": null,
       "org": "Mistral",
       "release_date": "2025-07-10",
-      "notes": [
-        "run by Artificial Analysis on their own harness"
-      ]
-    },
-    {
-      "benchmark": "aa-hle",
-      "model": "nvidia-nemotron-3-nano-4b",
-      "model_raw": "NVIDIA Nemotron 3 Nano 4B",
-      "score": 4.866,
-      "ci": null,
-      "effort": null,
-      "org": "NVIDIA",
-      "release_date": "2026-03-16",
       "notes": [
         "run by Artificial Analysis on their own harness"
       ]
@@ -5755,19 +6275,6 @@
     },
     {
       "benchmark": "aa-hle",
-      "model": "gpt-6-1-sol",
-      "model_raw": "GPT-6.1 Sol (Medium)",
-      "score": 49.861,
-      "ci": null,
-      "effort": "medium",
-      "org": "OpenAI",
-      "release_date": "2026-09-29",
-      "notes": [
-        "run by Artificial Analysis on their own harness"
-      ]
-    },
-    {
-      "benchmark": "aa-hle",
       "model": "motif-0714",
       "model_raw": "Motif 3 (Beta)",
       "score": 40.361,
@@ -5788,19 +6295,6 @@
       "effort": "high",
       "org": "Institute of Foundation Models",
       "release_date": "2025-12-05",
-      "notes": [
-        "run by Artificial Analysis on their own harness"
-      ]
-    },
-    {
-      "benchmark": "aa-hle",
-      "model": "gpt-6-astra",
-      "model_raw": "GPT-6 Astra (Low)",
-      "score": 49.212,
-      "ci": null,
-      "effort": "low",
-      "org": "OpenAI",
-      "release_date": "2026-09-03",
       "notes": [
         "run by Artificial Analysis on their own harness"
       ]
@@ -5840,19 +6334,6 @@
       "effort": null,
       "org": "InclusionAI",
       "release_date": "2026-10-01",
-      "notes": [
-        "run by Artificial Analysis on their own harness"
-      ]
-    },
-    {
-      "benchmark": "aa-hle",
-      "model": "haiku-4-5",
-      "model_raw": "Claude 4.5 Haiku (Reasoning)",
-      "score": 10.38,
-      "ci": null,
-      "effort": null,
-      "org": "Anthropic",
-      "release_date": "2025-10-15",
       "notes": [
         "run by Artificial Analysis on their own harness"
       ]
@@ -6145,19 +6626,6 @@
     },
     {
       "benchmark": "aa-hle",
-      "model": "granite-4-2-8b",
-      "model_raw": "Granite 4.2 8B",
-      "score": 9.685,
-      "ci": null,
-      "effort": null,
-      "org": "IBM",
-      "release_date": "2026-08-25",
-      "notes": [
-        "run by Artificial Analysis on their own harness"
-      ]
-    },
-    {
-      "benchmark": "aa-hle",
       "model": "gpt-5-4-mini",
       "model_raw": "GPT-5.4 mini (Non-reasoning)",
       "score": 5.885,
@@ -6197,19 +6665,6 @@
     },
     {
       "benchmark": "aa-hle",
-      "model": "haiku-5-5",
-      "model_raw": "Claude Haiku 5.5 (Medium)",
-      "score": 33.781,
-      "ci": null,
-      "effort": "medium",
-      "org": "Anthropic",
-      "release_date": "2026-10-07",
-      "notes": [
-        "run by Artificial Analysis on their own harness"
-      ]
-    },
-    {
-      "benchmark": "aa-hle",
       "model": "molmo-7b-d",
       "model_raw": "Molmo 7B-D",
       "score": 5.144,
@@ -6230,19 +6685,6 @@
       "effort": null,
       "org": "Alibaba",
       "release_date": "2025-04-28",
-      "notes": [
-        "run by Artificial Analysis on their own harness"
-      ]
-    },
-    {
-      "benchmark": "aa-hle",
-      "model": "qwen3-8-27b",
-      "model_raw": "Qwen3.8 27B (Xhigh)",
-      "score": 33.92,
-      "ci": null,
-      "effort": "xhigh",
-      "org": "Alibaba",
-      "release_date": "2026-08-14",
       "notes": [
         "run by Artificial Analysis on their own harness"
       ]
@@ -6288,32 +6730,6 @@
     },
     {
       "benchmark": "aa-hle",
-      "model": "gpt-6-1-terra",
-      "model_raw": "GPT-6.1 Terra (Max)",
-      "score": 46.247,
-      "ci": null,
-      "effort": "max",
-      "org": "OpenAI",
-      "release_date": "2026-10-26",
-      "notes": [
-        "run by Artificial Analysis on their own harness"
-      ]
-    },
-    {
-      "benchmark": "aa-hle",
-      "model": "qwen3-8-max",
-      "model_raw": "Qwen3.8 Max (0902)",
-      "score": 43.095,
-      "ci": null,
-      "effort": "xhigh",
-      "org": "Alibaba",
-      "release_date": "2026-09-02",
-      "notes": [
-        "run by Artificial Analysis on their own harness"
-      ]
-    },
-    {
-      "benchmark": "aa-hle",
       "model": "gpt-5-5",
       "model_raw": "GPT-5.5 (High)",
       "score": 45.042,
@@ -6321,19 +6737,6 @@
       "effort": "high",
       "org": "OpenAI",
       "release_date": "2026-04-23",
-      "notes": [
-        "run by Artificial Analysis on their own harness"
-      ]
-    },
-    {
-      "benchmark": "aa-hle",
-      "model": "sonnet-5-5",
-      "model_raw": "Claude Sonnet 5.5 (Max, Default Fallback)",
-      "score": 54.958,
-      "ci": null,
-      "effort": "max",
-      "org": "Anthropic",
-      "release_date": "2026-09-28",
       "notes": [
         "run by Artificial Analysis on their own harness"
       ]
@@ -6373,19 +6776,6 @@
       "effort": null,
       "org": "Tencent",
       "release_date": "2026-07-06",
-      "notes": [
-        "run by Artificial Analysis on their own harness"
-      ]
-    },
-    {
-      "benchmark": "aa-hle",
-      "model": "gpt-6-1-sol",
-      "model_raw": "GPT-6.1 Sol (Max)",
-      "score": 52.919,
-      "ci": null,
-      "effort": "max",
-      "org": "OpenAI",
-      "release_date": "2026-09-29",
       "notes": [
         "run by Artificial Analysis on their own harness"
       ]
@@ -6574,19 +6964,6 @@
     },
     {
       "benchmark": "aa-hle",
-      "model": "opus-5",
-      "model_raw": "Claude Opus 5 (Max)",
-      "score": 54.866,
-      "ci": null,
-      "effort": "max",
-      "org": "Anthropic",
-      "release_date": "2026-07-24",
-      "notes": [
-        "run by Artificial Analysis on their own harness"
-      ]
-    },
-    {
-      "benchmark": "aa-hle",
       "model": "qwen3-omni-30b-a3b",
       "model_raw": "Qwen3 Omni 30B A3B (Reasoning)",
       "score": 7.461,
@@ -6652,32 +7029,6 @@
     },
     {
       "benchmark": "aa-hle",
-      "model": "k2-horizon-375b-a23b",
-      "model_raw": "K2 Horizon 375B A23B",
-      "score": 31.974,
-      "ci": null,
-      "effort": "high",
-      "org": "Institute of Foundation Models",
-      "release_date": "2026-09-03",
-      "notes": [
-        "run by Artificial Analysis on their own harness"
-      ]
-    },
-    {
-      "benchmark": "aa-hle",
-      "model": "sonnet-5-5",
-      "model_raw": "Claude Sonnet 5.5 (Low, Default Fallback)",
-      "score": 36.237,
-      "ci": null,
-      "effort": "low",
-      "org": "Anthropic",
-      "release_date": "2026-09-28",
-      "notes": [
-        "run by Artificial Analysis on their own harness"
-      ]
-    },
-    {
-      "benchmark": "aa-hle",
       "model": "gemini-3-1-pro-preview",
       "model_raw": "Gemini 3.1 Pro Preview",
       "score": 47.034,
@@ -6724,19 +7075,6 @@
       "effort": null,
       "org": "Google",
       "release_date": "2025-02-05",
-      "notes": [
-        "run by Artificial Analysis on their own harness"
-      ]
-    },
-    {
-      "benchmark": "aa-hle",
-      "model": "gpt-5-6-terra",
-      "model_raw": "GPT-5.6 Terra (Max)",
-      "score": 42.91,
-      "ci": null,
-      "effort": "max",
-      "org": "OpenAI",
-      "release_date": "2026-07-09",
       "notes": [
         "run by Artificial Analysis on their own harness"
       ]
@@ -6802,19 +7140,6 @@
       "effort": null,
       "org": "Alibaba",
       "release_date": "2025-04-28",
-      "notes": [
-        "run by Artificial Analysis on their own harness"
-      ]
-    },
-    {
-      "benchmark": "aa-hle",
-      "model": "gpt-6-luna",
-      "model_raw": "GPT-6 Luna (Low)",
-      "score": 20.25,
-      "ci": null,
-      "effort": "low",
-      "org": "OpenAI",
-      "release_date": "2026-09-22",
       "notes": [
         "run by Artificial Analysis on their own harness"
       ]
@@ -6938,19 +7263,6 @@
     },
     {
       "benchmark": "aa-hle",
-      "model": "gpt-6-1-terra",
-      "model_raw": "GPT-6.1 Terra (Medium)",
-      "score": 40.222,
-      "ci": null,
-      "effort": "medium",
-      "org": "OpenAI",
-      "release_date": "2026-10-26",
-      "notes": [
-        "run by Artificial Analysis on their own harness"
-      ]
-    },
-    {
-      "benchmark": "aa-hle",
       "model": "llama-3-3-nemotron-super-49b",
       "model_raw": "Llama 3.3 Nemotron Super 49B v1 (Non-reasoning)",
       "score": 3.81,
@@ -6958,19 +7270,6 @@
       "effort": null,
       "org": "NVIDIA",
       "release_date": "2025-03-18",
-      "notes": [
-        "run by Artificial Analysis on their own harness"
-      ]
-    },
-    {
-      "benchmark": "aa-hle",
-      "model": "gpt-6-sol",
-      "model_raw": "GPT-6 Sol (Max)",
-      "score": 47.915,
-      "ci": null,
-      "effort": "max",
-      "org": "OpenAI",
-      "release_date": "2026-09-22",
       "notes": [
         "run by Artificial Analysis on their own harness"
       ]
@@ -7120,19 +7419,6 @@
     },
     {
       "benchmark": "aa-hle",
-      "model": "gpt-6-1-terra",
-      "model_raw": "GPT-6.1 Terra (Low)",
-      "score": 35.82,
-      "ci": null,
-      "effort": "low",
-      "org": "OpenAI",
-      "release_date": "2026-10-26",
-      "notes": [
-        "run by Artificial Analysis on their own harness"
-      ]
-    },
-    {
-      "benchmark": "aa-hle",
       "model": "gpt-oss-120b",
       "model_raw": "gpt-oss-120b (Low)",
       "score": 5.885,
@@ -7166,19 +7452,6 @@
       "effort": null,
       "org": "Alibaba",
       "release_date": "2025-11-03",
-      "notes": [
-        "run by Artificial Analysis on their own harness"
-      ]
-    },
-    {
-      "benchmark": "aa-hle",
-      "model": "glm-5-3",
-      "model_raw": "GLM-5.3 (Low)",
-      "score": 36.562,
-      "ci": null,
-      "effort": "low",
-      "org": "Z AI",
-      "release_date": "2026-08-18",
       "notes": [
         "run by Artificial Analysis on their own harness"
       ]
@@ -7224,19 +7497,6 @@
     },
     {
       "benchmark": "aa-hle",
-      "model": "gemma-4-31b",
-      "model_raw": "Gemma 4 31B (Reasoning)",
-      "score": 23.633,
-      "ci": null,
-      "effort": null,
-      "org": "Google",
-      "release_date": "2026-04-02",
-      "notes": [
-        "run by Artificial Analysis on their own harness"
-      ]
-    },
-    {
-      "benchmark": "aa-hle",
       "model": "fable-5",
       "model_raw": "Claude Fable 5 (Max, Opus 4.8 Fallback)",
       "score": 55.468,
@@ -7244,19 +7504,6 @@
       "effort": "max",
       "org": "Anthropic",
       "release_date": "2026-06-09",
-      "notes": [
-        "run by Artificial Analysis on their own harness"
-      ]
-    },
-    {
-      "benchmark": "aa-hle",
-      "model": "glm-5-3",
-      "model_raw": "GLM-5.3 (Max)",
-      "score": 42.261,
-      "ci": null,
-      "effort": "max",
-      "org": "Z AI",
-      "release_date": "2026-08-18",
       "notes": [
         "run by Artificial Analysis on their own harness"
       ]
@@ -7445,19 +7692,6 @@
     },
     {
       "benchmark": "aa-hle",
-      "model": "minimax-m3-1-flash",
-      "model_raw": "MiniMax-M3.1-Flash",
-      "score": 47.961,
-      "ci": null,
-      "effort": "max",
-      "org": "MiniMax",
-      "release_date": "2026-10-19",
-      "notes": [
-        "run by Artificial Analysis on their own harness"
-      ]
-    },
-    {
-      "benchmark": "aa-hle",
       "model": "granite-4-1-30b",
       "model_raw": "Granite 4.1 30B",
       "score": 4.124,
@@ -7465,19 +7699,6 @@
       "effort": null,
       "org": "IBM",
       "release_date": "2026-04-29",
-      "notes": [
-        "run by Artificial Analysis on their own harness"
-      ]
-    },
-    {
-      "benchmark": "aa-hle",
-      "model": "deepseek-v4-pro",
-      "model_raw": "DeepSeek V4 Pro 0813 (Non-reasoning)",
-      "score": 10.565,
-      "ci": null,
-      "effort": null,
-      "org": "DeepSeek",
-      "release_date": "2026-08-13",
       "notes": [
         "run by Artificial Analysis on their own harness"
       ]
@@ -7556,19 +7777,6 @@
       "effort": null,
       "org": "DeepSeek",
       "release_date": "2025-12-01",
-      "notes": [
-        "run by Artificial Analysis on their own harness"
-      ]
-    },
-    {
-      "benchmark": "aa-hle",
-      "model": "grok-4-6",
-      "model_raw": "Grok 4.6 (Xhigh)",
-      "score": 44.069,
-      "ci": null,
-      "effort": "xhigh",
-      "org": "SpaceXAI",
-      "release_date": "2026-08-12",
       "notes": [
         "run by Artificial Analysis on their own harness"
       ]
@@ -7744,19 +7952,6 @@
     },
     {
       "benchmark": "aa-hle",
-      "model": "medium-3-5",
-      "model_raw": "Mistral Medium 3.5",
-      "score": 13.763,
-      "ci": null,
-      "effort": "high",
-      "org": "Mistral",
-      "release_date": "2026-04-29",
-      "notes": [
-        "run by Artificial Analysis on their own harness"
-      ]
-    },
-    {
-      "benchmark": "aa-hle",
       "model": "k2-v2",
       "model_raw": "K2-V2 (Medium)",
       "score": 4.356,
@@ -7835,19 +8030,6 @@
     },
     {
       "benchmark": "aa-hle",
-      "model": "opus-5-5",
-      "model_raw": "Claude Opus 5.5 (Xhigh, Default Fallback)",
-      "score": 57.507,
-      "ci": null,
-      "effort": "xhigh",
-      "org": "Anthropic",
-      "release_date": "2026-09-22",
-      "notes": [
-        "run by Artificial Analysis on their own harness"
-      ]
-    },
-    {
-      "benchmark": "aa-hle",
       "model": "sonnet-4-6",
       "model_raw": "Claude Sonnet 4.6 (Max)",
       "score": 33.596,
@@ -7900,19 +8082,6 @@
     },
     {
       "benchmark": "aa-hle",
-      "model": "gpt-6-astra",
-      "model_raw": "GPT-6 Astra (High)",
-      "score": 53.058,
-      "ci": null,
-      "effort": "high",
-      "org": "OpenAI",
-      "release_date": "2026-09-03",
-      "notes": [
-        "run by Artificial Analysis on their own harness"
-      ]
-    },
-    {
-      "benchmark": "aa-hle",
       "model": "gpt-5-nano",
       "model_raw": "GPT-5 nano (High)",
       "score": 9.5,
@@ -7959,19 +8128,6 @@
       "effort": null,
       "org": "Liquid AI",
       "release_date": "2026-05-28",
-      "notes": [
-        "run by Artificial Analysis on their own harness"
-      ]
-    },
-    {
-      "benchmark": "aa-hle",
-      "model": "nemotron-3-5-super-vl",
-      "model_raw": "Nemotron 3.5 Super VL",
-      "score": 30.723,
-      "ci": null,
-      "effort": "high",
-      "org": "NVIDIA",
-      "release_date": "2026-10-15",
       "notes": [
         "run by Artificial Analysis on their own harness"
       ]
@@ -8056,19 +8212,6 @@
     },
     {
       "benchmark": "aa-hle",
-      "model": "gpt-6-1-sol",
-      "model_raw": "GPT-6.1 Sol (Low)",
-      "score": 47.359,
-      "ci": null,
-      "effort": "low",
-      "org": "OpenAI",
-      "release_date": "2026-09-29",
-      "notes": [
-        "run by Artificial Analysis on their own harness"
-      ]
-    },
-    {
-      "benchmark": "aa-hle",
       "model": "glm-5-2",
       "model_raw": "GLM-5.2 (Non-reasoning)",
       "score": 9.778,
@@ -8076,19 +8219,6 @@
       "effort": null,
       "org": "Z AI",
       "release_date": "2026-06-16",
-      "notes": [
-        "run by Artificial Analysis on their own harness"
-      ]
-    },
-    {
-      "benchmark": "aa-hle",
-      "model": "gpt-6-1-terra",
-      "model_raw": "GPT-6.1 Terra (Xhigh)",
-      "score": 43.744,
-      "ci": null,
-      "effort": "xhigh",
-      "org": "OpenAI",
-      "release_date": "2026-10-26",
       "notes": [
         "run by Artificial Analysis on their own harness"
       ]
@@ -8108,19 +8238,6 @@
     },
     {
       "benchmark": "aa-hle",
-      "model": "gpt-6-astra",
-      "model_raw": "GPT-6 Astra (Medium)",
-      "score": 52.734,
-      "ci": null,
-      "effort": "medium",
-      "org": "OpenAI",
-      "release_date": "2026-09-03",
-      "notes": [
-        "run by Artificial Analysis on their own harness"
-      ]
-    },
-    {
-      "benchmark": "aa-hle",
       "model": "gpt-4o",
       "model_raw": "GPT-4o (May '24)",
       "score": 1.76,
@@ -8128,19 +8245,6 @@
       "effort": null,
       "org": "OpenAI",
       "release_date": "2024-05-13",
-      "notes": [
-        "run by Artificial Analysis on their own harness"
-      ]
-    },
-    {
-      "benchmark": "aa-hle",
-      "model": "muse-wonder-full",
-      "model_raw": "Muse Wonder Full (Max)",
-      "score": 53.614,
-      "ci": null,
-      "effort": "max",
-      "org": "Meta",
-      "release_date": "2026-10-12",
       "notes": [
         "run by Artificial Analysis on their own harness"
       ]
@@ -8160,19 +8264,6 @@
     },
     {
       "benchmark": "aa-hle",
-      "model": "gpt-6-1-terra",
-      "model_raw": "GPT-6.1 Terra (High)",
-      "score": 43.281,
-      "ci": null,
-      "effort": "high",
-      "org": "OpenAI",
-      "release_date": "2026-10-26",
-      "notes": [
-        "run by Artificial Analysis on their own harness"
-      ]
-    },
-    {
-      "benchmark": "aa-hle",
       "model": "cogito-v2-1",
       "model_raw": "Cogito v2.1 (Reasoning)",
       "score": 12.002,
@@ -8180,19 +8271,6 @@
       "effort": null,
       "org": "Deep Cogito",
       "release_date": "2025-11-18",
-      "notes": [
-        "run by Artificial Analysis on their own harness"
-      ]
-    },
-    {
-      "benchmark": "aa-hle",
-      "model": "opus-5-5",
-      "model_raw": "Claude Opus 5.5 (Medium, Default Fallback)",
-      "score": 54.727,
-      "ci": null,
-      "effort": "medium",
-      "org": "Anthropic",
-      "release_date": "2026-09-22",
       "notes": [
         "run by Artificial Analysis on their own harness"
       ]
@@ -8342,19 +8420,6 @@
     },
     {
       "benchmark": "aa-hle",
-      "model": "deepseek-v4-1-flash-1017",
-      "model_raw": "DeepSeek V4.1 Flash 1017 (Max)",
-      "score": 43.327,
-      "ci": null,
-      "effort": "max",
-      "org": "DeepSeek",
-      "release_date": "2026-10-17",
-      "notes": [
-        "run by Artificial Analysis on their own harness"
-      ]
-    },
-    {
-      "benchmark": "aa-hle",
       "model": "glm-5",
       "model_raw": "GLM-5 (Non-reasoning)",
       "score": 7.646,
@@ -8388,19 +8453,6 @@
       "effort": "low",
       "org": "Anthropic",
       "release_date": "2026-02-17",
-      "notes": [
-        "run by Artificial Analysis on their own harness"
-      ]
-    },
-    {
-      "benchmark": "aa-hle",
-      "model": "opus-5-5",
-      "model_raw": "Claude Opus 5.5 (High, Default Fallback)",
-      "score": 55.561,
-      "ci": null,
-      "effort": "high",
-      "org": "Anthropic",
-      "release_date": "2026-09-22",
       "notes": [
         "run by Artificial Analysis on their own harness"
       ]
@@ -8492,19 +8544,6 @@
       "effort": null,
       "org": "Alibaba",
       "release_date": "2025-07-25",
-      "notes": [
-        "run by Artificial Analysis on their own harness"
-      ]
-    },
-    {
-      "benchmark": "aa-hle",
-      "model": "gemini-3-8-flash",
-      "model_raw": "Gemini 3.8 Flash (Low)",
-      "score": 37.071,
-      "ci": null,
-      "effort": "low",
-      "org": "Google",
-      "release_date": "2026-09-02",
       "notes": [
         "run by Artificial Analysis on their own harness"
       ]
@@ -8752,19 +8791,6 @@
       "effort": null,
       "org": "Google",
       "release_date": "2026-06-03",
-      "notes": [
-        "run by Artificial Analysis on their own harness"
-      ]
-    },
-    {
-      "benchmark": "aa-hle",
-      "model": "muse-wonder-1-0",
-      "model_raw": "Muse Wonder (Max)",
-      "score": 50.093,
-      "ci": null,
-      "effort": "max",
-      "org": "Meta",
-      "release_date": "2026-10-12",
       "notes": [
         "run by Artificial Analysis on their own harness"
       ]

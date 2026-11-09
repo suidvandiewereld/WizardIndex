@@ -1,421 +1,434 @@
 {
   "benchmark": "design-arena-gamedev",
-  "fetched_at": "2026-10-29T07:59:01+00:00",
+  "fetched_at": "2026-11-09T16:13:54+00:00",
   "meta": {
     "url": "https://www.designarena.ai/leaderboard/gamedev",
     "category": "gamedev",
-    "updated": "2026-10-29T06:05:20.260169+00:00",
-    "total_votes": 298720
+    "updated": "2026-11-09T16:06:05.77828+00:00",
+    "total_votes": 316774
   },
   "results": [
     {
       "benchmark": "design-arena-gamedev",
       "model": "gpt-6-astra",
       "model_raw": "gpt-6-astra-max",
-      "score": 1471.0,
+      "score": 1468.0,
       "ci": null,
       "effort": "max",
       "org": null,
       "release_date": null,
       "notes": [
-        "869 blind votes, 72.7% win rate"
+        "1197 blind votes, 72.2% win rate"
       ]
     },
     {
       "benchmark": "design-arena-gamedev",
       "model": "gpt-6-astra",
       "model_raw": "gpt-6-astra",
-      "score": 1451.0,
+      "score": 1459.0,
       "ci": null,
       "effort": null,
       "org": null,
       "release_date": null,
       "notes": [
-        "3417 blind votes, 70.2% win rate"
+        "4146 blind votes, 70.2% win rate"
       ]
     },
     {
       "benchmark": "design-arena-gamedev",
       "model": "opus-5-5",
       "model_raw": "claude-opus-5-5",
-      "score": 1436.0,
+      "score": 1432.0,
       "ci": null,
       "effort": null,
       "org": null,
       "release_date": null,
       "notes": [
-        "1796 blind votes, 66.3% win rate"
+        "2631 blind votes, 64.2% win rate"
       ]
     },
     {
       "benchmark": "design-arena-gamedev",
-      "model": "sonnet-5-5",
-      "model_raw": "claude-sonnet-5-5",
-      "score": 1412.0,
+      "model": "california",
+      "model_raw": "california",
+      "score": 1423.0,
       "ci": null,
       "effort": null,
       "org": null,
       "release_date": null,
       "notes": [
-        "1578 blind votes, 62.2% win rate"
-      ]
-    },
-    {
-      "benchmark": "design-arena-gamedev",
-      "model": "kimi-k3-1-pro",
-      "model_raw": "kimi-k3.1-pro",
-      "score": 1410.0,
-      "ci": null,
-      "effort": null,
-      "org": null,
-      "release_date": null,
-      "notes": [
-        "1688 blind votes, 66.8% win rate"
-      ]
-    },
-    {
-      "benchmark": "design-arena-gamedev",
-      "model": "gpt-6-1-sol",
-      "model_raw": "gpt-6.1-sol",
-      "score": 1407.0,
-      "ci": null,
-      "effort": null,
-      "org": null,
-      "release_date": null,
-      "notes": [
-        "1670 blind votes, 61.1% win rate"
+        "1841 blind votes, 65.9% win rate"
       ]
     },
     {
       "benchmark": "design-arena-gamedev",
       "model": "muse-wonder-1-0",
       "model_raw": "muse-wonder-1.0",
-      "score": 1402.0,
+      "score": 1409.0,
       "ci": null,
       "effort": null,
       "org": null,
       "release_date": null,
       "notes": [
-        "1925 blind votes, 62.2% win rate"
+        "2769 blind votes, 61.4% win rate"
+      ]
+    },
+    {
+      "benchmark": "design-arena-gamedev",
+      "model": "gpt-6-1-sol",
+      "model_raw": "gpt-6.1-sol",
+      "score": 1409.0,
+      "ci": null,
+      "effort": null,
+      "org": null,
+      "release_date": null,
+      "notes": [
+        "2613 blind votes, 60.3% win rate"
+      ]
+    },
+    {
+      "benchmark": "design-arena-gamedev",
+      "model": "kimi-k3-1-pro",
+      "model_raw": "kimi-k3.1-pro",
+      "score": 1406.0,
+      "ci": null,
+      "effort": null,
+      "org": null,
+      "release_date": null,
+      "notes": [
+        "2092 blind votes, 66.3% win rate"
+      ]
+    },
+    {
+      "benchmark": "design-arena-gamedev",
+      "model": "sonnet-5-5",
+      "model_raw": "claude-sonnet-5-5",
+      "score": 1397.0,
+      "ci": null,
+      "effort": null,
+      "org": null,
+      "release_date": null,
+      "notes": [
+        "1967 blind votes, 60.9% win rate"
       ]
     },
     {
       "benchmark": "design-arena-gamedev",
       "model": "fable-5-1",
       "model_raw": "claude-fable-5-1",
-      "score": 1381.0,
+      "score": 1370.0,
       "ci": null,
       "effort": null,
       "org": null,
       "release_date": null,
       "notes": [
-        "1497 blind votes, 65.6% win rate"
+        "1984 blind votes, 60.2% win rate"
       ]
     },
     {
       "benchmark": "design-arena-gamedev",
       "model": "gemini-4-argon",
       "model_raw": "gemini-4-argon",
-      "score": 1369.0,
-      "ci": null,
-      "effort": null,
-      "org": null,
-      "release_date": null,
-      "notes": [
-        "2344 blind votes, 58.1% win rate"
-      ]
-    },
-    {
-      "benchmark": "design-arena-gamedev",
-      "model": "gpt-5-6-sol",
-      "model_raw": "gpt-5.6-sol-xhigh",
-      "score": 1367.0,
-      "ci": null,
-      "effort": "xhigh",
-      "org": null,
-      "release_date": null,
-      "notes": [
-        "2485 blind votes, 61.7% win rate"
-      ]
-    },
-    {
-      "benchmark": "design-arena-gamedev",
-      "model": "kimi-k3",
-      "model_raw": "kimi-k3",
       "score": 1363.0,
       "ci": null,
       "effort": null,
       "org": null,
       "release_date": null,
       "notes": [
-        "982 blind votes, 60.4% win rate"
+        "3732 blind votes, 54.1% win rate"
       ]
     },
     {
       "benchmark": "design-arena-gamedev",
-      "model": "gpt-6-1-terra",
-      "model_raw": "gpt-6.1-terra",
-      "score": 1348.0,
+      "model": "gpt-5-6-sol",
+      "model_raw": "gpt-5.6-sol-xhigh",
+      "score": 1363.0,
+      "ci": null,
+      "effort": "xhigh",
+      "org": null,
+      "release_date": null,
+      "notes": [
+        "2895 blind votes, 61.1% win rate"
+      ]
+    },
+    {
+      "benchmark": "design-arena-gamedev",
+      "model": "kimi-k3",
+      "model_raw": "kimi-k3",
+      "score": 1349.0,
       "ci": null,
       "effort": null,
       "org": null,
       "release_date": null,
       "notes": [
-        "707 blind votes, 60% win rate"
+        "1722 blind votes, 54.4% win rate"
       ]
     },
     {
       "benchmark": "design-arena-gamedev",
       "model": "muse-spark-1-3",
       "model_raw": "muse-spark-1.3-max",
-      "score": 1343.0,
+      "score": 1340.0,
       "ci": null,
       "effort": "max",
       "org": null,
       "release_date": null,
       "notes": [
-        "9162 blind votes, 56% win rate"
+        "9953 blind votes, 56% win rate"
       ]
     },
     {
       "benchmark": "design-arena-gamedev",
       "model": "opus-5",
       "model_raw": "claude-opus-5",
-      "score": 1339.0,
+      "score": 1340.0,
       "ci": null,
       "effort": null,
       "org": null,
       "release_date": null,
       "notes": [
-        "3255 blind votes, 58.4% win rate"
+        "3597 blind votes, 58.7% win rate"
       ]
     },
     {
       "benchmark": "design-arena-gamedev",
-      "model": "fable-5",
-      "model_raw": "claude-fable-5",
-      "score": 1334.0,
-      "ci": null,
-      "effort": null,
-      "org": null,
-      "release_date": null,
-      "notes": [
-        "3462 blind votes, 60.8% win rate"
-      ]
-    },
-    {
-      "benchmark": "design-arena-gamedev",
-      "model": "muse-spark-1-3",
-      "model_raw": "muse-spark-1.3",
+      "model": "gpt-6-1-terra",
+      "model_raw": "gpt-6.1-terra",
       "score": 1331.0,
       "ci": null,
       "effort": null,
       "org": null,
       "release_date": null,
       "notes": [
-        "13080 blind votes, 54.2% win rate"
+        "2246 blind votes, 54.8% win rate"
+      ]
+    },
+    {
+      "benchmark": "design-arena-gamedev",
+      "model": "fable-5",
+      "model_raw": "claude-fable-5",
+      "score": 1331.0,
+      "ci": null,
+      "effort": null,
+      "org": null,
+      "release_date": null,
+      "notes": [
+        "3464 blind votes, 60.8% win rate"
+      ]
+    },
+    {
+      "benchmark": "design-arena-gamedev",
+      "model": "muse-spark-1-3",
+      "model_raw": "muse-spark-1.3",
+      "score": 1328.0,
+      "ci": null,
+      "effort": null,
+      "org": null,
+      "release_date": null,
+      "notes": [
+        "13926 blind votes, 54% win rate"
       ]
     },
     {
       "benchmark": "design-arena-gamedev",
       "model": "deepseek-v4-1-flash",
       "model_raw": "deepseek-v4-1-flash",
-      "score": 1330.0,
+      "score": 1326.0,
       "ci": null,
       "effort": null,
       "org": null,
       "release_date": null,
       "notes": [
-        "12296 blind votes, 54.6% win rate"
+        "12312 blind votes, 54.6% win rate"
       ]
     },
     {
       "benchmark": "design-arena-gamedev",
       "model": "gpt-5-6-sol",
       "model_raw": "gpt-5.6-sol",
-      "score": 1323.0,
+      "score": 1319.0,
       "ci": null,
       "effort": null,
       "org": null,
       "release_date": null,
       "notes": [
-        "5713 blind votes, 58.1% win rate"
+        "6046 blind votes, 57.9% win rate"
       ]
     },
     {
       "benchmark": "design-arena-gamedev",
       "model": "haiku-5-5",
       "model_raw": "claude-haiku-5-5",
-      "score": 1321.0,
+      "score": 1317.0,
       "ci": null,
       "effort": null,
       "org": null,
       "release_date": null,
       "notes": [
-        "2095 blind votes, 54.8% win rate"
+        "3488 blind votes, 53% win rate"
       ]
     },
     {
       "benchmark": "design-arena-gamedev",
       "model": "gemini-3-7-flash",
       "model_raw": "gemini-3.7-flash",
-      "score": 1318.0,
+      "score": 1315.0,
       "ci": null,
       "effort": null,
       "org": null,
       "release_date": null,
       "notes": [
-        "14519 blind votes, 53.5% win rate"
-      ]
-    },
-    {
-      "benchmark": "design-arena-gamedev",
-      "model": "snowhare",
-      "model_raw": "snowhare",
-      "score": 1318.0,
-      "ci": null,
-      "effort": null,
-      "org": null,
-      "release_date": null,
-      "notes": [
-        "2119 blind votes, 54.4% win rate"
+        "15962 blind votes, 53.4% win rate"
       ]
     },
     {
       "benchmark": "design-arena-gamedev",
       "model": "grok-4-7",
       "model_raw": "grok-4.7",
-      "score": 1315.0,
+      "score": 1312.0,
       "ci": null,
       "effort": null,
       "org": null,
       "release_date": null,
       "notes": [
-        "862 blind votes, 52.8% win rate"
+        "1753 blind votes, 51.3% win rate"
       ]
     },
     {
       "benchmark": "design-arena-gamedev",
       "model": "hampshire",
       "model_raw": "hampshire",
-      "score": 1315.0,
+      "score": 1311.0,
       "ci": null,
       "effort": null,
       "org": null,
       "release_date": null,
       "notes": [
-        "9129 blind votes, 53.5% win rate"
+        "10298 blind votes, 52.9% win rate"
       ]
     },
     {
       "benchmark": "design-arena-gamedev",
-      "model": "qwen3-8-max-preview",
-      "model_raw": "qwen3.8-max-preview",
-      "score": 1314.0,
-      "ci": null,
-      "effort": null,
-      "org": null,
-      "release_date": null,
-      "notes": [
-        "2871 blind votes, 52.8% win rate"
-      ]
-    },
-    {
-      "benchmark": "design-arena-gamedev",
-      "model": "colorado",
-      "model_raw": "colorado",
+      "model": "snowhare",
+      "model_raw": "snowhare",
       "score": 1310.0,
       "ci": null,
       "effort": null,
       "org": null,
       "release_date": null,
       "notes": [
-        "3525 blind votes, 52.1% win rate"
+        "2961 blind votes, 53% win rate"
+      ]
+    },
+    {
+      "benchmark": "design-arena-gamedev",
+      "model": "qwen3-8-max-preview",
+      "model_raw": "qwen3.8-max-preview",
+      "score": 1310.0,
+      "ci": null,
+      "effort": null,
+      "org": null,
+      "release_date": null,
+      "notes": [
+        "3770 blind votes, 51.9% win rate"
+      ]
+    },
+    {
+      "benchmark": "design-arena-gamedev",
+      "model": "colorado",
+      "model_raw": "colorado",
+      "score": 1308.0,
+      "ci": null,
+      "effort": null,
+      "org": null,
+      "release_date": null,
+      "notes": [
+        "3542 blind votes, 52.2% win rate"
       ]
     },
     {
       "benchmark": "design-arena-gamedev",
       "model": "gpt-6-sol",
       "model_raw": "gpt-6-sol",
-      "score": 1309.0,
-      "ci": null,
-      "effort": null,
-      "org": null,
-      "release_date": null,
-      "notes": [
-        "1650 blind votes, 54.2% win rate"
-      ]
-    },
-    {
-      "benchmark": "design-arena-gamedev",
-      "model": "cortado",
-      "model_raw": "cortado",
       "score": 1306.0,
       "ci": null,
       "effort": null,
       "org": null,
       "release_date": null,
       "notes": [
-        "6296 blind votes, 52% win rate"
+        "2371 blind votes, 53.1% win rate"
       ]
     },
     {
       "benchmark": "design-arena-gamedev",
       "model": "gemini-3-8-flash",
       "model_raw": "gemini-3.8-flash",
-      "score": 1304.0,
+      "score": 1301.0,
       "ci": null,
       "effort": null,
       "org": null,
       "release_date": null,
       "notes": [
-        "13128 blind votes, 51% win rate"
+        "13682 blind votes, 51% win rate"
       ]
     },
     {
       "benchmark": "design-arena-gamedev",
       "model": "muse-spark-1-2",
       "model_raw": "muse-spark-1.2",
-      "score": 1300.0,
+      "score": 1296.0,
       "ci": null,
       "effort": null,
       "org": null,
       "release_date": null,
       "notes": [
-        "13156 blind votes, 50.4% win rate"
+        "13594 blind votes, 50.3% win rate"
+      ]
+    },
+    {
+      "benchmark": "design-arena-gamedev",
+      "model": "cortado",
+      "model_raw": "cortado",
+      "score": 1296.0,
+      "ci": null,
+      "effort": null,
+      "org": null,
+      "release_date": null,
+      "notes": [
+        "6670 blind votes, 51% win rate"
       ]
     },
     {
       "benchmark": "design-arena-gamedev",
       "model": "grogu",
       "model_raw": "grogu",
-      "score": 1294.0,
+      "score": 1291.0,
       "ci": null,
       "effort": null,
       "org": null,
       "release_date": null,
       "notes": [
-        "8502 blind votes, 54% win rate"
+        "8891 blind votes, 53.8% win rate"
       ]
     },
     {
       "benchmark": "design-arena-gamedev",
       "model": "gpt-5-5",
       "model_raw": "gpt-5.5",
-      "score": 1292.0,
+      "score": 1287.0,
       "ci": null,
       "effort": null,
       "org": null,
       "release_date": null,
       "notes": [
-        "7481 blind votes, 56.6% win rate"
+        "7892 blind votes, 56% win rate"
       ]
     },
     {
       "benchmark": "design-arena-gamedev",
       "model": "opus-4-6",
       "model_raw": "claude-opus-4-6-thinking",
-      "score": 1276.0,
+      "score": 1273.0,
       "ci": null,
       "effort": "thinking",
       "org": null,
@@ -426,48 +439,35 @@
     },
     {
       "benchmark": "design-arena-gamedev",
-      "model": "notebook",
-      "model_raw": "notebook",
-      "score": 1275.0,
-      "ci": null,
-      "effort": null,
-      "org": null,
-      "release_date": null,
-      "notes": [
-        "5480 blind votes, 46.8% win rate"
-      ]
-    },
-    {
-      "benchmark": "design-arena-gamedev",
       "model": "sonnet-5",
       "model_raw": "claude-sonnet-5",
-      "score": 1274.0,
+      "score": 1273.0,
       "ci": null,
       "effort": null,
       "org": null,
       "release_date": null,
       "notes": [
-        "3745 blind votes, 51.1% win rate"
+        "4103 blind votes, 51% win rate"
       ]
     },
     {
       "benchmark": "design-arena-gamedev",
-      "model": "muse-spark-open",
-      "model_raw": "muse-spark-open",
+      "model": "notebook",
+      "model_raw": "notebook",
       "score": 1272.0,
       "ci": null,
       "effort": null,
       "org": null,
       "release_date": null,
       "notes": [
-        "501 blind votes, 50.3% win rate"
+        "5853 blind votes, 46.8% win rate"
       ]
     },
     {
       "benchmark": "design-arena-gamedev",
       "model": "opus-4-6",
       "model_raw": "claude-opus-4-6",
-      "score": 1271.0,
+      "score": 1267.0,
       "ci": null,
       "effort": null,
       "org": null,
@@ -478,165 +478,191 @@
     },
     {
       "benchmark": "design-arena-gamedev",
-      "model": "evergreen",
-      "model_raw": "evergreen",
-      "score": 1269.0,
-      "ci": null,
-      "effort": null,
-      "org": null,
-      "release_date": null,
-      "notes": [
-        "6759 blind votes, 48.1% win rate"
-      ]
-    },
-    {
-      "benchmark": "design-arena-gamedev",
-      "model": "glm-5-2",
-      "model_raw": "glm-5.2",
-      "score": 1266.0,
-      "ci": null,
-      "effort": null,
-      "org": null,
-      "release_date": null,
-      "notes": [
-        "8054 blind votes, 49.4% win rate"
-      ]
-    },
-    {
-      "benchmark": "design-arena-gamedev",
       "model": "mimo-v2-5-pro",
       "model_raw": "mimo-v2.5-pro",
+      "score": 1267.0,
+      "ci": null,
+      "effort": null,
+      "org": null,
+      "release_date": null,
+      "notes": [
+        "5400 blind votes, 53.6% win rate"
+      ]
+    },
+    {
+      "benchmark": "design-arena-gamedev",
+      "model": "evergreen",
+      "model_raw": "evergreen",
       "score": 1265.0,
       "ci": null,
       "effort": null,
       "org": null,
       "release_date": null,
       "notes": [
-        "5077 blind votes, 53.4% win rate"
-      ]
-    },
-    {
-      "benchmark": "design-arena-gamedev",
-      "model": "qwen3-7",
-      "model_raw": "qwen3.7-max",
-      "score": 1264.0,
-      "ci": null,
-      "effort": "max",
-      "org": null,
-      "release_date": null,
-      "notes": [
-        "6975 blind votes, 52.7% win rate"
-      ]
-    },
-    {
-      "benchmark": "design-arena-gamedev",
-      "model": "opus-4-8",
-      "model_raw": "claude-opus-4-8",
-      "score": 1263.0,
-      "ci": null,
-      "effort": null,
-      "org": null,
-      "release_date": null,
-      "notes": [
-        "5216 blind votes, 52.4% win rate"
-      ]
-    },
-    {
-      "benchmark": "design-arena-gamedev",
-      "model": "coconut",
-      "model_raw": "coconut",
-      "score": 1263.0,
-      "ci": null,
-      "effort": null,
-      "org": null,
-      "release_date": null,
-      "notes": [
-        "5417 blind votes, 54.7% win rate"
-      ]
-    },
-    {
-      "benchmark": "design-arena-gamedev",
-      "model": "gemini-3-5-flash",
-      "model_raw": "gemini-3.5-flash",
-      "score": 1262.0,
-      "ci": null,
-      "effort": null,
-      "org": null,
-      "release_date": null,
-      "notes": [
-        "6462 blind votes, 52.5% win rate"
-      ]
-    },
-    {
-      "benchmark": "design-arena-gamedev",
-      "model": "gemini-3-6-flash",
-      "model_raw": "gemini-3.6-flash",
-      "score": 1262.0,
-      "ci": null,
-      "effort": null,
-      "org": null,
-      "release_date": null,
-      "notes": [
-        "5962 blind votes, 50.9% win rate"
-      ]
-    },
-    {
-      "benchmark": "design-arena-gamedev",
-      "model": "yoda",
-      "model_raw": "yoda",
-      "score": 1262.0,
-      "ci": null,
-      "effort": null,
-      "org": null,
-      "release_date": null,
-      "notes": [
-        "6063 blind votes, 49.2% win rate"
-      ]
-    },
-    {
-      "benchmark": "design-arena-gamedev",
-      "model": "qwen3-7-plus",
-      "model_raw": "qwen3.7-plus",
-      "score": 1261.0,
-      "ci": null,
-      "effort": null,
-      "org": null,
-      "release_date": null,
-      "notes": [
-        "3902 blind votes, 49.3% win rate"
+        "6950 blind votes, 48.1% win rate"
       ]
     },
     {
       "benchmark": "design-arena-gamedev",
       "model": "deepseek-v4-1-flash-1017",
       "model_raw": "deepseek-v4-1-flash-1017",
+      "score": 1263.0,
+      "ci": null,
+      "effort": null,
+      "org": null,
+      "release_date": null,
+      "notes": [
+        "2468 blind votes, 44.4% win rate"
+      ]
+    },
+    {
+      "benchmark": "design-arena-gamedev",
+      "model": "glm-5-2",
+      "model_raw": "glm-5.2",
+      "score": 1262.0,
+      "ci": null,
+      "effort": null,
+      "org": null,
+      "release_date": null,
+      "notes": [
+        "8443 blind votes, 49.2% win rate"
+      ]
+    },
+    {
+      "benchmark": "design-arena-gamedev",
+      "model": "qwen3-7",
+      "model_raw": "qwen3.7-max",
+      "score": 1261.0,
+      "ci": null,
+      "effort": "max",
+      "org": null,
+      "release_date": null,
+      "notes": [
+        "7356 blind votes, 52.3% win rate"
+      ]
+    },
+    {
+      "benchmark": "design-arena-gamedev",
+      "model": "coconut",
+      "model_raw": "coconut",
+      "score": 1261.0,
+      "ci": null,
+      "effort": null,
+      "org": null,
+      "release_date": null,
+      "notes": [
+        "5706 blind votes, 54.3% win rate"
+      ]
+    },
+    {
+      "benchmark": "design-arena-gamedev",
+      "model": "hy4",
+      "model_raw": "hy4",
+      "score": 1260.0,
+      "ci": null,
+      "effort": null,
+      "org": null,
+      "release_date": null,
+      "notes": [
+        "569 blind votes, 48% win rate"
+      ]
+    },
+    {
+      "benchmark": "design-arena-gamedev",
+      "model": "gemini-3-5-flash",
+      "model_raw": "gemini-3.5-flash",
+      "score": 1260.0,
+      "ci": null,
+      "effort": null,
+      "org": null,
+      "release_date": null,
+      "notes": [
+        "6800 blind votes, 52.5% win rate"
+      ]
+    },
+    {
+      "benchmark": "design-arena-gamedev",
+      "model": "gemini-3-6-flash",
+      "model_raw": "gemini-3.6-flash",
       "score": 1259.0,
       "ci": null,
       "effort": null,
       "org": null,
       "release_date": null,
       "notes": [
-        "2168 blind votes, 43% win rate"
+        "6313 blind votes, 50.8% win rate"
+      ]
+    },
+    {
+      "benchmark": "design-arena-gamedev",
+      "model": "muse-spark-open",
+      "model_raw": "muse-spark-open",
+      "score": 1259.0,
+      "ci": null,
+      "effort": null,
+      "org": null,
+      "release_date": null,
+      "notes": [
+        "834 blind votes, 47.4% win rate"
+      ]
+    },
+    {
+      "benchmark": "design-arena-gamedev",
+      "model": "opus-4-8",
+      "model_raw": "claude-opus-4-8",
+      "score": 1259.0,
+      "ci": null,
+      "effort": null,
+      "org": null,
+      "release_date": null,
+      "notes": [
+        "5516 blind votes, 52.1% win rate"
+      ]
+    },
+    {
+      "benchmark": "design-arena-gamedev",
+      "model": "yoda",
+      "model_raw": "yoda",
+      "score": 1258.0,
+      "ci": null,
+      "effort": null,
+      "org": null,
+      "release_date": null,
+      "notes": [
+        "6421 blind votes, 49% win rate"
+      ]
+    },
+    {
+      "benchmark": "design-arena-gamedev",
+      "model": "qwen3-7-plus",
+      "model_raw": "qwen3.7-plus",
+      "score": 1257.0,
+      "ci": null,
+      "effort": null,
+      "org": null,
+      "release_date": null,
+      "notes": [
+        "4214 blind votes, 49% win rate"
       ]
     },
     {
       "benchmark": "design-arena-gamedev",
       "model": "gpt-6-luna",
       "model_raw": "gpt-6-luna",
-      "score": 1259.0,
+      "score": 1257.0,
       "ci": null,
       "effort": null,
       "org": null,
       "release_date": null,
       "notes": [
-        "1970 blind votes, 47.1% win rate"
+        "2288 blind votes, 47.4% win rate"
       ]
     },
     {
       "benchmark": "design-arena-gamedev",
       "model": "deca-2-5-mini",
       "model_raw": "deca-2.5-mini",
-      "score": 1259.0,
+      "score": 1255.0,
       "ci": null,
       "effort": null,
       "org": null,
@@ -649,7 +675,7 @@
       "benchmark": "design-arena-gamedev",
       "model": "sonnet-4-6",
       "model_raw": "claude-sonnet-4-6",
-      "score": 1258.0,
+      "score": 1254.0,
       "ci": null,
       "effort": null,
       "org": null,
@@ -662,7 +688,7 @@
       "benchmark": "design-arena-gamedev",
       "model": "deca-2-5-ultra-2",
       "model_raw": "deca-2.5-ultra-2",
-      "score": 1256.0,
+      "score": 1252.0,
       "ci": null,
       "effort": null,
       "org": null,
@@ -675,7 +701,7 @@
       "benchmark": "design-arena-gamedev",
       "model": "deca-2-6-ultra",
       "model_raw": "deca-2.6-ultra",
-      "score": 1255.0,
+      "score": 1252.0,
       "ci": null,
       "effort": null,
       "org": null,
@@ -688,59 +714,46 @@
       "benchmark": "design-arena-gamedev",
       "model": "mimo-v2-5",
       "model_raw": "mimo-v2.5",
-      "score": 1250.0,
-      "ci": null,
-      "effort": null,
-      "org": null,
-      "release_date": null,
-      "notes": [
-        "5962 blind votes, 52.6% win rate"
-      ]
-    },
-    {
-      "benchmark": "design-arena-gamedev",
-      "model": "kimi-k2-6",
-      "model_raw": "kimi-k2.6",
       "score": 1249.0,
       "ci": null,
       "effort": null,
       "org": null,
       "release_date": null,
       "notes": [
-        "5031 blind votes, 54.9% win rate"
+        "6206 blind votes, 52.5% win rate"
       ]
     },
     {
       "benchmark": "design-arena-gamedev",
-      "model": "glm-5-turbo",
-      "model_raw": "glm-5-turbo",
+      "model": "kimi-k2-6",
+      "model_raw": "kimi-k2.6",
       "score": 1246.0,
       "ci": null,
       "effort": null,
       "org": null,
       "release_date": null,
       "notes": [
-        "5601 blind votes, 52.3% win rate"
+        "5033 blind votes, 54.8% win rate"
       ]
     },
     {
       "benchmark": "design-arena-gamedev",
-      "model": "galapagos",
-      "model_raw": "galapagos",
-      "score": 1238.0,
+      "model": "glm-5-turbo",
+      "model_raw": "glm-5-turbo",
+      "score": 1243.0,
       "ci": null,
       "effort": null,
       "org": null,
       "release_date": null,
       "notes": [
-        "2384 blind votes, 57.6% win rate"
+        "5868 blind votes, 52% win rate"
       ]
     },
     {
       "benchmark": "design-arena-gamedev",
       "model": "deca-2-6-pro",
       "model_raw": "deca-2.6-pro",
-      "score": 1238.0,
+      "score": 1234.0,
       "ci": null,
       "effort": null,
       "org": null,
@@ -751,9 +764,22 @@
     },
     {
       "benchmark": "design-arena-gamedev",
+      "model": "galapagos",
+      "model_raw": "galapagos",
+      "score": 1234.0,
+      "ci": null,
+      "effort": null,
+      "org": null,
+      "release_date": null,
+      "notes": [
+        "2384 blind votes, 57.6% win rate"
+      ]
+    },
+    {
+      "benchmark": "design-arena-gamedev",
       "model": "glm-5",
       "model_raw": "glm-5",
-      "score": 1233.0,
+      "score": 1230.0,
       "ci": null,
       "effort": null,
       "org": null,
@@ -766,20 +792,33 @@
       "benchmark": "design-arena-gamedev",
       "model": "gpt-5-6-terra",
       "model_raw": "gpt-5.6-terra",
-      "score": 1229.0,
+      "score": 1225.0,
       "ci": null,
       "effort": null,
       "org": null,
       "release_date": null,
       "notes": [
-        "15197 blind votes, 48.2% win rate"
+        "15563 blind votes, 48% win rate"
+      ]
+    },
+    {
+      "benchmark": "design-arena-gamedev",
+      "model": "deepseek-v4-pro",
+      "model_raw": "deepseek-v4-pro",
+      "score": 1225.0,
+      "ci": null,
+      "effort": null,
+      "org": null,
+      "release_date": null,
+      "notes": [
+        "4416 blind votes, 52.3% win rate"
       ]
     },
     {
       "benchmark": "design-arena-gamedev",
       "model": "opus-4-5",
       "model_raw": "claude-opus-4-5",
-      "score": 1228.0,
+      "score": 1225.0,
       "ci": null,
       "effort": null,
       "org": null,
@@ -790,48 +829,22 @@
     },
     {
       "benchmark": "design-arena-gamedev",
-      "model": "deepseek-v4-pro",
-      "model_raw": "deepseek-v4-pro",
-      "score": 1228.0,
-      "ci": null,
-      "effort": null,
-      "org": null,
-      "release_date": null,
-      "notes": [
-        "4413 blind votes, 52.3% win rate"
-      ]
-    },
-    {
-      "benchmark": "design-arena-gamedev",
       "model": "large-4-0",
       "model_raw": "mistral-large-4-0",
-      "score": 1225.0,
+      "score": 1221.0,
       "ci": null,
       "effort": null,
       "org": null,
       "release_date": null,
       "notes": [
-        "1408 blind votes, 42.3% win rate"
-      ]
-    },
-    {
-      "benchmark": "design-arena-gamedev",
-      "model": "radon",
-      "model_raw": "radon",
-      "score": 1224.0,
-      "ci": null,
-      "effort": null,
-      "org": null,
-      "release_date": null,
-      "notes": [
-        "779 blind votes, 60% win rate"
+        "1412 blind votes, 42.1% win rate"
       ]
     },
     {
       "benchmark": "design-arena-gamedev",
       "model": "nex-n2-pro",
       "model_raw": "nex-n2-pro",
-      "score": 1224.0,
+      "score": 1221.0,
       "ci": null,
       "effort": null,
       "org": null,
@@ -842,100 +855,113 @@
     },
     {
       "benchmark": "design-arena-gamedev",
-      "model": "kimi-k2-7-code",
-      "model_raw": "kimi-k2.7-code",
+      "model": "radon",
+      "model_raw": "radon",
       "score": 1220.0,
       "ci": null,
       "effort": null,
       "org": null,
       "release_date": null,
       "notes": [
-        "3909 blind votes, 46.9% win rate"
+        "779 blind votes, 60% win rate"
+      ]
+    },
+    {
+      "benchmark": "design-arena-gamedev",
+      "model": "kimi-k2-7-code",
+      "model_raw": "kimi-k2.7-code",
+      "score": 1217.0,
+      "ci": null,
+      "effort": null,
+      "org": null,
+      "release_date": null,
+      "notes": [
+        "4237 blind votes, 46.5% win rate"
       ]
     },
     {
       "benchmark": "design-arena-gamedev",
       "model": "mercury-3",
       "model_raw": "mercury-3",
-      "score": 1219.0,
-      "ci": null,
-      "effort": null,
-      "org": null,
-      "release_date": null,
-      "notes": [
-        "822 blind votes, 44% win rate"
-      ]
-    },
-    {
-      "benchmark": "design-arena-gamedev",
-      "model": "glm-5v-turbo",
-      "model_raw": "glm-5v-turbo",
       "score": 1216.0,
       "ci": null,
       "effort": null,
       "org": null,
       "release_date": null,
       "notes": [
-        "8180 blind votes, 49.6% win rate"
+        "1097 blind votes, 44.1% win rate"
+      ]
+    },
+    {
+      "benchmark": "design-arena-gamedev",
+      "model": "glm-5v-turbo",
+      "model_raw": "glm-5v-turbo",
+      "score": 1212.0,
+      "ci": null,
+      "effort": null,
+      "org": null,
+      "release_date": null,
+      "notes": [
+        "8459 blind votes, 49.1% win rate"
       ]
     },
     {
       "benchmark": "design-arena-gamedev",
       "model": "qwen3-6-plus",
       "model_raw": "qwen3.6-plus",
-      "score": 1211.0,
-      "ci": null,
-      "effort": null,
-      "org": null,
-      "release_date": null,
-      "notes": [
-        "8432 blind votes, 48.4% win rate"
-      ]
-    },
-    {
-      "benchmark": "design-arena-gamedev",
-      "model": "minimax-m3",
-      "model_raw": "minimax-m3",
-      "score": 1210.0,
-      "ci": null,
-      "effort": null,
-      "org": null,
-      "release_date": null,
-      "notes": [
-        "4754 blind votes, 45.5% win rate"
-      ]
-    },
-    {
-      "benchmark": "design-arena-gamedev",
-      "model": "hy3-direct",
-      "model_raw": "hy3-direct",
-      "score": 1210.0,
-      "ci": null,
-      "effort": null,
-      "org": null,
-      "release_date": null,
-      "notes": [
-        "3604 blind votes, 42.4% win rate"
-      ]
-    },
-    {
-      "benchmark": "design-arena-gamedev",
-      "model": "deepocto",
-      "model_raw": "deepocto",
       "score": 1208.0,
       "ci": null,
       "effort": null,
       "org": null,
       "release_date": null,
       "notes": [
-        "6851 blind votes, 49.4% win rate"
+        "8737 blind votes, 48.1% win rate"
+      ]
+    },
+    {
+      "benchmark": "design-arena-gamedev",
+      "model": "hy3-direct",
+      "model_raw": "hy3-direct",
+      "score": 1206.0,
+      "ci": null,
+      "effort": null,
+      "org": null,
+      "release_date": null,
+      "notes": [
+        "3894 blind votes, 42.3% win rate"
+      ]
+    },
+    {
+      "benchmark": "design-arena-gamedev",
+      "model": "minimax-m3",
+      "model_raw": "minimax-m3",
+      "score": 1205.0,
+      "ci": null,
+      "effort": null,
+      "org": null,
+      "release_date": null,
+      "notes": [
+        "5059 blind votes, 45.1% win rate"
+      ]
+    },
+    {
+      "benchmark": "design-arena-gamedev",
+      "model": "deepocto",
+      "model_raw": "deepocto",
+      "score": 1204.0,
+      "ci": null,
+      "effort": null,
+      "org": null,
+      "release_date": null,
+      "notes": [
+        "7132 blind votes, 49% win rate"
       ]
     },
     {
       "benchmark": "design-arena-gamedev",
       "model": "deepseek-v4-flash-0731",
       "model_raw": "deepseek-v4-flash-0731",
-      "score": 1207.0,
+      "score": 1203.0,
       "ci": null,
       "effort": null,
       "org": null,
@@ -946,22 +972,9 @@
     },
     {
       "benchmark": "design-arena-gamedev",
-      "model": "beam-1-0",
-      "model_raw": "beam-1.0",
-      "score": 1206.0,
-      "ci": null,
-      "effort": null,
-      "org": null,
-      "release_date": null,
-      "notes": [
-        "655 blind votes, 41.1% win rate"
-      ]
-    },
-    {
-      "benchmark": "design-arena-gamedev",
       "model": "kimi-k2-5",
       "model_raw": "kimi-k2.5",
-      "score": 1205.0,
+      "score": 1202.0,
       "ci": null,
       "effort": null,
       "org": null,
@@ -972,22 +985,35 @@
     },
     {
       "benchmark": "design-arena-gamedev",
-      "model": "gemini-3-1-pro-preview",
-      "model_raw": "gemini-3.1-pro-preview",
-      "score": 1201.0,
+      "model": "beam-1-0",
+      "model_raw": "beam-1.0",
+      "score": 1200.0,
       "ci": null,
       "effort": null,
       "org": null,
       "release_date": null,
       "notes": [
-        "7076 blind votes, 52.2% win rate"
+        "966 blind votes, 41.3% win rate"
+      ]
+    },
+    {
+      "benchmark": "design-arena-gamedev",
+      "model": "gemini-3-1-pro-preview",
+      "model_raw": "gemini-3.1-pro-preview",
+      "score": 1198.0,
+      "ci": null,
+      "effort": null,
+      "org": null,
+      "release_date": null,
+      "notes": [
+        "7079 blind votes, 52.2% win rate"
       ]
     },
     {
       "benchmark": "design-arena-gamedev",
       "model": "deepseek-v4-flash",
       "model_raw": "deepseek-v4-flash",
-      "score": 1196.0,
+      "score": 1193.0,
       "ci": null,
       "effort": null,
       "org": null,
@@ -1000,7 +1026,7 @@
       "benchmark": "design-arena-gamedev",
       "model": "riftrunner",
       "model_raw": "riftrunner",
-      "score": 1195.0,
+      "score": 1192.0,
       "ci": null,
       "effort": null,
       "org": null,
@@ -1013,59 +1039,59 @@
       "benchmark": "design-arena-gamedev",
       "model": "macaroni",
       "model_raw": "macaroni",
-      "score": 1194.0,
-      "ci": null,
-      "effort": null,
-      "org": null,
-      "release_date": null,
-      "notes": [
-        "3324 blind votes, 56% win rate"
-      ]
-    },
-    {
-      "benchmark": "design-arena-gamedev",
-      "model": "gpt-5-4",
-      "model_raw": "gpt-5.4-none",
-      "score": 1193.0,
-      "ci": null,
-      "effort": "none",
-      "org": null,
-      "release_date": null,
-      "notes": [
-        "4000 blind votes, 53.6% win rate"
-      ]
-    },
-    {
-      "benchmark": "design-arena-gamedev",
-      "model": "gpt-5-6-luna",
-      "model_raw": "gpt-5.6-luna",
-      "score": 1193.0,
-      "ci": null,
-      "effort": null,
-      "org": null,
-      "release_date": null,
-      "notes": [
-        "4247 blind votes, 41.2% win rate"
-      ]
-    },
-    {
-      "benchmark": "design-arena-gamedev",
-      "model": "grok-4-20-beta",
-      "model_raw": "grok-4-20-beta-reasoning",
       "score": 1191.0,
       "ci": null,
       "effort": null,
       "org": null,
       "release_date": null,
       "notes": [
-        "6207 blind votes, 50.1% win rate"
+        "3325 blind votes, 56% win rate"
+      ]
+    },
+    {
+      "benchmark": "design-arena-gamedev",
+      "model": "gpt-5-6-luna",
+      "model_raw": "gpt-5.6-luna",
+      "score": 1190.0,
+      "ci": null,
+      "effort": null,
+      "org": null,
+      "release_date": null,
+      "notes": [
+        "4666 blind votes, 41.1% win rate"
+      ]
+    },
+    {
+      "benchmark": "design-arena-gamedev",
+      "model": "gpt-5-4",
+      "model_raw": "gpt-5.4-none",
+      "score": 1190.0,
+      "ci": null,
+      "effort": "none",
+      "org": null,
+      "release_date": null,
+      "notes": [
+        "4002 blind votes, 53.6% win rate"
+      ]
+    },
+    {
+      "benchmark": "design-arena-gamedev",
+      "model": "grok-4-20-beta",
+      "model_raw": "grok-4-20-beta-reasoning",
+      "score": 1188.0,
+      "ci": null,
+      "effort": null,
+      "org": null,
+      "release_date": null,
+      "notes": [
+        "6209 blind votes, 50.1% win rate"
       ]
     },
     {
       "benchmark": "design-arena-gamedev",
       "model": "gpt-5-4",
       "model_raw": "gpt-5.4-low",
-      "score": 1190.0,
+      "score": 1187.0,
       "ci": null,
       "effort": "low",
       "org": null,
@@ -1078,7 +1104,7 @@
       "benchmark": "design-arena-gamedev",
       "model": "glm-4-7",
       "model_raw": "glm-4.7",
-      "score": 1187.0,
+      "score": 1184.0,
       "ci": null,
       "effort": null,
       "org": null,
@@ -1091,7 +1117,7 @@
       "benchmark": "design-arena-gamedev",
       "model": "honeycomb",
       "model_raw": "honeycomb",
-      "score": 1186.0,
+      "score": 1182.0,
       "ci": null,
       "effort": null,
       "org": null,
@@ -1104,7 +1130,7 @@
       "benchmark": "design-arena-gamedev",
       "model": "gpt-5",
       "model_raw": "gpt-5-high",
-      "score": 1184.0,
+      "score": 1181.0,
       "ci": null,
       "effort": "high",
       "org": null,
@@ -1117,7 +1143,7 @@
       "benchmark": "design-arena-gamedev",
       "model": "rockhopper",
       "model_raw": "rockhopper",
-      "score": 1182.0,
+      "score": 1179.0,
       "ci": null,
       "effort": null,
       "org": null,
@@ -1130,7 +1156,7 @@
       "benchmark": "design-arena-gamedev",
       "model": "gpt-5-1",
       "model_raw": "gpt-5.1-high",
-      "score": 1177.0,
+      "score": 1174.0,
       "ci": null,
       "effort": "high",
       "org": null,
@@ -1143,7 +1169,7 @@
       "benchmark": "design-arena-gamedev",
       "model": "agi-01-swift",
       "model_raw": "agi-01-swift",
-      "score": 1177.0,
+      "score": 1173.0,
       "ci": null,
       "effort": null,
       "org": null,
@@ -1156,7 +1182,7 @@
       "benchmark": "design-arena-gamedev",
       "model": "deepmolt",
       "model_raw": "deepmolt",
-      "score": 1175.0,
+      "score": 1172.0,
       "ci": null,
       "effort": null,
       "org": null,
@@ -1169,7 +1195,7 @@
       "benchmark": "design-arena-gamedev",
       "model": "mumble",
       "model_raw": "mumble",
-      "score": 1175.0,
+      "score": 1171.0,
       "ci": null,
       "effort": null,
       "org": null,
@@ -1182,7 +1208,7 @@
       "benchmark": "design-arena-gamedev",
       "model": "grok-4-20-beta",
       "model_raw": "grok-4-20-beta-non-reasoning",
-      "score": 1173.0,
+      "score": 1169.0,
       "ci": null,
       "effort": null,
       "org": null,
@@ -1195,20 +1221,20 @@
       "benchmark": "design-arena-gamedev",
       "model": "grok-4-3",
       "model_raw": "grok-4.3",
-      "score": 1171.0,
+      "score": 1167.0,
       "ci": null,
       "effort": null,
       "org": null,
       "release_date": null,
       "notes": [
-        "7654 blind votes, 42.8% win rate"
+        "7989 blind votes, 42.5% win rate"
       ]
     },
     {
       "benchmark": "design-arena-gamedev",
       "model": "opus-4-1",
       "model_raw": "claude-opus-4-1-20250805-thinking",
-      "score": 1170.0,
+      "score": 1167.0,
       "ci": null,
       "effort": "thinking",
       "org": null,
@@ -1221,7 +1247,7 @@
       "benchmark": "design-arena-gamedev",
       "model": "opus-4",
       "model_raw": "claude-opus-4",
-      "score": 1169.0,
+      "score": 1166.0,
       "ci": null,
       "effort": null,
       "org": null,
@@ -1234,7 +1260,7 @@
       "benchmark": "design-arena-gamedev",
       "model": "solar-pro4-direct",
       "model_raw": "solar-pro4-direct",
-      "score": 1169.0,
+      "score": 1165.0,
       "ci": null,
       "effort": null,
       "org": null,
@@ -1245,9 +1271,22 @@
     },
     {
       "benchmark": "design-arena-gamedev",
+      "model": "inkling",
+      "model_raw": "inkling",
+      "score": 1163.0,
+      "ci": null,
+      "effort": null,
+      "org": null,
+      "release_date": null,
+      "notes": [
+        "4049 blind votes, 38% win rate"
+      ]
+    },
+    {
+      "benchmark": "design-arena-gamedev",
       "model": "sonnet-4-5",
       "model_raw": "claude-sonnet-4-5",
-      "score": 1165.0,
+      "score": 1162.0,
       "ci": null,
       "effort": null,
       "org": null,
@@ -1260,7 +1299,7 @@
       "benchmark": "design-arena-gamedev",
       "model": "gemini-3-flash-preview",
       "model_raw": "gemini-3-flash-preview",
-      "score": 1165.0,
+      "score": 1162.0,
       "ci": null,
       "effort": null,
       "org": null,
@@ -1271,35 +1310,9 @@
     },
     {
       "benchmark": "design-arena-gamedev",
-      "model": "inkling",
-      "model_raw": "inkling",
-      "score": 1165.0,
-      "ci": null,
-      "effort": null,
-      "org": null,
-      "release_date": null,
-      "notes": [
-        "3786 blind votes, 37.8% win rate"
-      ]
-    },
-    {
-      "benchmark": "design-arena-gamedev",
-      "model": "opus-4-1",
-      "model_raw": "claude-opus-4-1-20250805",
-      "score": 1162.0,
-      "ci": null,
-      "effort": null,
-      "org": null,
-      "release_date": null,
-      "notes": [
-        "5416 blind votes, 51.3% win rate"
-      ]
-    },
-    {
-      "benchmark": "design-arena-gamedev",
       "model": "sonnet-4-5",
       "model_raw": "claude-sonnet-4-5-thinking",
-      "score": 1162.0,
+      "score": 1159.0,
       "ci": null,
       "effort": "thinking",
       "org": null,
@@ -1310,9 +1323,22 @@
     },
     {
       "benchmark": "design-arena-gamedev",
+      "model": "opus-4-1",
+      "model_raw": "claude-opus-4-1-20250805",
+      "score": 1159.0,
+      "ci": null,
+      "effort": null,
+      "org": null,
+      "release_date": null,
+      "notes": [
+        "5418 blind votes, 51.3% win rate"
+      ]
+    },
+    {
+      "benchmark": "design-arena-gamedev",
       "model": "gpt-5-3-codex",
       "model_raw": "gpt-5.3-codex",
-      "score": 1160.0,
+      "score": 1157.0,
       "ci": null,
       "effort": null,
       "org": null,
@@ -1325,46 +1351,46 @@
       "benchmark": "design-arena-gamedev",
       "model": "gpt-5-1",
       "model_raw": "gpt-5.1-medium",
-      "score": 1158.0,
+      "score": 1155.0,
       "ci": null,
       "effort": "medium",
       "org": null,
       "release_date": null,
       "notes": [
-        "2473 blind votes, 54.1% win rate"
+        "2475 blind votes, 54.2% win rate"
       ]
     },
     {
       "benchmark": "design-arena-gamedev",
       "model": "step-3-7-flash",
       "model_raw": "step-3.7-flash",
-      "score": 1157.0,
+      "score": 1153.0,
       "ci": null,
       "effort": null,
       "org": null,
       "release_date": null,
       "notes": [
-        "5011 blind votes, 37.9% win rate"
+        "5254 blind votes, 37.6% win rate"
       ]
     },
     {
       "benchmark": "design-arena-gamedev",
       "model": "gpt-5",
       "model_raw": "gpt-5",
-      "score": 1154.0,
+      "score": 1150.0,
       "ci": null,
       "effort": null,
       "org": null,
       "release_date": null,
       "notes": [
-        "4165 blind votes, 52.2% win rate"
+        "4168 blind votes, 52.2% win rate"
       ]
     },
     {
       "benchmark": "design-arena-gamedev",
       "model": "glm-4-6",
       "model_raw": "glm-4.6",
-      "score": 1150.0,
+      "score": 1146.0,
       "ci": null,
       "effort": null,
       "org": null,
@@ -1377,7 +1403,7 @@
       "benchmark": "design-arena-gamedev",
       "model": "gpt-5-1",
       "model_raw": "gpt-5.1-low",
-      "score": 1150.0,
+      "score": 1146.0,
       "ci": null,
       "effort": "low",
       "org": null,
@@ -1388,9 +1414,22 @@
     },
     {
       "benchmark": "design-arena-gamedev",
+      "model": "deca-2-6-mini",
+      "model_raw": "deca-2.6-mini",
+      "score": 1141.0,
+      "ci": null,
+      "effort": null,
+      "org": null,
+      "release_date": null,
+      "notes": [
+        "348 blind votes, 32.5% win rate"
+      ]
+    },
+    {
+      "benchmark": "design-arena-gamedev",
       "model": "glm-4-5",
       "model_raw": "glm-4.5",
-      "score": 1144.0,
+      "score": 1140.0,
       "ci": null,
       "effort": null,
       "org": null,
@@ -1403,7 +1442,7 @@
       "benchmark": "design-arena-gamedev",
       "model": "deepseek-v3-2-exp",
       "model_raw": "deepseek-v3p2-exp",
-      "score": 1143.0,
+      "score": 1140.0,
       "ci": null,
       "effort": null,
       "org": null,
@@ -1416,20 +1455,20 @@
       "benchmark": "design-arena-gamedev",
       "model": "nemotron-3-ultra-550b-a55b",
       "model_raw": "nemotron-3-ultra-550b-a55b",
-      "score": 1140.0,
+      "score": 1136.0,
       "ci": null,
       "effort": null,
       "org": null,
       "release_date": null,
       "notes": [
-        "5358 blind votes, 36.1% win rate"
+        "5638 blind votes, 35.8% win rate"
       ]
     },
     {
       "benchmark": "design-arena-gamedev",
       "model": "qwen3-5-397b-a17b",
       "model_raw": "qwen3.5-397b-a17b",
-      "score": 1139.0,
+      "score": 1136.0,
       "ci": null,
       "effort": null,
       "org": null,
@@ -1442,7 +1481,7 @@
       "benchmark": "design-arena-gamedev",
       "model": "sonnet-3-7",
       "model_raw": "claude-3.7-sonnet",
-      "score": 1137.0,
+      "score": 1134.0,
       "ci": null,
       "effort": null,
       "org": null,
@@ -1455,7 +1494,7 @@
       "benchmark": "design-arena-gamedev",
       "model": "sonnet-4",
       "model_raw": "claude-sonnet-4-thinking",
-      "score": 1137.0,
+      "score": 1134.0,
       "ci": null,
       "effort": "thinking",
       "org": null,
@@ -1468,7 +1507,7 @@
       "benchmark": "design-arena-gamedev",
       "model": "hy3",
       "model_raw": "hy3",
-      "score": 1135.0,
+      "score": 1131.0,
       "ci": null,
       "effort": null,
       "org": null,
@@ -1481,7 +1520,7 @@
       "benchmark": "design-arena-gamedev",
       "model": "glm-4-7-flash",
       "model_raw": "glm-4.7-flash",
-      "score": 1134.0,
+      "score": 1130.0,
       "ci": null,
       "effort": null,
       "org": null,
@@ -1494,7 +1533,7 @@
       "benchmark": "design-arena-gamedev",
       "model": "minimax-m2-1",
       "model_raw": "minimax-m2.1",
-      "score": 1133.0,
+      "score": 1130.0,
       "ci": null,
       "effort": null,
       "org": null,
@@ -1507,7 +1546,7 @@
       "benchmark": "design-arena-gamedev",
       "model": "sonnet-4",
       "model_raw": "claude-sonnet-4",
-      "score": 1132.0,
+      "score": 1129.0,
       "ci": null,
       "effort": null,
       "org": null,
@@ -1520,7 +1559,7 @@
       "benchmark": "design-arena-gamedev",
       "model": "gpt-5-1",
       "model_raw": "gpt-5.1-none",
-      "score": 1131.0,
+      "score": 1128.0,
       "ci": null,
       "effort": "none",
       "org": null,
@@ -1533,7 +1572,7 @@
       "benchmark": "design-arena-gamedev",
       "model": "deepseek-v3-2",
       "model_raw": "deepseek-v3p2",
-      "score": 1130.0,
+      "score": 1127.0,
       "ci": null,
       "effort": null,
       "org": null,
@@ -1544,22 +1583,9 @@
     },
     {
       "benchmark": "design-arena-gamedev",
-      "model": "deepseek-v3-1",
-      "model_raw": "deepseek-v3p1-thinking",
-      "score": 1129.0,
-      "ci": null,
-      "effort": "thinking",
-      "org": null,
-      "release_date": null,
-      "notes": [
-        "1456 blind votes, 52.5% win rate"
-      ]
-    },
-    {
-      "benchmark": "design-arena-gamedev",
       "model": "mimo-v2-flash",
       "model_raw": "mimo-v2-flash",
-      "score": 1129.0,
+      "score": 1126.0,
       "ci": null,
       "effort": null,
       "org": null,
@@ -1570,9 +1596,22 @@
     },
     {
       "benchmark": "design-arena-gamedev",
+      "model": "deepseek-v3-1",
+      "model_raw": "deepseek-v3p1-thinking",
+      "score": 1126.0,
+      "ci": null,
+      "effort": "thinking",
+      "org": null,
+      "release_date": null,
+      "notes": [
+        "1456 blind votes, 52.5% win rate"
+      ]
+    },
+    {
+      "benchmark": "design-arena-gamedev",
       "model": "gpt-5-mini",
       "model_raw": "gpt-5-mini",
-      "score": 1128.0,
+      "score": 1125.0,
       "ci": null,
       "effort": null,
       "org": null,
@@ -1583,22 +1622,9 @@
     },
     {
       "benchmark": "design-arena-gamedev",
-      "model": "solar-mini4",
-      "model_raw": "solar-mini4",
-      "score": 1124.0,
-      "ci": null,
-      "effort": null,
-      "org": null,
-      "release_date": null,
-      "notes": [
-        "829 blind votes, 29.6% win rate"
-      ]
-    },
-    {
-      "benchmark": "design-arena-gamedev",
       "model": "minimax-m2-stable",
       "model_raw": "minimax-m2-stable",
-      "score": 1117.0,
+      "score": 1113.0,
       "ci": null,
       "effort": null,
       "org": null,
@@ -1609,22 +1635,35 @@
     },
     {
       "benchmark": "design-arena-gamedev",
-      "model": "muse-glimmer",
-      "model_raw": "muse-glimmer-30b",
-      "score": 1113.0,
+      "model": "solar-mini4",
+      "model_raw": "solar-mini4",
+      "score": 1109.0,
       "ci": null,
       "effort": null,
       "org": null,
       "release_date": null,
       "notes": [
-        "405 blind votes, 30.1% win rate"
+        "1105 blind votes, 28.7% win rate"
+      ]
+    },
+    {
+      "benchmark": "design-arena-gamedev",
+      "model": "muse-glimmer",
+      "model_raw": "muse-glimmer-30b",
+      "score": 1107.0,
+      "ci": null,
+      "effort": null,
+      "org": null,
+      "release_date": null,
+      "notes": [
+        "759 blind votes, 29.6% win rate"
       ]
     },
     {
       "benchmark": "design-arena-gamedev",
       "model": "gemini-2-5-pro",
       "model_raw": "gemini-2.5-pro",
-      "score": 1110.0,
+      "score": 1107.0,
       "ci": null,
       "effort": null,
       "org": null,
@@ -1637,20 +1676,20 @@
       "benchmark": "design-arena-gamedev",
       "model": "nemotron-3-5-super-vl",
       "model_raw": "nemotron-3.5-super-vl",
-      "score": 1108.0,
+      "score": 1106.0,
       "ci": null,
       "effort": null,
       "org": null,
       "release_date": null,
       "notes": [
-        "1239 blind votes, 29.3% win rate"
+        "1532 blind votes, 29.6% win rate"
       ]
     },
     {
       "benchmark": "design-arena-gamedev",
       "model": "qwen3-5-plus-02-15",
       "model_raw": "qwen3.5-plus-02-15",
-      "score": 1104.0,
+      "score": 1101.0,
       "ci": null,
       "effort": null,
       "org": null,
@@ -1661,22 +1700,9 @@
     },
     {
       "benchmark": "design-arena-gamedev",
-      "model": "haiku-4-5",
-      "model_raw": "claude-haiku-4-5",
-      "score": 1096.0,
-      "ci": null,
-      "effort": null,
-      "org": null,
-      "release_date": null,
-      "notes": [
-        "4502 blind votes, 44.7% win rate"
-      ]
-    },
-    {
-      "benchmark": "design-arena-gamedev",
       "model": "deepseek-reasoner-r1",
       "model_raw": "deepseek-reasoner-r1",
-      "score": 1096.0,
+      "score": 1093.0,
       "ci": null,
       "effort": null,
       "org": null,
@@ -1687,9 +1713,22 @@
     },
     {
       "benchmark": "design-arena-gamedev",
+      "model": "haiku-4-5",
+      "model_raw": "claude-haiku-4-5",
+      "score": 1093.0,
+      "ci": null,
+      "effort": null,
+      "org": null,
+      "release_date": null,
+      "notes": [
+        "4502 blind votes, 44.7% win rate"
+      ]
+    },
+    {
+      "benchmark": "design-arena-gamedev",
       "model": "glm-4-5-air",
       "model_raw": "glm-4.5-air",
-      "score": 1093.0,
+      "score": 1090.0,
       "ci": null,
       "effort": null,
       "org": null,
@@ -1702,7 +1741,7 @@
       "benchmark": "design-arena-gamedev",
       "model": "qwen3",
       "model_raw": "qwen3-max",
-      "score": 1093.0,
+      "score": 1090.0,
       "ci": null,
       "effort": "max",
       "org": null,
@@ -1715,7 +1754,7 @@
       "benchmark": "design-arena-gamedev",
       "model": "gpt-5-1-codex-mini",
       "model_raw": "gpt-5.1-codex-mini",
-      "score": 1091.0,
+      "score": 1088.0,
       "ci": null,
       "effort": null,
       "org": null,
@@ -1726,9 +1765,22 @@
     },
     {
       "benchmark": "design-arena-gamedev",
+      "model": "flint",
+      "model_raw": "flint",
+      "score": 1082.0,
+      "ci": null,
+      "effort": null,
+      "org": null,
+      "release_date": null,
+      "notes": [
+        "624 blind votes, 28% win rate"
+      ]
+    },
+    {
+      "benchmark": "design-arena-gamedev",
       "model": "deepseek-v3-1",
       "model_raw": "deepseek-v3p1",
-      "score": 1083.0,
+      "score": 1080.0,
       "ci": null,
       "effort": null,
       "org": null,
@@ -1741,20 +1793,20 @@
       "benchmark": "design-arena-gamedev",
       "model": "aescoder-4b",
       "model_raw": "aescoder-4b",
-      "score": 1081.0,
+      "score": 1077.0,
       "ci": null,
       "effort": null,
       "org": null,
       "release_date": null,
       "notes": [
-        "5135 blind votes, 42.2% win rate"
+        "5138 blind votes, 42.2% win rate"
       ]
     },
     {
       "benchmark": "design-arena-gamedev",
       "model": "large-2512",
       "model_raw": "mistral-large-2512",
-      "score": 1079.0,
+      "score": 1076.0,
       "ci": null,
       "effort": null,
       "org": null,
@@ -1767,33 +1819,33 @@
       "benchmark": "design-arena-gamedev",
       "model": "medium-3-5",
       "model_raw": "mistral-medium-3.5",
-      "score": 1078.0,
+      "score": 1075.0,
       "ci": null,
       "effort": null,
       "org": null,
       "release_date": null,
       "notes": [
-        "1521 blind votes, 38.6% win rate"
+        "1524 blind votes, 38.6% win rate"
       ]
     },
     {
       "benchmark": "design-arena-gamedev",
       "model": "trinity-large",
       "model_raw": "trinity-large-thinking",
-      "score": 1078.0,
+      "score": 1075.0,
       "ci": null,
       "effort": "thinking",
       "org": null,
       "release_date": null,
       "notes": [
-        "2073 blind votes, 38.4% win rate"
+        "2076 blind votes, 38.4% win rate"
       ]
     },
     {
       "benchmark": "design-arena-gamedev",
       "model": "intellect-3",
       "model_raw": "intellect-3",
-      "score": 1076.0,
+      "score": 1072.0,
       "ci": null,
       "effort": null,
       "org": null,
@@ -1806,7 +1858,7 @@
       "benchmark": "design-arena-gamedev",
       "model": "medium-2508",
       "model_raw": "mistral-medium-2508",
-      "score": 1073.0,
+      "score": 1070.0,
       "ci": null,
       "effort": null,
       "org": null,
@@ -1819,7 +1871,7 @@
       "benchmark": "design-arena-gamedev",
       "model": "gpt-4-1-mini",
       "model_raw": "gpt-4.1-mini",
-      "score": 1069.0,
+      "score": 1066.0,
       "ci": null,
       "effort": null,
       "org": null,
@@ -1830,22 +1882,9 @@
     },
     {
       "benchmark": "design-arena-gamedev",
-      "model": "flint",
-      "model_raw": "flint",
-      "score": 1067.0,
-      "ci": null,
-      "effort": null,
-      "org": null,
-      "release_date": null,
-      "notes": [
-        "321 blind votes, 25.9% win rate"
-      ]
-    },
-    {
-      "benchmark": "design-arena-gamedev",
       "model": "grok-4-1-fast",
       "model_raw": "grok-4-1-fast-non-reasoning",
-      "score": 1066.0,
+      "score": 1063.0,
       "ci": null,
       "effort": null,
       "org": null,
@@ -1856,22 +1895,9 @@
     },
     {
       "benchmark": "design-arena-gamedev",
-      "model": "gemini-2-5-flash-preview-09-2025",
-      "model_raw": "gemini-2.5-flash-preview-09-2025",
-      "score": 1065.0,
-      "ci": null,
-      "effort": null,
-      "org": null,
-      "release_date": null,
-      "notes": [
-        "1981 blind votes, 44.3% win rate"
-      ]
-    },
-    {
-      "benchmark": "design-arena-gamedev",
       "model": "grok-4-fast",
       "model_raw": "grok-4-fast-non-reasoning",
-      "score": 1065.0,
+      "score": 1061.0,
       "ci": null,
       "effort": null,
       "org": null,
@@ -1882,9 +1908,22 @@
     },
     {
       "benchmark": "design-arena-gamedev",
+      "model": "gemini-2-5-flash-preview-09-2025",
+      "model_raw": "gemini-2.5-flash-preview-09-2025",
+      "score": 1061.0,
+      "ci": null,
+      "effort": null,
+      "org": null,
+      "release_date": null,
+      "notes": [
+        "1981 blind votes, 44.3% win rate"
+      ]
+    },
+    {
+      "benchmark": "design-arena-gamedev",
       "model": "grok-4-1-fast",
       "model_raw": "grok-4-1-fast-reasoning",
-      "score": 1059.0,
+      "score": 1056.0,
       "ci": null,
       "effort": null,
       "org": null,
@@ -1897,7 +1936,7 @@
       "benchmark": "design-arena-gamedev",
       "model": "deepseek-chat",
       "model_raw": "deepseek-chat",
-      "score": 1052.0,
+      "score": 1049.0,
       "ci": null,
       "effort": null,
       "org": null,
@@ -1910,7 +1949,7 @@
       "benchmark": "design-arena-gamedev",
       "model": "gemini-2-5-flash-lite-preview-09-2025",
       "model_raw": "gemini-2.5-flash-lite-preview-09-2025",
-      "score": 1046.0,
+      "score": 1042.0,
       "ci": null,
       "effort": null,
       "org": null,
@@ -1923,7 +1962,7 @@
       "benchmark": "design-arena-gamedev",
       "model": "gpt-5-nano",
       "model_raw": "gpt-5-nano",
-      "score": 1044.0,
+      "score": 1040.0,
       "ci": null,
       "effort": null,
       "org": null,
@@ -1936,20 +1975,20 @@
       "benchmark": "design-arena-gamedev",
       "model": "gemini-3-1-flash-lite-preview",
       "model_raw": "gemini-3.1-flash-lite-preview",
-      "score": 1028.0,
+      "score": 1025.0,
       "ci": null,
       "effort": null,
       "org": null,
       "release_date": null,
       "notes": [
-        "3706 blind votes, 33.7% win rate"
+        "3709 blind votes, 33.7% win rate"
       ]
     },
     {
       "benchmark": "design-arena-gamedev",
       "model": "grok-3",
       "model_raw": "grok-3",
-      "score": 1025.0,
+      "score": 1021.0,
       "ci": null,
       "effort": null,
       "org": null,
@@ -1962,7 +2001,7 @@
       "benchmark": "design-arena-gamedev",
       "model": "v0-1-5-md",
       "model_raw": "v0-1.5-md",
-      "score": 1022.0,
+      "score": 1019.0,
       "ci": null,
       "effort": null,
       "org": null,
@@ -1975,20 +2014,20 @@
       "benchmark": "design-arena-gamedev",
       "model": "grok-4-fast",
       "model_raw": "grok-4-fast-reasoning",
-      "score": 1021.0,
+      "score": 1017.0,
       "ci": null,
       "effort": null,
       "org": null,
       "release_date": null,
       "notes": [
-        "4735 blind votes, 35.1% win rate"
+        "4737 blind votes, 35.1% win rate"
       ]
     },
     {
       "benchmark": "design-arena-gamedev",
       "model": "medium-2505",
       "model_raw": "mistral-medium-2505",
-      "score": 1017.0,
+      "score": 1013.0,
       "ci": null,
       "effort": null,
       "org": null,
@@ -2001,7 +2040,7 @@
       "benchmark": "design-arena-gamedev",
       "model": "gemini-2-5-flash",
       "model_raw": "gemini-2.5-flash",
-      "score": 1004.0,
+      "score": 1000.0,
       "ci": null,
       "effort": null,
       "org": null,
@@ -2014,7 +2053,7 @@
       "benchmark": "design-arena-gamedev",
       "model": "gpt-o4-mini",
       "model_raw": "gpt-o4-mini",
-      "score": 1002.0,
+      "score": 998.0,
       "ci": null,
       "effort": null,
       "org": null,
@@ -2027,7 +2066,7 @@
       "benchmark": "design-arena-gamedev",
       "model": "grok-4",
       "model_raw": "grok-4",
-      "score": 1001.0,
+      "score": 997.0,
       "ci": null,
       "effort": null,
       "org": null,
@@ -2040,7 +2079,7 @@
       "benchmark": "design-arena-gamedev",
       "model": "magistral-medium-2509",
       "model_raw": "magistral-medium-2509",
-      "score": 995.0,
+      "score": 991.0,
       "ci": null,
       "effort": null,
       "org": null,
@@ -2053,7 +2092,7 @@
       "benchmark": "design-arena-gamedev",
       "model": "gpt-oss-120b",
       "model_raw": "gpt-oss-120b",
-      "score": 991.0,
+      "score": 988.0,
       "ci": null,
       "effort": null,
       "org": null,
@@ -2066,7 +2105,7 @@
       "benchmark": "design-arena-gamedev",
       "model": "grok-code-fast-1",
       "model_raw": "grok-code-fast-1",
-      "score": 987.0,
+      "score": 984.0,
       "ci": null,
       "effort": null,
       "org": null,
@@ -2079,7 +2118,7 @@
       "benchmark": "design-arena-gamedev",
       "model": "devstral-medium-2507",
       "model_raw": "devstral-medium-2507",
-      "score": 985.0,
+      "score": 981.0,
       "ci": null,
       "effort": null,
       "org": null,
@@ -2092,20 +2131,20 @@
       "benchmark": "design-arena-gamedev",
       "model": "mercury-2",
       "model_raw": "mercury-2",
-      "score": 979.0,
+      "score": 976.0,
       "ci": null,
       "effort": null,
       "org": null,
       "release_date": null,
       "notes": [
-        "5073 blind votes, 18.4% win rate"
+        "5328 blind votes, 18.3% win rate"
       ]
     },
     {
       "benchmark": "design-arena-gamedev",
       "model": "gpt-4-1-nano",
       "model_raw": "gpt-4.1-nano",
-      "score": 969.0,
+      "score": 966.0,
       "ci": null,
       "effort": null,
       "org": null,
@@ -2118,7 +2157,7 @@
       "benchmark": "design-arena-gamedev",
       "model": "codestral-2508",
       "model_raw": "codestral-2508",
-      "score": 966.0,
+      "score": 963.0,
       "ci": null,
       "effort": null,
       "org": null,
@@ -2131,7 +2170,7 @@
       "benchmark": "design-arena-gamedev",
       "model": "olmo-3-1-32b-think",
       "model_raw": "olmo-3.1-32b-think",
-      "score": 965.0,
+      "score": 962.0,
       "ci": null,
       "effort": null,
       "org": null,
@@ -2144,7 +2183,7 @@
       "benchmark": "design-arena-gamedev",
       "model": "qwen3-235b-a22b-thinking-2507",
       "model_raw": "qwen3-235B-a22B-thinking-2507",
-      "score": 956.0,
+      "score": 953.0,
       "ci": null,
       "effort": null,
       "org": null,
@@ -2157,7 +2196,7 @@
       "benchmark": "design-arena-gamedev",
       "model": "qwen3-235b-a22b-instruct-2507",
       "model_raw": "qwen3-235b-a22b-instruct-2507",
-      "score": 950.0,
+      "score": 947.0,
       "ci": null,
       "effort": null,
       "org": null,
@@ -2170,7 +2209,7 @@
       "benchmark": "design-arena-gamedev",
       "model": "grok-3-mini",
       "model_raw": "grok-3-mini",
-      "score": 949.0,
+      "score": 945.0,
       "ci": null,
       "effort": null,
       "org": null,
@@ -2183,7 +2222,7 @@
       "benchmark": "design-arena-gamedev",
       "model": "ministral-3b-2512",
       "model_raw": "ministral-3b-2512",
-      "score": 947.0,
+      "score": 944.0,
       "ci": null,
       "effort": null,
       "org": null,
@@ -2196,7 +2235,7 @@
       "benchmark": "design-arena-gamedev",
       "model": "magistral-small-2509",
       "model_raw": "magistral-small-2509",
-      "score": 941.0,
+      "score": 937.0,
       "ci": null,
       "effort": null,
       "org": null,
@@ -2209,7 +2248,7 @@
       "benchmark": "design-arena-gamedev",
       "model": "qwen3-235b-a22b",
       "model_raw": "qwen3-235b-a22b",
-      "score": 926.0,
+      "score": 923.0,
       "ci": null,
       "effort": null,
       "org": null,
@@ -2222,7 +2261,7 @@
       "benchmark": "design-arena-gamedev",
       "model": "gpt-4o",
       "model_raw": "gpt-4o",
-      "score": 905.0,
+      "score": 902.0,
       "ci": null,
       "effort": null,
       "org": null,
@@ -2235,7 +2274,7 @@
       "benchmark": "design-arena-gamedev",
       "model": "qwen3-30b-a3b",
       "model_raw": "qwen3-30b-a3b",
-      "score": 897.0,
+      "score": 894.0,
       "ci": null,
       "effort": null,
       "org": null,
@@ -2248,7 +2287,7 @@
       "benchmark": "design-arena-gamedev",
       "model": "llama-3-1-nemotron-ultra-253b",
       "model_raw": "llama-3.1-nemotron-ultra-253b",
-      "score": 869.0,
+      "score": 865.0,
       "ci": null,
       "effort": null,
       "org": null,
@@ -2261,7 +2300,7 @@
       "benchmark": "design-arena-gamedev",
       "model": "llama-4-maverick",
       "model_raw": "llama-4-maverick",
-      "score": 837.0,
+      "score": 833.0,
       "ci": null,
       "effort": null,
       "org": null,
@@ -2274,7 +2313,7 @@
       "benchmark": "design-arena-gamedev",
       "model": "codestral-2-2501",
       "model_raw": "codestral-2-2501",
-      "score": 810.0,
+      "score": 807.0,
       "ci": null,
       "effort": null,
       "org": null,

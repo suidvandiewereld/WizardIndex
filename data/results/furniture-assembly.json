@@ -1,12 +1,38 @@
 {
   "benchmark": "furniture-assembly",
-  "fetched_at": "2026-10-29T07:59:00+00:00",
+  "fetched_at": "2026-11-09T16:13:54+00:00",
   "meta": {
     "url": "https://epoch.ai/benchmarks",
     "via": "https://epoch.ai/benchmarks",
     "credit": "Epoch AI, 'Capabilities & benchmarking', https://epoch.ai/benchmarks (CC BY 4.0)"
   },
   "results": [
+    {
+      "benchmark": "furniture-assembly",
+      "model": "kimi-k3-1-pro-together",
+      "model_raw": "kimi-k3.1-pro-together_max",
+      "score": 55.833,
+      "ci": 12.56,
+      "effort": "max",
+      "org": "Moonshot",
+      "release_date": "2026-10-23",
+      "notes": [
+        "via Epoch AI; source: Epoch AI evaluation"
+      ]
+    },
+    {
+      "benchmark": "furniture-assembly",
+      "model": "large-4-0-oss",
+      "model_raw": "mistral-large-4-0-oss_high",
+      "score": 30.833,
+      "ci": 11.67,
+      "effort": "high",
+      "org": "Mistral AI",
+      "release_date": "2026-10-29",
+      "notes": [
+        "via Epoch AI; source: Epoch AI evaluation"
+      ]
+    },
     {
       "benchmark": "furniture-assembly",
       "model": "gpt-6-1-terra",

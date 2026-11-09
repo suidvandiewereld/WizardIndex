@@ -1,12 +1,25 @@
 {
   "benchmark": "frontiermath",
-  "fetched_at": "2026-10-29T07:58:58+00:00",
+  "fetched_at": "2026-11-09T16:13:53+00:00",
   "meta": {
     "url": "https://epoch.ai/frontiermath",
     "via": "https://epoch.ai/benchmarks",
     "credit": "Epoch AI, 'Capabilities & benchmarking', https://epoch.ai/benchmarks (CC BY 4.0)"
   },
   "results": [
+    {
+      "benchmark": "frontiermath",
+      "model": "kimi-k3-1-pro-together",
+      "model_raw": "kimi-k3.1-pro-together_max",
+      "score": 78.246,
+      "ci": 4.8,
+      "effort": "max",
+      "org": "Moonshot",
+      "release_date": "2026-10-23",
+      "notes": [
+        "via Epoch AI; source: Epoch AI evaluation"
+      ]
+    },
     {
       "benchmark": "frontiermath",
       "model": "gpt-6-1-terra",

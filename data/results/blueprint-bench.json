@@ -1,6 +1,6 @@
 {
   "benchmark": "blueprint-bench",
-  "fetched_at": "2026-10-29T07:59:00+00:00",
+  "fetched_at": "2026-11-09T16:13:54+00:00",
   "meta": {
     "url": "https://andonlabs.com/evals/blueprint-bench-2",
     "via": "https://epoch.ai/benchmarks",
@@ -445,6 +445,19 @@
       "effort": "unknown",
       "org": "Google DeepMind",
       "release_date": "2026-10-28",
+      "notes": [
+        "via Epoch AI; source: https://andonlabs.com/evals/blueprint-bench-2"
+      ]
+    },
+    {
+      "benchmark": "blueprint-bench",
+      "model": "gpt-6-1-terra",
+      "model_raw": "GPT-6.1 Terra",
+      "score": 42.082,
+      "ci": null,
+      "effort": "unknown",
+      "org": "OpenAI",
+      "release_date": "2026-10-26",
       "notes": [
         "via Epoch AI; source: https://andonlabs.com/evals/blueprint-bench-2"
       ]

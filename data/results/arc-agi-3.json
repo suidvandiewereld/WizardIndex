@@ -1,6 +1,6 @@
 {
   "benchmark": "arc-agi-3",
-  "fetched_at": "2026-10-29T07:59:00+00:00",
+  "fetched_at": "2026-11-09T16:13:54+00:00",
   "meta": {
     "url": "https://arcprize.org/leaderboard",
     "dataset": "v3_Semi_Private"
@@ -1412,6 +1412,32 @@
       "release_date": "2026-10-15",
       "notes": [
         "Evaluation conducted with 'xhigh' reasoning effort using the provider adapter harness."
+      ]
+    },
+    {
+      "benchmark": "arc-agi-3",
+      "model": "deepseek-v4-1-flash-1017",
+      "model_raw": "DeepSeek V4.1 Flash 1017 (Max)",
+      "score": 0.22,
+      "ci": null,
+      "effort": "max",
+      "org": "DeepSeek",
+      "release_date": "2026-10-17",
+      "notes": [
+        "Evaluation conducted with 'max' reasoning effort using the standard harness."
+      ]
+    },
+    {
+      "benchmark": "arc-agi-3",
+      "model": "deepseek-v4-1-flash-1017",
+      "model_raw": "DeepSeek V4.1 Flash 1017 - Provider Adapter (Max)",
+      "score": 5.808,
+      "ci": null,
+      "effort": "max",
+      "org": "DeepSeek",
+      "release_date": "2026-10-17",
+      "notes": [
+        "Evaluation conducted with 'max' reasoning effort using the provider adapter harness."
       ]
     }
   ]

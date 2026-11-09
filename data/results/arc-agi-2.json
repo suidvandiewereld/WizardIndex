@@ -1,6 +1,6 @@
 {
   "benchmark": "arc-agi-2",
-  "fetched_at": "2026-10-29T07:58:58+00:00",
+  "fetched_at": "2026-11-09T16:13:53+00:00",
   "meta": {
     "url": "https://arcprize.org/leaderboard",
     "dataset": "v2_Semi_Private"
@@ -768,7 +768,7 @@
     {
       "benchmark": "arc-agi-2",
       "model": "grok-4",
-      "model_raw": "Grok 4 (Refine.)",
+      "model_raw": "Grok 4 (Refinement)",
       "score": 29.44,
       "ci": null,
       "effort": null,
@@ -1032,7 +1032,7 @@
     {
       "benchmark": "arc-agi-2",
       "model": "gemini-3-pro",
-      "model_raw": "Gemini 3 Pro (Refine.)",
+      "model_raw": "Gemini 3 Pro (Refinement)",
       "score": 54.0,
       "ci": null,
       "effort": null,
@@ -1175,7 +1175,7 @@
     {
       "benchmark": "arc-agi-2",
       "model": "gpt-5-2",
-      "model_raw": "GPT-5.2 (Refine.)",
+      "model_raw": "GPT-5.2 (Refinement)",
       "score": 72.9,
       "ci": null,
       "effort": null,
@@ -3458,6 +3458,19 @@
       "release_date": "2026-10-15",
       "notes": [
         "Evaluation conducted with 'low' reasoning effort using the standard harness."
+      ]
+    },
+    {
+      "benchmark": "arc-agi-2",
+      "model": "inkling-2-small",
+      "model_raw": "Inkling 2 Small (XHigh)",
+      "score": 81.667,
+      "ci": null,
+      "effort": "xhigh",
+      "org": "Thinking Machines",
+      "release_date": "2026-11-05",
+      "notes": [
+        "Evaluation conducted with 'xhigh' reasoning effort using the standard harness."
       ]
     }
   ]

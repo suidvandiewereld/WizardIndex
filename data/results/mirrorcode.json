@@ -1,6 +1,6 @@
 {
   "benchmark": "mirrorcode",
-  "fetched_at": "2026-10-29T07:58:29+00:00",
+  "fetched_at": "2026-11-09T16:13:46+00:00",
   "meta": {
     "url": "https://epoch.ai/benchmarks",
     "via": "https://epoch.ai/benchmarks",
@@ -88,10 +88,10 @@
     {
       "benchmark": "mirrorcode",
       "model": "opus-5-5",
-      "model_raw": "claude-opus-5-5_max",
-      "score": 77.4,
-      "ci": 16.29,
-      "effort": "max",
+      "model_raw": "claude-opus-5-5_high",
+      "score": 78.89,
+      "ci": 15.44,
+      "effort": "high",
       "org": "Anthropic",
       "release_date": "2026-09-22",
       "notes": [

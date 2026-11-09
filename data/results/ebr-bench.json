@@ -1,12 +1,25 @@
 {
   "benchmark": "ebr-bench",
-  "fetched_at": "2026-10-29T09:48:03+00:00",
+  "fetched_at": "2026-11-09T16:13:54+00:00",
   "meta": {
     "url": "https://epoch.ai/benchmarks/ebr-bench",
     "via": "https://epoch.ai/benchmarks",
     "credit": "Epoch AI, 'Capabilities & benchmarking', https://epoch.ai/benchmarks (CC BY 4.0)"
   },
   "results": [
+    {
+      "benchmark": "ebr-bench",
+      "model": "large-4-0-oss",
+      "model_raw": "mistral-large-4-0-oss_high",
+      "score": 18.095,
+      "ci": 6.19,
+      "effort": "high",
+      "org": "Mistral AI",
+      "release_date": "2026-10-29",
+      "notes": [
+        "via Epoch AI; source: Epoch AI evaluation"
+      ]
+    },
     {
       "benchmark": "ebr-bench",
       "model": "gpt-6-1-terra",
